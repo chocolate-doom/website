@@ -2,7 +2,7 @@ A [[Doom:Turning resolution is lowered when recording demos|limitation]] of the 
 
 A solution to this problem was developed under DOS in the form of a binary patch which can be applied to the Doom executable.  This changes the demo format but removes the degradation in resolution.
 
-Chocolate Doom supports playback of demos in this format, and also supports recording them.  To record a demo in ''Doom 1.9'' demo format, use the "''-longtics''" command-line parameter.  For example, to record a demo named "icecream.lmp" in this format:
+Chocolate Doom supports playback of demos in this format, and also supports recording them.  To record a demo in ''Doom 1.91'' demo format, use the "''-longtics''" command-line parameter.  For example, to record a demo named "icecream.lmp" in this format:
 
  chocolate-doom -longtics -record icecream
 
