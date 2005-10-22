@@ -5,6 +5,6 @@ Chocolate Doom retains Vanilla Doom's behavior when loading PWADs using the "''-
 
 As an example, to load the WAD needed for Alien Doom:
 
- chocolate-doom -merge alitcsf.wad -file alitcsnd.wad alitcwad.wad -deh atcud19.deh
+ chocolate-doom '''-merge alitcsf.wad''' -file alitcsnd.wad alitcwad.wad -deh atcud19.deh
 
 [[Category:Features]]
