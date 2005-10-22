@@ -1,0 +1,1 @@
+Screenshot of Chocolate Doom playing under Linux.
