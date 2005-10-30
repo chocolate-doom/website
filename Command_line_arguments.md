@@ -1,5 +1,6 @@
 Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line arguments|command line arguments]].  However, several others have also been added:
 
+; -gameversion <version> : Specifies a version of [[doom:Doom 1.9|Doom 1.9]] to emulate.  See [[Compatibility]].
 ;  -iwad <file> : Specifies an IWAD file to use.
 ;  -longtics :  When recording demos, records in the the modified [[Doom 1.91 demo format]] to avoid losing turning resolution.
 ;  -merge <file> : Loads a PWAD but simulates merging it into the main IWAD (see [[WAD merging capability]]).
