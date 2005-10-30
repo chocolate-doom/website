@@ -12,6 +12,6 @@ Chocolate Doom has built in dehacked support which allows it to play a number of
 
 == WADs ==
 
-[[Image:Chocolate-uac_dead.png]]
+[[Image:Chocolate-uac_dead.png|320px]]
 
 Chocolate Doom's [[compatibility]] allows some old levels such as [[Doomsday of UAC]] to be played.
