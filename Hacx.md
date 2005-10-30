@@ -1,4 +1,4 @@
-[[Image:Chocolate-hacx.png|right|thumb]]
+[[Image:Chocolate-hacx.png|right|thumb|HACX running under Chocolate Doom]]
 The following are instruction on how to play [[doom:Hacx|HACX]] under Chocolate Doom.
 
 # First, obtain a copy of HACX.  This can be found [http://www.sonic.net/~nostromo/hacx/Hacx.html here] for free download.
