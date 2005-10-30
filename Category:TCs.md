@@ -1,0 +1,1 @@
+Instructions on how to play various TCs under Chocolate Doom.
