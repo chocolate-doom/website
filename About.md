@@ -12,7 +12,7 @@ There are a number of reasons for having a port which behaves like the DOS versi
 Chocolate Doom aims for [[compatibility]] with:
 
 * v1.9 demos
-* v1.9 savegames
+* v1.9 [[Savegame compatibility|savegames]]
 * v1.9 configuration file
 * v1.9 bugs (including VPO, etc)
 * [[Dehacked]] mods
