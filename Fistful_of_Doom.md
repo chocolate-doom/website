@@ -1,4 +1,4 @@
-[[Image:Fistful-of-doom.png|right|thumb]]
+[[Image:Fistful-of-doom.png|right|thumb|Fistful of Doom playing under Chocolate Doom.]]
 '''Fistful of Doom''' is a wild west themed Doom TC. To play under Chocolate Doom:
 
 # Download [http://www.doomworld.com/idgames/index.php?id=7654 fistful3.zip] and extract.
