@@ -6,7 +6,7 @@ Chocolate Doom supports multiple Operating Systems, including [[Wikipedia:Linux|
 
 == TCs ==
 
-[[Image:Chocolate-batman-doom.png]] [[Image:Chocolate-aod-doom.png]] [[Image:Chocolate-aliens-doom.png]] [[Image:Chocolate-hacx.png|330px]] [[Image:Chocolate-eternal-doom.png|330px]]
+[[Image:Chocolate-batman-doom.png]] [[Image:Chocolate-aod-doom.png]] [[Image:Chocolate-aliens-doom.png]] [[Image:Chocolate-hacx.png|330px]] [[Image:Chocolate-eternal-doom.png|330px]] [[Image:Fistful-of-doom.png]]
 
 Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
 
