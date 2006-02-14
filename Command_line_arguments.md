@@ -4,6 +4,9 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ;  -iwad <file> : Specifies an IWAD file to use.
 ;  -longtics :  When recording demos, records in the the modified [[Doom 1.91 demo format]] to avoid losing turning resolution.
 ;  -merge <file> : Loads a PWAD but simulates merging it into the main IWAD (see [[WAD merging capability]]).
+;  -af <file> : Add flats from the given PWAD into the main IWAD directory, in the same way as [[doom:NWT|NWT]]'s "-af" command-line option (see [[WAD merging capability]]).
+;  -as <file> : Add sprites from the given PWAD into the main IWAD directory, in the same way as [[doom:NWT|NWT]]'s "-as" command-line option (see [[WAD merging capability]]).
+;  -aa <file> : Add sprites ''and'' flats from the given PWAD into the main IWAD directory (equivalent to <code>-af file -as file</code>).
 ; -deh <file>: Loads the specified file as a [[Dehacked]] file.
 
 == Configuration file related ==
