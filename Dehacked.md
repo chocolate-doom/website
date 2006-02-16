@@ -5,4 +5,6 @@ To load a dehacked patch, use the ''"-deh"'' command-line parameter.  For exampl
 
  chocolate-doom -deh suprwep8.deh
 
+Chocolate Doom's dehacked support is entirely new code.  It is closer in behavior to the original dehacked than the dehacked engines in other ports.
+
 [[Category:Features]]
