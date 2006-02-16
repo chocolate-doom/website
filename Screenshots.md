@@ -16,6 +16,7 @@ Image:Chocolate-eternal-doom.png|[[Eternal Doom]]
 Image:Fistful-of-doom.png|[[Fistful of Doom]]
 Image:Chocolate-hacx.png|[[Hacx]]
 Image:Chocolate-mordeth.png|[[Mordeth]]
+Image:Chocolate-strain.png|[[STRAIN]]
 </gallery>
 
 == WADs ==
