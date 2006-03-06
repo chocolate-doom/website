@@ -1,1 +1,1 @@
-[[ENDOOM]] screen from Memento Mori 2. {{screenshots}}
+[[ENDOOM]] screen from Memento Mori 2. {{screenshot}}
