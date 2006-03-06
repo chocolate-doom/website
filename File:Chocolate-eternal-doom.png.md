@@ -1,1 +1,2 @@
 [[Doom:Eternal Doom|Eternal Doom]] playing under Chocolate Doom.
+{{screenshot}}
