@@ -1,1 +1,1 @@
-[[Doom:Aliens TC|Aliens TC]] playing under Chocolate Doom.
+[[Doom:Aliens TC|Aliens TC]] playing under Chocolate Doom. {{screenshot}}
