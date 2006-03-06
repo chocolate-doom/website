@@ -1,1 +1,1 @@
-[[STRAIN]] running under Chocolate Doom. {{screenshots}}
+[[STRAIN]] running under Chocolate Doom. {{screenshot}}
