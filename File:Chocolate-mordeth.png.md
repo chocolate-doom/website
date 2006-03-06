@@ -1,1 +1,1 @@
-[[Mordeth]] running under Chocolate Doom. {{screenshots}}
+[[Mordeth]] running under Chocolate Doom. {{screenshot}}
