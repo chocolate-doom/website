@@ -19,4 +19,8 @@ Some mods (such as [[Mordeth]]) use ''[[Doom:NWT|NWT]]''.  In this case, there a
 ; -as <file> : Merges sprites from the given PWAD
 ; -aa <file> : Merges all flats and sprites from the given PWAD.
 
+== See also ==
+
+* [[WAD merging (technical)]] - in depth information on how the WAD merging methods operate.
+
 [[Category:Features]]
