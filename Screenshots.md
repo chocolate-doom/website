@@ -1,8 +1,12 @@
 == Multiplatform ==
 
-[[Image:Chocolate-doom.png]] [[Image:chocowindows.png]]
+Chocolate Doom supports multiple Operating Systems:
 
-Chocolate Doom supports multiple Operating Systems, including [[Wikipedia:Linux|Linux]] and [[Wikipedia:Microsoft Windows|Microsoft Windows]].
+<gallery>
+Image:Chocolate-doom.png|[[Wikipedia:Linux|GNU/Linux]]
+Image:chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]]
+Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
+</gallery>
 
 == TCs ==
 
