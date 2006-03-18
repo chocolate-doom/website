@@ -16,6 +16,10 @@ There are two main approaches to building chocolate edoom on MAC OS X:
 
 
 * http://www.libsdl.org/release/SDL-1.2.9.dmg
+* http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.6.dmg
+* http://www.libsdl.org/projects/SDL_net/release/SDL_net-1.2.5.pkg.tar.gz
+
+
 * or, build it yourself?
 
 == via fink ==
