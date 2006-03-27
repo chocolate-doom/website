@@ -6,6 +6,7 @@ Chocolate Doom supports multiple Operating Systems:
 Image:Chocolate-doom.png|[[Wikipedia:Linux|GNU/Linux]]
 Image:chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]]
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
+Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 </gallery>
 
 == TCs ==
