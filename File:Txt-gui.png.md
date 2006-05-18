@@ -1,0 +1,1 @@
+Screenshot of the initial text mode GUI code in action.
