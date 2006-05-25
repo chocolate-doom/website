@@ -16,3 +16,7 @@ Chocolate Doom aims for [[compatibility]] with:
 * v1.9 configuration file
 * v1.9 bugs (including VPO, etc)
 * [[Dehacked]] mods
+
+== Author ==
+
+Chocolate Doom is written by [[doom:Simon "Fraggle" Howard|fraggle]], with extensive help from other many other people who have provided patches, bug reports and suggestions.
