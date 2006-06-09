@@ -1,21 +1,9 @@
-Brand information for the makers of tea and iced tea beverages. Includes recipes,
-tea history and development, glossary, and answers to frequently asked questions
-* [http://www.teainfo.org/ tea] 
-* [http://www.teainfo.org/tea-bag.php tea bag]
-* [http://www.teainfo.org/tea-gardner.php Tea Gardner]
-* [http://www.teainfo.org/green-tea.php green tea]
-* [http://www.teainfo.org/herbal-teas.php herbal teas]
-* [http://www.pizzaguide.org/ pizza]
-* [http://www.pizzaguide.org/pizza-dough.php pizza dough]
-* [http://www.pizzaguide.org/italian-pizza.php italian pizza]
-* [http://www.pizzaguide.org papa johns pizza]
-* [http://www.coffee-guide.us/ coffee]
-* [http://www.coffee-guide.us/gourmet-coffee.php gourmet coffee]
-* [http://www.coffee-guide.us/coffee-makers.php coffee makers]
-* [http://www.coffee-guide.us/coffee-tables.php coffee tables]
-* [http://www.coffee-guide.us/organic-coffee.php organic coffee]
-* [http://www.chocolateplanet.org Chocolate]
-* [http://www.chocolateplanet.org chocolate factory]
-* [http://www.chocolateplanet.org chocolate candy]
-* [http://www.chocolateplanet.org charlie and chocolate factory]
-* [http://www.chocolateplanet.org chocolate chips]
+[[Image:chocolate-mordeth.png|330px|right|thumb|Mordeth TC running in Chocolate Doom.]]
+'''Mordeth''' is a TC by Gaston Lahaut.  To run it under Chocolate Doom:
+
+# [http://www.doomworld.com/idgames/index.php?id=7694 Download] the Mordeth TC and extract the ZIP file.
+# Run Chocolate Doom with these options:
+
+ chocolate-doom -aa MORGRAP0.WAD -file MORDETH.WAD -deh MORDETH.DEH
+
+[[Category:TCs]]
