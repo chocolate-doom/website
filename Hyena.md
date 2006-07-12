@@ -1,5 +1,5 @@
 [[Image:Hyena.png|right|thumb|Hyena running under Chocolate Doom.]]
-'''Hyena''' is a Doom TC featuring a theme set in the distant future. To play under Chocolate Doom:
+'''Hyena''' is a Doom TC featuring a storyline set in the distant future. To play under Chocolate Doom:
 
 # Download [http://www.doomworld.com/idgames/index.php?id=11786 hyena.zip] and extract.
 # Run with the following command line parameters:
