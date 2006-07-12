@@ -1,1 +1,1 @@
-Hyena running under Chocolate Doom. {{screenshots}}
+[[Hyena]] running under Chocolate Doom. {{screenshots}}
