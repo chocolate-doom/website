@@ -1,4 +1,4 @@
-Obituary is a [[TC]] by The Innocent Crew.  
+'''Obituary''' is a [[TC]] by The Innocent Crew.  
 
 Loading Obituary is unusual because it uses NWT rather than DEUSF.  To play Obituary:
 
