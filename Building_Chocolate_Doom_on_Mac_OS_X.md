@@ -5,7 +5,9 @@ First, install Apple's Xcode development environment, which can be found [http:/
 
 There is a script which will automatically build Chocolate Doom and all its' prerequisites. To run the script, open a Terminal and type:
 
+<pre>
  curl http://www.chocolate-doom.org/build-chocolate-doom | sh
+</pre>
 
 Chocolate Doom will be built in your home folder in ~/chocolate-doom.  Copy a Doom IWAD file (doom.wad, doom1.wad, doom2.wad, tnt.wad or plutonia.wad), then type:
 
