@@ -1,27 +1,13 @@
-(work in progress)
+[[Image:Chocolate Doom MacOSX.png|right|thumb|Chocolate Doom running on OSX]]
+The latest development versions of Chocolate Doom now run on [[Wikipedia:MacOS X|MacOS X]] (although there has not yet been an OS X release).  To build, follow these steps. 
 
-There are two main approaches to building chocolate edoom on MAC OS X:
+First, install Apple's Xcode development environment, which can be found [http://developer.apple.com/tools/xcode/ here] (you will need to register for the Apple site to download this).  This is necessary as it includes a copy of the compiler and libraries needed to build Chocolate Doom.
 
-* using apple's development stuff
-* using fink
+There is a script which will automatically build Chocolate Doom and all its' prerequisites. To run the script, open a Terminal and type:
 
+ curl http://www.chocolate-doom.org/build-chocolate-doom | sh
 
+Chocolate Doom will be built in your home folder in ~/chocolate-doom.  Copy a Doom IWAD file (doom.wad, doom1.wad, doom2.wad, tnt.wad or plutonia.wad), then type:
 
-== via Apple's development tools ==
-
-* get ahold of a compiler via xcode 2.2. Yes, that's a mandatory 800MB download just to get a compiler.
-
-
-=== SDL ===
-
-
-* http://www.libsdl.org/release/SDL-1.2.9.dmg
-* http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.6.dmg
-* http://www.libsdl.org/projects/SDL_net/release/SDL_net-1.2.5.pkg.tar.gz
-
-
-* or, build it yourself?
-
-== via fink ==
-
-Fink appears to be pretty unreliable. Also right now it seems it has SDL and SDL mixer but not SDL net which is mandatory for CD ?
+ cd ~/chocolate-doom
+ ./chocolate-doom
