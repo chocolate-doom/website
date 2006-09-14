@@ -2,7 +2,7 @@ Doomwire is a multiplayer lobby program for Chocolate Doom created by Russell Ri
 
 Originally designed for [[doom:ZDoom|ZDoom]], it has now been reoriented around Chocolate Doom because of the author's craving for oldschool deathmatch and cooperative play.
 
-You can play Doomwire by downloading the installer version or if you prefer the manual approach, seperate Doomwire and (unofficial) Chocolate-Doom packages available at the website.
+You can play Doomwire by downloading the installer or if you prefer the manual approach, separate Doomwire and (unofficial) Chocolate Doom packages available at the website.
 
 == Links ==
 
