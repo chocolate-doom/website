@@ -2,7 +2,9 @@ Even if you are not a programmer, you can help out by contributing to the Chocol
 
 == TC instructions ==
 
-One aim of this site is to add instructions on how to play [[:Category:TCs|TCs]] under Chocolate Doom.  You can help by adding pages for TCs which have not yet been documented.  
+One aim of this site is to add instructions on how to play [[:Category:TCs|TCs]] under Chocolate Doom.  You can help by adding pages for TCs which have not yet been documented.
+
+A list of well-known TCs can be found [[doom:List of WADs|here]].  Be sure to only try those listed as "Vanilla Doom" in the "Engine" column.
 
 == Other information ==
 
