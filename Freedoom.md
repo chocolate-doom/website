@@ -1,7 +1,7 @@
 [[Image:chocolate-eternal-freedoom.png|thumb|right|Chocolate Doom running [[Eternal Doom]] with Freedoom.]]
 '''Freedoom''' is a [[doom:Freedoom|Free IWAD file]] that can be used to play Doom without buying a copy of Doom.  However, it requires a Boom-compatible engine to run.  Because Chocolate Doom is only compatible with [[doom:Vanilla Doom|Vanilla Doom]], Freedoom does not run properly with Chocolate Doom.
 
-However, Chocolate Doom can still be made to run with Freedoom.  The only incompatibility between the two is that the levels distributed with Freedoom are not compatible.  Because of this, Freedoom will run without problems provided that replacement levels are always loaded.
+However, Chocolate Doom can still be made to run with Freedoom.  The only incompatibility between the two is that the levels distributed with Freedoom do not run.  Because of this, Freedoom will run without problems provided that replacement levels are always loaded.
 
 Simple instructions:
 # Download and extract Chocolate Doom.
