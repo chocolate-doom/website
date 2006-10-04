@@ -15,9 +15,13 @@ As an example, to load the WAD needed for [[Aliens TC]]:
 
 Some mods (such as [[Mordeth]]) use ''[[Doom:NWT|NWT]]''.  In this case, there are three command line options:
 
-; -af <file> : Merges flats from the given PWAD
-; -as <file> : Merges sprites from the given PWAD
-; -aa <file> : Merges all flats and sprites from the given PWAD.
+; -af <file> : Merges flats from the given PWAD.  Equivalent to ''nwt -af <file>''.
+; -as <file> : Merges sprites from the given PWAD.  Equivalent to ''nwt -as <file>''.
+; -aa <file> : Merges all flats and sprites from the given PWAD.  Equivalent to ''nwt -af <file> -as <file>''.
+
+<!--
+; -nwtmerge <file> : Remove sprites from the IWAD that exist in the given PWAD.  Equivalent to ''nwt -merge <file>''.
+-->
 
 == See also ==
 
