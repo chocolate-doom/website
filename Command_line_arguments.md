@@ -8,7 +8,21 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ;  -as <file> : Add sprites from the given PWAD into the main IWAD directory, in the same way as [[doom:NWT|NWT]]'s "-as" command-line option (see [[WAD merging capability]]).
 ;  -aa <file> : Add sprites ''and'' flats from the given PWAD into the main IWAD directory (equivalent to <code>-af file -as file</code>).
 ; -deh <file>: Loads the specified file as a [[Dehacked]] file.
+<!--
+; -nwtmerge <file> : Add sprites from the given PWAD in the same way as NWT's "-merge" command-line option.
 
+== Multiplayer ==
+
+; -connect <address> : Connect to a server at the specified IP address.
+; -server : Start a normal server, waiting for other players to connect.
+; -port <n> : Listen on the given UDP port instead of the default (4815).  Only applies when running as a server.
+; -dedicated : Start a dedicated server.
+; -autojoin : Search a local LAN for a server and join automatically.
+; -left : Connect as a drone showing a view 90 degrees to the left, for [[three screen mode]].
+; -right : Connect as a drone showing a view 90 degrees to the right, for [[three screen mode]].
+; -query <address> : Query the status of a server running on the given IP address.
+; -search : Search the local LAN for servers.
+-->
 == Configuration file related ==
 
 ;  -extraconfig <file> : Specifies a [[Configuring|configuration file]] to use for Chocolate Doom-specific settings (the default is 'chocolate-doom.cfg')
