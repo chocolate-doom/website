@@ -10,7 +10,9 @@ The way to install these differs according to your distribution.  On many system
 
 From this point, there is a simple script that will build Chocolate Doom and its' dependencies automatically.  Simply type:
 
+<pre>
  wget http://www.chocolate-doom.org/build-chocolate-doom -O - | sh
+</pre>
 
 Chocolate Doom will be built in your home directory in ~/chocolate-doom.  Copy a Doom IWAD file here (doom.wad, doom1.wad, doom2.wad, tnt.wad or plutonia.wad), then type:
 
