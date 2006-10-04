@@ -18,3 +18,7 @@ Chocolate Doom will be built in your home directory in ~/chocolate-doom.  Copy a
 
  cd ~/chocolate-doom
  ./chocolate-doom
+
+== BSD and other Unix systems ==
+
+The above instructions should also work on FreeBSD, OpenBSD, NetBSD and other Unix systems.  If you succeed in getting Chocolate Doom running on a new system, please add a screenshot to the [[Screenshots]] page.  If you have trouble, feel free to join [irc://irc.oftc.net/chocolate-doom #chocolate-doom] on IRC to ask for help.
