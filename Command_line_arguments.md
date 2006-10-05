@@ -15,7 +15,7 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 
 ; -connect <address> : Connect to a server at the specified IP address.
 ; -server : Start a normal server, waiting for other players to connect.
-; -port <n> : Listen on the given UDP port instead of the default (4815).  Only applies when running as a server.
+; -port <n> : Listen on the given UDP port instead of the default (2342).  Only applies when running as a server.
 ; -dedicated : Start a dedicated server.
 ; -autojoin : Search a local LAN for a server and join automatically.
 ; -left : Connect as a drone showing a view 90 degrees to the left, for [[three screen mode]].
