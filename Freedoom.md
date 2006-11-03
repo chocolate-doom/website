@@ -6,7 +6,7 @@ However, Chocolate Doom can still be made to run with Freedoom.  The only incomp
 Simple instructions:
 # Download and extract Chocolate Doom.
 # Download and extract Freedoom, and copy the doom2.wad file into the Chocolate Doom folder.
-# Find a megawad or TC, that replaces all 32 levels of DooM2 (Map01 - Map32) and load it in the normal way with the ''-file'' parameter.  For example:
+# Find a megawad or TC, that replaces all 32 levels of DooM2 (Map01 - Map32), and load it in the normal way with the ''-file'' parameter.  For example:
 
  chocolate-doom -file ''filename.wad''
 
