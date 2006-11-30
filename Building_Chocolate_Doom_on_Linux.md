@@ -1,12 +1,32 @@
 [[Image:Chocolate-doom.png|right|thumb|Chocolate Doom on Linux]]
 
-Building Chocolate Doom on Linux is fairly straightforward.  The following need to be installed before it can be compiled:
+Building Chocolate Doom on Linux is fairly straightforward.  
+
+== Setting up a build environment ==
+
+Before Chocolate Doom can be built, a working build environment needs to be set up.  The following packages need to be installed:
 
 # gcc, the GNU C Compiler
 # wget
 # Development libraries for the X Window system - may be called 'libx11-dev', 'x-devel' or similar.
 
 The way to install these differs according to your distribution.  On many systems these are standard components that are installed by default when you install the system.  If not, you should install them using the package system for your distribution.
+
+=== Ubuntu/Debian ===
+
+Type the following command:
+
+ sudo apt-get build-dep libsdl1.2
+
+=== Gentoo ===
+
+As everything Gentoo is compiled, a complete build environment is already present.  You can skip this step.
+
+=== Fedora Core ===
+
+=== SuSE ===
+
+== Building Chocolate Doom ==
 
 From this point, there is a simple script that will build Chocolate Doom and its' dependencies automatically.  Simply type:
 
