@@ -1,0 +1,1 @@
+Screenshot of the aspect ratio correction code in action.  The window is vertically stretched to Doom's correct aspect ratio.
