@@ -38,3 +38,6 @@ The following override settings in the Chocolate Doom configuration file.  When 
 ;  -nograbmouse        : Does not grab the mouse during play
 ;  -novert             : Turns on novert
 ;  -nonovert           : Turns off novert
+
+== See also ==
+[http://www.chocolate-doom.org/CMDLINE Comprehensive list of Chocolate Doom command line arguments]
