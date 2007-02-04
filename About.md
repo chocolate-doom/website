@@ -3,7 +3,7 @@ Almost all modern Doom [[Doom:Category:Source ports|source ports]] change the ga
 There are a number of reasons for having a port which behaves like the DOS version:
 
 * '''Just Doom. No more. No less.'''   With all the flashy features that have been added to modern ports, it's easy to forget the original.  
-* '''DOS is dead'''. DOS Doom does not run properly under modern Operating Systems (Windows XP, Linux, etc).  With hardware and software support for DOS fading away, it's hard to see a future where it's possible to play the original. Chocolate Doom is a workalike that replaces that lost functionality.
+* '''DOS is dead'''. DOS Doom does not run properly under modern Operating Systems (Windows XP/Vista, Linux, MacOS X, etc).  With hardware and software support for DOS fading away, it's hard to see a future where it's possible to play the original.  [[doom:Doom95|The official Windows port]] has serious bugs.  Chocolate Doom is a more accurate port that runs correctly on Windows and [[Screenshots|other operating systems]].
 * '''Demo compatibility.''' The majority of demos are recorded for the original DOS Doom. Few ports maintain demo compatibility. [[Doom:Compet-N|Compet-N]] only accepts demos recorded under the original executables.
 * '''Testing'''. Releasing a WAD "for [[Doom:Vanilla Doom|Vanilla Doom]]" means that it will work on all ports.  As Chocolate Doom behaves like Vanilla, it allows WAD files to be tested without the need for a separate DOS install.
 
