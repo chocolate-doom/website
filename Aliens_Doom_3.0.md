@@ -1,4 +1,6 @@
-[[Image:AD3BETA7.PNG]]|Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom]]
+[[Image:AD3BETA7.PNG]]]
+
+[[Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom]]
 
 These are instructions on how to play [[doom:Aliens Doom 3 (Beta 0.7) TC|Aliens Doom 3 (Beta 0.7) TC]] under Chocolate Doom.
 
