@@ -1,6 +1,6 @@
 [[Image:AD3BETA7.PNG]]]
 
-[[Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom]]
+Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
 
 These are instructions on how to play [http://www.doomworld.com/idgames/index.php?id=5254 Aliens Doom 3 (Beta 0.7) TC|Aliens Doom 3 (Beta 0.7) TC]] under Chocolate Doom.
 
