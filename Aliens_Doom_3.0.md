@@ -6,6 +6,6 @@ These are instructions on how to play [[doom:Aliens Doom 3 (Beta 0.7) TC|Aliens 
 # Extract the zip archive. 
 # Run with the following [[command-line arguments]]:
 
-chocolate-doom -deh ad3.deh -merge ad3spfl.wad ad3spfl.wad -file ad3gfx.wad ad3snd.wad ad3mus.wad ad3lev.wad 
+ chocolate-doom -deh ad3.deh -merge ad3spfl.wad ad3gfx.wad ad3snd.wad ad3mus.wad ad3lev.wad 
 
 [[Category:TCs]]
