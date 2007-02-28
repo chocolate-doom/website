@@ -1,10 +1,8 @@
-[[Image:AD3BETA7.PNG]]]
+[[Image:AD3BETA7.PNG|thumb|right|Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
+]]]
+These are instructions on how to play the '''Aliens Doom 3 - Aliens versus Predator TC''' (Beta 0.7) under Chocolate Doom.
 
-Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
-
-These are instructions on how to play [http://www.doomworld.com/idgames/index.php?id=5254 Aliens Doom 3 - Aliens versus Predator (Beta 0.7) TC]] under Chocolate Doom.
-
-# Obtain a copy of the Aliens Doom 3 (Beta 0.7) TC [http://www.doomworld.com/idgames/index.php?id=5254 here(Only for Doom 1.9 and Ultimate Doom)].
+# Obtain a copy of the TC [http://www.doomworld.com/idgames/index.php?id=5254 here].
 # Download '''ad3beta7.zip''' from one of the mirror sites. 
 # Extract the zip archive. 
 # Run with the following [[command-line arguments]]:
