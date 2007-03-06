@@ -2,7 +2,7 @@
 ]]]
 These are instructions on how to play the '''Zombies TC ''' under Chocolate Doom.
 
-# Obtain a copy of the TC here: [http://www.doomworld.com/idgames/?id=8122].
+# Obtain a copy of the TC [http://www.doomworld.com/idgames/?id=8122 here].
 # Download '''zombies.zip''' from one of the mirror sites.
 # Extract the zip archive. 
 # Run with the following [[command-line arguments]]:
