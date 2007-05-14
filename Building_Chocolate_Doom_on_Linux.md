@@ -42,3 +42,7 @@ Chocolate Doom will be built in your home directory in ~/chocolate-doom.  Copy a
 == BSD and other Unix systems ==
 
 The above instructions should also work on FreeBSD, OpenBSD, NetBSD and other Unix systems.  If you succeed in getting Chocolate Doom running on a new system, please add a screenshot to the [[Screenshots]] page.  If you have trouble, feel free to join [irc://irc.oftc.net/chocolate-doom #chocolate-doom] on IRC to ask for help.
+
+== Common problems ==
+
+; MIDI music / lockups : Linux's native MIDI output is poor and can cause the game to lock up.  You can work around this by disabling music output in chocolate-setup.  It's possible to get decent MIDI output by installing Timidity.
