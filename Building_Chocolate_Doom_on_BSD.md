@@ -27,3 +27,6 @@ Unlike most Linux systems, OpenBSD does not have AUTOMAKE_VERSION or AUTOCONF_VE
 Also unlike most Linux systems, neither /usr/games nor /usr/local/games is set by the shell by default in OpenBSD. You can either add those paths to your $PATH automatically ($HOME/.kshrc, $HOME/.bash_profile, etc), or copy the binaries to /usr/bin or /usr/local/bin (your preference).
 
 Ideally, you should copy your IWADs to /usr/local/share/games/doom, as that would be the (default) directory Chocolate Doom will look for the files.
+
+=== TiMidity ===
+TiMidity would normally be the way to play the background music, however there is a known bug in SDL_mixer [http://bugzilla.libsdl.org/show_bug.cgi?id=118] that causes it to be unusable for all Doom source ports! If you need to have TiMidity installed, you can work around the problem by disabling music (sound effects still work, they're independent of TiMidity) in chocolate-setup.
