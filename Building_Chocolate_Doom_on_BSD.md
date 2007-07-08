@@ -20,8 +20,9 @@ Copying the source directory is not necessary, but it will keep your SVN tree cl
 Unlike most Linux systems, OpenBSD does not have AUTOMAKE_VERSION or AUTOCONF_VERSION automatically set (as it does not include autoconf or automake in the base system anyhow). These will need to be set first.
  export AUTOMAKE_VERSION=1.9 # Change to your native automake version
  export AUTOCONF_VERSION=2.61 # Change to your native autoconf version
- ./autogen.sh
-   # If you would like to install to any directory other than /usr/local, run `configure --prefix=/directory`
+ ./autogen.sh --mandir=/usr/local/man
+   # If you would like to install to any directory than /usr/local, add --prefix=/directory; change the mandir too
+   # By default OpenBSD does not check /usr/local/share/man, which is where it would normally install the manpage
  make
  sudo make install # Or use su, or run as root, or just `make install` if you're installing to $HOME
 Also unlike most Linux systems, neither /usr/games nor /usr/local/games is set by the shell by default in OpenBSD. You can either add those paths to your $PATH automatically ($HOME/.kshrc, $HOME/.bash_profile, etc), or copy the binaries to /usr/bin or /usr/local/bin (your preference).
