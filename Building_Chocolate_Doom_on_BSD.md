@@ -31,3 +31,4 @@ Ideally, you should copy your IWADs to /usr/local/share/games/doom, as that woul
 
 === TiMidity ===
 TiMidity would normally be the way to play the background music, however there is a known bug in SDL_mixer [http://bugzilla.libsdl.org/show_bug.cgi?id=118] that causes it to be unusable for all Doom source ports! If you need to have TiMidity installed, you can work around the problem by disabling music (sound effects still work, they're independent of TiMidity) in chocolate-setup.
+:UPDATE: The bug has now been fixed by libsdl, and the fixed version is now in [http://openbsd.org/faq/faq5.html#Flavors OpenBSD-current], but has not been backported to OpenBSD 4.0 or 4.1 (and will never be to earlier, unsupported, versions). If you run OpenBSD 4.1 or older, you will need to update SDL manually. See [http://www.libsdl.org] for details on compiling.
