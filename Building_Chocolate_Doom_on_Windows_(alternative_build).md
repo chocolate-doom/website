@@ -19,7 +19,7 @@ Installing Code::Blocks shouldn't be too hard, simply extract the program to wha
 
 It's recommended that you install the candidate files of MinGW, since they're newer. What also important is to install MinGW to the top of your drive (i.e. C:\MinGW), otherwise Code::Blocks may not detect it.
 
-In case you're going to compile a debug build of Chocolate Doom, the recommend debugger to use is GDB, which you can get [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=20507 here].
+In case you're going to compile a debug build of Chocolate Doom, the recommended debugger to use is GDB, which you can get [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=20507 here].
 
 == Installing the Development Libraries ==
 
