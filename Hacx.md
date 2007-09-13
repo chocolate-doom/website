@@ -6,6 +6,7 @@ The following are instructions on how to play [[doom:Hacx|HACX]] under Chocolate
 # You will need to provide the path to your Doom II install directory.
 # After the installer has completed, you will have a file named '''hacx.wad'''.  There is also a dehacked file '''hacx.deh''' included in the downloaded zip.
 # Run with the following commmand-line options:
- chocolate-doom -merge hacx.wad -deh hacx.deh
 
+
+ chocolate-doom -merge hacx.wad -deh hacx.deh
 [[Category:TCs]]
