@@ -1,4 +1,4 @@
-[[Image:Chocolate-aliens-doom.png|right|Aliens TC running in Chocolate Doom]]
+[[Image:Chocolate-aliens-doom.png|right|thumb|Aliens TC running in Chocolate Doom]]
 These are instructions on how to play [[doom:Aliens TC|Aliens TC]] under Chocolate Doom.
 
 # Obtain a copy of the [http://www.doomworld.com/idgames/index.php?id=5739 Ultimate Doom version] of the Aliens TC.
