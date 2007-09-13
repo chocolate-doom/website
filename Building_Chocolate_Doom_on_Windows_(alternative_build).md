@@ -20,7 +20,7 @@ In case you're going to compile a debug build of Chocolate Doom, the recommend d
 
 == Installing the Development Libraries ==
 
-After you get the development libraries of SDL, SDL_mixer and SDL_net, extract the files and copy the 'include', 'lib' and 'bin' folders to the top of your MinGW directory (i.e. C:\MinGW). That's it, you should now be ready to buid Chocolate Doom.
+After you get the development libraries of SDL, SDL_mixer and SDL_net, extract the files and copy the 'include', 'lib' and 'bin' folders to the top of your MinGW directory (i.e. C:\MinGW). That's it, you should now be ready to build Chocolate Doom.
 
 == Compiling Chocolate Doom ==
 
