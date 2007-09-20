@@ -35,4 +35,4 @@ In the source directory of Chocolate Doom, you will find the Code::Blocks files 
 
 After you open the workspace, you can select what type of build you want to create: Debug or Release. In case you're going to debug Chocolate Doom, you should compile a debug build (which is quite bigger than the release), otherwise, you can just compile a release build. In order to start building, click on '''Build''' -> '''Rebuild workspace'''.
 
-At end of the compilation process, you will find your fresh new Chocolate Doom build in the 'bin' folder at the top of the source directory. Copy your IWADs and launch Chocolate Doom. Happy Dooming!
+At the end of the compilation process, you will find your fresh new Chocolate Doom build in the 'bin' folder at the top of the source directory. Copy your IWADs and launch Chocolate Doom. Happy Dooming!
