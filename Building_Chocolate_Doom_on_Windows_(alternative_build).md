@@ -28,6 +28,6 @@ After you get the development libraries of SDL, SDL_mixer and SDL_net, extract t
 
 In the source directory of Chocolate Doom, you will find the Code::Blocks files in the 'codeblocks' folder, the workspace file is called 'chocolate-doom.workspace'.
 
-After you open the workspace, you can select what type of build you want to create: Debug or Release. In case you are going to debug Chocolate Doom, you should compile a debug build (which is quite a lot bigger than the release), otherwise, you can just compile a release build. In order to start building, click on '''Build''' -> '''Rebuild workspace'''.
+After you open the workspace, you can select what type of build you want to create: Debug or Release. In case you are going to debug Chocolate Doom, you should compile a debug build (which is quite a lot bigger than the release), otherwise, you can just compile a release build. In order to start building, click on '''Build''' and then '''Rebuild workspace'''.
 
 At the end of the compilation process, you will find your new Chocolate Doom build in the 'bin' folder at the top of the source directory.
