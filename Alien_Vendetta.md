@@ -1,5 +1,3 @@
-ouboclitrboc
-zellarel
 [[Image:Chocolate-av.png|thumb|right|Alien Vendetta running in Chocolate Doom.]]
 '''Alien Vendetta''' is a 32-level single player megawad for Vanilla Doom.
 
