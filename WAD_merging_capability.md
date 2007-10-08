@@ -1,4 +1,3 @@
-accnacoviou
 [[Image:Chocolate-aliens-doom.png|thumb|Traditionally, TCs like [[Doom:Aliens TC |Aliens TC]] required modification of the main WAD file]]
 [[Doom:Vanilla Doom|Vanilla Doom]] does not support loading modified sprites in [[Doom:PWAD|PWAD]] files.  As a result, most TCs were traditionally distributed in the form of a WAD file which had to be merged with the main [[Doom:IWAD|IWAD]] file.  This was usually done through an included program like "deusf" or "nwt".
 
