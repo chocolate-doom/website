@@ -1,4 +1,3 @@
-rictazeltrac
 [[Image:chocolate-strain.png|right|thumb|STRAIN running under Chocolate Doom.]]
 STRAIN is a 32-level TC by the Alpha Dog Alliance.  The following are instructions for running STRAIN under Chocolate Doom.
 
