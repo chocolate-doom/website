@@ -1,4 +1,3 @@
-aclizellielc
 Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line arguments|command line arguments]].  However, several others have also been added:
 
 ; -gameversion <version> : Specifies a version of [[doom:Doom 1.9|Doom 1.9]] to emulate.  See [[Compatibility]].
