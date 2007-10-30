@@ -1,3 +1,4 @@
+getsital
 [[Image:Chocolate Doom MacOSX.png|right|thumb|Chocolate Doom running on OSX]]
 The latest development versions of Chocolate Doom now run on [[Wikipedia:MacOS X|MacOS X]] (although there has not yet been an OS X release).  To build, follow these steps. 
 
