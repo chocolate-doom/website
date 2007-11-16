@@ -1,3 +1,4 @@
+rictrro
 [[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows]]
 
 == Getting the required programs ==
