@@ -1,3 +1,4 @@
+c4tdelchil
 Almost all modern Doom [[Doom:Category:Source ports|source ports]] change the game in some way.  In some cases, this is to fix bugs.  In others, it is to add new features or even change the behavior of the game.  Chocolate Doom is different, in that the focus is on creating a maintained version of Doom that looks, feels and behaves exactly like the original DOS version of Doom.
 
 There are a number of reasons for having a port which behaves like the DOS version:
