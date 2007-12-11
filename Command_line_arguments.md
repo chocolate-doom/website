@@ -8,7 +8,6 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ;  -as <file> : Add sprites from the given PWAD into the main IWAD directory, in the same way as [[doom:NWT|NWT]]'s "-as" command-line option (see [[WAD merging capability]]).
 ;  -aa <file> : Add sprites ''and'' flats from the given PWAD into the main IWAD directory (equivalent to <code>-af file -as file</code>).
 ; -deh <file>: Loads the specified file as a [[Dehacked]] file.
-<!--
 ; -nwtmerge <file> : Add sprites from the given PWAD in the same way as NWT's "-merge" command-line option.
 
 == Multiplayer ==
@@ -22,15 +21,18 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ; -right : Connect as a drone showing a view 90 degrees to the right, for [[three screen mode]].
 ; -query <address> : Query the status of a server running on the given IP address.
 ; -search : Search the local LAN for servers.
--->
+
 == Configuration file related ==
 
 ;  -extraconfig <file> : Specifies a [[Configuring|configuration file]] to use for Chocolate Doom-specific settings (the default is 'chocolate-doom.cfg')
 
 The following override settings in the Chocolate Doom configuration file.  When the game quits, the configuration file will be written with the new settings.
 
-; -1                  : Sets screenmultiply to 1
+;  -1                  : Sets screenmultiply to 1
 ;  -2                  : Sets screenmultiply to 2, doubling up the screen by 2x.
+;  -3                  : Sets screenmultiply to 3, doubling up the screen by 3x.
+;  -4                  : Sets screenmultiply to 4, doubling up the screen by 4x.
+;  -5                  : Sets screenmultiply to 5, doubling up the screen by 5x.
 ;  -fullscreen         : Runs the game fullscreen.
 ;  -nofullscreen       : Runs the game in a window.
 ;  -window             : Runs the game in a window.
