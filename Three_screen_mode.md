@@ -1,4 +1,4 @@
-[[Image:Chocolate-leftright-network.jpg|right|320px|Three screen mode in action]]
+[[Image:Chocolate-leftright-network.jpg|thumb|right|320px|Three screen mode in action]]
 The '''three screen mode''' of Chocolate Doom allows player 1 (the green player) to have an enlarged field of view in [[multiplayer]] games. This is achieved by displaying the extended field of view sections via separate drone clients and their windows. The feature was originally found in early [[Doom:vanilla Doom|vanilla Doom]] versions, but it was removed from [[Doom:Version#v1.2|versions 1.2]] and up.
 
 ==Usage==
