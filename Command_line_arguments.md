@@ -1,3 +1,4 @@
+ctaacelrac
 Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line arguments|command line arguments]].  However, several others have also been added:
 === General options ===
 ; -extraconfig &lt;file&gt;: Load extra [[configuration]] from the specified file, instead of chocolate-doom.cfg. 
