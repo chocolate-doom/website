@@ -1,7 +1,5 @@
 [[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows]]
 
-=== Using GCC ===
-
 == Getting the required programs ==
 The Chocolate Doom source comes with a Code::Blocks workspace and projects. In order to use them, you will need to install a few programs first:
 
