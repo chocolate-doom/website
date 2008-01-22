@@ -9,6 +9,8 @@ To prevent Chocolate Doom from changing to the nearest screen filling resolution
 
 === Uncorrected aspect ratio ===
 
+These modes are used when the "aspect ratio correction" option is turned off.  Scaleup is performed by exact pixel doubling, which is fast and accurate; however, in modern square pixel video modes, the game may appear "squashed".
+
 {| {{prettytable}
  |-
  ! Scale size || Full-screen resolutions this provides support for
@@ -26,6 +28,8 @@ To prevent Chocolate Doom from changing to the nearest screen filling resolution
  |}
 
 === Aspect ratio corrected ===
+
+These modes are used when the "aspect ratio correction" option is turned on.  Scaleup is performed by scaling the screen up and performing vertical stretching of the screen; the game then appears correct when viewed in a square pixel video mode.  The disadvantages are that this may be slightly slower than the non-aspect ratio-corrected modes, and there may be slight blurring of the screen caused by antialiasing when performing the scaleup.
 
 {| {{prettytable}
  |-
