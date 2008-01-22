@@ -37,7 +37,7 @@ These modes are used when the "aspect ratio correction" option is turned on.  Sc
  |-
  | 256x200    ||
  |-
- | 320x240    || 320x200, 320x240 (letterboxed)
+ | 320x240    || 320x240 (letterboxed)
  |-
  | 512x400    ||
  |-
