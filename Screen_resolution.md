@@ -1,8 +1,11 @@
 [[Image:800x480.png|right|thumb|Chocolate Doom as it would appear on the Asus Eee PC.]]
-Chocolate Doom now has new screen resolution code, which can provide more modes (including 800x600!), and preserves the originally intended 4:3 screen resolution of Doom on other aspect ratios!  It does this by [[wikipedia:letterbox|letter-]] or [[wikipedia:pillarbox|pillar-boxing]] the screen (sometimes both to result in what is known as [[wikipedia:windowbox (film)|windowboxing]]) and rendering a 4:3 image inside it.  To use this, you must have a recent SVN copy of Chocolate Doom (r1006 or higher), and use the following command:
+Chocolate Doom now has new screen resolution code, which can provide more modes (800x600 for example), and preserves the originally intended 4:3 screen resolution of Doom on other aspect ratios. It does this by [[wikipedia:letterbox|letter-]] or [[wikipedia:pillarbox|pillar-boxing]] the screen (sometimes both to result in what is known as [[wikipedia:windowbox (film)|windowboxing]]) and rendering a 4:3 image inside it. To use this, you must have a recent SVN copy of Chocolate Doom (r1006 or higher). To set a specific mode, run Chocolate Doom with the following command line:
  chocolate-doom -width 1280 -height 800
-note that you can of course change -width and -height to your specific needs, these are only examples. :) Currently, you cannot use chocolate-setup to change the resolution, and you must change some settings by editing chocolate-doom.cfg directly.  Change <tt>autoadjust_video_settings</tt> to 0 to stop changing to the nearest fit screen resolution automatically, so it could pillar/letterbox the image (this is probably necessary on most LCDs, since they don't normally pad non-native ratios themselves).  You could also change <tt>aspect_ratio_correct</tt> to 0 if you want to play at 320x200 or 640x400 (which are normally on 4:3 screens anyway...), or want a squished image.
+Note that -width and -height can be set to any value up to 1600 for width and 1200 for height - Chocolate Doom will automatically pick the closest supported value. Currently, [[setup|Chocolate Doom's setup utility]] can not be used to change the resolution. In addition to using the command line arguments, the resolution can also be changed by editing the width and height values in Chocolate Doom's configuration file (chocolate-doom.cfg).
 
-See also: [[doom:Aspect ratio|Aspect ratio]] on Doom Wiki.
+If you wish to prevent Chocolate Doom from changing to the nearest screen filling resolution automatically, change <tt>autoadjust_video_settings</tt> in Chocolate Doom's configuration file to 0.
+
+==External links==
+[[doom:Aspect ratio|Aspect ratio]] on [http://doom.wikia.com/ Doom Wiki].
 
 [[Category:Features]]
