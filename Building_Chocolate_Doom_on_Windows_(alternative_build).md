@@ -4,7 +4,7 @@
 The Chocolate Doom source code comes with a Code::Block workspace and projects and a Microsoft Visual C++ 2008 Express solution. Additionally, you will need to get the SDL development libraries of [http://www.libsdl.org/download-1.2.php SDL], [http://www.libsdl.org/projects/SDL_mixer/ SDL_mixer] and [http://www.libsdl.org/projects/SDL_net/ SDL_net]. Make sure you get the right files for the compiler that you are going to use.
 
 == Obtaining the source code ==
-The easiest way to download the source code is to use a SVN client such as [http://tortoisesvn.net/ TortoiseSVN]: The following instructions are for TortoiseSVN.
+The easiest way to download the source code is to use a SVN client such as [http://tortoisesvn.net/ TortoiseSVN]. The following instructions are for TortoiseSVN:
 
 1. After you have installed the software, right click on or in the directory you want to download the source code to. From the right click menu choose the "SVN Checkout" option.
 
