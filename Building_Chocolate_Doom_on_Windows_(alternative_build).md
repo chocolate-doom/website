@@ -27,9 +27,9 @@ In the vc9 folder there should be a solution file. When compilation is complete,
 
 == Using Code::Blocks ==
 
-First, download Code::Blocks from [http://forums.codeblocks.org/index.php?board=20.0 here] (it is important that you use the most recent build). In order to use Code::Blocks, you will also need to download MinGW from [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=240780 here].
+First, download Code::Blocks from [http://forums.codeblocks.org/index.php?board=20.0 here] (it is important that you use the most recent build). In order to compile Chocolate Doom with Code::Blocks, you will also need to download MinGW from [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=240780 here].
 
-In case you are going to compile a debug build of Chocolate Doom, the recommended debugger to use is GDB, which you can get [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=20507 here].
+In case you are going to debug Chocolate Doom, the recommended debugger to use is GDB, which you can get [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=20507 here].
 
 === Step 1: Installing Code::Blocks ===
 
