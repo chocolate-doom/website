@@ -27,23 +27,19 @@ In the vc9 folder there should be a solution file. When compilation is complete,
 
 == Using Code::Blocks ==
 
-First, download Code::Blocks from [http://forums.codeblocks.org/index.php?board=20.0 here] (it is important that you use the most recent build). In order to compile Chocolate Doom with Code::Blocks, you will also need to download MinGW from [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=240780 here].
+First, download Code::Blocks from [http://www.codeblocks.org/downloads/binaries here]. It is recommended to download a package that includes the compiler and debugger from MinGW pre-installed. Otherwise, in case you want to install each manually, you can find the MinGW installer [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=240780 here] and the debugger [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=20507 here].
 
-In case you are going to debug Chocolate Doom, the recommended debugger to use is GDB, which you can get [http://sourceforge.net/project/showfiles.php?group_id=2435&package_id=20507 here].
+=== Step 1: Installing MinGW ===
 
-=== Step 1: Installing Code::Blocks ===
+'''Note: This step can be skipped if you chose to install the complete Code::Blocks package.'''
 
-Installing Code::Blocks should not be too hard, simply extract the program to whatever directory you want. When you first run Code::Blocks, it should automatically detect your MinGW installation.
+It is recommended that you install the candidate files of MinGW since they are newer. Additionally, it is important to install MinGW to the top of your drive (i.e. C:\MinGW), otherwise Code::Blocks may not detect it.
 
-=== Step 2: Installing MinGW ===
-
-It is recommended that you install the candidate files of MinGW, since they are newer. What is also important is to install MinGW to the top of your drive (i.e. C:\MinGW), otherwise Code::Blocks may not detect it.
-
-=== Step 3: Installing the Development Libraries ===
+=== Step 2: Installing the Development Libraries ===
 
 After you get the development libraries of SDL, SDL_mixer and SDL_net, extract the files and copy the 'include', 'lib' and 'bin' folders to the top of your MinGW directory (i.e. C:\MinGW). Also make sure to move the files from the 'include\SDL' subfolder to the main 'include' folder. At this point you should be ready to build Chocolate Doom.
 
-=== Step 4: Compiling Chocolate Doom ===
+=== Step 3: Compiling Chocolate Doom ===
 
 In the source directory of Chocolate Doom, you will find the Code::Blocks files in the 'codeblocks' folder, the workspace file is called 'main.workspace'.
 
