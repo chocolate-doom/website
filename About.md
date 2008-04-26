@@ -21,4 +21,4 @@ Chocolate Doom aims for [[compatibility]] with:
 
 Chocolate Doom is written by [[doom:Simon "Fraggle" Howard|Simon Howard]], with extensive help from other many other people who have provided patches, bug reports and suggestions.
 
-The Chocolate Doom icon (as shown at the top left of this page) is based on a [http://www.flickr.com/photos/laffy4k/448920776/ phot]o of an icecream by [http://www.chrismetcalf.org/ Chris Metcalf].
+The Chocolate Doom icon (as shown at the top left of this page) is based on a [http://www.flickr.com/photos/laffy4k/448920776/ photo] of an icecream by [http://www.chrismetcalf.org/ Chris Metcalf].
