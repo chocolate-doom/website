@@ -1,2 +1,2 @@
-Screenshot of Chocolate Doom playing under Linux.
+Screenshot of Chocolate Doom under Windows.
 {{screenshot}}
