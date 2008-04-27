@@ -39,6 +39,26 @@ Chocolate Doom will be built in your home directory in ~/chocolate-doom.  Copy a
  cd ~/chocolate-doom
  ./chocolate-doom
 
+=== Gentoo ===
+
+Gentoo users can use ebuild instead. Chocolate doom ebuild is located in Sunrise overlay. Just add Sunrise overlay to your tree, add 
+
+<pre>
+games-fps/chocolate-doom 
+</pre>
+
+to your /etc/portage/package.unmask file and
+
+<pre>
+<games-fps/chocolate-doom-9999
+</pre>
+
+to your /etc/portage/package.keywords file and finally:
+
+<pre>
+emerge -av chocolate-doom
+</pre>
+
 == BSD and other Unix systems ==
 
 The above instructions should also work on FreeBSD, OpenBSD, NetBSD and other Unix systems.  If you succeed in getting Chocolate Doom running on a new system, please add a screenshot to the [[Screenshots]] page.  If you have trouble, feel free to join [irc://irc.oftc.net/chocolate-doom #chocolate-doom] on IRC to ask for help.
