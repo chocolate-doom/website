@@ -4,7 +4,8 @@ Chocolate Doom supports multiple Operating Systems:
 
 <gallery>
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|GNU/Linux]]
-Image:Chocolate-doom-windows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]]
+Image:Chocolate-doom-windows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] (XP)
+Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] (Vista)
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
