@@ -46,3 +46,25 @@ In the source directory of Chocolate Doom, you will find the Code::Blocks files 
 After you open the workspace, you can select what type of build you want to create: Debug or Release. In case you are going to debug Chocolate Doom, you should compile a debug build (which is quite a lot bigger than the release), otherwise, you can just compile a release build. In order to start building, click on '''Build''' and then '''Rebuild workspace'''.
 
 At the end of the compilation process, you will find your new Chocolate Doom build in the 'bin' folder at the top of the source directory.
+
+== Cross-compiling on Linux to Win32 ==
+
+=== Step 1: Setting up MinGW and SDL devel libraries ===
+
+Most distributions include packages to ease installation of MinGW; for example, you can do "aptitude install mingw32" on both Debian and Ubuntu.  Check your distribution vendor if precompiled packages are available.  If they are not available by your distribution, you can probably use [http://icculus.org/~dolson/sdl/build-cross.sh build-cross.sh] (I have not tested this).
+
+Next, you'll need to install SDL development libraries.  A shell script to make this task rather simple is provided [http://acmlm.org/mike/sdl-cross-install.sh here]<!-- This script is modified from http://icculus.org/~dolson/sdl/; provides newer SDL versions, and actually works with Chocolate Doom -->.  You may simply run the script via "bash sdl-cross-build.sh", or if you prefer, the procedure is rather straight-forward to read from the script and perform the operations manually.  The default install location is /opt/SDL-1.2.13 (you may change this with "bash sdl-cross-build /home/user/custom-path"), which is assumed for the next step.
+
+=== Step 2: Compiling Chocolate Doom ===
+
+After you've got the build environment all setup, the rest is easy :)
+ PATH=/opt/SDL-1.2.13/bin:$PATH ./configure --host=i586-mingw32msvc --build=i386-linux
+Change "./configure" to "./autogen.sh" if doing a build from a completely clean SVN checkout.
+
+Now just before you type "make", there is one thing you should do.  Edit both src/resource.rc and setup/setup-res.rc.  At the top of the files, change the double-backslashes to forward slashes (or else your compile will not complete). '''''Now''''' you can type "make" to its full glory; watch as Chocolate Doom is compiled... for Windows!
+
+After this is complete, you may want to strip debugging symbols from the executables by typing "i586-mingw32msvc-strip */*exe", unless your target happens to want to debug Chocolate Doom. You could optionally make the binaries even smaller with UPX, but they're already small enough to fit on a floppy disk at this point, so why bother?
+
+=== Step 3: Distribution ===
+
+Simply copy */*.exe to your intended target (these binaries are usually always in the same directory).  You should also copy /opt/SDL-1.2.13/runtime/SDL*.dll to the target.
