@@ -8,6 +8,7 @@ Image:Chocolate-doom-windows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows
 Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] (Vista)
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
+Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
 Image:chocolatent351.png|[[Wikipedia:Windows NT 3.51|Windows NT 3.51]]
 </gallery>
