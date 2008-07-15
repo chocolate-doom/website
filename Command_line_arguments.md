@@ -1,5 +1,3 @@
-[http://mioliksu.aboutus.vg/2008-04-05-john-wayne-movies.htm john wayne movies died] [http://mioliksu.aboutus.vg/2008-04-10-i-saw-movie.htm i saw movie] [http://mioliksu.aboutus.vg/2008-04-06-observed-trials.htm observed trials videos] [http://mioliksu.aboutus.vg/2008-04-05-real-cop-video.htm real cop video] [http://mioliksu.aboutus.vg/2008-04-11-ant-farm-movie.htm ant farm movie] 
-darlet
 Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line arguments|command line arguments]].  However, several others have also been added:
 === General options ===
 ; -extraconfig &lt;file&gt;: Load extra [[configuration]] from the specified file, instead of chocolate-doom.cfg. 
