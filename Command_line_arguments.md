@@ -5,8 +5,8 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ; -mb &lt;mb&gt;: Specify the heap size, in MiB (default 16). 
 
 === Compatibility ===
-; -gameversion &lt;version&gt;: Emulate a specific version of Doom.  Valid values are "1.9", "ultimate" and "final". 
-; -spechit &lt;n&gt;: Use the specified magic value when emulating spechit overruns. 
+; -gameversion &lt;version&gt;: Emulate a specific version of Doom.  Valid values are "1.9", "ultimate", "final", and "chex".
+; -spechit &lt;n&gt;: Use the specified magic value when emulating spechit overruns.
 
 === Demo options ===
 ; -longtics: Record a high resolution "[[Doom 1.91]]" demo. 
