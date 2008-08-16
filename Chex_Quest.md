@@ -10,7 +10,8 @@ Chocolate Doom does not have all necessary data included in the engine itself, i
 To play Chex Quest in Chocolate Doom, you need to:
 # Obtain a copy of Chex Quest [http://chexmania.tripod.com/downloads.htm here]
 # Obtain the Dehacked patch [http://www.soulsphere.org/random/chex.deh here]
-# Make sure the deh file is in the '''current''' directory, and run <tt>chocolate-doom -iwad chex.wad</tt>
+# Put both chex.wad and chex.deh into $DOOMWADDIR (Windows users: the directory with chocolate-doom is suffice)
+# Run <tt>chocolate-doom -iwad chex.wad</tt>
 
 [[Category:TCs]]
 [[Category:Features]]
