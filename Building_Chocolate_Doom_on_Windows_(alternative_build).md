@@ -59,9 +59,8 @@ Next, you'll need to install SDL development libraries.  A shell script to make 
 
 After you've got the build environment all setup, the rest is easy :)
  PATH=/opt/SDL-1.2.13/bin:$PATH ./configure --host=i586-mingw32msvc --build=i386-linux
+ make
 Change "./configure" to "./autogen.sh" if doing a build from a completely clean SVN checkout.
-
-Now just before you type "make", there is one thing you should do.  Edit both src/resource.rc and setup/setup-res.rc.  At the top of the files, change the double-backslashes to forward slashes (or else your compile will not complete). '''''Now''''' you can type "make" to its full glory; watch as Chocolate Doom is compiled... for Windows!
 
 After this is complete, you may want to strip debugging symbols from the executables by typing "i586-mingw32msvc-strip */*exe", unless your target happens to want to debug Chocolate Doom. You could optionally make the binaries even smaller with UPX, but they're already small enough to fit on a floppy disk at this point, so why bother?
 
