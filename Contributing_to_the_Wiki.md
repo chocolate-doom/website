@@ -8,6 +8,10 @@ Include a screenshot of the TC on the page.  Please run Chocolate Doom in window
 
 A list of well-known TCs can be found [[doom:List of WADs|here]].  Be sure to only try those listed as "Vanilla Doom" in the "Engine" column.
 
+== Old screenshots ==
+
+The wiki has a fair number of screenshots, but some of them are now out of date and don't accurately show current versions of Chocolate Doom.  You can help update [[:Category:Old_screenshots|Old screenshots]] by replacing them with new ones (see the page for information on how to take screenshots).
+
 == Other information ==
 
 If you know of anything missing from the website, feel free to add it.  Do not be afraid to make any change you feel will improve the site, no matter how [[Wikipedia:Wikipedia:Be bold in updating pages|bold]].
