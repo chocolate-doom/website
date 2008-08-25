@@ -21,6 +21,7 @@ Chocolate Doom has built in dehacked support which allows it to play a number of
 Image:Chocolate-aliens-doom.png|[[Aliens TC]]
 Image:Chocolate-aod-doom.png|[[Army of Darkness Doom]]
 Image:Chocolate-batman-doom.png|[[Batman Doom]]
+Image:Chexquest.png|[[Chex Quest]]
 Image:Chocolate-eternal-doom.png|[[Eternal Doom]]
 Image:Fistful-of-doom.png|[[Fistful of Doom]]
 Image:Chocolate-hacx.png|[[Hacx]]
