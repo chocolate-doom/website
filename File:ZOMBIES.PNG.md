@@ -3,5 +3,3 @@ Zombies TC is a total conversion based on the movie Dawn of the Dead. It was mad
 Original Source: [http://doom.wikia.com/wiki/Zombies_TC]
 
 {{screenshot}}
-
-[[Category:Old screenshots]]
