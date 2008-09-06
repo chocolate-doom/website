@@ -8,7 +8,6 @@ Loading Obituary is unusual because it uses [[doom:NWT|NWT]] rather than DEUSF. 
 2. Run with these [[command line arguments]]:
 
  chocolate-doom -deh obtic1.deh -nwtmerge obtic2.wad -file obtic1.wad obtic2.wad
-(Currently, you must use the latest version from Subversion to do this).
 
 
 To play Obituary with the new weapons:
