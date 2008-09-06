@@ -1,11 +1,11 @@
 == Multiplatform ==
 
-Chocolate Doom supports multiple Operating Systems:
+Chocolate Doom supports multiple operating systems:
 
 <gallery>
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|GNU/Linux]]
-Image:Chocolate-doom-windows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] (XP)
-Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] (Vista)
+Image:Chocolate-doom-windows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows XP|XP]])
+Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows Vista|Vista]])
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
@@ -26,6 +26,7 @@ Image:Chocolate-eternal-doom.png|[[Eternal Doom]]
 Image:Fistful-of-doom.png|[[Fistful of Doom]]
 Image:Chocolate-hacx.png|[[Hacx]]
 Image:Chocolate-mordeth.png|[[Mordeth]]
+Image:Obituary.png|[[Obituary]]
 Image:Chocolate-strain.png|[[STRAIN]]
 </gallery>
 
