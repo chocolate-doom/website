@@ -1,3 +1,2 @@
-[[Obituary]] running under Chocolate Doom. {{screenshots}}
-
-[[Category:Old screenshots]]
+[[Obituary]] running under Chocolate Doom.
+{{screenshot}}
