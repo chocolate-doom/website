@@ -1,4 +1,4 @@
-[[Image:Chocolate-doom.png|right|thumb|Chocolate Doom on Linux]]
+[[Image:Chocolate-doom-linux.png|right|thumb|Chocolate Doom on Linux]]
 
 Building Chocolate Doom on Linux is fairly straightforward.  
 
