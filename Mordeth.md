@@ -1,4 +1,4 @@
-[[Image:chocolate-mordeth.png|330px|right|thumb|Mordeth TC running in Chocolate Doom.]]
+[[Image:chocolate-mordeth.png|320px|right|thumb|Mordeth TC running in Chocolate Doom.]]
 '''Mordeth''' is a TC by Gaston Lahaut.  To run it under Chocolate Doom:
 
 # [http://www.doomworld.com/idgames/index.php?id=7694 Download] the Mordeth TC and extract the ZIP file.
