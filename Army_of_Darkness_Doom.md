@@ -1,4 +1,4 @@
-[[Image:Chocolate-aod-doom.png|right]]
+[[Image:Chocolate-aod-doom.png|thumb|320px|right|Army of Darkness Doom running in Chocolate Doom.]]
 The following are instructions on how to play '''Army of Darkness Doom''' under Chocolate Doom:
 
 === Doom 1 version ===
