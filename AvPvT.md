@@ -1,4 +1,4 @@
-[[Image:AvPvT.png|right|thumb|AvPvT playing under Chocolate Doom.]]
+[[Image:AvPvT.png|right|320px|thumb|AvPvT playing under Chocolate Doom.]]
 To play '''AvPvT''' under Chocolate Doom:
 
 # Download [http://www.doomworld.com/idgames/index.php?id=10696 avpvt2.zip] and extract.
