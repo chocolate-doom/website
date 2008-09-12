@@ -6,6 +6,6 @@
 
  chocolate-doom -merge original.wad -deh original.deh
 
-Substituting ''original'' for the episode you wish to run.
+Substituting ''original'' with the episode you wish to run.
 
 [[Category:TCs]]
