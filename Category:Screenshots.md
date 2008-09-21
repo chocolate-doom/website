@@ -12,7 +12,7 @@ Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
 Image:chocolatent351.png|[[Wikipedia:Windows NT 3.51|Windows NT 3.51]]
 </gallery>
-
+ 
 == TCs ==
 
 Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
