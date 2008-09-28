@@ -6,7 +6,7 @@ In order to compile Chocolate Doom, you will need the following (see [http://www
 * Base compiling environment (gcc must be installed), if you do not have it see [http://www.openbsd.org/faq/faq4.html#AddFileSet] and install the comp??.tgz file set.
 * autoconf - There are multiple versions available, this guide was specifically tested with autoconf-2.61p1.
 * automake - There are multiple versions available, this guide was specifically tested with automake-1.9.6p1.
-* SDL - you must have installed at least sdl (theres two flavors, -esd and -sun, I don't think it'd make a difference but for reference, I have -sun installed), sdl-mixer, sdl-net, and sdl-sound.
+* SDL - you must have installed at least sdl (theres two flavors, -esd and -sun, I don't think it'd make a difference but for reference, I have -sun installed), sdl-mixer, and sdl-net.
 * Subversion - only if you need to compile the latest and greatest source code.
 
 === Fetching the source code via SVN ===
