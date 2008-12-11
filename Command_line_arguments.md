@@ -75,4 +75,5 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ; -as &lt;files&gt;: Simulates the behavior of NWT's -as option, [[merging]] sprites into the main IWAD directory.  Multiple files may be specified. 
 ; -deh &lt;files&gt;: Load the given [[dehacked]] patch(es) 
 ; -merge &lt;files&gt;: Simulates the behavior of deutex's -merge option, [[merging]] a PWAD into the main IWAD.  Multiple files may be specified. 
+; -nocheats: Ignore cheats in [[dehacked]] files. 
 ; -nwtmerge &lt;files&gt;: Simulates the behavior of NWT's -merge option.  Multiple files may be specified.
