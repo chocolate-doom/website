@@ -10,7 +10,7 @@ Image:chocolatent351.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wi
 Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows Vista|Vista]])
 Image:Chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows XP|XP]])
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
-Image:Chcolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
+Image:Chocolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
 </gallery>
 
