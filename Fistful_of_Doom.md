@@ -1,3 +1,4 @@
+c4tdom
 [[Image:Fistful-of-doom.png|right|320px|thumb|Fistful of Doom playing under Chocolate Doom.]]
 '''Fistful of Doom''' is a wild west themed Doom TC. To play under Chocolate Doom:
 
