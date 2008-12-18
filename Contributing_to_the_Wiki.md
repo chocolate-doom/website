@@ -1,4 +1,3 @@
-sitalorzelno
 Even if you are not a programmer, you can help out by contributing to the Chocolate Doom Wiki.  Every page on this website can be edited to fix errors and add new information.
 
 == TC instructions ==
