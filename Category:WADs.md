@@ -1,2 +1,1 @@
-acelel
 Instructions on how to run some WADs under Chocolate Doom.
