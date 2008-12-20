@@ -1,4 +1,3 @@
-ololadarco
 Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line arguments|command line arguments]].  However, several others have also been added:
 === General options ===
 ; -cdrom: Save [[configuration]] data and savegames in c:\doomdata, allowing play from CD. '''(windows only)'''
