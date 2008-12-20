@@ -1,4 +1,3 @@
-monlino
 [[Image:Chocolate-hacx.png|right|thumb|HACX running under Chocolate Doom]]
 The following are instructions on how to play [[doom:Hacx|HACX]] under Chocolate Doom.
 
