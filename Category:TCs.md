@@ -1,1 +1,2 @@
-This should really be deleted. [[User:Janizdreg|Janizdreg]] 23:38, 9 Mar 2007 (PST)
+chinochit
+Instructions on how to play various TCs under Chocolate Doom.
