@@ -1,7 +1,7 @@
 __NOTOC__
 == Multiplatform ==
 
-Chocolate Doom supports multiple operating systems:
+Chocolate Doom is [[portability|portable]] to multiple operating systems and processor architectures:
 
 <gallery>
 Image:chocolatent351.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows NT 3.51|NT 3.51]])
