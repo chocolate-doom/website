@@ -34,6 +34,14 @@ Image:Obituary.png|[[Obituary]]
 Image:Chocolate-strain.png|[[STRAIN]]
 </gallery>
 
+== raven-branch ==
+
+The experimental [[raven-branch]] aims to add [[doom:Heretic|Heretic]] and [[doom:Hexen|Hexen]] support.  The branch is currently in a beta state and various work remains before the changes can be merged back to the mainline code.
+
+<gallery>
+Image:Chocolate-heretic.png |[[doom:Heretic|Heretic]]
+Image:Chocolate-hexen.png   |[[doom:Hexen|Hexen]]
+</gallery>
 == WADs ==
 
 [[Image:Chocolate-uac_dead.png|320px]]
