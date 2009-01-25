@@ -1,3 +1,5 @@
+__NOTOC__
+
 == Multiplatform ==
 
 Chocolate Doom supports multiple operating systems:
