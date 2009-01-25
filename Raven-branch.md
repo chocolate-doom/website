@@ -11,15 +11,15 @@ The approach taken by Chocolate Doom differs from the common approach taken by o
 The portions of code that are common to the three games are currently:
 
 * System-specific code (i_*):
-: * ENDOOM support
-: * Joystick
-: * Low-level SDL video code (i_video.c) and scaling (i_scale.c)
-: * Low-level sound effect and music code
-: * Timer code (i_timer.c)
-: * Endianness conversion (i_swap.h)
-: New low-level code:
-: * CD sound (i_cdmus.c) - for Hexen
-: * Hexen startup video code (i_videohr.c)
+:* ENDOOM support
+:* Joystick
+:* Low-level SDL video code (i_video.c) and scaling (i_scale.c)
+:* Low-level sound effect and music code
+:* Timer code (i_timer.c)
+:* Endianness conversion (i_swap.h)
+:New low-level code:
+:* CD sound (i_cdmus.c) - for Hexen
+:* Hexen startup video code (i_videohr.c)
 * Basic event handling (d_event.c) and ticcmd definitions (d_ticcmd.h) - needed for networking.
 * Entry point (i_main.c) and command line argument code (m_argv.c)
 * Configuration file parsing
