@@ -31,8 +31,15 @@ The portions of code that are common to the three games are currently:
 * WAD code (w_*)
 * Zone memory subsystem (z_*)
 
+In the future, additional code from the three code games may also be merged to the common code.
+
 === Current status ===
 
 Both Heretic and Hexen are playable and the code base is mostly stable.  However, there are still various tasks that remain to be completed before the branch can be merged back to trunk. 
 
-The definitive list of remaining tasks can be found in [https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/raven-branch/HH-TODO the HH-TODO] file.
+The definitive list of remaining tasks can be found in [https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/raven-branch/HH-TODO the HH-TODO] file.  Some of the entries in this file are non-essential and may be completed at a later date (or not at all).  The main issues still remaining are:
+
+* Multiplayer (netgame) support - the network code is currently disabled on raven-branch for all games.
+* Updating of the setup tool (chocolate-setup) to fully support the new games.  The tool can now be used for basic configuration, but work is still needed on the multiplayer setup menus.
+* Updating of the document generation script (docgen).
+* Changes to the save game code to be compatible with the DOS versions.
