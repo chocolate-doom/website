@@ -6,7 +6,7 @@ When the branch has completed, the changes will be merged back to the main trunk
 
 === Design ===
 
-To support the games, radical restructuring of the Chocolate Doom source code have been necessary. The purpose of this is to separate the existing code into common and Doom-specific parts.  The Heretic and Hexen code can then be updated to interface with the common code. 
+To support the games, radical restructuring of the Chocolate Doom source code has been necessary. The purpose of this is to separate the existing code into common and Doom-specific parts.  The Heretic and Hexen code can then be updated to interface with the common code. 
 
 The approach taken by Chocolate Doom differs from the common approach taken by other ports to support Heretic and Hexen.  For example, [http://www.zdoom.org/ ZDoom] and [http://www.doomworld.com/eternity/ Eternity] have taken the approach of creating a combined engine that is generic enough to support all games. This approach reduces code duplication.  However, Chocolate Doom's goals are to preserve the behavior of the original games as closely as possible. To achieve this, the source code to the three games is maintained separately, depending only on some common code that is shared between them.  This approach results in duplicated code, with the advantage of avoiding large changes that might affect compatibility.
 
