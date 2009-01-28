@@ -1,3 +1,1 @@
-Chocolate Doom on MacOS X.  Thanks to athanatos for this screenshot.  {{screenshots}}
-
-[[Category:Old screenshots]]
+Chocolate Doom on MacOS X.  Thanks to Benjamin "krel" Morris for this screenshot.  {{screenshots}}
