@@ -6,7 +6,7 @@ To set a specific mode from the command line, run Chocolate Doom with the ''-wid
  chocolate-doom -width 1280 -height 1024
 It is also possible to use the ''-geometry'' parameter as a shortcut:
  chocolate-doom -geometry 1280x1024
-The maximum supported screen resolution is 1600x1200. Only a fixed set of modes are supported, however; as a result, the screen may appear [[wikipedia:windowbox (film)|windowboxed]]) with a black border if there is not perfect support for the selected screen mode.
+The maximum supported screen resolution is 1600x1200. Only a fixed set of modes are supported, however; as a result, the screen may appear [[wikipedia:windowbox (film)|windowboxed]] with a black border if there is not an exact scale factor for the chosen screen mode.
 
 If an invalid mode is selected, Chocolate Doom automatically picks the closest valid mode.  To disable this behavior, change <tt>autoadjust_video_settings</tt> in Chocolate Doom's configuration file to 0.
 
@@ -34,7 +34,7 @@ These modes are used when the "aspect ratio correction" feature is turned off.  
 
 === Aspect ratio corrected ===
 
-These modes are used when the "aspect ratio correction" option is turned on.  Scaleup is performed by scaling the screen up and performing vertical stretching of the screen; the game then appears correct when viewed in a square pixel video mode.  The disadvantages are that this may be slightly slower than the non-aspect ratio-corrected modes, and there may be slight blurring of the screen caused by antialiasing when performing the scaleup.
+These modes are used when the "aspect ratio correction" option is turned on.  Scale-up is performed by scaling the screen up and performing vertical stretching of the screen; the game then appears correct when viewed in a square pixel video mode.  The disadvantages are that this may be slightly slower than the non-aspect ratio-corrected modes, and there may be slight blurring of the screen caused by anti-aliasing when performing the scale-up.
 
 {| {{prettytable}}
  |-
