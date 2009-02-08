@@ -50,6 +50,14 @@ Support for the following games is currently under development on the [[raven-br
 
 == Problems ==
 
+=== Where can I get help with using Chocolate Doom? ===
+
+Several avenues of help are available:
+
+* The easiest way to get help is to join the Chocolate Doom [[wikipedia:Internet Relay Chat|IRC]] channel.  Connect to ''irc.oftc.net'' and join ''#chocolate-doom''
+* Register an account on the [http://www.doomworld.com/vb/ Doomworld forums] and ask for help in the [http://www.doomworld.com/vb/source-ports/ source ports] forum.
+* Finally, it is possible to contact the author of Chocolate Doom by sending an email to ''fraggle@doomdoomdoom.gmail.com'', removing the "doomdoomdoom" part from that address.
+
 === When I set a high resolution screen mode (eg. 800x600), the screen still appears blocky.  Why is this? ===
 
 === When playing in a full screen mode, why is there a black border around the screen? ===
