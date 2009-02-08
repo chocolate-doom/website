@@ -20,6 +20,8 @@ It is derived directly from the original Doom source code published by Id Softwa
 
 The source code to Heretic and Hexen was also made available under the GPL by Raven Software in 2008.  Since then, work has been underway to integrate the Raven code into Chocolate Doom on the [[raven-branch]].
 
+== Using Chocolate Doom ==
+
 === What games can be played with Chocolate Doom? ===
 
 The following games can be played:
@@ -42,11 +44,17 @@ Support for the following games is currently under development on the [[raven-br
 
 === Will Chocolate Doom run on my computer? ===
 
+=== How do I set up Chocolate Doom on my computer? ===
+
+=== How do I play fan-made levels (WADs) and other modifications? ===
+
 == Problems ==
 
 === When I set a high resolution screen mode (eg. 800x600), the screen still appears blocky.  Why is this? ===
 
 === When playing in a full screen mode, why is there a black border around the screen? ===
+
+=== I have played Doom using other source ports.  Why does everything in Chocolate Doom appear to be vertically stretched? ===
 
 === Why is there no music when playing under Mac OS X? ===
 
