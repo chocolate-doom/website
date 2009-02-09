@@ -55,6 +55,19 @@ There are two parts to the answer to this question:
 
 Having completed these two steps, running the game should simply be a matter of putting the two files in the same directory and running the executable.
 
+=== I have multiple games (IWADs), how can I select something different than Doom II? ===
+
+Generally, you can use the <tt>-iwad</tt> parameter to select a specific game, using the name of the IWAD.  You may setup an alias or script, depending on your operating system, so that you do not need to type out the -iwad parameter:
+
+On a Unix-like operating system using bash you would add the following in your $HOME/.bashrc (not all shells are created equal!)
+ alias chocolate-doom1="chocolate-doom -iwad doom.wad"
+On Microsoft Windows, you could create a file named "Doom 1.cmd" (make sure your editor doesn't append a .txt to the end, or it will not work) with the contents:
+ chocolate-doom -iwad doom1.wad %*
+
+=== I want to play Heretic or Hexen, but I can't find a Windows executable!  Where is it? ===
+
+[[raven-branch]] unfortunately does not yet compile on Windows, so there are no executables; it only runs on Unix-like operating systems (currently only tested on Linux PowerPC and x86; 32-bit and 64-bit variants of both architectures) for the time being.  If you are an experienced Windows developer, help in porting it is always welcome!
+
 === How do I play fan-made levels (WADs) and other modifications? ===
 For most levels, you simply need to use the <tt>-file level.wad</tt> command line parameter, however this is not always the case.  Most levels will come with an accompanying text file which will describe the intended usage.  Depending on the WAD, you may need to use options relating to [[Command line arguments#Dehacked and WAD merging|DeHackEd and WAD Merging]] features.  Additionally, some older WADs came in pre-compressed formats that may be difficult unpack on modern operating systems; in these cases, you may need to install them in [http://www.dosbox.com/ DOSBox] initially.  Feel free to [[#Where can I get help with using Chocolate Doom?|ask for help]] on the Chocolate Doom IRC or Doomworld forums if you can't figure it out!
 
