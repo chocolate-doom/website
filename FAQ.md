@@ -77,6 +77,20 @@ These things were not possible in the original Doom.  It is common for many othe
 
 A good justification for this decision is that the game was not designed with these features in mind.  For example, the final boss battle in Doom II specifically relies on it being impossible to aim downwards.  Similarly, there are places in the game where the ability to jump allows various tricks that would not otherwise be possible and were never intended to be possible.
 
+=== Why does the game crash when I access the options menu? ===
+
+You probably have your mouse sensitivity set too high.  The Doom options menu has a slider that allows the mouse sensitivity to be controlled; however, it has only a very limited range.  It is common for experienced players to set a mouse sensitivity that is much higher than what can be set via the options menu.  The setup program allows a larger range of values to be set.
+
+However, setting very high sensitivity values causes the game to exit when accessing the options menu under Vanilla Doom.  Because Chocolate Doom aims to emulate Vanilla Doom as closely as possible, it does the same thing.
+
+One solution to the problem is to set a lower mouse sensitivity.  Alternatively, all of the setting in the options menu can be controlled through Doom's key bindings anyway:
+
+* End game: F7
+* Messages on/off: F8
+* Graphic detail high/low: F5
+* Screen size smaller/larger: -/+
+* Sound volume menu: F4
+
 === I have played Doom using other source ports.  Why does everything in Chocolate Doom appear to be vertically stretched? ===
 
 === Why is there no music when playing under Mac OS X? ===
