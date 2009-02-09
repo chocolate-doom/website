@@ -83,7 +83,7 @@ You probably have your mouse sensitivity set too high.  The Doom options menu ha
 
 However, setting very high sensitivity values causes the game to exit when accessing the options menu under Vanilla Doom.  Because Chocolate Doom aims to emulate Vanilla Doom as closely as possible, it does the same thing.
 
-One solution to the problem is to set a lower mouse sensitivity.  Alternatively, all of the setting in the options menu can be controlled through Doom's key bindings anyway:
+One solution to the problem is to set a lower mouse sensitivity.  Alternatively, all of the settings in the options menu can be controlled through Doom's key bindings anyway:
 
 * End game: F7
 * Messages on/off: F8
