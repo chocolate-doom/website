@@ -56,6 +56,7 @@ There are two parts to the answer to this question:
 Having completed these two steps, running the game should simply be a matter of putting the two files in the same directory and running the executable.
 
 === How do I play fan-made levels (WADs) and other modifications? ===
+For most levels, you simply need to use the <tt>-file level.wad</tt> command line parameter, however this is not always the case.  Most levels will come with an accompanying text file which will describe the intended usage.  Depending on the WAD, you may need to use options relating to [[Command line arguments#Dehacked and WAD merging|DeHackEd and WAD Merging]] features.  Additionally, some older WADs came in pre-compressed formats that may be difficult unpack on modern operating systems; in these cases, you may need to install them in [http://www.dosbox.com/ DOSBox] initially.  Feel free to [[#Where can I get with using Chocolate Doom?|ask for help]] on the Chocolate Doom IRC or Doomworld forums if you can't figure it out!
 
 == Problems ==
 
