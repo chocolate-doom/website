@@ -63,7 +63,7 @@ Having completed these two steps, running the game should simply be a matter of 
 
 Several avenues of help are available:
 
-* The easiest way to get help is to join the Chocolate Doom [[wikipedia:Internet Relay Chat|IRC]] channel.  Connect to ''irc.oftc.net'' and join ''#chocolate-doom''
+* The easiest way to get help is to join the Chocolate Doom [[wikipedia:Internet Relay Chat|IRC]] channel.  Connect to the server ''irc.oftc.net'' using your favorite IRC client, and join ''#chocolate-doom''.
 * The [http://www.doomworld.com/vb/ Doomworld forums] contain many knowledgeable people who may be able to answer your questions.  You will need to register an account in order to post.  It is best to use the [http://www.doomworld.com/vb/source-ports/ source ports] forum.  You may find a Chocolate Doom-related thread is already active; if so, please use this rather than creating a new thread.
 * Finally, it is possible to contact the author of Chocolate Doom by sending an email to ''fraggle@doomdoomdoom.gmail.com'', removing the "doomdoomdoom" part from that address.
 
