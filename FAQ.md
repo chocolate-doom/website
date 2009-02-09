@@ -62,7 +62,7 @@ Generally, you can use the <tt>-iwad</tt> parameter to select a specific game, u
 On a Unix-like operating system using bash you would add the following in your $HOME/.bashrc (not all shells are created equal!)
  alias chocolate-doom1="chocolate-doom -iwad doom.wad"
 On Microsoft Windows, you could create a file named "Doom 1.cmd" (make sure your editor doesn't append a .txt to the end, or it will not work) with the contents:
- chocolate-doom -iwad doom1.wad %*
+ chocolate-doom -iwad doom.wad %*
 
 === I want to play Heretic or Hexen, but I can't find a Windows executable!  Where is it? ===
 
