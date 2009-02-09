@@ -44,7 +44,16 @@ Support for the following games is currently under development on the [[raven-br
 
 === Will Chocolate Doom run on my computer? ===
 
+Unless your computer is either incredibly unusual or very old, the answer is almost certainly yes.  Chocolate Doom is based on the [http://www.libsdl.org/ LibSDL] multimedia library, making it portable to a wide variety of different operating systems. It has also been tested on several different processor architectures.  Check out the [[screenshots]] page for pictures of it running on various different systems.
+
 === How do I set up Chocolate Doom on my computer? ===
+
+There are two parts to the answer to this question:
+
+# Firstly, you need a version of Chocolate Doom that you can run.  On Windows, this is a matter of downloading a precompiled executable (.exe) file.  Use the download link on the left hand side of this page. <br> For other operating systems (Linux, Mac OS X, etc.) it is usually necessary to compile a version from source.  Check out the "building" links on [[Chocolate Doom|the front page]].
+# Next, you need an '''IWAD''' file.  This is the file that contains all of the game data: graphics, sound effects, levels, etc.  This is usually a file named one of the following: ''doom.wad, doom2.wad, doom1.wad, tnt.wad, plutonia.wad''.  The IWAD file can usually be found on the CD-ROM containing the game; if you have the game in a different format (floppy disks, bought online, etc), you will have to install the game and try to find this file.
+
+Having completed these two steps, running the game should simply be a matter of putting the two files in the same directory and running the executable.
 
 === How do I play fan-made levels (WADs) and other modifications? ===
 
