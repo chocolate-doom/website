@@ -93,6 +93,8 @@ When running in a full screen video mode, the largest scale factor is picked tha
 
 This problem can be alleviated if necessary by choosing a different screen mode.  For example, 640x480 and 800x600 have scale factors that fit perfectly.  Similarly, for some modes, such as 1280x1024, the scale factor is not exact but the borders are small enough to be unnoticeable.
 
+See [[Screen resolution]] for more information.
+
 === How do I: look up and down, jump or crouch? ===
 
 These things were not possible in the original Doom.  It is common for many other source ports to add the ability to look up and down or jump; however, Chocolate Doom aims to be as close to and as compatible with the original game as possible, so these features have not been added.
