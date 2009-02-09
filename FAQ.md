@@ -74,10 +74,10 @@ Chocolate Doom supports using high resolution ''screen modes''.  However, the ga
 Many other source ports add "proper" high resolution support.  Chocolate Doom aims to behave and play the same as the original Doom executables.  This includes the screen resolution.
 
 This does, of course, raise the question of why you would want to use a higher resolution mode in the first place, rather than just running in 320x200 in the first place.  There are several reasons:
- * Some modern video cards no longer support 320x200 mode.
- * Some video cards render 320x200 in "letterboxed" mode with square pixels; to display the screen properly, it is therefore necessary to use a higher resolution mode with [[aspect ratio]] correction.
- * When running in a window, it is desirable to scale the screen up because a 320x200 window will appear tiny on a modern high resolution display.
- * Modern LCD monitors perform antialiasing when scaling up lower resolution screen modes; this gives a "blurry" appearance to the screen, rather than the "blocky" appearance that a CRT monitor gives.
+* Some modern video cards no longer support 320x200 mode.
+* Some video cards render 320x200 in "letterboxed" mode with square pixels; to display the screen properly, it is therefore necessary to use a higher resolution mode with [[aspect ratio]] correction.
+* When running in a window, it is desirable to scale the screen up because a 320x200 window will appear tiny on a modern high resolution display.
+* Modern LCD monitors perform antialiasing when scaling up lower resolution screen modes; this gives a "blurry" appearance to the screen, rather than the "blocky" appearance that a CRT monitor gives.
 
 === When playing in a full screen mode, why is there a black border around the screen? ===
 
