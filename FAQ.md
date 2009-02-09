@@ -10,7 +10,7 @@ Chocolate Doom is a [[doom:Source port|source port]] of the game [[wikipedia:Doo
 
 The name "Chocolate Doom" is a word play on the term [[doom:Vanilla Doom|Vanilla Doom]], which is commonly used to refer to the original DOS Doom executables. 
 
-It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recursive acronym|recursive acronyms]]: GNU's Not Unix, but it behaves very similarly; Chocolate Doom is not Vanilla Doom, but it behaves similarly.
+It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recursive acronym|recursive acronyms]]: for example, "GNU's Not Unix", but it behaves very similarly to Unix. Chocolate Doom "is not Vanilla Doom", but aims to behave similarly to Vanilla Doom.
 
 === What is the legal status of Chocolate Doom? ===
 
