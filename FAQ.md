@@ -71,6 +71,12 @@ Several avenues of help are available:
 
 === When playing in a full screen mode, why is there a black border around the screen? ===
 
+=== How do I: look up and down, jump or crouch? ===
+
+These things were not possible in the original Doom.  It is common for many other source ports to add the ability to look up and down or jump; however, Chocolate Doom aims to be as close to and as compatible with the original game as possible, so these features have not been added.
+
+A good justification for this decision is that the game was not designed with these features in mind.  For example, the final boss battle in Doom II specifically relies on it being impossible to aim downwards.  Similarly, there are places in the game where the ability to jump allows various tricks that would not otherwise be possible and were never intended to be possible.
+
 === I have played Doom using other source ports.  Why does everything in Chocolate Doom appear to be vertically stretched? ===
 
 === Why is there no music when playing under Mac OS X? ===
