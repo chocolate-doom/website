@@ -81,6 +81,18 @@ This does, of course, raise the question of why you would want to use a higher r
 
 === When playing in a full screen mode, why is there a black border around the screen? ===
 
+Chocolate Doom scales the screen in integer multiples, for example:
+
+* 1x : 320x200,  320x240,  256x200
+* 2x : 640x400,  640x480,  512x400
+* 3x : 960x600,  960x720,  800x600
+* 4x : 1280x800, 1280x960, 1024x800
+: etc.
+
+When running in a full screen video mode, the largest scale factor is picked that will fit within the screen.  For example, if running at 1024x768 resolution, a 3x scale will be chosen.  However, this gives a scaled screen size of only 960x720, which is less than the full screen resolution.  The result is a black border around the screen when playing in this mode.
+
+This problem can be alleviated if necessary by choosing a different screen mode.  For example, 640x480 and 800x600 have scale factors that fit perfectly.  Similarly, for some modes, such as 1280x1024, the scale factor is not exact but the borders are small enough to be unnoticeable.
+
 === How do I: look up and down, jump or crouch? ===
 
 These things were not possible in the original Doom.  It is common for many other source ports to add the ability to look up and down or jump; however, Chocolate Doom aims to be as close to and as compatible with the original game as possible, so these features have not been added.
