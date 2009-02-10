@@ -4,13 +4,21 @@
 
 Chocolate Doom is a [[doom:Source port|source port]] of the game [[wikipedia:Doom|Doom]], by [[wikipedia:id Software|id Software]].  The purpose of Chocolate Doom is to be as compatible as possible with the original DOS version of Doom.
 
-=== Why do we need yet another source port? ===
-
 === Where does the name come from? ===
 
 The name "Chocolate Doom" is a word play on the term [[doom:Vanilla Doom|Vanilla Doom]], which is commonly used to refer to the original DOS Doom executables. 
 
 It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recursive acronym|recursive acronyms]]: for example, "GNU's Not Unix", but it behaves very similarly to Unix. Chocolate Doom "is not Vanilla Doom", but aims to behave similarly to Vanilla Doom.
+
+=== Why do we need yet another source port? ===
+
+Since the release of the Doom source code in 1998, a number of Doom [[doom:Source port|source ports]] have been created (there is a comprehensive list [http://www.doomworld.com/classicdoom/ports/ on Doomworld]).  Source port authors have worked to extend the Doom engine in impressive ways, and to fix bugs that limited the original DOS versions of Doom.  These developments have been important, arguably essential, in maintaining interest in the game, and to this day there remains a reasonably large [http://www.doomworld.com/vb/ community] of people who continue to create Doom levels and to play them.
+
+However, there is a down side to this.  It is common for source port authors to make fixes and extensions at the expense of compatibility with the original DOS versions.  For example, one feature commonly lost is the ability to play back old demos.  In other cases, older fan-made modifications may not work properly.  Bug fixes and enhancements to the game engine can cause the gameplay to change in subtle ways or even make the game easier in some cases.
+
+Over the years, the [http://www.doomworld.com/idgames/ /idgames archive] has collected thousands of fan-made modifications for Doom.  Many of these were created before the Doom source release.  Chocolate Doom as a history-preserving effort aims to maintain a minimalistic Doom source port that can allow these modifications to continue to be played.  This is particularly important as recent versions of Microsoft's Windows OS cannot run Doom properly.
+
+Although this is the main aim of the project, there are various other reasons why people use Chocolate Doom.  Some people find the minimalist philosophy of the project appealing.  The simplicity and [[portability]] of the source code make it an attractive choice for people porting Doom to new platforms.  Finally, the accuracy in recreating the look and feel of the original DOS versions can awaken nostalgia and memories of playing the original game.
 
 === What is the legal status of Chocolate Doom? ===
 
