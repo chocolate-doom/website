@@ -2,7 +2,7 @@
 
 === What is Chocolate Doom? === 
 
-Chocolate Doom is a [[doom:Source port|source port]] of the game [[wikipedia:Doom|Doom]], by Id software.  The purpose of Chocolate Doom is to be as compatible as possible with the original DOS version of Doom.
+Chocolate Doom is a [[doom:Source port|source port]] of the game [[wikipedia:Doom|Doom]], by [[wikipedia:id Software|id Software]].  The purpose of Chocolate Doom is to be as compatible as possible with the original DOS version of Doom.
 
 === Why do we need yet another source port? ===
 
@@ -16,7 +16,7 @@ It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recurs
 
 Chocolate Doom is distributed under the [[wikipedia:GNU GPL|GNU General Public License]], version 2.  
 
-It is derived directly from the original Doom source code published by Id Software; the [https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/ source code repository] contains the complete history of all of the changes that have been made, back to the original version.
+It is derived directly from the original Doom source code published by [[wikipedia:id Software|id Software]]; the [https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/ source code repository] contains the complete history of all of the changes that have been made, back to the original version.
 
 The source code to Heretic and Hexen was also made available under the GPL by Raven Software in 2008.  Since then, work has been underway to integrate the Raven code into Chocolate Doom on the [[raven-branch]].
 
