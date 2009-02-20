@@ -1,1 +1,1 @@
-Chocolate Doom 1.2.1 running on OpenSolaris 2008.11
+Hmm.. shame this doesn't have a "uname" output in the shot or an "about OpenSolaris" dialog in view. [[User:Fraggle|Fraggle]] 16:40, 20 Feb 2009 (UTC)
