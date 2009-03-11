@@ -72,10 +72,6 @@ On a Unix-like operating system using bash you would add the following in your $
 On Microsoft Windows, you could create a file named "Doom 1.cmd" (make sure your editor doesn't append a .txt to the end, or it will not work) with the contents:
  chocolate-doom -iwad doom.wad %*
 
-=== I want to play Heretic or Hexen, but I can't find a Windows executable!  Where is it? ===
-
-Nobody has yet stepped up to making regular builds of the [[raven-branch]], so there aren't any and you'll need to compile it yourself.  The instructions for [[Building Chocolate Doom on Windows]] is primarily directed at the main branch, although it should be exactly the same for raven-branch.  If you don't understand how to do this, you'll just need to wait a little bit longer until somebody decides to make compiled versions publicly available :-)
-
 === How do I play fan-made levels (WADs) and other modifications? ===
 For most levels, you simply need to use the <tt>-file level.wad</tt> command line parameter, however this is not always the case.  Most levels will come with an accompanying text file which will describe the intended usage.  Depending on the WAD, you may need to use options relating to [[Command line arguments#Dehacked and WAD merging|DeHackEd and WAD Merging]] features.  Additionally, some older WADs came in pre-compressed formats that may be difficult unpack on modern operating systems; in these cases, you may need to install them in [http://www.dosbox.com/ DOSBox] initially.  Feel free to [[#Where can I get help with using Chocolate Doom?|ask for help]] on the Chocolate Doom IRC or Doomworld forums if you can't figure it out!
 
