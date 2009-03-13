@@ -32,3 +32,5 @@ PCI cards that include hardware OPL support include:
 
 * [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/branches/opl-branch/ opl-branch] source code.
 * [http://www.soulsphere.org/random/opl/ Some random interesting things] from experimenting with the OPL and Doom's OPL code.
+
+[[Category:Future features]]
