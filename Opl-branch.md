@@ -3,9 +3,9 @@ The '''opl-branch''' is a branch in the Chocolate Doom subversion repository. Th
 
 == Overview ==
 
-In the early '90s, most sound cards used designs based on the ''SoundBlaster''.  The SoundBlaster was backwards-compatible with an earlier sound card, the Yamaha Adlib card.  The Adlib included an FM synthesis chip, the ''Yamaha YM3812'', also known as the ''OPL2''.  Later cards used the successor, the ''Yamaha YMF262'' (''OPL3''), which is backwards compatible with the OPL2.
+In the early '90s, most sound cards used designs based on the [[wikipedia:SoundBlaster|SoundBlaster]].  The SoundBlaster was backwards-compatible with an earlier sound card, the [[wikipedia:Ad Lib, Inc.|AdLib]] card.  The AdLib included an FM synthesis chip, the [[wikipedia:Yamaha YM3812|Yamaha YM3812]] also known as the ''OPL2''.  Later cards used the successor, the [[wikipedia:Yamaha YMF262|Yamaha YMF262]] (''OPL3''), which is backwards compatible with the OPL2.
 
-Doom used this chip for MIDI music playback.  The chip itself implements a set of generic synthesizers, which can be configured to make various different sound effects depending on how they are programmed.  By using a table of register values to use to emulate the various different instruments in the General MIDI set, it is possible to play back MIDI music. The table used by Doom is stored in the IWAD file in the ''GENMIDI'' lump.
+Doom used this chip for MIDI music playback.  The chip itself implements a set of generic synthesizers, which can be configured to make various different sound effects depending on how they are programmed.  By using a table of register values to use to emulate the various different instruments in the General MIDI set, it is possible to play back MIDI music. The table used by Doom is stored in the IWAD file in the [[doom:GENMIDI|GENMIDI]] lump.
 
 Although Adlib-compatible FM synthesis was once a universal feature of almost all sound cards, modern sound cards do not include the feature.  Modern CPUs are fast enough that much higher quality MIDI playback can be generated in software using wavetable synthesis software (such as Timidity).
 
