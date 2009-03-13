@@ -44,3 +44,6 @@ The definitive list of remaining tasks can be found in [https://chocolate-doom.s
 * Updating of the setup tool (chocolate-setup) to fully support the new games.  The tool can now be used for basic configuration, but work is still needed on the multiplayer setup menus.
 * Updating of the document generation script (docgen).
 * Changes to the save game code to be compatible with the DOS versions.
+
+
+[[Category:Future features]]
