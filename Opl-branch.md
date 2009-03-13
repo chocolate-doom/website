@@ -15,7 +15,7 @@ Most Doom source ports play back MIDI music using MIDI interfaces provided by th
 
 The objective of Chocolate Doom's OPL support is to provide OPL MIDI playback that is identical, or as close as possible to, Vanilla Doom's MIDI playback.
 
-To accomplish this, a modified version of DOSbox is being used that generates a trace of the register writes to the OPL chip.  These register writes can then be examined and correlated with the MIDI events that were being played.  The objective is to create code that can generate the same register writes; if the register writes are identical to those of Vanilla Doom, the music playback must also be identical.
+To accomplish this, a modified version of DOSBox is being used that generates a trace of the register writes to the OPL chip.  These register writes can then be examined and correlated with the MIDI events that were being played.  The objective is to create code that can generate the same register writes; if the register writes are identical to those of Vanilla Doom, the music playback must also be identical.
 
 As many modern computers do not include hardware OPL MIDI, OPL emulation code is required to perform OPL playback.  OPL emulation code originally used in MAME is being used for this purpose.  There are various different versions of this code and not all are GPL compatible; the version from ScummVM is being used as it appears to be usable.  If the quality of the OPL emulation is poor, other options can be investigated.
 
