@@ -13,3 +13,5 @@ Chocolate Doom will be built in your home folder in ~/chocolate-doom.  Copy a Do
 
  cd ~/chocolate-doom
  ./chocolate-doom
+
+[[Category:Build instructions]]
