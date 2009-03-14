@@ -1,0 +1,21 @@
+[[Image:Chocolate-doom-linux.png|thumb|right|Chocolate Doom running under Ubuntu Linux, a distribution derived from Debian.]]
+The following are instructions for building Chocolate Doom under [Debian GNU/Linux http://www.debian.org/]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+
+== Dependencies ==
+
+The first step is to install the necessary dependencies for building Chocolate Doom.  The easiest way to do this is to use the Debian package manager.  Run this command as root:
+
+  apt-get install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
+
+Several packages will be installed.  Download the source package from the link in the sidebar to the left.  Extract the package: for example,
+
+  tar xzf chocolate-doom-1.2.1.tar.gz
+
+Then build the package:
+
+  cd chocolate-doom-1.2.1
+  ./configure
+  make
+  make install
+
+The final "make install" command should be run as root.
