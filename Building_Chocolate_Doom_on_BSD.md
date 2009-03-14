@@ -34,3 +34,5 @@ Ideally, you should copy your IWADs to /usr/local/share/games/doom, as that woul
 
 === TiMidity ===
 If running OpenBSD 4.2 or higher, install TiMidity to play background music.  Older versions of OpenBSD contain a broken sdl-mixer package which will crash Doom ports (see [http://bugzilla.libsdl.org/show_bug.cgi?id=118]); if you must have TiMidity installed on an older release, you can just disable the background music via chocolate-setup to enjoy a crash-free experience.
+
+[[Category:Build instructions]]
