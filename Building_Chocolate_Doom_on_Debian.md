@@ -7,7 +7,11 @@ The first step is to install the necessary dependencies for building Chocolate D
 
  apt-get install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
 
-Several packages will be installed.  Download the source package from the link in the sidebar to the left.  Extract the package: for example,
+Several packages will be installed. 
+
+== Building ==
+
+Download the source package from the link in the sidebar to the left.  Extract the package: for example,
 
  tar xzf chocolate-doom-1.2.1.tar.gz
 
