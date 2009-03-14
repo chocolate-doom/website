@@ -19,3 +19,28 @@ Then build the package:
   make install
 
 The final "make install" command should be run as root.
+
+== Tracking Subversion ==
+
+To keep up to date with the latest bleeding-edge version of Chocolate Doom, you can build the latest version from the Subversion repository.
+
+To do this, you need to install some extra packages:
+
+  apt-get install automake1.8 autoconf libtool subversion
+
+Check out the latest version from Subversion:
+
+  svn co https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/trunk/chocolate-doom
+
+Then build the package:
+
+  cd chocolate-doom
+  ./autogen.sh
+  make
+  make install
+
+To keep up to date, periodically run these commands to update your checkout and rebuild:
+
+  svn up
+  make
+  make install
