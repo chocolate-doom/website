@@ -1,5 +1,5 @@
 [[Image:Chocolate-doom-linux.png|thumb|right|Chocolate Doom running under Ubuntu Linux, a distribution derived from Debian.]]
-The following are instructions for building Chocolate Doom under [Debian GNU/Linux http://www.debian.org/]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+The following are instructions for building Chocolate Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
 
 == Dependencies ==
 
