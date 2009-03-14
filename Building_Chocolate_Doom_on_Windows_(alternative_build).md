@@ -73,3 +73,5 @@ After this is complete, you may want to strip debugging symbols from the executa
 === Step 3: Distribution ===
 
 Simply copy */*.exe to your intended target (these binaries are usually always in the same directory).  You should also copy /opt/SDL-1.2.13/runtime/SDL*.dll to the target.
+
+[[Category:Build instructions]]
