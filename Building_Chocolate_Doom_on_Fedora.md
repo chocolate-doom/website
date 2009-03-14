@@ -2,7 +2,7 @@ The following are instructions for building Chocolate Doom under [http://www.fed
 
 == Dependencies ==
 
-The first step is to install the necessary dependencies for building Chocolate Doom.  The easiest way to do this is to use the ''yum'' package manager.  You need to be using the ''Everything'' Fedora Unity re-spin. Run this command as root:
+The first step is to install the necessary dependencies for building Chocolate Doom.  The easiest way to do this is to use the ''yum'' package manager.  Run this command as root:
 
  yum install SDL-devel SDL_mixer-devel SDL_net-devel gcc make python-imaging
 
