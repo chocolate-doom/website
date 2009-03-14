@@ -138,4 +138,4 @@ Chocolate Doom by default preserves the original aspect ratio the game was inten
 
 === Why is there no music when playing under Mac OS X? ===
 
-...
+Music is disabled by default under Mac OS X because of a bug with SDL_mixer's MIDI playback under that OS.  The bug causes the game to crash when the MIDI loops.
