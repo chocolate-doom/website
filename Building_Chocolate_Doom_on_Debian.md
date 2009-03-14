@@ -35,3 +35,5 @@ To keep up to date, periodically run these commands to update your checkout and 
  svn up
  make
  make install
+
+[[Category:Build instructions]]
