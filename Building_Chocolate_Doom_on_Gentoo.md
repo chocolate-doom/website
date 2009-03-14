@@ -9,3 +9,5 @@ to your /etc/portage/package.unmask file and
 to your /etc/portage/package.keywords file and finally:
 
   emerge -av chocolate-doom
+
+[[Category:Build instructions]]
