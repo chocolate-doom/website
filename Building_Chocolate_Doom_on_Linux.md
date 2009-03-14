@@ -5,6 +5,7 @@ Building Chocolate Doom on Linux is fairly straightforward.  However, the proces
 Here are some instructions for building under common distributions:
 
 * [[Building Chocolate Doom on Debian]] - also applies to Ubuntu and other distributions based on Debian.
+* [[Building Chocolate Doom on Fedora]]
 * [[Building Chocolate Doom on Gentoo]]
 
 If your distribution is not in the above list, you can try the [[Building Chocolate Doom on Linux (generic)|generic install instructions]] which should work under any distribution.
