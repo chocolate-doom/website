@@ -1,6 +1,4 @@
-<noinclude>
-This is a template holding the gneric instructions for how to build and install the Chocolate Doom package.
-</noinclude>
+<!-- This is a template holding the gneric instructions for how to build and install the Chocolate Doom package. -->
 
 == Building ==
 
