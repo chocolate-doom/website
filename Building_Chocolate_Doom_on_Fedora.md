@@ -9,3 +9,5 @@ The first step is to install the necessary dependencies for building Chocolate D
 Several packages will be installed. 
 
 {{Generic package build and install}}
+
+[[Category:Build instructions]]
