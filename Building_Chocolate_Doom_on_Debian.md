@@ -5,7 +5,7 @@ The following are instructions for building Chocolate Doom under [http://www.deb
 
 The first step is to install the necessary dependencies for building Chocolate Doom.  The easiest way to do this is to use the Debian package manager.  Run this command as root:
 
- apt-get install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
+ aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
 
 Several packages will be installed. 
 
@@ -17,7 +17,7 @@ To keep up to date with the latest bleeding-edge version of Chocolate Doom, you 
 
 To do this, you need to install some extra packages:
 
- apt-get install automake1.8 autoconf libtool subversion
+ aptitude install automake1.8 autoconf libtool subversion
 
 Check out the latest version from Subversion:
 
