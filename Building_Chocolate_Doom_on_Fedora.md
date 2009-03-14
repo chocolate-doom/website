@@ -8,17 +8,4 @@ The first step is to install the necessary dependencies for building Chocolate D
 
 Several packages will be installed. 
 
-== Building ==
-
-Download the source package from the link in the sidebar to the left.  Extract the package: for example,
-
- tar xzf chocolate-doom-1.2.1.tar.gz
-
-Then build the package:
-
- cd chocolate-doom-1.2.1
- ./configure
- make
- make install
-
-The final "make install" command should be run as root.
+{{Generic package build and install}}
