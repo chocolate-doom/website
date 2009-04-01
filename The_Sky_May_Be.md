@@ -4,10 +4,11 @@
 Instructions:
 
 # Obtain a copy of smb_v102.zip [http://www.doomworld.com/idgames/index.php?id=8079 here].
-# Extract SKYMAYBE.EXE: <tt>unzip -L smb_v102.zip skymaybe.exe</tt>
-# The DOS exe file itself is a self-extracting RAR, so extract the WAD and DEH like so: <tt>unrar x -cl skymaybe.exe _smb417.wad blessed.deh</tt>
-#*This requires [[wikipedia:Unrar|unrar]] to be installed
-# Run Chocolate Doom with the following paramaters
+# Extract SKYMAYBE.EXE. 
+#: Under Unix systems this can be done using the ''unzip'' command, eg. <tt>unzip -L smb_v102.zip skymaybe.exe</tt>
+# The SKYMAYBE.EXE file is a self-extracting [[wikipedia:RAR|RAR file]].  Rename it to skymaybe.rar, and extract it using your favorite archive program.
+#: Under Unix systems, this can be done using the ''[[wikipedia:Unrar|unrar]]'' command, eg. <tt>unrar x skymaybe.rar</tt>
+# Run Chocolate Doom with the following parameters
 
  chocolate-doom -merge _smb417.wad -deh blessed.deh
 
