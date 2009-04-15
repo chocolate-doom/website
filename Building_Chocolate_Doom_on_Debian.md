@@ -7,7 +7,9 @@ The first step is to install the necessary dependencies for building Chocolate D
 
  aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
 
-Several packages will be installed. 
+Several packages will be installed.
+
+''Note: Ubuntu users should type the command "apt-get" in the place of "aptitude".''
 
 {{Generic package build and install}}
 
@@ -18,6 +20,8 @@ To keep up to date with the latest bleeding-edge version of Chocolate Doom, you 
 To do this, you need to install some extra packages:
 
  aptitude install automake1.8 autoconf libtool subversion
+
+''Note: Ubuntu users should type the command "apt-get" in the place of "aptitude".''
 
 Check out the latest version from Subversion:
 
