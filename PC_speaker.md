@@ -7,3 +7,5 @@ Backends for "native" PC speaker playback (through the real PC speaker) exist fo
 == External links ==
 
 * [http://www.youtube.com/watch?v=04LUREGAbkQ Youtube video showing Chocolate Doom running with PC speaker output]
+
+[[Category:Features]]
