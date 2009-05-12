@@ -1,0 +1,1 @@
+New autojoin option in Chocolate Setup. {{screenshots}}
