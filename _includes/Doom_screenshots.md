@@ -1,1 +1,1 @@
-#REDIRECT [[Template:Doom screenshot]]
+Screenshots of [[doom:Doom|Doom]].
