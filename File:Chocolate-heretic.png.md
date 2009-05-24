@@ -1,3 +1,3 @@
-Chocolate Heretic, from [[raven-branch]]. {{screenshot}}
+Chocolate Heretic, from [[raven-branch]]. 
 
-[[Category:Heretic screenshots]]
+{{Heretic screenshot}}
