@@ -1,1 +1,3 @@
 New text mode GUI screenshot, showing signals (the "cheesy mushroom" label is updated whenever the values below it are changed), and window actions (F1 brings up a pop-up dialog).
+
+[[Category:Textscreen screenshots]]
