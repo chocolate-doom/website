@@ -1,3 +1,4 @@
-Chocolate Doom on Windows Vista. {{screenshot}}
+Chocolate Doom on Windows Vista. 
 
+{{Doom screenshot}}
 [[Category:Platform screenshots]]
