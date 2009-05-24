@@ -10,12 +10,14 @@ To date, Chocolate Doom has been successfully run on:
 :* Windows XP
 :* Windows Vista
 :* Windows 7 (beta)
-* GNU/Linux (various different distributions, Intel x86, x86-64 and PowerPC variants)
+* GNU/Linux (various different distributions, Intel x86, x86-64, ARM and PowerPC variants)
 * BSD
 :* FreeBSD
 :* OpenBSD
 * Solaris (Intel and SPARC variants)
 * Mac OS X (Intel and PowerPC variants)
+
+Screenshots of Chocolate Doom running on various different platforms can be seen [[:Category:Platform screenshots|here]].
 
 It will likely run on various other operating systems - see the [http://www.libsdl.org/ list of platforms supported by SDL]. 
 
