@@ -1,1 +1,4 @@
-[[Alien Vendetta]] running in Chocolate Doom. {{screenshot}}
+[[Alien Vendetta]] running in Chocolate Doom. 
+
+{{Doom screenshot}}
+[[Category:WAD screenshots]]
