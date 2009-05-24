@@ -1,4 +1,3 @@
-Hexen running from the [[raven-branch]] code. {{screenshot}}
+Hexen running from the [[raven-branch]] code. 
 
-
-[[Category:Hexen screenshots]]
+{{Hexen screenshot}}
