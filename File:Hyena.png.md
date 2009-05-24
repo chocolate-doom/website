@@ -1,1 +1,3 @@
-[[Hyena]] running under Chocolate Doom. {{screenshots}}
+[[Hyena]] running under Chocolate Doom. {{screenshot}}
+
+[[Category:WAD screenshots]]
