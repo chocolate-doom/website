@@ -1,3 +1,3 @@
-New autojoin option in Chocolate Setup. {{screenshot}}
+New autojoin option in Chocolate Setup. 
 
 [[Category:Setup tool screenshots]]
