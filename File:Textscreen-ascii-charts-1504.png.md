@@ -1,3 +1,3 @@
-Small font ASCII chart as of r1504. {{screenshots}}
+Small font ASCII chart as of r1504. 
 
 [[Category:Textscreen screenshots]]
