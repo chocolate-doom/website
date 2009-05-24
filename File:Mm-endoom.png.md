@@ -1,1 +1,3 @@
-[[ENDOOM]] screen from Memento Mori 2. {{screenshot}}
+[[ENDOOM]] screen from Memento Mori 2. 
+
+[[Category:Textscreen screenshots]]
