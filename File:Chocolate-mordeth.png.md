@@ -1,3 +1,4 @@
-[[Mordeth]] running under Chocolate Doom. {{screenshot}}
+[[Mordeth]] running under Chocolate Doom.
 
+{{Doom screenshot}}
 [[Category:WAD screenshots]]
