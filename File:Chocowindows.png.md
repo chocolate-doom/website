@@ -1,4 +1,4 @@
 Screenshot of Chocolate Doom playing under Microsoft Windows.
-{{screenshot}}
 
+{{Chex Quest screenshot}}
 [[Category:Platform screenshots]]
