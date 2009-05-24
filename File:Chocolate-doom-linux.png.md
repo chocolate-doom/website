@@ -1,2 +1,4 @@
 Chocolate Doom under Ubuntu 8.04.
-{{screenshots}}
+
+{{Doom screenshot}}
+[[Category:Platform screenshots]]
