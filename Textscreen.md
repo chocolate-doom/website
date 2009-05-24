@@ -1,5 +1,5 @@
-[[Image:Mm-endoom.png|thumb|right|[[ENDOOM]] screen for [[doom:Memento Mori|Memento Mori]] displayed using libtextscreen.]]
-'''libtextscreen''' is an internal library used in Chocolate Doom.  It simulates a DOS text mode display, and is used to display the [[doom:ENDOOM|ENDOOM]] screen when exiting the game.
+[[Image:Mm-endoom.png|thumb|right|[[doom:ENDOOM|ENDOOM]] screen for [[doom:Memento Mori|Memento Mori]] displayed using libtextscreen.]]
+'''libtextscreen''' is an internal library used in Chocolate Doom.  It simulates a DOS text mode display, and is used to display the [[doom:ENDOOM|ENDOOM]] screen when exiting the game (see [[Accurate ENDOOM emulation]])
 
 Originally intended solely for this purpose, it has since been extended to include a small windowing toolkit that is used as the basis of the Chocolate Doom [[setup program]].
 
@@ -35,4 +35,4 @@ At present, the windowing toolkit is only used for the setup program and for the
 == Further links ==
 
 * [http://www.chocolate-doom.org/textscreen/ Doxygen-generated documentation for the textscreen library.]
-* [:Category:Textscreen screenshots] and [:Category:Setup tool screenshots], showing the textscreen library in action.
+* [[:Category:Textscreen screenshots]] and [[:Category:Setup tool screenshots]], showing the textscreen library in action.
