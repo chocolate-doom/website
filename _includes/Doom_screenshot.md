@@ -3,6 +3,4 @@
 |- 
 | style="font-size: 80%" | This image depicts a screenshot of [[doom:Doom]]. The designs depicted in the screenshot may be under the copyright of [[Wikipedia:id Software|id Software]] or others.  If so, they are displayed here under "fair use". The creator of the screenshot claims no additional copyright on the composition of the image.
 |}
-<includeonly>
-[[Category:Screenshots|{{PAGENAME}}]]
-</includeonly>
+[[Category:Doom screenshots|{{PAGENAME}}]]
