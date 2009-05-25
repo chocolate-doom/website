@@ -1,1 +1,3 @@
-[[STRAIN]] running under Chocolate Doom. {{screenshot}}
+[[STRAIN]] running under Chocolate Doom.
+{{Doom screenshot}}
+[[Category:WAD screenshots]]
