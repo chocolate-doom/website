@@ -1,2 +1,3 @@
 [[doom:Hacx|HACX]] running under Chocolate Doom.
-{{screenshot}}
+{{Doom screenshot}}
+[[Category:WAD screenshots]]
