@@ -1,2 +1,3 @@
 [[Doom:Batman Doom|Batman Doom]] playing under Chocolate Doom.
-{{screenshot}}
+{{Doom screenshot}}
+[[Category:WAD screenshots]]
