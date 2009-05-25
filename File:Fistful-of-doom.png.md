@@ -1,1 +1,3 @@
-[[Fistful of Doom]] playing under Chocolate Doom. {{screenshots}}
+[[Fistful of Doom]] playing under Chocolate Doom.
+{{Doom screenshot}}
+[[Category:WAD screenshots]]
