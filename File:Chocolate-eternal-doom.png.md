@@ -1,2 +1,3 @@
 [[Doom:Eternal Doom|Eternal Doom]] playing under Chocolate Doom.
-{{screenshot}}
+{{Doom screenshot}}
+[[Category:WAD screenshots]]
