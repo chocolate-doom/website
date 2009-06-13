@@ -1,7 +1,5 @@
 This page shows a selection of screenshots of Chocolate Doom in action.  More screenshots can be found in [[:Category:Screenshots]].
-
-__NOTOC__
-<!-- When adding screenshots, please follow these guidelines!
+__NOTOC__<!-- When adding screenshots, please follow these guidelines!
 
 The screenshot should show the game:
 
