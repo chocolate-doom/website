@@ -14,10 +14,10 @@ The screenshot should show the game:
 Chocolate Doom is [[portability|portable]] to multiple operating systems and processor architectures:
 
 <gallery>
-Image:chocolatent351.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows NT 3.51|NT 3.51]])
 Image:Chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows XP|XP]])
 Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows Vista|Vista]])
 Image:Chocolate_Windows_7.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|7]])
+Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 
 Image:Windows-Mobile-002.png|[[Wikipedia:Windows Mobile|Microsoft Windows Mobile 5]] ([[Wikipedia:Windows CE|Windows CE]])
 Image:Chocolate Doom Wii.png|[[Wikipedia:Linux|GNU/Linux]] ([[Wikipedia:Debian|Debian]] 4.0 on [[Wikipedia:Wii|Nintendo Wii]])
@@ -28,8 +28,6 @@ Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
 Image:Chocolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
-
-Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 
 </gallery>
 
