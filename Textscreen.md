@@ -11,7 +11,7 @@ The library uses an 8x16 pixel font by default (giving a 640x480 pixel window), 
 [http://hea-www.harvard.edu/~fine/Tech/x11fonts.html Atari-Small] font.  This alternative font uses characters in a 4x8 dimension (giving a 320x240 pixel window).  This feature is useful for low resolution devices such as palmtops.  A screenshot of the small font in use can be seen [[:Image:Atari-small.png|here]].
 
 [[Image:Chocolate-doom-setup.png|thumb|right|The Chocolate Doom setup tool, demonstrating the textscreen widget toolkit.]]
-[[Image:Windows-mobile-setup1.png|thumb|right|Setup tool running on Windows Mobile, showing the alternative half-height font.]]
+[[Image:Windows-mobile-setup1.png|thumb|150px|right|Setup tool running on Windows Mobile, showing the alternative half-height font.]]
 == GUI toolkit ==
 
 The textscreen library includes a full text mode windowing toolkit, designed to appear similar in style to the Doom [[doom:Setup program|Setup program]].  The toolkit is used as the basis for Chocolate Doom's [[setup program]].  The toolkit and base library are built as a single library, but there is no dependency of the base library on the higher level toolkit code.
