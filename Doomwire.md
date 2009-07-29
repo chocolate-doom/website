@@ -7,4 +7,4 @@ You can play Doomwire by downloading the installer or if you prefer the manual a
 
 == Links ==
 
-* [http://doomwire.mancubus.net Doomwire Website]
+* [http://russell.mancubus.net/doomwire Doomwire Website]
