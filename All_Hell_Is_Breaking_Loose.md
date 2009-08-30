@@ -1,4 +1,4 @@
-[[Image:allhell.jpg|320px|right]]
+[[Image:allhell.jpg|thumb|320px|right|All Hell is Breaking Loose running in Chocolate Doom.]]
 The following are instructions on how to play All Hell is Breaking Loose under Chocolate Doom.
 
 # First, download [http://www.doomworld.com/idgames/index.php?id=6480 allhell.zip] containing the game files, and extract it.
