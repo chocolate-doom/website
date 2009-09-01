@@ -31,6 +31,7 @@ PCI cards that include hardware OPL support include:
 == External links ==
 
 * [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/branches/opl-branch/ opl-branch] source code.
+* [http://oregonstate.edu/~delbelb/chocolate-opl-win32/ opl-branch] Win32 builds.
 * [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/research/opl/ OPL research data].
 
 [[Category:Future features]]
