@@ -113,7 +113,7 @@ This problem can be alleviated if necessary by choosing a different screen mode.
 
 See [[Screen resolution]] for more information.
 
-=== How do I: look up and down, jump or crouch? ===
+=== How do I look up and down, jump or crouch? ===
 
 These things were not possible in the original Doom.  It is common for many other source ports to add the ability to look up and down or jump; however, Chocolate Doom aims to be as close to and as compatible with the original game as possible, so these features have not been added.
 
