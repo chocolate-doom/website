@@ -48,6 +48,14 @@ Image:Obituary.png|[[Obituary]]
 Image:Chocolate-strain.png|[[STRAIN]]
 </gallery>
 
+== Multiplayer ==
+
+Chocolate Doom can be played over the internet either directly peer to peer or using a dedicated server.
+
+<gallery>
+Image:multi-waiting.png
+</gallery>
+
 == raven-branch ==
 
 The experimental [[raven-branch]] aims to add [[doom:Heretic|Heretic]] and [[doom:Hexen|Hexen]] support.  The branch is currently in a beta state and various work remains before the changes can be merged back to the mainline code.
