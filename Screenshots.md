@@ -53,7 +53,7 @@ Image:Chocolate-strain.png|[[STRAIN]]
 Chocolate Doom can be played over the internet either directly peer to peer or using a dedicated server.
 
 <gallery>
-Image:multi-waiting.png
+Image:Multi-waiting.png
 </gallery>
 
 == raven-branch ==
