@@ -26,6 +26,7 @@ Some sound cards do retain hardware OPL support.  A modular backend means that t
 PCI cards that include hardware OPL support include:
 
 * C-Media CMI8738
+* [http://dev.kewl.org/fm801/Doc/ Forte Media fm801]
 * Cards based on the Yamaha YMF724
 
 == External links ==
