@@ -139,3 +139,11 @@ Chocolate Doom by default preserves the original aspect ratio the game was inten
 === Why is there no music when playing under Mac OS X? ===
 
 Music is disabled by default under Mac OS X because of a bug with SDL_mixer's MIDI playback under that OS.  The bug causes the game to crash when the MIDI loops.
+
+=== Can Chocolate Doom be run on Win95/98/Me? ===
+
+Yes.  However, very old versions of Windows may not include the MSVCRT.DLL, causing an error message similar to this:
+
+  A required DLL file, MSVCRT.DLL, was not found.
+
+This problem can be solved by downloading the DLL [url=ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe]from the Microsoft FTP site[/url].
