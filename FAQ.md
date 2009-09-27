@@ -146,4 +146,4 @@ Yes.  However, very old versions of Windows may not include the MSVCRT.DLL, caus
 
   A required DLL file, MSVCRT.DLL, was not found.
 
-This problem can be solved by downloading the DLL [url=ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe]from the Microsoft FTP site[/url].
+This problem can be solved by downloading the DLL [ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe from the Microsoft FTP site].
