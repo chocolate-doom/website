@@ -68,7 +68,7 @@ After you've got the build environment all setup, the rest is easy :)
  make
 Change "./configure" to "./autogen.sh" if doing a build from a completely clean SVN checkout.
 
-After this is complete, you may want to strip debugging symbols from the executables by typing "i586-mingw32msvc-strip */*exe", unless your target happens to want to debug Chocolate Doom. You could optionally make the binaries even smaller with UPX, but they're already small enough to fit on a floppy disk at this point, so why bother?
+After this is complete, you may want to strip debugging symbols from the executables by typing "i586-mingw32msvc-strip */*exe", unless your target happens to want to debug Chocolate Doom.
 
 === Step 3: Distribution ===
 
