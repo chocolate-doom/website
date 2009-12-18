@@ -36,6 +36,8 @@ You can help out with the development of opl-branch by testing the current code 
 
 One area of particular interest is testing hardware OPL playback; instructions for configuring hardware OPL access on different operating systems can be found in the [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/opl-branch/README.OPL README.OPL] file.
 
+For assistance in configuring opl-branch, or to report problems, visit the [irc://irc.oftc.net/chocolate-doom Chocolate Doom IRC channel].
+
 == External links ==
 
 * [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/branches/opl-branch/ opl-branch] source code.
