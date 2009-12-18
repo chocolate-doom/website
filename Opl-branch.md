@@ -23,11 +23,18 @@ As many modern computers do not include hardware OPL MIDI, OPL emulation code is
 
 Some sound cards do retain hardware OPL support.  A modular backend means that the OPL code can also be used on these cards to play OPL music in hardware.
 
-PCI cards that include hardware OPL support include:
+Almost all ISA sound cards include hardware OPL support, but most PCI cards do not.  Some PCI cards that do include hardware OPL support (and have been tested) include:
 
 * C-Media CMI8738
-* [http://dev.kewl.org/fm801/Doc/ Forte Media fm801]
 * Cards based on the Yamaha YMF724
+
+Information on other PCI cards that could potentially be used can be found in the [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/opl-branch/README.OPL README.OPL] file.
+
+=== Testing opl-branch ===
+
+You can help out with the development of opl-branch by testing the current code and reporting music that does not sound the same as under Vanilla Doom.  If using Windows, download [http://people.oregonstate.edu/~delbelb/chocolate-opl-win32/ the latest revision build] of the opl-branch code; for other operating systems, the code must be [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/opl-branch/ checked out from Subversion] and built from source.
+
+One area of particular interest is testing hardware OPL playback; instructions for configuring hardware OPL access on different operating systems can be found in the [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/opl-branch/README.OPL README.OPL] file.
 
 == External links ==
 
