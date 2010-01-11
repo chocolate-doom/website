@@ -7,4 +7,6 @@ These are instructions on how to play [[doom:Aliens TC|Aliens TC]] under Chocola
 
  chocolate-doom -deh atcud19.deh -merge alitcsf.wad -file alitcsnd.wad alitcwad.wad
 
-[[Category:TCs]]
+[[Category:TCs]]<br/>
+
+Reference: [http://www.rushessay.com write my essay]
