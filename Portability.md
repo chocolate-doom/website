@@ -9,7 +9,7 @@ To date, Chocolate Doom has been successfully run on:
 :* Windows 98
 :* Windows XP
 :* Windows Vista
-:* Windows 7 (beta)
+:* Windows 7
 * GNU/Linux (various different distributions, Intel x86, x86-64, ARM and PowerPC variants)
 * BSD
 :* FreeBSD
