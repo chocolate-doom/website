@@ -1,5 +1,5 @@
 [[Image:OS_X_Launcher.png|right|350px|Launcher configured to launch a Doom II game.]]
-The Mac OS X version of Chocolate Doom includes a minimalist launcher program for selecting the IWAD files to use and starting the game.  The purpose of this is to make installation of Chocolate Doom on OS X straightforward and congruent with the rest of the operating system.
+The [[wikipedia:Mac OS X|Mac OS X]] version of Chocolate Doom includes a minimalist launcher program for selecting the IWAD files to use and starting the game.  The purpose of this is to make installation of Chocolate Doom on OS X straightforward and congruent with the rest of the operating system.
 
 A brief list of features:
 * A .DMG archive file is generated, and Chocolate Doom can be installed simply by dragging the "Chocolate Doom" icon into the Applications folder.
