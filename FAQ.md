@@ -136,9 +136,9 @@ One solution to the problem is to set a lower mouse sensitivity.  Alternatively,
 === I have played Doom using other source ports.  Why does everything in Chocolate Doom appear to be vertically stretched? ===
 Chocolate Doom by default preserves the original aspect ratio the game was intended to appear in, while most other ports ignore this detail.  See [[screen resolution]] and [[doom:aspect ratio|aspect ratio]] (Doom Wiki) for more information.
 
-=== Why is there no music when playing under Mac OS X? ===
+=== Why does the music not repeat when playing under Mac OS X? ===
 
-Music is disabled by default under Mac OS X because of a bug with SDL_mixer's MIDI playback under that OS.  The bug causes the game to crash when the MIDI loops.
+Normally, the MIDI music is supposed to loop while playing, so that when the track finishes, it begins again at the start of the track.  However, a bug in the OS X native MIDI code in SDL_mixer causes this not to happen.
 
 === Can Chocolate Doom be run on Win95/98/Me? ===
 
