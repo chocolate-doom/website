@@ -138,7 +138,7 @@ Chocolate Doom by default preserves the original aspect ratio the game was inten
 
 === Why does the music not repeat when playing under Mac OS X? ===
 
-Normally, the MIDI music is supposed to loop while playing, so that when the track finishes, it begins again at the start of the track.  However, a bug in the OS X native MIDI code in SDL_mixer causes this not to happen.
+Normally, the MIDI music is supposed to loop while playing, so that when the track finishes, it begins again at the start of the track.  However, a [http://bugzilla.libsdl.org/show_bug.cgi?id=955 bug] in the OS X native MIDI code in SDL_mixer causes this not to happen.
 
 === Can Chocolate Doom be run on Win95/98/Me? ===
 
