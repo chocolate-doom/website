@@ -12,4 +12,4 @@ A brief list of features:
 
 The launcher is only intended for use under Mac OS X; there are no plans to develop a similar version for other platforms.
 
-[[Category:Future features]]
+[[Category:Features]]
