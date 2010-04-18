@@ -22,6 +22,8 @@ In order to obtain Visual C++ 2008, go to [http://www.microsoft.com/express/down
 
 Download the VC8 development libraries for SDL, SDL_mixer and SDL_net. After extracting these libraries to a folder, add those folders to the Visual C++ Directories under Tools > Options > Projects and Solutions.
 
+Note: Visual Studio 2010 no longer loads custom directories globally, instead they are added individually to each project that requires them. To add SDL, SDL_mixer, and SDL_net to the Chocolate Doom project, open the solution and, for each project file, right click and choose Properties. From there you can click on VC++ Directories and add the SDL, SDL_mixer, and SDL_net directories as usual.
+
 === Step 3: Compiling Chocolate Doom ===
 In the vc9 folder there should be a solution file. When compilation is complete, the program will be in one of vc9's subfolders.
 
