@@ -32,7 +32,7 @@ Information on other PCI cards that could potentially be used can be found in th
 
 === Testing opl-branch ===
 
-You can help out with the development of opl-branch by testing the current code and reporting music that does not sound the same as under Vanilla Doom.  If using Windows, download [http://people.oregonstate.edu/~delbelb/chocolate-opl-win32/ the latest revision build] of the opl-branch code; for other operating systems, the code must be [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/opl-branch/ checked out from Subversion] and built from source.
+You can help out with the development of opl-branch by testing the current code and reporting music that does not sound the same as under Vanilla Doom.  If using Windows, download [http://people.oregonstate.edu/~delbelb/chocolate-doom-win32/ the latest revision build] of the trunk code; for other operating systems, the code must be [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/trunk/chocolate-doom/ checked out from Subversion] and built from source.
 
 One area of particular interest is testing hardware OPL playback; instructions for configuring hardware OPL access on different operating systems can be found in the [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/opl-branch/README.OPL README.OPL] file.
 
