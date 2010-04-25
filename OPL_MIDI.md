@@ -25,3 +25,9 @@ Almost all ISA sound cards include hardware OPL support, but most PCI cards do n
 * Cards based on the Yamaha YMF724
 
 Information on other PCI cards that could potentially be used, along with instructions on how to set up hardware OPL, can be found in the [http://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/trunk/chocolate-doom/README.OPL README.OPL] file.
+
+== Related pages ==
+
+* [[Opl-branch]], the source code branch where OPL MIDI support was developed.  This includes additional technical information about the design of the feature.
+
+[[Category:Future features]]
