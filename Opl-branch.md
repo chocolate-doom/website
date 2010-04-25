@@ -44,4 +44,4 @@ For assistance in configuring opl-branch, or to report problems, visit the [irc:
 * [http://oregonstate.edu/~delbelb/chocolate-doom-win32/ Trunk] Win32 builds.
 * [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/research/opl/ OPL research data].
 
-[[Category:Future features]]
+[[Category:Branches]]
