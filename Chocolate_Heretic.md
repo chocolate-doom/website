@@ -6,6 +6,6 @@ Development of Chocolate Heretic is taking place on [[Raven-branch]].  It is not
 == See also ==
 
 * [[Raven-branch]]
-* [[HHE support]
+* [[HHE support]]
 
 [[Category:Future_features]]
