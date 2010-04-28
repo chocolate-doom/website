@@ -1,0 +1,9 @@
+This is an explanation of how to configure the mouse settings in Chocolate Doom.
+
+There are three settings: mouse speed, acceleration and acceleration threshold. When you move your mouse, the amount you move the mouse is multiplied by the mouse speed. So, if you double the mouse speed value, it should move at twice the speed. The complicated part is the acceleration.
+
+When you're playing an FPS, you sometimes want precise aiming, and sometimes want to make large movements. If a monster started shooting at you from behind, you'd want to move the mouse fast to turn round quickly, for example. The problem is that these are conflicting requirements: you could increase the mouse speed to allow yourself to make quick turns with a small movement of the mouse, but then you'd lose the precision you need to do precise aiming.
+
+What acceleration does is apply an extra speed-up when you make quick turns. When the speed you're moving the mouse exceeds the threshold, the acceleration factor is applied. So if the acceleration was 2.0, for example, the amount you move when you exceed the threshold counts for twice what it does below the threshold. Setting acceleration to 1.0 effectively "disables" acceleration.
+
+The setup tool has an option to help you configure the threshold and acceleration to your comfort. If you go into the "configure mouse" dialog, there's a button to test your settings at the bottom of the window. It launches Doom and shows a "thermometer" type bar that shows how fast you're moving the mouse. There's a vertical bar that shows the acceleration threshold, so that you can see when you're exceeding it.
