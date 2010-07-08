@@ -15,21 +15,19 @@ Chocolate Doom is [[portability|portable]] to multiple operating systems and pro
 
 <gallery>
 Image:Chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows XP|XP]])
-Image:ChocoVista.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows Vista|Vista]])
 Image:Chocolate_Windows_7.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|7]])
 Image:Windows-Mobile-009.png|[[Wikipedia:Windows Mobile|Microsoft Windows Mobile 5]] ([[Wikipedia:Windows CE|Windows CE]])
-
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
+
 Image:Chocolate Doom Wii.png|[[Wikipedia:Linux|GNU/Linux]] ([[Wikipedia:Debian|Debian]] 4.0 on [[Wikipedia:Wii|Nintendo Wii]])
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|GNU/Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
 Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|GNU/Linux]] (ARM) - running on the [http://beaversource.oregonstate.edu/projects/cspfl OSWALD] computer science learning platform.
+Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku OS]]
 
 Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
 Image:Chocolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
-Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku]]
-
 </gallery>
 
 == TCs ==
