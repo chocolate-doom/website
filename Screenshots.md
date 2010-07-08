@@ -28,6 +28,7 @@ Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
 Image:Chocolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
+Image:Chocdoomhaiku-map30-1.png|[[Wikipedia:Haiku_(operating_system)]]
 
 </gallery>
 
