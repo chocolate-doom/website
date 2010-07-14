@@ -22,7 +22,7 @@ Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 Image:Chocolate Doom Wii.png|[[Wikipedia:Linux|GNU/Linux]] ([[Wikipedia:Debian|Debian]] 4.0 on [[Wikipedia:Wii|Nintendo Wii]])
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|GNU/Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
 Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|GNU/Linux]] (ARM) - running on the [http://beaversource.oregonstate.edu/projects/cspfl OSWALD] computer science learning platform.
-Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku OS]]
+Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku]]
 
 Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
