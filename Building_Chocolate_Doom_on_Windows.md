@@ -68,5 +68,6 @@ If you have compiled the latest version from Subversion, you may want to keep up
 
 == See also ==
 * [[Building Chocolate Doom on Windows (alternative build)]]
+* [[Cross-compiling Chocolate Doom for Windows]]
 
 [[Category:Build instructions]]
