@@ -1,4 +1,7 @@
 [[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows]]
+The official way of building Chocolate Doom on Windows is [[Building Chocolate Doom on Windows|using Cygwin]].  However, the Chocolate Doom source code comes with alternative project files for building the code using Code::Blocks and Microsoft Visual Studio, for people who are more comfortable with those environments.
+
+You may find that these project files are sometimes slightly out of date and not up-to-date with the latest changes to the source code.  You're welcome to use these alternative build systems if you're more comfortable with them, but bear in mind that they are "unofficial". 
 
 == Getting the required files ==
 The Chocolate Doom source code comes with a Code::Block workspace and projects and a Microsoft Visual C++ 2008 Express solution. Additionally, you will need to get the development libraries of [http://www.libsdl.org/download-1.2.php SDL], [http://www.libsdl.org/projects/SDL_mixer/ SDL_mixer] and [http://www.libsdl.org/projects/SDL_net/ SDL_net]. Make sure you get the right files for the compiler that you are going to use.
