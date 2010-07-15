@@ -1,0 +1,1 @@
+#REDIRECT [[Building Chocolate Doom on Windows (alternative build)]]
