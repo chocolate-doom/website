@@ -1,5 +1,5 @@
 [[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows]]
-Chocolate Doom is built on Windows using the ''Cygwin'' build environment.  Windows developers may find this unusual as Microsoft Visual Studio is often considered the "standard" compiler for that platform. Cygwin provides a Unix-like development environment that is the same as other platforms, so the same build system and compiler (autotools, make, gcc) are identical for every operating system that Chocolate Doom runs on. Using Cygwin also means that Chocolate Doom is not dependent on a proprietary tool.
+Chocolate Doom is built on Windows using the ''Cygwin'' build environment.  Windows developers may find this unusual as Microsoft Visual Studio is often considered the "standard" compiler for that platform. Cygwin provides a Unix-like development environment that is the same as other platforms, so the build system and compiler (autotools, make, gcc) are identical for every operating system that Chocolate Doom runs on. Using Cygwin also means that Chocolate Doom is not dependent on a proprietary tool.
 
 Note that Cygwin is only used as a build environment: Chocolate Doom is actually built using the ''MinGW'' version of gcc, and is not linked against the Cygwin libraries (cygwin1.dll).
 
