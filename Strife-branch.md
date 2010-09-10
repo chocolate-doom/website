@@ -6,5 +6,6 @@ Unlike the case of raven-branch, where the source code to Heretic and Hexen has 
 == External links ==
 
 * [http://www.doomworld.com/vb/source-ports/49696-chocolate-strife-development/ Chocolate Strife development thread] on Doomworld.
+* [http://people.oregonstate.edu/~delbelb/chocolate-strife-win32/ Chocolate Strife SVN builds for Windows]
 
 [[Category:branches]]
