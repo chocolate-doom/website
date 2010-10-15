@@ -7,6 +7,7 @@ Playing under Windows is straightforward:
 
 # Download [http://www.doomworld.com/idgames/index.php?id=8467 the TC] and extract the ZIP file.
 # Run the ''unpack.bat'' batch file contained in the ZIP.
+# If you have difficulties extracting the files, look [http://www.doomworld.com/vb/post/901405 here] for further guidance.
 # Several files should be extracted.  Run with the following command line:
 
  chocolate-doom -deh strain.deh -merge strain.wad
