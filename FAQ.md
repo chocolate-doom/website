@@ -153,3 +153,4 @@ This problem can be solved by downloading the DLL [ftp://ftp.microsoft.com/softl
 This is due to a mapping error in the level, causing the [[Doom:Medusa effect|Medusa effect]] which crashes Chocolate Doom. Two known workarounds for the problem are:
 *Set <tt>snd_samplerate</tt> in <tt>chocolate-doom.cfg</tt> to a high value; 44100 works on most systems, but other higher and valid values such as 96000 can also be used.
 *Alter the amount of memory Chocolate Doom uses by launching the game with the [[Doom:Parameter|parameter]] -mb, followed by the number of megabytes (lower values making the game less likely to crash). Values under 12 most commonly work.
+**Note however that using a low -mb setting increases the risk of seeing a [[Doom:Z_Malloc error|Z_Malloc error]] due to the game running out of memory.
