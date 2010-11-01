@@ -30,4 +30,4 @@ Information on other PCI cards that could potentially be used, along with instru
 
 * [[Opl-branch]], the source code branch where OPL MIDI support was developed.  This includes additional technical information about the design of the feature.
 
-[[Category:Future features]]
+[[Category:Features]]
