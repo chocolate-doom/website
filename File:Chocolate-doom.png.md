@@ -1,3 +1,3 @@
-Screenshot of Chocolate Doom under Windows.
+Screenshot of Chocolate Doom under Gnome.
 
 {{Doom screenshot}}
