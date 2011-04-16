@@ -5,6 +5,13 @@ Need help with Chocolate Doom?  There are several sources of help.  This wiki co
 * Help pages with information about how to play various [[:Category:TCs|TCs]] and [[:Category:WADs|WAD files]]
 * How to play with [[Freedoom]]
 
+== Multiplayer ==
+
+Chocolate Doom can be played online and includes enhanced network code compared to the original engine.
+* For basic instructions, see the [[Multiplayer]] page.
+* The Lobby-driven Multiplayer client [[Doomwire|Doomwire]] allows you to find other players to play against.
+* [http://master.chocolate-doom.org/ The master server] tracks active Chocolate Doom servers.
+
 == Online assistance == 
 
 You can get help online from several sources:
