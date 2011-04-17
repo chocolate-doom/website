@@ -7,16 +7,6 @@ There are a number of reasons for having a port which behaves like the DOS versi
 * '''Demo compatibility.''' The majority of demos are recorded for the original DOS Doom. Few ports maintain demo compatibility. [[Doom:Compet-N|Compet-N]] only accepts demos recorded under the original executables.
 * '''Testing'''. Releasing a WAD "for [[Doom:Vanilla Doom|Vanilla Doom]]" means that it will work on all ports.  As Chocolate Doom behaves like Vanilla, it allows WAD files to be tested without the need for a separate DOS install.
 
-== Compatibility ==
-
-Chocolate Doom aims for [[compatibility]] with:
-
-* v1.9 demos
-* v1.9 [[Savegame compatibility|savegames]]
-* v1.9 configuration file
-* v1.9 bugs (including VPO, etc)
-* [[Dehacked]] mods
-
 == Author ==
 
 Chocolate Doom is written by [[doom:Simon Howard (Fraggle)|Simon Howard]], with extensive help from many other people who have provided patches, bug reports and suggestions.
