@@ -1,19 +1,24 @@
 [[Image:chocolate-doom.png|right]]
+<div style="width: 480px;">
 '''Chocolate Doom''' is a Doom source port that accurately reproduces the experience of playing Doom, as it was played in the 1990s. ([[About|Read more ...]])
 
-[[File:Chocolate-doom-linux.png|left|80px|link=Screenshots|<span title=""></span>]]
+<div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
+[[File:Chocolate-doom-linux.png|80px|link=Screenshots|<span title=""></span>]]
 See some '''[[Screenshots]]''' of Chocolate Doom in action.
+</div>
 
-=== Download ===
-
+<div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
 '''[http://sourceforge.net/projects/chocolate-doom/files/chocolate-doom/1.5.0/ Download] Chocolate Doom v1.5.0''' from SourceForge.
+</div>
 
-=== Help ===
+<div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
+Have questions about Chocolate Doom?  You may want to consult the '''[[FAQ|Frequently Asked Questions]]'''  page.  More extensive information can be found on the '''[[Help]]''' page.
+</div>
 
-Have questions about Chocolate Doom?  You may want to consult the [[FAQ|Frequently Asked Questions]]  page.  More extensive information can be found on the [[Help]] page.
+<div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
+Chocolate Doom is under continual active development.  Visit the '''[[development]]''' page to find out how to keep up to date with the latest improvements.
+</div>
 
-=== Development ===
-
-Chocolate Doom is under continual active development.  Visit the [[development]] page to find out how to keep up to date with the latest improvements.
+</div>
 
 __NOTOC__
