@@ -9,3 +9,9 @@ The source code to Chocolate Doom is [[wikipedia:Free Software|Free Software]] u
 Chocolate Doom is written by [[doom:Simon Howard (Fraggle)|Simon Howard]], with extensive help from many other people who have provided patches, bug reports and suggestions.
 
 The Chocolate Doom icon (as shown at the top left of this page) is based on a [http://www.flickr.com/photos/laffy4k/448920776/ photo] of an icecream by [http://www.chrismetcalf.org/ Chris Metcalf].
+
+== See also ==
+
+* [[:Category:Features|Features]] of Chocolate Doom
+* [[Screenshots]]
+* [[FAQ|Frequently Asked Questions]]
