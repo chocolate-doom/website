@@ -1,6 +1,6 @@
 <table><tr>
 <td>
-'''Chocolate Doom''' is a Doom source port that accurately reproduces the experience of playing Doom, as it was played in the 1990s. ([[About|Read more ...]])
+'''Chocolate Doom''' is a Doom source port that accurately reproduces the experience of [[wikipedia:Doom|Doom]] as it was played in the 1990s. ([[About|Read more ...]])
 
 <div style="background-color: #eeeeee; border: 1px solid #aaaaaa; padding: 10px; margin: 10px; clear: left;">
 [[File:Chocowindows.png|48px|link=Screenshots|<span title=""></span>]]
