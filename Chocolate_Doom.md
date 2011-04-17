@@ -14,7 +14,7 @@ See some '''[[Screenshots]]''' of Chocolate Doom in action.
 
 <div style="background-color: #eeeeee; border: 1px solid #aaaaaa; padding: 10px; margin: 10px; clear: left;">
 [[File:Bigouch.png|52px|left|link=Help|<span title=""></span>]]
-Have questions about Chocolate Doom?  You may want to consult the '''[[FAQ|Frequently Asked Questions]]'''  page.  More extensive information can be found on the '''[[Help]]''' page.
+This wiki contains a lot of information about how to use Chocolate Doom.  Check out the '''[[Help]]''' page for more information, or the '''[[FAQ]]''' for answers to some common questions.
 </div>
 
 <div style="background-color: #eeeeee; border: 1px solid #aaaaaa; padding: 10px; margin: 10px; clear: left;">
