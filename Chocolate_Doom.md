@@ -1,8 +1,8 @@
 [[Image:chocolate-doom.png|right]]
 '''Chocolate Doom''' is a Doom source port that accurately reproduces the experience of playing Doom, as it was played in the 1990s. ([[About|Read more ...]])
 
-=== Screenshots ===
-See some [[Screenshots]] of Chocolate Doom in action.
+[[File:Chocolate-doom-linux.png|left|80px|link=Screenshots|<span title=""></span>]]
+See some '''[[Screenshots]]''' of Chocolate Doom in action.
 
 === Download ===
 
