@@ -1,5 +1,5 @@
-[[Image:chocolate-doom.png|right]]
-<div style="width: 480px;">
+<table><tr>
+<td>
 '''Chocolate Doom''' is a Doom source port that accurately reproduces the experience of playing Doom, as it was played in the 1990s. ([[About|Read more ...]])
 
 <div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
@@ -21,6 +21,10 @@ Have questions about Chocolate Doom?  You may want to consult the '''[[FAQ|Frequ
 Chocolate Doom is under continual active development.  Visit the '''[[development]]''' page to find out how to keep up to date with the latest improvements.
 </div>
 
-</div>
+</td>
+<td style="vertical-align: top;">
+[[Image:chocolate-doom.png|right]]
+</td>
+</tr></table>
 
 __NOTOC__
