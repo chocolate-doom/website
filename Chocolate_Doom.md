@@ -12,7 +12,7 @@ See some '''[[Screenshots]]''' of Chocolate Doom in action.
 </div>
 
 <div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
-[[File:Bigouch.png|48px|left|link=Help|<span title=""></span>]]
+[[File:Bigouch.png|52px|left|link=Help|<span title=""></span>]]
 Have questions about Chocolate Doom?  You may want to consult the '''[[FAQ|Frequently Asked Questions]]'''  page.  More extensive information can be found on the '''[[Help]]''' page.
 </div>
 
