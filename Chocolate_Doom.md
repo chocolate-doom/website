@@ -8,6 +8,7 @@ See some '''[[Screenshots]]''' of Chocolate Doom in action.
 </div>
 
 <div style="background-color: #eee; border: 1px solid #aaa; padding: 10px; margin: 10px; clear: left;">
+[[File:Download icon.png|left|link=http://sourceforge.net/projects/chocolate-doom/files/chocolate-doom/1.5.0/|<span title=""></span>]]
 '''[http://sourceforge.net/projects/chocolate-doom/files/chocolate-doom/1.5.0/ Download] Chocolate Doom v1.5.0''' from SourceForge.
 </div>
 
