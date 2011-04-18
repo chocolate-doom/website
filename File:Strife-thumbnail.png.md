@@ -1,0 +1,1 @@
+Thumbnail of [[Chocolate Strife]] for the development link on the front page.
