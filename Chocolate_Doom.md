@@ -1,4 +1,3 @@
-<!-- That's right, this whole page is a grotesque abomination of tables.  You know what? It's a hell of a lot easier to work with than spending hours fruitlessly trying to get a bunch of divs to flow in the right position. -->
 <table><tr>
 <td>
 '''Chocolate Doom''' is a Doom source port that accurately reproduces the experience of [[wikipedia:Doom|Doom]] as it was played in the 1990s. ([[About|Read more ...]])
