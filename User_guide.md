@@ -1,4 +1,4 @@
-Need help with Chocolate Doom?  There are several sources of help.  This wiki contains various pages with sources of information:
+This wiki contains various pages with information about using Chocolate Doom.  
 
 * The [[FAQ|Frequently Asked Questions]] page contains answers to various common questions about the port.
 * Documentation about [[command line arguments]], for how to run the game.
