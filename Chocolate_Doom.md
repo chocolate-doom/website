@@ -18,6 +18,7 @@ Check out the '''[[User guide]]''' page for information about using Chocolate Do
 </div>
 
 <div style="background-color: #eeeeee; border: 1px solid #aaaaaa; padding: 10px; margin: 10px; clear: left;">
+[[File:Strife-thumbnail.png|left|link=Development|<span title=""></span>]]
 Chocolate Doom is under continual active development.  Visit the '''[[development]]''' page to find out how to keep up to date with the latest improvements.
 </div>
 
