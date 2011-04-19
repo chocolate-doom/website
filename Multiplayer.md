@@ -21,6 +21,8 @@ Other players can then connect to your server using the ''-connect'' command lin
 
  chocolate-doom -connect 1.2.3.4
 
+When all players have joined, click the "start game" button on the server.
+
 === Firewalls and port forwarding ===
 
 If the other players are unable to connect to the server, it may be because there is firewalling software running on the server machine.  You will need to disable this or to add a firewall exception for UDP port 2342.
@@ -34,8 +36,6 @@ Servers automatically register themselves with a master server on the Internet, 
 If you don't want your server to be listed on the master server, run it with the ''-privateserver'' option, eg.
 
  chocolate-doom -server -privateserver -deathmatch
-
-When all players have joined, click the "start game" button on the server.
 
 == Instructions for LAN play ==
 
