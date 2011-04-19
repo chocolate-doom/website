@@ -15,5 +15,4 @@
 [[Image:chocolate-doom.png|right]]
 </td>
 </tr></table>
-
 __NOTOC__
