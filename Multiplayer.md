@@ -1,0 +1,31 @@
+Chocolate Doom has rewritten and enhanced multiplayer code that is designed to work better than the original multiplayer code found in Vanilla Doom.  It is possible to play games over the Internet with other users.
+
+== Instructions for Internet play ==
+
+To play Chocolate Doom over the Internet, you need to know your public IP address.  Some broadband routers use [[wikipedia:Network address translation|NAT]], so the IP address you see in your OS may not be the same as your public IP address. The website [http://whatismyipaddress.com/ whatismyipaddress.com] will allow you to find out your public address.
+
+Start a multiplayer server by running with the ''-server'' command line option.  For example, to start a server for a deathmatch game:
+
+ chocolate-doom -server -deathmatch
+
+Other players can then connect to your server using the ''-connect'' command line option.  For example, if the server's public IP address is ''1.2.3.4'':
+
+ chocolate-doom -connect 1.2.3.4
+
+=== Firewalls and port forwarding ===
+
+If the other players are unable to connect to the server, it may be because there is firewalling software running on the server machine.  You will need to disable this or to add a firewall exception for UDP port 2342.
+
+Another common problem is routers with [[wikipedia:Network address translation|NAT]].  It is common for modern broadband routers to use NAT to allow several machines on a home network to use a single public IP address.  If this is the case you will need to configure your router to forward connections to the computer where the server is running.  The port to forward is UDP port 2342. How to do this depends on your router - there is a good guide to port forwarding at [http://portforward.com/].
+
+== Instructions for LAN play ==
+
+To play Chocolate Doom on a local area network is straightforward.  Start a server in the same way as for Internet play:
+
+ chocolate-doom -server -deathmatch
+
+Other players can then automatically join the server with the ''-autojoin'' command line option:
+
+ chocolate-doom -autojoin
+
+[[Category:Features]]
