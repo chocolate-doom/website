@@ -31,6 +31,10 @@ Another common problem is routers with [[wikipedia:Network address translation|N
 
 Servers automatically register themselves with a master server on the Internet, to make it easier to locate servers to play on.  A website at [http://master.chocolate-doom.org/] shows the currently active servers.
 
+If you don't want your server to be listed on the master server, run it with the ''-privateserver'' option, eg.
+
+ chocolate-doom -server -privateserver -deathmatch
+
 == Instructions for LAN play ==
 
 To play Chocolate Doom on a local area network is straightforward.  Start a server in the same way as for Internet play:
