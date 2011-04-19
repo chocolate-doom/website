@@ -1,3 +1,4 @@
+[[File:Multi-waiting.png|thumb|right|Players connected to a server, waiting to start the game.]]
 Chocolate Doom has rewritten and enhanced multiplayer code that is designed to work better than the original multiplayer code found in Vanilla Doom.  It is possible to play games over the Internet with other users.
 
 == Comparison to Vanilla Doom ==
