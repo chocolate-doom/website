@@ -35,6 +35,8 @@ If you don't want your server to be listed on the master server, run it with the
 
  chocolate-doom -server -privateserver -deathmatch
 
+When all players have joined, click the "start game" button on the server.
+
 == Instructions for LAN play ==
 
 To play Chocolate Doom on a local area network is straightforward.  Start a server in the same way as for Internet play:
