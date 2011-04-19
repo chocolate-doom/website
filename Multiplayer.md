@@ -45,4 +45,8 @@ Other players can then automatically join the server with the ''-autojoin'' comm
 
  chocolate-doom -autojoin
 
+== See also ==
+
+* [[Three screen mode]]
+
 [[Category:Features]]
