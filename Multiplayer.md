@@ -3,7 +3,7 @@ Chocolate Doom has rewritten and enhanced multiplayer code that is designed to w
 == Comparison to Vanilla Doom ==
 
 * Gameplay is identical to that of Vanilla Doom.  Only the underlying technical details differ.
-* Runs over [[wikipedia:Internet Protocol]], rather than the obsolete [[wikipedia:Internetwork Packet Exchange|IPX]] protocol used by Vanilla Doom.  It is therefore possible to play on the Internet.
+* Runs over [[wikipedia:Internet Protocol|IP]], rather than the obsolete [[wikipedia:Internetwork Packet Exchange|IPX]] protocol used by Vanilla Doom.  It is therefore possible to play on the Internet.
 * Data is routed through a server, rather than the peer-to-peer system used by Vanilla Doom.
 * Improved client synchronization code, for a smoother game.
 * Fixes a bug with Vanilla Doom where the green player has slightly more latency than other players.
