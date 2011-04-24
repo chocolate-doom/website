@@ -7,6 +7,7 @@ Before Chocolate Doom can be built, a working build environment needs to be set 
 # gcc, the GNU C Compiler
 # wget
 # Development libraries for the X Window system - may be called 'libx11-dev', 'x-devel' or similar.
+# Development libraries for libSDL, libSDL_net and libSDL_mixer.
 
 The way to install these differs according to your distribution.  On many systems these are standard components that are installed by default when you install the system.  If not, you should install them using the package system for your distribution.
 
