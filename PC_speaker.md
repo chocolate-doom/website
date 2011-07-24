@@ -1,3 +1,4 @@
+{{#ev:youtube|04LUREGAbkQ|300|right}}
 Chocolate Doom pioneered '''PC speaker support''' within Doom source ports, and remains one of the few ports to support the use of PC speaker sound effects.
 
 The format of PC speaker sound files was reverse engineered and the details [http://www.doomworld.com/idgames/index.php?id=14832 published] as part of the development of this feature.  Before this, PC speaker sound effects remained one of the last remaining unknown lump formats in Doom WAD files.
