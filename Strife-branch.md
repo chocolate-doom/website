@@ -3,6 +3,11 @@
 
 Unlike the case of raven-branch, where the source code to Heretic and Hexen has been published under the [[wikipedia:GNU GPL|GNU GPL]], the Strife source code has never been publically released; indeed, the source code itself appears to have been lost by the developers, and Rogue, the company that originally developed Strife, no longer exists.  The Strife binaries must therefore be reverse engineered to develop an accurate source port.  This presents both technical and legal obstacles to development.
 
+== Demo video ==
+
+The following video shows strife-branch at revision 2075; a lot of functionality was incomplete at that point and many improvements have been made since then:
+{{#ev:youtube|0w60Oqhvr6Y}}
+
 == External links ==
 
 * [http://www.doomworld.com/vb/source-ports/49696-chocolate-strife-development/ Chocolate Strife development thread] on Doomworld.
