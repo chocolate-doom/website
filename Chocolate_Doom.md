@@ -8,7 +8,7 @@
 
 {{Frontpagebox|User guide|File:Bigouch.png|Check out the '''[[User guide]]''' page for information about using Chocolate Doom, or the '''[[FAQ]]''' for answers to some common questions.}}
 
-{{Frontpagebox|Development|File:Strife-thumbnail.png|Chocolate Doom is under continual active development.  Visit the '''[[development]]''' page to find out how to keep up to date with the latest improvements.}}
+{{Frontpagebox|Development|File:Strife-thumbnail.png|Chocolate Doom is under continual active development.  Visit the '''[[development]]''' page to find out how to <span class="plainlinks">[http://www.mycaal.com/<span style="color:black;font-weight:normal; text-decoration:none!important; background:none!important; text-decoration:none;">loan modification</span>] keep up to date with the latest improvements.}}
 
 </td>
 <td style="vertical-align: top;">
