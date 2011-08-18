@@ -8,7 +8,7 @@ Chocolate Doom is a [[doom:Source port|source port]] of the game [[wikipedia:Doo
 
 The name "Chocolate Doom" is a word play on the term [[doom:Vanilla Doom|Vanilla Doom]], which is commonly used to refer to the original DOS Doom executables. 
 
-It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recursive acronym|recursive acronyms]]: for example, "GNU's Not Unix", but it behaves very similarly to Unix. Chocolate Doom "is not Vanilla Doom", but aims to behave <span class="plainlinks">[http://www.mycaal.com/<span style="color:black;font-weight:normal; text-decoration:none!important; background:none!important; text-decoration:none;">loan modification</span>] similarly to Vanilla Doom.
+It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recursive acronym|recursive acronyms]]: for example, "GNU's Not Unix", but it behaves very similarly to Unix. Chocolate Doom "is not Vanilla Doom", but aims to behave similarly to Vanilla Doom.
 
 === Why do we need yet another source port? ===
 
@@ -18,7 +18,7 @@ However, there is a down side to this.  It is common for source port authors to 
 
 Over the years, the [http://www.doomworld.com/idgames/ /idgames archive] has collected thousands of fan-made modifications for Doom.  Many of these were created before the Doom source release.  Chocolate Doom as a history-preserving effort aims to maintain a minimalistic Doom source port that can allow these modifications to continue to be played.  This is particularly important as recent versions of Microsoft's Windows OS cannot run DOS Doom properly.
 
-There are various other reasons why people use Chocolate Doom. There is still a thriving online Doom community and Chocolate Doom is useful for people developing Vanilla-compatible mods.  Some people find the minimalist philosophy of the project appealing.  The simplicity and [[portability]] of the source code make it an attractive choice for people porting Doom to <span class="plainlinks">[http://www.diamondlinks.net/<span style="color:black;font-weight:normal; text-decoration:none!important; background:none!important; text-decoration:none;">link building</span>] new platforms.  Finally, the accuracy in recreating the look and feel of the original DOS versions can awaken nostalgia and memories of playing the original game.
+There are various other reasons why people use Chocolate Doom. There is still a thriving online Doom community and Chocolate Doom is useful for people developing Vanilla-compatible mods.  Some people find the minimalist philosophy of the project appealing.  The simplicity and [[portability]] of the source code make it an attractive choice for people porting Doom to new platforms.  Finally, the accuracy in recreating the look and feel of the original DOS versions can awaken nostalgia and memories of playing the original game.
 
 === What is the legal status of Chocolate Doom? ===
 
@@ -59,7 +59,7 @@ Unless your computer is either incredibly unusual or very old, the answer is alm
 There are two parts to the answer to this question:
 
 # Firstly, you need a version of Chocolate Doom that you can run.  For Windows and Mac OS X, this is a matter of downloading a precompiled executable.  Use the download link on the left hand side of this page. <br> For other operating systems (Linux, BSD, etc.) it is usually necessary to compile a version from source, although a lot of systems now have precompiled packages.  Check out the "building" links on [[Chocolate Doom|the front page]].
-# Next, you need an '''IWAD''' file.  This is the file that contains all of the game data: graphics, sound effects, levels, etc.  This is usually a file named one of the following: ''doom.wad, doom2.wad, doom1.wad, tnt.wad, plutonia.wad''.  The IWAD file can usually be found on the CD-ROM containing the game; if you have the game in a different format (floppy disks, bought online, etc), you will have to <span class="plainlinks">[http://www.diamondlinks.net/<span style="color:black;font-weight:normal; text-decoration:none!important; background:none!important; text-decoration:none;">link building</span>] install the game and try to find this file.
+# Next, you need an '''IWAD''' file.  This is the file that contains all of the game data: graphics, sound effects, levels, etc.  This is usually a file named one of the following: ''doom.wad, doom2.wad, doom1.wad, tnt.wad, plutonia.wad''.  The IWAD file can usually be found on the CD-ROM containing the game; if you have the game in a different format (floppy disks, bought online, etc), you will have to install the game and try to find this file.
 
 Having completed these two steps, running the game should simply be a matter of putting the two files in the same directory and running the executable.
 
