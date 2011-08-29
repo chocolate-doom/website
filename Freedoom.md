@@ -14,5 +14,5 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 
 == External links ==
 
-* [http://freedoom.sourceforge.net/ Freedoom website]
+* [http://www.nongnu.org/freedoom/ Freedoom website]
 * [http://www.doomworld.com/idgames/ idgames archive]
