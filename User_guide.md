@@ -11,7 +11,7 @@ Chocolate Doom can be played online and includes enhanced network code compared 
 * For basic instructions, see the [[Multiplayer]] page.
 * The Lobby-driven Multiplayer client [[Doomwire|Doomwire]] allows you to find other players to play against.
 * [http://master.chocolate-doom.org/ The master server] tracks active Chocolate Doom servers.
-* [http://skulltag.net/doomseeker/ DoomSeeker] also supports Chocolate Doom.
+* [http://doomseeker.drdteam.org/ Doomseeker] also supports Chocolate Doom.
 
 == Online assistance == 
 
