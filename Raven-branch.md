@@ -48,6 +48,6 @@ The definitive list of remaining tasks can be found in [https://chocolate-doom.s
 == External links ==
 
 * [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/branches/raven-branch/ raven-branch] source code.
-* [http://oregonstate.edu/~delbelb/chocolate-raven-win32/ raven-branch] Win32 builds.
+* [http://people.oregonstate.edu/~delbelb/chocolate-raven-win32/ raven-branch] Win32 builds.
 
 [[Category:Branches]]
