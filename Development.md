@@ -17,8 +17,8 @@ Chocolate Doom is designed to be easily forked so that people can develop their 
 
 If you're a Windows user you can download prebuilt Windows binaries of the bleeding edge versions:
 
-* [http://oregonstate.edu/~delbelb/chocolate-doom-win32/ Latest build] of trunk.
-* [http://oregonstate.edu/~delbelb/chocolate-raven-win32/ Latest build] of the experimental [[raven-branch]]
+* [http://people.oregonstate.edu/~delbelb/chocolate-doom-win32/ Latest build] of trunk.
+* [http://people.oregonstate.edu/~delbelb/chocolate-raven-win32/ Latest build] of the experimental [[raven-branch]]
 * [http://people.oregonstate.edu/~delbelb/chocolate-strife-win32/ Latest build] of the experimental [[strife-branch]]
 
 === Compiling ===
