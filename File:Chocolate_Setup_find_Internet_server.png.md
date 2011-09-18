@@ -1,0 +1,1 @@
+New feature from [[v2-branch]] that allows Internet and LAN servers to be found and selected automatically from within the setup tool.
