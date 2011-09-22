@@ -13,7 +13,6 @@ The following video shows strife-branch at revision 2075; a lot of functionality
 == External links ==
 
 * [http://www.doomworld.com/vb/source-ports/49696-chocolate-strife-development/ Chocolate Strife development thread] on Doomworld.
-* [http://people.oregonstate.edu/~delbelb/chocolate-strife-win32/ Chocolate Strife SVN builds for Windows]
 * [http://www.youtube.com/watch?v=0w60Oqhvr6Y YouTube video of strife-branch]
 
 [[Category:branches]]
