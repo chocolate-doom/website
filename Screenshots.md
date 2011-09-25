@@ -53,9 +53,9 @@ Chocolate Doom can be played over the internet either directly peer to peer or u
 Image:Multi-waiting.png
 </gallery>
 
-== Development branches ==
+== Version 2 ==
 
-The experimental [[raven-branch]] aims to add [[doom:Heretic|Heretic]] and [[doom:Hexen|Hexen]] support, while [[strife-branch]] is developing support for [[doom:Strife|Strife]]. These branches are currently in a beta state and various work remains before these changes can be merged back to the mainline code.
+Version 2 of Chocolate Doom is developing on [[v2-branch]]. This will add support for [[doom:Heretic|Heretic]], [[doom:Hexen|Hexen]] and [[doom:Strife|Strife]]. The branch is currently in a beta state and various work remains before version 2 will be released.
 
 <gallery>
 Image:Chocolate-heretic.png |[[doom:Heretic|Heretic]]
