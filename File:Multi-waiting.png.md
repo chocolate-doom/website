@@ -1,1 +1,3 @@
 Waiting to play...
+
+[[Category:Setup tool screenshots]]
