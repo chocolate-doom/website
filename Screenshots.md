@@ -30,6 +30,8 @@ Image:Chocolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
 </gallery>
 
+[[:Category:Platform screenshots|More platform screenshots...]]
+
 == TCs ==
 
 Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
