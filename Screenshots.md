@@ -47,6 +47,8 @@ Image:Chocolate-hacx.png|[[Hacx]]
 Image:Obituary.png|[[Obituary]]
 </gallery>
 
+[[:Category:WAD screenshots|More WAD screenshots...]]
+
 == Multiplayer ==
 
 Chocolate Doom can be played over the internet either directly peer to peer or using a dedicated server.
