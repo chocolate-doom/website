@@ -32,7 +32,7 @@ Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC
 
 [[:Category:Platform screenshots|More platform screenshots...]]
 
-== TCs ==
+== Mods and TCs ==
 
 Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
 
@@ -46,6 +46,10 @@ Image:Fistful-of-doom.png|[[Fistful of Doom]]
 Image:Chocolate-hacx.png|[[Hacx]]
 Image:Obituary.png|[[Obituary]]
 </gallery>
+
+Its [[compatibility]] features also allow problematic levels such as [[Doomsday of UAC]] to be played:
+
+[[Image:Chocolate-uac_dead.png|320px]]
 
 [[:Category:WAD screenshots|More WAD screenshots...]]
 
@@ -66,9 +70,3 @@ Image:Chocolate-heretic.png |[[doom:Heretic|Heretic]]
 Image:Chocolate-hexen.png   |[[doom:Hexen|Hexen]]
 File:Strife-linux.png       |[[doom:Strife|Strife]]
 </gallery>
-
-== WADs ==
-
-[[Image:Chocolate-uac_dead.png|320px]]
-
-Chocolate Doom's [[compatibility]] allows some old levels such as [[Doomsday of UAC]] to be played.
