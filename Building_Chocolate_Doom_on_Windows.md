@@ -18,19 +18,23 @@ Go through the setup program until the point where you are prompted to select wh
 * automake1.8
 * autoconf2.5
 * bash
-* curl
 * gcc-mingw-core
 * gcc-mingw-g++
 * make
 * python
 * subversion
+* wget
 * w32api
 
 Having selected the necessary packages, click "next" to begin the install process.  If you are installing Cygwin for the first time it may take a while to download and install all of the packages.
 
 == Auto-build script ==
 
-Next, download the [http://www.chocolate-doom.org/build-chocolate-doom auto-build script].  You will need to run this from the Cygwin Bash shell.  You have the option of either building the latest stable release, or the latest bleeding-edge version from the Subversion repository.
+Next, download the [http://www.chocolate-doom.org/build-chocolate-doom auto-build script]. You can use ''wget'' to do this from the Cygwin Bash shell:
+
+ wget http://www.chocolate-doom.org/build-chocolate-doom
+
+Next you need to run the script. You have the option of either building the latest stable release, or the latest bleeding-edge version from the Subversion repository.
 
 For the stable version, type:
  sh build-chocolate-doom
