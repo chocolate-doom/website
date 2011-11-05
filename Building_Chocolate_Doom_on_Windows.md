@@ -11,7 +11,7 @@ Developers who are unhappy with this arrangement can use the [[Building Chocolat
 
 The first step is to install [http://cygwin.com/ Cygwin]. Cygwin has a graphical setup wizard that makes setting it up easy - simply download and run ''setup.exe'' from the website.
 
-If you already have Cygwin installed, follow through the instructions in this stage and re-run the setup program to make sure you have all the packages below installed.
+If you already have Cygwin installed, re-run the setup program again, and follow through the instructions in this section to make sure you have all the packages below installed.
 
 Go through the setup program until the point where you are prompted to select which packages you want to install. Click the "view" button at the top right of the screen and select "full" to get a single list of packages sorted by name, and select the following packages:
 
