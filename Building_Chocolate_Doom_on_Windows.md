@@ -13,7 +13,7 @@ The first step is to install [http://cygwin.com/ Cygwin]. Cygwin has a graphical
 
 If you already have Cygwin installed, re-run the setup program again, and follow through the instructions in this section to make sure you have all the packages below installed.
 
-Go through the setup program until the point where you are prompted to select which packages you want to install. Click the "view" button at the top right of the screen and select "full" to get a single list of packages sorted by name, and select the following packages:
+Go through the setup program until the point where you are prompted to select which packages you want to install. Click the "view" button at the top right of the window and select "full" to get a single list of packages sorted by name, and select the following packages:
 
 * automake1.8
 * autoconf2.5
