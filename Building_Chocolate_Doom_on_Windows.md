@@ -9,9 +9,11 @@ Developers who are unhappy with this arrangement can use the [[Building Chocolat
 
 == Installing Cygwin ==
 
-The first step is to install [http://cygwin.com/ Cygwin]. If you already have Cygwin installed, you will want to re-run the setup program to check that you have all the necessary packages installed.
+The first step is to install [http://cygwin.com/ Cygwin]. Cygwin has a graphical setup wizard that makes setting it up easy - simply download and run ''setup.exe'' from the website.
 
-The following packages must be selected in the installer (click the "view" button at the top right of the screen and select "full" to get a linear list of packages sorted by name):
+If you already have Cygwin installed, follow through the instructions in this stage and re-run the setup program to make sure you have all the packages below installed.
+
+Go through the setup program until the point where you are prompted to select which packages you want to install. Click the "view" button at the top right of the screen and select "full" to get a single list of packages sorted by name, and select the following packages:
 
 * automake1.8
 * autoconf2.5
