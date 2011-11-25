@@ -19,8 +19,9 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ; -nosound: Disable all sound output. 
 ; -respawn: Monsters respawn after being killed. 
 ; -skill &lt;skill&gt;: Set the game skill, 1-5 (1: easiest, 5: hardest).  A skill of 0 disables all monsters. 
+; -statdump <file>: Save statistics to a file after each levels. 
 ; -turbo &lt;x&gt;: Turbo mode.  The player's speed is multiplied by x%.  If unspecified, x defaults to 200.  Values are rounded up to 10 and down to 400. 
-; -warp [&lt;x&gt; &lt;y&gt; | &lt;xy&gt;]: Start a game immediately, warping to ExMy (Doom 1) or MAPxy (Doom 2) 
+; -warp [&lt;x&gt; &lt;y&gt; | &lt;xy&gt;]: Start a game immediately, warping to ExMy (Doom 1) or MAPxy (Doom 2)
 
 === Compatibility ===
 ; -gameversion &lt;version&gt;: Emulate a specific version of Doom.  Valid values are "1.9", "ultimate" and "final". 
