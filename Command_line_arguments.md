@@ -47,8 +47,9 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Command line argum
 ; -nomouse: Disable the mouse. 
 ; -nonovert: Enable vertical mouse movement. 
 ; -novert: Disable vertical mouse movement. 
+; -scanline: Emulate scanlines found in CRT monitors (require the size of the window or of the screen to be 1600x1200). 
 ; -width &lt;x&gt;: Specify the screen width, in pixels. 
-; -window: Run in a window. 
+; -window: Run in a window.
 
 === Networking options ===
 ; -altdeath: Start a deathmatch 2.0 game.  Weapons do not stay in place and all items respawn after 30 seconds. 
