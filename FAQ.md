@@ -34,21 +34,22 @@ The source code to Heretic and Hexen was also made available under the GPL by Ra
 
 The following games can be played:
 
-* Doom (including the shareware and registered versions, and the Ultimate Doom expansion pack)
-* Doom II
-* Final Doom (TNT:Evilution, and the Plutonia Experiment)
+* [[doom:Doom|Doom]] (including the shareware and registered versions, and the [[doom:Ultimate Doom|Ultimate Doom]] expansion pack)
+* [[doom:Doom II|Doom II]]
+* [[doom:Final Doom|Final Doom]] (TNT:Evilution, and the Plutonia Experiment)
 * [[Chex Quest]]
 
 It is also possible to play these expansion packs and commercial games, each of which requires one of the above:
 
-* The Master Levels for Doom II
-* Hacx
+* [[doom:Master Levels for Doom II|The Master Levels for Doom II]]
+* [[doom:Hacx|Hacx]]
 
-Support for the following games is currently under development on the [[raven-branch]]:
+Support for the following games is currently under development on the [[v2-branch]]:
 
-* Heretic
-* Hexen
-* Hexen: Deathkings of the Dark Citadel (expansion pack)
+* [[doom:Heretic|Heretic]]
+* [[doom:Hexen|Hexen]]
+* [[doom:Hexen: Deathkings of the Dark Citadel|Hexen: Deathkings of the Dark Citadel (expansion pack)]]
+* [[doom:Strife|Strife]]
 
 === Will Chocolate Doom run on my computer? ===
 
