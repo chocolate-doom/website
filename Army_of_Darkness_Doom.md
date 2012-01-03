@@ -16,3 +16,7 @@ The following are instructions on how to play '''Army of Darkness Doom''' under 
  chocolate-doom -merge aoddoom2.wad -deh aoddoom2.deh
 
 [[Category:TCs]]
+
+[http://www.prlog.org/11289974-phone-number-lookup-verizon-phone-number-reverse-lookup-to-get-information-you-need-quickly.html reverse lookup]
+
+[http://thetvtopc.com/Reverse_Cell_Phone_Lookup_Number reverse phone lookup cell]
