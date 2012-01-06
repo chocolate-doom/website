@@ -1,4 +1,4 @@
-[[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows]]
+[[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows XP]]
 The official way of building Chocolate Doom on Windows is [[Building Chocolate Doom on Windows|using Cygwin]].  However, the Chocolate Doom source code comes with alternative project files for building the code using Code::Blocks and Microsoft Visual Studio, for people who are more comfortable with those environments.
 
 You may find that these project files are sometimes slightly out of date and not up-to-date with the latest changes to the source code.  You're welcome to use these alternative build systems if you're more comfortable with them, but bear in mind that they are "unofficial". 
