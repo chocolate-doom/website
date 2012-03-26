@@ -120,6 +120,22 @@ These things were not possible in the original Doom.  It is common for many othe
 
 A good justification for this decision is that the game was not designed with these features in mind.  For example, the final boss battle in Doom II specifically relies on it being impossible to aim downwards.  Similarly, there are places in the game where the ability to jump allows various tricks that would not otherwise be possible and were never intended to be possible.
 
+=== Why does the game crash just after the title screen appears? ===
+
+A few seconds after showing the title screen, Doom starts playing the first demo. If you are using an old version of the Doom IWAD file, demo playback will fail and the game will exit with an error message like this:
+
+ Error: Demo is from a different game version!
+ (read 108, should be 109)
+ 
+ *** You may need to upgrade your version of Doom to v1.9. ***
+     See: http://doomworld.com/files/patches.shtml
+     This appears to be v1.8.
+
+There are several ways to solve this problem:
+* If you are running with the shareware IWAD file, you can simply download the v1.9 IWAD file: the easiest way is to download the [http://www.doomworld.com/idgames/?id=7053 Windows port of Doom] and extract the file DOOM1.WAD.
+* If you are using a commercial IWAD file, upgrading is more complicated. You need to use one of the [http://doomworld.com/files/patches.shtml official upgrade patches] to upgrade to v1.9 of Doom. The patch file you need depends on the version you currently have - the error message tells you what version you currently appear to be using.
+* If all of this seems too complicated or too much effort, simply make sure you quickly start a game before the first demo starts. On most IWAD versions, the game will still play mostly correctly.
+
 === Why does the game crash when I access the options menu? ===
 
 You probably have your mouse sensitivity set too high.  The Doom options menu has a slider that allows the mouse sensitivity to be controlled; however, it has only a very limited range.  It is common for experienced players to set a mouse sensitivity that is much higher than what can be set via the options menu.  The setup program allows a larger range of values to be set.
