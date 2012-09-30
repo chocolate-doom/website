@@ -1,8 +1,8 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
-'''cndoom-branch''' is a Chocolate Doom modification for COMPET-n.
+'''cndoom-branch''' is a Chocolate Doom v1.x modification for COMPET-N.
 
-Features:
+Current features:
 
 - ingame and intermission timer with miliseconds
 
@@ -24,6 +24,6 @@ ToDo:
 
 ==External links==
 *[https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/cndoom Competition Doom SVN]
-*[http://doom.com.hr/ Competition Doom homepage]
+*[http://doom.com.hr/compet-n/ Competition Doom homepage]
 
 [[Category:Branches]]
