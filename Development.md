@@ -8,6 +8,7 @@ You can browse the Chocolate Doom source code [http://chocolate-doom.svn.sourcef
 Major Chocolate Doom features are developed on separate branches and merged to trunk when complete. There is a list of branches [[:Category:Branches|here]].  For now the active one is:
 
 * [[v2-branch]] - developing support for Heretic, Hexen and Strife.
+* [[cndoom-branch]] - developing advanced features (ingame timer, mouse, resolution,...) for COMPET-N
 
 Chocolate Doom is designed to be easily forked so that people can develop their own modified versions if they wish.  There is a list of forks [[:Category:Forks|here]].
 
