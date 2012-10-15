@@ -1,6 +1,6 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
-'''cndoom-branch''' is a Chocolate Doom v1.x modification for COMPET-N.
+'''cndoom-branch''' is a Chocolate Doom v1.x modification for [[doom:Compet-n|Compet-n]].
 
 Current features:
 
