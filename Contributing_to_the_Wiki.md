@@ -4,7 +4,7 @@ Even if you are not a programmer, you can help out by contributing to the Chocol
 
 One aim of this site is to add instructions on how to play [[:Category:TCs|TCs]] under Chocolate Doom.  You can help by adding pages for TCs which have not yet been documented.
 
-Include a screenshot of the TC on the page.  Please run Chocolate Doom in windowed mode, and take a screenshot so that the title bar is visible; this demonstrates that the TC is running in Chocolate Doom. [http://papertopics.org/term-paper.php good paper topics]
+Include a screenshot of the TC on the page.  Please run Chocolate Doom in windowed mode, and take a screenshot so that the title bar is visible; this demonstrates that the TC is running in Chocolate Doom.
 
 A list of well-known TCs can be found [[doom:List of WADs|here]].  Be sure to only try those listed as "Vanilla Doom" in the "Engine" column.
 
