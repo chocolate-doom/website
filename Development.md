@@ -1,14 +1,14 @@
 [[Image:Strife-linux.png|thumb|right|Chocolate Strife, currently under development.]]
-Chocolate Doom is under active development and aims for a roughly three month release cycle.  If you're a fan you might want to keep up to date with the latest bleeding edge pre-release version [https://sourceforge.net/scm/?type=svn&group_id=144368 from the Subversion repository].
+Chocolate Doom is under active development and aims for a roughly three month release cycle. If you're a fan you might want to keep up to date with the latest bleeding edge pre-release version [https://sourceforge.net/scm/?type=svn&group_id=144368 from the Subversion repository].
 
-You can browse the Chocolate Doom source code [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/ here].  You can track new developments [http://cia.vc/stats/project/Chocolate%20Doom on CIA].  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
+You can browse the Chocolate Doom source code [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/ here]. You can track new developments [http://cia.vc/stats/project/Chocolate%20Doom on CIA].  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
 
 == Forks and branches ==
 
-Major Chocolate Doom features are developed on separate branches and merged to trunk when complete. There is a list of branches [[:Category:Branches|here]].  For now the active one is:
+Major Chocolate Doom features are developed on separate branches and merged to trunk when complete. There is a list of branches [[:Category:Branches|here]]. For now the active ones are:
 
 * [[v2-branch]] - developing support for Heretic, Hexen and Strife.
-* [[cndoom-branch]] - developing advanced features (ingame timer, mouse, resolution,...) for COMPET-N
+* [[cndoom-branch]] - developing advanced features (ingame timer, mouse, resolution,...) for [[doom:Compet-n|Compet-n]].
 
 Chocolate Doom is designed to be easily forked so that people can develop their own modified versions if they wish.  There is a list of forks [[:Category:Forks|here]].
 
