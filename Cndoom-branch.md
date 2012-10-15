@@ -17,7 +17,7 @@ ToDo:
 
 - high resolution
 
-- Zdoom mouse
+- ZDoom mouse
 
 - video dumping (mp4)
 
