@@ -34,8 +34,28 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 |-
 |[[doom:Eternal Doom|Eternal Doom]] || [http://www.doomworld.com/idgames/index.php?id=8688 eternal.zip]
 |-
+|[[doom:Scythe|Scythe]] || [http://www.doomworld.com/idgames/index.php?id=11944 scythe.zip]
+|-
+|[[doom:Alien Vendetta|Alien Vendetta]] || [http://www.doomworld.com/idgames/index.php?id=11790 av.zip]
+|-
+|[[doom:STRAIN|STRAIN]] || [http://www.doomworld.com/idgames/index.php?id=8467 strain10.zip]
+|-
 |}
 
+More Doom 2 MegaWADs can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
+
+=== Doom 1 MegaWADs (for doom.wad) ===
+
+{| {{prettytable}}
+|-
+!MegaWAD || idgames link
+|-
+|[[doom:Base Ganymede|Base Ganymede]] || [http://www.doomworld.com/idgames/index.php?id=16694 bgcomp.zip]
+|-
+|[[doom:Doom the Way id Did|Doom the Way id Did]] || [http://www.doomworld.com/idgames/index.php?id=16721 dtwid.zip]
+|}
+
+More Doom 1 MegaWADs can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
 
 == External links ==
 
