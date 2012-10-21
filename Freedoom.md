@@ -10,7 +10,32 @@ Simple instructions:
 
  chocolate-doom -file ''filename.wad''
 
+== Suggested MegaWADs ==
+
 The [[doom:idgames archive|idgames archive]] is a good place to find WADs to play with.
+
+=== Doom 2 MegaWADs (for doom2.wad) ===
+
+{| {{prettytable}}
+|-
+!MegaWAD || idgames link
+|-
+|[[doom:Memento Mori|Memento Mori]] || [http://www.doomworld.com/idgames/?id=4855 mm.zip]
+|-
+|[[doom:Memento Mori II|Memento Mori II]] || [http://www.doomworld.com/idgames/?id=6562 mm2.zip]
+|-
+|[[doom:The Darkening|The Darkening]] || [http://www.doomworld.com/idgames/?id=9907 darken.zip]
+|-
+|[[doom:Plutonia 2|Plutonia 2]] || [http://www.doomworld.com/idgames/?id=15550 pl2.zip]
+|-
+|[[doom:Icarus: Alien Vanguard|Icarus: Alien Vanguard]] || [http://www.doomworld.com/idgames/index.php?id=5191 icarus.zip]
+|-
+|[[doom:Requiem|Requiem]] || [http://www.doomworld.com/idgames/index.php?id=8194 requiem.zip]
+|-
+|[[doom:Eternal Doom|Eternal Doom]] || [http://www.doomworld.com/idgames/index.php?id=8688 eternal.zip]
+|-
+|}
+
 
 == External links ==
 
