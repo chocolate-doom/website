@@ -12,7 +12,7 @@ Simple instructions:
 
 == Suggested MegaWADs ==
 
-The [[doom:idgames archive|idgames archive]] is a good place to find WADs to play with.
+The [[doom:idgames archive|idgames archive]] is a good place to find WADs to play with. Not all levels will work with Chocolate Doom - look for levels that are marked as "Vanilla compatible", will run with "Doom 1.9", or "no advanced engine required".
 
 === Doom 2 MegaWADs (for doom2.wad) ===
 
@@ -20,23 +20,23 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 |-
 !MegaWAD || idgames link
 |-
+|[[doom:Alien Vendetta|Alien Vendetta]] || [http://www.doomworld.com/idgames/index.php?id=11790 av.zip]
+|-
+|[[doom:The Darkening|The Darkening]] || [http://www.doomworld.com/idgames/?id=9907 darken.zip]
+|-
+|[[doom:Eternal Doom|Eternal Doom]] || [http://www.doomworld.com/idgames/index.php?id=8688 eternal.zip]
+|-
+|[[doom:Icarus: Alien Vanguard|Icarus: Alien Vanguard]] || [http://www.doomworld.com/idgames/index.php?id=5191 icarus.zip]
+|-
 |[[doom:Memento Mori|Memento Mori]] || [http://www.doomworld.com/idgames/?id=4855 mm.zip]
 |-
 |[[doom:Memento Mori II|Memento Mori II]] || [http://www.doomworld.com/idgames/?id=6562 mm2.zip]
 |-
-|[[doom:The Darkening|The Darkening]] || [http://www.doomworld.com/idgames/?id=9907 darken.zip]
-|-
 |[[doom:Plutonia 2|Plutonia 2]] || [http://www.doomworld.com/idgames/?id=15550 pl2.zip]
-|-
-|[[doom:Icarus: Alien Vanguard|Icarus: Alien Vanguard]] || [http://www.doomworld.com/idgames/index.php?id=5191 icarus.zip]
 |-
 |[[doom:Requiem|Requiem]] || [http://www.doomworld.com/idgames/index.php?id=8194 requiem.zip]
 |-
-|[[doom:Eternal Doom|Eternal Doom]] || [http://www.doomworld.com/idgames/index.php?id=8688 eternal.zip]
-|-
 |[[doom:Scythe|Scythe]] || [http://www.doomworld.com/idgames/index.php?id=11944 scythe.zip]
-|-
-|[[doom:Alien Vendetta|Alien Vendetta]] || [http://www.doomworld.com/idgames/index.php?id=11790 av.zip]
 |-
 |[[doom:STRAIN|STRAIN]] || [http://www.doomworld.com/idgames/index.php?id=8467 strain10.zip]
 |-
@@ -61,3 +61,5 @@ More Doom 1 MegaWADs can be found in the [http://www.doomworld.com/idgames/index
 
 * [http://www.nongnu.org/freedoom/ Freedoom website]
 * [http://www.doomworld.com/idgames/ idgames archive]
+
+__NOTOC__
