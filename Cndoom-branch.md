@@ -5,21 +5,54 @@
 Current features:
 
 - ingame and intermission timer with miliseconds
-
 - removed message box after recording demos
-
 - quickstart so mouse and keyboard can be adjusted before game starts
+- default settings: remove vanilla limits for demo and savegames
 
 
 ToDo:
 
 - LMP metadata
-
 - high resolution
-
 - ZDoom mouse
-
 - video dumping (mp4)
+
+The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+
+== Dependencies ==
+
+The first step is to install the necessary dependencies for building Competition Doom.  The easiest way to do this is to use the Debian package manager.  Run this command as root:
+
+ aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
+
+Several packages will be installed. 
+
+{{Generic package build and install}}
+
+== Tracking Subversion ==
+
+To keep up to date with the latest bleeding-edge version of Chocolate Doom, you can build the latest version from the Subversion repository.
+
+To do this, you need to install some extra packages:
+
+ aptitude install automake autoconf libtool subversion
+
+Check out the latest version from Subversion:
+
+ svn co https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/cndoom
+
+Then build the package:
+
+ cd cndoom
+ ./autogen.sh
+ make
+ make install
+
+To keep up to date, periodically run these commands to update your checkout and rebuild:
+
+ svn up
+ make
+ make install
 
 
 ==External links==
