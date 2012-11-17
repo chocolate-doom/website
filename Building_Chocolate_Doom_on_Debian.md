@@ -17,7 +17,7 @@ To keep up to date with the latest bleeding-edge version of Chocolate Doom, you 
 
 To do this, you need to install some extra packages:
 
- aptitude install automake1.8 autoconf libtool subversion
+ aptitude install automake autoconf libtool subversion
 
 Check out the latest version from Subversion:
 
