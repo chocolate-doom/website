@@ -20,7 +20,7 @@ Image:Windows-Mobile-009.png|[[Wikipedia:Windows Mobile|Microsoft Windows Mobile
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
-Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|Linux]] (ARM) - running on the [http://beaversource.oregonstate.edu/projects/cspfl OSWALD] computer science learning platform.
+Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|Linux]] (ARM) - running on the [http://eecs.oregonstate.edu/education/hardware/oswald/ OSWALD] computer science learning platform.
 Image:Chocolate Doom AmigaOS 4.jpg|[[Wikipedia:AmigaOS|AmigaOS 4]]
 Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku]]
 
