@@ -2,28 +2,33 @@
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
 '''cndoom-branch''' is a Chocolate Doom v1.x modification for [[doom:Compet-n|Compet-n]].
 
-== Current features ==
+== Features ==
+
+- quickstart (original Doom behavior)
+
+- removed all Vanilla Doom limits (no more crashes)
 
 - ingame and intermission timer with miliseconds
 
 - removed message box after recording demos
 
-- quickstart so mouse and keyboard can be adjusted before game starts
-
-- default settings: remove vanilla limits for demo and savegames
 
 
-ToDo (under discussion):
+ToDo:
 
-- LMP metadata
+- client/server demo verification
+
+- LMP metadata (partially done)
 
 - high resolution
 
-- ZDoom mouse
+- stats dumping per level and total for movies
 
-- video dumping (mp4)
+- more stats on cooperative intermission screen
 
+- launcher (like PrBoom++)
 
+- Android app
 
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
 
