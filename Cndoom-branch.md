@@ -14,6 +14,8 @@
 
 - always preload/precache sounds
 
+- show intermission screen for ExM8
+
 
 ToDo:
 
@@ -30,6 +32,11 @@ ToDo:
 - launcher (like PrBoom++)
 
 - Android app
+
+== Files ==
+
+[http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Download Competition Doom v0.2.4 for Windows (beta)]
+
 
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
 
