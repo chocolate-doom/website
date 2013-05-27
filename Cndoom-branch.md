@@ -1,10 +1,10 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
-'''cndoom-branch''' is a Chocolate Doom v2.x modification for [[doom:Compet-n|Compet-n]].
+'''cndoom-branch''' is a Chocolate Doom v2 modification for [[doom:Compet-n|Compet-n]].
 
 == Features ==
 
-- quickstart (original Doom behavior)
+- quickstart (original Doom behavior) - bugged in Choco v2
 
 - removed all Vanilla Doom limits (no more crashes)
 
@@ -33,9 +33,10 @@ ToDo:
 
 - Android app
 
-== Files ==
+== Download ==
 
-[http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Download Competition Doom v0.2.4 for Windows (beta)]
+[http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v2]
+[http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1]
 
 
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
