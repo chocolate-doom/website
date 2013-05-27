@@ -1,6 +1,6 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
-'''cndoom-branch''' is a Chocolate Doom v1.x modification for [[doom:Compet-n|Compet-n]].
+'''cndoom-branch''' is a Chocolate Doom v2.x modification for [[doom:Compet-n|Compet-n]].
 
 == Features ==
 
@@ -8,10 +8,11 @@
 
 - removed all Vanilla Doom limits (no more crashes)
 
-- ingame and intermission timer with miliseconds
+- ingame and intermission (NET games too) timer with miliseconds
 
 - removed message box after recording demos
 
+- always preload/precache sounds
 
 
 ToDo:
