@@ -61,7 +61,7 @@ To do this, you need to install some extra packages:
 
 Check out the latest version from Subversion:
 
- svn co https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/cndoom
+ svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom
 
 Then build the package:
 
@@ -78,7 +78,7 @@ To keep up to date, periodically run these commands to update your checkout and 
 
 
 ==External links==
-*[https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/branches/cndoom Competition Doom SVN]
+*[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
 
 [[Category:Branches]]
