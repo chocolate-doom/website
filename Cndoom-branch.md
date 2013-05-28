@@ -39,8 +39,7 @@ ToDo:
 
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1]
 
-
-The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+[http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
 
 == Dependencies ==
 
