@@ -64,18 +64,27 @@ Check out the latest version from Subversion:
 
  svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom
 
-Then build the package:
+To checkout to some other directory and not cndoom-X.X.X:
 
- cd cndoom
- ./autogen.sh
- make
- make install
+ svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom your_directory
+
+Download build script:
+
+ wget http://www.doom.com.hr/cndoom/build-cndoom
+
+Then just type:
+
+ ./build-cndoom
 
 To keep up to date, periodically run these commands to update your checkout and rebuild:
 
  svn up
- make
- make install
+ ./build-cndoom
+
+To build Windows executable on Linux type:
+
+ ./build-cndoom -host=i586-mingw32msvc
+
 
 ==External links==
 *[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
