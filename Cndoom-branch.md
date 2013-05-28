@@ -54,7 +54,7 @@ Several packages will be installed.
 
 == Tracking Subversion ==
 
-To keep up to date with the latest bleeding-edge version of Chocolate Doom, you can build the latest version from the Subversion repository.
+To keep up to date with the latest bleeding-edge version of Competition Doom, you can build the latest version from the Subversion repository.
 
 To do this, you need to install some extra packages:
 
@@ -76,7 +76,6 @@ To keep up to date, periodically run these commands to update your checkout and 
  svn up
  make
  make install
-
 
 ==External links==
 *[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
