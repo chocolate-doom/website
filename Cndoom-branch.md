@@ -34,7 +34,6 @@ ToDo:
 - Android app
 
 == Download ==
-
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v2]
 
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1]
@@ -42,7 +41,6 @@ ToDo:
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
 
 == Building ==
-
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
 
 == Dependencies ==
@@ -53,7 +51,38 @@ The first step is to install the necessary dependencies for building Competition
 
 Several packages will be installed. 
 
-{{Generic package build and install}}
+Download the source package and extract it, for example:
+
+ tar xzf cndoom-0.2.4.tar.gz
+
+Then build the package:
+
+ cd cndoom
+ ./autogen.sh
+ ./configure
+ make
+ make install
+
+The final "make install" command should be run as root.
+
+
+You can also just use build script (c) fraggle which will download and build latest available version:
+
+ wget http://www.doom.com.hr/cndoom/build-cndoom
+
+Then just type:
+
+ ./build-cndoom
+
+If building stops, then do this:
+
+ cd cndoom/build/cndoom-X.X.X
+ ./build-cndoom
+
+To build Windows executable on Linux type:
+
+ ./build-cndoom -host=i586-mingw32msvc
+
 
 == Tracking Subversion ==
 
