@@ -3,11 +3,11 @@
 
 Download the source package and extract it, for example:
 
- tar xzf cndoom-0.3.0.tar.gz
+ tar xzf chocolate-doom-1.7.tar.gz
 
 Then build the package:
 
- cd cndoom
+ cd chocolate-doom
  ./configure
  make
  make install
