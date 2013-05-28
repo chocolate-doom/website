@@ -13,3 +13,21 @@ Then build the package:
  make install
 
 The final "make install" command should be run as root.
+
+You can also just use build script (c) fraggle which will download latest available version:
+
+ wget http://www.doom.com.hr/cndoom/build-cndoom
+
+Then just type:
+
+ ./build-cndoom
+
+If building stops, then do this:
+
+ cd cndoom/build/cndoom-X.X.X
+ ./autogen.sh
+ ./build-cndoom
+
+To build Windows executable on Linux type:
+
+ ./build-cndoom -host=i586-mingw32msvc
