@@ -67,7 +67,7 @@ Check out the latest version from Subversion:
 
  svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom
 
-To checkout to some other directory and not cndoom-X.X.X:
+To checkout to some other directory and not cndoom-x.x.x:
 
  svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom your_directory
 
