@@ -68,24 +68,6 @@ To checkout to some other directory and not cndoom-X.X.X:
 
  svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom your_directory
 
-Download build script:
-
- wget http://www.doom.com.hr/cndoom/build-cndoom
-
-Then just type:
-
- ./build-cndoom
-
-To keep up to date, periodically run these commands to update your checkout and rebuild:
-
- svn up
- ./build-cndoom
-
-To build Windows executable on Linux type:
-
- ./build-cndoom -host=i586-mingw32msvc
-
-
 ==External links==
 *[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
