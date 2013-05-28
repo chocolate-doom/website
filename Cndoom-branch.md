@@ -41,6 +41,10 @@ ToDo:
 
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
 
+== Building ==
+
+The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+
 == Dependencies ==
 
 The first step is to install the necessary dependencies for building Competition Doom.  The easiest way to do this is to use the Debian package manager. Run this command as root:
