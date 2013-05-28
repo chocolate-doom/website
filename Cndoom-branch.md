@@ -44,9 +44,9 @@ The following are instructions for building Competition Doom under [http://www.d
 
 == Dependencies ==
 
-The first step is to install the necessary dependencies for building Competition Doom.  The easiest way to do this is to use the Debian package manager.  Run this command as root:
+The first step is to install the necessary dependencies for building Competition Doom.  The easiest way to do this is to use the Debian package manager. Run this command as root:
 
- aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging
+ aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging fluidsynth
 
 Several packages will be installed. 
 
