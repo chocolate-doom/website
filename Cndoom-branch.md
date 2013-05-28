@@ -68,6 +68,10 @@ To checkout to some other directory and not cndoom-X.X.X:
 
  svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom your_directory
 
+To keep up to date, periodically run these command to update your checkout:
+
+ svn up
+
 ==External links==
 *[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
