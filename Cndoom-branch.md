@@ -62,7 +62,7 @@ Download the source package and extract it, for example:
 
 Then build the package:
 
- cd cndoom
+ cd cndoom-0.2.4
  ./autogen.sh
  ./configure
  make
@@ -88,7 +88,6 @@ To build Windows executable on Linux type:
 To clean and rebuild Windows executables do:
 
  ./clean-cndoom
-
 
 == Tracking Subversion ==
 
