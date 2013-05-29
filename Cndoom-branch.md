@@ -6,15 +6,17 @@
 
 - quickstart (original Doom behavior) - bugged in Choco v2
 
-- removed all Vanilla Doom limits (no more crashes)
+- removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
-- ingame and intermission (NET games too) timer with miliseconds
+- configurable ingame and intermission (NET games too) timer with miliseconds
 
 - removed message box after recording demos
 
 - always preload/precache sounds
 
 - show intermission screen for ExM8
+
+- always run and novert turned on by default, show_endoom turned off
 
 
 ToDo:
@@ -33,6 +35,7 @@ ToDo:
 
 - Android app
 
+
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v2]
 
@@ -40,8 +43,10 @@ ToDo:
 
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
 
+
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+
 
 == Dependencies ==
 
@@ -66,22 +71,23 @@ Then build the package:
 The final "make install" command should be run as root.
 
 
-You can also just use build script (c) fraggle which will download and build latest available version:
+You can also just use build and clean scripts (c) fraggle which will download and build latest available version:
 
+ cd /root
  wget http://www.doom.com.hr/cndoom/build-cndoom
+ wget http://www.doom.com.hr/cndoom/clean-cndoom
 
 Then just type:
 
  ./build-cndoom
 
-If building stops, then do this:
-
- cd cndoom/build/cndoom-X.X.X
- ./build-cndoom
-
 To build Windows executable on Linux type:
 
  ./build-cndoom -host=i586-mingw32msvc
+
+To clean and rebuild Windows executables do:
+
+ ./clean-cndoom
 
 
 == Tracking Subversion ==
