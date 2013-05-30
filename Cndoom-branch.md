@@ -109,8 +109,15 @@ To keep up to date, periodically run these command to update your checkout:
 
  svn up
 
+
 ==External links==
 *[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
+
+
+==Help and contact==
+
+If you are interested in Competition Doom and want to help with coding or have ideas and comments, please contact us at cndoom@doom.com.hr.
+
 
 [[Category:Branches]]
