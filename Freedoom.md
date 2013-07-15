@@ -22,8 +22,6 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 |-
 |[[doom:Alien Vendetta|Alien Vendetta]] || [http://www.doomworld.com/idgames/index.php?id=11790 av.zip]
 |-
-|[[doom:The Darkening|The Darkening]] || [http://www.doomworld.com/idgames/?id=9907 darken.zip]
-|-
 |[[doom:Eternal Doom|Eternal Doom]] || [http://www.doomworld.com/idgames/index.php?id=8688 eternal.zip]
 |-
 |[[doom:Icarus: Alien Vanguard|Icarus: Alien Vanguard]] || [http://www.doomworld.com/idgames/index.php?id=5191 icarus.zip]
@@ -32,13 +30,11 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 |-
 |[[doom:Memento Mori II|Memento Mori II]] || [http://www.doomworld.com/idgames/?id=6562 mm2.zip]
 |-
-|[[doom:Plutonia 2|Plutonia 2]] || [http://www.doomworld.com/idgames/?id=15550 pl2.zip]
-|-
 |[[doom:Requiem|Requiem]] || [http://www.doomworld.com/idgames/index.php?id=8194 requiem.zip]
 |-
-|[[doom:Scythe|Scythe]] || [http://www.doomworld.com/idgames/index.php?id=11944 scythe.zip]
+|[[doom:Revolution!|Revolution!]] || [http://www.doomworld.com/idgames/index.php?id=11848 tvr.zip]
 |-
-|[[doom:STRAIN|STRAIN]] || [http://www.doomworld.com/idgames/index.php?id=8467 strain10.zip]
+|[[doom:Scythe|Scythe]] || [http://www.doomworld.com/idgames/index.php?id=11944 scythe.zip]
 |-
 |}
 
