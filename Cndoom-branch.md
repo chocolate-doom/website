@@ -36,14 +36,13 @@ ToDo:
 
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v2]
+[http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v2] (alpha)
 
-[http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1]
+[http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1] (beta and recommended)
 
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
 
 [http://www.doom.com.hr/cndoom/cnlaunch-1.3.zip Competition Doom launcher v1.3]
-
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
