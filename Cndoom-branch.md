@@ -18,22 +18,21 @@
 
 - always run and novert turned on by default, show_endoom turned off
 
+- launcher for easy recording or playback and wad selection
+
+- stats dumping per level and total for movies
 
 ToDo:
 
 - client/server demo verification
 
-- LMP metadata (partially done)
+- LMP metadata (partially done in v1)
 
-- high resolution
-
-- stats dumping per level and total for movies
+- high resolution?
 
 - more stats on cooperative intermission screen
 
-- launcher (like PrBoom++)
-
-- Android app
+- Android and iPhone app?
 
 
 == Download ==
@@ -42,6 +41,8 @@ ToDo:
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1]
 
 [http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
+
+[http://www.doom.com.hr/cndoom/cnlaunch-1.3.zip Competition Doom launcher v1.3]
 
 
 == Building ==
