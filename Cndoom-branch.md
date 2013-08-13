@@ -38,7 +38,7 @@ ToDo:
 
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows (beta) based on Choco v2] (alpha)
+[http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows (beta) based on Choco v2] (beta)
 
 [http://www.doom.com.hr/cndoom/cndoom-1.2.5-beta.zip Competition Doom v1.2.5 for Windows (beta) based on Choco v1] (beta and recommended)
 
