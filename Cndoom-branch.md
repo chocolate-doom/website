@@ -4,7 +4,7 @@
 
 == Features ==
 
-- quickstart (original Doom behavior) - bugged in Choco v2
+- quickstart (original Doom behavior) (bugged in v2.0.1)
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
@@ -18,24 +18,28 @@
 
 - do not end game after ExM8 (still needs some fixing)
 
-- always run and novert turned on by default, show_endoom turned off
-
-- launcher for easy recording or playback and wad selection (only for Windows)
+- always run and novert turned on by default, show_endoom turned off, screenblocks 10, gamma 4, jobspeed 29, ...
 
 - stats dumping per level and total for movies (-printstats)
+
+- LMP metadata (partially done in v1.2.5)
+
+
+- Windows launcher for easy recording or playback and WAD/PWAD selection
+
 
 ToDo:
 
 - client/server demo verification
 
-- LMP metadata (partially done in v1)
-
-- high resolution?
-
 - more stats on cooperative intermission screen
 
-- Android and iPhone app?
 
+Maybe:
+
+- high resolution
+
+- Android and iPhone app
 
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows (beta) based on Choco v2] (beta)
