@@ -16,11 +16,13 @@
 
 - show intermission screen for ExM8
 
+- do not end game after ExM8 (still needs some fixing)
+
 - always run and novert turned on by default, show_endoom turned off
 
-- launcher for easy recording or playback and wad selection
+- launcher for easy recording or playback and wad selection (only for Windows)
 
-- stats dumping per level and total for movies
+- stats dumping per level and total for movies (-printstats)
 
 ToDo:
 
@@ -36,13 +38,13 @@ ToDo:
 
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-0.2.4-beta.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v2] (alpha)
+[http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows (beta) based on Choco v2] (alpha)
 
-[http://www.doom.com.hr/cndoom/cndoom-0.2.4.zip Competition Doom v0.2.4 for Windows (beta) based on Choco v1] (beta and recommended)
+[http://www.doom.com.hr/cndoom/cndoom-1.2.5.zip Competition Doom v1.2.5 for Windows (beta) based on Choco v1] (beta and recommended)
 
-[http://www.doom.com.hr/cndoom/cndoom-0.2.4.tar.gz Latest source]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
 
-[http://www.doom.com.hr/cndoom/cnlaunch-1.3.zip Competition Doom launcher v1.3]
+[http://www.doom.com.hr/cndoom/cnlaunch-1.4.1.zip Competition Doom launcher v1.4.1]
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
@@ -58,11 +60,11 @@ Several packages will be installed.
 
 Download the source package and extract it, for example:
 
- tar xzf cndoom-0.2.4.tar.gz
+ tar xzf cndoom-2.0.1.tar.gz
 
 Then build the package:
 
- cd cndoom-0.2.4
+ cd cndoom-2.0.1
  ./autogen.sh
  ./configure
  make
