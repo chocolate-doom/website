@@ -1,10 +1,11 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
+[[File:cndlaunch.png|thumb|right|Windows launcher]]
 '''cndoom-branch''' is a Chocolate Doom v2 modification for [[doom:Compet-n|Compet-n]].
 
 == Features ==
 
-- quickstart (original Doom behavior) (bugged in v2.0.1)
+- quickstart enables you to move your mouse while Doom is loading (bugged in v2.0.1)
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
