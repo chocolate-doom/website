@@ -5,7 +5,7 @@
 
 == Features ==
 
-- quickstart enables you to move your mouse while Doom is loading (bugged in v2.0.1)
+- quickstart enables you to move your mouse while Doom is loading (delayed) only when recording demos (bugged in v2.0.1)
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
@@ -25,6 +25,7 @@
 
 - LMP metadata (partially done in v1.2.5)
 
+- should work on Windows 98, XP, 7, 8, MacOS and Linux
 
 - Windows launcher for easy recording or playback and WAD/PWAD selection
 
@@ -41,7 +42,6 @@ Maybe:
 - high resolution
 
 - Android and iPhone app
-
 
 == Requirements ==
 
