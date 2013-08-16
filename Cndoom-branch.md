@@ -49,7 +49,7 @@ For Windows:
 
 - DirectX 9.0c
 
-- Microsoft .NET Framework 2.0 or higher
+- Microsoft .NET Framework 2.0 or higher (required only for launcher)
 
 For Windows 9x, use -gdi command line option or change in cndoom.cfg video_driver to "windib"
 
