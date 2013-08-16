@@ -45,7 +45,7 @@ Maybe:
 
 == Requirements ==
 
-Windows
+For Windows:
 
 - DirectX 9.0c
 
