@@ -42,6 +42,15 @@ Maybe:
 
 - Android and iPhone app
 
+
+== Requirements ==
+
+For Windows 9x, use -gdi command line option or change in cndoom.cfg video_driver to "gdi"
+
+For Windows XP, Vista, 7, 8 and up, you need DirectX 9.0c [http://goo.gl/EPHuHo]
+
+
+
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows (beta) based on Choco v2] (beta)
 
