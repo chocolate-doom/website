@@ -1,7 +1,7 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
 [[File:cnlaunch.png|thumb|right|Windows launcher]]
-'''cndoom-branch''' is a Chocolate Doom v2 modification for [[doom:Compet-n|Compet-n]].
+'''cndoom-branch''' is a Chocolate Doom modification for [[doom:Compet-n|Compet-n]].
 
 == Features ==
 
