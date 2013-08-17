@@ -63,7 +63,7 @@ http://doom.com.hr/cndoom/support/
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
 
-[http://www.doom.com.hr/cndoom/cnlaunch-1.4.1.zip Competition Doom launcher v1.4.1]
+[http://www.doom.com.hr/cndoom/cnlaunch-1.4.2.zip Competition Doom launcher v1.4.2]
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
