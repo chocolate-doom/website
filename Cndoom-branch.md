@@ -5,7 +5,7 @@
 
 == Features ==
 
-- quickstart enables you to move your mouse while Doom is loading (delayed) only when recording demos (bugged in v2.0.1)
+- quickstart enables you to move your mouse while Doom is loading (delayed) only when recording demos
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
@@ -17,13 +17,13 @@
 
 - show intermission screen for ExM8
 
-- do not end game after ExM8 (still needs some fixing)
+- do not end game after ExM8
 
 - always run and novert turned on by default, show_endoom turned off, screenblocks 10, gamma 4, jobspeed 29, ...
 
 - stats dumping per level and total for movies (-printstats)
 
-- LMP metadata (partially done in v1.2.5)
+- LMP metadata (partially done)
 
 - should work on Windows 98, XP, 7, 8, MacOS and Linux
 
