@@ -141,4 +141,11 @@ To keep up to date, periodically run these command to update your checkout:
 If you are interested in Competition Doom and want to help with coding or have ideas and comments, please contact us at cndoom@doom.com.hr.
 
 
+==Bugs==
+
+Report bugs to our tracking system http://www.doom.com.hr/cndoom/bug/ or send to cndoom@doom.com.hr.
+
+
+
+
 [[Category:Branches]]
