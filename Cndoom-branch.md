@@ -5,7 +5,7 @@
 
 == Features ==
 
-- quickstart enables you to move your mouse while Doom is loading (delayed) only when recording demos
+- quickstart enables you to move your mouse while Doom is loading (delayed) when recording demo (in v2 you have to press fire while progress bar is loading to make it work)
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
@@ -23,25 +23,27 @@
 
 - stats dumping per level and total for movies (-printstats)
 
-- LMP metadata (partially done)
+- LMP metadata
 
-- should work on Windows 98, XP, 7, 8, MacOS and Linux
+- works on Windows 98, XP, 7, 8, MacOS and Linux
 
 - Windows launcher for easy recording or playback and WAD/PWAD selection
 
+- additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
 
-ToDo:
 
-- client/server demo verification
+ToDo for v2.0.3:
 
 - more stats on cooperative intermission screen
+- metadata is still missing: record time per map/total, kills, secrets, current date and time,...
 
 
-Maybe:
+Maybe one day:
 
+- client/server demo verification
 - high resolution
-
 - Android and iPhone app
+
 
 == Requirements ==
 
@@ -56,10 +58,9 @@ For Windows 9x, use -gdi command line option or change in cndoom.cfg video_drive
 All files, patches and fixes can be downloaded from here:
 http://doom.com.hr/cndoom/support/
 
-== Download ==
-[http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows (beta) based on Choco v2] (beta)
 
-[http://www.doom.com.hr/cndoom/cndoom-1.2.5-beta.zip Competition Doom v1.2.5 for Windows (beta) based on Choco v1] (beta and recommended)
+== Download ==
+[http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows based on Choco v2] (beta)
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
 
@@ -109,6 +110,7 @@ To build Windows executable on Linux type:
 To clean and rebuild Windows executables do:
 
  ./clean-cndoom
+
 
 == Tracking Subversion ==
 
