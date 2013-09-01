@@ -1,7 +1,9 @@
 [[Image:Strife-linux.png|thumb|right|Chocolate Strife, currently under development.]]
 Chocolate Doom is under active development and aims for a roughly three month release cycle. If you're a fan you might want to keep up to date with the latest bleeding edge pre-release version [https://sourceforge.net/scm/?type=svn&group_id=144368 from the Subversion repository].
 
-You can browse the Chocolate Doom source code [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/ here]. You can track new developments [http://cia.vc/stats/project/Chocolate%20Doom on CIA].  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
+You can browse the Chocolate Doom source code [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/ here]. Sourceforge has [https://sourceforge.net/p/chocolate-doom/code/commit_browser a page] that shows recent commits.  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
+
+Chocolate Doom will be switching to Git as its version control system in the near future: an experimental repository can be found [https://github.com/fragglet/chocolate-doom on GitHub].
 
 == Forks and branches ==
 
