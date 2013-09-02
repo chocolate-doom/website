@@ -5,7 +5,7 @@
 
 == Features ==
 
-- quickstart enables you to move your mouse while Doom is loading (delayed) when recording demo (in v2 you have to press fire while progress bar is loading to make it work)
+- quickstart enables you to move your mouse while Doom is loading (delayed) when recording demo
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
@@ -60,11 +60,11 @@ http://doom.com.hr/cndoom/support/
 
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-2.0.1-beta.zip Competition Doom v2.0.1 for Windows based on Choco v2] (beta)
+[http://www.doom.com.hr/cndoom/cndoom-2.0.2.zip Competition Doom v2.0.1 for Windows based on Choco v2] (test)
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
 
-[http://www.doom.com.hr/cndoom/cnlaunch-1.4.2.zip Competition Doom launcher v1.4.2]
+[http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
