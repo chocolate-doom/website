@@ -60,7 +60,7 @@ http://doom.com.hr/cndoom/support/
 
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-2.0.2.zip Competition Doom v2.0.1 for Windows based on Choco v2] (test)
+[http://www.doom.com.hr/cndoom/cndoom-2.0.2.zip Competition Doom v2.0.2 for Windows] (test)
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
 
