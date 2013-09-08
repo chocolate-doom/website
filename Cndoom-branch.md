@@ -35,13 +35,14 @@
 ToDo for v2.0.3:
 
 - more stats on cooperative intermission screen
-- metadata is still missing: record time per map/total, kills, secrets, current date and time,...
 
 
 Maybe one day:
 
 - client/server demo verification
+
 - high resolution
+
 - Android and iPhone app
 
 
