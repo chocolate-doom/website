@@ -65,7 +65,7 @@ http://doom.com.hr/cndoom/support/
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.2-linux.zip Competition Doom v2.0.2 for Linux]
 
-[http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.2.tar.gz Latest source]
 
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
 
@@ -83,11 +83,11 @@ Several packages will be installed.
 
 Download the source package and extract it, for example:
 
- tar xzf cndoom-2.0.1.tar.gz
+ tar xzf cndoom-2.0.2.tar.gz
 
 Then build the package:
 
- cd cndoom-2.0.1
+ cd cndoom-2.0.2
  ./autogen.sh
  ./configure
  make
