@@ -63,6 +63,8 @@ http://doom.com.hr/cndoom/support/
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.2-win.zip Competition Doom v2.0.2 for Windows]
 
+[http://www.doom.com.hr/cndoom/cndoom-2.0.2-linux.zip Competition Doom v2.0.2 for Linux]
+
 [http://www.doom.com.hr/cndoom/cndoom-2.0.1.tar.gz Latest source]
 
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
