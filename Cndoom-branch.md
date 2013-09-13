@@ -9,7 +9,7 @@
 
 - removed all Vanilla Doom limits (savegame, demo) (no more crashes)
 
-- configurable ingame and intermission (NET games too) timer with miliseconds
+- configurable ingame and intermission (NET games too) timer with milliseconds
 
 - removed message box after recording demos
 
@@ -17,7 +17,7 @@
 
 - show intermission screen for ExM8
 
-- do not end game after ExM8
+- do not end game after ExM8 (Ultimate Doom movie is possible now)
 
 - always run and novert turned on by default, show_endoom turned off, screenblocks 10, gamma 4, jobspeed 29, ...
 
