@@ -1,7 +1,8 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
 [[File:cnlaunch.png|thumb|right|Windows launcher]]
-'''cndoom-branch''' is a Chocolate Doom modification for [[doom:Compet-n|Compet-n]].
+'''cndoom-branch''' is a Chocolate Doom v2 modification for [http://doom.com.hr/?page=compet-n_rules Doom speedruning competition].
+Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while CNDOOM is for Competition Doom (cndoom.exe) client only.
 
 == Features ==
 
