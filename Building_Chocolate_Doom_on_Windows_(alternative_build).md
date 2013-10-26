@@ -56,7 +56,7 @@ Note: You must have the "..\" at the front because these are relative to the msv
 * sdl\SDL-1.2.15\lib\x86\SDL.dll
 
 
-The other option is to update the PATH environment variable so that it contains references to those files. You can either hardcode your system level PATH variable (if you go this route, you'll have to restart Visual Studio before it takes effect) or you can tell Visual Studio to add values to its own private PATH when it runs. If you want to set Visual Studio's private PATH variable, right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate to Configuration Properties on the left. Set the value of the Environment setting on the right. Use the special $(ProjectDir) variable so you don't have to use hardcoded paths. Give it this value:
+The other option is to update the PATH environment variable so that it contains references to those files. You can either hardcode your system level PATH variable (if you go this route, you'll have to restart Visual Studio before it takes effect) or you can tell Visual Studio to add values to its own private PATH when it runs. If you want to set Visual Studio's private PATH variable, right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate to Configuration Properties -> Debugging on the left. Set the value of the Environment setting on the right. Use the special $(ProjectDir) variable so you don't have to use hardcoded paths. Give it this value:
 
 PATH=%PATH%;$(ProjectDir)..\sdl\SDL_net-1.2.8\lib\x86;$(ProjectDir)..\sdl\SDL-1.2.15\lib\x86;$(ProjectDir)..\sdl\SDL_mixer-1.2.12\lib\x86
 
