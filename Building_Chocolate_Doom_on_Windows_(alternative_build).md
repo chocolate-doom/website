@@ -69,9 +69,9 @@ Note: Visual Studio 2010 no longer loads custom directories globally, instead th
 
 * remove the references to the md5.h and md5.c files from the project because they no longer exist. Find them at the top level of the source code tree in Visual Studio, right click, and select "Exclude From Project".
 
-* add references to files to the Text Screen folder in Visual Studio. Right click on the project and select Add -> Existing Item. Select the files textscreen\txt_utf8.h and textscreen\txt_utf8.c.
-
 * add references to files to the Source folder in Visual Studio. Right click on the project and select Add -> Existing Item. Select the files src\sha1.h and src\sha1.c.
+
+* add references to files to the Text Screen folder in Visual Studio. Right click on the project and select Add -> Existing Item. Select the files textscreen\txt_utf8.h and textscreen\txt_utf8.c.
 
 
 
