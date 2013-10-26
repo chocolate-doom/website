@@ -32,7 +32,8 @@ Download the VC8 development libraries for SDL, SDL_mixer and SDL_net. Here are 
 
 Extract these to a folder inside the top level source code folder called something brilliant like "sdl". These folders contain three key components: .h files for compiling, .lib files for linking, and .dll files for runtime. You must tell Visual Studio where these components are for Chocolate Doom to run.
 
-'''.h files''': right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate the Configuration Properties -> C/C++ on the left. Click on Additional Include Directories on the right. Add an entry for the include directories for each of the SDL libraries. Assuming you unzipped the libraries into a folder called "sdl" directly under the top level source folder , this would be
+
+'''.h files''': right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate to Configuration Properties -> C/C++ on the left. Click on Additional Include Directories on the right. Add an entry for the include directories for each of the SDL libraries. Assuming you unzipped the libraries into a folder called "sdl" directly under the top level source folder , this would be
 * ..\sdl\SDL_mixer-1.2.12\include
 * ..\sdl\SDL_net-1.2.8\include
 * ..\sdl\SDL-1.2.15\include
@@ -41,7 +42,7 @@ Extract these to a folder inside the top level source code folder called somethi
 Note: You must have the "..\" at the front because these are relative to the msvc directory.
 
 
-'''.lib files''': right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate the Configuration Properties -> Linker on the left. Click on Additional Library Directories on the right. Assuming the same directory structure as we had for include files, add the following:
+'''.lib files''': right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate to Configuration Properties -> Linker on the left. Click on Additional Library Directories on the right. Assuming the same directory structure as we had for include files, add the following:
 
 * ..\sdl\SDL_mixer-1.2.12\lib\x86
 * ..\sdl\SDL_net-1.2.8\lib\x86
@@ -55,7 +56,7 @@ Note: You must have the "..\" at the front because these are relative to the msv
 * sdl\SDL-1.2.15\lib\x86\SDL.dll
 
 
-The other option is to update the PATH environment variable so that it contains references to those files. You can either hardcode your system level PATH variable (if you go this route, you'll have to restart Visual Studio before it takes effect) or you can tell Visual Studio to add values to its own private PATH when it runs. If you want to set Visual Studio's private PATH variable, right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate the Configuration Properties on the left. Set the value of the Environment setting on the right. Use the special $(ProjectDir) variable so you don't have to use hardcoded paths. Give it this value:
+The other option is to update the PATH environment variable so that it contains references to those files. You can either hardcode your system level PATH variable (if you go this route, you'll have to restart Visual Studio before it takes effect) or you can tell Visual Studio to add values to its own private PATH when it runs. If you want to set Visual Studio's private PATH variable, right click on the Chocolate Doom project in Visual Studio and select Properties. Navigate to Configuration Properties on the left. Set the value of the Environment setting on the right. Use the special $(ProjectDir) variable so you don't have to use hardcoded paths. Give it this value:
 
 PATH=%PATH%;$(ProjectDir)..\sdl\SDL_net-1.2.8\lib\x86;$(ProjectDir)..\sdl\SDL-1.2.15\lib\x86;$(ProjectDir)..\sdl\SDL_mixer-1.2.12\lib\x86
 
