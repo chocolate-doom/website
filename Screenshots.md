@@ -55,7 +55,7 @@ Its [[compatibility]] features also allow problematic levels such as [[Doomsday 
 
 == Multiplayer ==
 
-Chocolate Doom can be played over the internet either directly peer to peer or using a dedicated server.
+Chocolate Doom can be played over the internet either directly peer-to-peer or using a dedicated server.
 
 <gallery>
 Image:Multi-waiting.png
