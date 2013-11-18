@@ -4,5 +4,3 @@ Chocolate Doom includes accurate emulation of the DOS text mode display in order
 ENDOOM display is implemented in a cross-platform way, so ENDOOM screens are shown correctly on all operating systems and platforms.
 
 [[Category:Features]]
-
--
