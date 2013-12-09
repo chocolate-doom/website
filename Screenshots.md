@@ -32,6 +32,16 @@ Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC
 
 [[:Category:Platform screenshots|More platform screenshots...]]
 
+== Version 2 ==
+
+Version 2 of Chocolate Doom adds support for [[doom:Heretic|Heretic]], [[doom:Hexen|Hexen]] and [[doom:Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
+
+<gallery>
+Image:Chocolate-heretic.png |[[doom:Heretic|Heretic]]
+Image:Chocolate-hexen.png   |[[doom:Hexen|Hexen]]
+File:Strife-linux.png       |[[doom:Strife|Strife]]
+</gallery>
+
 == Mods and TCs ==
 
 Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
@@ -59,14 +69,4 @@ Chocolate Doom can be played over the internet either directly peer-to-peer or u
 
 <gallery>
 Image:Multi-waiting.png
-</gallery>
-
-== Version 2 ==
-
-Version 2 of Chocolate Doom is developing on [[v2-branch]]. This will add support for [[doom:Heretic|Heretic]], [[doom:Hexen|Hexen]] and [[doom:Strife|Strife]]. The branch is currently in a beta state and various work remains before version 2 will be released.
-
-<gallery>
-Image:Chocolate-heretic.png |[[doom:Heretic|Heretic]]
-Image:Chocolate-hexen.png   |[[doom:Hexen|Hexen]]
-File:Strife-linux.png       |[[doom:Strife|Strife]]
 </gallery>
