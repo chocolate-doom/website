@@ -9,4 +9,4 @@ Development of Chocolate Heretic is taking place on [[Raven-branch]].  It is not
 * [[Chocolate Hexen]]
 * [[HHE support]]
 
-[[Category:Future_features]]
+[[Category:Features]]
