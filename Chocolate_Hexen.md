@@ -8,4 +8,4 @@ Development of Chocolate Hexen is taking place on [[Raven-branch]].  It is not y
 * [[Raven-branch]]
 * [[Chocolate Heretic]]
 
-[[Category:Future_features]]
+[[Category:Features]]
