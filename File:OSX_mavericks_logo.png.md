@@ -1,0 +1,1 @@
+Logo for Mac OS X Mavericks.
