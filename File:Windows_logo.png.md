@@ -1,0 +1,1 @@
+Modern Windows logo.
