@@ -2,6 +2,8 @@ Click below to download the latest release of Chocolate Doom ('''version 2.0.0''
 
 Chocolate Doom is [http://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2].
 
+All downloads are GPG-signed. See [https://soulsphere.org/projects/chocolate-doom/2.0.0/ the downloads directory] for the full listing, including GPG signatures.
+
 {{Downloadsbox|File:Windows_logo.png|
 '''Microsoft Windows''' binaries: choose the game you want to play:
 
