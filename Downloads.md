@@ -1,8 +1,6 @@
 <table><tr><td>
-Click below to download the latest release of Chocolate Doom ('''version 2.0.0''').
+Click below to download the latest release of Chocolate Doom ('''version 2.0.0'''). This new major release of Chocolate Doom has been released in honor of Doom's 20th anniversary.
  
-Chocolate Doom is [http://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2]. All downloads are GPG-signed. See [http://www.chocolate-doom.org/downloads/2.0.0/ the downloads directory] for the full listing, including GPG signatures.
-
 {{Downloadsbox|File:Windows_logo.png|
 '''Microsoft Windows''' binaries: choose the game you want to play:
 
@@ -26,7 +24,7 @@ Chocolate Doom is [http://opensource.org/osd Open Source] and [https://www.gnu.o
 * [http://www.chocolate-doom.org/downloads/2.0.0/chocolate-doom-2.0.0.tar.gz.asc GPG signature].
 * [https://github.com/fragglet/chocolate-doom Git repository].
 }}
-
 </td><td style="vertical-align: top;">
 [[File:V2-branch_9_games.png|thumb|300px|right|Chocolate Doom supports a number of different games and mods based on the Doom engine.]]
 </tr></table>
+Chocolate Doom is [http://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2]. All downloads are GPG-signed. See [http://www.chocolate-doom.org/downloads/2.0.0/ the downloads directory] for the full listing, including GPG signatures.
