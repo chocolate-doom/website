@@ -38,18 +38,15 @@ The following games can be played:
 * [[doom:Doom II|Doom II]]
 * [[doom:Final Doom|Final Doom]] (TNT:Evilution, and the Plutonia Experiment)
 * [[Chex Quest]]
+* [[doom:Heretic|Heretic]]
+* [[doom:Hexen|Hexen]]
+* [[doom:Hexen: Deathkings of the Dark Citadel|Hexen: Deathkings of the Dark Citadel (expansion pack)]]
+* [[doom:Strife|Strife]]
 
 It is also possible to play these expansion packs and commercial games, each of which requires one of the above:
 
 * [[doom:Master Levels for Doom II|The Master Levels for Doom II]]
 * [[doom:Hacx|Hacx]]
-
-Support for the following games is currently under development on the [[v2-branch]]:
-
-* [[doom:Heretic|Heretic]]
-* [[doom:Hexen|Hexen]]
-* [[doom:Hexen: Deathkings of the Dark Citadel|Hexen: Deathkings of the Dark Citadel (expansion pack)]]
-* [[doom:Strife|Strife]]
 
 === Will Chocolate Doom run on my computer? ===
 
