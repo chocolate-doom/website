@@ -1,15 +1,12 @@
 [[Image:Strife-linux.png|thumb|right|Chocolate Strife, currently under development.]]
-Chocolate Doom is under active development and aims for a roughly three month release cycle. If you're a fan you might want to keep up to date with the latest bleeding edge pre-release version [https://sourceforge.net/scm/?type=svn&group_id=144368 from the Subversion repository].
+Chocolate Doom is under active development and aims for a roughly three month release cycle. If you're a fan you might want to keep up to date with the latest bleeding edge pre-release version [https://github.com/chocolate-doom/chocolate-doom from the Git repository].
 
-You can browse the Chocolate Doom source code [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/ here]. Sourceforge has [https://sourceforge.net/p/chocolate-doom/code/commit_browser a page] that shows recent commits.  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
-
-Chocolate Doom will be switching to Git as its version control system in the near future: an experimental repository can be found [https://github.com/fragglet/chocolate-doom on GitHub].
+You can browse the Chocolate Doom source code [https://github.com/chocolate-doom/chocolate-doom here]. Github has [https://github.com/chocolate-doom/chocolate-doom/commits/master a page] that shows recent commits.  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
 
 == Forks and branches ==
 
 Major Chocolate Doom features are developed on separate branches and merged to trunk when complete. There is a list of branches [[:Category:Branches|here]]. For now the active ones are:
 
-* [[v2-branch]] - developing support for Heretic, Hexen and Strife.
 * [[cndoom-branch]] - developing advanced features (ingame timer, mouse, resolution,...) for [[doom:Compet-n|Compet-n]].
 
 Chocolate Doom is designed to be easily forked so that people can develop their own modified versions if they wish.  There is a list of forks [[:Category:Forks|here]].
@@ -35,8 +32,8 @@ Manually compiling Chocolate Doom is usually a straightforward, automated proces
 
 There are many ways to help out the project:
 
-* [http://sourceforge.net/tracker/?group_id=144368&atid=758618 Submit a bug report] if you find a problem.  Feature requests are also welcome as long as they are within the scope of the project.
-* If you're a programmer, you're welcome to submit patches.
+* [https://github.com/chocolate-doom/chocolate-doom/issues Submit a bug report] if you find a problem.  Feature requests are also welcome as long as they are within the scope of the project.
+* If you're a programmer, you're welcome to submit patches / send pull requests.
 * [[Contributing to the Wiki|Contribute]] to the Wiki!
 * If you use IRC, join [irc://irc.oftc.net/chocolate-doom #chocolate-doom] and help to answer questions!
 
