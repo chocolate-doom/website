@@ -13,7 +13,6 @@ Reverse engineering is a protected activity so long as the original code is not 
 Strife developer James Monroe and John Carmack have both stated that they have no objections to the project. Because they are the original authors of the code, and neither Rogue nor their publisher, Velocity, Inc., exist any longer as legal entities, this is effectively legal permission.
 
 ==See Also==
-[[strife-branch]]
-
+* [[strife-branch]]
 
 [[Category:Features]]
