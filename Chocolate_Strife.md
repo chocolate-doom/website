@@ -1,5 +1,5 @@
 {{#ev:youtube|_hgPQ3IRssM|300|right}}
-'''Chocolate Strife''' is a port of [[doom:Strife|Strife]] to the Chocolate Doom codebase. The aim is to develop a Strife source port that includes the [[Category:Features|features]] of Chocolate Doom and that conforms to Chocolate Doom's minimalist, historically-preserving philosophy.
+'''Chocolate Strife''' is a port of [[doom:Strife|Strife]] to the Chocolate Doom codebase. The aim is to develop a Strife source port that conforms to Chocolate Doom's minimalist, historically-preserving philosophy.
 
 The work to develop Chocolate Strife was performed by [[doom:James "Quasar" Haley|James "Quasar" Haley]] and [[doom:Samuel "Kaiser" Villarreal|Samuel "Kaiser" Villarreal]]. It involved a painstaking reverse engineering project that recreated the Strife source code from scratch from the original DOS binaries.
 
