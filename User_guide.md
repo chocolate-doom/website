@@ -23,4 +23,4 @@ You can get help online from several sources:
 
 == Bugs ==
 
-If you discover a bug, please [http://sourceforge.net/tracker/?group_id=144368&atid=758618 submit a bug report].  However, some bugs are actually intended behavior. See the NOT-BUGS file that was included in your download (viewable [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/NOT-BUGS here]).
+If you discover a bug, please [https://github.com/chocolate-doom/chocolate-doom/issues submit a bug report].  However, some bugs are actually intended behavior. See the NOT-BUGS file that was included in your download (viewable [https://github.com/chocolate-doom/chocolate-doom/blob/master/NOT-BUGS here]).
