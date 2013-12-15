@@ -32,8 +32,7 @@ Information on other PCI cards that could potentially be used can be found in th
 
 == External links ==
 
-* [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/trunk/chocolate-doom/ Trunk] source code.
-* [http://www.tc.umn.edu/~delbe001/chocolate-doom/ Trunk] Win32 builds.
-* [http://chocolate-doom.svn.sourceforge.net/viewvc/chocolate-doom/research/opl/ OPL research data].
+* [https://github.com/chocolate-doom/chocolate-doom/tree/opl-branch opl-branch] source code (now integrated into the main codebase).
+* [https://github.com/chocolate-doom/research/tree/master/opl OPL research data].
 
 [[Category:Branches]]
