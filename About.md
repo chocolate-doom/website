@@ -3,6 +3,8 @@ In 1998 the Doom source code was released.  Since then, there have been a large 
 
 Chocolate Doom, however, takes the opposite approach.  It instead aims to accurately reproduce the experience of playing Vanilla Doom.  It is a conservative, historically accurate Doom source port, which is [[compatibility|compatible]] with the thousands of mods and levels that were made before the Doom source code was released.  Rather than flashy new graphics, Chocolate Doom's main [[:Category:Features|features]] are its accurate reproduction of the game as it was played in the 1990s.
 
+Originally just a port of the Doom source code, the purpose of the project has evolved to include ports of [[Chocolate Heretic|Heretic]], [[Chocolate Hexen|Hexen]] and [[Chocolate Strife|Strife]], commercial games that were based on the Doom engine.
+
 The source code to Chocolate Doom is [[wikipedia:Free Software|Free Software]] under the [[wikipedia:GNU GPL|GNU General Public License]], and is [[portability|portable]] to a variety of different operating systems.  It therefore preserves the gameplay of the original game for modern computers, many of which are now unable to run the original.
 
 == Author ==
