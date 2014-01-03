@@ -3,6 +3,8 @@
 
 However, Chocolate Doom can still be made to run with Freedoom.  The only incompatibility between the two is that the levels distributed with Freedoom do not run.  Because of this, Freedoom will run without problems provided that replacement levels are always loaded.
 
+An alternative is to use the '''FreeDM''' IWAD, which is a version of Freedoom that contains only multiplayer deathmatch levels; these levels are Vanilla-compatible.
+
 Simple instructions:
 # Download and extract Chocolate Doom.
 # Download and extract Freedoom, and copy the doom2.wad file into the Chocolate Doom folder.
