@@ -50,7 +50,7 @@ More Doom 2 MegaWADs can be found in the [http://www.doomworld.com/idgames/index
 |-
 |[[doom:Base Ganymede|Base Ganymede]] || [http://www.doomworld.com/idgames/index.php?id=16694 bgcomp.zip]
 |-
-|[[doom:Doom the Way id Did|Doom the Way id Did]] || [http://www.doomworld.com/idgames/index.php?id=16721 dtwid.zip]
+|<s>[[doom:Doom the Way id Did|Doom the Way id Did]]</s> || <s>[http://www.doomworld.com/idgames/index.php?id=16721 dtwid.zip]</s> Doesn't currently work because of [https://github.com/freedoom/freedoom/issues/1 a Freedoom bug]
 |}
 
 More Doom 1 MegaWADs can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
