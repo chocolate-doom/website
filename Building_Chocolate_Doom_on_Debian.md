@@ -11,17 +11,17 @@ Several packages will be installed.
 
 {{Generic package build and install}}
 
-== Tracking Subversion ==
+== Tracking Git ==
 
-To keep up to date with the latest bleeding-edge version of Chocolate Doom, you can build the latest version from the Subversion repository.
+To keep up to date with the latest bleeding-edge version of Chocolate Doom, you can build the latest version from the Git repository.
 
 To do this, you need to install some extra packages:
 
- aptitude install automake autoconf libtool subversion
+ aptitude install automake autoconf libtool git
 
 Check out the latest version from Subversion:
 
- svn co https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/trunk/chocolate-doom
+ git clone https://github.com/chocolate-doom/chocolate-doom.git
 
 Then build the package:
 
@@ -32,7 +32,7 @@ Then build the package:
 
 To keep up to date, periodically run these commands to update your checkout and rebuild:
 
- svn up
+ git pull
  make
  make install
 
