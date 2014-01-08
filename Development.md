@@ -16,8 +16,7 @@ Chocolate Doom is designed to be easily forked so that people can develop their 
 
 If you're a Windows user you can download prebuilt Windows binaries of the bleeding edge versions:
 
-* [http://www.tc.umn.edu/~delbe001/chocolate-doom/ Latest build] of trunk.
-* [http://www.tc.umn.edu/~delbe001/chocolate-doom-v2/ Latest build] of the experimental [[v2-branch]]
+* [http://www.tc.umn.edu/~delbe001/chocolate-doom/ Latest build] of master.
 
 === Compiling ===
 
