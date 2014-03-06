@@ -113,9 +113,7 @@ The Crispy Doom source code is available at GitHub: https://github.com/fabiangre
 It can be [https://github.com/fabiangreffrath/crispy-doom/releases downloaded in either ZIP or TAR.GZ format] 
 or cloned via
 
-<code>
-git clone https://github.com/fabiangreffrath/crispy-doom.git
-</code>
+ git clone https://github.com/fabiangreffrath/crispy-doom.git
 
 Binaries for Windows are available here:
 
