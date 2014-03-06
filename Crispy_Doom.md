@@ -67,7 +67,7 @@ The static engine limits in all four games have been raised in line with [http:/
 |-
 | MAXPLATS      || 30  || 30 || 30 || 30 || 30*256 || 30*256 || 30*256 || 30*256
 |-
-| SAVEGAMESIZE  || --   || 196608 || - || -- || -- || 196608*16 || - || --
+| SAVEGAMESIZE  || --   || 196608 || -- || -- || -- || 196608*16 || -- || --
 |-
 | MAXLINEANIMS  || 64  || 64 || 64 || 96 || 64*256 || 64*256 || 64*256 || 96*256
 |-
