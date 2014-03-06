@@ -103,10 +103,19 @@ In order to distinguish the NRFTL levels from the regular Doom 2 levels, Crispy 
 == Versioning ==
 Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>]. Fur the future it is intended to merge all applicable commits to Chocolate Doom into Crispy Doom as well.
 
-Crispy Doom maintains a mahor and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
+Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
 == Download ==
-The canonical location for the Crispy doom source code is the github repository:
+The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
+
+The Crispy Doom source code is available at GitHub: https://github.com/fabiangreffrath/crispy-doom
+
+It can be [https://github.com/fabiangreffrath/crispy-doom/releases downloaded in either ZIP or TAR.GZ format] 
+or cloned via
+
+<code>
+git clone https://github.com/fabiangreffrath/crispy-doom.git
+</code>
 
 Binaries for Windows are available here:
 
