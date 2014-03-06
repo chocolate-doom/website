@@ -1,8 +1,8 @@
 Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Chocolate Doom]]. It is maintained by [mailto:fabian@greffrath.com Fabian Greffrath].
 
 == Objectives ==
-Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [http://doomwiki.org/wiki/Static_limits static limits] of the Doom engine and improve support for the [http://doomwiki.org/wiki/Doom_Classic Doom Classic] IWADs shipped with the [http://doomwiki.org/wiki/Doom_3:_BFG_Edition Doom 3: BFG Edition] and especially for the [http://doomwiki.org/wiki/No_Rest_for_the_Living No Rest For The Living] (NRFTL) expansion while remaining full config file, savegame, netplay and demo [[#Compatibility|compatibility]] with the original.
-It intends to keep the changes to the Chocolate Doom code base as minimal as possible. As such, it is currently not planned to include other advanced features in addition to the ones outlined below.
+Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [http://doomwiki.org/wiki/Static_limits static limits] of the Doom engine and improve support for the [http://doomwiki.org/wiki/Doom_Classic Doom Classic] IWADs shipped with the [http://doomwiki.org/wiki/Doom_3:_BFG_Edition Doom 3: BFG Edition] and especially for the [http://doomwiki.org/wiki/No_Rest_for_the_Living No Rest For The Living] (NRFTL) expansion while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+It intends to keep the changes to the Chocolate Doom code base as minimal as possible. Since adding features [http://www.doomworld.com/vb/post/1222830/#post1222830 is a slippery slope], it is currently not planned to add any more than the ones outlined below.
 
 == Changes ==
 Crispy Doom 1.0 introduces the following changes with respect to Chocolate Doom 2.0.0:
