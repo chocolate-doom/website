@@ -1,5 +1,5 @@
 Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Chocolate Doom]].
-Its name is derived from the fact that 640x400 looks crispy and as a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
+Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Objectives ==
 Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [http://doomwiki.org/wiki/Static_limits static limits] of the Doom engine and improve support for the [http://doomwiki.org/wiki/Doom_Classic Doom Classic] IWADs shipped with the [http://doomwiki.org/wiki/Doom_3:_BFG_Edition Doom 3: BFG Edition] and especially for the [http://doomwiki.org/wiki/No_Rest_for_the_Living No Rest For The Living] (NRFTL) expansion while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
@@ -76,6 +76,8 @@ The static engine limits in all four games have been raised in line with [http:/
 |}
 
 === Improved Support for the BFG Edition ===
+Chocolade Doom has no support for ''No Rest for the Living'', because its maps require a limit-removing source port. However, with its raised static limits there is no more reason to not add full support for this expansion to Crispy Doom.
+
 If the IWAD loaded with Crispy Doom is recognized as <tt>doom2.wad</tt> shipped with the Doom 3: BFG Edition, the following changes apply:
 * The maximum number of levels (<tt>NUMCMAPS</tt>) is raised to 33, the secret exit in MAP02 leads to MAP33 and the exit there leads back to MAP03.
 
@@ -101,6 +103,8 @@ Pleas note that all of the above changes do '''only''' apply for the <tt>doom2.w
 === Compatibility ===
 In order to distinguish the NRFTL levels from the regular Doom 2 levels, Crispy Doom uses the <tt>gameepisode</tt> variable, which is used in Doom 1 to distinguish between the game episodes but is hitherto unused in Doom 2. This means that savegames recorded in Crispy Doom are still '''compatible''' to Cholate Doom (because it ignores the <tt>gameepisode</tt> variable in Doom 2) but may not be '''identical'''. Consequently, savegames that have been recorded playing NRFTL in Crispy Doom can be loaded in Chocolate Doom if the latter is invoked with "<tt>-file nerve.wad</tt>". On the other hand, savegames that are recorded in Chocolate Doom with the "<tt>-file nerve.wad</tt>" parameter cannot immediately be loaded in Crispy Doom without the "<tt>-file nerve.wad</tt>" parameter. In order to "convert" savegames to Crispy Doom, run it with the "<tt>-file nerve.wad</tt>" parameter, load the savegames and save them again. It should then be possible to load them without the "<tt>-file nerve.wad</tt>" parameter in Crispy Doom.
 
+Please note that the introduction of full support for NRFTL means breaking with Chocolate Doom's objectives to remain as close to the original DOS <tt>doom.exe</tt> as possible.
+
 == Versioning ==
 Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>]. Fur the future it is intended to merge all applicable commits to Chocolate Doom into Crispy Doom as well.
 
@@ -119,6 +123,11 @@ or cloned via
 Binaries for Windows are available here:
 
 == Contact ==
-Crispy Doom is maintained by [mailto:fabian@greffrath.com Fabian Greffrath]. Please report any bugs, glitches or crashes that you encounter to the GitHub [https://github.com/fabiangreffrath/crispy-doom/issues Issue Tracker].
+Crispy Doom is maintained by [mailto:fabian@greffXremovethisXrath.com Fabian Greffrath]. Please report any bugs, glitches or crashes that you encounter to the GitHub [https://github.com/fabiangreffrath/crispy-doom/issues Issue Tracker].
+
+== Acknowledgement ==
+Although I have played the thought of hacking on Chocolate Doom's renderer for quite some time already, it was Brad Harding's [http://doomwiki.org/wiki/Doom_Retro Doom Retro] that provided the incentive to finally do it. However, his fork aims at a different direction and I did not take a single line of code from it. Lee Killough's [http://doomwiki.org/wiki/MBF MBF] was studied and used to debug the code, especially in the form of Team Eternity's [http://doomwiki.org/wiki/WinMBF WinMBF] source port, which made it easier to compile and run on my machine. And of course there is fraggle's [[Chocolate Doom]] with its exceptionally clean and legible source code. Please let me take this opportunity to appreciate all these authors for their work!
+
+Also, thanks plums of the [http://www.doomworld.com/vb/ Doomworld forums] for beta testing.
 
 [[Category:Forks]]
