@@ -111,18 +111,30 @@ Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GI
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
 == Download ==
-The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
-
-The Crispy Doom source code is available at GitHub: https://github.com/fabiangreffrath/crispy-doom
+The Crispy Doom source code is available at GitHub: https://github.com/fabiangreffrath/crispy-doom.
 
 It can be [https://github.com/fabiangreffrath/crispy-doom/releases downloaded in either ZIP or TAR.GZ format] 
 or cloned via
 
  git clone https://github.com/fabiangreffrath/crispy-doom.git
 
-Binaries for Windows are available here:
+Compilation on Debian/Ubuntu systems should be as simple as
+
+ sudo apt-get install build-essential automake
+ sudo apt-get build-dep chocolate-doom
+
+to install the prerequisites and then
+
+ cd crispy-doom
+ autoreconf -vif
+ ./configure
+ make
+
+=== Binaries ===
+Binaries for Windows (x86) are available here:
 
 == Contact ==
+The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
 Crispy Doom is maintained by [mailto:fabian@greffXremovethisXrath.com Fabian Greffrath]. Please report any bugs, glitches or crashes that you encounter to the GitHub [https://github.com/fabiangreffrath/crispy-doom/issues Issue Tracker].
 
 == Acknowledgement ==
