@@ -132,6 +132,7 @@ to install the prerequisites and then
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
+http://www.greffrath.com/~fabian/crispy-doom_1.0.zip
 
 == Contact ==
 The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
