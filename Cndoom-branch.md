@@ -85,6 +85,8 @@ Several packages will be installed.
 
 Download the source package and extract it, for example:
 
+ wget http://www.doom.com.hr/cndoom/cndoom-2.0.2.tar.gz
+
  tar xzf cndoom-2.0.2.tar.gz
 
 Then build the package:
@@ -115,7 +117,6 @@ To build Windows executable on Linux type:
 To clean and rebuild Windows executables do:
 
  ./clean-cndoom
-
 
 == Tracking Subversion ==
 
