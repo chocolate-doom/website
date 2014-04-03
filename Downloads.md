@@ -29,4 +29,4 @@ Click below to download the latest release of Chocolate Doom ('''version 2.0.0''
 </tr></table>
 Chocolate Doom is [http://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2].
 
-All downloads are GPG-signed. See [http://www.chocolate-doom.org/downloads/2.0.0/ the downloads directory] for the full listing, including GPG signatures.
+All downloads are GPG-signed by [https://soulsphere.org/gpg-key.txt Chocolate Doom's principal author]. See [http://www.chocolate-doom.org/downloads/2.0.0/ the downloads directory] for the full listing, including GPG signatures.
