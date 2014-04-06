@@ -2,11 +2,60 @@ Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Cho
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Objectives ==
-Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [[doom:Static_limits|static limits]] of the Doom engine and improve support for the [[doom:Doom_Classic|Doom Classic]] IWADs shipped with the [[doom:Doom_3:_BFG_Edition|Doom 3: BFG Edition]] and especially for the [[doom:No_Rest_for_the_Living|No Rest For The Living]] (NRFTL) expansion while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
-It intends to keep the changes to the Chocolate Doom code base as minimal as possible. Since adding features [http://www.doomworld.com/vb/post/1222830/#post1222830 is a slippery slope], it is currently not planned to add any more than the ones outlined below.
+Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
-== Changes ==
-Crispy Doom 1.0 introduces the following changes with respect to Chocolate Doom 2.0.0:
+== Changes of Crispy Doom 1.1 from Crispy Doom 1.0 ==
+=== Visual Enhancements ===
+* '''Minimal HUD:''' When the view size is increased one step beyond fullscreen, a minimal HUD is displayed which only shows the status bar numbers without its background.
+* '''Colored Patches and Sprites:''' Color translation lookup tables have been ported over from Boom 2.02. They can be used to (optionally) colorize the numbers on the status bar, the HUD font and also the blood of certain monsters.
+** '''Colored Status Bar Number:''' The numbers displayed in the status bar or the minimal HUD can get colorized depending on their value. If enabled, health is colored red, yellow, green or blue for values up to 25%, 50%, 100% and above 100% respectively. Ammo is colored red, yellow and green for values up to 25%, 50%, 100% of the ''initial'' maximum ammo, respectively. Excess ammo, that can only be carried when a backpack has been found, gets colored blue. Armor is colored green or blue depending on the type of armor the player currently wears, red means no armor. Colored numbers in the status bar can be enabled in the ''crispy-doom-setup'' tool and are disabled by default.
+** '''Colored Blood:''' Blood is now colored depending on the monster class. Spectres and invisible players will now bleed spectre blood, Lost Sould will now bleed Puffs (since spawning Puffs demands the RNG differently than spawning Blood, this feature is only enabled in single player games), Cacodemons bleed blue blood and Hell Knights and Barons of Hell bleed green blood. ''This feature required pointing the <tt>target</tt> field of the blood <tt>mobj_t struct</tt> to the monster <tt>mobj_t truct</tt> and furthermore the addition of another field to the <tt>vissprite_t struct</tt> to keep track of the object that a sprite belongs to. This is considered [http://www.doomworld.com/vb/post/1254800 harmless], though).
+* '''Translucency:''' Translucency support has been ported over from Boom 2.02. As in Boom, the ncecssary color tinting lookup table is created once at startup and then cached on the hard disk for subsequent uses, alternatively it can be supplied as a lump or in a PWAD file. The same objects as in Boom 2.02 have been tagged as translucent in <tt>mobjinfo[]</tt>. Additionally, rocket and barrel explosions, Lost Soul and Pain Elemental explosions, and the explosions of the Boss Brain (Icon of Sin) have been tagged translucent. Also, if a monster gets resurrected by an Arch Vile from a pool of blood and turns into a "ghost monster" it will rise from the dead as translucent. Translucency can generally be enabled in the ''crispy-doom-setup'' tool and is disabled by default.
+* '''Shaded Menus:''' The background is shaded when a menu is active or when the game is paused. Furthermore, menu entries that currently make no sense, e.g. ''Save Game'' or ''End Game'' when no game is active, are shaded. Also, empty savegame slots are shaded in the ''Load Game'' menu.
+
+=== Enhancements affecting gameplay ===
+* '''Free Look:''' Free look support has been ported over from Chocolate Hexen. It is now possible to look up and down up to a certain degree using the keyboard or mouse. Using the latter, it is possible to change the viewing angle by pressing a certain key and moving the mouse vertically. Single-clicking that key without moving the mouse will center the view again. It is furthermore possible to activate permanent mouse look. Mouse viewing may feel a bit jerky, because the view angle is only increased in integers. To enable mouse viewing without also enabling vertical mouse movement, the "<tt>-novert</tt>" command line parameter had to be modified to only apply to vertical ''translational'' movement. Since both free look and permanent mouse look require stretching the sky texture, they need to get enabled in the ''crispy-doom-setup'' tool and are disabled by default.
+* '''Jumping:''' Jumping support has been ported over from Chocolate Hexen. It needs to get enabled in the ''crispy-doom-setup'' tool and is of course disabled by default. Since jumping involves in-air movement which may cause demos or network games to desync, this feature is entirely disabled when not in a single player game.
+: ''To achieve the above two deatures without sacrificing savegame compatibility with Chocolate Doom, a new <tt>player2_t struct</tt> has been introduced into the code to hold the additional player-speficic variables. This means that viewing angle and jumping state are not saved in savegames.''
+* '''Autorun:''' When the autorun feature is actve, using the "run" key will result in walking at normal speed.
+* '''Laser Pointer:''' A red laser pointer dot can be shown in the center of the screen to help for aiming. Optionally, the color of the dot can change from red to yellow if a target is within reach. Both options need to be enabled in the ''crispy-doom-setup'' tool and are disabled by default.
+* '''Secret Message:''' A centered "A secret is revealed!" message is printed in a golden font and a sound is played when a secret is found. This can be enabled in the ''crispy-doom-setup'' tool and is disabled by default.
+* '''Automap stats:''' Additional level statistics can be shown in the automap, including the number of kills, items and secrets as well as the level time. This feature needs to be enabled in the ''crispy-doom-setup'' tool and is disabled by default.
+* '''Ammo Bob:''' Ammo or weapons released by killed enemies will slightly bob vertically (this feature is only available in a single player game).
+* '''Engine Bugs:''' The "Ouch Face" and the "Picked up a Medikit that you really need" message are shown as intended.
+
+=== Technical Enhancements ===
+* '''Vertical Mouse Movement:''' Separate values for mouse acceleration and threshold can now be applied for the vertical axis in the ''crispy-doom-setup'' tool.
+* '''PNG Screenshots:'''Screenshots can now be taken in PNG format. this feature has been merged from Chocolate Doom and is now the default in Crispy Doom. Also, a dedicated key can be set for taking screenshots, including the "Print Screen" key.
+* '''Automatic loading of DEHACKED lumps:''' Chocolate Doom has got the ability to load DEHACKED lumps embedded in PWAD files via the "<tt>-dehlump</tt>" command line parameter. This feature has been merged into Crispy Doom and is now the default. It can be disabled, though, via the "<tt>-nodehlump</tt>" or "<tt>-nodeh</tt>" command line parameters. The latter does additionally disable the special treatment of the <tt>chex.wad</tt> and <tt>hacx.wad</tt> IWAD files and the <tt>nerve.wad</tt> PWAD file. Furthermore, error handling has been made more tolerant for embedded and automatically loaded DEHACKED lumps: If errors are detected, error messages are printed, but the game does not abort.
+* '''Wolf SS:''' Although all resources of the Wolf SS enemy have been entirely removed from the BFG Edition <tt>doom2.wad</tt> IWAD file, there is still one present in the inceluded MAP33. Therefore, all Wolf SS monsters are replaced with Former Humans in single player games when BFG Edition <tt>doom2.wad</tt> IWAD is in use.
+* '''No-clip Cheats:''' Both <tt>idspispopd</tt> and <tt>idclip</tt> cheats are allowed in both Doom and Doom 2.
+* '''Par Times:''' Par times for Episode 4 of The Ultimate Doom have been taken over from the BFG Edition. Also, the par time for MAP33 of the Doom 2 BFG Edition now reads "SUCKS!" as in the Xbox version. Both were added in a manner that does not interfere with <tt>statdump</tt> output.
+* '''Sensible Defaults:''' Some default configuration values have been changed. For example, the ENDOOM screen is not displayed, the <tt>vanilla_savegame_limit</tt> and <tt>vanilla_demo_limit</tt> size limits are disabled, autorun is enabled and the game is started in full width (screenblocks = 10) by default.
+* '''Default Keys:''' The default keys for forward, backward, strafe left and right have been changed to '''W''', '''S''', '''A''' and '''D''', respectively. However, it is still possible to control the game with the cursor keys.
+
+=== Bug Fixes ===
+* The weapon sprite was one pixel too high when the player was idle: https://github.com/fabiangreffrath/crispy-doom/issues/1 .
+* Fix "No rule to make target crispy-server.6, needed by all-am" Make error: https://github.com/fabiangreffrath/crispy-doom/issues/2 .
+
+=== Crispy-Doom-Setup ===
+Crispy Doom now comes with its own dedicated setup tool called ''crispy-doom-setup''. Instead of <tt>chocolate-doom-setup</tt>'s "Compatibility" section it has one called "Crispness" which allows to selectively activate the following features:
+* Enable translucency
+* Show colored numbers in status bar
+* Show level stats in automap
+* Show secrets revealed message
+* Show laser pointer
+* Change laser pointer color on target
+* Enable jumping [*]
+* Enable free look [*]
+* Enable permanent mouse look
+
+: The items marked with an asterisk require the setting of additional keys in the "Keyboard" or "Mouse" sections, respectively.
+
+=== Non-Doom Ports ===
+The non-Doom games that are part of Chocolate Doom have fallen behind in terms of development and haven't seen any significant changes since Crispy Doom 1.0. Thus, only Doom is included in the 1.1 release and will be from now on.
+
+== Changes of Crispy Doom 1.0 from Chocolate Doom 2.0.0 ==
 === Display Resolution ===
 * The display resolution in all four games (Doom, Heretic, Hexen and Strife) has been doubled in both horizontal and vertical direction, resulting in a 640x400 native resolution.
 * Additionally, in Crispy Doom, the ''Graphic Detail: Low'' mode has been modified to halve the display resolution also in the vertical direction (unlike Vanilla and Chocolate Doom, which only halve the resolution in the horizontal direction in this mode). As a result, in Crispy Doom in ''Graphic Resolution: Low'' mode the screen is rendered '''exactly''' identical to Chocolate Doom in ''Graphic Resolution: High'' mode.
@@ -98,15 +147,17 @@ If either "No Rest For The Living" is selected from the New Game menu or if the 
 * The intermission screen after level 6 is replaced by another one after level 8 with adjusted text.
 * The Doom 2 cast sequence is shown after level 8.
 
-Pleas note that all of the above changes do '''only''' apply for the <tt>doom2.wad</tt> IWAD file from the BFG Edition; they do '''not''' apply for the regular <tt>doom2.wad</tt> IWAD file. Consequently, it is still possible to play the <tt>nerve.wad</tt> PWAD file as a regular PWAD without special treatment if loaded alongside the regular <tt>doom2.wad</tt> IWAD file.
+Please note that all of the above changes do '''only''' apply for the <tt>doom2.wad</tt> IWAD file from the BFG Edition; they do '''not''' apply for the regular <tt>doom2.wad</tt> IWAD file. Consequently, it is still possible to play the <tt>nerve.wad</tt> PWAD file as a regular PWAD without special treatment if loaded alongside the regular <tt>doom2.wad</tt> IWAD file.
 
-=== Compatibility ===
-In order to distinguish the NRFTL levels from the regular Doom 2 levels, Crispy Doom uses the <tt>gameepisode</tt> variable, which is used in Doom 1 to distinguish between the game episodes but is hitherto unused in Doom 2. This means that savegames recorded in Crispy Doom are still '''compatible''' to Cholate Doom (because it ignores the <tt>gameepisode</tt> variable in Doom 2) but may not be '''identical'''. Consequently, savegames that have been recorded playing NRFTL in Crispy Doom can be loaded in Chocolate Doom if the latter is invoked with "<tt>-file nerve.wad</tt>". On the other hand, savegames that are recorded in Chocolate Doom with the "<tt>-file nerve.wad</tt>" parameter cannot immediately be loaded in Crispy Doom without the "<tt>-file nerve.wad</tt>" parameter. In order to "convert" savegames to Crispy Doom, run it with the "<tt>-file nerve.wad</tt>" parameter, load the savegames and save them again. It should then be possible to load them without the "<tt>-file nerve.wad</tt>" parameter in Crispy Doom.
+== Compatibility ==
+* In order to distinguish the NRFTL levels from the regular Doom 2 levels, Crispy Doom uses the <tt>gameepisode</tt> variable, which is used in Doom 1 to distinguish between the game episodes but is hitherto unused in Doom 2. This means that savegames recorded in Crispy Doom are still '''compatible''' to Cholate Doom (because it ignores the <tt>gameepisode</tt> variable in Doom 2) but may not be '''identical'''. Consequently, savegames that have been recorded playing NRFTL in Crispy Doom can be loaded in Chocolate Doom if the latter is invoked with "<tt>-file nerve.wad</tt>". On the other hand, savegames that are recorded in Chocolate Doom with the "<tt>-file nerve.wad</tt>" parameter cannot immediately be loaded in Crispy Doom without the "<tt>-file nerve.wad</tt>" parameter. In order to "convert" savegames to Crispy Doom, run it with the "<tt>-file nerve.wad</tt>" parameter, load the savegames and save them again. It should then be possible to load them without the "<tt>-file nerve.wad</tt>" parameter in Crispy Doom.
 
-Please note that the introduction of full support for NRFTL means breaking with Chocolate Doom's objectives to remain as close to the original DOS <tt>doom.exe</tt> as possible.
+: Please note that the introduction of full support for NRFTL means breaking with Chocolate Doom's objectives to remain as close to the original DOS <tt>doom.exe</tt> as possible.
+
+* The minimal Crispy Doom HUD is displayed when <tt>blocksize == 12</tt>, which isn't supported by Chocolate Doom. To retain config file compatibility, quit the game with any other view size.
 
 == Versioning ==
-Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>]. Fur the future it is intended to merge all applicable commits to Chocolate Doom into Crispy Doom as well.
+Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>]. Crispy Doom 1.1 has merged all commits to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a80aa343a53c3dd3db2434a52d70de72ec4df955 <tt>a80aa343a5</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -142,5 +193,13 @@ Crispy Doom is maintained by [mailto:fabian@greffXremovethisXrath.com Fabian Gre
 Although I have played the thought of hacking on Chocolate Doom's renderer for quite some time already, it was Brad Harding's [[Doom Retro]] that provided the incentive to finally do it. However, his fork aims at a different direction and I did not take a single line of code from it. Lee Killough's [[doom:MBF|MBF]] was studied and used to debug the code, especially in the form of Team Eternity's [[doom:WinMBF|WinMBF]] source port, which made it easier to compile and run on my machine. And of course there is fraggle's [[Chocolate Doom]] with its exceptionally clean and legible source code. Please let me take this opportunity to appreciate all these authors for their work!
 
 Also, thanks plums of the [http://www.doomworld.com/vb/ Doomworld forums] for beta testing.
+
+== Legalese ==
+Doom is &copy; 1993-1996 Id Software, Inc.; 
+Boom 2.02 is &copy; 1999 id Software, Chi Hoang, Lee Killough, Jim Flynn, Rand Phares, Ty Halderman;
+Chocolate Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard; 
+Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven Software, &copy; 2008 Simon Howard;
+Crispy Doom is additionally &copy; 2014 Fabian Greffrath;
+All of the above are licensed under the terms of the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 
 [[Category:Forks]]
