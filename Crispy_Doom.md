@@ -185,7 +185,7 @@ to install the prerequisites and then
 Binaries for Windows (x86) are available here:
 http://www.greffrath.com/~fabian/crispy-doom_1.1.zip
 
-They are statically linked against libsamplerate, libpng and zlib.
+They are statically linked against libsamplerate, libpng and zlib (see below).
 
 == Contact ==
 The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
@@ -202,6 +202,10 @@ Boom 2.02 is &copy; 1999 id Software, Chi Hoang, Lee Killough, Jim Flynn, Rand P
 Chocolate Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard; 
 Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven Software, &copy; 2008 Simon Howard;
 Crispy Doom is additionally &copy; 2014 Fabian Greffrath;
-All of the above are licensed under the terms of the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
+all of the above are released under the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
+
+Secret Rabbit Code (libsamplerate) is &copy; 2002-2011 Erik de Castro Lopo and is released under the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
+Libpng is &copy; 1998-2014 Glenn Randers-Pehrson, &copy; 1996-1997 Andreas Dilger, &copy; 1995-1996 Guy Eric Schalnat, Group 42, Inc. and is released under the [http://www.libpng.org/pub/png/src/libpng-LICENSE.txt libpng license].
+Zlib is &copy; 1995-2013 Jean-loup Gailly and Mark Adler and is released under the [http://www.zlib.net/zlib_license.html zlib license].
 
 [[Category:Forks]]
