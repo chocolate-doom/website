@@ -4,7 +4,9 @@
 
 {{Frontpagebox|Screenshots|File:Chocowindows.png|See some '''[[Screenshots]]''' of Chocolate Doom in action.}}
 
-{{Frontpagebox|http://sourceforge.net/projects/chocolate-doom/files/chocolate-doom/1.6.0/|File:download icon.png|'''[http://sourceforge.net/projects/chocolate-doom/files/chocolate-doom/1.6.0/ Download]''' Chocolate Doom v1.6.0 from SourceForge.}}
+{{Frontpagebox|Downloads|File:download icon.png|
+'''[[Downloads|Download]]''' Chocolate Doom v2.0.0.
+}}
 
 {{Frontpagebox|User guide|File:Bigouch.png|Check out the '''[[User guide]]''' page for information about using Chocolate Doom, or the '''[[FAQ]]''' for answers to some common questions.}}
 
