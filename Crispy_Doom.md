@@ -4,6 +4,21 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 == Objectives ==
 Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
+== Changes of Crispy Doom 1.2 from Crispy Doom 1.1 ==
+Crispy Doom 1.2 is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. If you were unsatisfied with the mouse look performance of Crispy Doom 1.1 it is highly recommended to upgrade to Crispy Doom 1.2:
+
+* Unjerkify mouse look.
+** In Crispy Doom 1.1 vertical mouse movement changed the <tt>look</tt> variable which decided how the actual <tt>player->lookdir</tt> variable will be changed in the next game tic. However, the <tt>look</tt> variable is intended for keyboard use and changes the lookdir in rather coarse steps. The code has been changed to now act directly on the <tt>player->lookdir</tt> variable which provides for a much smoother mouse look.
+** Mouse sensitivity selection is moved into a separate sub-menu of the Options menu.
+** Allow to set separate values for horizontal and vertical mouse sensitivity in both the Options menu and in ''crispy-doom-setup''.
+** Increase mouse sensitivity thermometer range up to 20.
+** Fix a crash in the Options menu when mouse sensitivity exceeds the maximum value. Instead, allow to exceed the thermometer range and print values next to it.
+** Fix slopes for bullets and missiles that would not have hit a target anyway. This means that missed shots will now go into the actual vertical direction looked into. However, auto-aim will still work and guide shots to their aim. This feature is only enabled in single-player games (though probably harmless).
+
+* Monster death sprites and corpses are now flipped randomly. While the idea is stolen from Doom Retro, the implementation is completely different. The flipping decision is based on the value of <tt>thing->health</tt>, which is randomized in Doom, since all damage done by weapons is already randomized. Once a monster is dead (i.e. <tt>thing->flags & MF_CORPSE</tt>), this value remains constant. Although probably harmless, this feature is also only available in single-player games.
+* Fix different view frames for normal fullscreen mode and Crispy HUD.
+* Fix a crash when attempting to test settings from ''crispy-doom-setup'', merged from Chocolate Doom.
+
 == Changes of Crispy Doom 1.1 from Crispy Doom 1.0 ==
 === Visual Enhancements ===
 * '''Minimal HUD:''' When the view size is increased one step beyond fullscreen, a minimal HUD is displayed which only shows the numbers of the status bar without its background.
