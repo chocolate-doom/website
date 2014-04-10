@@ -18,6 +18,7 @@ Crispy Doom 1.2 is mostly a bug fix release to fix the jerky mouse look in Crisp
 * Monster death sprites and corpses are now flipped randomly. While the idea is stolen from Doom Retro, the implementation is completely different. The flipping decision is based on the value of <tt>thing->health</tt>, which is randomized in Doom, since all damage done by weapons is already randomized. Once a monster is dead (i.e. <tt>thing->flags & MF_CORPSE</tt>), this value remains constant. Although probably harmless, this feature is also only available in single-player games.
 * Fix different view frames for normal fullscreen mode and Crispy HUD.
 * Fix a crash when attempting to test settings from ''crispy-doom-setup'', merged from Chocolate Doom.
+* Fix "fast doors make two closing sounds" and "fast doors reopening with wrong sound" engine bugs.
 
 == Changes of Crispy Doom 1.1 from Crispy Doom 1.0 ==
 === Visual Enhancements ===
