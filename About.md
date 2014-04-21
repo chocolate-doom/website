@@ -7,9 +7,11 @@ Originally just a port of the Doom source code, the purpose of the project has e
 
 The source code to Chocolate Doom is [[wikipedia:Free Software|Free Software]] under the [[wikipedia:GNU GPL|GNU General Public License]], and is [[portability|portable]] to a variety of different operating systems.  It therefore preserves the gameplay of the original game for modern computers, many of which are now unable to run the original.
 
-== Author ==
+== Authors ==
 
 Chocolate Doom is written by [[doom:Simon Howard (Fraggle)|Simon Howard]], with extensive help from many other people who have provided patches, bug reports and suggestions.
+
+Chocolate Strife was developed by [[doom:James Haley (Quasar)|James Haley]] and [[doom:Samuel_Villarreal_(Kaiser)|Samuel Villarreal]] as part of a painstaking reverse engineering project ([[Chocolate Strife|read more...]]).
 
 The Chocolate Doom icon (as shown at the top left of this page) is based on a [http://www.flickr.com/photos/laffy4k/448920776/ photo] of an icecream by [http://www.chrismetcalf.org/ Chris Metcalf].
 
