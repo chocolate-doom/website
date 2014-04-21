@@ -6,3 +6,4 @@ Future versions of Chocolate Doom will include support for digital music packs: 
 High quality recordings of Doom's music already exist, such as [http://sc55.duke4.net/ Brandon Blume's SC-55 recordings]. We hope to provide a set of pseudo-official downloadable music packs for each of the games supported by Chocolate Doom. 
 
 [[Category:Future features]]
+[[Category:Music]]
