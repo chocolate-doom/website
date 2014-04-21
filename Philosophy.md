@@ -1,0 +1,3 @@
+Chocolate Doom has been designed according to a careful, minimalist philosophy that attempts to preserve the gameplay of the original DOS versions of the Doom games.
+
+In some areas the behavior of Chocolate Doom differs from [[Vanilla Doom]]. A [https://github.com/chocolate-doom/chocolate-doom/blob/master/PHILOSOPHY philosophy document] is distributed with the source code that describes the design philosophy in more detail and gives examples of some of the situations in which this occurs.
