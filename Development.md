@@ -7,6 +7,7 @@ You can browse the Chocolate Doom source code [https://github.com/chocolate-doom
 
 Major Chocolate Doom features are developed on separate branches and merged to trunk when complete. There is a list of branches [[:Category:Branches|here]]. For now the active ones are:
 
+* [[gl-branch]] - developing OpenGL scaling code.
 * [[cndoom-branch]] - developing advanced features (ingame timer, mouse, resolution,...) for [[doom:Compet-n|Compet-n]].
 
 Chocolate Doom is designed to be easily forked so that people can develop their own modified versions if they wish.  There is a list of forks [[:Category:Forks|here]].
