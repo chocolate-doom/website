@@ -1,0 +1,1 @@
+Promo photo of a Roland SC-55.
