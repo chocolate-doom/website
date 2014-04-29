@@ -1,3 +1,4 @@
+[[File:Crispy-doom.png|thumb|right|The Crispy Doom icon]]
 Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Chocolate Doom]].
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
@@ -228,5 +229,7 @@ SDL_mixer 1.2.12 and SDL_net 1.2.8 are &copy; 1997-2012 Sam Lantinga and are rel
 Secret Rabbit Code (libsamplerate) is &copy; 2002-2011 Erik de Castro Lopo and is released under the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 Libpng is &copy; 1998-2014 Glenn Randers-Pehrson, &copy; 1996-1997 Andreas Dilger, &copy; 1995-1996 Guy Eric Schalnat, Group 42, Inc. and is released under the [http://www.libpng.org/pub/png/src/libpng-LICENSE.txt libpng license].
 Zlib is &copy; 1995-2013 Jean-loup Gailly and Mark Adler and is released under the [http://www.zlib.net/zlib_license.html zlib license].
+
+The Crispy Doom icon (as shown at the top right of this page) is composed of the [File:Chocolate-logo.png|Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain oublic domain].
 
 [[Category:Forks]]
