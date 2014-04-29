@@ -218,8 +218,12 @@ Also, thanks plums of the [http://www.doomworld.com/vb/ Doomworld forums] for be
 == Legalese ==
 Doom is &copy; 1993-1996 Id Software, Inc.; 
 Boom 2.02 is &copy; 1999 id Software, Chi Hoang, Lee Killough, Jim Flynn, Rand Phares, Ty Halderman;
+PrBoom+ is &copy; 1999 id Software, Chi Hoang, Lee Killough, Jim Flynn, Rand Phares, Ty Halderman,
+&copy; 1999-2000 Jess Haas, Nicolas Kalkhof, Colin Phipps, Florian Schulze,
+&copy; 2005-2006 Florian Schulze, Colin Phipps, Neil Stevens, Andrey Budko;
 Chocolate Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard; 
 Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven Software, &copy; 2008 Simon Howard;
+Strawberry Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard, &copy; 2008-2010 GhostlyDeath; 
 Crispy Doom is additionally &copy; 2014 Fabian Greffrath;
 all of the above are released under the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 
@@ -230,6 +234,6 @@ Secret Rabbit Code (libsamplerate) is &copy; 2002-2011 Erik de Castro Lopo and i
 Libpng is &copy; 1998-2014 Glenn Randers-Pehrson, &copy; 1996-1997 Andreas Dilger, &copy; 1995-1996 Guy Eric Schalnat, Group 42, Inc. and is released under the [http://www.libpng.org/pub/png/src/libpng-LICENSE.txt libpng license].
 Zlib is &copy; 1995-2013 Jean-loup Gailly and Mark Adler and is released under the [http://www.zlib.net/zlib_license.html zlib license].
 
-The Crispy Doom icon (as shown at the top right of this page) is composed of the [File:Chocolate-logo.png|Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain oublic domain].
+The Crispy Doom icon (as shown at the top right of this page) is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
 
 [[Category:Forks]]
