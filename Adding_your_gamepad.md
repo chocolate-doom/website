@@ -24,7 +24,8 @@ The following information is needed:
 
 This information is important; please include it in your report.
 
-'''Step 1''': Go through each stick and D-pad on the device. In your report, it's important you describe where it's located. Move it up, down, left, and right. This should allow you to determine how it is represented. For example, if you push up, then down, you should see output like:
+===Step 1===
+Go through each stick and D-pad on the device. In your report, it's important you describe where it's located. Move it up, down, left, and right. This should allow you to determine how it is represented. For example, if you push up, then down, you should see output like:
 
     0: Axis 1 pushed to extreme: 32767
     0: Axis 1 pushed to extreme: -30455
@@ -38,7 +39,17 @@ You may also see output like this, especially if you are examining a D-pad:
 
 This means that this axis is represented by two buttons: button 4 for up and 6 for down.
 
-'''Step 2''': Go through each button on the device and press each in sequence. You will see output like this:
+You might also see output like this for D-pads:
+
+    1: Hat 0 moved to LEFT
+    1: Hat 0 moved to RIGHT
+    1: Hat 0 moved to UP
+    1: Hat 0 moved to DOWN
+
+This means the stick/D-pad is represented by a hat. Include the hat number in the report (hat #0 in the example above).
+
+===Step 2===
+Go through each button on the device and press each in sequence. You will see output like this:
 
     0: Button 12 pressed
     0: Button 15 pressed
@@ -47,7 +58,8 @@ This means that this axis is represented by two buttons: button 4 for up and 6 f
 
 This will indicate how each button is numbered. In your report, give the button number and how it's labelled ("1", "Triangle", "Start", etc.). If there is no label for the button then describe where it's located on the controller (where it can be seen in the photo).
 
-'''Step 3''': Go through each hat and find how it's numbered. Move the hat and you should see output like this:
+===Step 3===
+Go through each hat and find how it's numbered. Move the hat and you should see output like this:
 
     1: Hat 0 moved to LEFT
     1: Hat 0 moved to RIGHT
@@ -56,4 +68,7 @@ This will indicate how each button is numbered. In your report, give the button 
 
 In your report, describe the hat number (above, hat #0 is the one moved) and where it's located on the controller (where it can be seen in the photo).
 
-'''Step 4''': Email your report [mailto:fraggle@removethisbit.gmail.com to this address] (removing the 'removethisbit' part).
+===Step 4===
+Press escape to exit the joytest program. A log of output from the program will be saved to the file 'joytest.log'. It would be helpful to include this in your report.
+
+Email your report [mailto:fraggle@removethisbit.gmail.com to this address] (removing the 'removethisbit' part).
