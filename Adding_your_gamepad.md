@@ -1,5 +1,14 @@
 Chocolate Doom includes support for gamepads and joysticks as input devices. However, every gamepad has a different arrangement of buttons, meaning that configuration is completely different from one type of controller to the next. To make setup simpler, Chocolate Doom includes preconfigured support for a selection of gamepads. You can help out by adding yours to the list.
 
+== Already supported controllers ==
+
+Configurations have already been submitted for the following controllers:
+* Playstation 3 SIXAXIS controller
+* XBox 360 controller
+* Logitech Dual Action (F310 / F710)
+* Nyko Airflo Ex
+* Wiimote (though only on Mac OS X)
+
 == Needed information ==
 
 The following information is needed:
