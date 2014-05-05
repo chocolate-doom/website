@@ -1,0 +1,59 @@
+Chocolate Doom includes support for gamepads and joysticks as input devices. However, every gamepad has a different arrangement of buttons, meaning that configuration is completely different from one type of controller to the next. To make setup simpler, Chocolate Doom includes preconfigured support for a selection of gamepads. You can help out by adding yours to the list.
+
+== Needed information ==
+
+The following information is needed:
+
+* The manufacturer/model number of the controller, along with a photo. It's usually fairly straightforward to find promotional photos online. This helps to show the layout of the controller.
+* The name of the controller as it appears within the OS. For example, a Playstation 3 controller appears as "PLAYSTATION(R)3 Controller". This is shown by the joytest program; see below.
+* The number of buttons, axes and hats, as shown by joytest.
+* The location of each button, determined using the joytest program.
+* The location of each hat, determined using the joytest program.
+* The location of each axis, determined using the joytest program.
+
+== Using the joytest program ==
+
+'''joytest''' is a simple program that just listens for gamepad/joystick activity and tells you what you did. This allows you to determine how buttons are numbered, and so on. When you run it you will see output like the following:
+
+    1 joysticks:
+        #0: 'PLAYSTATION(R)3 Controller'
+            axes: 4
+            buttons: 19
+            balls: 0
+            hats: 0
+
+This information is important; please include it in your report.
+
+'''Step 1''': Go through each stick and D-pad on the device. In your report, it's important you describe where it's located. Move it up, down, left, and right. This should allow you to determine how it is represented. For example, if you push up, then down, you should see output like:
+
+    0: Axis 1 pushed to extreme: 32767
+    0: Axis 1 pushed to extreme: -30455
+
+This would mean that the vertical axis on that joystick is axis #1, and that positive is up.
+
+You may also see output like this, especially if you are examining a D-pad:
+
+    0: Button 4 pressed
+    0: Button 6 pressed
+
+This means that this axis is represented by two buttons: button 4 for up and 6 for down.
+
+'''Step 2''': Go through each button on the device and press each in sequence. You will see output like this:
+
+    0: Button 12 pressed
+    0: Button 15 pressed
+    0: Button 14 pressed
+    0: Button 13 pressed
+
+This will indicate how each button is numbered. In your report, give the button number and how it's labelled ("1", "Triangle", "Start", etc.). If there is no label for the button then describe where it's located on the controller (where it can be seen in the photo).
+
+'''Step 3''': Go through each hat and find how it's numbered. Move the hat and you should see output like this:
+
+    1: Hat 0 moved to LEFT
+    1: Hat 0 moved to RIGHT
+    1: Hat 0 moved to UP
+    1: Hat 0 moved to DOWN
+
+In your report, describe the hat number (above, hat #0 is the one moved) and where it's located on the controller (where it can be seen in the photo).
+
+'''Step 4''': Email your report [mailto:fraggle@removethisbit.gmail.com to this address] (removing the 'removethisbit' part).
