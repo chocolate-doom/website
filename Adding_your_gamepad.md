@@ -22,7 +22,9 @@ The following information is needed:
             balls: 0
             hats: 0
 
-This information is important; please include it in your report.
+This information is important; please include it in your report. A log of output from the program will be saved to the file 'joytest.log'.
+
+Compiled Windows binaries for the joytest program [http://www.chocolate-doom.org/joytest.zip can be downloaded here]. On other operating systems you'll need to compile it yourself (source code link is below).
 
 ===Step 1===
 Go through each stick and D-pad on the device. In your report, it's important you describe where it's located. Move it up, down, left, and right. This should allow you to determine how it is represented. For example, if you push up, then down, you should see output like:
@@ -69,6 +71,11 @@ Go through each hat and find how it's numbered. Move the hat and you should see 
 In your report, describe the hat number (above, hat #0 is the one moved) and where it's located on the controller (where it can be seen in the photo).
 
 ===Step 4===
-Press escape to exit the joytest program. A log of output from the program will be saved to the file 'joytest.log'. It would be helpful to include this in your report.
+Press escape to exit the joytest program. 
 
 Email your report [mailto:fraggle@removethisbit.gmail.com to this address] (removing the 'removethisbit' part).
+
+== External links ==
+
+* [http://www.chocolate-doom.org/joytest.zip joytest Windows binary]
+* [https://github.com/chocolate-doom/joytest joytest source code] on Github.
