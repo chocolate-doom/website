@@ -3,10 +3,47 @@ Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Cho
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Objectives ==
-Crispy Doom is a moderate fork of [[Chocolate Doom]] that aims to provide a higher display resolution, raise the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+
+== Changes of Crispy Doom 1.3 from Crispy Doom 1.2 ==
+Crispy Doom 1.3 is released on May 19, 2014.
+
+Crispy Doom now has its own icon! It is is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
+
+* A "quick reverse" key has been added.
+* A key to toggle "always run" has been added, it defaults to <tt>Caps Lock</tt>.
+* Keys have been added to ''go to the next level'' and to ''reload the current level'', but are currently unset (based on code taken from PrBoom+).
+* Support to invert the mouse on the vertical axis has been added.
+* It is now possible to toggle between Fist and Chainsaw even without the Berserk pack applied.
+* Boom's <tt>TNTEM</tt> and <tt>TNTWEAPx</tt> cheats as well as PrBoom+'s/ZDoom's <tt>NOTARGET</tt> cheat have been implemented.
+* The Automap is now automatically updated while playing.
+* The Automap markers are now centerd on the map. 
+* Vertical aiming (introduced in Crispy Doom 1.2) is now optional, since may have some severe effects on gameplay. It can be enabled in ''crispy-doom-setup'', but is disabled by default and in demo recording/playback and netgame mode.
+* The corpse flipping randomization (introduced in Crispy Doom 1.2) has been improved by improving corpse health randomization. ''The flipping decision is based on the monster health after death. However, since some weapons do only apply damage in multiples of (multiples of) 2, the distribution was uneven. In Crispy Doom 1.3, moster health is now reduced by <tt>target->tics & 1</tt>, which itself is randomized by <tt>target->tics -= P_Random()&3</tt> before. Thus, a more even distribution is achived across all weapons and monster types.'' Furthermore, the Barrel has been added as an exception that should now have its death animation flipped (thanks Doom Retro).
+* The lethal pellet of a point-blank SSG blast may now get an additional damage boost to achieve an occasional gib chance, disabled in demo recording/playback and netgame mode. ''This only happens if the target is within melee range (i.e. if <tt>P_CheckMeleeRange(target)</tt> returns <tt>true</tt>) and if <tt>damage >= 10</tt> for the lethal pellet, which corresponds to a 2/3 chance.''
+* If the player dies and the game has been loaded or saved before in the current level, that savegame is now reloaded instead of restarting the entire level from scratch. However, since this behaviour may be undesired, it is possible to suppres it by holding the "Run" key during resurrection.
+* The player view is now centered when the player dies or hits hard ground (the latter only when mouse look is disabled).
+* Existing demo files with the same file name are now saved from overriding by adding a file name suffix. That is, if you run e.g. <tt>crispy-doom -record demo</tt> and a file called <tt>demo.lmp</tt> does already exist, Crispy Doom will save the new demo as <tt>demo-000.lmp</tt> or <tt>demo-001.lmp</tt> if that does also exist, etc.
+* Entering menus while recording demos will now pause the game to prevent [http://doomwiki.org/wiki/Demo_desyncing_caused_by_menu_access instant desyncing].
+* A [http://doomwiki.org/wiki/HOM HOM indicator] has been added that flashes between black and red (but remains black if the ''noclip'' cheat is active).
+* Chocolate Doom 2.0.0 clients are now allowed to connect to Crispy Doom servers.
+
+=== Other bug fixes ===
+* The tutti-frutti effect which appeared around the weapon sprite under certain circumstances has been fixed.
+* A crash has been fixed when an Automap marker reaches the border of the map.
+* A bug that made the status bar and the face visible under certain circumstances when using the ''noclip'' cheat has been fixed.
+
+=== Experimental features ===
+* The "flipped levels" feature has been ported over (i.e. "stolen") from Strawberry Doom. To try this out, add the <tt>-fliplevels</tt> parameter to the command line.
+* The SSG is now also available in Doom 1 if the required resources are made available. To try this out, run the game via e.g. <tt>crispy-doom -iwad doom.wad -merge doom2.wad doom.wad</tt> and type <tt>IDKFA</tt> or <tt>TNTWEAP9</tt>.
+
+=== Non-Doom Ports ===
+Due to popular demand, the non-Doom games that are part of Chocolate Doom are added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''.
+Feature requests are accepted if accompanied by patches. ;-)
 
 == Changes of Crispy Doom 1.2 from Crispy Doom 1.1 ==
-Crispy Doom 1.2 is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. If you were unsatisfied with the mouse look performance of Crispy Doom 1.1 it is highly recommended to upgrade to Crispy Doom 1.2:
+Crispy Doom 1.2 is released on April 10, 2014.
+It is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. If you were unsatisfied with the mouse look performance of Crispy Doom 1.1 it is highly recommended to upgrade to Crispy Doom 1.2:
 
 * Unjerkify mouse look.
 ** In Crispy Doom 1.1 vertical mouse movement changed the <tt>look</tt> variable which decided how the actual <tt>player->lookdir</tt> variable will be changed in the next game tic. However, the <tt>look</tt> variable is intended for keyboard use and changes the lookdir in rather coarse steps. The code has been changed to now act directly on the <tt>player->lookdir</tt> variable which provides for a much smoother mouse look.
@@ -22,6 +59,7 @@ Crispy Doom 1.2 is mostly a bug fix release to fix the jerky mouse look in Crisp
 * Fix "fast doors make two closing sounds" and "fast doors reopening with wrong sound" engine bugs.
 
 == Changes of Crispy Doom 1.1 from Crispy Doom 1.0 ==
+Crispy Doom 1.1 is released on April 5, 2014.
 === Visual Enhancements ===
 * '''Minimal HUD:''' When the view size is increased one step beyond fullscreen, a minimal HUD is displayed which only shows the numbers of the status bar without its background.
 * '''Colored Patches and Sprites:''' Color translation lookup tables have been ported over from Boom 2.02. They can be used to (optionally) colorize the numbers on the status bar, the HUD font and also the blood of certain monsters.
@@ -73,6 +111,7 @@ Crispy Doom now comes with its own dedicated setup tool called ''crispy-doom-set
 The non-Doom games that are part of Chocolate Doom have fallen behind in terms of development and haven't seen any significant changes since Crispy Doom 1.0. Thus, only Doom is included in the 1.1 release and will be from now on.
 
 == Changes of Crispy Doom 1.0 from Chocolate Doom 2.0.0 ==
+Crispy Doom 1.0 is released on March 10, 2014.
 === Display Resolution ===
 * The display resolution in all four games (Doom, Heretic, Hexen and Strife) has been doubled in both horizontal and vertical direction, resulting in a 640x400 native resolution.
 * Additionally, in Crispy Doom, the ''Graphic Detail: Low'' mode has been modified to halve the display resolution also in the vertical direction (unlike Vanilla and Chocolate Doom, which only halve the resolution in the horizontal direction in this mode). As a result, in Crispy Doom in ''Graphic Resolution: Low'' mode the screen is rendered '''exactly''' identical to Chocolate Doom in ''Graphic Resolution: High'' mode.
@@ -173,10 +212,13 @@ Please note that all of the above changes do '''only''' apply for the <tt>doom2.
 
 * The minimal Crispy Doom HUD is displayed when <tt>blocksize == 12</tt>, which isn't supported by Chocolate Doom. To retain config file compatibility, quit the game with any other view size.
 
+* The "flipped levels" and "SSG available in Doom 1" features introduced in Crispy Doom 1.3 are considered strictly '''experimental'''! They may produce savegames, demo files or netgames that are not compatible with Chocolate Doom, Vanilla Doom or previous versions of Crispy Doom at all.
+
 == Versioning ==
 Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>].
 Crispy Doom 1.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a80aa343a53c3dd3db2434a52d70de72ec4df955 <tt>a80aa343a5</tt>].
 Crispy Doom 1.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a1b066a0eb0d2cf5d17ad68ca833fcdd21f80725 <tt>a1b066a0eb</tt>].
+Crispy Doom 1.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/e0331a01741905ac665adce1da0fb04e86db4b05 <tt>e0331a0174</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -202,9 +244,7 @@ to install the prerequisites and then
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_1.2.zip
-
-They are statically linked against libsamplerate, libpng and zlib (see below).
+http://www.greffrath.com/~fabian/crispy-doom_1.3.zip
 
 == Contact ==
 The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
