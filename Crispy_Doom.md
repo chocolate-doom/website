@@ -21,8 +21,8 @@ Crispy Doom 1.3 is released on May 19, 2014.
 * The Automap markers are now centerd on the map. 
 * Vertical aiming (introduced in Crispy Doom 1.2) is now optional, since it may have some severe undesired effects on gameplay. It can be enabled in ''crispy-doom-setup'', but is disabled by default and in demo recording/playback and netgame mode.
 * The corpse flipping randomization (introduced in Crispy Doom 1.2) has been improved by improving corpse health randomization. ''The flipping decision is based on the monster health after death. However, since some weapons do only apply damage in multiples of (multiples of) 2, the distribution was uneven. In Crispy Doom 1.3, moster health is now reduced by <tt>target->tics & 1</tt>, which itself is randomized by <tt>target->tics -= P_Random()&3</tt> before. Thus, a more even distribution is achived across all weapons and monster types.'' Furthermore, the Barrel has been added as an exception that should not have its death animation flipped (thanks Doom Retro).
-* The lethal pellet of a point-blank SSG blast may now get an additional damage boost to achieve an occasional gib chance, disabled in demo recording/playback and netgame mode. ''This only happens if the target is within melee range (i.e. if <tt>P_CheckMeleeRange(target)</tt> returns <tt>true</tt>) and if <tt>damage >= 10</tt> for the lethal pellet, which corresponds to a 2/3 chance.''
-* If the player dies and the game has been loaded or saved before in the current level, that savegame is now reloaded instead of restarting the entire level from scratch. However, since this behaviour may be undesired, it is possible to suppres it by holding the "Run" key during resurrection.
+* The lethal pellet of a point-blank SSG blast may now get an additional damage boost to achieve an occasional gib chance, disabled in demo recording/playback and netgame mode. ''This only happens if the target is within melee range (i.e. if <tt>P_CheckMeleeRange(target)</tt> returns <tt>true</tt>) and if <tt>damage >= 10</tt> for the lethal pellet, which roughly corresponds to a 2/3 chance.''
+* If the player dies and the game has been loaded or saved before in the current level, that savegame is now reloaded instead of restarting the entire level from scratch. However, since this behaviour may be undesired, it is possible to suppress it by holding the "Run" key during resurrection.
 * The player view is now centered when the player dies or hits hard ground (the latter only when mouse look is disabled).
 * Existing demo files with the same file name are now saved from getting overwritten by adding a file name suffix. That is, if you run e.g. <tt>crispy-doom -record demo</tt> and a file called <tt>demo.lmp</tt> does already exist, Crispy Doom will now save the new demo as <tt>demo-000.lmp</tt>, or <tt>demo-001.lmp</tt> if that does also exist, etc.
 * Entering menus while recording demos will now pause the game to prevent [http://doomwiki.org/wiki/Demo_desyncing_caused_by_menu_access instant desyncing].
@@ -39,7 +39,7 @@ Crispy Doom 1.3 is released on May 19, 2014.
 * A bug that made the status bar and the face visible under certain circumstances when using the ''noclip'' cheat has been fixed.
 
 === Non-Doom Ports ===
-Due to popular demand, the non-Doom games that are part of Chocolate Doom are added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''.
+* Due to popular demand, the non-Doom games that are part of Chocolate Doom are added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''.
 Feature requests are accepted if accompanied by patches. ;-)
 
 == Changes of Crispy Doom 1.2 from Crispy Doom 1.1 ==
