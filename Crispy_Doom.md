@@ -8,34 +8,35 @@ Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resol
 == Changes of Crispy Doom 1.3 from Crispy Doom 1.2 ==
 Crispy Doom 1.3 is released on May 19, 2014.
 
-Crispy Doom now has its own icon! It is is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
+* Crispy Doom now has its own icon! It is is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
 
+=== New features ===
 * A "quick reverse" key has been added.
-* A key to toggle "always run" has been added, it defaults to <tt>Caps Lock</tt>.
-* Keys have been added to ''go to the next level'' and to ''reload the current level'', but are currently unset (based on code taken from PrBoom+).
+* A key to toggle "always run" has been added, set to <tt>Caps Lock</tt> by default.
+* Keys have been added to "go to the next level" and to "reload the current level", but left unset by default (based on code taken from PrBoom+).
 * Support to invert the mouse on the vertical axis has been added.
-* It is now possible to toggle between Fist and Chainsaw even without the Berserk pack applied.
+* It is now possible to toggle between Fist and Chainsaw even without the Berserk pack applied, not available in demo recording/playback and netgame mode.
 * Boom's <tt>TNTEM</tt> and <tt>TNTWEAPx</tt> cheats as well as PrBoom+'s/ZDoom's <tt>NOTARGET</tt> cheat have been implemented.
-* The Automap is now automatically updated while playing.
+* The Automap is now updated while playing.
 * The Automap markers are now centerd on the map. 
-* Vertical aiming (introduced in Crispy Doom 1.2) is now optional, since may have some severe effects on gameplay. It can be enabled in ''crispy-doom-setup'', but is disabled by default and in demo recording/playback and netgame mode.
-* The corpse flipping randomization (introduced in Crispy Doom 1.2) has been improved by improving corpse health randomization. ''The flipping decision is based on the monster health after death. However, since some weapons do only apply damage in multiples of (multiples of) 2, the distribution was uneven. In Crispy Doom 1.3, moster health is now reduced by <tt>target->tics & 1</tt>, which itself is randomized by <tt>target->tics -= P_Random()&3</tt> before. Thus, a more even distribution is achived across all weapons and monster types.'' Furthermore, the Barrel has been added as an exception that should now have its death animation flipped (thanks Doom Retro).
+* Vertical aiming (introduced in Crispy Doom 1.2) is now optional, since it may have some severe undesired effects on gameplay. It can be enabled in ''crispy-doom-setup'', but is disabled by default and in demo recording/playback and netgame mode.
+* The corpse flipping randomization (introduced in Crispy Doom 1.2) has been improved by improving corpse health randomization. ''The flipping decision is based on the monster health after death. However, since some weapons do only apply damage in multiples of (multiples of) 2, the distribution was uneven. In Crispy Doom 1.3, moster health is now reduced by <tt>target->tics & 1</tt>, which itself is randomized by <tt>target->tics -= P_Random()&3</tt> before. Thus, a more even distribution is achived across all weapons and monster types.'' Furthermore, the Barrel has been added as an exception that should not have its death animation flipped (thanks Doom Retro).
 * The lethal pellet of a point-blank SSG blast may now get an additional damage boost to achieve an occasional gib chance, disabled in demo recording/playback and netgame mode. ''This only happens if the target is within melee range (i.e. if <tt>P_CheckMeleeRange(target)</tt> returns <tt>true</tt>) and if <tt>damage >= 10</tt> for the lethal pellet, which corresponds to a 2/3 chance.''
 * If the player dies and the game has been loaded or saved before in the current level, that savegame is now reloaded instead of restarting the entire level from scratch. However, since this behaviour may be undesired, it is possible to suppres it by holding the "Run" key during resurrection.
 * The player view is now centered when the player dies or hits hard ground (the latter only when mouse look is disabled).
-* Existing demo files with the same file name are now saved from overriding by adding a file name suffix. That is, if you run e.g. <tt>crispy-doom -record demo</tt> and a file called <tt>demo.lmp</tt> does already exist, Crispy Doom will save the new demo as <tt>demo-000.lmp</tt> or <tt>demo-001.lmp</tt> if that does also exist, etc.
+* Existing demo files with the same file name are now saved from getting overwritten by adding a file name suffix. That is, if you run e.g. <tt>crispy-doom -record demo</tt> and a file called <tt>demo.lmp</tt> does already exist, Crispy Doom will now save the new demo as <tt>demo-000.lmp</tt>, or <tt>demo-001.lmp</tt> if that does also exist, etc.
 * Entering menus while recording demos will now pause the game to prevent [http://doomwiki.org/wiki/Demo_desyncing_caused_by_menu_access instant desyncing].
 * A [http://doomwiki.org/wiki/HOM HOM indicator] has been added that flashes between black and red (but remains black if the ''noclip'' cheat is active).
 * Chocolate Doom 2.0.0 clients are now allowed to connect to Crispy Doom servers.
+
+=== Experimental features ===
+* The "flipped levels" feature has been ported over (i.e. "stolen") from Strawberry Doom. To try this out, add the <tt>-fliplevels</tt> parameter to the command line.
+* The SSG is now also available in Doom 1 if the required resources are made available. To try this out, run the game via e.g. <tt>crispy-doom -iwad doom.wad -merge doom2.wad doom.wad</tt> and type <tt>IDKFA</tt> or <tt>TNTWEAP9</tt>.
 
 === Other bug fixes ===
 * The tutti-frutti effect which appeared around the weapon sprite under certain circumstances has been fixed.
 * A crash has been fixed when an Automap marker reaches the border of the map.
 * A bug that made the status bar and the face visible under certain circumstances when using the ''noclip'' cheat has been fixed.
-
-=== Experimental features ===
-* The "flipped levels" feature has been ported over (i.e. "stolen") from Strawberry Doom. To try this out, add the <tt>-fliplevels</tt> parameter to the command line.
-* The SSG is now also available in Doom 1 if the required resources are made available. To try this out, run the game via e.g. <tt>crispy-doom -iwad doom.wad -merge doom2.wad doom.wad</tt> and type <tt>IDKFA</tt> or <tt>TNTWEAP9</tt>.
 
 === Non-Doom Ports ===
 Due to popular demand, the non-Doom games that are part of Chocolate Doom are added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''.
