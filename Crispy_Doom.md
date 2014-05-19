@@ -6,7 +6,7 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Changes of Crispy Doom 1.3 from Crispy Doom 1.2 ==
-Crispy Doom 1.3 is released on May 19, 2014.
+Crispy Doom 1.3 has been released on May 19, 2014.
 
 * Crispy Doom now has its own icon! It is is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
 
@@ -39,11 +39,10 @@ Crispy Doom 1.3 is released on May 19, 2014.
 * A bug that made the status bar and the face visible under certain circumstances when using the ''noclip'' cheat has been fixed.
 
 === Non-Doom Ports ===
-* Due to popular demand, the non-Doom games that are part of Chocolate Doom are added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''.
-Feature requests are accepted if accompanied by patches. ;-)
+* Due to popular demand, the non-Doom games that are part of Chocolate Doom have now been added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''. Feature requests are accepted if accompanied by patches. ;-)
 
 == Changes of Crispy Doom 1.2 from Crispy Doom 1.1 ==
-Crispy Doom 1.2 is released on April 10, 2014.
+Crispy Doom 1.2 has been released on April 10, 2014.
 It is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. If you were unsatisfied with the mouse look performance of Crispy Doom 1.1 it is highly recommended to upgrade to Crispy Doom 1.2:
 
 * Unjerkify mouse look.
@@ -60,7 +59,7 @@ It is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. I
 * Fix "fast doors make two closing sounds" and "fast doors reopening with wrong sound" engine bugs.
 
 == Changes of Crispy Doom 1.1 from Crispy Doom 1.0 ==
-Crispy Doom 1.1 is released on April 5, 2014.
+Crispy Doom 1.1 has been released on April 5, 2014.
 === Visual Enhancements ===
 * '''Minimal HUD:''' When the view size is increased one step beyond fullscreen, a minimal HUD is displayed which only shows the numbers of the status bar without its background.
 * '''Colored Patches and Sprites:''' Color translation lookup tables have been ported over from Boom 2.02. They can be used to (optionally) colorize the numbers on the status bar, the HUD font and also the blood of certain monsters.
@@ -112,7 +111,7 @@ Crispy Doom now comes with its own dedicated setup tool called ''crispy-doom-set
 The non-Doom games that are part of Chocolate Doom have fallen behind in terms of development and haven't seen any significant changes since Crispy Doom 1.0. Thus, only Doom is included in the 1.1 release and will be from now on.
 
 == Changes of Crispy Doom 1.0 from Chocolate Doom 2.0.0 ==
-Crispy Doom 1.0 is released on March 10, 2014.
+Crispy Doom 1.0 has been released on March 10, 2014.
 === Display Resolution ===
 * The display resolution in all four games (Doom, Heretic, Hexen and Strife) has been doubled in both horizontal and vertical direction, resulting in a 640x400 native resolution.
 * Additionally, in Crispy Doom, the ''Graphic Detail: Low'' mode has been modified to halve the display resolution also in the vertical direction (unlike Vanilla and Chocolate Doom, which only halve the resolution in the horizontal direction in this mode). As a result, in Crispy Doom in ''Graphic Resolution: Low'' mode the screen is rendered '''exactly''' identical to Chocolate Doom in ''Graphic Resolution: High'' mode.
