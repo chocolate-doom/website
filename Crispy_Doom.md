@@ -27,13 +27,13 @@ Crispy Doom 1.4 has been released on June 12, 2014.
 * HUD improvements:
 ** When either the God Mode cheat or the Invincibility powerup are active, Health and Armor values on the status bar are now printed in gray.
 ** When the fist is selected and the Berserk Pack is active, its sprite is now drawn into the previously empty Ammo field in the Crispy HUD.
-* Once a savegame has been rejected to continue from after player death (by holding down the "Run" key during resurrection, feature introduced in Crispy Doom 1.3) it is not considered anymore until loaded or saved again.
 
 === Technical ===
 * Gun flash sprites are now rendered translucent.
 * Holding down the "Run" key while taking a screen shot now takes the picture without the weapon sprite or any other HUD elements.
 * Holding down the "Run" key while choosing "Quit Game" now exits instantly. This actually turns <tt>Shift+F10</tt> into an emergency "Boss Key". ;)
 * The presence of MAP33 is not hard-coded to the <tt>doom2.wad</tt> IWAD file of the BFG Edition anymore. Instead, it is now checked at startup and the level progression (i.e. ''MAP02-(secret exit)->MAP33->MAP03'') is adapted accordingly.
+* Once a savegame has been rejected to continue from after player death (by holding down the "Run" key during resurrection, feature introduced in Crispy Doom 1.3) it is not considered anymore until loaded or saved again.
 * The <tt>IDCLEVxy</tt> cheat now eats key presses, i.e. the second digit of the level number is not interpreted as a weapon selection anymore.
 * When using the <tt>-warp</tt> command line parameter for Doom 1, the episode and map numbers do not have to be separated by spaces anymore.
 * The flashing HOM indicator (introduced in Crispy Doom 1.3) has been turned into a command line option <tt>-flashinghom</tt> and now flashes even when the <tt>NOCLIP</tt> cheat is active. Without this option, though, HOMs are still drawn in black but do not flash in red anymore.
