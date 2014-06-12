@@ -5,6 +5,39 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 == Objectives ==
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
+== Changes of Crispy Doom 1.4 from Crispy Doom 1.3==
+Crispy Doom 1.4 has been released on XY, 2014.
+
+=== Gameplay ===
+* Players are now allowed to walk over or underneath shootable objects, i.e. monsters and barrels. This needs to be explicitely enabled in ''crispy-doom-setup'', but is disabled by default and generally only available in single-player games.
+: Some restrictions still apply to this feature:
+:# Only the player can walk over or underneath other objects, monsters can not. This prevents multiple monsters from piling up and avoids the need for more complicated measures in the code that would potentially break compatibility.
+:# It is only allowed to walk over or underneath shootable objects. Most other objects in Doom have arbitrary heights hard-coded into the engine which do not necessarily match the actual appereance in the game.
+:# Melee attacks across differences heights are entirely unaffected by this feature.
+* Automap improvements: 
+** Keyed doors are now drawn in their respective colors.
+** Thus, in order to distinguish red-keyed doors from regular walls (which were formerly drawn in red) and yellow-keyed doors from walls with ceiling level changes (which were formerly drawn in yellow), these are now drawn in darker red and yellow colors, respectively.
+** Furthermore, teleporters (which were formerly drawn in just that darker red color) are now drawn in green. Additionally, WR teleporters (''linedef type #97'') are now also drawn in green if they are not secret.
+** When the <tt>IDDT</tt> cheats are active:
+*** Secret sector boundaries are now drawn in purple until they are revealed (''i.e. as long as <tt>sector->special == 9</tt>'').
+*** Keys are now shown as crosses in their respective colors.
+*** The triangle size now represents the actual thing size.
+*** Countable kills are now shown as red and countable items as yellow triangles.
+** Episode and Map are now explicitely shown in the automap if the map title string has been modified by means of dehacked.
+* HUD improvements:
+** When either the God Mode cheat or the Invincibility powerup are active, Health and Armor values on the status bar are now printed in gray.
+** When the fist is selected and the Berserk Pack is active, its sprite is now drawn into the previously empty Ammo field in the Crispy HUD.
+* Once a savegame has been rejected to continue from after player death (by holding down the "Run" key during resurrection, feature introduced in Crispy Doom 1.3) it is not considered anymore until loaded or saved again.
+
+=== Technical ===
+* Gun flash sprites are now rendered translucent.
+* Holding down the "Run" key while taking a screen shot now takes the picture without the weapon sprite or any other HUD elements.
+* Holding down the "Run" key while choosing "Quit Game" now exits instantly. This actually turns <tt>Shift+F10</tt> into an emergency "Boss Key". ;)
+* The presence of MAP33 is not hard-coded to the <tt>doom2.wad</tt> IWAD file of the BFG Edition anymore. Instead, it is now checked at startup and the level progression (i.e. ''MAP02-(secret exit)->MAP33->MAP03'') is adapted accordingly.
+* The <tt>IDCLEVxy</tt> cheat now eats key presses, i.e. the second digit of the level number is not interpreted as a weapon selection anymore.
+* When using the <tt>-warp</tt> command line parameter for Doom 1, the episode and map numbers do not have to be separated by spaces anymore.
+* The flashing HOM indicator (introduced in Crispy Doom 1.3) has been turned into a command line option <tt>-flashinghom</tt> and now flashes even when the <tt>NOCLIP</tt> cheat is active. Without this option, though, HOMs are still drawn in black but do not flash in red anymore.
+
 == Changes of Crispy Doom 1.3 from Crispy Doom 1.2 ==
 Crispy Doom 1.3 has been released on May 19, 2014.
 
