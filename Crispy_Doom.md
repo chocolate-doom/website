@@ -6,7 +6,7 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Changes of Crispy Doom 1.4 from Crispy Doom 1.3==
-Crispy Doom 1.4 has been released on XY, 2014.
+Crispy Doom 1.4 has been released on June 12, 2014.
 
 === Gameplay ===
 * Players are now allowed to walk over or underneath shootable objects, i.e. monsters and barrels. This needs to be explicitely enabled in ''crispy-doom-setup'', but is disabled by default and generally only available in single-player games.
