@@ -5,6 +5,64 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 == Objectives ==
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
+== Changes of Crispy Doom 1.5 from Crispy Doom 1.4 ==
+Crispy Doom 1.5 "Supernova" has been released on August 18, 2014.
+
+=== Gameplay ===
+* Automap improvements:
+** Exit lines are now drawn in white.
+** Corpses are now shown as gray rectangles when the <tt>IDDT</tt> cheat is active.
+** The disappearance of map and grid lines when zooming far out in huge maps has been fixed.
+
+* A new, unique <tt>SPECHITS</tt> cheat has been added that triggers (by either using, shooting or crossing) all special lines available in the map '''at once''' -- including lines that require a key to get activated but excluding teleporters and level exits. ''While this cheat may appear completely pointless at first, it has proven useful for debugging purposes and allows map designers to "just see what happens if...". Be warned, however, that using this cheat may leave the map in a completely inconsistent state and may cause several overflows and unpredictable behaviour. Furthermore, please note that doors which can be activated from both sides will not move at all, because they will be opened by one <tt>linedef</tt> and closed again by the other one in the same gametic.''
+* The <tt>ID[K]FA</tt> cheats now give the backpack to the player.
+
+* Optional weapon recoil has been added for all weapons except the fist and the chainsaw, using the recoil thrust values found in MBF and PrBoom+. This feature has to get enabled in ''crispy-doom-setup'', it is disabled by default and only generally available in regular single player games.
+* The extra quit messages ('''containing profanity!''') found in the source code have been enabled and are now shown with the same propability as the original messages.
+* The weapon sprite now gets centered upon firing.
+* When the "Quick Load" button (<tt>F9</tt>) is pressed before the game has been saved via "Quick Save" (<tt>F6</tt>), the regular "Load Game" menu is now shown and the selected slot is taken as the "Quick Save" slot. Also, the "Quick Save" slot is now cleared once the game is ended via "End Game" in the "Options" menu.
+
+* If the player exits a map with the Berserker fist active and is equiped with the chaisaw, he will start the next map with the chainsaw instead of the normal fist. This feature is only available in regular single player games.
+* The "power up" sound is now played (but only audible to the <tt>consoleplayer</tt>) each time the Berserker fist is selected.
+
+=== Technical ===
+* Compatibility improvements:
+** The default amount of RAM that is allocated for the game has been doubled to <tt>32 MB</tt>, the minimal amount has been quadrupled to <tt>16 MB</tt>. 
+** The "Medusa" effect from multi-patch textures has been fixed by lazily replacing (and slightly adapting) <tt>R_DrawColumnInCache()</tt>, <tt>R_GenerateComposite()</tt> and <tt>R_GenerateLookup()</tt> in <tt>src/doom/r_data.c</tt> with Lee Killough's implementations from MBF.
+** The "Tutti Frutti" effect from short textures has been fixed by (again lazily) replacing <tt>R_DrawColumn()</tt> in <tt>src/doom/r_draw.c</tt> with Lee Killough's implementation from MBF. ''However, this fix has not yet been applied to the other column drawing functions, namely <tt>R_Draw{Fuzz,Translated,TL}Column[Low]()</tt>.''
+** The <tt>MAXVISSPRITES</tt>, <tt>MAXVISPLANES</tt> and <tt>MAXDRAWSEGS</tt> limits have been entirely removed (''i.e. the formerly static arrays now get resized dynamically''), using no Boom-derived code at all. ''However, for performance reasons (mostly sprite ordering in <tt>R_SortVisSprites()</tt>), the <tt>MAXVISSPRITES</tt> limit is currently capped at 4096 (i.e. <tt>32 x</tt> Vanilla <tt>MAXVISSPRITES</tt> limit).''
+** The <tt>MAXSEGS</tt> limit has been raised from <tt>32</tt> to <tt>(SCREENWIDTH/2+1)</tt>, i.e. the same value found in MBF.
+** The <tt>BLOCKMAP</tt> limit has been removed, using code from PrBoom+.
+** Support for extended nodes has been implemented, again using code from PrBoom+.
+** The <tt>MAX_ADJOINING_SECTORS</tt> limit (''formerly up to <tt>20</tt> adjoining sectors'') has been removed, while keeping the one overflow (''i.e. if <tt>h == 21</tt>'') that could possibly get emulated intact -- based on code adapted from PrBoom+.
+** The Vanilla savegame and demo limits are now unconditionally disabled.
+** When entering an unknown special sector, the game will not crash with an error message anymore but merely print a warning.
+** The file size limit (<tt>96 kB</tt>) for MID files inside PWADs has been disabled.
+** Common mapping errors (''e.g. missing <tt>sidedefs</tt>'') are now fixed upon loading the maps, using code adapted from PrBoom+.
+** A [http://doomwiki.org/wiki/Hall_of_mirrors_effect HOM] is fixed if both <tt>ceilingplane</tt> and <tt>floorplane</tt> are the same visplane (e.g. both are skies).
+** An integer overflow in <tt>SlopeDiv()</tt> has been fixed that formerly lead to an open subsector and thus a giant slime trail in <tt>nuts.wad</tt>.
+: All of the above changes make it possible to properly play (and save, and exit, and record and playback demos in) ''Fraken''maps like e.g. <tt>nuts.wad</tt>, <tt>arcadia.wad</tt> and all of <tt>NOVA.wad</tt> -- gosh, what broken mess. :p
+
+* Enemy targets and tracers are now preserved when saving and loading a game. ''This is achieved by enumerating all thinker pointers upon saving a game and storing the corresponding indices in the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields instead of the actual pointers. When loading a game, after all the thinkers have been restored, the reverse process is applied and all indices in the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields are replaced by the corresponding current pointers again. This process is completely Vanilla compatible, as Vanilla will ignore the contents of the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields anyway and overwrite them with <tt>NULL</tt> when loading a game. Otherwise, when loading a game saved in Vanilla, the contents of the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields will not match any of the indices expected by Crispy Doom and will thus get overwritten with <tt>NULL</tt>, just as in Vanilla.''
+* Games saved in a map with an active cube spitter will not cause a crash anymore when loaded again. ''When awakened, the cube spitter counts the number of spawn spots and saves them in the <tt>numbraintargets</tt> variable. However, in Vanilla its value is not recalculated when loading a game. This has been fixed by calling <tt>A_BrainAwake()</tt> again if <tt>numbraintargets == 0</tt>.''
+
+* Mouse look improvements:
+** Vertical mouse movement has been vastly smoothened by adjusting the scale instead of the mouse delta. ''In the former implementation the vertical mouse delta was scaled down by <tt>1/8</tt>, i.e. the lower three bits were discarded. So by moving the mouse really slowly, it was possible to not change <tt>lookdir</tt> at all when the delta on every tic was less than <tt>8</tt>. This has been fixed by moving the division into the rendering and slope calculations and scaling all the constants up by factor 8.'' Thanks to clarry of the doomworld forum for this highly appreciated patch!
+** Centering the view with the mouse button assigned to mouse look is now more lenient. Any click with that button that is shorter than <tt>6 tics</tt> will now center the view.
+** The view is now smoothly centered after teleporting.
+** ''The <tt>yslope[i]</tt> array is not recalculated anymore in <tt>R_SetupFrame()</tt> for each frame when <tt>lookdir</tt> changes; instead a lookup table is calculated once in <tt>R_ExecuteSetViewSize</tt>.''
+
+* All PWADs given as arguments to the "<tt>-file</tt>" parameter will now get merged as if they were passed to the "<tt>-merge</tt>" parameter.
+* It is now possible to scroll through the menus with the same mouse buttons that are assigned for changing to the previous/next weapon -- which are usually mouse wheel down/up, respectively.
+* If the "Run" key is pressed while the game window is closed (e.g. by clicking on the <tt>X</tt> button in the upper right corner), the game now exits instantly (in addition to the feature introduced in Crispy Doom 1.4).
+* The background now slowly fades out when a menu is activated or the game is paused.
+
+=== Additional bug fixes ===
+* The <tt>tranmap.dat</tt> file will not get saved in the root directory on Windows systems anymore, instead it will now get saved in the same directory as e.g. <tt>crispy-doom.cfg</tt>. ''This was caused by an extra leading path separator in the <tt>tranmap.dat</tt> file name string.'' Thanks to plums of the doomworld forums for the bug report.
+* Visual glitches with transparent sprites caused by palette changes have now been fixed. ''The cached translucency map in the <tt>tranmap.dat</tt> file is checked for palette changes at startup. However, in the original code derived from MBF, only the first <tt>256</tt> bytes of the palette were compared, whereas the base palette in the <tt>PLAYPAL</tt> lump has <tt>768</tt> bytes. So, changes in later palette indices went completely unnoticed.''
+* The state of the "always run" toggle (introduced in Crispy Doom 1.3) after loading and saving a game has been fixed. ''Enabling "always run" makes the <tt>joybspeed</tt> variable greater than the size of the array which holds the button states, which caused an out-of-bounds read in the part of the expression that determines whether <tt>speed</tt> should be <tt>true</tt>.'' Thanks to clarry of the doomworld forums for the bug report and the patch!
+* If things are stuck together vertically because of moving sectors, they are now allowed to move further apart. The fix for this bug has been taken from Doom Retro.
+
 == Changes of Crispy Doom 1.4 from Crispy Doom 1.3==
 Crispy Doom 1.4 has been released on June 12, 2014.
 
@@ -247,11 +305,18 @@ Please note that all of the above changes do '''only''' apply for the <tt>doom2.
 
 * The "flipped levels" and "SSG available in Doom 1" features introduced in Crispy Doom 1.3 are considered strictly '''experimental'''! They may produce savegames, demo files or netgames that are not compatible with Chocolate Doom, Vanilla Doom or previous versions of Crispy Doom at all.
 
+* The <tt>SPECHITS</tt> cheat introduced in Crispy Doom 1.5 may leave a map in a completely inconsistent state and games saved after using it may even cause Vanilla to crash by exceeding static limits.
+
+* Games saved with Crispy Doom 1.5 or later are still '''compatible with Vanilla Doom''', but are '''not identical''' anymore to the files that Vanilla Doom would have saved. This is caused by the fact that Crispy Doom preserves the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields when saving a game by replacing their contents with specific indices. These indices are then converted back into the corresponding pointers in Crispy Doom when the game is loaded again. In Vanilla Doom, however, the contents of the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields are disregarded and get overwritten with <tt>NULL</tt> when loading the game. Games saved in Vanilla Doom, on the other hand, still contain pointers in the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields, but these will not match any of the indices expected by Crispy Doom and will thus get overwritten with <tt>NULL</tt> as in Vanilla Doom.
+
+* Furthermore, the position of the weapon sprite is stored in savegames. While this is always centered when firing in Crispy Doom 1.5, its position actually varies in Vanilla Doom.
+
 == Versioning ==
 Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>].
 Crispy Doom 1.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a80aa343a53c3dd3db2434a52d70de72ec4df955 <tt>a80aa343a5</tt>].
 Crispy Doom 1.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a1b066a0eb0d2cf5d17ad68ca833fcdd21f80725 <tt>a1b066a0eb</tt>].
 Crispy Doom 1.3 and Crispy Doom 1.4 both have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/e0331a01741905ac665adce1da0fb04e86db4b05 <tt>e0331a0174</tt>].
+Crispy Doom 1.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/97f1de66497c1071ac138e0c63152267b9d2978f <tt>97f1de6649</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -277,7 +342,7 @@ to install the prerequisites and then
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_1.4.zip
+http://www.greffrath.com/~fabian/crispy-doom_1.5.zip
 
 == Contact ==
 The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
