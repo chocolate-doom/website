@@ -54,7 +54,7 @@ Crispy Doom 1.5 "Supernova" has been released on August 18, 2014.
 
 * All PWADs given as arguments to the "<tt>-file</tt>" parameter will now get merged as if they were passed to the "<tt>-merge</tt>" parameter.
 * It is now possible to scroll through the menus with the same mouse buttons that are assigned for changing to the previous/next weapon -- which are usually mouse wheel down/up, respectively.
-* If the "Run" key is pressed while the game window is closed (e.g. by clicking on the <tt>X</tt> button in the upper right corner), the game now exits instantly (in addition to the feature introduced in Crispy Doom 1.4).
+* If the "Run" key is pressed while the game window is closed (e.g. by clicking on the <tt>X</tt> button in the upper right corner) or during confirmation of the quit message, the game now exits instantly (in addition to the feature introduced in Crispy Doom 1.4).
 * The background now slowly fades out when a menu is activated or the game is paused.
 
 === Additional bug fixes ===
