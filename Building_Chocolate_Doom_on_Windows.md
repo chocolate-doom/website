@@ -18,8 +18,7 @@ Go through the setup program until the point where you are prompted to select wh
 * automake1.14
 * autoconf2.5
 * bash
-* mingw64-i686-gcc-core
-* mingw64-i686-gcc
+* mingw-gcc-core
 * make
 * python
 * subversion
