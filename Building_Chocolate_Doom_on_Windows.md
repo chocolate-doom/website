@@ -15,16 +15,16 @@ If you already have Cygwin installed, re-run the setup program again, and follow
 
 Go through the setup program until the point where you are prompted to select which packages you want to install. Click the "view" button at the top right of the window and select "full" to get a single list of packages sorted by name, and select the following packages:
 
-* automake1.8
+* automake1.14
 * autoconf2.5
 * bash
-* gcc-mingw-core
-* gcc-mingw-g++
+* mingw64-i686-gcc-core
+* mingw64-i686-gcc
 * make
 * python
 * subversion
 * wget
-* w32api
+* w32api-runtime
 
 Having selected the necessary packages, click "next" to begin the install process.  If you are installing Cygwin for the first time it may take a while to download and install all of the packages.
 
