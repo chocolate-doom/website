@@ -34,7 +34,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 - additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
 
 
-ToDo for v2.0.3:
+ToDo for v2.0.3.x:
 
 - more stats on cooperative intermission screen
 
@@ -42,10 +42,6 @@ ToDo for v2.0.3:
 Maybe one day:
 
 - client/server demo verification
-
-- high resolution
-
-- Android and iPhone app
 
 
 == Requirements ==
@@ -65,7 +61,7 @@ http://doom.com.hr/cndoom/support/
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.2.1-win.zip Competition Doom v2.0.2.1 for Windows]
 
-[http://www.doom.com.hr/cndoom/cndoom-2.0.2.tar.gz Source for Linux]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source for Linux]
 
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
 
@@ -77,19 +73,19 @@ The following are instructions for building Competition Doom under [http://www.d
 
 The first step is to install the necessary dependencies for building Competition Doom.  The easiest way to do this is to use the Debian package manager. Run this command as root:
 
- aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging fluidsynth
+ aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging fluidsynth dh-autoreconf mingw32
 
 Several packages will be installed. 
 
 Download the source package and extract it, for example:
 
- wget http://www.doom.com.hr/cndoom/cndoom-2.0.2.tar.gz
+ wget http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz
 
- tar xzf cndoom-2.0.2.tar.gz
+ tar xzf cndoom-2.0.3.1.tar.gz
 
 Then build the package:
 
- cd cndoom-2.0.2
+ cd cndoom-2.0.3.1
  ./autogen.sh
  ./configure
  make
@@ -116,29 +112,18 @@ To clean and rebuild Windows executables do:
 
  ./clean-cndoom
 
-== Tracking Subversion ==
+Get the latest version from Git:
 
-To keep up to date with the latest bleeding-edge version of Competition Doom, you can build the latest version from the Subversion repository.
+ git clone git@github.com:fx02/chocolate-doom.git
 
-To do this, you need to install some extra packages:
 
- aptitude install automake autoconf libtool subversion
+To keep up to date, periodically run these command to update your source:
 
-Check out the latest version from Subversion:
-
- svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom
-
-To checkout to some other directory and not cndoom-x.x.x:
-
- svn co http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom your_directory
-
-To keep up to date, periodically run these command to update your checkout:
-
- svn up
+ git pull
 
 
 ==External links==
-*[http://svn.code.sf.net/p/chocolate-doom/code/branches/cndoom/ Competition Doom SVN]
+*[https://github.com/fx02/chocolate-doom Competition Doom Git]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
 
 
