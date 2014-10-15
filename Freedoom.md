@@ -1,9 +1,7 @@
 [[Image:chocolate-eternal-freedoom.png|thumb|200px|right|Chocolate Doom running [[Eternal Doom]] with Freedoom.]]
-'''Freedoom''' is a [[doom:Freedoom|Free IWAD file]] that can be used to play Doom without the original proprietary game files.  However, it requires a Boom-compatible engine to run.  Because Chocolate Doom is only compatible with [[doom:Vanilla Doom|Vanilla Doom]], Freedoom does not run properly with Chocolate Doom.
+'''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, Phase 1+2 requires a Boom-compatible engine to run, while only the FreeDM component of Freedoom is vanilla-compatible.  Because Chocolate Doom is only compatible with [[doom:Vanilla Doom|Vanilla Doom]], Freedoom: Phase 1+2 does not run properly with Chocolate Doom.
 
 However, Chocolate Doom can still be made to run with Freedoom.  The only incompatibility between the two is that the levels distributed with Freedoom do not run.  Because of this, Freedoom will run without problems provided that replacement levels are always loaded.
-
-An alternative is to use the '''FreeDM''' IWAD, which is a version of Freedoom that contains only multiplayer deathmatch levels; these levels are Vanilla-compatible.
 
 Simple instructions:
 # Download and extract Chocolate Doom.
@@ -12,15 +10,15 @@ Simple instructions:
 
  chocolate-doom -iwad freedoom2.wad -file ''filename.wad''
 
-== Suggested MegaWADs ==
+== Suggested Megawads ==
 
 The [[doom:idgames archive|idgames archive]] is a good place to find WADs to play with. Not all levels will work with Chocolate Doom - look for levels that are marked as "Vanilla compatible", will run with "Doom 1.9", or "no advanced engine required".
 
-=== Doom 2 MegaWADs (for doom2.wad) ===
+=== Doom 2 Megawads (for freedoom2.wad) ===
 
 {| {{prettytable}}
 |-
-!MegaWAD || idgames link
+!Megawad || idgames link
 |-
 |[[doom:Alien Vendetta|Alien Vendetta]] || [http://www.doomworld.com/idgames/index.php?id=11790 av.zip]
 |-
@@ -40,26 +38,26 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 |-
 |}
 
-More Doom 2 MegaWADs can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
+More Doom 2 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
 
-=== Doom 1 MegaWADs (for doom.wad) ===
+=== Doom 1 Megawads (for freedoom1.wad) ===
 
 {| {{prettytable}}
 |-
-!MegaWAD || idgames link
+!Megawad || idgames link
 |-
 |[[doom:2002 A Doom Odyssey|2002: A Doom Odyssey]] || [http://www.doomworld.com/idgames/index.php?id=11657 2002ado.zip]
 |-
 |[[doom:Base Ganymede|Base Ganymede]] || [http://www.doomworld.com/idgames/index.php?id=16694 bgcomp.zip]
 |-
-|[[doom:Doom the Way id Did|Doom the Way id Did]] || [http://www.doomworld.com/idgames/index.php?id=16721 dtwid.zip] (Doesn't currently work in the latest stable release because of [https://github.com/freedoom/freedoom/issues/1 a Freedoom bug]. However, it has been fixed in the trunk.)
+|[[doom:Doom the Way id Did|Doom the Way id Did]] || [http://www.doomworld.com/idgames/index.php?id=16721 dtwid.zip]
 |}
 
-More Doom 1 MegaWADs can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
+More Doom 1 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
 
 == External links ==
 
-* [http://www.nongnu.org/freedoom/ Freedoom website]
+* [https://freedoom.github.io/ Freedoom website]
 * [http://www.doomworld.com/idgames/ idgames archive]
 
 __NOTOC__
