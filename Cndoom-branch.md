@@ -108,6 +108,9 @@ To build Windows executable on Linux type:
 
  ./build-cndoom -host=i586-mingw32msvc
 
+
+Remember that you have to perform '''make clean''', then '''./autogen.sh''' if you already compiled for linux!
+
 To clean and rebuild Windows executables do:
 
  ./clean-cndoom
@@ -120,7 +123,6 @@ Get the latest version from Git:
 To keep up to date, periodically run these command to update your source:
 
  git pull
-
 
 ==External links==
 *[https://github.com/fx02/chocolate-doom Competition Doom Git]
