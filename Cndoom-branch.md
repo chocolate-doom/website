@@ -136,7 +136,7 @@ If you are interested in Competition Doom and want to help with coding or have i
 
 ==Bugs==
 
-Report bugs to our tracking system http://www.doom.com.hr/cndoom/bug/ or send to cndoom@doom.com.hr.
+Report bugs/issues on github https://github.com/fx02/chocolate-doom.
 
 
 
