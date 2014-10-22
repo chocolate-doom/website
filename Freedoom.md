@@ -40,6 +40,23 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 
 More Doom 2 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
 
+=== Final Doom Megawads (for freedoom2.wad) ===
+
+Support for Final Doom in Chocolate Doom is implemented by an internal set of mission packs.  These are normally selected automatically when the IWAD file name is named as ''tnt.wad'' or ''plutonia.wad''.  However, even though Freedoom: Phase 2 supports megawads for both Final Doom games, it defaults to behaving as Doom II, which can make DeHackEd patches not fully work or cause demos to desync.  This can be fixed with the ''-pack'' parameter, which can accept the values ''tnt'' and ''plutonia'', for example:
+
+ chocolate-doom -iwad freedoom2.wad -pack plutonia -file ''filename.wad''
+
+{| {{prettytable}}
+|-
+!Megawad || idgames link
+|-
+|[[doom:Plutonia 2|Plutonia 2]] || [http://www.doomworld.com/idgames/?file=levels/doom2/megawads/pl2.zip pl2.zip]
+|-
+|[[doom:Plutonia: Revisited Community Project|Plutonia: Revisited Community Project]] || [http://www.doomworld.com/idgames/?file=levels/doom2/Ports/megawads/prcp.zip prcp.zip]
+|-
+|TNT 2: Devilution || n/a: [http://www.doomworld.com/vb/wads-mods/47721-tnt-2-devilution-texture-pack-in-op/ wip forum link]
+|}
+
 === Doom 1 Megawads (for freedoom1.wad) ===
 
 {| {{prettytable}}
