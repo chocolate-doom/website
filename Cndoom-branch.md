@@ -70,7 +70,7 @@ http://doom.com.hr/cndoom/support/
 == Beta ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-beta.zip Competition Doom v2.0.3.1 for Windows]
 
-[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source for Linux]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source code]
 
 
 '''DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!'''
