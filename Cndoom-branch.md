@@ -63,9 +63,17 @@ http://doom.com.hr/cndoom/support/
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.2.1-win.zip Competition Doom v2.0.2.1 for Windows]
 
-[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source for Linux]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.2.1.tar.gz Source for Linux]
 
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
+
+== Beta ==
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-beta.zip Competition Doom v2.0.3.1 for Windows]
+
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source for Linux]
+
+DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!
+!!!DEMOS RECORDED WITH 2.0.3.1 WILL NOT BE ACCEPTED TO COMPETITION!!!
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
