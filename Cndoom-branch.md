@@ -1,5 +1,5 @@
-[[File:cndoom_timer_ingame.png|thumb|right|Demonstration of ingame timer]]
-[[File:cndoom_timer_intermission.png|thumb|right|Demonstration of intermission timer]]
+[[File:cndoom_timer_ingame.png|thumb|right|Timer]]
+[[File:cndoom_timer_intermission.png|thumb|right|Intermission timer]]
 [[File:cnlaunch.png|thumb|right|Windows launcher]]
 '''cndoom-branch''' is a Chocolate Doom v2 modification for [http://doom.com.hr/?page=compet-n_rules Doom speedruning competition].
 
@@ -32,6 +32,8 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 - Windows launcher for easy recording or playback and WAD/PWAD selection
 
 - additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
+
+- high resolution (taken from crispy branch)
 
 
 ToDo for v2.0.3.x:
