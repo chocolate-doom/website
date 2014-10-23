@@ -72,8 +72,9 @@ http://doom.com.hr/cndoom/support/
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source for Linux]
 
-DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!
-!!!DEMOS RECORDED WITH 2.0.3.1 WILL NOT BE ACCEPTED TO COMPETITION!!!
+'''DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!
+
+!!!DEMOS RECORDED WITH 2.0.3.1 WILL NOT BE ACCEPTED TO COMPETITION!!!'''
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
