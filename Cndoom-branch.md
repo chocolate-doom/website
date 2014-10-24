@@ -68,6 +68,8 @@ http://doom.com.hr/cndoom/support/
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
 
 == Beta ==
+Last updated: 24.10.2014. 12:10
+
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-beta.zip Competition Doom v2.0.3.1 for Windows]
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source code]
