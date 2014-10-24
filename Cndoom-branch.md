@@ -36,14 +36,27 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 - high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]) All credits and BIG thanks to Fabian Greffrath.
 
 
-ToDo for v2.0.3.x:
+ToDo for v2.0.3.1 final:
 
-- more stats on cooperative intermission screen
+
+- high resolution for heretic, hexen and strife (partially done)
+
+- show secret is revealed as normal message ONLY when playing demo as displaying it on the center of screen is ugly
+
+- mouse y sensitivity from crispy doom (partially done)
+
+- fix quickstart bug
 
 
 Maybe one day:
 
+- more stats on cooperative intermission screen
+
+- metadata for coop
+
 - client/server demo verification
+
+- crispy hud
 
 
 == Requirements ==
