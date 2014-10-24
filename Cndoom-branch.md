@@ -9,7 +9,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - quickstart enables you to move your mouse while Doom is loading (delayed) when recording demo
 
-- removed all Vanilla Doom limits (savegame, demo) (no more crashes)
+- removed all Doom limits (savegame, demo) (no more crashes)
 
 - configurable ingame and intermission (NET games too) timer with milliseconds
 
@@ -19,7 +19,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - show intermission screen for ExM8
 
-- do not end game after ExM8 (Ultimate Doom movie is possible now)
+- do not end game after ExM8 (Ultimate Doom movie is now possible)
 
 - always run and novert turned on by default, show_endoom turned off, screenblocks 10, gamma 4, jobspeed 29, ...
 
@@ -33,7 +33,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
 
-- high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]) All credits and BIG thanks to Fabian Greffrath.
+- high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]). All credits and BIG thanks to Fabian Greffrath.
 
 
 ToDo for v2.0.3.1 final:
