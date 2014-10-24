@@ -33,7 +33,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
 
-- high resolution (taken from crispy branch)
+- high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]) All credits and BIG thanks to Fabian Greffrath.
 
 
 ToDo for v2.0.3.x:
