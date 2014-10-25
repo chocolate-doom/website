@@ -9,7 +9,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - quickstart enables you to move your mouse while Doom is loading (delayed) when recording demo
 
-- removed all Doom limits (savegame, demo) (no more crashes)
+- removed all limits (savegame, demo) (no more crashes)
 
 - configurable ingame and intermission (NET games too) timer with milliseconds
 
@@ -27,19 +27,19 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - LMP metadata
 
-- works on Windows 98, XP, 7, 8, MacOS and Linux
-
 - Windows launcher for easy recording or playback and WAD/PWAD selection
 
 - additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
 
 - high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]). All credits and BIG thanks to Fabian Greffrath.
 
+- works on Windows 98, XP, 7, 8, MacOS and Linux
+
 
 ToDo for v2.0.3.1 final:
 
 
-- high resolution for heretic, hexen and strife (partially done)
+- high resolution for hexen and strife (partially done)
 
 - show secret is revealed as normal message ONLY when playing demo as displaying it on the center of screen is ugly
 
@@ -57,7 +57,6 @@ Maybe one day:
 - client/server demo verification
 
 - crispy hud
-
 
 == Requirements ==
 
