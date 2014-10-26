@@ -80,7 +80,7 @@ http://doom.com.hr/cndoom/support/
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
 
 == Beta ==
-Last updated: 25.10.2014. 11:42 - added Heretic
+Last updated: 26.10.2014. 04:14 - added Heretic, Hexen
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-beta.zip Competition Doom v2.0.3.1 for Windows]
 
