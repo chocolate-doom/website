@@ -5,6 +5,91 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 == Objectives ==
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
+== Changes of Crispy Doom 2.0 from Crispy Doom 1.5 ==
+Crispy Doom 2.0 "Back to the Roots" has been released on October XX, 2014.
+
+This is a major Crispy Doom release, because it has merged the Chocolate Doom 2.1.0 release.
+
+=== "Back to the Roots" campaign ===
+* For the current release, Crispy Doom has undergone a strict feature revision. Features that are considered demo or netgame critical and are not user-visible enough to justify a dedicated switch, have been removed. This has been done to avoid developing two separate feature sets, one for demos and net games and one for regular play, and to generally remain closer to actual Vanilla Doom behaviour. As a rule of thumb, features which affect the BFG Edition support, especially the No Rest For The Living expansion, and features which affect level progression in general have been left intact. Furthermore, using cheats is considered at own risk (they are disabled in netgames and screw up demo recording anyway), so they are no longer restricted to single player games.
+** It is not possible anymore to switch between the regular fist and the chainsaw.
+** A new level will not automatically start with the chainsaw anymore if the previous one was quit with the fist.
+** The "restart level" and "go to next level" keys are considered as shortcuts to the IDCLEV cheat and are thus treated as such, i.e. they are only disabled in net games.
+** The monster corpse flipping feature (based on randomization of monster corpse health values) is now unconditionally enabled, it is considered harmless.
+** The vertical bobbing of ammo released by killed monsters has been removed, it has been shown to desync demos.
+** The ability to gib a monster with the SSG has been removed, it has caused demos to instantly desync whenever it occured. However, that feature is not lost forever, it has already been merged into Doom Retro in the mean time.
+** The weapon sprite is now unconditionally centered during shooting, but only horizontally. The vertical position affects the weapon lowering and raising times which in turn affect demo sync.
+** The behaviour of the "Run" key when resurrecting a dead player has been switched. If it is held down, the most current savegame is now reloaded. If it is not pressed, the level now starts from scratch, just as in Vanilla Doom.
+** Furthermore, for a cleaner diff relative to Chocolate Doom, the code added or changed by Crispy Doom has been extensively documented, commented, restructured and cleaned up where appropriate.
+
+=== Support for BEX files and lumps ===
+* Support for DEHACKED lumps or files in the BEX format (established in Boom and MBF) has been added. The implementation is considered complete and supports the following features:
+** BITS mnemonics in regular "Things" sections,
+** [CODEPTR] sections,
+** [PARS] sections,
+** INCLUDE directives for which the following additional rules apply:
+*** DEHACKED lumps loaded from PWADs may not include files,
+*** files that have already been included may not include other files,
+*** files included with the INCLUDE NOTEXT directive will have their regular "Text" sections ignored;
+** [STRINGS] sections, support for which has been merged from Chocolate Doom, but is enabled in Crispy Doom without any further restrictions.
+
+== Menu improvements ==
+* The in-game menu now has a "Crispness" item that resembles the same item from the crispy-setup tool. It allows to enable or disable most of Crispy Doom's features from inside the game without the need to open an external application and restart the game.
+* The "permanent mouse look" switch has been added to the "Mouse Sensitivity" menu.
+* During demo recording or net games, it will be impossible to enable certain feature for compatibility reasons. These will appear as grayed out in the menu.
+* Since there is no picture for the word "Crispness" available in regular Doom resources, the menu item has to be renderd in the HU font. To avoid an optical clash with the other menu entries, they are now rendered in the HU font as well.
+
+== Automap improvements ==
+* If the "Automap stats" feature is enabled, the current map coordinates will be shown in the upper right corner of the Automap in a human readable form.
+* Also, if the "Automap stats" feature is enabled and the current map is loaded from a PWAD, the file name of this PWAD and the map are displayed in the bottom left corner of the Automap.
+
+== Cheat improvements ==
+* The IDMYPOS cheat has been improved to show the current map coordinates in the upper right corner in a human-readable form. This is the same widget that is also shown in the Automap when the "Automap stats" feature is enabled. It is shown twice as long as the text line printed by the original implementation, i.e. long enough to take a decent screenshot.
+* The SPECHITS cheat now also triggers tag 666/667 sectors. On maps, where specific monsters are expected to trigger that tag, their actions take precedence. On any other map, the tags are triggered as killing all "Keen" monsters would do.
+* The TNTHOM cheat has been introduced to toggle the flasing HOM detector on and off in-game.
+* IDMUS0x or IDMUSx0 will not lead to crashes anymore.
+* IDCLEV00 now reloads the current level and, in Doom 1, IDCLEV0x now warps to map x in the current episode.
+
+== Color translation improvements ==
+* The former static color translation tables have been replaced by dynamically generated ones based on actual color space translations, thanks Paul Haeberli. Formerly, the color translation tables were identical to the ones found in Boom and MBF and only covered the red range (palette indices 176-191, 44, 45, 47, 67) so that other colors were not translated at all. With the new tables, '''any''' color can be converted to any other color in the Status Bar or the HU font. Due to limitations in the color space translation procedure, though, gray tones will remain gray. Furthermore, due to limitations in the original Doom palette, light blue tones are often mapped to gray tones.
+* The translucency filter table has been improved. First, the entire algorithm to calculate that table has been re-implemented from scratch, replacing the former implementation by Lee Killough found in Boom and MBF. Second, for the same reason mentioned before, the algorithm has been tuned by plums to emphasize the blue tones in the results.
+* The translucency filter initialization routine now properly indicates if the TRANMAP lump has been generated or loaded from a file at startup.
+
+== Transparent Crispy HUD ==
+* When the display size is expanded beyond the regular Crispy HUD, the HUD is now rendered as translucent. Of course, this only works if transparency is generally enabled.
+* When the translucent Crispy HUD is enabled, all HU messages will be printed as translucent, too.
+
+== Laser Pointer improvements ==
+* The static laser pointer introduced in Crispy Doom 1.1 has been removed. Its implementation has always been considered emberrassing, since it was really just four pixels hard-coded into the center of the frame buffer.
+* The new laser pointer works like a "real" laser vision spot and is now an actual sprite (i.e. the '+' character of the HU font) that is projected into the game world and shows '''exactly''' where the next shot will hit. This also means that it will lock itself to a monster sprite if the next shot is going to hit that monster.
+* Also, the ability to change the color of the spot when a monster is targeted has been removed, because laser vision spots really just don't do that.
+* It is not yet decided if the old static laser spot or the color changing feature will ever return in one form or another.
+
+== Further improvements ==
+* The per-line "WiggleFix" developed by kb1 and e6y has been applied. In the course of this, Lee Killough's int64 sprtopscreen fix has been applied as well.
+* The number of supported savegames has been raised to 8.
+* In the cast shown after beating Doom 2 the monsters can now be rotated using the left/right keys. Furthermore, they can get skipped back and forth by using the strafe left/right keys and turned into gibs by pressing the "Run" key.
+* Colored blood is now enabled on a per-monster basis. That is, if a monster's death sprites have been replaced by a PWAD, this monster's blood will not get colorized anymore. This allows for disabling of colored blood for specific monsters by loading a PWAD that merely needs to include a single lump: BOSSI0 for the Baron of Hell, BOS2I0 for the Hell Knight or HEADG0 for the Cacodemon. Furthermore, Lost souls bleeding Puffs can be disabled by replacing the SKULG0 lump and Spectres bleeding Spectre blood can be disabled by replacing the SARGI0 lump. Colored blood is generally disabled in Chex Quest (where monsters do not bleed, anyway) and Hacx, with the exception of the Thorn Thing in the latter, which now bleeds green blood.
+* Lost Souls spawned by Pain Elementals now also bleed Puffs.
+* In Deathmatch games, frags are now colorized in the status bar. Positive frags are shown in green, negative ones in red and zero flags appear golden.
+* The red palette is toned down a bit when the menu is active, so it remains legible.
+
+== Further Bug and Compatibility fixes ==
+* Since Crispy Doom 1.5, PWADs loaded with the "-file" parameter are treated as if they were loaded with the "-merge" parameter. This has lead to issues with PWADs that contain duplicate lumps once inside the "flats" range and once outside. To overcome this issue, lumps returned by the FlatNumForName() function are now restricted forcefully into the "flats" range (as an exception, this rule does not apply to PWADs which have been merged using one of the NWT-style merging parameters). Please note that this may cause graphical glitches in the flats rendering for savegames that are saved in Crispy Doom and afterwards loaded in Chocolate Doom. These can be avoided by loading the PWAD with the "-merge" parameter in Chocolate Doom as well.
+* The rude extra quit messages containing profanity (feature introduced in Crispy Doom 1.5) have been disabled again. Their reception was mostly negative, and since they did not win the game anything and did not justify another dedicated switch, they had to go. Maybe they were disabled for a reason in the first place...
+* The checks for the NERVE.WAD PWAD file have been simplified. First, the special-casing for this PWAD is not restricted to the Doom 2 IWAD from the Doom 3 BFG Edition anymore but is now also applied if it is loaded alongside the regular Doom 2 IWAD. Second, the special-casing is not restricted to the PWAD being loaded with the "-file" command line parameter anymore but is now applied independent of the way the PWAD has been loaded.
+* The check for the SSG resources has been simplified and does not lead to a crash anymore if a PWAD is loaded that contains the SSG sprites, but not its sounds. It may not work when "PC Speaker" is selected for sound effects, though.
+* Text lines that exceed the width of the screen will no longer lead to crashes. Thanks Dragonsbrethren for the bug report.
+* The fix for the common mapping error which clears the ML_TWOSIDED flag when a linedef is missing a second sidedef has been fixed and is now only applied in single player games.
+* The hackish code that checked for the "Run" key being pressed in the menus when selecting to quit the game has been removed. Instead, to speed up the exit sequence, the exit sounds are now omitted if it has been selected to not show the ENDOOM screen. However, it is still possible to instantly quit from in-game by pressing "Run"+F10.
+* Since Crispy Doom 1.1, the default movement keys were mapped to W, A, S and D and the keys to control the menu have served as a secondary mapping. However, this led to conflicts with specific key setups in which the menu keys were given a different meaning. Thanks Average for reporting this issue. Therefore, the original key mapping has now been reset and an alternative key set for forward, backward, strafe left and right has been introduced to which the W, A, S, D keys have been mapped.
+* Unpausing in the menus during demo recording does not lead to desyncing anymore.
+* The original Doom 2 bug which leads to the sky not changing between episodes has been fixed.
+* The bug which caused flats getting more distorted the closer they are to the right of the screen has been fixed. Thanks to manny for reporting the bug and to bradharding for pointing me to the right code change.
+* The newly allocated memory regions when raising the static limits are now initialized to please Valgrind.
+* Holding the ESC key no longer causes the menu to repeatedly flicker on and off. Thanks joe-ilya for the bug report.
+* Upon map initialization, unknown map things (e.g. players 5 to 8 starts) are now ignored and will not lead to crashes anymore.
+
 == Changes of Crispy Doom 1.5 from Crispy Doom 1.4 ==
 Crispy Doom 1.5 "Supernova" has been released on August 18, 2014.
 
