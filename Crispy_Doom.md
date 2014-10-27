@@ -33,39 +33,39 @@ This is a major Crispy Doom release, because it has merged the Chocolate Doom 2.
 *** files included with the INCLUDE NOTEXT directive will have their regular "Text" sections ignored;
 ** [STRINGS] sections, support for which has been merged from Chocolate Doom, but is enabled in Crispy Doom without any further restrictions.
 
-== Menu improvements ==
+=== Menu improvements ===
 * The in-game menu now has a "Crispness" item that resembles the same item from the crispy-setup tool. It allows to enable or disable most of Crispy Doom's features from inside the game without the need to open an external application and restart the game.
 * The "permanent mouse look" switch has been added to the "Mouse Sensitivity" menu.
 * During demo recording or net games, it will be impossible to enable certain feature for compatibility reasons. These will appear as grayed out in the menu.
 * Since there is no picture for the word "Crispness" available in regular Doom resources, the menu item has to be renderd in the HU font. To avoid an optical clash with the other menu entries, they are now rendered in the HU font as well.
 
-== Automap improvements ==
+=== Automap improvements ===
 * If the "Automap stats" feature is enabled, the current map coordinates will be shown in the upper right corner of the Automap in a human readable form.
 * Also, if the "Automap stats" feature is enabled and the current map is loaded from a PWAD, the file name of this PWAD and the map are displayed in the bottom left corner of the Automap.
 
-== Cheat improvements ==
+=== Cheat improvements ===
 * The IDMYPOS cheat has been improved to show the current map coordinates in the upper right corner in a human-readable form. This is the same widget that is also shown in the Automap when the "Automap stats" feature is enabled. It is shown twice as long as the text line printed by the original implementation, i.e. long enough to take a decent screenshot.
 * The SPECHITS cheat now also triggers tag 666/667 sectors. On maps, where specific monsters are expected to trigger that tag, their actions take precedence. On any other map, the tags are triggered as killing all "Keen" monsters would do.
 * The TNTHOM cheat has been introduced to toggle the flasing HOM detector on and off in-game.
 * IDMUS0x or IDMUSx0 will not lead to crashes anymore.
 * IDCLEV00 now reloads the current level and, in Doom 1, IDCLEV0x now warps to map x in the current episode.
 
-== Color translation improvements ==
+=== Color translation improvements ===
 * The former static color translation tables have been replaced by dynamically generated ones based on actual color space translations, thanks Paul Haeberli. Formerly, the color translation tables were identical to the ones found in Boom and MBF and only covered the red range (palette indices 176-191, 44, 45, 47, 67) so that other colors were not translated at all. With the new tables, '''any''' color can be converted to any other color in the Status Bar or the HU font. Due to limitations in the color space translation procedure, though, gray tones will remain gray. Furthermore, due to limitations in the original Doom palette, light blue tones are often mapped to gray tones.
 * The translucency filter table has been improved. First, the entire algorithm to calculate that table has been re-implemented from scratch, replacing the former implementation by Lee Killough found in Boom and MBF. Second, for the same reason mentioned before, the algorithm has been tuned by plums to emphasize the blue tones in the results.
 * The translucency filter initialization routine now properly indicates if the TRANMAP lump has been generated or loaded from a file at startup.
 
-== Transparent Crispy HUD ==
+=== Transparent Crispy HUD ===
 * When the display size is expanded beyond the regular Crispy HUD, the HUD is now rendered as translucent. Of course, this only works if transparency is generally enabled.
 * When the translucent Crispy HUD is enabled, all HU messages will be printed as translucent, too.
 
-== Laser Pointer improvements ==
+=== Laser Pointer improvements ===
 * The static laser pointer introduced in Crispy Doom 1.1 has been removed. Its implementation has always been considered emberrassing, since it was really just four pixels hard-coded into the center of the frame buffer.
 * The new laser pointer works like a "real" laser vision spot and is now an actual sprite (i.e. the '+' character of the HU font) that is projected into the game world and shows '''exactly''' where the next shot will hit. This also means that it will lock itself to a monster sprite if the next shot is going to hit that monster.
 * Also, the ability to change the color of the spot when a monster is targeted has been removed, because laser vision spots really just don't do that.
 * It is not yet decided if the old static laser spot or the color changing feature will ever return in one form or another.
 
-== Further improvements ==
+=== Further improvements ===
 * The per-line "WiggleFix" developed by kb1 and e6y has been applied. In the course of this, Lee Killough's int64 sprtopscreen fix has been applied as well.
 * The number of supported savegames has been raised to 8.
 * In the cast shown after beating Doom 2 the monsters can now be rotated using the left/right keys. Furthermore, they can get skipped back and forth by using the strafe left/right keys and turned into gibs by pressing the "Run" key.
@@ -74,7 +74,7 @@ This is a major Crispy Doom release, because it has merged the Chocolate Doom 2.
 * In Deathmatch games, frags are now colorized in the status bar. Positive frags are shown in green, negative ones in red and zero flags appear golden.
 * The red palette is toned down a bit when the menu is active, so it remains legible.
 
-== Further Bug and Compatibility fixes ==
+=== Further Bug and Compatibility fixes ===
 * Since Crispy Doom 1.5, PWADs loaded with the "-file" parameter are treated as if they were loaded with the "-merge" parameter. This has lead to issues with PWADs that contain duplicate lumps once inside the "flats" range and once outside. To overcome this issue, lumps returned by the FlatNumForName() function are now restricted forcefully into the "flats" range (as an exception, this rule does not apply to PWADs which have been merged using one of the NWT-style merging parameters). Please note that this may cause graphical glitches in the flats rendering for savegames that are saved in Crispy Doom and afterwards loaded in Chocolate Doom. These can be avoided by loading the PWAD with the "-merge" parameter in Chocolate Doom as well.
 * The rude extra quit messages containing profanity (feature introduced in Crispy Doom 1.5) have been disabled again. Their reception was mostly negative, and since they did not win the game anything and did not justify another dedicated switch, they had to go. Maybe they were disabled for a reason in the first place...
 * The checks for the NERVE.WAD PWAD file have been simplified. First, the special-casing for this PWAD is not restricted to the Doom 2 IWAD from the Doom 3 BFG Edition anymore but is now also applied if it is loaded alongside the regular Doom 2 IWAD. Second, the special-casing is not restricted to the PWAD being loaded with the "-file" command line parameter anymore but is now applied independent of the way the PWAD has been loaded.
