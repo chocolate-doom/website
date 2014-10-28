@@ -35,15 +35,15 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - works on Windows 98, XP, 7, 8, MacOS and Linux
 
-- enabled longtics by default
+- longtics permanently turned on
+
+- show secret is revealed as normal message ONLY when playing demo
 
 
 == TODO ==
 
 v2.0.3.1:
 
-
-- show secret is revealed as normal message ONLY when playing demo as displaying it on the center of screen is ugly
 
 - mouse y sensitivity from crispy doom (partially done)
 
