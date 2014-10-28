@@ -73,7 +73,6 @@ For Windows 9x, use -gdi command line option or change in cndoom.cfg video_drive
 All files, patches and fixes can be downloaded from here:
 http://doom.com.hr/cndoom/support/
 
-
 == Download ==
 [http://www.doom.com.hr/cndoom/cndoom-2.0.2.1-win.zip Competition Doom v2.0.2.1 for Windows]
 
