@@ -105,6 +105,9 @@ The first step is to install the necessary dependencies for building Competition
 
 Several packages will be installed. 
 
+
+== Building ==
+
 Download the source package and extract it, for example:
 
  wget http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz
