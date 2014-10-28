@@ -124,27 +124,32 @@ Then build the package:
 
 The final "make install" command should be run as root.
 
-
 You can also just use build and clean scripts (c) fraggle which will download and build latest available version:
 
  cd /root
  wget http://www.doom.com.hr/cndoom/build-cndoom
  wget http://www.doom.com.hr/cndoom/clean-cndoom
+ chmod +x build-cndoom clean-cndoom
 
 Then just type:
 
  ./build-cndoom
 
-To build Windows executable on Linux type:
+== Building (Windows binaries on Linux) ==
+ cd /root
+ wget http://www.doom.com.hr/cndoom/build-cndoom-win
+ wget http://www.doom.com.hr/cndoom/clean-cndoom-win
+ chmod +x build-cndoom-win clean-cndoom-win
 
- ./build-cndoom -host=i586-mingw32msvc
+Then just type:
 
+ ./build-cndoom-win
 
-Remember that you have to perform '''make clean''', then '''./autogen.sh''' if you already compiled for linux!
 
 To clean and rebuild Windows executables do:
 
- ./clean-cndoom
+ ./clean-cndoom-win
+
 
 Get the latest version from Git:
 
