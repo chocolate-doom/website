@@ -38,10 +38,10 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 - enabled longtics by default
 
 
-ToDo for v2.0.3.1 final:
+== TODO ==
 
+v2.0.3.1:
 
-- high resolution for strife
 
 - show secret is revealed as normal message ONLY when playing demo as displaying it on the center of screen is ugly
 
