@@ -150,7 +150,7 @@ To clean and rebuild Windows executables do:
 
  ./clean-cndoom-win
 
-
+== Latest GIT version ==
 Get the latest version from Git:
 
  git clone git@github.com:fx02/chocolate-doom.git
