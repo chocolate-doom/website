@@ -106,7 +106,7 @@ The first step is to install the necessary dependencies for building Competition
 Several packages will be installed. 
 
 
-== Building ==
+== Linux ==
 
 Download the source package and extract it, for example:
 
