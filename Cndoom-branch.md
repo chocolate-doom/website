@@ -135,7 +135,7 @@ Then just type:
 
  ./build-cndoom
 
-== Building (Windows binaries on Linux) ==
+== Windows binaries on Linux ==
  cd /root
  wget http://www.doom.com.hr/cndoom/build-cndoom-win
  wget http://www.doom.com.hr/cndoom/clean-cndoom-win
