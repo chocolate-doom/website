@@ -136,6 +136,7 @@ Then just type:
  ./build-cndoom
 
 == Windows binaries on Linux ==
+
  cd /root
  wget http://www.doom.com.hr/cndoom/build-cndoom-win
  wget http://www.doom.com.hr/cndoom/clean-cndoom-win
@@ -149,6 +150,18 @@ Then just type:
 To clean and rebuild Windows executables do:
 
  ./clean-cndoom-win
+
+== Windows MSVC ==
+
+You will need SDL development libraries:
+
+  https://www.libsdl.org/release/SDL-devel-1.2.15-VC.zip
+  http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-devel-1.2.12-VC.zip
+  https://www.libsdl.org/projects/SDL_net/release/SDL_net-devel-1.2.8-VC.zip
+
+Extract and add them to MVSC options (libraries, includes).
+
+Then load project cndoom.sln from directory msvc and build.
 
 == Latest GIT version ==
 Get the latest version from Git:
