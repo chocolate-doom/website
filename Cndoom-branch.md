@@ -39,17 +39,11 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - mouse x and y sensitivity from crispy doom
 
-- ingame settings for secret message
-
 
 == TODO ==
 
-v2.0.3.1:
-
-
-- ingame settings for novert and competition ID?
-
 - fix quickstart bug
+
 
 
 Maybe one day:
@@ -61,6 +55,7 @@ Maybe one day:
 - client/server demo verification
 
 - crispy hud
+
 
 == Requirements ==
 
@@ -167,7 +162,7 @@ Then load project cndoom.sln from directory msvc and build.
 == Latest GIT version ==
 Get the latest version from Git:
 
- git clone git@github.com:fx02/chocolate-doom.git
+ git clone https://github.com/fx02/cndoom.git
 
 
 To keep up to date, periodically run these command to update your source:
@@ -175,7 +170,7 @@ To keep up to date, periodically run these command to update your source:
  git pull
 
 ==External links==
-*[https://github.com/fx02/chocolate-doom Competition Doom Git]
+*[https://github.com/fx02/cndoom.git Competition Doom Git]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
 
 
@@ -186,7 +181,7 @@ If you are interested in Competition Doom and want to help with coding or have i
 
 ==Bugs==
 
-Report bugs/issues on github https://github.com/fx02/chocolate-doom.
+Report bugs/issues on github https://github.com/fx02/cndoom.git.
 
 
 
