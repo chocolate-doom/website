@@ -43,7 +43,9 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 v2.0.3.1:
 
 
-- mouse y sensitivity from crispy doom (partially done)
+- mouse y sensitivity from crispy doom
+
+- ingame settings for secret message, novert, competition ID...
 
 - fix quickstart bug
 
