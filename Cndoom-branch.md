@@ -75,7 +75,7 @@ http://doom.com.hr/cndoom/support/
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.2.1.tar.gz Source code]
 
-[http://www.doom.com.hr/cndoom/cnlaunch-1.4.3.zip Competition Doom launcher v1.4.3]
+[http://www.doom.com.hr/cndoom/cnlaunch-1.4.4.zip Competition Doom launcher v1.4.4]
 
 == Beta ==
 Last updated: 30.10.2014. 20:00 - added Heretic, Hexen and Strife, icon, mouse x and y sens
