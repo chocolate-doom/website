@@ -37,15 +37,17 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - show secret is revealed as normal message ONLY when playing demo
 
+- mouse x and y sensitivity from crispy doom
+
+- ingame settings for secret message
+
 
 == TODO ==
 
 v2.0.3.1:
 
 
-- mouse y sensitivity from crispy doom
-
-- ingame settings for secret message, novert, competition ID...
+- ingame settings for novert and competition ID?
 
 - fix quickstart bug
 
