@@ -119,27 +119,6 @@ Then build the package:
 
 The final "make install" command should be run as root.
 
-You can also just use build and clean scripts (c) fraggle which will download and build latest available version:
-
- cd /root
- wget http://www.doom.com.hr/cndoom/build-cndoom
- wget http://www.doom.com.hr/cndoom/clean-cndoom
- chmod +x build-cndoom clean-cndoom
-
-Then just type:
-
- ./build-cndoom
-
-Troubleshooting
-
-If you are trying to build extra libraries you might need to do this:
-  cd cndoom-2.0.3.1
-  export CPPFLAGS='-I/usr/include'
-  export LDFLAGS='-L/usr/lib/'
-  ./configure
-
-then proceed to building.
-
 == Windows binaries on Linux ==
 
  cd /root
