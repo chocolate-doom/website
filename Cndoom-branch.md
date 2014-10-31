@@ -1,7 +1,7 @@
 [[File:cndoom_timer_ingame.png|thumb|right|Timer]]
 [[File:cndoom_timer_intermission.png|thumb|right|Intermission timer]]
 [[File:cnlaunch.png|thumb|right|Windows launcher]]
-'''CNDOOM''' is a Chocolate Doom for for [http://doom.com.hr/?page=compet-n_rules Doom speedruning competition].
+'''Competition Doom (CNDOOM)''' is a Chocolate Doom for for [http://doom.com.hr/?page=compet-n_rules Doom speedruning competition].
 
 Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while CNDOOM is for Competition Doom (cndoom.exe) client only.
 
