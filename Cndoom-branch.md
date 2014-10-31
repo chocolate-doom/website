@@ -130,6 +130,16 @@ Then just type:
 
  ./build-cndoom
 
+Troubleshooting
+
+If you are trying to build extra libraries you might need to do this:
+  cd cndoom-2.0.3.1
+  export CPPFLAGS='-I/usr/include'
+  export LDFLAGS='-L/usr/lib/'
+  ./configure
+
+then proceed to building.
+
 == Windows binaries on Linux ==
 
  cd /root
