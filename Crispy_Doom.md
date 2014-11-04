@@ -428,6 +428,8 @@ to install the prerequisites and then
  ./configure
  make
 
+After successful compilation the resulting binaries can be found in the <tt>src/</tt> directory.
+
 === Binaries ===
 Binaries for Windows (x86) are available here:
 http://www.greffrath.com/~fabian/crispy-doom_2.0.zip
