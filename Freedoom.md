@@ -68,7 +68,7 @@ You can also play Doom 1 megaWADs. For these you'll need to download the Freedoo
 
  chocolate-doom -iwad freedoom1.wad -merge dtwid.wad
 
-Note that ''freedoom1.wad'' will not work properly with Chocolate Doom unless you use a megaWAD to replace the levels. The levels in ''freedoom1.wad'' are incompatible with Chocolate Doom and you will probably find that the game will crash.
+Note that ''freedoom1.wad'' will not work properly with Chocolate Doom unless you use a megaWAD to replace the levels. The levels in ''freedoom1.wad'' are incompatible with Chocolate Doom and you will probably find that the game will crash if you try to play them.
 
 {| {{prettytable}}
 |-
