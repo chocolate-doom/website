@@ -1,20 +1,20 @@
 [[Image:chocolate-eternal-freedoom.png|thumb|200px|right|Chocolate Doom running [[Eternal Doom]] with Freedoom.]]
-'''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, Phase 1+2 requires a Boom-compatible engine to run, while only the FreeDM component of Freedoom is vanilla-compatible.  Because Chocolate Doom is only compatible with [[doom:Vanilla Doom|Vanilla Doom]], Freedoom: Phase 1+2 does not run properly with Chocolate Doom.
-
-However, Chocolate Doom can still be made to run with Freedoom.  The only incompatibility between the two is that the levels distributed with Freedoom do not run.  Because of this, Freedoom will run without problems provided that replacement levels are always loaded.
+'''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, the single player campaigns ("Freedoom: Phase 1 and 2") are not compatible with Chocolate Doom. Instead, it's recommended that you download the '''FreeDM''' multiplayer spinoff project, which is vanilla compatible and works with Chocolate Doom.
 
 Simple instructions:
 # Download and extract Chocolate Doom.
-# Download and extract Freedoom, and copy the ''freedoom2.wad'' file into the Chocolate Doom folder.
-# Find a megawad or TC, that replaces all 32 levels of Doom 2 (Map01 - Map32), and load it in the normal way with the ''-file'' parameter.  For example:
+# Download and extract FreeDM, and copy the ''freedm.wad'' file into the Chocolate Doom folder.
+# Run Chocolate Doom.
 
- chocolate-doom -iwad freedoom2.wad -file ''filename.wad''
+However, FreeDM's levels are intended for multiplayer deathmatch which might seem boring if you have nobody to play against (they don't contain any monsters). If you don't like deathmatch, you might instead want to download a single player megaWAD so that you get some more interesting levels to play.
 
-== Suggested Megawads ==
+== Doom 2 Megawads ==
 
 The [[doom:idgames archive|idgames archive]] is a good place to find WADs to play with. Not all levels will work with Chocolate Doom - look for levels that are marked as "Vanilla compatible", will run with "Doom 1.9", or "no advanced engine required".
 
-=== Doom 2 Megawads (for freedoom2.wad) ===
+To run a megaWAD, use a command line like the following:
+
+ chocolate-doom -iwad freedm.wad -merge ''mm.wad''
 
 {| {{prettytable}}
 |-
@@ -40,11 +40,16 @@ The [[doom:idgames archive|idgames archive]] is a good place to find WADs to pla
 
 More Doom 2 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
 
-=== Final Doom Megawads (for freedoom2.wad) ===
+=== Final Doom Megawads ===
 
-Support for Final Doom in Chocolate Doom is implemented by an internal set of mission packs.  These are normally selected automatically when the IWAD file name is named as ''tnt.wad'' or ''plutonia.wad''.  However, even though Freedoom: Phase 2 supports megawads for both Final Doom games, it defaults to behaving as Doom II, which can make DeHackEd patches not fully work or cause demos to desync.  This can be fixed with the ''-pack'' parameter, which can accept the values ''tnt'' and ''plutonia'', for example:
+The megaWADs below were designed for play with Final Doom. You can play these with Freedoom as well, but you'll need to specify the extra ''-pack'' parameter, with the option of ''tnt'' or ''plutonia'' depending on the WAD you're playing. For example:
 
- chocolate-doom -iwad freedoom2.wad -pack plutonia -file ''filename.wad''
+ chocolate-doom -iwad freedm.wad -pack plutonia -merge ''pl2.wad''
+
+or
+
+ chocolate-doom -iwad freedm.wad -pack tnt -merge ''tnt2.wad''
+
 
 {| {{prettytable}}
 |-
@@ -57,7 +62,13 @@ Support for Final Doom in Chocolate Doom is implemented by an internal set of mi
 |TNT 2: Devilution || n/a: [http://www.doomworld.com/vb/wads-mods/47721-tnt-2-devilution-texture-pack-in-op/ wip forum link]
 |}
 
-=== Doom 1 Megawads (for freedoom1.wad) ===
+== Doom 1 Megawads (for freedoom1.wad) ==
+
+You can also play Doom 1 megaWADs. For these you'll need to download the Freedoom single player campaign and use ''freedoom1.wad'' as the IWAD. For example:
+
+ chocolate-doom -iwad freedoom1.wad -merge dtwid.wad
+
+Note that ''freedoom1.wad'' will not work properly with Chocolate Doom unless you use a megaWAD to replace the levels. The levels in ''freedoom1.wad'' are incompatible with Chocolate Doom and you will probably find that the game will crash.
 
 {| {{prettytable}}
 |-
