@@ -2,8 +2,8 @@
 '''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, the single player campaigns ("Freedoom: Phase 1 and 2") are not compatible with Chocolate Doom. Instead, it's recommended that you download the '''FreeDM''' multiplayer spinoff project, which is vanilla compatible and works with Chocolate Doom.
 
 Simple instructions:
-# Download and extract Chocolate Doom.
-# Download and extract FreeDM, and copy the ''freedm.wad'' file into the Chocolate Doom folder.
+# [[Downloads|Download]] and extract Chocolate Doom.
+# [https://freedoom.github.io/download.html Download] and extract FreeDM ('''not''' "Freedoom Phase 1+2"), and move ''freedm.wad'' file into the same folder as Chocolate Doom.
 # Run Chocolate Doom.
 
 However, FreeDM's levels are intended for multiplayer deathmatch which might seem boring if you have nobody to play against (they don't contain any monsters). If you don't like deathmatch, you might instead want to download a single player megaWAD so that you get some more interesting levels to play.
