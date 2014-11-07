@@ -5,6 +5,18 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 == Objectives ==
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
+== Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
+Crispy Doom 2.1 has been released on November XX, 2014.
+
+This is mostly a bug fix release to fix a common crash of the setup program on Windows systems.
+
+Further changes include:
+* The color space translations do now also apply to gray shades (the only exception are the gray drop shadows of the original IWAD status bar numbers). This means that now really '''any''' status bar can be fully colorized.
+* In menus, numerical values are now always shown next to sliders.
+* Setting mouse sensitivity to 0 now disables the corresponding axis entirely.
+* The "power up" sound is not played anymore when selecting the Berserker fist.
+* Disabled items in the "Crispness" menu are now indicated.
+
 == Changes of Crispy Doom 2.0 from Crispy Doom 1.5 ==
 Crispy Doom 2.0 "Back to the Roots" has been released on October 27, 2014.
 
