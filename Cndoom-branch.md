@@ -39,6 +39,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - mouse x and y sensitivity from crispy doom
 
+- tweak delay rate when key is pressed and character rate per second
 
 == TODO ==
 
