@@ -78,7 +78,7 @@ http://doom.com.hr/cndoom/support/
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.4.zip Competition Doom launcher v1.4.4]
 
 == Beta ==
-Last updated: 05.11.2014.
+Last updated: 08.11.2014.
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-beta.zip Competition Doom v2.0.3.1 for Windows]
 
