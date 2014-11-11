@@ -1,34 +1,35 @@
 [[File:Crispy-doom.png|thumb|right|The Crispy Doom icon]]
-Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Chocolate Doom]].
+Crispy Doom is a limit-removing enhanced-resolution Doom source port based on [[Chocolate Doom]].
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Objectives ==
-Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, removes the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
 Crispy Doom 2.1 has been released on November XX, 2014.
 
-This is mostly a bug fix release to treat a bug (inherited from Chocolate Doom) that reproducibly crashed the setup program on Windows systems (with a fix also inherited from Chocolate Doom).
+This is mostly a bug fix release to treat a bug (inherited from Chocolate Doom -- fixed with a patch also inherited from Chocolate Doom) that reproducibly crashed the setup program on Windows systems.
 
 Further changes that have accumulated in the short time frame include:
+
 === Color translation improvements ===
-* Color space translations are now also applied to gray shades. This means that now really '''any''' status bar can be fully colorized. The only exception are the gray drop shadows of the original IWAD status bar numbers, which are left untouched.
+* Color space translations are now also applied to gray shades. This means that now really '''any''' status bar can be fully colorized. The only exception are the gray drop shadows of the original IWAD status bar numbers, which are intentionally left untouched.
 
 === Menu improvements ===
 * In menus, numerical values are now always shown next to sliders.
 * Setting mouse sensitivity to 0 now disables the corresponding axis entirely.
 * The Crispness menu has got a complete overhaul:
-** The in-game "Crispness" menu now has a solid background. There was too much text displayed that was too hard to read with the game graphics in the background.
-** The menu items are now ordered into the "Visual", "Tactical" and "Physical" categories.
-** Disabled menu items are now indicated by a darker color.
+** The in-game "Crispness" menu now has a solid background. There was too much text displayed and the game graphics in the background were too distracting for it to remain legible.
+** The menu items are now ordered into "Visual", "Tactical" and "Physical" categories.
+** Disabled menu items are now indicated by darker colors.
 
-=== Further victims of the feature clean-up ===
-* The "power up" sound is not played anymore when selecting the Berserker fist. The feature was hardly noticable in-game and did not justify all the code that it required. Also, speaking about random non-Vanilla featuritis...
-* Common mapping errors (e.g. missing sidedefs) are not fixed anymore. After all, they are errors and should be fixed during mapping and not by the engine. But, more importantly, some mapping errors are demo-critical. However, due to the order in which variables are set in p_setup.c, it is impossible to conditionally enable based on the usual variables. Instead, I attempted an own implementation, but failed to get it right and instead of trying to fix it now in each possible location in the code, I decided to drop that feature.
+=== More victims of the feature clean-up ===
+* The "power up" sound is not played anymore when selecting the Berserker fist. This feature was hardly noticable at all and did not justify all the code that it required. Also, speaking about random non-Vanilla featuritis...
+* Common mapping errors (e.g. missing sidedefs) are not fixed upon level setup anymore. After all, they are errors and should be fixed during mapping and not by the engine. But, more importantly, some mapping errors are demo and network game critical. However, due to the order in which variables are juggled around in p_setup.c, it is impossible to conditionally enable the fixed based on certain variables. Instead, I attempted to implement a separate patch, but failed and thus decided to drop that feature entirely.
 
 === Further improvements ===
-* The screen wiping speed and amplitude have been adjusted to be closer to Vanilla. This involved removing a work-around that was there since Crispy Doom 1.0.
-* During demo playback a thin (2 px) bar indicating demo progress is printed at the bottom of the screen.
+* The screen wiping speed and amplitude have been adjusted to be closer to Vanilla. This involved removing a work-around that has been introduced in Crispy Doom 1.0.
+* During demo playback, a thin (2 px) bar indicating demo progress is now printed at the bottom of the screen (similar to PrBoom+).
 
 == Changes of Crispy Doom 2.0 from Crispy Doom 1.5 ==
 Crispy Doom 2.0 "Back to the Roots" has been released on October 27, 2014.
@@ -430,6 +431,7 @@ Crispy Doom 1.2 has merged all changes to the Chocolate Doom master branch up to
 Crispy Doom 1.3 and Crispy Doom 1.4 both have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/e0331a01741905ac665adce1da0fb04e86db4b05 <tt>e0331a0174</tt>].
 Crispy Doom 1.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/97f1de66497c1071ac138e0c63152267b9d2978f <tt>97f1de6649</tt>].
 Crispy Doom 2.0 is based on Chocolate Doom 2.1.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/76b6d1a239ddda25a8645ac0e94d45884b71fa5a <tt>76b6d1a239</tt>].
+Crispy Doom 2.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/66b295d461789f204d19b7181b1a11804a666728 <tt>804a666728</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -457,7 +459,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_2.0.zip
+http://www.greffrath.com/~fabian/crispy-doom_2.1.zip
 
 == Contact ==
 The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
