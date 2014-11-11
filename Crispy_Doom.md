@@ -3,19 +3,32 @@ Crispy Doom is a limit-raising medium-resolution Doom source port based on [[Cho
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Objectives ==
-Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, technical and gameplay-affecting enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, raises the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
 Crispy Doom 2.1 has been released on November XX, 2014.
 
-This is mostly a bug fix release to fix a common crash of the setup program on Windows systems.
+This is mostly a bug fix release to treat a bug (inherited from Chocolate Doom) that reproducibly crashed the setup program on Windows systems (with a fix also inherited from Chocolate Doom).
 
-Further changes include:
-* The color space translations do now also apply to gray shades (the only exception are the gray drop shadows of the original IWAD status bar numbers). This means that now really '''any''' status bar can be fully colorized.
+Further changes that have accumulated in the short time frame include:
+=== Color translation improvements ===
+* Color space translations are now also applied to gray shades. This means that now really '''any''' status bar can be fully colorized. The only exception are the gray drop shadows of the original IWAD status bar numbers, which are left untouched.
+
+=== Menu improvements ===
 * In menus, numerical values are now always shown next to sliders.
 * Setting mouse sensitivity to 0 now disables the corresponding axis entirely.
-* The "power up" sound is not played anymore when selecting the Berserker fist.
-* Disabled items in the "Crispness" menu are now indicated.
+* The Crispness menu has got a complete overhaul:
+** The in-game "Crispness" menu now has a solid background. There was too much text displayed that was too hard to read with the game graphics in the background.
+** The menu items are now ordered into the "Visual", "Tactical" and "Physical" categories.
+** Disabled menu items are now indicated by a darker color.
+
+=== Further victims of the feature clean-up ===
+* The "power up" sound is not played anymore when selecting the Berserker fist. The feature was hardly noticable in-game and did not justify all the code that it required. Also, speaking about random non-Vanilla featuritis...
+* Common mapping errors (e.g. missing sidedefs) are not fixed anymore. After all, they are errors and should be fixed during mapping and not by the engine. But, more importantly, some mapping errors are demo-critical. However, due to the order in which variables are set in p_setup.c, it is impossible to conditionally enable based on the usual variables. Instead, I attempted an own implementation, but failed to get it right and instead of trying to fix it now in each possible location in the code, I decided to drop that feature.
+
+=== Further improvements ===
+* The screen wiping speed and amplitude have been adjusted to be closer to Vanilla. This involved removing a work-around that was there since Crispy Doom 1.0.
+* During demo playback a thin (2 px) bar indicating demo progress is printed at the bottom of the screen.
 
 == Changes of Crispy Doom 2.0 from Crispy Doom 1.5 ==
 Crispy Doom 2.0 "Back to the Roots" has been released on October 27, 2014.
