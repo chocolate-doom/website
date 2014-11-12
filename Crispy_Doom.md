@@ -28,6 +28,7 @@ Further changes that have accumulated in the short time frame include:
 === Further improvements ===
 * The screen wiping speed and amplitude have been adjusted to be closer to Vanilla. This involved removing a work-around that has been introduced in Crispy Doom 1.0.
 * During demo playback, a thin (2 px) bar indicating demo progress is now printed at the bottom of the screen (similar to PrBoom+).
+* A warning will be printed upon loading a level when it contains unknown linedef types (i.e. line->special > 141), e.g. Boom linedefs or generalized linedef types.
 
 == Changes of Crispy Doom 2.0 from Crispy Doom 1.5 ==
 Crispy Doom 2.0 "Back to the Roots" has been released on October 27, 2014.
