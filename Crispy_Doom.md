@@ -6,7 +6,7 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, removes the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
-Crispy Doom 2.1 has been released on November XX, 2014. This is mostly a bug fix release to treat a bug that reproducibly crashed the setup program on Windows systems.
+Crispy Doom 2.1 has been released on November 12, 2014. This is mostly a bug fix release to treat a bug that reproducibly crashed the setup program on Windows systems.
 
 Further changes that have accumulated in the short time frame include:
 
