@@ -6,5 +6,7 @@ Chocolate Doom includes a GUS "pseudo-emulation" support. An actual GUS is not e
 
 Using the GUS feature requires downloading the [http://www.doomworld.com/idgames/index.php?file=music/dgguspat.zip GUS patch files]: these are the samples used to reproduce each MIDI instrument, which were originally distributed with the GUS driver files. Once extracted, the path to the files can be specified in the setup tool.
 
+A setup guide for how to configure GUS music playback can be found in the [https://github.com/chocolate-doom/chocolate-doom/blob/master/README.Music README.Music] file included with Chocolate Doom releases.
+
 [[Category:Features]]
 [[Category:Music]]
