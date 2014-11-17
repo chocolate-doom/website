@@ -91,10 +91,12 @@ Last updated: 08.11.2014.
 '''!!!DEMOS RECORDED WITH 2.0.3.1 WILL NOT BE ACCEPTED TO COMPETITION!!!'''
 
 == Launcher alpha release ==
-[http://www.doom.com.hr/cndoom/cnlaunch-2.0.0-alpha.zip CNlauncher v2.0.0 ALPHA for Windows]
+[http://www.doom.com.hr/cndoom/cnlaunch-2.0.0-alpha1.zip CNlauncher v2.0.0 ALPHA for Windows]
 
-This should not be used, it's just a preview, please send your suggestions and comments for final version.
+This should not be used, it's just a preview, please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments] for final version.
 
+
+Updated: 17.11.2014.
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
