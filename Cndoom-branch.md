@@ -93,7 +93,7 @@ Last updated: 21.11.2014.
 == Launcher alpha release ==
 [http://www.doom.com.hr/cndoom/cnlaunch-2.0.0-alpha1.zip CNlauncher v2.0.0 ALPHA for Windows]
 
-This should not be used, it's just a preview, please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments] for final version.
+This should not be used, it's just a preview, please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments here] for final version.
 
 
 Updated: 17.11.2014.
