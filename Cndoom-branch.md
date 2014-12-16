@@ -43,12 +43,6 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 == TODO ==
 
-- fix quickstart bug
-
-
-
-Maybe one day:
-
 - more stats on cooperative intermission screen
 
 - metadata for coop
@@ -72,28 +66,25 @@ All files, patches and fixes can be downloaded from here:
 http://doom.com.hr/cndoom/support/
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-2.0.2.1-win.zip Competition Doom v2.0.2.1 for Windows]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-win.zip Competition Doom v2.0.3.1 for Windows]
 
-[http://www.doom.com.hr/cndoom/cndoom-2.0.2.1.tar.gz Source code]
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source code]
 
 [http://www.doom.com.hr/cndoom/cnlaunch-1.4.4.zip Competition Doom launcher v1.4.4]
 
 == Beta ==
-Last updated: 21.11.2014.
 
-[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1-beta.zip Competition Doom v2.0.3.1 for Windows]
-
-[http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz Source code]
+No beta release at the moment.
 
 
 '''DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!'''
 
-'''!!!DEMOS RECORDED WITH 2.0.3.1 WILL NOT BE ACCEPTED TO COMPETITION!!!'''
+'''!!!DEMOS RECORDED WITH BETA VERSIONS WILL NOT BE ACCEPTED TO COMPETITION!!!'''
 
 == Launcher alpha release ==
 [http://www.doom.com.hr/cndoom/cnlaunch-2.0.0-alpha1.zip CNlauncher v2.0.0 ALPHA for Windows]
 
-This should not be used, it's just a preview, please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments here] for final version.
+This should not be used at all, it's just a preview, please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments here] for final version.
 
 
 Updated: 17.11.2014.
