@@ -35,4 +35,4 @@ Information on other PCI cards that could potentially be used can be found in th
 * [https://github.com/chocolate-doom/chocolate-doom/tree/opl-branch opl-branch] source code (now integrated into the main codebase).
 * [https://github.com/chocolate-doom/research/tree/master/opl OPL research data].
 
-[[Category:Branches]]
+[[Category:Inactive_branches]]
