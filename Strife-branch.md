@@ -15,4 +15,4 @@ The following video shows strife-branch at revision 2075; a lot of functionality
 * [http://www.doomworld.com/vb/source-ports/49696-chocolate-strife-development/ Chocolate Strife development thread] on Doomworld.
 * [http://www.youtube.com/watch?v=0w60Oqhvr6Y YouTube video of strife-branch]
 
-[[Category:branches]]
+[[Category:Inactive_branches]]
