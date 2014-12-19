@@ -40,4 +40,4 @@ raven-branch is now obsolete. Version 2.0 of Chocolate Doom integrated the chang
 
 * [https://github.com/chocolate-doom/chocolate-doom/tree/raven-branch raven-branch] source code (final version, before the move to [[v2-branch]]).
 
-[[Category:Branches]]
+[[Category:Inactive_branches]]
