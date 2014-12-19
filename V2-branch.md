@@ -6,4 +6,4 @@ v2-branch is now complete and Chocolate Doom v2.0 can be downloaded via the main
 ==External links==
 *[http://www.tc.umn.edu/~delbe001/chocolate-doom-v2/ beta v2-branch SVN builds for Windows]
 
-[[Category:Branches]]
+[[Category:Inactive_branches]]
