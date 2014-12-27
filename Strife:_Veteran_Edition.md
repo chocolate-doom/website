@@ -6,7 +6,7 @@ Veteran Edition includes a new OpenGL-based renderer that gives some improved gr
 == External links ==
 
 * [[doom:Strife: Veteran Edition|Strife: Veteran Edition]] article on the Doom wiki has more information.
-* [http://store.steampowered.com/app/317040/ Steam page] for Chocolate Strife.
+* [http://store.steampowered.com/app/317040/ Steam page] for Strife: Veteran Edition.
 * [https://github.com/svkaiser/strife-ve Strife: Veteran Edition source code] on Github.
 
 [[Category:Forks]]
