@@ -40,6 +40,39 @@ For a detailed feature list and changes please refer to the release notes below.
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
+Crispy Doom 2.2 has not yet been released.
+
+=== Laser Pointer improvements ===
+* The laser spot now points to the center coordinates of the target.
+* Laser spots are now solid instead of translucent. They became practically invisible too quickly, which was exactly not their purpose.
+
+=== Cheats improvements ===
+* New cheat: IDBEHOLD0 will reset all player powers.
+* When the IDDQD cheat is activated after a player has died, his body is respawned at the current position.
+
+=== Feature review ===
+* The "center weapon sprite when firing" feature is now optional.
+* The "colored blood" feature as well as the "fix lost soul and spectre" blood features are now optional.
+* The "mirrored corpses" feature is now optional.
+* A second page has been added to the in-game "Crispness" menu to account for the added options.
+* New feature: The "Kills" statistics are optionally fixed. That means that the "Kills" ration shown at the end of a map or in the automap stats are adjusted each time a new monster is spawned on the map. Furthermore, in "-nomonsters" games Keens are now preserved but don't count towards the "Kills" statistic.
+* If the "player way walk over/undermonsters" feature is enabled, the player is now also able to walk below solid hanging corpses.
+
+=== Further improvements ===
+* Logging to stderr has been generally improved. Especially, map slot, WAD file and skill are now printed each time a map is loaded. Furthermore, absurd texture names in error messages have been fixed.
+* Linedefs with the two-sided flag but without second sidedef are now fixed in a demo-compatible way.
+* Missing texture and flats do not lead to crashes anymore.
+* Remove slime trails. This feature has been taken mostly from Lee Killough's implementation in MBF, but has been modified for demo-compatibility to not modify actual vertex coordinates, but instead dummy "pseudvertexes" that are only used in rendering.
+
+=== Additional Bug fixes ===
+* The patch color translations are now cleared after drawing the "Crispness" menu cursor. Thanks to fistmarine for the bug report.
+* Crashes in huge maps that occured due to the Wiggle-Fix (introduced in Crispy doom 2,0) have been fixed. This has been done by upgrading the entire renderer to use 32-bit integer math. Thanks to kb1, RjY and Quasar for pointers to the relevant code changes!
+* Crashes caused by the laser spot getting drawn behind the view plane have been fixed.
+* The laser spot is not able to triger an intercepts overflow anymore.
+* Fix a crash in maps with a cube spitter but without spawn spots.
+* A crash during map transitions has been fixed if a PWAD contains a stray MAP33 lump.
+
+== Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
 Crispy Doom 2.1 has been released on November 12, 2014. This is mostly a bug fix release to treat a bug that reproducibly crashed the setup program on Windows systems.
 
 Further changes that have accumulated in the short time frame include:
