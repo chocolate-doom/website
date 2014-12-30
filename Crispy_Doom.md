@@ -2,8 +2,42 @@
 Crispy Doom is a limit-removing enhanced-resolution Doom source port based on [[Chocolate Doom]].
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
-== Objectives ==
+== Synopsis ==
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, removes the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+
+== Objectives ==
+Crispy Doom is a source port that aims to provide a faithful Doom gaming experience while also providing some often-requested improvements and enhancements. It is forked off of Chocolate Doom to take advantage of its free and open-source code base, portability, accuracy and compatibility with Vanilla Doom.
+
+Its core features are:
+* Enhanced 640x400 display resolution, with the original 320x200 resolution still available in the "Graphics Detail: Low" mode
+* Removal of all static engine limits, or at least raising of the less crucial ones.
+* Full support for the "Doom Classic" WADs shipped with the "Doom 3: BFG Edition", especially the "No Rest For The Living" episode shipped in the NERVE.WAD file.
+
+Furthermore, the following optional user-visible features are available:
+
+'''Visual'''
+* Status bar numbers and messages can be fully colorized.
+* Specific sprites and the status bar can be rendered translucent.
+* Specific monsters bleed colored or translucent blood or puffs.
+* Death animations and corpse sprites are randomly mirrored.
+'''Tactical'''
+* Free vertical look is available, including mouse look.
+* Aiming support by a laser spot that is rendered into the game world exactly where the next shot will go.
+* Weapon sprites can be centerd when firing.
+* A message can be displayed whenever a secret is revealed.
+* Level statistics can be shown in the Automap.
+* The "Kills" statistics shown when finishing a map can be fixed whenever a monster is spawned in a map.
+'''Physical'''
+* Jumping can be enabled.
+* Direct vertical aiming can be enabled.
+* It can be allowed for the player to walk over or under monsters.
+* Weapon recoil can be enabled.
+
+All of these features are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, though not identical, to Vanilla Doom's.
+
+For a detailed feature list and changes please refer to the release notes below.
+
+Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
 Crispy Doom 2.1 has been released on November 12, 2014. This is mostly a bug fix release to treat a bug that reproducibly crashed the setup program on Windows systems.
