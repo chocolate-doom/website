@@ -9,33 +9,29 @@ Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resol
 Crispy Doom is a source port that aims to provide a faithful Doom gaming experience while also providing some often-requested improvements and enhancements. It is forked off of Chocolate Doom to take advantage of its free and open-source code base, portability, accuracy and compatibility with Vanilla Doom.
 
 Its core features are:
-* Enhanced 640x400 display resolution, with the original 320x200 resolution still available in the "Graphics Detail: Low" mode
+* Enhanced 640x400 display resolution, with the original 320x200 resolution still available in the "Graphics Detail: Low" mode.
 * Removal of all static engine limits, or at least raising of the less crucial ones.
 * Full support for the "Doom Classic" WADs shipped with the "Doom 3: BFG Edition", especially the "No Rest For The Living" episode shipped in the NERVE.WAD file.
 
 Furthermore, the following optional user-visible features are available:
 
-'''Visual'''
-* Status bar numbers and messages can be fully colorized.
-* Specific sprites and the status bar can be rendered translucent.
-* Specific monsters bleed colored or translucent blood or puffs.
-* Death animations and corpse sprites are randomly mirrored.
-'''Tactical'''
-* Free vertical look is available, including mouse look.
-* Aiming support by a laser spot that is rendered into the game world exactly where the next shot will go.
-* Weapon sprites can be centerd when firing.
-* A message can be displayed whenever a secret is revealed.
-* Level statistics can be shown in the Automap.
-* The "Kills" statistics shown when finishing a map can be fixed whenever a monster is spawned in a map.
-'''Physical'''
-* Jumping can be enabled.
-* Direct vertical aiming can be enabled.
-* It can be allowed for the player to walk over or under monsters.
-* Weapon recoil can be enabled.
+* Jumping.
+* Free vertical looking, including mouse look and vertical aiming.
+* A new minimal Crispy HUD, displaying only the status bar numbers.
+* Colorized status bar numbers, HUD texts and blood sprites for certain monsters.
+* Tranlucency for certain sprites and status bar elements in the Crispy HUD.
+* Randomly mirrored death animations and corpse sprites.
+* Players may walk over or under monsters and hanging corpses.
+* Aiming support by a laser spot that is directly rendered into the game world.
+* Centered Weapons when firing.
+* Weapons recoil.
+* Reports whenever a secret is revealed.
+* Level statistics in the Automap.
+* Fixed "Kills" statistics whenever a monster is respawned.
 
 All of these features are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, though not identical, to Vanilla Doom's.
 
-For a detailed feature list and changes please refer to the release notes below.
+Additionally, many less user-visible features have made their way into Crispy Doom, e.g. fixed engine bugs (Tutti-Frutti effect, Medusa effect, Slime trails, line wiggle, flat distortion, etc.) or game logic bugs (Ouch-Face, Medipack-Mesage, Door closing sounds, ...). For a detailed feature list and changes please refer to the release notes below.
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
