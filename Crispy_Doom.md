@@ -29,9 +29,9 @@ Furthermore, the following optional user-visible features are available:
 * Level statistics in the Automap.
 * Fixed "Kills" statistics whenever a monster is respawned.
 
-All of these features are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, though not identical, to Vanilla Doom's.
+All of these features are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identica]]l, to Vanilla Doom's.
 
-Additionally, many less user-visible features have made their way into Crispy Doom, e.g. fixed engine bugs (Tutti-Frutti effect, Medusa effect, Slime trails, line wiggle, flat distortion, etc.) or game logic bugs (Ouch-Face, Medipack-Mesage, Door closing sounds, ...). For a detailed feature list and changes please refer to the release notes below.
+Additionally, many less user-visible features have made their way into Crispy Doom, e.g. fixed engine bugs (Tutti-Frutti effect, Medusa effect, Slime trails, line wiggle, flat distortion, most crashes, etc.) or game logic bugs (Ouch-Face, Medipack-Mesage, Door closing sounds, ...), additional and improved cheat codes, an improved Automap, etc.. For a detailed feature list and changes please refer to the release notes below.
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
