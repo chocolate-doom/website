@@ -6,7 +6,7 @@ Its name means that 640x400 looks "crisp" and is also a slight [http://www.maths
 Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, removes the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Objectives ==
-Crispy Doom is a source port that aims to provide a faithful Doom gaming experience while also providing some often-requested improvements and enhancements. It is forked off of Chocolate Doom to take advantage of its free and open-source code base, portability, accuracy and compatibility with Vanilla Doom.
+Crispy Doom is a source port that aims to provide a faithful Doom gaming experience while also providing some user-requested improvements and enhancements. It is forked off of Chocolate Doom to take advantage of its free and open-source code base, portability, accuracy and compatibility with Vanilla Doom.
 
 Its core features are:
 * Enhanced 640x400 display resolution, with the original 320x200 resolution still available in the "Graphics Detail: Low" mode.
@@ -31,7 +31,7 @@ Furthermore, the following optional user-visible features are available:
 
 All of these features are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identica]]l, to Vanilla Doom's.
 
-Additionally, many less user-visible features have made their way into Crispy Doom, e.g. fixed engine bugs (Tutti-Frutti effect, Medusa effect, Slime trails, line wiggle, flat distortion, most crashes, etc.) or game logic bugs (Ouch-Face, Medipack-Mesage, Door closing sounds, ...), additional and improved cheat codes, an improved Automap, etc.. For a detailed feature list and changes please refer to the release notes below.
+Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" maps -- but not Boom or ZDoom maps. Thus, many additional less user-visible features have been implemented, e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed harmless game logic bugs, full support for DEHACKED files and lumps in BEX format, additional and improved cheat codes, an improved Automap, and many more! For a detailed list of features and changes please refer to the release notes below.
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
