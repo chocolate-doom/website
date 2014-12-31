@@ -57,16 +57,16 @@ Crispy Doom 2.2 has not yet been released.
 === Further improvements ===
 * Logging to stderr has been generally improved. Especially, the map slot, the WAD file and the skill are now printed whenever a map is loaded. Furthermore, absurd texture names in error messages have been fixed.
 * Linedefs with the two-sided flag but without second sidedef are now fixed in a demo-compatible way, i.e. they are rendered as one-sided walls when a mid-texture is set and transparent else.
-* Missing texture and flats do not lead to crashes anymore. Missing textures are rendered as HOM, i.e. black in Crispy Doom, and missing flats are replaced with the first flat available. In a very limited scope, this feature makes it possible to intermix resources and maps from different Doom missions.
+* Missing textures and flats do not lead to crashes anymore. Missing textures are rendered as HOM, i.e. black in Crispy Doom, and missing flats are replaced with the first flat available. In a very limited scope, this feature makes it possible to intermix resources and maps from different Doom missions.
 * Most Slime Trails are removed when loading a map. This feature has been taken mostly from Lee Killough's implementation in MBF, but has been modified for demo-compatibility to not modify actual vertex coordinates, but instead dummy "pseudvertexes" that are only used in rendering.
 
 === Additional Bug fixes ===
-* The patch color translations are now cleared after drawing the "Crispness" menu cursor. Thanks to fistmarine for the bug report.
+* The patch color translations are now cleared after drawing the "Crispness" menu cursor. This could lead to the menu picture or the status bar being rendered too dark. Thanks to fistmarine for the bug report.
 * Crashes in huge maps that occured due to the Wiggle-Fix (introduced in Crispy Doom 2,0) have been fixed. This has been done by upgrading the entire renderer to use 32-bit integer math. Thanks to kb1, RjY and Quasar for pointers to the relevant code changes!
 * Crashes caused by the laser spot getting drawn behind the view plane have been fixed.
 * The laser spot is not able to trigger an intercepts overflow anymore.
 * A crash in maps with a cube spitter but without spawn spots (e.g. MAP04 in DV.WAD) has been fixed.
-* A crash during map transitions has been fixed if a PWAD contains a stray MAP33 lump (e.g. INTIME.WAD). Map33 is now only considered a regular map if the CWILV32 lump is also present.
+* A crash during map transitions has been fixed if a PWAD contains a stray MAP33 lump (e.g. INTIME.WAD). MAP33 is now only considered a regular map if the CWILV32 lump is also present.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
 Crispy Doom 2.1 has been released on November 12, 2014. This is mostly a bug fix release to treat a bug that reproducibly crashed the setup program on Windows systems.
