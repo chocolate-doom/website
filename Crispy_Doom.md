@@ -55,6 +55,7 @@ Crispy Doom 2.2 has not yet been released.
 * If the "player way walk over/under monsters" feature is enabled, the player is now also able to walk under solid hanging corpses.
 
 === Further improvements ===
+* In the Crispy HUD, the health indicator now blinks if it is below 10%. Somehow inspired by Doom Retro.
 * Logging to stderr has been generally improved. Especially, the map slot, the WAD file and the skill are now printed whenever a map is loaded. Furthermore, absurd texture names in error messages have been fixed.
 * Linedefs with the two-sided flag but without second sidedef are now fixed in a demo-compatible way, i.e. they are rendered as one-sided walls when a mid-texture is set and transparent else.
 * Missing textures and flats do not lead to crashes anymore. Missing textures are rendered as HOM, i.e. black in Crispy Doom, and missing flats are replaced with the first flat available. In a very limited scope, this feature makes it possible to intermix resources and maps from different Doom missions.
