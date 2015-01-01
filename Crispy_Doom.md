@@ -52,14 +52,14 @@ Crispy Doom 2.2 has not yet been released.
 * The "randomly mirrored corpses" feature is now optional.
 * A second page has been added to the in-game "Crispness" menu to account for the added options.
 * New optional feature: The "Kills" statistics are fixed, i.e. the "Kills" ratios shown after finishing a map or in the automap stats are adjusted each time a new monster is spawned on the map (e.g. in Nightmare mode, a Lost Soul spawned by a Pain Elemental, a monster resurrected by an Archiville or a monster spawned by a cube spitter). Furthermore, in "-nomonsters" games, Keens are now preserved but don't count towards the "Kills" statistics.
-* If the "player way walk over/under monsters" feature is enabled, the player is now also able to walk under solid hanging corpses.
+* If the "player may walk over/under monsters" feature is enabled, the player is now also able to walk under solid hanging corpses.
 
 === Further improvements ===
 * In the Crispy HUD, the health indicator now blinks if it is below 10%. Somehow inspired by Doom Retro.
 * Logging to stderr has been generally improved. Especially, the map slot, the WAD file and the skill are now printed whenever a map is loaded. Furthermore, absurd texture names in error messages have been fixed.
 * Linedefs with the two-sided flag but without second sidedef are now fixed in a demo-compatible way, i.e. they are rendered as one-sided walls when a mid-texture is set and transparent else.
 * Missing textures and flats do not lead to crashes anymore. Missing textures are rendered as HOM, i.e. black in Crispy Doom, and missing flats are replaced with the first flat available. In a very limited scope, this feature makes it possible to intermix resources and maps from different Doom missions.
-* Most Slime Trails are removed when loading a map. This feature has been taken mostly from Lee Killough's implementation in MBF, but has been modified for demo-compatibility to not modify actual vertex coordinates, but instead dummy "pseudvertexes" that are only used in rendering.
+* Most Slime Trails are removed when loading a map. This feature has been mostly taken from Lee Killough's implementation in MBF, but has been modified for demo-compatibility to not modify actual vertex coordinates, but instead dummy "pseudovertexes" that are only used in rendering.
 
 === Additional Bug fixes ===
 * The patch color translations are now cleared after drawing the "Crispness" menu cursor. This could lead to the menu picture or the status bar being rendered too dark. Thanks to fistmarine for the bug report.
