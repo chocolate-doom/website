@@ -524,7 +524,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Binaries for Windows (x86) are available here:
 http://www.greffrath.com/~fabian/crispy-doom_2.1.zip
 
-Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory.
+Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
 == Contact ==
 The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
