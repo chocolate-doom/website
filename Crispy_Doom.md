@@ -36,7 +36,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
 == Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
-Crispy Doom 2.2 has not yet been released.
+Crispy Doom 2.2 has been released on January 2, 2015.
 
 === Laser Pointer improvements ===
 * The laser spot now points to the center coordinates of the target.
@@ -497,6 +497,7 @@ Crispy Doom 1.3 and Crispy Doom 1.4 both have merged all changes to the Chocolat
 Crispy Doom 1.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/97f1de66497c1071ac138e0c63152267b9d2978f <tt>97f1de6649</tt>].
 Crispy Doom 2.0 is based on Chocolate Doom 2.1.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/76b6d1a239ddda25a8645ac0e94d45884b71fa5a <tt>76b6d1a239</tt>].
 Crispy Doom 2.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/66b295d461789f204d19b7181b1a11804a666728 <tt>804a666728</tt>].
+Crispy Doom 2.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/80bf45c902f78e3cd0212938ee176a3c6f436997 <tt>3c6f436997</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -524,7 +525,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_2.1.zip
+http://www.greffrath.com/~fabian/crispy-doom_2.2.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
