@@ -51,6 +51,9 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - crispy hud
 
+- launcher: demo browsing + display descriptions + automatic game selection for av/hr/mm/mm2/re/ce
+
+- launcher: support launching with different game engines (vanilla, choco, prboom++, legacy, crispy)
 
 == Requirements ==
 
