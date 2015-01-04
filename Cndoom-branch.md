@@ -85,14 +85,14 @@ No beta release at the moment.
 '''!!!DEMOS RECORDED WITH BETA VERSIONS WILL NOT BE ACCEPTED TO COMPETITION!!!'''
 
 == Launcher beta release ==
-[http://www.doom.com.hr/cndoom/cnlaunch-2.0.0.0-beta1.zip CNlauncher v2.0.0.0 BETA for Windows]
+[http://www.doom.com.hr/cndoom/cnlaunch-2.0.0.1-beta1.zip CNlauncher v2.0.0.1 BETA for Windows]
 
 For testing purposes only!
 
 Please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments here] for final version.
 
 
-Updated: 03.01.2015.
+Updated: 04.01.2015.
 
 == Building ==
 The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
