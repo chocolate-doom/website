@@ -487,7 +487,7 @@ Please note that all of the above changes do '''only''' apply for the <tt>doom2.
 
 * Since Crispy Doom 2.0, in order to overcome issues when merging PWADs with duplicate lumps of the same name, lumps that are meant to be used as flats are restricted between the F_START and F_END markers. This requirement may lead to graphical glitches when savegames are shared between Crispy Doom and Chocolate Doom, which in turn can be avoided by loading the PWAD with "-merge" instead of "-file" in Chocolate Doom.
 
-* In order to fix an issue with inventory items in Strife, the Chocolate Doom network gaming code had to be incompatibly changed a few days after the Chocolate Doom 2.1.0 release. While Crispy Doom 2.0 and 2.1 preserved compatibility with the old (buggy) code, the Crispy Doom 2.2. release is network game incompatible with Chocolate Doom 2.1.0 and requires its development version for cross-port network games.
+* In order to fix an issue with inventory items in Strife, the Chocolate Doom network gaming code had to be incompatibly changed a few days after the Chocolate Doom 2.1.0 release. While Crispy Strife 2.0 and 2.1 preserved compatibility with the old (buggy) code, the Crispy Strife 2.2. release is network game incompatible with Chocolate Strife 2.1.0 and requires its development version for cross-port network games.
 
 == Versioning ==
 Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>].
