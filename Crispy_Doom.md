@@ -27,7 +27,6 @@ Furthermore, the following optional user-visible features are available:
 * Weapons recoil.
 * Reports whenever a secret is revealed.
 * Level statistics in the Automap.
-* Fixed "Kills" statistics whenever a monster is respawned.
 
 All of these features are disabled by default and need to get enabled either in the in-game "Crispness" menu or in the crispy-doom-setup tool. They are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identica]]l, to Vanilla Doom's.
 
