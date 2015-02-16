@@ -17,8 +17,8 @@ Chocolate Doom is designed to be easily forked so that people can develop their 
 
 If you're a Windows user you can download prebuilt Windows binaries of the bleeding edge versions:
 
-* [http://www-users.cselabs.umn.edu/~delbe001/chocolate-doom/ Latest build] of master.
-* [http://www-users.cselabs.umn.edu/~delbe001/chocolate-doom-gl-branch/ Latest build] of gl-branch.
+* [http://exp.mancubus.net/chocolate-doom/ Latest build] of master.
+* [http://exp.mancubus.net/chocolate-doom-gl-branch/ Latest build] of gl-branch.
 
 === Compiling ===
 
