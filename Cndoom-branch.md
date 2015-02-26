@@ -148,8 +148,6 @@ You will need SDL development libraries:
   http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-devel-1.2.12-VC.zip
   https://www.libsdl.org/projects/SDL_net/release/SDL_net-devel-1.2.8-VC.zip
 
-  https://github.com/fx02/cndoom/issues
-
 Extract and add them to MVSC options (libraries, includes).
 
 Then load project cndoom.sln from directory msvc and build.
