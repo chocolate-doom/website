@@ -34,7 +34,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
-== Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ==
+== Changes of Crispy Doom 2.2 from Crispy Doom 2.1 ==
 Crispy Doom 2.2 has been released on January 2, 2015.
 
 === Laser Pointer improvements ===
