@@ -34,6 +34,46 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
+== Changes of Crispy Doom 2.3 from Crispy Doom 2.2 ==
+Crispy Doom 2.3 has not yet been released.
+
+=== Automap improvements ===
+* The Automap now has an Overlay Mode that draws the map directly onto the player view and that can be toggled by pressing 'O'.
+* The Automap now has a Rotate Mode that -- as the name suggests -- keeps the player arrow oriented upwards and turns the entire map instead. It can be toggled by pressing the 'R' key and fits nicely into the Automap Overlay Mode.
+* If Follow Mode is disabled and Overlay Mode is enabled, instead of panning through the map, it will remain static.
+* The extra triangle for the player is not drawn anymore if the IDDT cheat is enabled.
+* If Follow Mode is enabled an actual crosshair is drawn instead of a single point.
+
+=== Cheats improvements ===
+* A new "nomomentum" cheat has been added -- that is, merely enabled, all the code has already been there -- that avoids the player from gaining momentum. It is called a "debug aid" in the source code and is pretty useless unless you want to position the player at an exact position.
+* A "gibs" sound is now played if a dead player is resurrected by the IDDQD cheat.
+* Players are now given full in-air control in IDCLIP mode. Thanks Linguica for the idea.
+
+=== New features ===
+* The secret E1M10 map present exclusively in the XBOX variant of The Ultimate Doom is now supported. The map is entered by triggering a secret, erm, "wall" in E1M1 and exits to E1M2. The map name are right in both the Automap and the intermission screen and the blood splat is drawn in the latter, though only once. To enter the map with a cheat code, type IDCLEV10; to warp there from the command line, type "-warp 1 A" (or any other letter for the map).
+* The texture files (TEXTURE1/2 lumps) and patch lookup tables (PNAMES lumps) from PWADs do not override those of the IWAD anymore. Instead, up to 8 TEXTURE1/2 lumps and up to 4 PNAMES lumps are merged, so that all textures from all loaded WADs are available. This makes it possible to e.g. run "crispy-doom -iwad freedoom2.wad -file doom1.wad", which loads the Freedoom: Phase 2 IWAD and replaces any texture which is also present in the Doom 1 Shareware WAD.
+* Weapon Pitch has been added as a new feature which fits nicely if combined with Weapon Recoil.
+* The static crosshair has been added back. It is now drawn as the HU font's '+' character in the center of the screen and is translucent if the latter is enabled. It is the current default, the crosshair rendered into the game world has to get activated by a new switch.
+* Support for music in OGG or FLAC format from lumps in PWADs has been added. This means, it is possible to run e.g. DoomMetalVol4 by simply calling "crispy-doom -file DoomMetalVol4.wad". Please note that this feature is only available if Music is set to "Native MIDI".
+* PWAD files and DEHCAKED patches that are located in the config directory (i.e. the same directory that holds the crispy-doom.cfg file) and that are named following the preloadN.{wad,deh,bex} naming scheme (with N=[0..9]) are automatically pre-loaded at startup. For example, Linux users could call "ln -s /path/to/DoomMetalVol4.wad ~/.crispy-doom/preload0.wad" to automate the call cited in the previous bullet point.
+* It is now possible to dump the result of the "-merge" parameter into a file by means of the "-mergedump <filename>.wad" parameter. This is meant as a convenient DEUSF replacement for Vanilla Doom or other exotic source ports that still do not support the "-merge" feature. It is now possible to e.g create a portable variant of Requiem by calling "crispy-doom -iwad doom2.wad -file requiem.wad reqmus.wad req21fix.wad -mergedump req4all.wad". Please note that no duplicates are removed, so the resulting file gets rather big (about as big as the sum of all input files).
+* Crispy Doom is now able to (re-)create BLOCKMAP lumps if they are either too small or too big or if requested by the user by the "-blockmap" parameter. The actual BLOCKMAP creation routine has been taken from Lee Killough's MBF source port.
+* Crispy Doom is now able to load maps with NODES lumps in either compressed or uncompressed ZDBSP format or BeePBSP format and/or LINEDEFS and THINGS lumps in Hexen map format. The code is mostly adapted from PrBoom+ and Chocolate Hexen, though especially the ZDBSP nodes loading routine has been heavily modified, condensed ans simplified. Please note that although it is now possible to load and explore maps in Hexen format, all interactions with their environment are most probably broken.
+* If running out of zone memory, Crispy Doom now allocates another zone of twice the size instead of crashing with a Z_Malloc error message. Please note that this turns Crispy Doom into a memory hog quite quickly, but it should only happen in very huge maps anyway and is still better than crashing.
+
+=== Rendering improvements ===
+* Wobbling long walls have been fixed, using e6y's beautiful fixed-point math formula which is also used in PrBoom+.
+* Visplanes with the same flats now match up far better than before. Fixed using code adapted from PrBoom+, converted to fixed point math (and already merge back into PrBoom+).
+* Some rendering glitches introduced by the Wiggle Fix (feature introduced in Crispy Doom 2.0) have been fixed, thanks to e6y and PrBoom+.
+
+=== Minor improvements ===
+* Lost Souls and spawned monsters are now counted in an extra variable that is displayed in the Automap stats next to the regular kills count, separated by a '+' sign. They are not added to the regular kills variable anymore which means one less (demo-critical) deviation from Vanilla behavior and one less switch in the Crispness menu. As a collateral damage, the special-casing of the Keen monsters in "-nomonsters" mode had to go as well, but that's to cope with.
+* In the Crispy HUD, the health indicator now only blinks if below 10%.
+* Weapon recoil is now applied after trajectories have been calculated.
+* Warnings are now printed whenever SPECHITS or INTERCEPTS overflows are triggered.
+* The previously selected savegame in the Load Game menu is now also pre-selected in the Save Game menu and the other way round.
+* The braintargets limit has been removed. It was previously set to 32 and broke e.g. Speed of Doom's MAP30 which has 40 braintargets.
+
 == Changes of Crispy Doom 2.2 from Crispy Doom 2.1 ==
 Crispy Doom 2.2 has been released on January 2, 2015.
 
