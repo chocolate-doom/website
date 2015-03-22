@@ -1,6 +1,6 @@
 [[Image:800x480.png|right|thumb|Chocolate Doom as it would appear on the Asus Eee PC.]]
 
-Chocolate Doom's video code supports an assortment of different modes (see below), and accurately preserves the original 4:3 aspect ratio of Doom on square pixel modes.  [[setup|Chocolate Doom's setup utility]] can be used to change the resolution.
+Chocolate Doom's video code supports an assortment of different modes (see below), and accurately preserves the original 4:3 aspect ratio of Doom on square pixel modes. Chocolate Doom's [[Setup|Setup program]] can be used to change the resolution.
 
 To set a specific mode from the command line, run Chocolate Doom with the ''-width'' and ''-height'' parameters:
  chocolate-doom -width 1280 -height 1024
