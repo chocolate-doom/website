@@ -1,6 +1,7 @@
 Chocolate Doom includes extra support for playing with gamepads, beyond what is supported by Vanilla Doom.
 
 [[File:Gravis_pc_gamepad.jpg|thumb|250px|right|Gravis PC gamepad, the first gamepad made available for the PC market in the early 90s.]]
+
 == History ==
 
 In the early '90s when Doom was released, the market for PC game controllers was dominated by joysticks, with few gamepads available (The Gravis Gamepad, shown right, was a notable exception). Most PC joysticks and gamepads had up to four buttons - a hardware limitation of the PC joystick port. Doom supported binding these buttons to the Use, Fire, Strafe and Speed (Run) actions. This limitation meant that gamepads had to be used in concert with a keyboard in order to switch weapons, activate the menu and perform other auxiliary functions.
@@ -40,3 +41,5 @@ The following controllers will be automatically detected and configured if detec
 If your controller is not in the above list, you can help improve Chocolate Doom by gathering some information about it and sending it in. Please see [[adding your gamepad]].
 
 [[Category:Features]]
+
+__NOTOC__
