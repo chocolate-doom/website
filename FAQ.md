@@ -63,7 +63,7 @@ Having completed these two steps, running the game should simply be a matter of 
 
 === I have multiple games (IWADs), how can I select something different than Doom II? ===
 
-Generally, you can use the <tt>-iwad</tt> parameter to select a specific game, using the name of the IWAD.  You may setup an alias or script, depending on your operating system, so that you do not need to type out the -iwad parameter:
+Generally, you can use the <tt>-iwad</tt> parameter to select a specific game, using the name of the IWAD.  You may set up an alias or script, depending on your operating system, so that you do not need to type out the -iwad parameter:
 
 On a Unix-like operating system using bash you would add the following in your $HOME/.bashrc (not all shells are created equal!)
  alias chocolate-doom1="chocolate-doom -iwad doom.wad"
@@ -135,7 +135,7 @@ There are several ways to solve this problem:
 
 === Why does the game crash when I access the options menu? ===
 
-You probably have your mouse sensitivity set too high.  The Doom options menu has a slider that allows the mouse sensitivity to be controlled; however, it has only a very limited range.  It is common for experienced players to set a mouse sensitivity that is much higher than what can be set via the options menu.  The setup program allows a larger range of values to be set.
+You probably have your mouse sensitivity set too high.  The Doom options menu has a slider that allows the mouse sensitivity to be controlled; however, it has only a very limited range.  It is common for experienced players to set a mouse sensitivity that is much higher than what can be set via the options menu.  The [[setup|setup program]] allows a larger range of values to be set.
 
 However, setting very high sensitivity values causes the game to exit when accessing the options menu under Vanilla Doom.  Because Chocolate Doom aims to emulate Vanilla Doom as closely as possible, it does the same thing.
 
