@@ -11,7 +11,7 @@ Most Doom source ports play back MIDI music using MIDI interfaces provided by th
 
 == Enabling OPL MIDI ==
 
-OPL MIDI playback can be enabled from the [[setuo|setup tool]]: go to the "Configure sound" menu, select the "Music playback" dropdown and choose "OPL (Adlib/SB)".
+OPL MIDI playback can be enabled from the [[setup|setup tool]]: go to the "Configure sound" menu, select the "Music playback" dropdown and choose "OPL (Adlib/SB)".
 
 == Hardware OPL ==
 
