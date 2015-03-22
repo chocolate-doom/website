@@ -1,7 +1,7 @@
 [[Image:Mm-endoom.png|thumb|right|[[doom:ENDOOM|ENDOOM]] screen for [[doom:Memento Mori|Memento Mori]] displayed using libtextscreen.]]
 '''libtextscreen''' is an internal library used in Chocolate Doom.  It simulates a DOS text mode display, and is used to display the [[doom:ENDOOM|ENDOOM]] screen when exiting the game (see [[Accurate ENDOOM emulation]])
 
-Originally intended solely for this purpose, it has since been extended to include a small windowing toolkit that is used as the basis of the Chocolate Doom [[setup program]].
+Originally intended solely for this purpose, it has since been extended to include a small windowing toolkit that is used as the basis of the Chocolate Doom [[setup|setup program]].
 
 == Base library ==
 
@@ -14,7 +14,7 @@ The library uses an 8x16 pixel font by default (giving a 640x480 pixel window), 
 [[Image:Windows-mobile-setup1.png|thumb|150px|right|Setup tool running on Windows Mobile, showing the alternative half-height font.]]
 == GUI toolkit ==
 
-The textscreen library includes a full text mode windowing toolkit, designed to appear similar in style to the Doom [[doom:Setup program|Setup program]].  The toolkit is used as the basis for Chocolate Doom's [[setup program]].  The toolkit and base library are built as a single library, but there is no dependency of the base library on the higher level toolkit code.
+The textscreen library includes a full text mode windowing toolkit, designed to appear similar in style to the Doom [[doom:Setup program|Setup program]].  The toolkit is used as the basis for Chocolate Doom's [[setup|setup program]].  The toolkit and base library are built as a single library, but there is no dependency of the base library on the higher level toolkit code.
 
 The library is written in C, although with an "object oriented" style.  The API for the toolkit is inspired by the [http://www.gtk.org/ Gtk+] toolkit used for [http://www.gnome.org/ Gnome].  Windows can be opened and ''widgets'' packed into tables within the windows.  Many different comment widget types are supported, including:
 
