@@ -6,7 +6,7 @@ A brief list of features:
 * The locations of the IWAD files for Doom, Doom II, Final Doom and Chex Quest can be configured, and the desired game selected from the launcher window
 * Extra command line parameters can be entered.
 * Launching of PWADs and dehacked patches is straightforward, as the launcher includes file associations for .WAD and .DEH files.  Double clicking on a PWAD in the Finder configures the appropriate command line parameters to load the game with the PWAD.
-* The setup tool can be accessed from a button in the launcher window.
+* The [[setup]] tool can be accessed from a button in the launcher window.
 [[Image:OS_X_Launcher_GNUstep.png|thumb|right|Launcher running using GNUstep.]]
 * The launcher can also be run using [http://www.gnustep.org/ GNUstep] under Linux, for debugging/testing purposes.
 
