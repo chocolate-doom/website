@@ -18,6 +18,10 @@ Modern gamepad controllers include many more buttons; it's common for controller
 
 Different PC gamepads have different button layouts and mappings, meaning that unlike a console, individual buttons often have to be tediously configured one by one. Chocolate Doom attempts to simplify this process with a database of common known controllers. If one of these controllers is detected, the buttons and movement axes will all be automatically configured to a sensible preset layout.
 
+As different gamepads have many different shapes, sizes and numbers of buttons, they cannot all be preconfigured in the same way. But many modern gamepads use a shape similar to the PlayStation Dualshock controller. For these, the default layout looks similar to the following:
+
+[[File:Gamepad-diagram.png]]
+
 === Currently known controllers ===
 
 The following controllers will be automatically detected and configured if detected:
