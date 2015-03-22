@@ -1,0 +1,1 @@
+Diagram showing the default layout used for many known gamepads.
