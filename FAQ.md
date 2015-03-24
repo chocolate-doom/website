@@ -24,9 +24,9 @@ There are various other reasons why people use Chocolate Doom. There is still a 
 
 Chocolate Doom is distributed under the [[wikipedia:GNU GPL|GNU General Public License]], version 2.  
 
-It is derived directly from the original Doom source code published by [[wikipedia:id Software|id Software]]; the [https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/ source code repository] contains the complete history of all of the changes that have been made, back to the original version.
+It is derived directly from the original Doom source code published by [[wikipedia:id Software|id Software]]; the [https://github.com/chocolate-doom/chocolate-doom source code repository] contains the complete history of all of the changes that have been made, back to the original version.
 
-The source code to Heretic and Hexen was also made available under the GPL by Raven Software in 2008.  Since then, work has been underway to integrate the Raven code into Chocolate Doom on the [[raven-branch]].
+The source code to Heretic and Hexen was also made available under the GPL by Raven Software in 2008. This subsequently formed the basis for [[Chocolate Heretic]] and [[Chocolate Hexen]]. [[Chocolate Strife]] was developed based on reverse-engineering the original DOS Strife executables, but subsequently provided the basis for the commercial re-release, [[Strife: Veteran Edition]]. The GPL release of the code for Veteran Edition is interpreted as a legal blessing for the project.
 
 == Using Chocolate Doom ==
 
