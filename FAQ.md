@@ -162,6 +162,8 @@ Yes.  However, very old versions of Windows may not include the MSVCRT.DLL, caus
 
 This problem can be solved by downloading the DLL [ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe from the Microsoft FTP site].
 
+You might encounter other problems when using Win9x; given that it's an obsolete OS, it's unlikely that bugs related to running on it will ever be fixed.
+
 === Why does Plutonia 2 crash in MAP23 and during the first demo? ===
 
 This is due to a mapping error in the level, causing the [[Doom:Medusa effect|Medusa effect]] which crashes Chocolate Doom. Two known workarounds for the problem are:
