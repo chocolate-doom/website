@@ -1,5 +1,6 @@
 This wiki contains various pages with information about using Chocolate Doom.  
 
+* The [[Setup]] tool is Chocolate Doom's menu-driven tool for configuring the program.
 * The [[FAQ|Frequently Asked Questions]] page contains answers to various common questions about the port.
 * Documentation about [[command line arguments]], for how to run the game.
 * Help pages with information about how to play various [[:Category:TCs|TCs]] and [[:Category:WADs|WAD files]]
