@@ -5,13 +5,13 @@ The '''setup program''' is Chocolate Doom's configuration utility. Reproducing t
 
 The setup program is menu-driven. The main menu provides configuration options for several of the main features:
 
-* '''Configure Display''' - how Chocolate Doom is displayed: whether the game should run full-screen or in a window, and the resolution to use.
-* '''Configure Sound''' - the various different options for sound effects and music.
-* '''Configure Keyboard''' - which keys are mapped to which in-game functions. 
-* '''Configure Mouse''' - which buttons are mapped to which in-game functions, plus other features such as mouse speed and acceleration, whether vertical mouse movement is enabled, etc.
-* '''Configure Gamepad/Joystick''' - allows a game controller to be configured, buttons to be mapped to in-game functions, etc.
-* '''Compatibility''' - a small set of compatibility options that can be disabled if painstakingly exact emulation of Vanilla Doom's behavior is not desired.
-* '''Multiplayer configuration''' - player name and chat macros.
+* '''[[Setup/Display configuration|Configure Display]]''' - how Chocolate Doom is displayed: whether the game should run full-screen or in a window, and the resolution to use.
+* '''[[Setup/Sound configuration|Configure Sound]]''' - the various different options for sound effects and music.
+* '''[[Setup/Keyboard configuration|Configure Keyboard]]''' - which keys are mapped to which in-game functions. 
+* '''[[Setup/Mouse configuration|Configure Mouse]]''' - which buttons are mapped to which in-game functions, plus other features such as mouse speed and acceleration, whether vertical mouse movement is enabled, etc.
+* '''[[Setup/Gamepad configuration|Configure Gamepad/Joystick]]''' - allows a game controller to be configured, buttons to be mapped to in-game functions, etc.
+* '''[[Setup/Compatibility|Compatibility]]''' - a small set of compatibility options that can be disabled if painstakingly exact emulation of Vanilla Doom's behavior is not desired.
+* '''[[Setup/Multiplayer configuration|Multiplayer configuration]]''' - player name and chat macros.
 
 == Multiplayer launch ==
 
