@@ -1,4 +1,4 @@
-Chocolate Doom includes [[support for gamepads]] and joysticks as input devices. However, every gamepad has a different arrangement of buttons, meaning that configuration is completely different from one type of controller to the next. To make setup simpler, Chocolate Doom includes preconfigured support for a selection of gamepads. You can help out by adding yours to the list.
+Chocolate Doom includes support for [[gamepad]]s and joysticks as input devices. However, every gamepad has a different arrangement of buttons, meaning that configuration is completely different from one type of controller to the next. To make setup simpler, Chocolate Doom includes preconfigured support for a selection of gamepads. You can help out by adding yours to the list.
 
 == Already supported controllers ==
 
