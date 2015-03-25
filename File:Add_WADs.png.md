@@ -1,0 +1,1 @@
+Setup program's Add WADs window.
