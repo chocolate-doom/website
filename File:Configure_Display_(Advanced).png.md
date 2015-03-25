@@ -1,0 +1,1 @@
+Setup program's advanced display configuration window
