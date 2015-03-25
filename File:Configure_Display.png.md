@@ -1,0 +1,1 @@
+Setup program's Configure Display window
