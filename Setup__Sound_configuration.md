@@ -11,10 +11,14 @@ In [[Chocolate Strife]], there is an additional volume control for spoken voices
 
 == Music ==
 
-Partly as a space-saving measure, so that games could fit on [[Wikipedia:Floppy disk|floppy disks]], [[Wikipedia:MIDI|MIDI]] was used to store game music. Rather than having prohibitively-large [[Wikipedia:Pulse-code modulation|PCM]] files as you would find on a CD, or files such as WAV or MP3, MIDI is more like sheet music, containing the instructions to recreate music using pre-programmed instruments. As such, there are many ways the game music may be heard, and opinions differ wildly on what the "best" rendition is.
+Unlike digital recorded music that you might find on a CD or an MP3 file, Doom's music is [[Wikipedia:MIDI|MIDI]]-based. MIDI is like a digital representation of sheet music, containing the instructions to recreate music using pre-programmed instruments. As such, there are many ways the game music may be heard, and opinions differ wildly on what the "best" rendition is. Options are:
 
-Chocolate Doom defaults to emulating [[OPL MIDI]] effects, which would be heard by Doom players in the 1990s using the popular AdLib or SoundBlaster hardware.  While Chocolate Doom, under certain hardware and operating systems, can use a real OPL chip to output its music, in most cases, this will be emulated in software and output using your normal computer's sound.
+* [[OPL MIDI]] (the default), which reproduces the sound of the AdLib / SoundBlaster hardware that was most common in the 1990s. This is usually emulated in software, but Chocolate Doom can be configured to use a real OPL chip to output its music.
 
-Two other alternatives for playing back MIDI effects both go through [[Wikipedia:TiMidity++|TiMidity++]] in order to synthesize the music. [[GUS]] may be selected to emulate another popular sound card at the time of Doom's release, "faking" it, in a manner, by using MIDI instruments to recreate its particular sound. Alternatively, Native MIDI may be selected so that any other configuration for MIDI synthesis can be set up, giving vastly different styles to the music depending on the sound font used.
+* [[Wikipedia:TiMidity++|TiMidity++]]: a popular software MIDI synthesis program that can be configured with many different sound fonts to change the sound of the music.
+
+* [[GUS]] pseudo-emulation, which reproduces the sound of the Gravis Ultrasound Card.
+
+* Native MIDI, which uses the operating system's built-in MIDI playback. Most operating systems have some form of built-in MIDI playback, though the quality can vary.
 
 Music configuration, especially MIDI, can be extremely involved, see [https://github.com/chocolate-doom/chocolate-doom/blob/master/README.Music README.Music] for fine details.
