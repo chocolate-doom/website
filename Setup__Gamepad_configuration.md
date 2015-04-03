@@ -3,7 +3,7 @@ The '''Gamepad/Joystick configuration''' window controls all the options availab
 
 The ''Enable gamepad/joystick'' toggle sets whether such control is even enabled for the game.
 
-''Current controller'' should list detected devices, with an information dialog if none are detected. If you plugged in the device after running Setup, try closing and reopening Setup to see if it becomes detected. Depending on operating system, hotplugging devices does not always let applications pick up on the fact.
+''Current controller'' shows the device you are using. Select this option to change the device; a dialog window allows the new device to be configured. If you plugged in the device after running Setup, try closing and reopening Setup to see if it becomes detected. Depending on operating system, hotplugging devices does not always let applications pick up on the fact.
 
 After selecting a controller, a brief configuration is run, determining the way movement will be handled, as well as a basic check that the gamepad functionality is working.
 
