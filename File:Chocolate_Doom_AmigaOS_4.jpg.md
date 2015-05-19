@@ -1,4 +1,5 @@
 Chocolate Doom running on AmigaOS 4. Thanks to Timo Sievänen.
 
-{{Doom Screenshots}}
+{{Doom screenshot}}
+
 [[Category:Platform screenshots]]
