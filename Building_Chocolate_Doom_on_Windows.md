@@ -35,12 +35,12 @@ Next, download the [http://www.chocolate-doom.org/build-chocolate-doom auto-buil
 
  wget http://www.chocolate-doom.org/build-chocolate-doom
 
-Next you need to run the script. You have the option of either building the latest stable release, or the latest bleeding-edge version from the Subversion repository.
+Next you need to run the script. You have the option of either building the latest stable release, or the latest bleeding-edge version from the Git repository.
 
 For the stable version, type:
  sh build-chocolate-doom
 
-For the latest version from Subversion, type:
+For the latest version from Git, type:
  sh build-chocolate-doom -git
 
 The auto-build script will download, build and install the SDL libraries automatically (this may take some time).  These are installed in the ''chocolate-doom'' directory in your Cygwin home directory.  If your Windows login name contains a space (eg. if it is your full name), you will likely experience problems because Unix scripts often fail when dealing with directories containing spaces.  Before running the auto-build script, type this to build in a different directory:
