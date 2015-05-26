@@ -64,13 +64,13 @@ If the build is successful you should see the words "Build complete" and you wil
 
 == Modifying the source code ==
 
-If you want to make your own mods to the Chocolate Doom source, go to ''~/chocolate-doom/build/chocolate-doom-(version)'' (stable release build) or ''~/chocolate-doom/build/chocolate-doom-svn'' (latest Subversion version).  The source code is in the ''src'' directory; type ''make'' to build the code after making any mods.
+If you want to make your own mods to the Chocolate Doom source, go to ''~/chocolate-doom/build/chocolate-doom-(version)'' (stable release build) or ''~/chocolate-doom/build/chocolate-doom-git'' (latest Git version).  The source code is in the ''src'' directory; type ''make'' to build the code after making any mods.
 
 == Keeping up to date ==
 
-If you have compiled the latest version from Subversion, you may want to keep up to date with new developments and bug fixes.  To update to the latest version, go to ''~/chocolate-doom/build/chocolate-doom-svn'' and type:
+If you have compiled the latest version from Git, you may want to keep up to date with new developments and bug fixes.  To update to the latest version, go to ''~/chocolate-doom/build/chocolate-doom-git'' and type:
 
- svn up
+ git pull
  make
 
 == See also ==
