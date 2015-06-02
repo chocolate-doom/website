@@ -126,7 +126,7 @@ The final "make install" command should be run as root.
 
 == Windows binaries on Linux ==
 
- cd /root
+ cd ~/
  wget http://www.doom.com.hr/cndoom/build-cndoom-win
  wget http://www.doom.com.hr/cndoom/clean-cndoom-win
  chmod +x build-cndoom-win clean-cndoom-win
