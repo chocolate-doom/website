@@ -77,7 +77,9 @@ http://doom.com.hr/cndoom/support/
 
 == Beta ==
 
-No beta release at the moment.
+Only for testing:
+
+ http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.tar.gz
 
 
 '''DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!'''
