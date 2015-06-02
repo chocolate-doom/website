@@ -77,10 +77,13 @@ http://doom.com.hr/cndoom/support/
 
 == Beta ==
 
-Only for testing:
+Windows build only for testing:
+
+ http://www.doom.com.hr/cndoom/cndoom-2.0.3.2-beta1.zip
+
+Source:
 
  http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.tar.gz
-
 
 '''DO NOT USE BETA VERSION FOR DEMO RECORDING!!! IT'S UNSTABLE AND UNTESTED!'''
 
