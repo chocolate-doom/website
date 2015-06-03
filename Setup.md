@@ -13,12 +13,13 @@ The setup program is menu-driven. The main menu provides configuration options f
 * '''[[Setup/Compatibility|Compatibility]]''' - a small set of compatibility options that can be disabled if painstakingly exact emulation of Vanilla Doom's behavior is not desired.
 * '''[[Setup/Multiplayer configuration|Multiplayer configuration]]''' - player name and chat macros.
 
-== Multiplayer launch ==
+== Launching games ==
+The setup program can be used as a basic launcher for playing games, for both multiplayer and single-player modes.
 
-The setup program includes two menu items for launching multiplayer games. These are, ''Start a network game'' and ''Join a network game''.
+* '''[[Setup/Start multiplayer game|Start a Network Game]]''' - Start a multiplayer game that others can join
+* '''[[Setup/Join multiplayer game|Join a Network Game]]''' - Join a multiplayer game that was already set up
+* '''[[Setup/Level Warp|Warp]]''' - Warp to a specific level in single-player mode
 
-Setting up a network game involves finding other players to play with and coordinating with them to start the game. One player must act as the server; this player chooses the ''Start a network game'' option. A menu provides various configurable options that can be set for the game to be played, including the game type (cooperative vs. deathmatch) and the level to start on. Clicking the "Start" button launches the server.
-
-Other players can then connect to this server using the ''Join a network game'' option. This window gives the option to find a server on the Internet or on the local network. If the server has been set up correctly, it should appear in the list. If not, there may be additional firewall configuration steps needed; see the "[[Multiplayer]]" page.
+Difficulties in running and playing multiplayer games may be caused by firewalls on the server machine or port-forwarding issues behind NAT. See the [[Multiplayer]] page for more help.
 
 [[Category:Features]]
