@@ -22,4 +22,12 @@ The setup program can be used as a basic launcher for playing games, for both mu
 
 Difficulties in running and playing multiplayer games may be caused by firewalls on the server machine or port-forwarding issues behind NAT. See the [[Multiplayer]] page for more help.
 
+== Extra command line parameters ==
+[[File:Extra Command Line Parameters.png|thumb|right|300px]]
+This window is in common with the multiplayer and level warp windows. It allows appending additional command line parameters that are not available via Setup's normal menus.  Each option and its argument should appear in just one line, for example "-deh batman.deh".
+
+== Add WADs ==
+[[File:Add WADs.png|thumb|right|300px]]
+This window is also in common with the multiplayer and level warp windows.  You can use it to enter a path to additional WADs to load. This is equivalent to passing "-file level.wad" on the command line, or using -file in the extra command line parameters window.
+
 [[Category:Features]]
