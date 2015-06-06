@@ -145,6 +145,9 @@ To clean and rebuild Windows executables do:
 
  ./clean-cndoom-win
 
+If you need to build *.dll files too then execute:
+ ./build-cndoom-win -host=i586-mingw32msvc -extra-libs
+
 == Windows MSVC ==
 
 You will need SDL development libraries:
