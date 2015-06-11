@@ -77,9 +77,9 @@ http://doom.com.hr/cndoom/support/
 
 == Beta ==
 
-Windows build only for testing (updated 05.06.2015.):
+Windows build only for testing (updated 10.06.2015.):
 
- http://www.doom.com.hr/cndoom/cndoom-2.0.3.2-beta1.zip
+ http://www.doom.com.hr/cndoom/cndoom-2.0.3.2-beta2.zip
 
 Source:
 
