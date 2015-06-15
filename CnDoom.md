@@ -90,7 +90,7 @@ Source:
 '''!!!DEMOS RECORDED WITH BETA VERSIONS WILL NOT BE ACCEPTED TO COMPETITION!!!'''
 
 == Launcher beta release ==
-CNlauncher v2.0.1.0 BETA 3 for Windows
+Competition Doom launcher for Windows
 
 For testing purposes only!
 
