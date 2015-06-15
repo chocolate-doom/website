@@ -115,13 +115,13 @@ Several packages will be installed.
 
 Download the source package and extract it, for example:
 
- wget http://www.doom.com.hr/cndoom/cndoom-2.0.3.1.tar.gz
+ wget http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.tar.gz
 
- tar xzf cndoom-2.0.3.1.tar.gz
+ tar xzf cndoom-2.0.3.2.tar.gz
 
 Then build the package:
 
- cd cndoom-2.0.3.1
+ cd cndoom-2.0.3.2
  ./autogen.sh
  ./configure
  make
