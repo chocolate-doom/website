@@ -69,11 +69,11 @@ All files, patches and fixes can be downloaded from here:
 http://doom.com.hr/cndoom/support/
 
 == Download ==
-[http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.zip Competition Doom v2.0.3.2 for Windows]  (updated with launcher 24.6.2015)
+[http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.zip Competition Doom v2.0.3.2 for Windows]  (updated with launcher 25.6.2015)
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.tar.gz Source code]
 
-[http://www.doom.com.hr/cndoom/cnlaunch-2.0.1.0-beta6.zip Competition Doom launcher v2.0.1.0 beta6] (updated 24.6.2015)
+[http://www.doom.com.hr/cndoom/cnlaunch-2.0.1.0-beta7.zip Competition Doom launcher v2.0.1.0 beta6] (updated 25.6.2015)
 
 == Beta ==
 
