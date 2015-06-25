@@ -73,7 +73,7 @@ http://doom.com.hr/cndoom/support/
 
 [http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.tar.gz Source code]
 
-[http://www.doom.com.hr/cndoom/cnlaunch-2.0.1.0-beta7.zip Competition Doom launcher v2.0.1.0 beta6] (updated 25.6.2015)
+[http://www.doom.com.hr/cndoom/cnlaunch-2.0.1.0-beta7.zip Competition Doom launcher v2.0.1.0 beta7] (updated 25.6.2015)
 
 == Beta ==
 
