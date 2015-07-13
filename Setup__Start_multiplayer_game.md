@@ -16,3 +16,5 @@ Here, you may configure whether monsters are spawned in the levels or not.  For 
 ''UDP port'' sets the port that the server runs on. This does not normally need to be changed, but you may change it in order to host multiple games on a single computer, or if some other program has already claimed port 2432.
 
 ''Register with master server'': If you do not wish for people to automatically discover and join your server, you may uncheck this. Other players will be required to type your server's address in order to join.
+
+You can also add extra command line parameters and WAD files. See [[Setup/Extra dialogs]].
