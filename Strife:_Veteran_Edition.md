@@ -3,9 +3,11 @@
 
 Veteran Edition includes a new OpenGL-based renderer that gives some improved graphics, although this can be disabled to play the game in "classic mode" that resembles simply playing the game with Chocolate Strife. It also includes some other enhancements, such as several remastered textures, fixes for gameplay bugs, and a graphical launcher / configuration menu.
 
+== See also ==
+* [[doom:Strife: Veteran Edition|Strife: Veteran Edition]] article on the Doom wiki.
+
 == External links ==
 
-* [[doom:Strife: Veteran Edition|Strife: Veteran Edition]] article on the Doom wiki has more information.
 * [http://store.steampowered.com/app/317040/ Steam page] for Strife: Veteran Edition.
 * [https://github.com/svkaiser/strife-ve Strife: Veteran Edition source code] on Github.
 * [http://doomradio.org/podcast/interview-with-quasar/ Doom Radio interview with Quasar], where he discusses the genesis of Strife: VE.
