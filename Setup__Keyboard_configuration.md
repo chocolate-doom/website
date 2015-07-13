@@ -23,3 +23,5 @@ Chocolate Doom allows considerably more configuration than the original versions
 
 == Test ==
 You may use the Test option to test your changes in-game, without making the configuration permanent first.
+
+[[Category:Setup tool]]
