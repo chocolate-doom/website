@@ -15,3 +15,5 @@ The monster options are also identical to the multiplayer counterpart:
 == Advanced ==
 
 You can also add extra command line parameters and WAD files; see [[Setup/Extra dialogs]].
+
+[[Category:Setup tool]]
