@@ -33,6 +33,61 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
+== Changes of Crispy Doom 3.0 from Crispy Doom 2.3 ==
+Crispy Doom 3.0 has been released on July NOTYET, 2015.
+
+This is a major Crispy Doom release, because it is based upon the Chocolate Doom 2.2.0 release.
+
+=== Enhancements ===
+* Add optional rendering with '''Uncapped Framerate'''. Thank you very much to Alexmax for this major code contribution! In the course of this, add an FPS counter that can get activated with the new <tt>SHOWFPS</tt> cheat.
+* Allow for a '''variable jump height''', either "low" (i.e. 8 units of vertical momentum as in ZDoom) or "high" (i.e. the previous value of 9 units as in Hexen or current PrBoom+).
+* Support the '''"<tt>masterlevels.wad</tt>" all-in-one PWAD''' file from the PSN version. Thanks to quakeguy123 for the suggestion.
+* Fix rendering of '''single-patched transparent textures'''. Finally found a fix nearly one year after this has been requested by plumsinus. \o/
+* If "<tt>-warp</tt>" is used with "<tt>-playdemo</tt>", '''fast-forward the demo''' up to the requested map.
+
+* Add a third "Crispness" in-game menu page and get rid of some of the lesser used items in the "Cripsness" menu in the crispy-doom-setup tool.
+* Render missing flat as sky.
+* Permit binding mouse button to jump. Thanks to Jonathan Dowland for the PR.
+* Prevent frame buffer overflows in <tt>V_DrawPatch()</tt>. It should now be impossible to trigger a "Bad V_DrawPatch" error anymore. Also, prevent frame buffer overflows in <tt>V_CopyRect()</tt>.
+* Never override savegames during demo playback anymore.
+* Do not reset "<tt>-respawn</tt>", "<tt>-fast</tt>" and "<tt>-nomonsters</tt>" parameters in <tt>G_DoNewGame()</tt> anymore.
+* The <tt>NOTARGET</tt> cheat makes all monsters forget their current target. Thanks to bradharding for the idea.
+* In the Automap, initialize the zoomlevel on huge maps so that a 4096 units square map would just fit in. Somehow inspired by Doom Retro.
+* Make "bad texturecolumn" errors non-fatal.
+* Colorize the confusing <tt>IDBEHOLD</tt> power-up menu. Inspired by Doom Retro.
+* Make the DEH/BEX parser more tolerant. If a DEHACKED file does not contain a valid header signature, print a warning but do not error out. If a DEHACKED file contains BEX sections which contain non-escaped newlines and there is no new valid section marker after the newline, try to proceed parsing with the previous line parser. Fixes loading the completely messed-up Jptr_fix.bex file provided on <http://www.doomworld.com/pageofdoom/lostdoom.html>.
+* Differentiate between Weapon Recoil Thrust and Pitch options.
+* When a linedef is missing a first sidedef (aka. right side), replace with a dummy sidedef instead of crashing.
+* Allow Chocolate Doom 2.2.0 clients to connect to Crispy Doom servers.
+
+=== Bug fixes ===
+* In the Automap, do not calculate player coordinates for players not in game. Fixes a crash in multiplayer games reported by Marscaleb.
+* In Automap Overlay mode, draw the Automap beneath the bezel for smaller view sizes. Thanks to Ronald Lasmanowicz for reporting.
+* Also in Automap Overlay mode, for full view sizes, move the map title line to the bottom and remove the obtrusive map origin line.
+* Catch overflows in the <tt>SlopeDiv()</tt> function only during rendering. Fixes the one remaining demo desync in Choco's statcheck test.
+* In the Crispy HUD, properly center the Berserk Pack patch in the Ammo widget.
+* Only interpret the second argument to the "<tt>-warp</tt>" parameter as "startmap" if it is not yet another parameter (i.e. begins with '-').
+* Restrict conditions for recognizing E1M10 and MAP33 and fix Par Times for MAP10 in "commercial" game mode.
+* The demo progress bar is now better recognizable.
+* Draw the Berserk Pack in the Ammo widget and blink the Health indicator also in Automap Overlay mode.
+* Force redrawing the status bar when switching Automap Overlay mode back and forth.
+* No Rest for the Living was not special-cased if the "<tt>nerve.wad</tt>" PWAD file name was in upper case. Thanks chungy for the report.
+* The map name for MAP33 now always defaults to "Betray" if it has not been dehacked to another name. Thanks to quakeguy123 for the suggestion.
+* The highest and lowest viewing angles can now be reached with the keyboard without needing to press the corresponding button a second time. Deviating from Heretic and Hexen behaviour here.
+* When resurrecting dead players with the IDDQD cheat, they now face the same direction again as before (not exactly, but closer).
+* Fix rendering glitches caused by segs that had their vertices removed in order to prevent slime trails. The shorter a segs is, the more affected is its angle by moving its vertices. So re-calculate seg angles after moving vertices in <tt>P_RemoveSlimeTrails()</tt> and use these angles in rendering only.
+* Remove the limit of merged <tt>PNAMES</tt> and <tt>TEXTURE1/2</tt> lumps.
+* Disable auto-loading of PWADs in the "shareware" game mode.
+
+=== Code clean-up ===
+* Reformat <tt>R_DrawColumnInCache()</tt>, <tt>R_GenerateComposite()</tt>, <tt>R_GenerateLookup()</tt> and <tt>R_DrawColumn()</tt> to closer match their Chocolate Doom pendants. These functions were previously replaced with code from MBF to fix the Medusa and Tutti-Frutti effects, respectively. Now, these fixes have been merged into the Vanilla functions.
+* Do the slow linear search in <tt>R_FlatNumForName()</tt> only if the initially returned lump number is not within the "flats" range.
+* In the Crispness menu, the "Jumping" and "Crosshair" items now offer multiple choices.
+* Get rid of the <tt>player2_t</tt> type.
+
+=== Other ports ===
+* Remove <tt>MAXVISPLANES</tt>, <tt>MAXDRAWSEGS</tt>, <tt>MAXSEGS</tt> and <tt>MAXVISSPRITES</tt> limits for Crispy Heretic.
+
 == Changes of Crispy Doom 2.3 from Crispy Doom 2.2 ==
 Crispy Doom 2.3 has been released on March 4, 2015.
 
@@ -537,6 +592,7 @@ Crispy Doom 2.0 is based on Chocolate Doom 2.1.0 and has merged all changes to t
 Crispy Doom 2.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/66b295d461789f204d19b7181b1a11804a666728 <tt>804a666728</tt>].
 Crispy Doom 2.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/80bf45c902f78e3cd0212938ee176a3c6f436997 <tt>3c6f436997</tt>].
 Crispy Doom 2.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/622653dde922a486a056b63d37dc6d7d6f26f3a4 <tt>7d6f26f3a4</tt>].
+Crispy Doom 3.0 is based on Chocolate Doom 2.2.0 and has merged all changes to the Chocolate Doom master branch up to commit NOTYET.
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
