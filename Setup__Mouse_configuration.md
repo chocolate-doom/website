@@ -25,3 +25,5 @@ You may also configure what the particular buttons do. In the original games, mo
 
 == Test ==
 You may use the Test option to test your changes in-game, without making the configuration permanent first.
+
+[[Category:Setup tool]]
