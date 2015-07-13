@@ -23,3 +23,4 @@ The setup program can be used as a basic launcher for playing games, for both mu
 Difficulties in running and playing multiplayer games may be caused by firewalls on the server machine or port-forwarding issues behind NAT. See the [[Multiplayer]] page for more help.
 
 [[Category:Features]]
+[[Category:Setup tool]]
