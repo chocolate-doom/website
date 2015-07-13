@@ -18,3 +18,5 @@ Here, you may configure whether monsters are spawned in the levels or not.  For 
 ''Register with master server'': If you do not wish for people to automatically discover and join your server, you may uncheck this. Other players will be required to type your server's address in order to join.
 
 You can also add extra command line parameters and WAD files. See [[Setup/Extra dialogs]].
+
+[[Category:Setup tool]]
