@@ -11,3 +11,7 @@ The monster options are also identical to the multiplayer counterpart:
 ''Fast monsters'' will cause the monsters to move and attack at a much faster rate than normal.
 
 ''Respawning monsters'' will cause the monsters to resurrect 30 seconds after you kill them. This can make levels much more difficulty, and potentially near-impossible to beat as you run out of ammo.
+
+== Advanced ==
+
+You can also add extra command line parameters and WAD files; see [[Setup/Extra dialogs]].
