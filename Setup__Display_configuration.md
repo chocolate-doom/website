@@ -10,3 +10,5 @@ Screen mode lists resolutions available to use. If full screen is enabled, there
 You may also toggle the display of [[Doom:ENDOOM|ENDOOM]] from this window. This is a screen that normally was displayed on DOS after quitting the game, and some WADs include their own replacement graphics for it. Chocolate Doom emulates this screen using [[libtextscreen]], the same text-mode emulation that the setup program itself uses.
 
 On some operating systems and compilation configurations, there is a third option here, the capability of saving screenshots to [[Wikipedia:Portable Network Graphics|PNG]] files instead of the [[Wikipedia:PCX|PCX]] format that Doom originally used. The PCX format is largely obsolete and few applications implement support for it. Due to an extra dependency on libpng, this option is not available in the standard Windows versions of Chocolate Doom.
+
+[[Category:Setup tool]]
