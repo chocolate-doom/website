@@ -5,4 +5,4 @@ Finding a server on the Internet queries the master server for a list of game se
 
 Finding a server on your local network sends a broadcast packet that servers on the LAN can respond to.
 
-You can also add extra command line parameters and WAD files. See [[Setup/Extra dialogs]]. Any extra parameters or WADs must match those used by the creator of the game (server) and other players.
+You can also add extra command line parameters and WAD files; see [[Setup/Extra dialogs]]. Any extra parameters or WADs must match those used by the creator of the game (server) and other players.
