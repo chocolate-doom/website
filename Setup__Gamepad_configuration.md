@@ -16,3 +16,5 @@ All other functionality can be set here. Several popular gamepads already have p
 
 == Test ==
 You may use the Test option to test your changes in-game, without making the configuration permanent first.
+
+[[Category:Setup tool]]
