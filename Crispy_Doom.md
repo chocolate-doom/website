@@ -34,17 +34,18 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
 == Changes of Crispy Doom 3.0 from Crispy Doom 2.3 ==
-Crispy Doom 3.0 has been released on July NOTYET, 2015.
+Crispy Doom 3.0 has been released on July 14, 2015.
 
 This is a major Crispy Doom release, because it is based upon the Chocolate Doom 2.2.0 release.
 
-=== Enhancements ===
+=== Major Features ===
 * Add optional rendering with '''Uncapped Framerate'''. Thank you very much to Alexmax for this major code contribution! In the course of this, add an FPS counter that can get activated with the new <tt>SHOWFPS</tt> cheat.
 * Allow for a '''variable jump height''', either "low" (i.e. 8 units of vertical momentum as in ZDoom) or "high" (i.e. the previous value of 9 units as in Hexen or current PrBoom+).
 * Support the '''"<tt>masterlevels.wad</tt>" all-in-one PWAD''' file from the PSN version. Thanks to quakeguy123 for the suggestion.
-* Fix rendering of '''single-patched transparent textures'''. Finally found a fix nearly one year after this has been requested by plumsinus. \o/
 * If "<tt>-warp</tt>" is used with "<tt>-playdemo</tt>", '''fast-forward the demo''' up to the requested map.
+* Fix rendering of '''single-patched transparent textures'''. Finally found a fix nearly one year after this has been requested by plumsinus. \o/
 
+=== Other Enhancements ===
 * Add a third "Crispness" in-game menu page and get rid of some of the lesser used items in the "Cripsness" menu in the crispy-doom-setup tool.
 * Render missing flat as sky.
 * Permit binding mouse button to jump. Thanks to Jonathan Dowland for the PR.
@@ -592,7 +593,7 @@ Crispy Doom 2.0 is based on Chocolate Doom 2.1.0 and has merged all changes to t
 Crispy Doom 2.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/66b295d461789f204d19b7181b1a11804a666728 <tt>804a666728</tt>].
 Crispy Doom 2.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/80bf45c902f78e3cd0212938ee176a3c6f436997 <tt>3c6f436997</tt>].
 Crispy Doom 2.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/622653dde922a486a056b63d37dc6d7d6f26f3a4 <tt>7d6f26f3a4</tt>].
-Crispy Doom 3.0 is based on Chocolate Doom 2.2.0 and has merged all changes to the Chocolate Doom master branch up to commit NOTYET.
+Crispy Doom 3.0 is based on Chocolate Doom 2.2.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/b81ba59d6649794cfba735d1ffa0e9458a6ee486 <tt>b81ba59d66</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -620,7 +621,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_2.3.zip
+http://www.greffrath.com/~fabian/crispy-doom_3.0.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
