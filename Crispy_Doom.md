@@ -39,15 +39,15 @@ Crispy Doom 3.0 has been released on July 14, 2015.
 This is a major Crispy Doom release, because it is based upon the Chocolate Doom 2.2.0 release.
 
 === Major Features ===
-* Add optional rendering with '''Uncapped Framerate'''. Thank you very much to Alexmax for this major code contribution! In the course of this, add an FPS counter that can get activated with the new <tt>SHOWFPS</tt> cheat.
+* Add optional rendering with '''Uncapped Framerate'''. Thank you very much to AlexMax for this major code contribution! In the course of this, add an FPS counter that can get activated with the new <tt>SHOWFPS</tt> cheat.
 * Allow for a '''variable jump height''', either "low" (i.e. 8 units of vertical momentum as in ZDoom) or "high" (i.e. the previous value of 9 units as in Hexen or current PrBoom+).
 * Support the '''"<tt>masterlevels.wad</tt>" all-in-one PWAD''' file from the PSN version. Thanks to quakeguy123 for the suggestion.
 * If "<tt>-warp</tt>" is used with "<tt>-playdemo</tt>", '''fast-forward the demo''' up to the requested map.
-* Fix rendering of '''single-patched transparent textures'''. Finally found a fix nearly one year after this has been requested by plumsinus. \o/
+* Fix rendering of '''single-patched transparent textures''' used as an upper or lower texture, or as a mid texture on a single-sided wall. Finally found a fix nearly one year after this has been requested by plumsinus. \o/
 
 === Other Enhancements ===
-* Add a third "Crispness" in-game menu page and get rid of some of the lesser used items in the "Cripsness" menu in the crispy-doom-setup tool.
-* Render missing flat as sky.
+* Add a third "Crispness" in-game menu page and get rid of some of the lesser used items in the "Cripsness" menu in the <tt>crispy-doom-setup</tt> tool.
+* Render missing flats as sky.
 * Permit binding mouse button to jump. Thanks to Jonathan Dowland for the PR.
 * Prevent frame buffer overflows in <tt>V_DrawPatch()</tt>. It should now be impossible to trigger a "Bad V_DrawPatch" error anymore. Also, prevent frame buffer overflows in <tt>V_CopyRect()</tt>.
 * Never override savegames during demo playback anymore.
@@ -56,7 +56,7 @@ This is a major Crispy Doom release, because it is based upon the Chocolate Doom
 * In the Automap, initialize the zoomlevel on huge maps so that a 4096 units square map would just fit in. Somehow inspired by Doom Retro.
 * Make "bad texturecolumn" errors non-fatal.
 * Colorize the confusing <tt>IDBEHOLD</tt> power-up menu. Inspired by Doom Retro.
-* Make the DEH/BEX parser more tolerant. If a DEHACKED file does not contain a valid header signature, print a warning but do not error out. If a DEHACKED file contains BEX sections which contain non-escaped newlines and there is no new valid section marker after the newline, try to proceed parsing with the previous line parser. Fixes loading the completely messed-up Jptr_fix.bex file provided on <http://www.doomworld.com/pageofdoom/lostdoom.html>.
+* Make the DEH/BEX parser more tolerant. If a DEHACKED file does not contain a valid header signature, print a warning but do not error out. If a DEHACKED file contains BEX sections which contain non-escaped newlines and there is no new valid section marker after the newline, try to proceed parsing with the previous line parser. Fixes loading the completely messed-up <tt>Jptr_fix.bex</tt> file provided on <http://www.doomworld.com/pageofdoom/lostdoom.html>.
 * Differentiate between Weapon Recoil Thrust and Pitch options.
 * When a linedef is missing a first sidedef (aka. right side), replace with a dummy sidedef instead of crashing.
 * Allow Chocolate Doom 2.2.0 clients to connect to Crispy Doom servers.
@@ -65,9 +65,9 @@ This is a major Crispy Doom release, because it is based upon the Chocolate Doom
 * In the Automap, do not calculate player coordinates for players not in game. Fixes a crash in multiplayer games reported by Marscaleb.
 * In Automap Overlay mode, draw the Automap beneath the bezel for smaller view sizes. Thanks to Ronald Lasmanowicz for reporting.
 * Also in Automap Overlay mode, for full view sizes, move the map title line to the bottom and remove the obtrusive map origin line.
-* Catch overflows in the <tt>SlopeDiv()</tt> function only during rendering. Fixes the one remaining demo desync in Choco's statcheck test.
+* Catch overflows in the <tt>SlopeDiv()</tt> function only during rendering. Fixes the single last remaining demo desync in Choco's statcheck test.
 * In the Crispy HUD, properly center the Berserk Pack patch in the Ammo widget.
-* Only interpret the second argument to the "<tt>-warp</tt>" parameter as "startmap" if it is not yet another parameter (i.e. begins with '-').
+* Only interpret the second argument to the "<tt>-warp</tt>" parameter as "startmap" if it is not yet another parameter (i.e. begins with '<tt>-</tt>').
 * Restrict conditions for recognizing E1M10 and MAP33 and fix Par Times for MAP10 in "commercial" game mode.
 * The demo progress bar is now better recognizable.
 * Draw the Berserk Pack in the Ammo widget and blink the Health indicator also in Automap Overlay mode.
@@ -75,9 +75,9 @@ This is a major Crispy Doom release, because it is based upon the Chocolate Doom
 * No Rest for the Living was not special-cased if the "<tt>nerve.wad</tt>" PWAD file name was in upper case. Thanks chungy for the report.
 * The map name for MAP33 now always defaults to "Betray" if it has not been dehacked to another name. Thanks to quakeguy123 for the suggestion.
 * The highest and lowest viewing angles can now be reached with the keyboard without needing to press the corresponding button a second time. Deviating from Heretic and Hexen behaviour here.
-* When resurrecting dead players with the IDDQD cheat, they now face the same direction again as before (not exactly, but closer).
-* Fix rendering glitches caused by segs that had their vertices removed in order to prevent slime trails. The shorter a segs is, the more affected is its angle by moving its vertices. So re-calculate seg angles after moving vertices in <tt>P_RemoveSlimeTrails()</tt> and use these angles in rendering only.
-* Remove the limit of merged <tt>PNAMES</tt> and <tt>TEXTURE1/2</tt> lumps.
+* When resurrecting dead players with the <tt>IDDQD</tt> cheat, they now face the same direction again as before (not exactly, but closer).
+* Fix rendering glitches caused by segs that had their vertices moved in order to prevent slime trails. The shorter a segs is, the more affected is its angle by moving its vertices. So re-calculate seg angles after moving vertices in <tt>P_RemoveSlimeTrails()</tt> and use these angles during rendering only.
+* Remove the limits on merged <tt>PNAMES</tt> and <tt>TEXTURE1/2</tt> lumps.
 * Disable auto-loading of PWADs in the "shareware" game mode.
 
 === Code clean-up ===
