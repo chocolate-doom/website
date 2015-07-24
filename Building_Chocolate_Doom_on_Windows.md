@@ -24,6 +24,7 @@ Go through the setup program until the point where you are prompted to select wh
 * python
 * wget
 * w32api-runtime
+* patchutils
 
 Note that there are several compiler options available with Cygwin. mingw-gcc-core is presently the prefered compiler, as it can produce executables for ancient versions of Windows (NT3.x, NT4.0, 95, 98, Me).  The standard gcc-core package produces exectubles with a dependency on Cygwin and behave as Unix programs, this is normally undesirable on Windows.  mingw64-i686-gcc-core and mingw64-x86_64-gcc-core are also available, and work, but they cannot produce executables that run on old versions of Windows.
 
