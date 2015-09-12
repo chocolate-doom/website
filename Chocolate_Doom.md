@@ -5,7 +5,7 @@
 {{Frontpagebox|Screenshots|File:Chocowindows.png|See some '''[[Screenshots]]''' of Chocolate Doom in action.}}
 
 {{Frontpagebox|Downloads|File:download icon.png|
-'''[[Downloads|Download]]''' Chocolate Doom v2.2.0.
+'''[[Downloads|Download]]''' the latest version of Chocolate Doom.
 }}
 
 {{Frontpagebox|User guide|File:Bigouch.png|Check out the '''[[User guide]]''' page for information about using Chocolate Doom, or the '''[[FAQ]]''' for answers to some common questions.}}
