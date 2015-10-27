@@ -41,7 +41,7 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 === Features ===
 * '''Colorized''' Status Bar numbers and HUD texts can now be enabled separately.
 * If colorized HUD texts are enabled, the colors of the keycards and skull keys are now emphasized in HUD messages.
-* Pools of gore left behind from crushing Cacodemons or Hell nobles are now colorized in their respective blood colors. Thanks to Megamur for this suggestion.
+* Pools of gore left behind from crushing Cacodemons or Hell Nobles are now colorized in their respective blood colors. Thanks to Megamur for this suggestion.
 * Player messaged in multiplayer games are now colorized, i.e. the "indigo" player writes in grey and the "brown" player writes in gold.
 * The Status Bar face background is now properly colored when playing back a multiplayer demo that was recorded by another player than Player 1. Thanks to Zodomaniac for the bug report and demo.
 
@@ -52,7 +52,7 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 * It is now possible to enable '''Translucency''' separately for Missiles and Items.
 * It is now possible to use the Translucent Crispy HUD even if the Translucency feature is generally disabled.
 * Tranclucency for Health Potions has been disabled, it just looked too crappy.
-* To compensate fot this, fhe BFG spray explosions are now rendered translucently. ;)
+* To compensate for this, the BFG spray explosions are now rendered translucently. ;)
 * Translucent rendering in the Low Resolution mode has been fixed.
 
 * '''Screenshots''' in PNG format are now a reproduction of the actual screen content, i.e. they are saved with the same dimensions as the rendered game.
@@ -64,23 +64,23 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 * The default OPL emulation mode is now OPL3 with correctly reversed stereo channels.
 * Music lumps are now properly checked for being MP3 files. This was somehow forgotten when support for music lumps in OGG and FLAC formats has been implemented in Crispy Doom 2.3.
 * No nukage damage is applied anymore if the NOCLIP cheat is active.
-* The used Screen Mode is now always reported at start-up, Thanks to http://www.flaterco.com/kb/DOOM/ChocolateDOOM.html for the idea.
-* Some information is printed to <tt>stderr</tt> when a game is saved.
+* The used Screen Mode is now always reported at start-up, Thanks to [http://www.flaterco.com/kb/DOOM/ChocolateDOOM.html FlaterCo] for the idea.
+* Some information is printed to <tt>stderr</tt> when saving a game.
 
 === Bug Fixes ===
 * Lost Souls aren't counted as Kills anymore, not even in the separate <tt>extrakills</tt> counter.
-* When a vertex would need to move more then 8 map units for fixing a slime trail in <tt>P_RemoveSlimeTrails()</tt>, it is probably misplaced on purpose so its original coordinate is used instead. This fixes the rendering of Linguortals XXX.
-* Single-patched columns are normally not composited but directly read from the patch lump ignoring their <tt>originy</tt> value. This fixes an oddly rendered door in E3M5, thanks pto toing and esselfortium for reporting.
+* When a vertex would need to move more then 8 map units for fixing a slime trail in <tt>P_RemoveSlimeTrails()</tt>, it is probably misplaced on purpose so its original coordinate is used instead. This fixes the rendering of [http://www.doomworld.com/vb/doom-editing/74354-stupid-bsp-tricks/ Linguortals].
+* Single-patched columns are normally not composited but directly read from the patch lump ignoring their <tt>originy</tt> value. This fixes an oddly rendered door in E3M5, thanks to ptoing and esselfortium for reporting.
 * Barrel explosions aren't randomly mirrored anymore. They have very distinct sideways shading on them and that flipping around just looks weird. Thanks to ptoing for reporting.
 * If a linedef with an untagged DR special is pushed from the wrong side, print a warning instead of crashing or exiting the game.
 * If the game is paused in Automap mode (but not in Automap Overlay mode) the screen isn't shaded anymore. Thanks to Megamur for this suggestion.
-* The lbinking health indicator has been disregarded as distracting and has been disabled. Thanks to XXX for the report.
+* The blinking health indicator has been disregarded as distracting and has thus been disabled. Thanks to Megamur for the report.
 * Rendering glitches caused by integer overflows in the <tt>rw_distance</tt> variable have been fixed. This used to cause strange artifacts in e.g. <tt>planisf2.wad</tt> where sprites have been overridden by segs from far behind. Thanks to Andrey Budko for his help with fixing this.
 * Also, overflows in <tt>R_PointToAngle()</tt> for very long distances have been fixed. This should fix even more rendering glitches, e.g. the vertical HOM stripes at the horizon in <tt>planisf2.wad</tt>. Thanks again to Andrey Budko for helping me to fix this and taking my approach over into PrBoom+.
 * A bug has been fixed that caused mid-textures with out-of-screen coordinates to be entirely emitted from rendering. Thanks to vesperas for reporting this rendering glitch.
-* A bug reported by Valgrind as been fixed which caused reading of uninitialized memory from the <tt>postcount</tt> array. Since the values read from this array determine the amount of memory allocated for each column in a texture, this bug was quite a memory hog.
+* A bug reported by Valgrind as been fixed which caused reading of uninitialized memory from the <tt>postcount[]</tt> array. Since the values read from this array determine the amount of memory allocated for each column in a texture, this bug was quite a memory hog.
 
-=== Code Cleanup ==
+=== Code Cleanup ===
 * The <tt>V_DrawPatch()</tt> function has been simplified and now uses the same code path for opaque, translucent and colorized patches.
 * By now, running <tt>cppcheck</tt> on the Crispy Doom source code doesn't emit any more singnificant warnings than running it over the Chocolate Doom source code.
 * The Berserk Pack patch is only displayed in the Ammo widget if it is actually available (i.e. not in the Shareware version).
