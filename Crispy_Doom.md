@@ -40,8 +40,8 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 
 === Features ===
 * '''Colorized''' Status Bar numbers and HUD texts can now be enabled separately.
-* If colorized HUD texts are enabled, the colors of the keycards and skull keys are now emphasized in HUD messages.
-* Pools of gore left behind from crushing Cacodemons or Hell Nobles are now colorized in their respective blood colors. Thanks to Megamur for this suggestion.
+* If Colorized HUD texts are enabled, the colors of the keycards and skull keys are now emphasized in HUD messages.
+* Pools of gore left behind from crushing Cacodemons or Hell Nobles are now colorized in their respective blood colors if Colorized Blood is enabled. Thanks to Megamur for this suggestion.
 * Player messaged in multiplayer games are now colorized, i.e. the "indigo" player writes in grey and the "brown" player writes in gold.
 * The Status Bar face background is now properly colored when playing back a multiplayer demo that was recorded by another player than Player 1. Thanks to Zodomaniac for the bug report and demo.
 
@@ -84,6 +84,7 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 * The <tt>V_DrawPatch()</tt> function has been simplified and now uses the same code path for opaque, translucent and colorized patches.
 * By now, running <tt>cppcheck</tt> on the Crispy Doom source code doesn't emit any more singnificant warnings than running it over the Chocolate Doom source code.
 * The Berserk Pack patch is only displayed in the Ammo widget if it is actually available (i.e. not in the Shareware version).
+* If the <tt>DSSECRET</tt> lump is available, e.g. from a PWAD, play this instead of <tt>DSITMBK</tt> when a secret is revealed and the corresponding feature is enabled.
 
 == Changes of Crispy Doom 3.0 from Crispy Doom 2.3 ==
 Crispy Doom 3.0 has been released on July 14, 2015.
