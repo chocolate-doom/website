@@ -34,7 +34,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
 == Changes of Crispy Doom 3.1 from Crispy Doom 3.0 ==
-Crispy Doom 3.1 has not yet been released ...
+Crispy Doom 3.1 has been released on Nov 3, 2015.
 
 This isn't considered a major Crispy Doom release, although it is based upon the Chocolate Doom 2.2.1 point release.
 
@@ -647,6 +647,7 @@ Crispy Doom 2.1 has merged all changes to the Chocolate Doom master branch up to
 Crispy Doom 2.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/80bf45c902f78e3cd0212938ee176a3c6f436997 <tt>3c6f436997</tt>].
 Crispy Doom 2.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/622653dde922a486a056b63d37dc6d7d6f26f3a4 <tt>7d6f26f3a4</tt>].
 Crispy Doom 3.0 is based on Chocolate Doom 2.2.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/b81ba59d6649794cfba735d1ffa0e9458a6ee486 <tt>b81ba59d66</tt>].
+Crispy Doom 3.1 is based on Chocolate Doom 2.2.1 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ff61aa8695321e21b349583b4b43f19084d870c4 <tt>9084d870c4</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -674,7 +675,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_3.0.zip
+http://www.greffrath.com/~fabian/crispy-doom_3.1.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
