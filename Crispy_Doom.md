@@ -34,7 +34,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
 == Changes of Crispy Doom 3.2 from Crispy Doom 3.1 ==
-Crispy Doom 3.1 has been released on Nov 4, 2015.
+Crispy Doom 3.2 has been released on Nov 4, 2015.
 
 This is merely a bug-fix release to fix some nasty bugs (missing icons in executables and crispy-*-setup.exe requiring admin rights) in the Windows version of Crispy Doom 3.1.
 
