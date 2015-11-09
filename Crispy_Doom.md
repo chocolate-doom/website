@@ -50,7 +50,7 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 * Player messaged in multiplayer games are now colorized, i.e. the "indigo" player writes in grey and the "brown" player writes in gold.
 * The Status Bar face background is now properly colored when playing back a multiplayer demo that was recorded by another player than Player 1. Thanks to Zodomaniac for the bug report and demo.
 
-* Optional '''Look Spring''' has been implemented for both keyboard and mouse look, leaving the former default "Locked View" as another alternative.
+* Optional '''Look Spring''' has been implemented for both keyboard and mouse look, leaving the former default "Locked View" as another alternative (feature originally requested by user VGA in May 2015).
 
 * A '''Direct Vertical Aiming''' mode has been added. Formerly, auto-aiming would still kick in if a monster is aimed at and thus suppress direct aiming. This mode is now optional.
 
