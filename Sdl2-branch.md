@@ -9,17 +9,20 @@
 
 * Integration with chocolate-doom-setup
 
-: If "Full screen" is selected in the "Display configuration" panel, we need to get rid of the "Screen mode" selection, because we will not change the screen mode anyway but run fullscreen in the current mode instead. Also, we should probably offer integer multiples of the original 320x200/240 resolution up to the current screen mode dimensions in the "Window size" selection.
+: If "Full screen" is selected in the "Display configuration" panel, we need to get rid of the "Screen mode" selection, because we will not change the screen mode anyway but run fullscreen in the current mode instead. Also, we should probably offer integer multiples of the original 320x200/240 resolution up to the current screen mode dimensions in the "Window size" selection. [[User:Fabian|Fabian]]
+:: Ah, interesting. You do have a point here. If we make the assumption that everyone is using a TFT display nowadays, then it makes sense to always run at the native resolution of the underlying monitor (as we want to minimize blur / have as much direct control over it). Desktop screen resolution might be a good proxy for this, though we should probably look into whether we can query this information outright from SDL2's video API.
+:: I do think there's an argument to be made for allowing users to still manually pick their video mode. We might hide this behind a separate pop-up window, perhaps. In general it's probably best if we try to do the right thing by default and end up with a situation where users aren't making this choice. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
 
 * PNG screenshots (from rendered texture)
 
 : As an interim solution we can potentially keep the 1600x1200 software scale code so that we can keep doing screenshots as we currently do. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
-: However, rendering the current screen content into an intermediate surface and save this into a file shouldn't be too hard, either.
+:: However, rendering the current screen content into an intermediate surface and save this into a file shouldn't be too hard, either. [[User:Fabian|Fabian]]
 
 === Input ===
 * Cursor hiding, mouse grabbing
 
-: There is currently a lot of code in i_video.c that takes care of changing the mouse cursor to become "invisible" and manually reseting its position to the screen center to capture "relative" mouse movement. This should all become unnecessary and get replaced with calls to SDL_SetRelativeMouseMode() in e.g. UpdateGrab().
+: There is currently a lot of code in i_video.c that takes care of changing the mouse cursor to become "invisible" and manually reseting its position to the screen center to capture "relative" mouse movement. This should all become unnecessary and get replaced with calls to SDL_SetRelativeMouseMode() in e.g. UpdateGrab(). [[User:Fabian|Fabian]]
+:: This was I believe to work around a bug that existed in SDL1 that added lag to the mouse cursor. So we can just simplify this now. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
 
 * Keyboard input (SDL2 distinguishes between keyboard symbol and scan code by itself)
 
@@ -27,7 +30,8 @@
 
 * Mouse wheel handling
 
-: In SDL2, the mouse wheel is no longer a button. Instead, we should change the code to listen to SDL_MOUSEWHEEL events. Buttons 4 and 5, in turn, can now be assigned to real mouse buttons.
+: In SDL2, the mouse wheel is no longer a button. Instead, we should change the code to listen to SDL_MOUSEWHEEL events. Buttons 4 and 5, in turn, can now be assigned to real mouse buttons. [[User:Fabian|Fabian]]
+:: I see. Maybe we can map the events back into button pushes to preserve existing configs? But it's slightly complicated because the new mousewheel events contain analog data rather than just "moved up" / "moved down" as in SDL1. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
 
 === Build system ===
 * Remove SDL 1.x required work-around in configure.ac
