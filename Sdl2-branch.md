@@ -18,6 +18,8 @@
 : As an interim solution we can potentially keep the 1600x1200 software scale code so that we can keep doing screenshots as we currently do. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
 :: However, rendering the current screen content into an intermediate surface and save this into a file shouldn't be too hard, either. [[User:Fabian|Fabian]]
 
+* Set SDL_Surfaces and SDL_Textures to the screen's native RGBA byte order to prevent extraneous conversion steps.[[User:Fabian|Fabian]] ([[User talk:Fabian|talk]]) 16:23, 16 November 2015 (UTC)
+
 === Input ===
 * Cursor hiding, mouse grabbing
 
