@@ -1,4 +1,4 @@
-'''sdl2-branch''' is a branch of Chocolate Doom that ports the codebase to SDL version 2.0. This new version of the SDL library has a number of enhancements over the old SDL v1.2 that Chocolate Doom has used until now. Among other things it opens the door to possible ports to iOS and Android. Once completed this will become the new codebase for Chocolate Doom.
+'''sdl2-branch''' is a branch of Chocolate Doom that ports the codebase to SDL version 2.0. This new version of the SDL library has a number of enhancements over the old SDL v1.2 that Chocolate Doom has used until now. Among other things it opens the door to possible ports to iOS and Android. Once completed this will become the new codebase for Chocolate Doom; the first release based on the new SDL2 codebase will be Chocolate Doom v3.0.0.
 
 == TODO ==
 
@@ -38,6 +38,16 @@
 * Switch configure.ac chain to use pkg-config macros (i.e. require pkg-config as a build-dependency)
 
 : I looked at doing this when I first set up the SDL2 build, but fell back on the traditional SDL2 macro just because it was easier. We'll need to add pkg-config to the build scripts so that we install it if it isn't on the system already. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
+
+===Non-SDL2 features===
+
+The first release from sdl2-branch will be a new major release of Chocolate Doom; because of this, the following additional features will be included which are not strictly related to SDL2:
+
+* Real-time windowed/fullscreen mode switching (via alt+enter or other)
+
+* Command line changes for consistency ([https://github.com/chocolate-doom/chocolate-doom/issues/212 bug #212])
+
+* Inclusion of optional DLLs in Windows releases (to support [[Digital_music_packs]] and PNG screenshots).
 
 ===Non-essential for initial release===
 * PNG screenshots (from rendered texture)
