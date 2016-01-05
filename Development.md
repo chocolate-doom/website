@@ -6,7 +6,6 @@ You can browse the Chocolate Doom source code [https://github.com/chocolate-doom
 
 Major Chocolate Doom features are developed on separate branches and merged to trunk when complete. There is a list of branches [[:Category:Branches|here]]. For now the active ones are:
 
-* [[gl-branch]] - developing OpenGL scaling code.
 * [[sdl2-branch]] - port of Chocolate Doom to SDL 2.0.
 
 Chocolate Doom is designed to be easily forked so that people can develop their own modified versions if they wish.  There is a list of forks [[:Category:Forks|here]].
