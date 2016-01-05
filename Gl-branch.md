@@ -6,4 +6,4 @@ Chocolate Doom includes code that scales the original 320x200 VGA display to lar
 
 Since its initial development, it was discovered that the same result can be attained using SDL's built-in API functions. Similar hardware scaling has therefore been implemented as part of [[sdl2-branch]] and gl-branch is now considered obsolete.
 
-[[Category:Branches]]
+[[Category:Inactive branches]]
