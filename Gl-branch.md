@@ -4,6 +4,6 @@ Chocolate Doom includes code that scales the original 320x200 VGA display to lar
 
 ''gl-branch'' uses OpenGL to accomplish the same goal in hardware. This allows scaling to arbitrarily high resolutions while using almost no CPU. 
 
-Work is currently in progress on the branch and it will be merged into the mainline code at some point in the future.
+Since its initial development, it was discovered that the same result can be attained using SDL's built-in API functions. Similar hardware scaling has therefore been implemented as part of [[sdl2-branch]] and gl-branch is now considered obsolete.
 
 [[Category:Branches]]
