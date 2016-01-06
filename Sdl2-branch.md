@@ -15,6 +15,12 @@
 
 * Set SDL_Surfaces and SDL_Textures to the screen's native RGBA byte order to prevent extraneous conversion steps.[[User:Fabian|Fabian]] ([[User talk:Fabian|talk]]) 16:23, 16 November 2015 (UTC)
 
+=== libtextscreen ===
+* All text input dialogs seem to be completely broken at present. Can't type hotkey characters to activate window buttons either.
+:: Probably need to add an input interface that can pop up the on-screen keyboard and handle SDL_TEXTINPUT events. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 21:55, 5 January 2016 (UTC)
+
+* Use the hi-res font if SDL_WINDOW_ALLOW_HIGHDPI flag is supported (ie. OS X retina display).  
+
 === Input ===
 *<strike>Cursor hiding, mouse grabbing</strike>
 
