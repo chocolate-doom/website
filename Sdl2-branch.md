@@ -49,7 +49,7 @@ The first release from sdl2-branch will be a new major release of Chocolate Doom
 
 * Command line changes for consistency ([https://github.com/chocolate-doom/chocolate-doom/issues/212 bug #212])
 
-* Inclusion of optional DLLs in Windows releases (to support [[Digital_music_packs]] and PNG screenshots).
+* Inclusion of optional DLLs in Windows releases (to support [[Digital music packs]] and [[PNG screenshots]]).
 
 ===Non-essential for initial release===
 * PNG screenshots (from rendered texture)
