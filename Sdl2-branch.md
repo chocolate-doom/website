@@ -20,10 +20,12 @@
 
 : There is currently a lot of code in i_video.c that takes care of changing the mouse cursor to become "invisible" and manually reseting its position to the screen center to capture "relative" mouse movement. This should all become unnecessary and get replaced with calls to SDL_SetRelativeMouseMode() in e.g. UpdateGrab(). [[User:Fabian|Fabian]]
 :: This was I believe to work around a bug that existed in SDL1 that added lag to the mouse cursor. So we can just simplify this now. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
+::: This is now done. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 21:43, 5 January 2016 (UTC)
 
-* Keyboard input (SDL2 distinguishes between keyboard symbol and scan code by itself)
+* <strike>Keyboard input (SDL2 distinguishes between keyboard symbol and scan code by itself)</strike>
 
 : I started looking at this a while back but hit something of a wall integrating the current input system with SDL2's new text input system. I really want to make sure we do this properly - I want to support eg. tablet systems that have pop-up on-screen keyboards. This means that i_video.c needs a hook function to enable the text input mode when the user is supposed to enter text (typing in the name of a save game, typing a multiplayer chat message, etc.). [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
+:: This is now done. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 21:43, 5 January 2016 (UTC)
 
 * Mouse wheel handling
 
