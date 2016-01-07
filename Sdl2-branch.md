@@ -13,7 +13,8 @@
 :: Ah, interesting. You do have a point here. If we make the assumption that everyone is using a TFT display nowadays, then it makes sense to always run at the native resolution of the underlying monitor (as we want to minimize blur / have as much direct control over it). Desktop screen resolution might be a good proxy for this, though we should probably look into whether we can query this information outright from SDL2's video API.
 :: I do think there's an argument to be made for allowing users to still manually pick their video mode. We might hide this behind a separate pop-up window, perhaps. In general it's probably best if we try to do the right thing by default and end up with a situation where users aren't making this choice. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
 
-* Set SDL_Surfaces and SDL_Textures to the screen's native RGBA byte order to prevent extraneous conversion steps.[[User:Fabian|Fabian]] ([[User talk:Fabian|talk]]) 16:23, 16 November 2015 (UTC)
+*<strike> Set SDL_Surfaces and SDL_Textures to the screen's native RGBA byte order to prevent extraneous conversion steps.[[User:Fabian|Fabian]] ([[User talk:Fabian|talk]]) 16:23, 16 November 2015 (UTC)</strike>
+:: This is now done. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:26, 7 January 2016 (UTC)
 
 === libtextscreen ===
 * All text input dialogs seem to be completely broken at present. Can't type hotkey characters to activate window buttons either.
