@@ -15,7 +15,7 @@ Chocolate Doom is [[portability|portable]] to multiple operating systems and pro
 
 <gallery>
 Image:Chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows XP|XP]])
-Image:Chocolate_Windows_7.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|7]])
+Image:Chocolate_Windows_10.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|10]])
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
 
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
