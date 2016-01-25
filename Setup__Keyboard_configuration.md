@@ -12,7 +12,7 @@ The defaults are identical to those found in the original versions of Doom, Here
 
 It is good to note the difference between ''Turn'' and ''Strafe'' in the controls: Turn pivots the player at the same point, altering the direction you face; whereas Strafe is the action that side-steps the player in one of the directions without changing direction. Additionally, the '''Jump''' function is only available in Hexen and Strife, unless you use [[Crispy Doom]].
 
-When configuring a new key for an action, if that key is being used for another action, the key will be unbound from that action, since usually you only want a key to perform a single action. However, sometimes players have unusual preferred configuration setups where they deliberately bind a single key to multiple actions. If you want to do this, select the action you want to configure, and hold down the shift key while press enter to choose a new key; the other action will not be unbound.
+When configuring a new key for an action, if that key is already being used for another action, the key will be unbound from that action, since usually you only want a key to perform a single action. However, sometimes players have unusual preferred configurations where they deliberately bind a single key to multiple actions. If you want to do this, select the action you want to configure, and hold down the shift key while pressing enter to choose a new key; the other action will not be unbound.
 
 == More controls and other keys ==
 [[File:Configure Keyboard (Other Keys).png|thumb|right|300px]]
