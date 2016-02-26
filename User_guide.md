@@ -18,7 +18,7 @@ Chocolate Doom can be played online and includes enhanced network code compared 
 You can get help online from several sources:
 
 * [irc://irc.oftc.net/chocolate-doom #chocolate-doom] is an IRC channel with Chocolate Doom users knowledgeable about the port. IRC web chat is available [https://webchat.oftc.net// here].
-* The Doomworld forums contain a long-running [http://www.doomworld.com/vb/source-ports/34164-chocolate-doom discussion thread] about the port.  The forums contain many experts on the subject who may be able to answer your questions.
+* The Doomworld forums contain a long-running [https://www.doomworld.com/vb/source-ports/86366-chocolate-doom/ discussion thread] about the port.  The forums contain many experts on the subject who may be able to answer your questions.
 * Contact the author [mailto:fraggle@remove-this-bit-to-email-me.soulsphere.org by email].
 
 == Bugs ==
