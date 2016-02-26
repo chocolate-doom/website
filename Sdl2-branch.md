@@ -44,9 +44,10 @@
 
 : It's great this is no longer needed. Is it definitely no longer needed (IIRC only some platforms redefine main). If it's really We need to remove the definition from acinclude.m4 too. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
 
-* Switch configure.ac chain to use pkg-config macros (i.e. require pkg-config as a build-dependency)
+* <strike>Switch configure.ac chain to use pkg-config macros (i.e. require pkg-config as a build-dependency)</strike>
 
 : I looked at doing this when I first set up the SDL2 build, but fell back on the traditional SDL2 macro just because it was easier. We'll need to add pkg-config to the build scripts so that we install it if it isn't on the system already. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
+:: This is now done. I've also improved the build system by putting together [https://github.com/chocolate-doom/chocpkg chocpkg]. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 03:59, 26 February 2016 (UTC)
 
 ===Non-SDL2 features===
 
