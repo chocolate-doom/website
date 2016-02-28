@@ -40,7 +40,7 @@
 :: I see. Maybe we can map the events back into button pushes to preserve existing configs? But it's slightly complicated because the new mousewheel events contain analog data rather than just "moved up" / "moved down" as in SDL1. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
 
 === Build system ===
-* Remove SDL 1.x required work-around in configure.ac
+* <strike> Remove SDL 1.x required work-around in configure.ac</strike>
 
 : It's great this is no longer needed. Is it definitely no longer needed (IIRC only some platforms redefine main). If it's really We need to remove the definition from acinclude.m4 too. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
 
