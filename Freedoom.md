@@ -20,21 +20,21 @@ To run a megaWAD, use a command line like the following:
 |-
 !Megawad || idgames link
 |-
-|[[doom:Alien Vendetta|Alien Vendetta]] || [http://www.doomworld.com/idgames/index.php?id=11790 av.zip]
+|[[doom:Alien Vendetta|Alien Vendetta]] || {{idgames|file=levels/doom2/megawads/av.zip|title=av.zip}}
 |-
-|[[doom:Eternal Doom|Eternal Doom]] || [http://www.doomworld.com/idgames/index.php?id=8688 eternal.zip]
+|[[doom:Eternal Doom|Eternal Doom]] || {{idgames|file=themes/TeamTNT/eternal/eternal.zip|title=eternal.zip}}
 |-
-|[[doom:Icarus: Alien Vanguard|Icarus: Alien Vanguard]] || [http://www.doomworld.com/idgames/index.php?id=5191 icarus.zip]
+|[[doom:Icarus: Alien Vanguard|Icarus: Alien Vanguard]] || {{idgames|file=themes/TeamTNT/icarus/icarus.zip|title=icarus.zip}}
 |-
-|[[doom:Memento Mori|Memento Mori]] || [http://www.doomworld.com/idgames/?id=4855 mm.zip]
+|[[doom:Memento Mori|Memento Mori]] || {{idgames|file=themes/mm/mm_allup.zip|title=mm_allup.zip}}
 |-
-|[[doom:Memento Mori II|Memento Mori II]] || [http://www.doomworld.com/idgames/?id=6562 mm2.zip]
+|[[doom:Memento Mori II|Memento Mori II]] || {{idgames|file=themes/mm/mm2.zip|title=mm2.zip}}
 |-
-|[[doom:Requiem|Requiem]] || [http://www.doomworld.com/idgames/index.php?id=8194 requiem.zip]
+|[[doom:Requiem|Requiem]] || {{idgames|file=levels/doom2/megawads/requiem.zip|title=requiem.zip}}
 |-
-|[[doom:Revolution!|Revolution!]] || [http://www.doomworld.com/idgames/index.php?id=11848 tvr.zip]
+|[[doom:Revolution!|Revolution!]] || {{idgames|file=levels/doom2/megawads/tvr.zip|title=tvr.zip}}
 |-
-|[[doom:Scythe|Scythe]] || [http://www.doomworld.com/idgames/index.php?id=11944 scythe.zip]
+|[[doom:Scythe|Scythe]] || {{idgames|file=levels/doom2/megawads/scythe.zip|title=scythe.zip}}
 |-
 |}
 
@@ -74,11 +74,11 @@ Note that ''freedoom1.wad'' will not work properly with Chocolate Doom unless yo
 |-
 !Megawad || idgames link
 |-
-|[[doom:2002 A Doom Odyssey|2002: A Doom Odyssey]] || [http://www.doomworld.com/idgames/index.php?id=11657 2002ado.zip]
+|[[doom:2002 A Doom Odyssey|2002: A Doom Odyssey]] || {{idgames|file=levels/doom/Ports/megawads/2002ado.zip|title=2002ado.zip}}
 |-
-|[[doom:Base Ganymede|Base Ganymede]] || [http://www.doomworld.com/idgames/index.php?id=16694 bgcomp.zip]
+|[[doom:Base Ganymede|Base Ganymede]] || {{idgames|file=levels/doom/megawads/bgcomp.zip|title=bgcomp.zip}}
 |-
-|[[doom:Doom the Way id Did|Doom the Way id Did]] || [http://www.doomworld.com/idgames/index.php?id=16721 dtwid.zip]
+|[[doom:Doom the Way id Did|Doom the Way id Did]] || {{idgames|file=levels/doom/megawads/dtwid.zip|title=dtwid.zip}}
 |}
 
 More Doom 1 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
