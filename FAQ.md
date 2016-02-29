@@ -12,11 +12,11 @@ It is also inspired by the [[wikipedia:GNU|GNU]] tradition of [[wikipedia:recurs
 
 === Why do we need yet another source port? ===
 
-Since the release of the Doom source code in 1998, a number of Doom [[doom:Source port|source ports]] have been created (there is a comprehensive list [http://www.doomworld.com/classicdoom/ports/ on Doomworld]).  Source port authors have worked to extend the Doom engine in impressive ways, and to fix bugs that limited the original DOS versions of Doom.  These developments have been important, arguably essential, in maintaining interest in the game, and to this day there remains a reasonably large [http://www.doomworld.com/vb/ community] of people who continue to create Doom levels and to play them.
+Since the release of the Doom source code in 1998, a number of Doom [[doom:Source port|source ports]] have been created (there is a comprehensive list [https://www.doomworld.com/classicdoom/ports/ on Doomworld]).  Source port authors have worked to extend the Doom engine in impressive ways, and to fix bugs that limited the original DOS versions of Doom.  These developments have been important, arguably essential, in maintaining interest in the game, and to this day there remains a reasonably large [https://www.doomworld.com/vb/ community] of people who continue to create Doom levels and to play them.
 
 However, there is a down side to this.  It is common for source port authors to make fixes and extensions at the expense of compatibility with the original DOS versions.  For example, one feature commonly lost is the ability to play back old demos.  In other cases, older fan-made modifications may not work properly.  Bug fixes and enhancements to the game engine can cause the gameplay to change in subtle ways or even make the game easier in some cases.
 
-Over the years, the [http://www.doomworld.com/idgames/ /idgames archive] has collected thousands of fan-made modifications for Doom.  Many of these were created before the Doom source release.  Chocolate Doom as a history-preserving effort aims to maintain a minimalistic Doom source port that can allow these modifications to continue to be played.  This is particularly important as recent versions of Microsoft's Windows OS cannot run DOS Doom properly.
+Over the years, the [https://www.doomworld.com/idgames/ /idgames archive] has collected thousands of fan-made modifications for Doom.  Many of these were created before the Doom source release.  Chocolate Doom as a history-preserving effort aims to maintain a minimalistic Doom source port that can allow these modifications to continue to be played.  This is particularly important as recent versions of Microsoft's Windows OS cannot run DOS Doom properly.
 
 There are various other reasons why people use Chocolate Doom. There is still a thriving online Doom community and Chocolate Doom is useful for people developing Vanilla-compatible mods.  Some people find the minimalist philosophy of the project appealing.  The simplicity and [[portability]] of the source code make it an attractive choice for people porting Doom to new platforms.  Finally, the accuracy in recreating the look and feel of the original DOS versions can awaken nostalgia and memories of playing the original game.
 
@@ -80,7 +80,7 @@ For most levels, you simply need to use the <tt>-file level.wad</tt> command lin
 Several avenues of help are available:
 
 * The easiest way to get help is to join the Chocolate Doom [[wikipedia:Internet Relay Chat|IRC]] channel.  Connect to the server ''irc.oftc.net'' using your favorite IRC client, and join ''#chocolate-doom''.
-* The [http://www.doomworld.com/vb/ Doomworld forums] contain many knowledgeable people who may be able to answer your questions.  You will need to register an account in order to post.  It is best to use the [http://www.doomworld.com/vb/source-ports/ source ports] forum.  You may find a Chocolate Doom-related thread is already active; if so, please use this rather than creating a new thread.
+* The [https://www.doomworld.com/vb/ Doomworld forums] contain many knowledgeable people who may be able to answer your questions.  You will need to register an account in order to post.  It is best to use the [https://www.doomworld.com/vb/source-ports/ source ports] forum.  You may find a Chocolate Doom-related thread is already active; if so, please use this rather than creating a new thread.
 * Finally, it is possible to contact the author of Chocolate Doom by sending an email to ''fraggle@doomdoomdoom.gmail.com'', removing the "doomdoomdoom" part from that address.
 
 === When I set a high resolution screen mode (eg. 800x600), the screen still appears blocky.  Why is this? ===
@@ -125,12 +125,12 @@ A few seconds after showing the title screen, Doom starts playing the first demo
  (read 108, should be 109)
  
  *** You may need to upgrade your version of Doom to v1.9. ***
-     See: http://doomworld.com/files/patches.shtml
+     See: https://doomworld.com/files/patches.shtml
      This appears to be v1.8.
 
 There are several ways to solve this problem:
-* If you are running with the shareware IWAD file, you can simply download the v1.9 IWAD file: the easiest way is to download the [http://www.doomworld.com/idgames/?id=7053 Windows port of Doom] and extract the file DOOM1.WAD.
-* If you are using a commercial IWAD file, upgrading is more complicated. You need to use one of the [http://doomworld.com/files/patches.shtml official upgrade patches] to upgrade to v1.9 of Doom. The patch file you need depends on the version you currently have - the error message tells you what version you currently appear to be using.
+* If you are running with the shareware IWAD file, you can simply download the v1.9 IWAD file: the easiest way is to download the [https://www.doomworld.com/idgames/?id=7053 Windows port of Doom] and extract the file DOOM1.WAD.
+* If you are using a commercial IWAD file, upgrading is more complicated. You need to use one of the [https://doomworld.com/files/patches.shtml official upgrade patches] to upgrade to v1.9 of Doom. The patch file you need depends on the version you currently have - the error message tells you what version you currently appear to be using.
 * If all of this seems too complicated or too much effort, simply make sure you quickly start a game before the first demo starts. On most IWAD versions, the game will still play mostly correctly.
 
 === Why does the game crash when I access the options menu? ===
