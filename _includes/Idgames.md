@@ -1,1 +1,1 @@
-[https://www.doomworld.com/idgames/?id={{{id}}} {{{title}}}]
+[https://www.doomworld.com/idgames/?id={{{file}}} {{{title}}}]
