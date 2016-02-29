@@ -1,1 +1,1 @@
-[https://www.doomworld.com/idgames/?id={{{id}}} {{{title}}}] in the [[doom:Idgames archive|the idgames archive]]
+[https://www.doomworld.com/idgames/?id={{{id}}} {{{title}}}] in the [[doom:Idgames archive|idgames archive]]
