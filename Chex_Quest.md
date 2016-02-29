@@ -4,7 +4,7 @@ Chocolate Doom has full support for '''[[doom:Chex Quest|Chex Quest]]''', includ
 To play Chex Quest in Chocolate Doom, follow these steps:
 
 # Obtain a copy of Chex Quest (it can be downloaded [http://chexmania.tripod.com/downloads.htm here]).
-# Download the [http://www.doomworld.com/idgames/?id=15420 dehacked patch].
+# Download the {{idgames|file=utils/exe_edit/patches/chexdeh.zip|title=dehacked patch}}.
 # Put both chex.wad and chex.deh into a directory together.
 # Run <tt>chocolate-doom -iwad chex.wad</tt>
 
