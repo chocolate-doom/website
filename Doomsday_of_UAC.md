@@ -3,8 +3,8 @@ Doomsday of UAC ('''uac_dead.wad''') is a classic and well-known WAD file for Do
 
 Instructions:
 
-# Obtain a copy of uac_dead.wad [http://www.doomworld.com/idgames/index.php?id=420 here].
-# Extract the file from the zip archive
+# Download a copy of {{idgames|file=levels/doom/s-u/uac_dead.zip|title=UAC_DEAD}} from idgames.
+# Extract the file from the .zip archive.
 # Run with the following [[command-line arguments]]:
 
  chocolate-doom -file uac_dead.wad -gameversion 1.9 -warp 1 8
