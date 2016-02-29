@@ -3,7 +3,8 @@ The following are instructions on how to play '''Army of Darkness Doom''' under 
 
 === Doom 1 version ===
 
-# Download the [http://www.doomworld.com/idgames/index.php?id=12283 AOD Doom 1] files and extract.
+# Download {{idgames|file=themes/aod/aoddoom1.zip|title=Army of Darkness Doom}}.
+# Extract the .zip containing the game files.
 # Run with these command line options:
 
  chocolate-doom -merge aoddoom1.wad -deh aoddoom1.deh
