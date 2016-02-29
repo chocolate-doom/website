@@ -3,7 +3,7 @@
 
 ==Demo==
 An eleven level demo of the wad can be downloaded freely.
-# [http://www.gamefront.com/files/perdgatezip/;845721;/fileinfo.html Download the demo] and extract it.
+# [http://www.mustaine.com/about/video-game-work/perditions-gate/ Download Perdition's Gate] and extract it.
 # Run with the following options:
  chocolate-doom -merge PG-LTD.WAD
 
