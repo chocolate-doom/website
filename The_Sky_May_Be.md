@@ -3,7 +3,7 @@
 
 Instructions:
 
-# Obtain a copy of smb_v102.zip [http://www.doomworld.com/idgames/index.php?id=8079 here].
+# Download a copy of {{idgames|file=levels/doom/s-u/smb_v102.zip|title=smb_v102.zip}}.
 # Extract SKYMAYBE.EXE. 
 #: Under Unix systems this can be done using the ''unzip'' command, eg. <tt>unzip -L smb_v102.zip skymaybe.exe</tt>
 # The SKYMAYBE.EXE file is a self-extracting [[wikipedia:RAR|RAR file]].  Rename it to skymaybe.rar, and extract it using your favorite archive program.
