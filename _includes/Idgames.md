@@ -1,4 +1,4 @@
-<includeonly><span class="plainlinks">{{#if:{{{2|{{{file|{{{id|}}}}}}}}}|[https://www.doomworld.com/idgames/?{{#if:{{{file|}}}|file|id}}={{{2|{{{file|{{{id}}}}}}}}} {{{1|{{{title|{{PAGENAME}}}}}}}}]{{#if:{{{linkonly|}}}||&nbsp;at [https://www.doomworld.com/idgames/ Doomworld/idgames]}}|Error: no file or id given, see [[Template:Idgames|the instructions]] to use this template.}}</span></includeonly><noinclude>
+<incudeonly>[https://www.doomworld.com/idgames/?id={{id}} {{title}}] in the [[doom:Idgames archive|the idgames archive]]</includeonly><noinclude>
 <u>Usage</u>
 
 This is used for linking to a file (usually a [[PWAD]]) at the [[Doomworld]]/[[Idgames archive|idgames]] interface, as:
