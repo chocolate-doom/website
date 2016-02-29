@@ -65,6 +65,7 @@ The first release from sdl2-branch will be a new major release of Chocolate Doom
 
 : As an interim solution we can potentially keep the 1600x1200 software scale code so that we can keep doing screenshots as we currently do. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:34, 9 November 2015 (UTC)
 :: However, rendering the current screen content into an intermediate surface and save this into a file shouldn't be too hard, either. [[User:Fabian|Fabian]]
+::: Maybe we should just use SDL2_image to save screenshots in PNG format. PrBoom+ has recently made the switch and it might be worth having a look at how they have done it there. [[User:Fabian|Fabian]] ([[User talk:Fabian|talk]]) 19:09, 28 February 2016 (UTC)
 
 
 == External links ==
