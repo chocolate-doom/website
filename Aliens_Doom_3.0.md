@@ -3,7 +3,7 @@
 
 These are instructions on how to play the '''Aliens Doom 3 - Aliens versus Predator TC''' (Beta 0.7) under Chocolate Doom.
 
-# Obtain a copy of the {{idgames|file=themes/aliens/aliendm3/ad3beta7.zip|title=Aliens TC}}.
+# Obtain a copy of {{idgames|file=themes/aliens/aliendm3/ad3beta7.zip|title=the TC}}.
 # Download '''ad3beta7.zip''' from one of the mirror sites. 
 # Extract the zip archive. 
 # Run with the following [[command-line arguments]]:
