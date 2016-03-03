@@ -3,7 +3,7 @@ The '''Mouse Configuration''' window allows you to change many settings for mous
 
 The ''Enable mouse'' toggle should explain itself: if you toggle it off, the mouse cannot be used at all to control the game, leaving you with [[Setup/Keyboard configuration|keyboard]] or [[Setup/Gamepad configuration|gamepad]] control only.
 
-The ''Allow vertical mouse movement'' toggle determines whether the mouse may be used to move the player forward and backward. This is primarily useful for [[Wikipedia:Trackball|trackball]] players, the type of device [[Doom:John Romero|John Romero]] played the game with when it was new. Toggling this off has the same effect as using the [http://www.doomworld.com/idgames/?file=utils/misc/novert.zip Novert] program for DOS with the original games: the mouse's movement only affects turning left and right, and not moving forward and backward.
+The ''Allow vertical mouse movement'' toggle determines whether the mouse may be used to move the player forward and backward. This is primarily useful for [[Wikipedia:Trackball|trackball]] players, the type of device [[Doom:John Romero|John Romero]] played the game with when it was new. Toggling this off has the same effect as using the {{idgames|file=utils/misc/novert.zip|title=novert}} program for DOS with the original games: the mouse's movement only affects turning left and right, and not moving forward and backward.
 
 The ''Grab mouse in windowed mode'' toggle changes whether the mouse can escape the game window when not in fullscreen mode. Turning this off probably makes the game very difficult to play, but can facilitate switching to other applications much more easily.
 
