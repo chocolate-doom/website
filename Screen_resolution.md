@@ -63,6 +63,6 @@ These modes are used when the "aspect ratio correction" option is turned on.  Sc
  |}
 
 ==External links==
-[[doom:Aspect ratio|Aspect ratio]] on [http://doomwiki.org/ Doom Wiki].
+[[doom:Aspect ratio|Aspect ratio]] on the [[doom:Doom Wiki|Doom Wiki]].
 
 [[Category:Features]]
