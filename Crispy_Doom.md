@@ -425,7 +425,7 @@ Crispy Doom 1.4 has been released on June 12, 2014.
 == Changes of Crispy Doom 1.3 from Crispy Doom 1.2 ==
 Crispy Doom 1.3 has been released on May 19, 2014.
 
-* Crispy Doom now has its own icon! It is is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
+* Crispy Doom now has its own icon! It is is composed of the [[File:Chocolate-logo.png|Chocolate Doom icon]] and a [[wikipedia:File:Potato-Chips.jpg|photo]] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [[wikipedia:Public_domain|public domain]].
 
 === New features ===
 * A "quick reverse" key has been added.
@@ -534,7 +534,7 @@ Crispy Doom 1.0 has been released on March 10, 2014.
 * Additionally, in Crispy Doom, the ''Graphic Detail: Low'' mode has been modified to halve the display resolution also in the vertical direction (unlike Vanilla and Chocolate Doom, which only halve the resolution in the horizontal direction in this mode). As a result, in Crispy Doom in ''Graphic Resolution: Low'' mode the screen is rendered '''exactly''' identical to Chocolate Doom in ''Graphic Resolution: High'' mode.
 * An additional ''mode_squash_1p5x'' video mode has been introduced which stretches the screen by factor 1.25 horizontally and by factor 1.5 vertically. This results in a 800x600 display resolution to provide for a intermediate resolution suitable for vintage monitors.
 
-Due to the increased display resolution, the supported video modes differ from Chocolate Doom. The following table gives an overview over the available video modes in Crispy Doom 1.0 and Chocolate Doom 2.0.0. A red backgrond color means that a video mode has been disabled in fullscreen mode for quality concerns. Additionally, all video modes that would result in a display resolution exceeding [http://en.wikipedia.org/wiki/WUXGA WUXGA] (1920x1200) have been disabled in Crispy Doom.
+Due to the increased display resolution, the supported video modes differ from Chocolate Doom. The following table gives an overview over the available video modes in Crispy Doom 1.0 and Chocolate Doom 2.0.0. A red backgrond color means that a video mode has been disabled in fullscreen mode for quality concerns. Additionally, all video modes that would result in a display resolution exceeding [[wikipedia:WUXGA|WUXGA]] (1920x1200) have been disabled in Crispy Doom.
 
 {| class="wikitable"
 ! Video Mode
@@ -686,7 +686,7 @@ http://www.greffrath.com/~fabian/crispy-doom_3.2.zip
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
 == Contact ==
-The canonical homepage for Crispy Doom is http://fabiangreffrath.github.io/crispy-doom.
+The canonical homepage for Crispy Doom is https://fabiangreffrath.github.io/crispy-doom.
 Crispy Doom is maintained by [mailto:fabian@greffXremovethisXrath.com Fabian Greffrath]. Please report any bugs, glitches or crashes that you encounter to the GitHub [https://github.com/fabiangreffrath/crispy-doom/issues Issue Tracker].
 
 == Acknowledgement ==
@@ -704,7 +704,7 @@ Chocolate Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard;
 Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven Software, &copy; 2008 Simon Howard;
 Strawberry Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard, &copy; 2008-2010 GhostlyDeath; 
 Crispy Doom is additionally &copy; 2014 Fabian Greffrath;
-all of the above are released under the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
+all of the above are released under the [https://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 
 SDL 1.2 is &copy; 1997-2012 Sam Lantinga and is released under the [http://www.gnu.org/licenses/lgpl-2.1.html LGPL-2.1+].
 SDL_mixer 1.2.12 and SDL_net 1.2.8 are &copy; 1997-2012 Sam Lantinga and are released under the [http://www.zlib.net/zlib_license.html zlib license].
@@ -713,6 +713,6 @@ Secret Rabbit Code (libsamplerate) is &copy; 2002-2011 Erik de Castro Lopo and i
 Libpng is &copy; 1998-2014 Glenn Randers-Pehrson, &copy; 1996-1997 Andreas Dilger, &copy; 1995-1996 Guy Eric Schalnat, Group 42, Inc. and is released under the [http://www.libpng.org/pub/png/src/libpng-LICENSE.txt libpng license].
 Zlib is &copy; 1995-2013 Jean-loup Gailly and Mark Adler and is released under the [http://www.zlib.net/zlib_license.html zlib license].
 
-The Crispy Doom icon (as shown at the top right of this page) is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [https://en.wikipedia.org/wiki/File:Potato-Chips.jpg photo] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [https://en.wikipedia.org/wiki/Public_domain public domain].
+The Crispy Doom icon (as shown at the top right of this page) is composed of the [http://www.chocolate-doom.org/wiki/index.php/File:Chocolate-logo.png Chocolate Doom icon] and a [[wikipedia:File:Potato-Chips.jpg|photo]] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [[wikipedia:Public_domain|public domain]].
 
 [[Category:Forks]]
