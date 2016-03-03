@@ -38,7 +38,7 @@ To run a megaWAD, use a command line like the following:
 |-
 |}
 
-More Doom 2 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
+More Doom 2 megawads can be found in the [https://www.doomworld.com/idgames/index.php?dir=levels/doom2/megawads/ levels/doom2/megawads/] directory of the /idgames archive.
 
 == Doom 1 Megawads (for freedoom1.wad) ==
 
@@ -59,11 +59,11 @@ Note that ''freedoom1.wad'' will not work properly with Chocolate Doom unless yo
 |[[doom:Doom the Way id Did|Doom the Way id Did]] || {{idgames|file=levels/doom/megawads/dtwid.zip|title=dtwid.zip}}
 |}
 
-More Doom 1 megawads can be found in the [http://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
+More Doom 1 megawads can be found in the [https://www.doomworld.com/idgames/index.php?dir=levels/doom/megawads/ levels/doom/megawads/] directory of the /idgames archive.
 
 == External links ==
 
 * [https://freedoom.github.io/ Freedoom website]
-* [http://www.doomworld.com/idgames/ idgames archive]
+* [https://www.doomworld.com/idgames/ idgames archive]
 
 __NOTOC__
