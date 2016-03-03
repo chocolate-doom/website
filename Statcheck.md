@@ -42,12 +42,12 @@ You need each of the four Doom commercial IWAD files (doom.wad, doom2.wad, tnt.w
 
 You also need several PWAD files as there are Compet-N demos that use them:
 
-* [http://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/av.zip Alien Vendetta] (av.wad)
-* [http://www.doomworld.com/idgames/index.php?file=levels/doom/a-c/class_ep.zip Classic Episode] (Class_Ep.wad)
-* [http://www.doomworld.com/idgames/index.php?file=themes/hr/hr.zip Hell Revealed] (hr.wad)
-* [http://www.doomworld.com/idgames/index.php?file=themes/mm/mm_allup.zip Memento Mori] (mm.wad)
-* [http://www.doomworld.com/idgames/index.php?file=themes/mm/mm2.zip Memento Mori II] (mm2.wad)
-* [http://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/requiem.zip Requiem] (requiem.wad)
+* [https://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/av.zip Alien Vendetta] (av.wad)
+* [https://www.doomworld.com/idgames/index.php?file=levels/doom/a-c/class_ep.zip Classic Episode] (Class_Ep.wad)
+* [https://www.doomworld.com/idgames/index.php?file=themes/hr/hr.zip Hell Revealed] (hr.wad)
+* [https://www.doomworld.com/idgames/index.php?file=themes/mm/mm_allup.zip Memento Mori] (mm.wad)
+* [https://www.doomworld.com/idgames/index.php?file=themes/mm/mm2.zip Memento Mori II] (mm2.wad)
+* [https://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/requiem.zip Requiem] (requiem.wad)
 
 Place the extracted PWAD files in the same directory as the IWADs they correspond to.
 
