@@ -11,7 +11,7 @@ The following are instructions on how to play '''Army of Darkness Doom''' under 
 
 === Doom 2 version ===
 
-# Download the [http://www.doomworld.com/idgames/index.php?id=12284 AOD Doom 2] files and extract.
+# Download the {{idgames|file=themes/aod/aoddoom2.zip|title=AOD Doom 2}} files and extract.
 # Run with these command line options:
 
  chocolate-doom -merge aoddoom2.wad -deh aoddoom2.deh
