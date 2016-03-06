@@ -17,6 +17,7 @@ To date, Chocolate Doom has been successfully run on:
 :* OpenBSD
 * Solaris (Intel and SPARC variants)
 * Mac OS X (Intel and PowerPC variants)
+:* As of version 2.2.1, [https://github.com/chocolate-doom/buildscripts/commit/67bf4adb3261ca8f47a9d13853d63a2c13956aca Mac OS 10.7 or newer] is required (notwithstanding the [http://www.libsdl.org/download-2.0.php LibSDL documentation] stating 10.5 or newer).
 
 Screenshots of Chocolate Doom running on various different platforms can be seen [[:Category:Platform screenshots|here]].
 
