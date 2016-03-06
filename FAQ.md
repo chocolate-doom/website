@@ -52,6 +52,8 @@ It is also possible to play these expansion packs and commercial games, each of 
 
 Unless your computer is either incredibly unusual or very old, the answer is almost certainly yes.  Chocolate Doom is based on the [http://www.libsdl.org/ LibSDL] multimedia library, making it portable to a wide variety of different operating systems. It has also been tested on several different processor architectures.  Check out the [[screenshots]] page for pictures of it running on various different systems.
 
+See [[Portability]] for more information.
+
 === How do I set up Chocolate Doom on my computer? ===
 
 There are two parts to the answer to this question:
