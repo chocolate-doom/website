@@ -33,6 +33,50 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 Crispy Heretic, Crispy Hexen and Crispy Strife are also available but do currently only feature the resolution enhancements, but none of the other features mentioned here.
 
+== Changes of Crispy Doom 3.3 from Crispy Doom 3.2 ==
+Crispy Doom 3.3 has been released on Mar 10, 2016.
+
+This is mostly a bug-fix release with only few new features. The build system for Win32 binaries is now MSYS2, the bundled supplemental libraries are also taken from this distribution.
+
+=== Features ===
+* Space Marine corpses scattered around the maps are now randomly colorized. Thanks to Mr.Unsmiley for this suggestion!
+* There are now separate options for Colored Blood and Colored Corpses.
+The original GREEN and BLUE2 color translation tables from BOOM have been re-introduced and are now used for Colored Blood and Pools of Gore. They keep some shades of red untouched and provide for a more balanced coloring.
+* Map Things are now counted on each map to provide for an additional source of pseudo-randomization (used for randomly flipping Space Marine corpses) and for more precise reporting of SPECHITS and INTERCEPTS overflows.
+* The loading of digital music from lumps has been simplified to support OGG/FLAC/MP3/whatever format SDL_Mixer supports alike.
+* The "Secret Revealed!" message is always printed in gold, regardless of Colorized HID texts being enabled or not.
+* Likewise, the Crispness menu is now always rendered colorized.
+* The '-mergedump' parameter now reports the number of merged lumps and errors out if called without an additional argument.
+* A graphical glitch caused by lines longer than 32767 units has been fixed. Thanks to entryway of PrBoom+ fame!
+* The duration of the SSG muzzle flash has been reduced by one tic. While at it, the SSG flash frames have been turned full bright. Both fixes have been imported from MBF.
+* The weapon sprite is not centered anymore if its firing state's 'misc1' variable is set. Fix imported from Doom Retro.
+* The game's skill level is now logged in plain text.
+* The SPECHITS cheat does not change the direction of doors anymore if they are already moving.
+* Sound effects are now played when DR type doors are manually closed while still open or re-opened while closing. Thanks to Megamur for the original suggestion.
+* A nasty bug has been fixed that caused multiplayer games to crash as soon as the second player joined the game. Thanks to Zodomaniac for initially reporting this bug and to Danfun64 for helping to track it down.
+* The flashing HOM indicator is now pulsating.
+* On the Automap, the map title is now printed in gray letters from the first colon onward.
+* One.sided walls on the Automap are now drawn in a more desaturated red to better distinguish them from red-keyed linedefs.
+* The sky offset is now correctly set if sky stretching is switched in-game (by toggling freelook, mouselook or recoil pitch). Thanks to plumsinus for reporting this bug!
+* The size of demo lumps recorded with the '-longtics' option is now calculated correctly. This bug caused the demo progress bar at the bottom of the screen to overflow beyond the frame buffer and eventually crash the game. Thanks again to plumsinus for reporting this bug!
+* It is now forbidden to start a New Game or (Quick) Load Game while recording a demo.
+* The game is now paused if a message is shown (e.g. Quick Save confirmation) while recording a demo. Thanks to plumsinus for reporting this issue.
+* End Game will now quit if recording or playing back a demo.
+
+
+* A variable frame rate mode has been added. 
+In addition to 35 fps mode which is the coarse, though original, frame rate on the one hand and completely uncapped frame rate, which burns up CPU cycles and battery, this adds two new rendering modes:
+** 60 fps may be ideal for those of us playing Doom on an LCD screen which tend to refresh with that rate
+** 70 fps which means each tick is rendered twice (with interpolation) which may look much better on CRT screens
+Thanks to plumsinus, Zodomaniac and Danfun64 for testing this feature.
+* Movement of the projected laser crosshair is now smooth even with uncapped frame rate enabled. While at it, the crosshair is now vertically centered when idle, just like the static one. Thanks to Zodomaniac for reporting this issue.
+* An infinite loop caused by the Demon Speed bug has been fixed. Thanks to Zodomaniac for the bug report and the savegames that helped to reproduce the issue.
+* Wording in the Crispness menu has been changed from "Missiles" to "Projectiles". Thanks again to Zodomaniac for this suggestion.
+* Support for ANIMATED and SWITCHES lumps has been added. Likewise, support for MBF sky transfer linedefs has been added. All the code has been blatantly taken from MBF. Thanks to plumsinus for suggesting these features and to Breeder for reporting a char signedness issue and confirming the fix on the Doomworld forums.
+
+
+
+
 == Changes of Crispy Doom 3.2 from Crispy Doom 3.1 ==
 Crispy Doom 3.2 has been released on Nov 4, 2015.
 
@@ -654,6 +698,7 @@ Crispy Doom 2.3 has merged all changes to the Chocolate Doom master branch up to
 Crispy Doom 3.0 is based on Chocolate Doom 2.2.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/b81ba59d6649794cfba735d1ffa0e9458a6ee486 <tt>b81ba59d66</tt>].
 Crispy Doom 3.1 is based on Chocolate Doom 2.2.1 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ff61aa8695321e21b349583b4b43f19084d870c4 <tt>9084d870c4</tt>].
 Crispy Doom 3.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/2efd8ce2217cfbb81b9b5532228febfe32800392 <tt>fe32800392</tt>].
+Crispy Doom 3.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/4077f339e7a70fea357b047d8b6fd722b00f283b <tt>4077f339e7</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -681,7 +726,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_3.2.zip
+http://www.greffrath.com/~fabian/crispy-doom_3.3.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
