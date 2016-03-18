@@ -38,7 +38,7 @@ This is mostly a bug-fix release with only few new features.
 
 === The Good, the Bad, the Ugly ===
 * For the first time, this release of Crispy Doom is accompanied by some kind of a "Music Pack". It contains the fluidsynth library and all the libraries that it depends on, bundled with a freely-available soundfont. In order to use this "Music Pack", download the ZIP archive, extract its content into your Crispy Doom directory, select the "Native MIDI" music device and start Crispy Doom from the <tt>crispy-doom-music-pack.bat</tt> batch file. This file sets some environment variables that are required to convince the SDL_Mixer library to use fluidsynth with the bundled soundfont for music rendering. The Music Pack is available for download here:
-: http://www.greffrath.com/~fabian/crispy-doom-music-pack_1.zip
+: http://www.greffrath.com/~fabian/crispy-doom-music-pack_2.zip
 * From this release on, Crispy Doom will get released without Crispy Heretic, Hexen and Strife. These three games haven't seen any serious development in the past two years and have only been carried as dead freight. This situation will not change until someone volunteers to take over active maintenance of these ports.
 * From this release on, the official Win32 binaries will be build on MSYS2. The supplemental shared libraries bundled with the release will also be taken from this distribution. Since ABI-compatibility with the libraries bundled with former releases cannot be guaranteed, it is recommended to install this release into a clean directory and not mix up the libraries with other releases.
 
@@ -730,7 +730,7 @@ Binaries for Windows (x86) are available here:
 http://www.greffrath.com/~fabian/crispy-doom_3.3.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
-http://www.greffrath.com/~fabian/crispy-doom-music-pack_1.zip
+http://www.greffrath.com/~fabian/crispy-doom-music-pack_2.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
