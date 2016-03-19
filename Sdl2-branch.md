@@ -62,9 +62,13 @@ The first release from sdl2-branch will be a new major release of Chocolate Doom
 
 * Real-time windowed/fullscreen mode switching (via alt+enter or other)
 
+: Using alt+enter as the binding might be considered akin to breaking vanilla behavior, since alt+enter on vanilla doesn't do anything special. There are situations like typing a chat msg while holding alt to strafe in multiplayer which could unintentionally trigger this. Windows+enter is a safer choice. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:35, 19 March 2016 (UTC)
+
 * Command line changes for consistency ([https://github.com/chocolate-doom/chocolate-doom/issues/212 bug #212])
 
 * Inclusion of optional DLLs in Windows releases (to support [[Digital music packs]] and [[PNG screenshots]]).
+
+: [https://github.com/chocolate-doom/chocpkg chocpkg] should hopefully help with this. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:35, 19 March 2016 (UTC)
 
 ===Non-essential for initial release===
 * PNG screenshots (from rendered texture)
