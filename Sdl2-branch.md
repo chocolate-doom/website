@@ -20,6 +20,8 @@
 * All text input dialogs seem to be completely broken at present. Can't type hotkey characters to activate window buttons either.
 :: Probably need to add an input interface that can pop up the on-screen keyboard and handle SDL_TEXTINPUT events. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 21:55, 5 January 2016 (UTC)
 
+::: I'm planning to work on this. -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 20:50, 18 March 2016 (UTC)
+
 * <strike>Use the hi-res font if SDL_WINDOW_ALLOW_HIGHDPI flag is supported (ie. OS X retina display).</strike>
 :: Now done. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 03:03, 28 February 2016 (UTC)
 
