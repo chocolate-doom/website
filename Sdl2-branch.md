@@ -40,6 +40,10 @@
 : In SDL2, the mouse wheel is no longer a button. Instead, we should change the code to listen to SDL_MOUSEWHEEL events. Buttons 4 and 5, in turn, can now be assigned to real mouse buttons. [[User:Fabian|Fabian]]
 :: I see. Maybe we can map the events back into button pushes to preserve existing configs? But it's slightly complicated because the new mousewheel events contain analog data rather than just "moved up" / "moved down" as in SDL1. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 20:42, 9 November 2015 (UTC)
 
+* Joystick stuff
+
+:: the joystick handling needs some tweaking. SDL2 does not guarantee that the first joystick is index 0, nor (afaics) any guarantee that joystick indexes will be in an unbroken sequence. Instead SDL2 does tracking of hotplugged joysticks and provides a different ID (SDL_JoystickInstanceID) to applications who want to track a particular stick. On the plus side, we will get hotplugging support by finishing this porting work. ([https://github.com/chocolate-doom/chocolate-doom/issues/673 related bug]). -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 20:47, 18 March 2016 (UTC)
+
 === Build system ===
 * <strike> Remove SDL 1.x required work-around in configure.ac</strike>
 
