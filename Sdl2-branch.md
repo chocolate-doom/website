@@ -46,6 +46,8 @@
 
 :: the joystick handling needs some tweaking. SDL2 does not guarantee that the first joystick is index 0, nor (afaics) any guarantee that joystick indexes will be in an unbroken sequence. Instead SDL2 does tracking of hotplugged joysticks and provides a different ID (SDL_JoystickInstanceID) to applications who want to track a particular stick. On the plus side, we will get hotplugging support by finishing this porting work. ([https://github.com/chocolate-doom/chocolate-doom/issues/673 related bug]). -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 20:47, 18 March 2016 (UTC)
 
+::: I thought I'd volunteered to do this somewhere, evidently not here: anyway, for currently-undisclosed reasons I am very unlikely to get far on this, so someone else will have to do it instead. Sorry! The big decision to make, IMHO, is whether to use SDL2's joystick API or gamepad API, the latter built on top of the former, but only supporting things it knows about. [It knows about a lot of gamepads already https://hg.libsdl.org/SDL/file/e12c38730512/src/joystick/SDL_gamecontrollerdb.h], and it seems easy enough to get others added to that list in SDL2 itself. My pet controller (8bitdo sfc30) is presently unsupported. -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 21:24, 12 April 2016 (BST)
+
 === Build system ===
 * <strike> Remove SDL 1.x required work-around in configure.ac</strike>
 
