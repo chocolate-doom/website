@@ -3,7 +3,7 @@ Crispy Doom is a limit-removing enhanced-resolution Doom source port based on [[
 Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Synopsis ==
-Crispy Doom is a fork of [[Chocolate Doom]] that provides a higher display resolution, removes the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
+Crispy Doom is a friendly fork of [[Chocolate Doom]] that provides a higher display resolution, removes the [[doom:Static_limits|static limits]] of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo [[#Compatibility|compatibile]] with the original.
 
 == Objectives ==
 Crispy Doom is a source port that aims to provide a faithful Doom gaming experience while also featuring some user-requested improvements and enhancements. It is forked off of Chocolate Doom to take advantage of its free and open-source code base, portability, accuracy and compatibility with Vanilla Doom.
@@ -30,6 +30,36 @@ Furthermore, the following optional user-visible features are available:
 All of these features are disabled by default and need to get enabled either in the in-game "Crispness" menu or in the crispy-doom-setup tool. They are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identical]], to Vanilla Doom's.
 
 Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" maps -- but not Boom or ZDoom maps. Many additional less user-visible features have been implemented, e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed harmless game logic bugs, full support for DEHACKED files and lumps in BEX format, additional and improved cheat codes, an improved Automap, and many more! For a detailed list of features and changes please refer to the release notes below.
+
+== Changes of Crispy Doom 3.4 from Crispy Doom 3.3 ==
+Crispy Doom 3.4 has not yet been released.
+
+This is mostly a bug-fix release with only few new features.
+
+=== Features ===
+* Support for for SMMU swirling flats has been added. However, this feature must be explicitely enabled by adding an ANIMATED lump and setting either <tt>anim->speed</tt> to some value higher than <tt>65535</tt> or by setting <tt>anim->numpics</tt> to <tt>1</tt> for the flat in question. So, currently no Vanilla flat will make use of it, but I hope that some future MegaWADs will ever adopt this feature. Thanks to plumsinus for the discussion.
+
+=== Improvements ===
+* The music is not changed anymore when changing the map. This preserves the choice expressed by using the IDMUS cheat. Thanks to plumsinus for the feature request.
+* Crispy Doom now masquerades itself as "Chocolate Doom 2.2.1" in network games towards both clients and servers. This means it is now possible to play mixed network games with either Choco or Crispy as servers and clients.
+* Sprites are not visible behind closed doors or in sectors with no headroom anymore. Based on a similar fix found in MBF.
+* It is now possible to bind the "180 turn" key to a mouse button. Thanks to Danfun64 for the feature request.
+* Inputs are now flipped when recording or playing back demos with <tt>-fliplevels</tt>. Demos with monsters will still desync, though, because of the way the flipped BLOCKMAP is processed.
+* The GOOBERS cheat now leaves DR-type closed doors intact.
+* An Archvile fire's <tt>floorz</tt> and <tt>ceilingz</tt> values are now updated to prevent it from jumping back and forth between the floor heights of its (faulty) spawn sector and the target's actual sector. Thanks to Quasar for his excellent analysis in [https://www.doomworld.com/vb/post/1297952 this thread].
+* Removed map objects may now finish playing their sounds.  When a map object is removed from the map by P_RemoveMobj(), instead of stopping its sounds, its coordinates are transfered to a "sound object" so stereo positioning and distance calculations continue to work even after the corresponding map object has already disappeared. Thanks to jeff-d and kb1 for discussing this feature and the former for the original implementation idea.
+* The "power up" sound is now played when selecting the Berserk fist, but only if it is not playing already. This brings back a feature that was removed more than a year ago, because I considered it "useless" back then.
+* The "saw up" sound is now played to finish when the Chainsaw is selected.
+* Empty demo lumps are now ignored. That is, it is now possible to load empty <tt>DEMO1.lmp</tt>, <tt>DEMO2.lmp</tt> and <tt>DEMO3.lmp</tt> files to prevent the game from running any demos during the title screen.
+
+=== Bug Fixes ===
+* The incorrect vertical offset for stretched MBF sky-transfer skies has been fixed. Thanks to plumsinus for the bug report.
+* The game missions pack_nerve and pack_master have been added as valid game mode/mission combinations. This should fix network games with these PWADs. Thanks  to Danfun64 for the bug report.
+* The resolution choice in the setup tool has been adapted to only show resolutions actually supported by Crispy Doom. Thanks to Zodomaniac for the discussion.
+* The music lump format detection has been fixed. Technically, this means that the MUS format header check has been enabled again. With the variety of music formats supported by Crispy Doom (through SDL_Mixer) it was not sufficient anymore to assume that any file which isn't in MIDI format must be in MUS format, except when the format conversion from MUS to MIDI fails. Thanks to Zodomaniac for the bug report and for providing some lumps in FLAC format which were reported as successfully converted by the mus2mid() function. This will break playback of the D_DM2TTL lump of DECA.WAD which erroneously has its format header read "PWAD" instead of "MUS".
+* The checks for "FRAME" keys in [CODEPTR] sections in BEX files are now case-insensitive.
+* A bug in the ordering of targets upon saving and loading a game has been fixed. Thanks to jeff-d for noticing.
+* The <tt>lookdir</tt> variable is only changed when processing a tic. Thanks to jmtd for noticing that mouselook up/down still works in single player games even when the game is paused or in a menu.
 
 == Changes of Crispy Doom 3.3 from Crispy Doom 3.2 ==
 Crispy Doom 3.3 has been released on Mar 10, 2016.
