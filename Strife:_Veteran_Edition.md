@@ -9,6 +9,7 @@ Veteran Edition includes a new OpenGL-based renderer that gives some improved gr
 
 == External links ==
 
+* [https://www.gog.com/game/strife_veteran_edition GOG.com page] for Strife: Veteran Edition.
 * [http://store.steampowered.com/app/317040/ Steam page] for Strife: Veteran Edition.
 * [https://github.com/svkaiser/strife-ve Strife: Veteran Edition source code] on Github.
 * [http://doomradio.org/podcast/interview-with-quasar/ Doom Radio interview with Quasar], where he discusses the genesis of Strife: VE.
