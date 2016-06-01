@@ -46,9 +46,11 @@
 
 * Joystick stuff
 
-:: the joystick handling needs some tweaking. SDL2 does not guarantee that the first joystick is index 0, nor (afaics) any guarantee that joystick indexes will be in an unbroken sequence. Instead SDL2 does tracking of hotplugged joysticks and provides a different ID (SDL_JoystickInstanceID) to applications who want to track a particular stick. On the plus side, we will get hotplugging support by finishing this porting work. ([https://github.com/chocolate-doom/chocolate-doom/issues/673 related bug]). -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 20:47, 18 March 2016 (UTC)
+::<strike> the joystick handling needs some tweaking. SDL2 does not guarantee that the first joystick is index 0, nor (afaics) any guarantee that joystick indexes will be in an unbroken sequence. Instead SDL2 does tracking of hotplugged joysticks and provides a different ID (SDL_JoystickInstanceID) to applications who want to track a particular stick. On the plus side, we will get hotplugging support by finishing this porting work. ([https://github.com/chocolate-doom/chocolate-doom/issues/673 related bug]). -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 20:47, 18 March 2016 (UTC)</strike>
 
 ::: I thought I'd volunteered to do this somewhere, evidently not here: anyway, for currently-undisclosed reasons I am very unlikely to get far on this, so someone else will have to do it instead. Sorry! The big decision to make, IMHO, is whether to use SDL2's joystick API or gamepad API, the latter built on top of the former, but only supporting things it knows about. [It knows about a lot of gamepads already https://hg.libsdl.org/SDL/file/e12c38730512/src/joystick/SDL_gamecontrollerdb.h], and it seems easy enough to get others added to that list in SDL2 itself. My pet controller (8bitdo sfc30) is presently unsupported. -- [[User:Jdowland|Jdowland]] ([[User talk:Jdowland|talk]]) 21:24, 12 April 2016 (BST)
+
+:::: Now mostly working I believe. There are still some improvements can probably make, like using the new game controller API to auto configure, but for now this is good. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 16:00, 1 June 2016 (BST)
 
 === Build system ===
 * <strike> Remove SDL 1.x required work-around in configure.ac</strike>
@@ -64,9 +66,11 @@
 
 The first release from sdl2-branch will be a new major release of Chocolate Doom; because of this, the following additional features will be included which are not strictly related to SDL2:
 
-* Real-time windowed/fullscreen mode switching (via alt+enter or other)
+* <strike>Real-time windowed/fullscreen mode switching (via alt+enter or other)</strike>
 
 : Using alt+enter as the binding might be considered akin to breaking vanilla behavior, since alt+enter on vanilla doesn't do anything special. There are situations like typing a chat msg while holding alt to strafe in multiplayer which could unintentionally trigger this. Windows+enter is a safer choice. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 00:35, 19 March 2016 (UTC)
+
+:: Thanks to Jon for implementing this. I applied some fixes yesterday; there might be more bugs hiding in there still but for now I think this is good to go. [[User:Fraggle|Fraggle]] ([[User talk:Fraggle|talk]]) 16:00, 1 June 2016 (BST)
 
 * Command line changes for consistency ([https://github.com/chocolate-doom/chocolate-doom/issues/212 bug #212])
 
