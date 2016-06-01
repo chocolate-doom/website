@@ -12,7 +12,7 @@
 
 A number of outstanding bugs remain to be fixed for sdl2-branch to be complete. [https://github.com/chocolate-doom/chocolate-doom/milestones/Merge%20SDL2%20branch See the milestone on Github] which is tracking them. 
 
-There used to be a list of TODO entries here; that list is deprecated and moved to [[Sdl2-branch_TODO]].
+There used to be a list of TODO entries here; that list is deprecated and moved to [[Sdl2-branch TODO]].
 
 == External links ==
 * [https://groups.google.com/a/soulsphere.org/forum/#!topic/chocolate-doom-dev-list/tfr-FKhfBKU dev list announcement] that sdl2-branch will be the base for Chocolate Doom v3.0.
