@@ -1,0 +1,1 @@
+Revised version of the OS X launcher interface for the v3.0 release.
