@@ -1,0 +1,1 @@
+Setup program's Configure Sound window, revised interface for v3.
