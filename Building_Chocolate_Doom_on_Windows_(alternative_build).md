@@ -6,11 +6,13 @@ You may find that these project files are sometimes slightly out of date and not
 == Getting the required files ==
 The Chocolate Doom source code comes with a Code::Block workspace and projects and a Microsoft Visual C++ 2008 Express solution. Additionally, you will need to get the development libraries of [http://www.libsdl.org/download-1.2.php SDL], [http://www.libsdl.org/projects/SDL_mixer/release-1.2.html SDL_mixer] and [http://www.libsdl.org/projects/SDL_net/release-1.2.html SDL_net]. Make sure you get the right files for the compiler that you are going to use. Also make sure you use the 1.2 version of all files. There are currently 2.0 versions--these will not work with Chocolate Doom.
 == Obtaining the source code ==
-The easiest way to download the source code is to use a SVN client such as [http://tortoisesvn.net/ TortoiseSVN]. The following instructions are for TortoiseSVN:
+The easiest way to download the source code is to download a ZIP of the source code for a particular release [https://github.com/chocolate-doom/chocolate-doom directly from the GitHub chocolate-doom page], or select "Clone or Download → Download ZIP" to download a ZIP of the source for the current development state.
 
-1. After you have installed the software, right click on or in the directory you want to download the source code to. From the right click menu choose the "SVN Checkout" option.
+Alternatively you can use a git client such as [https://tortoisegit.org TortoiseGit] or [https://desktop.github.com GitHub Desktop]. The following instructions are for TortoiseGit:
 
-2. Enter the URL https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/trunk/chocolate-doom/ into the "URL of repository" box and click OK.
+1. After you have installed the software, right click on or in the directory you want to download the source code to. From the right click menu choose the "Git Clone..." option.
+
+2. Enter the URL https://github.com/chocolate-doom/chocolate-doom.git into the "URL" box and click OK.
 
 3. Wait until the source code has been downloaded (the code is several megabytes in size, so it can take a while to download it).
 
