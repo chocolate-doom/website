@@ -19,7 +19,7 @@ After you've got the build environment all setup, the rest is easy :)
          ### For non-i386 distributions, --build needs to be changed to your native toolchain prefix.
          ###   eg, it would be x86_64-linux-gnu on amd64 distros.
  make
-Change "./configure" to "./autogen.sh" if doing a build from a completely clean SVN checkout.
+Change "./configure" to "./autogen.sh" if doing a build from a completely clean Git checkout.
 
 After this is complete, you may want to strip debugging symbols from the executables by typing "i586-mingw32msvc-strip */*exe", unless your target happens to want to debug Chocolate Doom.
 
