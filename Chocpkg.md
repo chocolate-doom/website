@@ -14,7 +14,23 @@ Features include:
 
 == Commands ==
 
+;packages
+:List the names of all known packages.
 
+;info [package]
+:Display a description of the specified package, or all packages.
+
+;install <package>
+:Build and install the specified package, if not already installed.
+
+;reinstall <package>
+:Rebuild and reinstall the specified package, even if installed.
+
+;build <package>
+:Fetch and build the specified package, but do not install it.
+
+;fetch <package>
+:Download the specified package but do not build it.
 
 == External links ==
 * [https://github.com/chocolate-doom/chocpkg chocpkg] on Github.
