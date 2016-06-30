@@ -12,6 +12,11 @@ Features include:
 * Multiple ways of fetching and building packages; packages based on autotools and pkg-config are the easiest to build.
 * Support for cross-compilation.
 
+== Quick example ==
+
+ cd chocpkg
+ ./chocpkg install chocolate-doom
+
 == Commands ==
 
 ;packages
