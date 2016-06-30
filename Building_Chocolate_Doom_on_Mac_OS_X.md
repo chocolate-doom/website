@@ -14,4 +14,13 @@ Chocolate Doom will be built in your home folder in ~/chocolate-doom.  Copy a Do
  cd ~/chocolate-doom
  ./chocolate-doom
 
+== V3 == 
+
+For the forthcoming V3 release, [[chocpkg]] is the official way of building Chocolate Doom on all platforms.
+
+You will need to install Apple's XCode development environment or the separate XCode command line tools in order to run [[chocpkg]] and build Chocolate Doom. If you do not already have these, launch the *Terminal* application and type the following
+
+ xcode-select --install
+
+
 [[Category:Build instructions]]
