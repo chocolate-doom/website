@@ -14,6 +14,13 @@ Chocolate Doom will be built in your home folder in ~/chocolate-doom.  Copy a Do
  cd ~/chocolate-doom
  ./chocolate-doom
 
+== Homebrew ==
+
+Chocolate Doom is available via the [brew.sh Homebrew package management system], within the 'games' tap:
+
+ brew tap homebrew/games
+ brew install chocolate-doom
+
 == V3 == 
 
 For the forthcoming V3 release, [[chocpkg]] is the official way of building Chocolate Doom on all platforms.
