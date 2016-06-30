@@ -18,10 +18,10 @@ Download the latest source code release from [http://sourceforge.net/project/sho
  sudo make install
 Enjoy!
 
-=== Compiling the source code from SVN ===
+=== Compiling the source code from Git ===
 
-==== Fetching the source code via SVN ====
- svn co https://chocolate-doom.svn.sourceforge.net/svnroot/chocolate-doom/trunk/chocolate-doom
+==== Fetching the source code via Git ====
+git clone https://github.com/chocolate-doom/chocolate-doom
 
 ==== Compiling ====
 Unlike most Linux systems, OpenBSD does not have AUTOMAKE_VERSION or AUTOCONF_VERSION automatically set (as it does not include autoconf or automake in the base system anyhow). These will need to be set first.
