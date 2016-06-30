@@ -10,6 +10,10 @@ Here are some instructions for building under common distributions:
 
 If your distribution is not in the above list, you can try the [[Building Chocolate Doom on Linux (generic)|generic install instructions]] which should work under any distribution.
 
+== V3 == 
+
+For the forthcoming V3 release, [[chocpkg]] is the official way of building Chocolate Doom on all platforms.
+
 == Getting help ==
 
 If you have trouble in getting Chocolate Doom to work, feel free to join the [irc://irc.oftc.net/chocolate-doom Chocolate Doom IRC channel] (irc.oftc.net #chocolate-doom) to ask for help.  There are several experienced Linux users in this channel who will be able to help out.
