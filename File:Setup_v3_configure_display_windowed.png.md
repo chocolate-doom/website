@@ -1,0 +1,1 @@
+chocolate-doom-setup for v3, Configure Display, Windowed mode
