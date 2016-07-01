@@ -7,10 +7,11 @@ In order to compile Chocolate Doom, you will need the following (see [http://www
 * autoconf - There are multiple versions available, this guide was specifically tested with autoconf-2.61p1.
 * automake - There are multiple versions available, this guide was specifically tested with automake-1.9.6p1.
 * SDL - you must have installed at least sdl (theres two flavors, -esd and -sun, I don't think it'd make a difference but for reference, I have -sun installed), sdl-mixer, and sdl-net.
-* Subversion - only if you need to compile the latest and greatest source code.
+** For Chocolate Doom V3 onwards, you need sdl2, sdl2-mixer, sdl2-net instead.
+* Git - only if you need to compile the latest and greatest source code.
 
 === Compiling the source code from official release ===
-Download the latest source code release from [http://sourceforge.net/project/showfiles.php?group_id=144368&package_id=158721 Sourceforge] and extract it with <tt>tar xzf chocolate-doom-x.y.z.tar.gz</tt>
+Download the latest source code release from [http://github.com/chocolate-doom/chocolate-doom Github] and extract it with <tt>tar xzf chocolate-doom-x.y.z.tar.gz</tt>
  cd chocolate-doom-1.2.1
  ./configure --mandir=/usr/local/man
    # The option here allows you to view the manual pages on OpenBSD with [http://www.openbsd.org/cgi-bin/man.cgi?query=man man(1)]
@@ -32,7 +33,8 @@ Unlike most Linux systems, OpenBSD does not have AUTOMAKE_VERSION or AUTOCONF_VE
    # By default OpenBSD does not check /usr/local/share/man, which is where it would normally install the manpage
  make
  sudo make install # Or use su, or run as root, or just `make install` if you're installing to $HOME
-Also unlike most Linux systems, neither /usr/games nor /usr/local/games is set by the shell by default in OpenBSD. You can either add those paths to your $PATH automatically ($HOME/.kshrc, $HOME/.bash_profile, etc), or copy the binaries to /usr/bin or /usr/local/bin (your preference).
+
+<!-- this will become unnecessary for any releases since 2.2.1, no longer install to /usr/games -->Also unlike most Linux systems, neither /usr/games nor /usr/local/games is set by the shell by default in OpenBSD. You can either add those paths to your $PATH automatically ($HOME/.kshrc, $HOME/.bash_profile, etc), or copy the binaries to /usr/bin or /usr/local/bin (your preference).
 
 Ideally, you should copy your IWADs to /usr/local/share/games/doom, as that would be the (default) directory Chocolate Doom will look for the files.
 
