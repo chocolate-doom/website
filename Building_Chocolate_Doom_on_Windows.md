@@ -34,7 +34,7 @@ Having selected the necessary packages, click "next" to begin the install proces
 
 Next, download the [http://www.chocolate-doom.org/build-chocolate-doom auto-build script]. You can use ''wget'' to do this from the Cygwin Bash shell:
 
- wget http://www.chocolate-doom.org/build-chocolate-doom
+ wget https://www.chocolate-doom.org/build-chocolate-doom
 
 Next you need to run the script. You have the option of either building the latest stable release, or the latest bleeding-edge version from the Git repository.
 
