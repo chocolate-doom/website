@@ -31,3 +31,7 @@ and change the "graphical_startup" line to:
   graphical_startup             0
 
 As a quicker alternative you can add the '-devparm' command line option to get things working quickly.
+
+=== Chocolate Doom v3 (sdl2-branch) ===
+
+The SDL2 branch of Chocolate Doom (future v3) works quite well on the Raspberry Pi in DirectFB mode (not under X), but requires a special version of the SDL2 libraries that are available from the Retro Pie project.
