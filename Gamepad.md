@@ -38,7 +38,7 @@ The following controllers will be automatically detected and configured if detec
 * Multilaser JS030
 * Buffalo Classic Controller (USB clone of the classic SNES controller)
 * [http://www.8bitdo.com/sfc30/ 8bitdo SFC/SNES30] (bluetooth SNES controller clone)
-* [http://www.8bitdo.com/nes30pro/ 8bitdo FC30 Pro] (bluetooth NES controller clone on steroids)
+* [http://www.8bitdo.com/nes30pro/ 8bitdo NES30 Pro] (bluetooth NES controller clone on steroids)
 
 
 If your controller is not in the above list, you can help improve Chocolate Doom by gathering some information about it and sending it in. Please see [[adding your gamepad]].
