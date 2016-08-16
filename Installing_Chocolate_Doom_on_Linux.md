@@ -1,3 +1,4 @@
+[[File:Chocolate-doom-linux.png|thumb|right|Chocolate Doom running on Ubuntu 8.04.]]
 '''Installing Chocolate Doom on Linux''' is usually a matter of using your Linux distribution's package manager. Most popular Linux distributions have a Chocolate Doom install package.
 
 == Linux distributions ==
