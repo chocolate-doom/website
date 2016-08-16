@@ -15,7 +15,15 @@ Note that in releases of Debian before v9, you must enable the ''contrib'' area 
 
 Instructions are the same as for Debian, since Ubuntu is a Debian fork.
 
+=== Fedora ===
+=== Arch Linux ===
+=== Gentoo ===
+=== OpenSuSE ===
+
 == BSD ==
+
+=== OpenBSD ===
+=== FreeBSD ===
 
 ==  Generic ==
 
