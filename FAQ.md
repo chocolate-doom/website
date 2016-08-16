@@ -75,6 +75,12 @@ On Microsoft Windows, you could create a file named "Doom 1.cmd" (make sure your
 === How do I play fan-made levels (WADs) and other modifications? ===
 For most levels, you simply need to use the <tt>-file level.wad</tt> command line parameter, however this is not always the case.  Most levels will come with an accompanying text file which will describe the intended usage.  Depending on the WAD, you may need to use options relating to [[Command line arguments#Dehacked and WAD merging|DeHackEd and WAD Merging]] features.  Additionally, some older WADs came in pre-compressed formats that may be difficult unpack on modern operating systems; in these cases, you may need to install them in [http://www.dosbox.com/ DOSBox] initially.  Feel free to [[#Where can I get help with using Chocolate Doom?|ask for help]] on the Chocolate Doom IRC or Doomworld forums if you can't figure it out!
 
+=== Why do you not distribute Linux binaries? ===
+
+The [[Downloads]] page has binary downloads for Windows and Mac OS X, but not Linux. There are many, many Linux distributions and it's hard to provide binaries that will work reliably over a majority of distributions; also, there is no standard package format through which to distribute them.
+
+Instead for Linux we focus on getting Chocolate Doom into the package repositories for as many Linux distributions as possible (along with the various flavors of *BSD). We also provide [[Building Chocolate Doom on Linux|build instructions]] for compiling Chocolate Doom from source.
+
 == Problems ==
 
 === Where can I get help with using Chocolate Doom? ===
