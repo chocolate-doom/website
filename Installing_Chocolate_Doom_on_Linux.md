@@ -5,6 +5,8 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 == Linux distributions ==
 
+=== Arch Linux ===
+
 === Debian ===
 
 Debian has a package named [https://packages.debian.org/stable/chocolate-doom chocolate-doom]. To install, type:
@@ -18,14 +20,14 @@ Note that in releases of Debian before v9, you must enable the ''contrib'' area 
 Instructions are the same as for Debian, since Ubuntu is a Debian fork.
 
 === Fedora ===
-=== Arch Linux ===
 === Gentoo ===
+=== NixOS ===
 === OpenSuSE ===
 
 == BSD ==
 
-=== OpenBSD ===
 === FreeBSD ===
+=== OpenBSD ===
 
 ==  Generic ==
 
