@@ -1,3 +1,4 @@
+{{#ev:youtube|KlVuY4rFdm4|300|right|Youtube video demonstrating hi-res sound effects and SC-55 MIDI music, listed below.}}
 This page is intended to be a list of recommended [[doom:Vanilla Doom|vanilla-compatible]] gameplay enhancement mods with similar philosophies to Chocolate Doom.
 
 == Doom Minor Sprite Fixing Project ==
@@ -13,7 +14,6 @@ The Sprite Fixing Project provides minor adjustments to fix issues with some of 
 * [https://www.doomworld.com/vb/wads-mods/62403-doom-2-minor-sprite-fixing-project-v1-7-release-updated-7-28-16/ Doomworld thread] on the project (includes screenshots)
 * {{idgames|file=graphics/sprfix17|title=Project download from idgames archive}}
 
-{{#ev:youtube|L5no9cu0Nlk|300|right|Youtube video demonstrating hi-res sound effects (includes a couple of other unrelated mods)}}
 == Perkristian hi-res Doom sound pack ==
 
 The hi-res sound pack contains remastered versions of the Doom sound effects which have been remade at higher sampling rates (Doom's original sound effects were sampled at 11025Hz, which is considered fairly low-quality nowadays).
