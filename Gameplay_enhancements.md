@@ -22,3 +22,11 @@ The hi-res sound pack contains remastered versions of the Doom sound effects whi
 * [https://www.youtube.com/watch?v=L5no9cu0Nlk Youtube video] demonstrating the mod.
 * [http://www.perkristian.net/game_doom-sfx.shtml Website with more information] including download.
 * [https://www.doomworld.com/vb/wads-mods/45117-high-quality-original-doom-sfx-updated-01-08-10/ First] and [https://www.doomworld.com/vb/wads-mods/58879-the-hi-res-doom-sound-pack-is-updated/ second] Doomworld threads about the mod.
+
+== Roland SC-55 music packs ==
+
+These downloadable music packs contain high quality recordings of Doom's music played through a [[wikipedia:Roland SC-55|Roland SC-55]], the MIDI synthesizer used by [[doom:Robert_Prince|Bobby Prince]] when composing Doom's music. Usable with Chocolate Doom's [[digital music packs]] feature.
+
+=== External links ===
+
+* [http://sc55.duke4.net/ Website] with downloads for the music packs.
