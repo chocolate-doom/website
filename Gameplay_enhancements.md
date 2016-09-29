@@ -11,7 +11,7 @@ The Sprite Fixing Project provides minor adjustments to fix issues with some of 
 === External links ===
 
 * [https://www.doomworld.com/vb/wads-mods/62403-doom-2-minor-sprite-fixing-project-v1-7-release-updated-7-28-16/ Doomworld thread] on the project
-* {{idgames|file=graphics/sprfix17|Project download from idgames archive}}
+* {{idgames|file=graphics/sprfix17|title=Project download from idgames archive}}
 
 == Perkristian hi-res Doom sound pack ==
 
