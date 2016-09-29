@@ -13,13 +13,13 @@ The Sprite Fixing Project provides minor adjustments to fix issues with some of 
 * [https://www.doomworld.com/vb/wads-mods/62403-doom-2-minor-sprite-fixing-project-v1-7-release-updated-7-28-16/ Doomworld thread] on the project (includes screenshots)
 * {{idgames|file=graphics/sprfix17|title=Project download from idgames archive}}
 
+{{#ev:youtube|L5no9cu0Nlk|300|right|Youtube video demonstrating hi-res sound effects (includes a couple of other unrelated mods)}}
 == Perkristian hi-res Doom sound pack ==
 
 The hi-res sound pack contains remastered versions of the Doom sound effects which have been remade at higher sampling rates (Doom's original sound effects were sampled at 11025Hz, which is considered fairly low-quality nowadays).
 
 === External links ===
 
-* [https://www.youtube.com/watch?v=L5no9cu0Nlk Youtube video] demonstrating the mod.
 * [http://www.perkristian.net/game_doom-sfx.shtml Website with more information] including download.
 * [https://www.doomworld.com/vb/wads-mods/45117-high-quality-original-doom-sfx-updated-01-08-10/ First] and [https://www.doomworld.com/vb/wads-mods/58879-the-hi-res-doom-sound-pack-is-updated/ second] Doomworld threads about the mod.
 
