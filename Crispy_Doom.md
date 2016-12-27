@@ -31,6 +31,40 @@ All of these features are disabled by default and need to get enabled either in 
 
 Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" maps -- but not Boom or ZDoom maps. Many additional less user-visible features have been implemented, e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed harmless game logic bugs, full support for DEHACKED files and lumps in BEX format, additional and improved cheat codes, an improved Automap, and many more! For a detailed list of features and changes please refer to the release notes below.
 
+== Changes of Crispy Doom 3.5 from Crispy Doom 3.4 ==
+
+Crispy Doom 3.5 has not yet been released (on Dec XX, 2016).
+
+This release introduces some major new features as well as refinements and bug fixes.
+
+=== Features ===
+* Extended savegames containing the WAD name they had been saved from, togglable in Crispness->Tactical (on by default). When trying to load a map from a WAD different than the currently loaded one(s), the player is notified which WAD is currently loaded and which WAD the savegame is from, and given the Y/N choice.   
+* Total time for all completed levels is now counted, mostly taken from PrBoom+.
+
+=== Improvements ===
+* Playing all sounds in full length is now optional. Thanks mason1729 and Danfun64 for the suggestion.
+* Overflow simulation into the frame table has been dropped. The effect is e.g. Batman Doom vbatman.deh patch not being necessary anymore. 
+* Bullet puffs are now drawn in outdoor areas. Thanks to Ptoing for the idea.
+* New 128x128 icons by Zodomaniac.
+* Certain projectiles (player's plasma gun and some enemies' weaponry) aren't absorbed by outdoor walls. Missiles are set into the last safe state in their death state sequence.
+* In Chex Quest the kill stats are not called "kills" anymore, as in this game you don't "kill monsters" but "return Flemoids" back to where they came from. It's really a cute little game and feels completely non-violent :)
+* Weapon sprites are rendered centered, but actual coordinates are left untouched.
+* Sprite offsets for mirrored sprites have been fixed.
+* Brain spitters are disabled when the TNTEM cheat kicks in, by setting numbraintargets to -1
+* Blood and bullet puff sprites are now randomly flipped.
+
+=== Bug Fixes ===
+* Non-binary files for non-Doom games are not installed by "make install" command anymore. Thanks to Chungy for the report.
+* Proper music is played if a map is reloaded from a savegame during the intermission screen. Thanks to Zodomaniac for the bug report.
+* "Loading" disk icon has been repaired.
+* Colorized strings are now centered correctly.
+* "Tutti Frutti Effect" is also fixed in Low Resolution mode now. Thanks to Vesperas for noticing.
+* Total time counter position in intermission screens has been fixed.
+* MBF sky transfers with tag 0 have been fixed. Linedefs 271 & 272 are allowed to use tag 0 to affect the whole level. Thanks to Jeffdoggett for the heads-up and the fix.
+* The yellow key in TNT MAP31 isn't marked as multi-player only now, arranged alongside fix for Wolf SS with BFG-Edition IWADs. Thanks to Andrewj for the suggestion and Jeffdoggett for the code example.
+* SMMU swirling flats are repaired, thanks to Bzzrak
+* Markpoints from the previous map are not saved anymore.
+
 == Changes of Crispy Doom 3.4 from Crispy Doom 3.3 ==
 Crispy Doom 3.4 has been released on Jun 11, 2016.
 
