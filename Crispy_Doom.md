@@ -33,7 +33,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 == Changes of Crispy Doom 3.5 from Crispy Doom 3.4 ==
 
-Crispy Doom 3.5 has not yet been released (on Dec XX, 2016).
+Crispy Doom 3.5 has been released on Dec 27, 2016.
 
 This release introduces some major new features as well as refinements and bug fixes.
 
@@ -752,8 +752,6 @@ Please note that all of the above changes do '''only''' apply for the <tt>doom2.
 
 * Since Crispy Doom 2.0, in order to overcome issues when merging PWADs with duplicate lumps of the same name, lumps that are meant to be used as flats are restricted between the F_START and F_END markers. This requirement may lead to graphical glitches when savegames are shared between Crispy Doom and Chocolate Doom, which in turn can be avoided by loading the PWAD with "-merge" instead of "-file" in Chocolate Doom.
 
-* In order to fix an issue with inventory items in Strife, the Chocolate Doom network gaming code had to be incompatibly changed a few days after the Chocolate Doom 2.1.0 release. While Crispy Strife 2.0 and 2.1 preserved compatibility with the old (buggy) code, the Crispy Strife 2.2. release is network game incompatible with Chocolate Strife 2.1.0 and requires its development version for cross-port network games.
-
 == Versioning ==
 Crispy Doom 1.0 is based on Chocolate Doom 2.0.0 with merged changes from the GIT master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/ecf457ddcbf481b451f37474b057a06e7d843b66 <tt>ecf457ddcb</tt>].
 Crispy Doom 1.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a80aa343a53c3dd3db2434a52d70de72ec4df955 <tt>a80aa343a5</tt>].
@@ -769,6 +767,7 @@ Crispy Doom 3.1 is based on Chocolate Doom 2.2.1 and has merged all changes to t
 Crispy Doom 3.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/2efd8ce2217cfbb81b9b5532228febfe32800392 <tt>fe32800392</tt>].
 Crispy Doom 3.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/4077f339e7a70fea357b047d8b6fd722b00f283b <tt>4077f339e7</tt>].
 Crispy Doom 3.4 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/010e52f99e74a6f85a808f3c79504d96841e2e11 <tt>010e52f99e</tt>].
+Crispy Doom 3.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/5d3c0e0a824abd076bacffcfd01a6df5765435fe <tt>5d3c0e0a82</tt>].
 
 Crispy Doom maintains a major and a minor version number. The major version number is increased whenever a new official version of Chocolate Doom is released and the changes merged into Crispy Doom. The minor version number is increased whenever changes have been applied that are not part of an official Chocolate Doom release or do only affect Crispy Doom.
 
@@ -796,7 +795,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Binaries ===
 Binaries for Windows (x86) are available here:
-http://www.greffrath.com/~fabian/crispy-doom_3.4.zip
+http://www.greffrath.com/~fabian/crispy-doom_3.5.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
 http://www.greffrath.com/~fabian/crispy-doom-music-pack_2.zip
@@ -821,7 +820,7 @@ PrBoom+ is &copy; 1999 id Software, Chi Hoang, Lee Killough, Jim Flynn, Rand Pha
 Chocolate Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard; 
 Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven Software, &copy; 2008 Simon Howard;
 Strawberry Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard, &copy; 2008-2010 GhostlyDeath; 
-Crispy Doom is additionally &copy; 2014 Fabian Greffrath;
+Crispy Doom is additionally &copy; 2014-2017 Fabian Greffrath;
 all of the above are released under the [https://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 
 SDL 1.2 is &copy; 1997-2012 Sam Lantinga and is released under the [http://www.gnu.org/licenses/lgpl-2.1.html LGPL-2.1+].
@@ -831,6 +830,6 @@ Secret Rabbit Code (libsamplerate) is &copy; 2002-2011 Erik de Castro Lopo and i
 Libpng is &copy; 1998-2014 Glenn Randers-Pehrson, &copy; 1996-1997 Andreas Dilger, &copy; 1995-1996 Guy Eric Schalnat, Group 42, Inc. and is released under the [http://www.libpng.org/pub/png/src/libpng-LICENSE.txt libpng license].
 Zlib is &copy; 1995-2013 Jean-loup Gailly and Mark Adler and is released under the [http://www.zlib.net/zlib_license.html zlib license].
 
-The Crispy Doom icon (as shown at the top right of this page) is composed of the [[File:Chocolate-logo.png|Chocolate Doom icon]] and a [[wikipedia:File:Potato-Chips.jpg|photo]] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [[wikipedia:Public_domain|public domain]].
+The Crispy Doom icon (as shown at the top right of this page) is composed of the [[File:Chocolate-logo.png|Chocolate Doom icon]] and a [[wikipedia:File:Potato-Chips.jpg|photo]] of potato crisps (Utz-brand, grandma's kettle-cooked style) by [https://commons.wikimedia.org/wiki/User:Evan-Amos Evan-Amos] who kindly released it into the [[wikipedia:Public_domain|public domain]]. The high-resolution version of this icon has been contributed by Zodomaniac.
 
 [[Category:Forks]]
