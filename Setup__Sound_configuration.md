@@ -15,9 +15,9 @@ Unlike digital recorded music that you might find on a CD or an MP3 file, Doom's
 
 * [[OPL MIDI]] (the default), which reproduces the sound of the AdLib / SoundBlaster hardware that was most common in the 1990s. This is usually emulated in software, but Chocolate Doom can be configured to use a real OPL chip to output its music.
 
-* [[Wikipedia:TiMidity++|TiMidity++]]: a popular software MIDI synthesis program that can be configured with many different sound fonts to change the sound of the music.
+* [[Wikipedia:TiMidity++|TiMidity++]]: a popular software MIDI synthesis program that can be configured with many different sound fonts to change the sound of the music. One recommended set is the [https://www.doomworld.com/idgames/sounds/eawpats eawpats patch set] which can be downloaded from the [[doom:idgames archive|idgames archive]].
 
-* [[GUS]] pseudo-emulation, which reproduces the sound of the Gravis Ultrasound Card.
+* [[GUS]] pseudo-emulation, which reproduces the sound of the Gravis Ultrasound Card. You will need to download the [https://www.doomworld.com/idgames/music/dgguspat GUS patches package] from the idgames archive.
 
 * Native MIDI, which uses the operating system's built-in MIDI playback. Most operating systems have some form of built-in MIDI playback, though the quality can vary.
 
