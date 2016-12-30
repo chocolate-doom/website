@@ -160,10 +160,6 @@ Chocolate Doom by default preserves the original aspect ratio the game was inten
 
 === Can Chocolate Doom be run on Win95/98/Me? ===
 
-Yes.  However, very old versions of Windows may not include the MSVCRT.DLL, causing an error message similar to this:
+No.
 
-  A required DLL file, MSVCRT.DLL, was not found.
-
-This problem can be solved by downloading the DLL [ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe from the Microsoft FTP site].
-
-You might encounter other problems when using Win9x; given that it's an obsolete OS, it's unlikely that bugs related to running on it will ever be fixed.
+While unsupported, versions 2.2.1 and older might be capable of running, but these old operating systems are completely untested and any bugs encountered will not be fixed.  Original versions of Windows 95 also lack msvcrt.dll, but you may download it [ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe from the Microsoft FTP site].
