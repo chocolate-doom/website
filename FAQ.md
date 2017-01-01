@@ -88,8 +88,8 @@ Instead for Linux we focus on getting Chocolate Doom into the package repositori
 Several avenues of help are available:
 
 * The easiest way to get help is to join the Chocolate Doom [[wikipedia:Internet Relay Chat|IRC]] channel.  Connect to the server ''irc.oftc.net'' using your favorite IRC client, and join ''#chocolate-doom''.
-* The [https://www.doomworld.com/vb/ Doomworld forums] contain many knowledgeable people who may be able to answer your questions.  You will need to register an account in order to post.  It is best to use the [https://www.doomworld.com/vb/source-ports/ source ports] forum.  You may find a Chocolate Doom-related thread is already active; if so, please use this rather than creating a new thread.
-* Finally, it is possible to contact the author of Chocolate Doom by sending an email to ''fraggle@doomdoomdoom.gmail.com'', removing the "doomdoomdoom" part from that address.
+* The [https://www.doomworld.com/vb/ Doomworld forums] contain many knowledgeable people who may be able to answer your questions.  You will need to register an account in order to post.  There is a [https://www.doomworld.com/vb/source-ports/86366-chocolate-doom/ long-running thread] where questions can be asked and it is usually better to ask questions here rather than creating a new thread.
+* Finally, it is possible to contact the developers of Chocolate Doom by sending an email to the development list: email ''chocolate-doom-dev-list@doomdoomdoom.chocolate-doom.org'', removing the "doomdoomdoom" part from that address.
 
 === When I set a high resolution screen mode (eg. 800x600), the screen still appears blocky.  Why is this? ===
 
