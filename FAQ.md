@@ -123,7 +123,7 @@ See [[Screen resolution]] for more information.
 
 These things were not possible in the original Doom.  It is common for many other source ports to add the ability to look up and down or jump; however, Chocolate Doom aims to be as close to and as compatible with the original game as possible, so these features have not been added.
 
-A good justification for this decision is that the game was not designed with these features in mind.  For example, the final boss battle in Doom II specifically relies on it being impossible to aim downwards.  Similarly, there are places in the game where the ability to jump allows various tricks that would not otherwise be possible and were never intended to be possible.
+A good justification for this decision is that the game was not designed with these features in mind.  For example, the [[doom:Final boss|final boss battle in Doom II]] specifically relies on it being impossible to aim downwards.  Similarly, there are places in the game where the ability to jump allows various tricks that would not otherwise be possible and were never intended to be possible.
 
 === Why does the game crash just after the title screen appears? ===
 
