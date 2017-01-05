@@ -1,0 +1,1 @@
+Image showing Tux the Linux Penguin and Beastie the BSD Daemon, to represent Unix systems in general.
