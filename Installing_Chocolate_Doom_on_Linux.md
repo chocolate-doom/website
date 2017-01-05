@@ -33,6 +33,14 @@ See [[Building Chocolate Doom on Gentoo]].
 == BSD ==
 
 === FreeBSD ===
+There is a chocolate-doom package in the FreeBSD ports collection. To add the package:
+
+  pkg install chocolate-doom
+
+Or to build the port freshly:
+
+  cd /usr/ports/games/chocolate-doom/ && make install clean
+
 === OpenBSD ===
 There is a chocolate-doom package in the OpenBSD ports collection. To install:
 
