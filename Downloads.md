@@ -5,23 +5,22 @@ Click below to download the latest release of Chocolate Doom ('''version 2.3.0''
 {{Downloadsbox|File:Windows_logo.png|
 '''Microsoft Windows''' binaries: choose the game you want to play:
 
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0-win32.zip Chocolate Doom] for Windows v2.3.0
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-heretic-2.3.0-win32.zip Chocolate Heretic] for Windows v2.3.0
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-hexen-2.3.0-win32.zip Chocolate Hexen] for Windows v2.3.0
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-strife-2.3.0-win32.zip Chocolate Strife] for Windows v2.3.0
-
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0-win32.zip Chocolate Doom] for Windows
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-heretic-2.3.0-win32.zip Chocolate Heretic] for Windows
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-hexen-2.3.0-win32.zip Chocolate Hexen] for Windows
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-strife-2.3.0-win32.zip Chocolate Strife] for Windows
 }}
 
 {{Downloadsbox|File:OSX_mavericks_logo.png|
 '''Apple Mac OS X''' binaries:
 
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.dmg Chocolate Doom] for Mac v2.3.0 (unified package, supports all four games.)
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.dmg Chocolate Doom] for Mac (unified package, supports all four games.)
 }}
 
 {{Downloadsbox|File:Open_source_logo.png|
 '''Source code''' (all platforms)
 
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz Chocolate Doom source code] for v2.3.0.
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz Chocolate Doom source code].
 * [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz.asc GPG signature].
 * [https://github.com/fragglet/chocolate-doom Git repository].
 }}
