@@ -25,6 +25,8 @@ There's a chocolate-doom package in Fedora. To install, use the yum package mana
   yum install chocolate-doom
 
 === Gentoo ===
+See [[Building Chocolate Doom on Gentoo]].
+
 === NixOS ===
 === OpenSuSE ===
 
