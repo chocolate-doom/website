@@ -17,6 +17,11 @@ Click below to download the latest release of Chocolate Doom ('''version 2.3.0''
 * [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.dmg Chocolate Doom] for Mac (unified package, supports all four games.)
 }}
 
+{{Downloadsbox|File:Tux-and-beastie.png|
+'''Linux, BSD and other Unix-like systems''':
+The Chocolate Doom project does not distribute binaries for these systems, but there are packages available in most Linux and BSD distributions. Check out [[Installing Chocolate Doom on Linux]] for instructions.
+}}
+
 {{Downloadsbox|File:Open_source_logo.png|
 '''Source code''' (all platforms)
 
