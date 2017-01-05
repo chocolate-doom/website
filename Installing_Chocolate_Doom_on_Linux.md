@@ -34,6 +34,9 @@ See [[Building Chocolate Doom on Gentoo]].
 
 === FreeBSD ===
 === OpenBSD ===
+There is a chocolate-doom package in the OpenBSD ports collection. To install:
+
+  pkg_add chocolate-doom
 
 ==  Generic ==
 
