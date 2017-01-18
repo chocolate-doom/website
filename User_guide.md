@@ -24,4 +24,4 @@ You can get help online from several sources:
 
 == Bugs ==
 
-If you discover a bug, please [https://github.com/chocolate-doom/chocolate-doom/issues submit a bug report].  However, some bugs are actually intended behavior. See the NOT-BUGS file that was included in your download (viewable [https://github.com/chocolate-doom/chocolate-doom/blob/master/NOT-BUGS here]).
+If you discover a bug, please [https://github.com/chocolate-doom/chocolate-doom/issues submit a bug report].  However, some bugs are actually intended behavior. See the NOT-BUGS file that was included in your download (viewable [https://github.com/chocolate-doom/chocolate-doom/blob/master/NOT-BUGS.md here]).
