@@ -1,4 +1,4 @@
-{{#ev:youtube|KlVuY4rFdm4|300|right|Youtube video demonstrating hi-res sound effects and SC-55 MIDI music, listed below.}}
+{{#ev:youtube|KlVuY4rFdm4|300x225|right|Youtube video demonstrating hi-res sound effects and SC-55 MIDI music, listed below.}}
 This page is intended to be a list of recommended [[doom:Vanilla Doom|vanilla-compatible]] gameplay enhancement mods with similar philosophies to Chocolate Doom.
 
 == Doom Minor Sprite Fixing Project ==
