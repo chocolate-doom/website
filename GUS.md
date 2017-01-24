@@ -1,5 +1,5 @@
-[[File:Gravis UltraSound PnP Pro V1.0.jpg|250px|thumb|right|Gravis Ultrasound card]]
-{{#ev:youtube|9xeOX0AaHZk|250|right}}
+[[File:Gravis UltraSound PnP Pro V1.0.jpg|300px|thumb|right|Gravis Ultrasound card]]
+{{#ev:youtube|9xeOX0AaHZk|300x225|right}}
 The Gravis Ultrasound (GUS) was a series of sound cards popular in the '90s for gaming. While slightly more expensive than the Soundblaster and its clones, the GUS provided superior music playback, with [[wikipedia:Wavetable synthesis|wavetable synthesis]]. Doom was one of several games that included GUS playback support.
 
 Chocolate Doom includes a GUS "pseudo-emulation" support. An actual GUS is not emulated, but [[wikipedia:TiMidity++|Timidity]] is used to play back music using a configuration file generated from the [[doom:DMXGUS|DMXGUS lump]]. This means that the music should sound similar to the music played back from an actual GUS card.
