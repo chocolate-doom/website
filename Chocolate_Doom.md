@@ -14,7 +14,7 @@
 
 </td>
 <td style="vertical-align: top;">
-[[Image:chocolate-doom.png|right|400px]]
+[[Image:chocolate-doom.png|right|370px]]
 </td>
 </tr></table>
 __NOTOC__
