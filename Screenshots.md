@@ -33,12 +33,12 @@ Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC
 
 == Version 2 ==
 
-Version 2 of Chocolate Doom adds support for [[doom:Heretic|Heretic]], [[doom:Hexen|Hexen]] and [[doom:Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
+Version 2 of Chocolate Doom adds support for [[Chocolate Heretic|Heretic]], [[Chocolate Hexen|Hexen]] and [[Chocolate Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
 
 <gallery>
-Image:Chocolate-heretic.png |[[doom:Heretic|Heretic]]
-Image:Chocolate-hexen.png   |[[doom:Hexen|Hexen]]
-File:Strife-linux.png       |[[doom:Strife|Strife]]
+Image:Chocolate-heretic.png |[[Chocolate Heretic|Heretic]]
+Image:Chocolate-hexen.png   |[[Chocolate Hexen|Hexen]]
+File:Strife-linux.png       |[[Chocolate Strife|Strife]]
 </gallery>
 
 == Mods and TCs ==
