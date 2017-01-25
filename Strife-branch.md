@@ -8,7 +8,7 @@ The branch is now obsolete and remaining Strife work was completed on [[v2-branc
 == Demo video ==
 
 The following video shows strife-branch at revision 2075; a lot of functionality was incomplete at that point and many improvements have been made since then:
-{{#ev:youtube|0w60Oqhvr6Y}}
+{{#ev:youtube|0w60Oqhvr6Y|500x375}}
 
 == External links ==
 
