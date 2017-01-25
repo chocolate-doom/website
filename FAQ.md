@@ -79,7 +79,7 @@ For most levels, you simply need to use the <tt>-file level.wad</tt> command lin
 
 The [[Downloads]] page has binary downloads for Windows and Mac OS X, but not Linux. There are many, many Linux distributions and it's hard to provide binaries that will work reliably over a majority of distributions; also, there is no standard package format through which to distribute them.
 
-Instead for Linux we focus on getting Chocolate Doom into the package repositories for as many Linux distributions as possible (along with the various flavors of *BSD). We also provide [[Building Chocolate Doom on Linux|build instructions]] for compiling Chocolate Doom from source.
+Instead for Linux we focus on getting Chocolate Doom into the package repositories for as many Linux distributions as possible (along with the various flavors of *BSD). See [[Installing Chocolate Doom on Linux]] for instructions for a number of different distributions. We also provide [[Building Chocolate Doom on Linux|build instructions]] for compiling Chocolate Doom from source.
 
 == Problems ==
 
