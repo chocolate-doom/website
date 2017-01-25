@@ -9,11 +9,17 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 === Debian ===
 
-Debian has a package named [https://packages.debian.org/stable/chocolate-doom chocolate-doom]. To install, type:
+Debian has a package named [https://packages.debian.org/stable/chocolate-doom chocolate-doom]. To install, run this command as root:
 
   apt-get install chocolate-doom
 
 Note that in releases of Debian before v9, you must enable the ''contrib'' area to access the package.
+
+=== Linux Mint ===
+
+Linux Mint has [https://community.linuxmint.com/software/view/chocolate-doom a chocolate-doom package]. To install:
+
+  sudo apt-get install chocolate-doom
 
 === Ubuntu ===
 
