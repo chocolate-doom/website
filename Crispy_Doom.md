@@ -36,11 +36,21 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 === New command line parameters ===
 
-To be filled.
+* <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
+* <tt>-fliplevels</tt> loads mirrored versions of the maps.
+* <tt>-blockmap</tt> force a (re-)building of the BLOCKMAP lumps for loaded maps.
 
 === New cheat codes ===
 
-To be filled.
+* <tt>TNTWEAP</tt> followed by a weapon number gives or removes this weapon (8 = Chainsaw, 9 = SSG). Try to load Doom 1 with <tt>DOOM2.WAD</tt> as a PWAD and type <tt>TNTWEAP9</tt> to play the SSG in Doom 1.
+* <tt>TNTEM</tt> kills all monsters on the current map (and disables all cube spitters).
+* <tt>SPECHITS</tt> triggers all [[doom:Linedef_type|Linedef actions]] on a map at once, no matter if they are enabled by pushing, walking over or shooting or whether they require a key or not. It also triggers all boss monster and Commander Keen actions if possible.
+* <tt>NOTARGET</tt> toggles deaf and blind monsters that do not act until attacked.
+* <tt>TNTHOM</tt> toggles the flashing [[doom:Hall_of_mirrors_effect|HOM]] indicator (disabled by default).
+* <tt>SHOWFPS</tt> toggles printing the FPS in the upper right corner.
+* <tt>NOMOMENTUM</tt> toggles a debug aid for pixel-perfect positioning on a map (not recommended to use in-game).
+* <tt>GOOBERS</tt> triggers an easter egg, i.e. an "homage to an old friend". ;-)
+* <tt>IDBEHOLD0</tt> disables all currently active power-ups.
 
 == Compatibility ==
 
@@ -131,7 +141,7 @@ This release introduces some major new features as well as refinements and bug f
 
 Crispy Doom 3.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/5d3c0e0a824abd076bacffcfd01a6df5765435fe <tt>5d3c0e0a82</tt>].
 
-[[Crispy Doom/Changelog|Previous changes]]
+'''[[Crispy Doom/Changelog|Previous changes]]'''
 
 == Versioning ==
 
