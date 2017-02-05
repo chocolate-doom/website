@@ -1,3 +1,6 @@
+<div style="background-color: #ffcccc; border: 1px solid #aaaaaa; padding: 5px; text-align: center; margin: 10px; clear: left;">
+'''Pssst!''' Interesting in testing something new? Check out the [[v3.0 beta]] downloads.
+</div>
 
 <table><tr><td>
 Click below to download the latest release of Chocolate Doom ('''version 2.3.0'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-2.3.0 the release notes for this release] to find out what's new.
