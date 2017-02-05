@@ -13,19 +13,17 @@ The screenshot should show the game:
 
 Chocolate Doom is [[portability|portable]] to multiple operating systems and processor architectures:
 
-<gallery>
-Image:Chocowindows.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows XP|XP]])
+<gallery widths="200">
 Image:Chocolate_Windows_10.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|10]])
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
-
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
+
 Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|Linux]] (ARM) - running on the [http://eecs.oregonstate.edu/education/hardware/oswald/ OSWALD] computer science learning platform.
 Image:Chocolate Doom AmigaOS 4.jpg|[[Wikipedia:AmigaOS|AmigaOS 4]]
 Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku]]
 
 Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
 Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
-Image:Chocolatedoom-opensolaris.png|[[Wikipedia:OpenSolaris|OpenSolaris]]
 Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
 </gallery>
 
@@ -33,9 +31,9 @@ Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC
 
 == Version 2 ==
 
-Version 2 of Chocolate Doom adds support for [[Chocolate Heretic|Heretic]], [[Chocolate Hexen|Hexen]] and [[Chocolate Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
+Version 2 of Chocolate Doom added support for [[Chocolate Heretic|Heretic]], [[Chocolate Hexen|Hexen]] and [[Chocolate Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
 
-<gallery>
+<gallery widths="200">
 Image:Chocolate-heretic.png |[[Chocolate Heretic|Heretic]]
 Image:Chocolate-hexen.png   |[[Chocolate Hexen|Hexen]]
 File:Strife-linux.png       |[[Chocolate Strife|Strife]]
@@ -45,7 +43,7 @@ File:Strife-linux.png       |[[Chocolate Strife|Strife]]
 
 Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
 
-<gallery>
+<gallery widths="200">
 Image:Chocolate-aliens-doom.png|[[Aliens TC]]
 Image:Chocolate-aod-doom.png|[[Army of Darkness Doom]]
 Image:Chocolate-batman-doom.png|[[Batman Doom]]
@@ -66,6 +64,6 @@ Its [[compatibility]] features also allow problematic levels such as [[Doomsday 
 
 Chocolate Doom can be played over the internet either directly peer-to-peer or using a dedicated server.
 
-<gallery>
+<gallery widths="200">
 Image:Multi-waiting.png
 </gallery>
