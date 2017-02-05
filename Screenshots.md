@@ -15,7 +15,7 @@ Chocolate Doom is [[portability|portable]] to multiple operating systems and pro
 
 <gallery widths="200">
 Image:Chocolate_Windows_10.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|10]])
-Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|MacOS X]]
+Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|Mac OS X]]
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
 
 Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|Linux]] (ARM) - running on the [http://eecs.oregonstate.edu/education/hardware/oswald/ OSWALD] computer science learning platform.
