@@ -25,7 +25,7 @@ Click below to download the latest release of Chocolate Doom ('''version 2.3.0''
 
 * [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz Chocolate Doom source code].
 * [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz.asc GPG signature].
-* [https://github.com/fragglet/chocolate-doom Git repository].
+* [https://github.com/chocolate-doom/chocolate-doom Git repository].
 }}
 
 {{Downloadsbox|File:Tux-and-beastie.png|
