@@ -1,4 +1,4 @@
-<div style="background-color: #ffcccc; border: 1px solid #aaaaaa; padding: 5px; text-align: center; margin: 10px; clear: left;">
+<div style="background-color: #ddffdd; border: 1px solid #aaaaaa; padding: 5px; text-align: center; margin: 10px; clear: left;">
 '''Pssst!''' Interesting in testing something new? Check out the [[v3.0 beta]] downloads.
 </div>
 
