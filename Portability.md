@@ -4,10 +4,6 @@ One of the main design aims of Chocolate Doom is to be '''portable''', running o
 To date, Chocolate Doom has been successfully run on:
 
 * Microsoft Windows
-:* Windows NT 3.51
-:* Windows 95
-:* Windows 98
-:* Windows 2000
 :* Windows XP
 :* Windows Vista
 :* Windows 7
@@ -20,6 +16,8 @@ To date, Chocolate Doom has been successfully run on:
 :* As of version 2.2.1, [https://github.com/chocolate-doom/buildscripts/commit/67bf4adb3261ca8f47a9d13853d63a2c13956aca Mac OS 10.7 or newer] is required (notwithstanding the [http://www.libsdl.org/download-2.0.php LibSDL documentation] stating 10.5 or newer).
 
 Screenshots of Chocolate Doom running on various different platforms can be seen [[:Category:Platform screenshots|here]].
+
+Older editions of Windows, such as Win9x and NT 3.51, are now [https://github.com/chocolate-doom/chocolate-doom/issues/834 unsupported] but may still be usable. [https://www.chocolate-doom.org/downloads/ Version 2.2.1 or earlier] of Chocolate Doom is recommended.
 
 It will likely run on various other operating systems - see the [http://www.libsdl.org/ list of platforms supported by SDL]. 
 
