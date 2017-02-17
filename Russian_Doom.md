@@ -60,7 +60,7 @@ Binary distribution is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x
 == Contact ==
 
 The project's homepage is: http://jnechaevsky.sf.net/rusdoom
-Russian Doom is created by [http://jnechaevsky.users.sourceforge.net/author.html Julian Nechaevsky]
+<br />Russian Doom is created by [http://jnechaevsky.users.sourceforge.net/author.html Julian Nechaevsky]
 
 Please feel free to contact author with any questions.
 
