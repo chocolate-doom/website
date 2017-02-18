@@ -29,7 +29,7 @@ Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC
 
 [[:Category:Platform screenshots|More platform screenshots...]]
 
-== Version 2 ==
+== Support for other games ==
 
 Version 2 of Chocolate Doom added support for [[Chocolate Heretic|Heretic]], [[Chocolate Hexen|Hexen]] and [[Chocolate Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
 
