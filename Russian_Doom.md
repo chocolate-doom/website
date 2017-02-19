@@ -1,3 +1,5 @@
+[[File:Russian_Doom_translations.png|thumb|320px|right|Translated games]]
+
 Russian Doom is aimed to full and proper Russian translation of Doom, Heretic and Hexen games, as well as its setup executable and online help. Additionally it has numerous vanilla bug fixes, removed limits and offers some optional aesthetic game enhancements. 
 
 The project is based on [[Chocolate Doom]] and [[Crispy Doom]]
@@ -63,5 +65,6 @@ The project's homepage is: http://jnechaevsky.sf.net/rusdoom
 <br />Russian Doom is created by [http://jnechaevsky.users.sourceforge.net/author.html Julian Nechaevsky]
 
 Please feel free to contact author with any questions.
+
 
 [[Category:Forks]]
