@@ -3,11 +3,11 @@
 
 Download the source package from the [[Downloads]] page.  Extract the package: for example,
 
- tar xzf chocolate-doom-2.0.0.tar.gz
+ tar xzf chocolate-doom-3.0.0-beta1.tar.gz
 
 Then build the package:
 
- cd chocolate-doom-2.0.0
+ cd chocolate-doom-3.0.0-beta1
  ./configure
  make
  make install
