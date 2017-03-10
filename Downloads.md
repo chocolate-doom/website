@@ -23,8 +23,8 @@ Click below to download the latest release of Chocolate Doom ('''version 2.3.0''
 {{Downloadsbox|File:Open_source_logo.png|
 '''Source code''' (all platforms)
 
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz Chocolate Doom source code].
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz.asc GPG signature].
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz 2.3.0 source code] (last stable release) and [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.tar.gz.asc GPG signature].
+* [https://github.com/chocolate-doom/chocolate-doom/archive/chocolate-doom-3.0.0-beta1.tar.gz 3.0.0-beta1 source code].
 * [https://github.com/chocolate-doom/chocolate-doom Git repository].
 }}
 
