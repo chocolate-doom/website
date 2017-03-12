@@ -54,7 +54,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 == Compatibility ==
 
-* Savesgames saved by Crispy Doom are still '''compatible with Vanilla Doom''', but are '''not identical''' anymore to the files that Vanilla Doom would have saved. This is caused by several reasons:
+* Savegames saved by Crispy Doom are still '''compatible with Vanilla Doom''', but are '''not identical''' anymore to the files that Vanilla Doom would have saved. This is caused by several reasons:
 ** In order to distinguish the NRFTL levels from the regular Doom 2 levels, Crispy Doom uses the <tt>gameepisode</tt> variable, which is used in Doom 1 to distinguish between the game episodes but is hitherto unused in Doom 2 (e.g. Chocolate Doom ignores the <tt>gameepisode</tt> variable in Doom 2). Consequently, savegames that have been recorded playing NRFTL in Crispy Doom can be loaded in Chocolate Doom if the latter is invoked with "<tt>-file nerve.wad</tt>". On the other hand, savegames that are recorded in Chocolate Doom with the "<tt>-file nerve.wad</tt>" parameter cannot immediately be loaded in Crispy Doom without the "<tt>-file nerve.wad</tt>" parameter. In order to "convert" savegames to Crispy Doom, run it with the "<tt>-file nerve.wad</tt>" parameter, load the savegames and save them again. It should then be possible to load them without the "<tt>-file nerve.wad</tt>" parameter in Crispy Doom.
 ** Crispy Doom preserves the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields when saving a game by replacing their contents with specific indices. These indices are then converted back into the corresponding pointers in Crispy Doom when the game is loaded again. In Vanilla Doom, however, the contents of the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields are disregarded and get overwritten with <tt>NULL</tt> when loading the game. Games saved in Vanilla Doom, on the other hand, still contain pointers in the <tt>mobj->target</tt> and <tt>mobj->tracers</tt> fields, but these will not match any of the indices expected by Crispy Doom and will thus get overwritten with <tt>NULL</tt> as in Vanilla Doom.
 
@@ -67,7 +67,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 == Download ==
 
 Binaries for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) are available here: 
-<br />http://www.greffrath.com/~fabian/crispy-doom_3.5.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom_4.0.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
 <br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_2.zip
@@ -98,7 +98,58 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
-'''Changes of Crispy Doom 3.5 from Crispy Doom 3.4'''
+=== Changes of Crispy Doom 4.0 from Crispy Doom 3.5 ===
+
+Crispy Doom 4.0 has been released on Mar 11, 2017. It is based on Chocolate Doom 2.3.0.
+
+This release introduces some new features and numerous improvements and bug fixes.
+
+'''Features'''
+
+* It is now possible to play demos from savegames, thanks Zodomaniac for the idea.
+* It is now possible to delete savegames.
+* Different crosshair types have been introduced: cross, angle and dot.
+* Additional BOOM and MBF states, sprites and code pointers (supported through BEX format) have been added.
+* DEHACKED states up to 4000 and 100 additional sprites and mapthings from Doom Retro have been added.
+
+'''Improvements'''
+* Dead players falling off an edge don't make an "oof" sound anymore.
+* Extended savegames have been improved to fix restoring of "fireflicker" sectors.
+* Fake contrast has been smoothened.
+* The Cyberdemon's firing frames are now rendered full-bright.
+* Sound is now properly clipped in non-Doom1 MAP08.
+* Status bar face hysteresis has been eliminated.
+* Toggling "always run" now plays a sound.
+* 16 sprite rotations are now supported.
+* Negative player health that can be shown optionally.
+Thanks to JNechaevsky for suggesting all of the above!
+* Smooth freelook and weapon recoil has been implemented by AlexMax, thanks for that!
+* DMENUPIC is now used instead of TITLEPIC for the BFG Edition of DOOM2.WAD.
+* The screenshot filename limit has been increased according to bzzrak's suggestion.
+* E2M9 is shown on the E2 intermission screen if it has been completed.
+* The MAXBUTTONS value is doubled to allow for using the "SPECHITS" cheat on E2M5.
+
+'''Code Clean-Up'''
+* The "Crispness" menu has been disabled in the Setup tool because of its size and functionality being unable to cover all the options.
+* The "Invert Vertical Axis" option in the Setup tool has been replaced with "Permanent Mouse Look".
+* DoomBSP's original BLOCKMAP builder is now used instead of MBF's one as Crispy's internal BLOCKMAP builder (with removed limits and support for flipped levels and BLOCKMAP compression).
+* Linedefs without tags don't apply locally  anymore even in singleplayer (they send the wrong signal, maps that have this must be considered broken).
+
+'''Bug Fixes'''
+
+* In the BFG Edition the correct music track is played when starting "Hell on Earth" after the "NRFTL" episode. Thanks to Zodomaniac for the bug report.
+* Blood spawned by monsters that are being harmed/killed by crushers has been fixed. Thanks to JNechaevsky for the report.
+* Flats don't get more distorted the closer they are to the right in Low-Res mode anymore, thanks to JNechaevsky's report.
+* Attacking Lost Souls flying over the player now don't bump into him (being meters above ;) and deal damage as Zodomaniac reported.
+* While in menus player view is not changed in singleplayer mode and rotated horizontally only in multiplayer mode as pointed out by Zodomaniac.
+* Music number overflows at MAP >= 36 are prevented after Zodomaniac's report.
+* The game doesn't crash anymore on the intermission screen with maps > 33 which was spotted by Zodomaniac.
+* Game parameters are now re-read from the command line when starting a new game, because an in-game demo could change them in between as Zodomaniac noticed.
+* When playing demos, NERVE.WAD levels are now skipped only if map <= 9 (the game errored out on demo's MAP10 before).
+
+Crispy Doom 4.0 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/9a257cdf78ee4fa7d3de5bbb5be3ca733b06077f <tt>9a257cdf78</tt>].
+
+=== Changes of Crispy Doom 3.5 from Crispy Doom 3.4 ===
 
 Crispy Doom 3.5 has been released on Dec 27, 2016.
 This release introduces some major new features as well as refinements and bug fixes.
@@ -150,7 +201,7 @@ Please report any bugs, glitches or crashes that you encounter to the GitHub [ht
 == Acknowledgement ==
 Although I have played the thought of hacking on Chocolate Doom's renderer for quite some time already, it was Brad Harding's [[Doom Retro]] that provided the incentive to finally do it. However, his fork aims at a different direction and I did not take a single line of code from it. Lee Killough's [[doom:MBF|MBF]] was studied and used to debug the code, especially in the form of Team Eternity's [[doom:WinMBF|WinMBF]] source port, which made it easier to compile and run on my machine. And of course there is fraggle's [[Chocolate Doom]] with its exceptionally clean and legible source code. Please let me take this opportunity to appreciate all these authors for their work!
 
-Also, thanks plums of the [https://www.doomworld.com/vb/ Doomworld forums] for beta testing.
+Also, thanks plums of the [https://www.doomworld.com/vb/ Doomworld forums] for beta testing as well as Zodomaniac and JNechaevsky for the continuous flow of support and inspiration during the 3.x/4.x development phase!
 
 == Legalese ==
 Doom is &copy; 1993-1996 Id Software, Inc.; 
