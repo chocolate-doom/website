@@ -1,4 +1,39 @@
-'''Changes of Crispy Doom 3.4 from Crispy Doom 3.3'''
+=== Changes of Crispy Doom 3.5 from Crispy Doom 3.4 ===
+
+Crispy Doom 3.5 has been released on Dec 27, 2016.
+This release introduces some major new features as well as refinements and bug fixes.
+
+'''Features'''
+
+* Total time for all completed levels is now counted, mostly taken from PrBoom+.
+* Extended savegames have been implemented that store the name of the WAD the current map has been loaded from. It can be toggled in the Crispness->Tactical menu and is enabled by default. When attempting to load a savegame, it is checked whether the map is restored from the same WAD file and if this check fails, the player is informed and given the choice to cancel or continue loading the savegame.
+* While at it, total level times, extra kills (i.e. respawned or resurrected monsters), [[doom:Sector_type_17_is_disabled_after_loading_a_saved_game|sectors with fireflicker]], Automap markers and the players' lookdirs are also stored in extended savegames.
+* Furthermore, [[doom:Moving_platform_heights_not_preserved_in_saved_games|plats in stasis]] are now properly saved and restored.
+
+'''Improvements'''
+
+* New 128x128 icons by Zodomaniac.
+* Playing sounds in full length is now optional. Thanks to mason1729 and Danfun64 for the suggestion.
+* Overflow simulation into the frame table has been dropped, so that e.g. the <tt>vbatman.deh</tt> patch for Batman Doom is not necessary anymore.
+* Bullet puffs are now drawn in outdoor areas. Thanks to Ptoing for the idea.
+* Certain projectiles (e.g. the player's plasma gun and some enemies' weaponry) aren't absorbed by outdoor walls anymore. Instead, missiles are set into the last safe state in their death state sequence. Thanks to plumsinus for the suggestion.
+* In Chex Quest, the kill stats are not called "kills" anymore, as in this game you don't "kill monsters" but "return Flemoids" back to where they came from.
+* Weapon sprites may still be rendered centered, but their actual coordinates will be left untouched.
+* Sprite offsets for mirrored sprites have been fixed.
+* Brain spitters are now disabled when the TNTEM cheat kicks in, by setting <tt>numbraintargets</tt> to <tt>-1</tt>
+* Blood and bullet puff sprites are now randomly flipped.
+
+'''Bug Fixes'''
+
+* Proper music is played if a map is reloaded from a savegame during the intermission screen. Thanks to Zodomaniac for the bug report.
+* The rendering of the "Loading Disk Icon" has been repaired.
+* The "Tutti Frutti Effect" is also fixed in Low Resolution mode now. Thanks to Vesperas for noticing.
+* MBF sky transfers with tag 0 have been fixed. Linedefs 271 & 272 are allowed to use tag 0 to affect the whole level. Thanks to Jeffdoggett for the heads-up and the code example.
+* The yellow key in TNT MAP31 isn't marked as multi-player only anymore, arranged alongside the fix for the Wolf SS with the BFG-Edition IWADs. Thanks to Andrewj for the suggestion and Jeffdoggett for the code example.
+* The SMMU swirling flats implementation has been repaired, thanks to Bzzrak for noticing.
+* A crash is fixed when attempting to play music in a map > 9 (e.g. during demo playback) when NERVE.WAD is loaded. Thanks to nbmrjuhneibkr for the report.
+
+=== Changes of Crispy Doom 3.4 from Crispy Doom 3.3 ===
 
 Crispy Doom 3.4 has been released on Jun 11, 2016.
 This is another bug-fix release with only few new features.
@@ -36,11 +71,7 @@ This is another bug-fix release with only few new features.
 * A bug in the ordering of targets upon saving and loading a game has been fixed. Thanks to jeff-d for noticing.
 * The <tt>lookdir</tt> variable is only changed when processing a tic. Thanks to jmtd for noticing that mouselook up/down still works in single player games even when the game is paused or in a menu.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 3.3 from Crispy Doom 3.2'''
+=== Changes of Crispy Doom 3.3 from Crispy Doom 3.2 ===
 
 Crispy Doom 3.3 has been released on Mar 10, 2016.
 
@@ -92,20 +123,12 @@ This is mostly a bug-fix release with only few new features.
 * An infinite loop caused by the Demon Speed bug has been fixed. Thanks to Zodomaniac for the bug report and the savegames that helped to reproduce the issue.
 * Wording in the Crispness menu has been changed from "Missiles" to "Projectiles". Thanks again to Zodomaniac for this suggestion.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 3.2 from Crispy Doom 3.1'''
+=== Changes of Crispy Doom 3.2 from Crispy Doom 3.1 ===
 
 Crispy Doom 3.2 has been released on Nov 4, 2015.
 This is merely a bug-fix release to fix some nasty bugs (missing icons in executables and crispy-*-setup.exe requiring admin rights) in the Windows version of Crispy Doom 3.1.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 3.1 from Crispy Doom 3.0'''
+=== Changes of Crispy Doom 3.1 from Crispy Doom 3.0 ===
 
 Crispy Doom 3.1 has been released on Nov 3, 2015.
 This isn't considered a major Crispy Doom release, although it is based upon the Chocolate Doom 2.2.1 point release.
@@ -161,11 +184,7 @@ This isn't considered a major Crispy Doom release, although it is based upon the
 * The Berserk Pack patch is only displayed in the Ammo widget if it is actually available (i.e. not in the Shareware version).
 * If the <tt>DSSECRET</tt> lump is available, e.g. from a PWAD, play this instead of <tt>DSITMBK</tt> when a secret is revealed and the corresponding feature is enabled.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 3.0 from Crispy Doom 2.3'''
+=== Changes of Crispy Doom 3.0 from Crispy Doom 2.3 ===
 
 Crispy Doom 3.0 has been released on July 14, 2015.
 This is a major Crispy Doom release, because it is based upon the Chocolate Doom 2.2.0 release.
@@ -226,11 +245,7 @@ This is a major Crispy Doom release, because it is based upon the Chocolate Doom
 
 * Remove <tt>MAXVISPLANES</tt>, <tt>MAXDRAWSEGS</tt>, <tt>MAXSEGS</tt> and <tt>MAXVISSPRITES</tt> limits for Crispy Heretic.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 2.3 from Crispy Doom 2.2'''
+=== Changes of Crispy Doom 2.3 from Crispy Doom 2.2 ===
 
 Crispy Doom 2.3 has been released on March 4, 2015.
 
@@ -276,11 +291,7 @@ Crispy Doom 2.3 has been released on March 4, 2015.
 * The previously selected savegame in the Load Game menu is now also pre-selected in the Save Game menu and the other way round.
 * The <tt>braintargets</tt> limit has been removed. It was previously set to <tt>32</tt> and broke e.g. Speed of Doom's MAP30 which has <tt>40 braintargets</tt>.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 2.2 from Crispy Doom 2.1'''
+=== Changes of Crispy Doom 2.2 from Crispy Doom 2.1 ===
 
 Crispy Doom 2.2 has been released on January 2, 2015.
 
@@ -316,11 +327,7 @@ Crispy Doom 2.2 has been released on January 2, 2015.
 * A crash in maps with a cube spitter but without spawn spots (e.g. MAP04 in DV.WAD) has been fixed.
 * A crash during map transitions has been fixed if a PWAD contains a stray MAP33 lump (e.g. INTIME.WAD). MAP33 is now only considered a regular map if the CWILV32 lump is also present.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 2.1 from Crispy Doom 2.0'''
+=== Changes of Crispy Doom 2.1 from Crispy Doom 2.0 ===
 
 Crispy Doom 2.1 has been released on November 12, 2014. This is mostly a bug fix release to treat a bug that reproducibly crashed the setup program on Windows systems.
 
@@ -346,11 +353,7 @@ Further changes that have accumulated in the short time frame include:
 * During demo playback, a thin (2 px) bar indicating demo progress is now printed at the bottom of the screen (similar to PrBoom+).
 * A warning will be printed when loading a level if it contains unknown linedef types (i.e. line->special > 141), e.g. Boom linedefs or generalized linedef types.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 2.0 from Crispy Doom 1.5'''
+=== Changes of Crispy Doom 2.0 from Crispy Doom 1.5 ===
 
 Crispy Doom 2.0 "Back to the Roots" has been released on October 27, 2014.
 This is a major Crispy Doom release, because it has merged the Chocolate Doom 2.1.0 release.
@@ -435,11 +438,7 @@ This is a major Crispy Doom release, because it has merged the Chocolate Doom 2.
 * Holding the ESC key no longer causes the menu to repeatedly flicker on and off. Thanks joe-ilya for reporting the issue.
 * Upon map initialization, unknown map things (e.g. players 5 to 8 starts) are now ignored and will not lead to crashes anymore.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 1.5 from Crispy Doom 1.4'''
+=== Changes of Crispy Doom 1.5 from Crispy Doom 1.4 ===
 
 Crispy Doom 1.5 "Supernova" has been released on August 18, 2014.
 
@@ -498,11 +497,7 @@ Crispy Doom 1.5 "Supernova" has been released on August 18, 2014.
 * The state of the "always run" toggle (introduced in Crispy Doom 1.3) after loading and saving a game has been fixed. ''Enabling "always run" makes the <tt>joybspeed</tt> variable greater than the size of the array which holds the button states, which caused an out-of-bounds read in the part of the expression that determines whether <tt>speed</tt> should be <tt>true</tt>.'' Thanks to clarry of the doomworld forums for the bug report and the patch!
 * If things are stuck together vertically because of moving sectors, they are now allowed to move further apart. The fix for this bug has been taken from Doom Retro.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 1.4 from Crispy Doom 1.3'''
+=== Changes of Crispy Doom 1.4 from Crispy Doom 1.3 ===
 
 Crispy Doom 1.4 has been released on June 12, 2014.
 
@@ -536,11 +531,7 @@ Crispy Doom 1.4 has been released on June 12, 2014.
 * When using the <tt>-warp</tt> command line parameter for Doom 1, the episode and map numbers do not have to be separated by spaces anymore.
 * The flashing HOM indicator (introduced in Crispy Doom 1.3) has been turned into a command line option <tt>-flashinghom</tt> and now flashes even when the <tt>NOCLIP</tt> cheat is active. Without this option, though, HOMs are still drawn in black but do not flash in red anymore.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 1.3 from Crispy Doom 1.2'''
+=== Changes of Crispy Doom 1.3 from Crispy Doom 1.2 ===
 
 Crispy Doom 1.3 has been released on May 19, 2014.
 
@@ -577,11 +568,7 @@ Crispy Doom 1.3 has been released on May 19, 2014.
 '''Non-Doom Ports'''
 * Due to popular demand, the non-Doom games that are part of Chocolate Doom have now been added back into the release. However, they have not seen any development since the Crispy Doom 1.0 release and are strictly '''unsupported'''. Feature requests are accepted if accompanied by patches. ;-)
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 1.2 from Crispy Doom 1.1'''
+=== Changes of Crispy Doom 1.2 from Crispy Doom 1.1 ===
 
 Crispy Doom 1.2 has been released on April 10, 2014.
 It is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. If you were unsatisfied with the mouse look performance of Crispy Doom 1.1 it is highly recommended to upgrade to Crispy Doom 1.2:
@@ -599,11 +586,7 @@ It is mostly a bug fix release to fix the jerky mouse look in Crispy Doom 1.1. I
 * Fix a crash when attempting to test settings from ''crispy-doom-setup'', merged from Chocolate Doom.
 * Fix "fast doors make two closing sounds" and "fast doors reopening with wrong sound" engine bugs.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 1.1 from Crispy Doom 1.0'''
+=== Changes of Crispy Doom 1.1 from Crispy Doom 1.0 ===
 
 Crispy Doom 1.1 has been released on April 5, 2014.
 
@@ -657,11 +640,7 @@ Crispy Doom now comes with its own dedicated setup tool called ''crispy-doom-set
 '''Non-Doom Ports'''
 The non-Doom games that are part of Chocolate Doom have fallen behind in terms of development and haven't seen any significant changes since Crispy Doom 1.0. Thus, only Doom is included in the 1.1 release and will be from now on.
 
-<br />
-----
-<br />
-
-'''Changes of Crispy Doom 1.0 from Chocolate Doom 2.0.0'''
+=== Changes of Crispy Doom 1.0 from Chocolate Doom 2.0.0 ===
 
 Crispy Doom 1.0 has been released on March 10, 2014.
 
@@ -761,6 +740,7 @@ Please note that all of the above changes do '''only''' apply for the <tt>doom2.
 
 == Versioning ==
 
+<br />Crispy Doom 3.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/5d3c0e0a824abd076bacffcfd01a6df5765435fe <tt>5d3c0e0a82</tt>].
 <br />Crispy Doom 3.4 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/010e52f99e74a6f85a808f3c79504d96841e2e11 <tt>010e52f99e</tt>].
 <br />Crispy Doom 3.3 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/4077f339e7a70fea357b047d8b6fd722b00f283b <tt>4077f339e7</tt>].
 <br />Crispy Doom 3.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/2efd8ce2217cfbb81b9b5532228febfe32800392 <tt>fe32800392</tt>].
