@@ -98,6 +98,19 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Unreleased changes ===
+
+Available for download at http://latest.chocolate-doom.org/
+
+'''Improvements'''
+
+* Game parameters (i.e. -fast, nomonsters, -respawn) are now re-read from command line if and only if a new game is started or a savegame is loaded. This is not performed if playing a demo is involved. Thanks to Zodomaniac for spotting this.
+* Savegame names in the Quick Load and Quick Save dialogs are now printed in golden letters, thanks to Zodomaniac for the suggestion.
+
+'''Bug Fixes'''
+
+* Players who left the game are not interpolated anymore. Thanks to 38_ViTa_38 for the report.
+
 === Changes of Crispy Doom 4.0 from Crispy Doom 3.5 ===
 
 Crispy Doom 4.0 has been released on Mar 11, 2017. It is based on Chocolate Doom 2.3.0.
@@ -148,43 +161,6 @@ Thanks to JNechaevsky for suggesting all of the above!
 * When playing demos, NERVE.WAD levels are now skipped only if map <= 9 (the game errored out on demo's MAP10 before).
 
 Crispy Doom 4.0 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/9a257cdf78ee4fa7d3de5bbb5be3ca733b06077f <tt>9a257cdf78</tt>].
-
-=== Changes of Crispy Doom 3.5 from Crispy Doom 3.4 ===
-
-Crispy Doom 3.5 has been released on Dec 27, 2016.
-This release introduces some major new features as well as refinements and bug fixes.
-
-'''Features'''
-
-* Total time for all completed levels is now counted, mostly taken from PrBoom+.
-* Extended savegames have been implemented that store the name of the WAD the current map has been loaded from. It can be toggled in the Crispness->Tactical menu and is enabled by default. When attempting to load a savegame, it is checked whether the map is restored from the same WAD file and if this check fails, the player is informed and given the choice to cancel or continue loading the savegame.
-* While at it, total level times, extra kills (i.e. respawned or resurrected monsters), [[doom:Sector_type_17_is_disabled_after_loading_a_saved_game|sectors with fireflicker]], Automap markers and the players' lookdirs are also stored in extended savegames.
-* Furthermore, [[doom:Moving_platform_heights_not_preserved_in_saved_games|plats in stasis]] are now properly saved and restored.
-
-'''Improvements'''
-
-* New 128x128 icons by Zodomaniac.
-* Playing sounds in full length is now optional. Thanks to mason1729 and Danfun64 for the suggestion.
-* Overflow simulation into the frame table has been dropped, so that e.g. the <tt>vbatman.deh</tt> patch for Batman Doom is not necessary anymore.
-* Bullet puffs are now drawn in outdoor areas. Thanks to Ptoing for the idea.
-* Certain projectiles (e.g. the player's plasma gun and some enemies' weaponry) aren't absorbed by outdoor walls anymore. Instead, missiles are set into the last safe state in their death state sequence. Thanks to plumsinus for the suggestion.
-* In Chex Quest, the kill stats are not called "kills" anymore, as in this game you don't "kill monsters" but "return Flemoids" back to where they came from.
-* Weapon sprites may still be rendered centered, but their actual coordinates will be left untouched.
-* Sprite offsets for mirrored sprites have been fixed.
-* Brain spitters are now disabled when the TNTEM cheat kicks in, by setting <tt>numbraintargets</tt> to <tt>-1</tt>
-* Blood and bullet puff sprites are now randomly flipped.
-
-'''Bug Fixes'''
-
-* Proper music is played if a map is reloaded from a savegame during the intermission screen. Thanks to Zodomaniac for the bug report.
-* The rendering of the "Loading Disk Icon" has been repaired.
-* The "Tutti Frutti Effect" is also fixed in Low Resolution mode now. Thanks to Vesperas for noticing.
-* MBF sky transfers with tag 0 have been fixed. Linedefs 271 & 272 are allowed to use tag 0 to affect the whole level. Thanks to Jeffdoggett for the heads-up and the code example.
-* The yellow key in TNT MAP31 isn't marked as multi-player only anymore, arranged alongside the fix for the Wolf SS with the BFG-Edition IWADs. Thanks to Andrewj for the suggestion and Jeffdoggett for the code example.
-* The SMMU swirling flats implementation has been repaired, thanks to Bzzrak for noticing.
-* A crash is fixed when attempting to play music in a map > 9 (e.g. during demo playback) when NERVE.WAD is loaded. Thanks to nbmrjuhneibkr for the report.
-
-Crispy Doom 3.5 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/5d3c0e0a824abd076bacffcfd01a6df5765435fe <tt>5d3c0e0a82</tt>].
 
 '''[[Crispy Doom/Changelog|Previous changes]]'''
 
