@@ -6,6 +6,8 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 == Linux distributions ==
 
 === Arch Linux ===
+Arch Linux has a package on the AUR [https://aur.archlinux.org/packages/chocolate-doom/]
+
 yaourt -S chocolate-doom
 
 === Debian ===
