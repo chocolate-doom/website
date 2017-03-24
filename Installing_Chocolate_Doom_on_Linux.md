@@ -6,7 +6,7 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 == Linux distributions ==
 
 === Arch Linux ===
-<nowiki>yaourt -S chocolate-doom</nowiki>
+yaourt -S chocolate-doom
 
 === Debian ===
 
