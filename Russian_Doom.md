@@ -64,9 +64,10 @@ All enhancements are optional and may be disabled to get the completely original
 
 == Download ==
 
-Binary distribution is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x64 editions).
+Windows version is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x64 editions).
 
-Latest version 2.2: [http://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.2/russian-doom-2.2-win32.zip/download russian-doom-2.2-win32.zip] 
+Latest version for Windows: [http://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.2/russian-doom-2.2-win32.zip/download russian-doom-2.2-win32.zip] 
+<br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.0/russian-doom-dos-1.0.zip/download russian-doom-dos-1.0.zip]
 <br />Source code: [http://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.2/Source/russian-doom-2.2-source.zip/download russian-doom-2.2-source.zip]
 <br />Full version history: [http://jnechaevsky.users.sourceforge.net/projects/rusdoom/files/changelog_eng.html changelog_eng.html]
 
