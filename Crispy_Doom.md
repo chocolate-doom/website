@@ -102,7 +102,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 4.1 has been released on June 14, 2017.
 
-This release adss some further polish to the engine both in terms of Vanilla bug fixing and Crispy-specific features.
+This release adds some further polish to the engine both in terms of Vanilla bug fixing and Crispy-specific features.
 
 '''Features'''
 
