@@ -5,5 +5,7 @@ Future versions of Chocolate Doom will include support for digital music packs: 
 
 High quality recordings of Doom's music already exist, such as [http://sc55.duke4.net/ Brandon Blume's SC-55 recordings]. We hope to provide a set of pseudo-official downloadable music packs for each of the games supported by Chocolate Doom. 
 
+The digital music pack functionality also provides a more convenient replacement for Hexen's CD music playback. Hexen was distributed on CDs with audio tracks containing high quality recordings of the in-game music. The game could then play these recordings instead of using the user's hardware MIDI playback which in the '90s was often primitive. [[Chocolate Hexen]] no longer includes CD music playback support but the same result can be achieved using a digital music pack.
+
 [[Category:Future features]]
 [[Category:Music]]
