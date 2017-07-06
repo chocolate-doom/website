@@ -15,7 +15,7 @@ A setup guide for how to configure GUS music playback can be found in the [https
 In order to work around this bug, it is possible instead to play with the GUS patches directly without using Chocolate Doom's GUS emulation. To do this:
 
 # Download {{idgames|file=music/dgguspat.zip|title=GUS patch files}} and unzip.
-# dgguspat.zip contains the GUS patch files (which you already have) but also includes a file named timidity.cfg - this is the important thing you need.
+# dgguspat.zip contains the GUS patch files but also includes a file named timidity.cfg - this is the important thing you need.
 # Open [[Setup|the setup tool]], go to the [[Setup/Sound configuration|Sound Configuration dialog]]. Choose "Native MIDI" as a music type. Set "Timidity configuration file" to point to the timidity.cfg file where you've extracted dgguspat.zip.
 
 [[Category:Features]]
