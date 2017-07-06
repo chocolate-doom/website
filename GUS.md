@@ -8,5 +8,15 @@ Using the GUS feature requires downloading the {{idgames|file=music/dgguspat.zip
 
 A setup guide for how to configure GUS music playback can be found in the [https://github.com/chocolate-doom/chocolate-doom/blob/master/README.Music README.Music] file included with Chocolate Doom releases.
 
+== Vanilla wrong instruments bug ==
+
+[[doom:Vanilla Doom|Vanilla Doom]] has a [[doom:GUS_instrument_mappings_bug|bug]] where it will play wrong instruments when using a GUS. In keeping with the project [[philosophy]], Chocolate Doom faithfully emulates this bug, but some people find it sounds unpleasant.
+
+In order to work around this bug, it is possible instead to play with the GUS patches directly without using Chocolate Doom's GUS emulation. To do this:
+
+# Download {{idgames|file=music/dgguspat.zip|title=GUS patch files}} and unzip.
+# dgguspat.zip contains the GUS patch files (which you already have) but also includes a file named timidity.cfg - this is the important thing you need.
+# Open [[Setup|the setup tool]], go to the [[Setup/Sound configuration|Sound Configuration dialog]]. Choose "Native MIDI" as a music type. Set "Timidity configuration file" to point to the timidity.cfg file where you've extracted dgguspat.zip.
+
 [[Category:Features]]
 [[Category:Music]]
