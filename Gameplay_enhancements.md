@@ -37,4 +37,4 @@ There are a wide variety of options available for music playback with Chocolate 
 
 === External links ===
 
-* {{idgames|file=sounds/eawpats|title=EAWPATS}}
+* {{idgames|file=sounds/eawpats|title=EAWPATS}} on the idgames archive.
