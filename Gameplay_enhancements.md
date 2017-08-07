@@ -30,3 +30,11 @@ These downloadable music packs contain high quality recordings of Doom's music p
 === External links ===
 
 * [http://sc55.duke4.net/ Website] with downloads for the music packs.
+
+== EAWPATS sound font ==
+
+There are a wide variety of options available for music playback with Chocolate Doom. One good option is to use [[wikipedia:TiMidity++|Timidity]], and the EAWPATS patch set makes for a good time-tested starter set.
+
+=== External links ===
+
+* {{idgames|file=sounds/eawpats|title=EAWPATS}}
