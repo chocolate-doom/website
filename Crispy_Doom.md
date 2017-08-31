@@ -98,6 +98,43 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Changes of [http://latest.chocolate-doom.org <tt>Crispy Doom daily build</tt>] from Crispy Doom 4.1 ===
+
+The changes since 4.1 are mostly final perfections of the previously introduced features.
+
+* The (sprframe->rotate == -1) case is handled since it has been made non-fatal
+
+* Interpolation of player missiles for the first tic is suppressed.
+
+* Different spellings of similar cheats in other engines are now supported.
+
+Kill all monsters: tntem (PrBoom+), killem (MBF), fhhall (Doom95)
+Disable getting targeted by monsters: notarget (PrBoom+), fhshh (Doom95)
+Display framerate: showfps, idrate (PrBoom+)
+
+* Higher scaling video modes up to 3200x2400/3200x2000 are supported on Calinou's request.
+
+* Crashes with maps with unusual map numbers are prevented.
+
+* Music number under- and overflows for both Doom 1 and 2 are prevented.
+
+* Negative ammo values are not allowed anymore thanks to the report by Zodomaniac and AnotherLife.
+
+* Evil grin is now triggered when IDFA/IDKFA is used which is 1) rather reasonable by itself as ID(K)FA gives weapons and items
+and 2) prevents the grin from being triggered when the next random icon is picked up, as AnotherLife noticed.
+
+* The first extra state is explicitly set to 1089 and the first extra mapthing to 150
+to remain in sync with Doom Retro.
+
+* Weapon sprite is removed from clean screenshots only in maximized screen (no HUD) mode now,
+it was awkward before when the status bar was rendered but the weapon wasn't.
+
+* Calling pspr action pointers from mobj states and vice versa won't crash the game anymore
+after Zodomaniac's and JNechaevsky's investigation.
+
+* Menu messages are always printed with shadows regardless of which menu is the current one.
+Thanks to JNechaevsly for spotting this.
+
 === Changes of Crispy Doom 4.1 from Crispy Doom 4.0 ===
 
 Crispy Doom 4.1 has been released on June 14, 2017.
