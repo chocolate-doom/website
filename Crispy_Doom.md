@@ -119,20 +119,15 @@ Display framerate: showfps, idrate (PrBoom+)
 
 * Negative ammo values are not allowed anymore thanks to the report by Zodomaniac and AnotherLife.
 
-* Evil grin is now triggered when IDFA/IDKFA is used which is 1) rather reasonable by itself as ID(K)FA gives weapons and items
-and 2) prevents the grin from being triggered when the next random icon is picked up, as AnotherLife noticed.
+* Evil grin is now triggered when IDFA/IDKFA is used which is 1) rather reasonable by itself as ID(K)FA gives weapons and items and 2) prevents the grin from being triggered when the next random icon is picked up, as AnotherLife noticed.
 
-* The first extra state is explicitly set to 1089 and the first extra mapthing to 150
-to remain in sync with Doom Retro.
+* The first extra state is explicitly set to 1089 and the first extra mapthing to 150 to remain in sync with Doom Retro.
 
-* Weapon sprite is removed from clean screenshots only in maximized screen (no HUD) mode now,
-it was awkward before when the status bar was rendered but the weapon wasn't.
+* Weapon sprite is removed from clean screenshots only in maximized screen (no HUD) mode now, it was awkward before when the status bar was rendered but the weapon wasn't.
 
-* Calling pspr action pointers from mobj states and vice versa won't crash the game anymore
-after Zodomaniac's and JNechaevsky's investigation.
+* Calling pspr action pointers from mobj states and vice versa won't crash the game anymore after Zodomaniac's and JNechaevsky's investigation.
 
-* Menu messages are always printed with shadows regardless of which menu is the current one.
-Thanks to JNechaevsly for spotting this.
+* Menu messages are always printed with shadows regardless of which menu is the current one. Thanks to JNechaevsly for spotting this.
 
 === Changes of Crispy Doom 4.1 from Crispy Doom 4.0 ===
 
