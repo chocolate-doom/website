@@ -102,7 +102,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 The changes since 4.1 are mostly final perfections of the previously introduced features.
 
-* The (sprframe->rotate == -1) case is handled since it has been made non-fatal
+* The (sprframe->rotate == -1) case is handled since it has been made non-fatal.
 
 * Interpolation of player missiles for the first tic is suppressed.
 
