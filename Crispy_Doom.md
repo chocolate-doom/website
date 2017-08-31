@@ -106,8 +106,8 @@ The changes since 4.1 are mostly final perfections of the previously introduced 
 
 * Interpolation of player missiles for the first tic is suppressed.
 
-* Different spellings of similar cheats in other engines are now supported:
-Kill all monsters: tntem (PrBoom+), killem (MBF), fhhall (Doom95)
+* Different spellings of similar cheats in other engines are now supported:<b>
+Kill all monsters: tntem (PrBoom+), killem (MBF), fhhall (Doom95),
 Disable getting targeted by monsters: notarget (PrBoom+), fhshh (Doom95)
 Display framerate: showfps, idrate (PrBoom+)
 
