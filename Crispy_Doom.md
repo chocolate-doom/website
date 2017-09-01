@@ -43,11 +43,11 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 === New cheat codes ===
 
 * <tt>TNTWEAP</tt> followed by a weapon number gives or removes this weapon (8 = Chainsaw, 9 = SSG). Try to load Doom 1 with <tt>DOOM2.WAD</tt> as a PWAD and type <tt>TNTWEAP9</tt> to play the SSG in Doom 1.
-* <tt>TNTEM</tt> kills all monsters on the current map (and disables all cube spitters).
+* <tt>TNTEM</tt>, <tt>KILLEM</tt> or <tt>FHHALL</tt> kill all monsters on the current map (and disables all cube spitters).
 * <tt>SPECHITS</tt> triggers all [[doom:Linedef_type|Linedef actions]] on a map at once, no matter if they are enabled by pushing, walking over or shooting or whether they require a key or not. It also triggers all boss monster and Commander Keen actions if possible.
-* <tt>NOTARGET</tt> toggles deaf and blind monsters that do not act until attacked.
+* <tt>NOTARGET</tt> or <tt>FHSHH</tt> toggle deaf and blind monsters that do not act until attacked.
 * <tt>TNTHOM</tt> toggles the flashing [[doom:Hall_of_mirrors_effect|HOM]] indicator (disabled by default).
-* <tt>SHOWFPS</tt> toggles printing the FPS in the upper right corner.
+* <tt>SHOWFPS</tt> or <tt>IDRATE</tt> toggle printing the FPS in the upper right corner.
 * <tt>NOMOMENTUM</tt> toggles a debug aid for pixel-perfect positioning on a map (not recommended to use in-game).
 * <tt>GOOBERS</tt> triggers an easter egg, i.e. an "homage to an old friend". ;-)
 * <tt>IDBEHOLD0</tt> disables all currently active power-ups.
