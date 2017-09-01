@@ -102,7 +102,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 The changes since 4.1 are mostly final perfections of the previously introduced features.
 
-* The (sprframe->rotate == -1) case is handled since it has been made non-fatal.
+* The (<tt>sprframe->rotate == -1</tt>) case is handled since it has been made non-fatal.
 
 * Interpolation of player missiles for the first tic is suppressed.
 
@@ -122,7 +122,7 @@ The changes since 4.1 are mostly final perfections of the previously introduced 
 
 * Weapon sprite is removed from clean screenshots only in maximized screen (no HUD) mode now, it was awkward before when the status bar was rendered but the weapon wasn't.
 
-* Calling pspr action pointers from mobj states and vice versa won't crash the game anymore after Zodomaniac's and JNechaevsky's investigation.
+* Calling <tt>pspr</tt> action pointers from <tt>mobj</tt> states and vice versa won't crash the game anymore after Zodomaniac's and JNechaevsky's investigation.
 
 * Menu messages are always printed with shadows regardless of which menu is the current one. Thanks to JNechaevsly for spotting this.
 
