@@ -106,7 +106,7 @@ The changes since 4.1 are mostly final perfections of the previously introduced 
 
 * Interpolation of player missiles for the first tic is suppressed.
 
-* Different spellings of similar cheats in other engines are now supported:<br>Kill all monsters: tntem (PrBoom+), killem (MBF), fhhall (Doom95)<br>Disable getting targeted by monsters: notarget (PrBoom+), fhshh (Doom95)<br>Display framerate: showfps, idrate (PrBoom+)
+* Different spellings of similar cheats in other engines are now supported:<br>Kill all monsters: <tt>tntem</tt> (PrBoom+), <tt>killem</tt> (MBF), <tt>fhhall</tt> (Doom95)<br>Disable getting targeted by monsters: <tt>notarget (PrBoom+), <tt>fhshh</tt> (Doom95)<br>Display framerate: <tt>showfps</tt>, <tt>idrate</tt> (PrBoom+)
 
 * Higher scaling video modes up to 3200x2400/3200x2000 are supported on Calinou's request.
 
