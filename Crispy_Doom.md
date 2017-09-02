@@ -116,7 +116,7 @@ The changes since 4.1 are mostly final perfections of the previously introduced 
 
 * Negative ammo values are not allowed anymore thanks to the report by Zodomaniac and AnotherLife.
 
-* Evil grin is now triggered when <tt>IDFA/IDKFA</tt> is used which is 1) rather reasonable by itself as <tt>ID(K)FA</tt> gives weapons and items and 2) prevents the grin from being triggered when the next random icon is picked up, as AnotherLife noticed.
+* Evil grin is now triggered when <tt>IDFA/IDKFA</tt> is used which is 1) rather reasonable by itself as <tt>ID(K)FA</tt> gives weapons and items and 2) prevents the grin from being triggered when the next random item is picked up, as AnotherLife noticed.
 
 * The first extra state is explicitly set to 1089 and the first extra mapthing to 150 to remain in sync with Doom Retro.
 
