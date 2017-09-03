@@ -98,7 +98,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
-=== Changes of [http://latest.chocolate-doom.org <tt>Crispy Doom daily build</tt>] from Crispy Doom 4.1 ===
+=== Changes of [http://latest.chocolate-doom.org Crispy Doom daily build] from Crispy Doom 4.1 ===
 
 The changes since 4.1 are mostly final perfections of the previously introduced features.
 
