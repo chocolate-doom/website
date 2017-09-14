@@ -106,7 +106,7 @@ The changes since 4.1 are mostly final perfections of the previously introduced 
 
 * "Screen shot" message doesn't get burned into the screenshots anymore when they are taken one after another.
 
-* Map coordinates enabled by the IDMYPOS cheat are now persistent, i.e. they don't automatically disappear anymore after a few seconds.
+* Map coordinates enabled by the <tt>IDMYPOS</tt> cheat are now persistent, i.e. they don't automatically disappear anymore after a few seconds.
 
 * The (<tt>sprframe->rotate == -1</tt>) case is handled since it has been made non-fatal.
 
