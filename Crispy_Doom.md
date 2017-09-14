@@ -102,7 +102,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 The changes since 4.1 are mostly final perfections of the previously introduced features.
 
-* DOS references have been removed from the game quit confirmation dialogs, now they say:<br><tt>Press Y to quit.</tt><br><tt>I wouldn't leave if i were you. Your desktop is much worse.</tt><br><tt>You're trying to say you like your desktop better than me, right?</tt> and<br><tt>Don't go now, there's a dimensional shambler waiting at the command prompt!</tt> Note: When switching to SDL2, the desktop references will be replaced by the platform name detected by SDL2 ;)
+* DOS references have been removed from the game quit confirmation dialogs, now they say:<br><tt>Press Y to quit.</tt><br><tt>I wouldn't leave if i were you. Your desktop is much worse.</tt><br><tt>You're trying to say you like your desktop better than me, right?</tt> and<br><tt>Don't go now, there's a dimensional shambler waiting at the command prompt!</tt><br>Note: When switching to SDL2, the desktop references will be replaced by the platform name detected by SDL2 ;)
 
 * "Screen shot" message doesn't get burned into the screenshots anymore when they are taken one after another.
 
