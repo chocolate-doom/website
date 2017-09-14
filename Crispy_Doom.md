@@ -98,9 +98,16 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
-=== Changes of [http://latest.chocolate-doom.org Crispy Doom daily build] from Crispy Doom 4.1 ===
+=== Changes of Crispy Doom 4.2 from Crispy Doom 4.1 ===
 
 The changes since 4.1 are mostly final perfections of the previously introduced features.
+
+* DOS references have been removed from the game quit confirmation dialogs, now they read e.g. "<tt>Press Y to quit.</tt>", "<tt>i wouldn't leave if i were you. Your desktop is much worse.</tt>", "<tt>You're trying to say you like your desktop better than me, right?</tt>" and "<tt>don't go now, there's a \ndimensional shambler waiting at the command prompt!</tt>". Note: When switching to SDL2, the mentionings of the desktop will be replaced by the platform name detected by SDL2 ;)
+
+* "Screen shot" message doesn't get burned into the screenshots anymore when they are taken one after another.
+
+* Map coordinates enabled by the IDMYPOS cheat are now persistent, i.e. they don't automatically disappear
+anymore after a few seconds.
 
 * The (<tt>sprframe->rotate == -1</tt>) case is handled since it has been made non-fatal.
 
