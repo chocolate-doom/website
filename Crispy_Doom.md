@@ -179,57 +179,6 @@ This release adds some further polish to the engine both in terms of Vanilla bug
 
 Crispy Doom 4.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/429fa571c476bf8ffb8aa9994e63db0ef79efe23 <tt>429fa571</tt>].
 
-=== Changes of Crispy Doom 4.0 from Crispy Doom 3.5 ===
-
-Crispy Doom 4.0 has been released on Mar 11, 2017. It is based on Chocolate Doom 2.3.0.
-
-This release introduces some new features and numerous improvements and bug fixes.
-
-'''Features'''
-
-* It is now possible to play demos from savegames, thanks Zodomaniac for the idea.
-* It is now possible to delete savegames.
-* Different crosshair types have been introduced: cross, angle and dot.
-* Additional BOOM and MBF states, sprites and code pointers (supported through BEX format) have been added.
-* DEHACKED states up to 4000 and 100 additional sprites and mapthings from Doom Retro have been added.
-
-'''Improvements'''
-* Dead players falling off an edge don't make an "oof" sound anymore.
-* Extended savegames have been improved to fix restoring of "fireflicker" sectors.
-* Fake contrast has been smoothened.
-* The Cyberdemon's firing frames are now rendered full-bright.
-* Sound is now properly clipped in non-Doom1 MAP08.
-* Status bar face hysteresis has been eliminated.
-* Toggling "always run" now plays a sound.
-* 16 sprite rotations are now supported.
-* Negative player health that can be shown optionally.
-Thanks to JNechaevsky for suggesting all of the above!
-* Smooth freelook and weapon recoil has been implemented by AlexMax, thanks for that!
-* DMENUPIC is now used instead of TITLEPIC for the BFG Edition of DOOM2.WAD.
-* The screenshot filename limit has been increased according to bzzrak's suggestion.
-* E2M9 is shown on the E2 intermission screen if it has been completed.
-* The MAXBUTTONS value is doubled to allow for using the "SPECHITS" cheat on E2M5.
-
-'''Code Clean-Up'''
-* The "Crispness" menu has been disabled in the Setup tool because of its size and functionality being unable to cover all the options.
-* The "Invert Vertical Axis" option in the Setup tool has been replaced with "Permanent Mouse Look".
-* DoomBSP's original BLOCKMAP builder is now used instead of MBF's one as Crispy's internal BLOCKMAP builder (with removed limits and support for flipped levels and BLOCKMAP compression).
-* Linedefs without tags don't apply locally  anymore even in singleplayer (they send the wrong signal, maps that have this must be considered broken).
-
-'''Bug Fixes'''
-
-* In the BFG Edition the correct music track is played when starting "Hell on Earth" after the "NRFTL" episode. Thanks to Zodomaniac for the bug report.
-* Blood spawned by monsters that are being harmed/killed by crushers has been fixed. Thanks to JNechaevsky for the report.
-* Flats don't get more distorted the closer they are to the right in Low-Res mode anymore, thanks to JNechaevsky's report.
-* Attacking Lost Souls flying over the player now don't bump into him (being meters above ;) and deal damage as Zodomaniac reported.
-* While in menus player view is not changed in singleplayer mode and rotated horizontally only in multiplayer mode as pointed out by Zodomaniac.
-* Music number overflows at MAP >= 36 are prevented after Zodomaniac's report.
-* The game doesn't crash anymore on the intermission screen with maps > 33 which was spotted by Zodomaniac.
-* Game parameters are now re-read from the command line when starting a new game, because an in-game demo could change them in between as Zodomaniac noticed.
-* When playing demos, NERVE.WAD levels are now skipped only if map <= 9 (the game errored out on demo's MAP10 before).
-
-Crispy Doom 4.0 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/9a257cdf78ee4fa7d3de5bbb5be3ca733b06077f <tt>9a257cdf78</tt>].
-
 '''[[Crispy Doom/Changelog|Previous changes]]'''
 
 == Versioning ==
