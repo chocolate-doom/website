@@ -103,7 +103,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 4.3 has been released on September XX, 2017.
 
-This quick fix release introduces improvements requested by '''ZeroMaster010''' and is supposed to be the last release based on SDL1.
+This quick fix release introduces improvements requested by ZeroMaster010 and is supposed to be the last release based on SDL1.
 
 '''Improvements'''
 
