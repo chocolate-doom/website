@@ -39,7 +39,6 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
 * <tt>-fliplevels</tt> loads mirrored versions of the maps. '''WARNING: This is the default on April 1st!'''
 * <tt>-blockmap</tt> force a (re-)building of the BLOCKMAP lumps for loaded maps.
-* <tt>-shorttics</tt> forces low-resolution turning even when not recording a demo which is useful to practise for demo runs.
 
 === New cheat codes ===
 
@@ -68,7 +67,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 == Download ==
 
 Binaries for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) are available here: 
-<br />http://www.greffrath.com/~fabian/crispy-doom_4.2.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom_4.3.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
 <br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_2.zip
@@ -101,15 +100,15 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
 
-Crispy Doom 4.3 has been released on September XX, 2017.
+Crispy Doom 4.3 has been released on September 19, 2017.
 
 This quick fix release introduces improvements requested by ZeroMaster010 and is supposed to be the last release based on SDL1.
 
 '''Improvements'''
 
-* <tt>sector->soundtarget</tt> is now saved in extended savegames.
+* The <tt>sector->soundtarget</tt> element is now saved in extended savegames.
 
-* <tt>-shorttics</tt> command line option has been added to force low-resolution turning even when not recording a demo which is useful for demo run practice.
+* The <tt>-shorttics</tt> command line option has been added to force low-resolution turning even when not recording a demo which is useful for demo run practice.
 
 * Smoother fake contrasts are disabled again as they disturb pixel perfect alignment for speedrunners.
 
@@ -137,7 +136,7 @@ The changes since 4.1 are mostly polish of previously introduced features.
 * Calling <tt>pspr</tt> action pointers from <tt>mobj</tt> states and vice versa won't crash the game anymore after Zodomaniac's and JNechaevsky's investigation.
 * Menu messages are always printed with shadows regardless of which menu is the current one. Thanks to JNechaevsly for spotting this.
 
-Crispy Doom 4.2 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/83a71dd850fb02e571e2b5117f234395f8869a11 <tt>83a71dd8</tt>].
+Crispy Doom 4.3 and 4.2 have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/83a71dd850fb02e571e2b5117f234395f8869a11 <tt>83a71dd8</tt>].
 
 === Changes of Crispy Doom 4.1 from Crispy Doom 4.0 ===
 
