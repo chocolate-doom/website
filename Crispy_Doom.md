@@ -39,6 +39,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
 * <tt>-fliplevels</tt> loads mirrored versions of the maps. '''WARNING: This is the default on April 1st!'''
 * <tt>-blockmap</tt> force a (re-)building of the BLOCKMAP lumps for loaded maps.
+* <tt>-shorttics</tt> forces low-resolution turning even when not recording a demo which is useful to practise for demo runs.
 
 === New cheat codes ===
 
