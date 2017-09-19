@@ -109,8 +109,7 @@ This quick fix release introduces improvements requested by '''ZeroMaster010''' 
 
 * <tt>sector->soundtarget</tt> is now saved in extended savegames.
 
-* <tt>-shorttics</tt> command line option has been added to force low-esolution turning even when not
-recording a demo which is useful for demo run practice.
+* <tt>-shorttics</tt> command line option has been added to force low-esolution turning even when not recording a demo which is useful for demo run practice.
 
 * Smoother fake contrasts are disabled again as they disturb pixel perfect alignment for speedrunners.
 
