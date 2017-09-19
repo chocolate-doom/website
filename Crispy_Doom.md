@@ -99,13 +99,26 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
+
+Crispy Doom 4.3 has been released on September XX, 2017.
+
+This quick fix release introduces improvements requested by '''ZeroMaster010''' and is supposed to be the last release based on SDL1.
+
+'''Improvements'''
+
+* <tt>sector->soundtarget</tt> is now saved in extended savegames.
+
+* <tt>-shorttics</tt> command line option has been added to force low-esolution turning even when not
+recording a demo which is useful for demo run practice.
+
+* Smoother fake contrasts are disabled again as they disturb pixel perfect alignment for speedrunners.
+
 === Changes of Crispy Doom 4.2 from Crispy Doom 4.1 ===
 
 Crispy Doom 4.2 has been released on September 15, 2017.
 
 The changes since 4.1 are mostly polish of previously introduced features.
-
-This is supposed to be the last released based on SDL1.
 
 '''Improvements'''
 
