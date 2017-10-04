@@ -5,56 +5,24 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 == Linux distributions ==
 
-=== Arch Linux ===
-Arch Linux has a package on the AUR [https://aur.archlinux.org/packages/chocolate-doom/]
+'''[https://aur.archlinux.org/packages/chocolate-doom/ Arch Linux]''': <code>yaourt -S chocolate-doom</code>
 
-  yaourt -S chocolate-doom
+'''[https://packages.debian.org/stable/chocolate-doom Debian / Ubuntu]''': <code>apt-get install chocolate-doom</code>
 
-=== Debian ===
+: Note that in releases of Debian before v9, you must enable the ''contrib'' area to access the package.
 
-Debian has a package named [https://packages.debian.org/stable/chocolate-doom chocolate-doom]. To install, run this command as root:
+'''[https://admin.fedoraproject.org/pkgdb/package/rpms/chocolate-doom/ Fedora]''': <code>yum install chocolate-doom</code>
 
-  apt-get install chocolate-doom
+'''Gentoo''': See [[Building Chocolate Doom on Gentoo]].
 
-Note that in releases of Debian before v9, you must enable the ''contrib'' area to access the package.
-
-=== Linux Mint ===
-
-Linux Mint has [https://community.linuxmint.com/software/view/chocolate-doom a chocolate-doom package]. To install:
-
-  sudo apt-get install chocolate-doom
-
-=== Ubuntu ===
-
-Instructions are the same as for Debian, since Ubuntu is a Debian fork.
-
-=== Fedora ===
-There's a chocolate-doom package in Fedora. To install, use the yum package manager:
-
-  yum install chocolate-doom
-
-=== Gentoo ===
-See [[Building Chocolate Doom on Gentoo]].
-
-=== NixOS ===
-=== OpenSuSE ===
+'''[https://community.linuxmint.com/software/view/chocolate-doom Linux Mint]''': <code>sudo apt-get install chocolate-doom</code>
 
 == BSD ==
 
-=== FreeBSD ===
-There is a chocolate-doom package in the FreeBSD ports collection. To add the package:
+'''[https://www.freshports.org/games/chocolate-doom FreeBSD]''': <code>pkg install chocolate-doom</code>
 
-  pkg install chocolate-doom
-
-Or to build the port freshly:
-
-  cd /usr/ports/games/chocolate-doom/ && make install clean
-
-=== OpenBSD ===
-There is a chocolate-doom package in the OpenBSD ports collection. To install:
-
-  pkg_add chocolate-doom
+'''[http://ports.su/games/chocolate-doom OpenBSD]''': <code>pkg_add chocolate-doom</code>
 
 ==  Generic ==
 
-See [[Building Chocolate Doom on Linux (generic)]] for instructions on how to build from source.
+See [[Building Chocolate Doom on Linux]] for instructions on how to build from source.
