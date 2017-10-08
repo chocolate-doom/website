@@ -17,6 +17,10 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 '''[https://community.linuxmint.com/software/view/chocolate-doom Linux Mint]''': <code>sudo apt-get install chocolate-doom</code>
 
+'''[https://madb.mageia.org/package/show/name/chocolate-doom Mageia]''': <code>urpmi chocolate-doom</code>
+
+'''[https://software.opensuse.org/package/chocolate-doom OpenSuSE]''': <code>zypper install chocolate-doom</code>
+
 == BSD ==
 
 '''[https://www.freshports.org/games/chocolate-doom FreeBSD]''': <code>pkg install chocolate-doom</code>
