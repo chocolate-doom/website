@@ -1,4 +1,5 @@
 [[Image:Plutonia_2.png|320px|right]]
+{{Doomwiki}}
 '''[[Doom:Plutonia 2|Plutonia 2]]''' is a 32-level megawad for [[Doom:The Plutonia Experiment|The Plutonia Experiment]].  Unlike most other megawads, this ''requires'' a copy of Final Doom to run (or [[Freedoom]]):
 
 # Download {{idgames|file=levels/doom2/megawads/pl2.zip|title=Plutonia 2}} and extract it.
