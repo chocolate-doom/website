@@ -1,4 +1,5 @@
 [[Image:Chocolate-eternal-doom.png|right|320px]]
+{{Doomwiki}}
 To play Eternal Doom under Chocolate Doom:
 
 # Download {{idgames|file=themes/TeamTNT/eternal/eternal.zip|title=Eternal Doom}}
