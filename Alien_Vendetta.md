@@ -1,4 +1,5 @@
 [[Image:Chocolate-av.png|thumb|320px|right|Alien Vendetta running in Chocolate Doom.]]
+{{Doomwiki|Alien Vendetta}}
 '''Alien Vendetta''' is a 32-level single player megawad for Vanilla Doom.
 
 === Instructions ===
