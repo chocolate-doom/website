@@ -171,9 +171,9 @@ To keep up to date, periodically run these command to update your source:
  git pull
 
 ==External links==
+{{Doomwiki|Competition Doom}}
 *[https://github.com/fx02/cndoom.git Competition Doom Git]
 *[http://doom.com.hr/compet-n/ Competition Doom homepage]
-
 
 ==Help and contact==
 
