@@ -1,4 +1,5 @@
 [[Image:chocolate-eternal-freedoom.png|thumb|200px|right|Chocolate Doom running [[Eternal Doom]] with Freedoom.]]
+{{Doomwiki}}
 '''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, the single player campaigns ("Freedoom: Phase 1 and 2") are not compatible with Chocolate Doom. Instead, it's recommended that you download the '''FreeDM''' multiplayer spinoff project, which is vanilla compatible and works with Chocolate Doom.
 
 Simple instructions:
