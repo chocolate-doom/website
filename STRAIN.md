@@ -1,4 +1,5 @@
 [[Image:chocolate-strain.png|right|320px|thumb|STRAIN running under Chocolate Doom.]]
+{{Doomwiki}}
 STRAIN is a 32-level TC by the Alpha Dog Alliance.
 
 Following are instructions for running STRAIN under Chocolate Doom: 
