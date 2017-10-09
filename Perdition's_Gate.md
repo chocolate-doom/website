@@ -1,4 +1,5 @@
 [[Image:Perdition's Gate.png|320px|right]]
+{{Doomwiki}}
 '''[[Doom:Perdition's Gate|Perdition's Gate]]''' is a commercial 32-level add-on that was originally slated to be a third megawad included in [[Doom:Final Doom|Final Doom]]. For more information about its development, visit [http://www.mustaine.com/about/video-game-work/perditions-gate/ Tom Mustaine's website].
 
 ==Demo==
