@@ -1,4 +1,5 @@
 [[Image:Chexquest.png|thumb|right|320px|Chex Quest playing]]
+{{Doomwiki}}
 Chocolate Doom has full support for '''[[doom:Chex Quest|Chex Quest]]''', including demo compatibility.  The game is from a promotional CD-ROM included in boxes of Chex cereal in 1996.  Although based on Doom, some concepts in the game were changed to make it more friendly for children. For example, the weapons do not kill the monsters; instead, they "send them to a parallel dimension".
 
 To play Chex Quest in Chocolate Doom, follow these steps:
