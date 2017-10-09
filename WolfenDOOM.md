@@ -1,4 +1,5 @@
 [[Image:Chocolate-wolfendoom.png|320px|right]]
+{{Doomwiki|WolfenDOOM (Doom)}}
 [[WolfenDOOM]] is a collection of Wolfenstein 3D-inspired episodes for Doom II. To run them under Chocolate Doom: 
  
 #Download one of the WolfenDOOM WADs from [http://lazrojas.com/wolfendoom/ the website] and extract.
