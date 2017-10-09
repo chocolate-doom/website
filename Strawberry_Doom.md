@@ -3,7 +3,7 @@
 Development of Strawberry Doom appears to have halted.
 
 == External links ==
-
+{{Doomwiki}}
 * [[doom:Strawberry Doom|Strawberry Doom]] on the Doom wiki.
 
 [[Category:Forks]]
