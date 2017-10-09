@@ -1,4 +1,5 @@
 [[Image:Obituary.png|right|thumb|320px|Obituary running in Chocolate Doom.]]
+{{Doomwiki}}
 '''Obituary''' is a [[doom:TC|TC]] by The Innocent Crew.  
 
 Loading Obituary is unusual because it uses [[doom:NWT|NWT]] rather than DEUSF.  To play Obituary without the new weapons:
