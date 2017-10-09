@@ -16,6 +16,7 @@ Chocolate Strife was developed by [[doom:James Haley (Quasar)|James Haley]] and 
 The Chocolate Doom icon (as shown at the top left of this page) is based on a [http://www.flickr.com/photos/laffy4k/448920776/ photo] of an icecream by [http://www.chrismetcalf.org/ Chris Metcalf].
 
 == See also ==
+{{Doomwiki|Chocolate Doom}}
 
 * [[:Category:Features|Features]] of Chocolate Doom
 * [[Screenshots]]
