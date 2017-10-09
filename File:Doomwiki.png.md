@@ -1,0 +1,1 @@
+Logo for the Doom wiki, from doomwiki.org. CC-BY-SA.
