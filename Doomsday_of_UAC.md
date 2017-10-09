@@ -1,4 +1,5 @@
 [[Image:Chocolate-uac_dead.png|right|320px|Doomsday of UAC running under Chocolate Doom]]
+{{Doomwiki}}
 Doomsday of UAC ('''uac_dead.wad''') is a classic and well-known WAD file for Doom 1.  It does not play properly under [[doom:Ultimate Doom|Ultimate Doom]] and most ports due to a change in the behavior of [[doom:Tag 666|sector tag 666]] between versions.  Chocolate Doom allows uac_dead.wad to be played by emulating the older version.
 
 Instructions:
