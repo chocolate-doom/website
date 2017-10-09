@@ -1,5 +1,5 @@
 [[File:Russian_Doom_translations.png|thumb|320px|right|Translated games]]
-
+{{Doomwiki}}
 Russian Doom is aimed to full and proper Russian translation of Doom, Heretic and Hexen games, as well as its setup executable and online help. Additionally it has numerous vanilla bug fixes, enhanced 640x400 display resolution, improved game palettes, removed limits and offers many optional aesthetic game enhancements. 
 
 The project is based on [[Chocolate Doom]] and [[Crispy Doom]].
