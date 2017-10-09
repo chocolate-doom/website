@@ -1,4 +1,5 @@
 [[Image:Chocolate-batman-doom.png|320px|right]]
+{{Doomwiki}}
 The following are instructions on how to play [[doom:Batman Doom|Batman Doom]] under Chocolate Doom.
 
 # First, download {{idgames|file=themes/batman/batman.zip|title=batman.zip}} containing the game files, and extract it.
