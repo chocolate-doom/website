@@ -1,4 +1,5 @@
 [[Image:allhell.jpg|thumb|320px|right|All Hell is Breaking Loose running in Chocolate Doom.]]
+{{Doomwiki|All Hell is Breaking Loose}}
 The following are instructions on how to play All Hell is Breaking Loose under Chocolate Doom.
 
 # First, download {{idgames|file=levels/doom2/a-c/allhell.zip|title=All Hell is Breaking Loose}} from the idgames archive.
