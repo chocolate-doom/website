@@ -14,10 +14,10 @@ Click below to download the latest release of Chocolate Doom ('''version 2.3.0''
 * [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-strife-2.3.0-win32.zip Chocolate Strife] for Windows
 }}
 
-{{Downloadsbox|File:OSX_mavericks_logo.png|
-'''Apple Mac OS X''' binaries:
+{{Downloadsbox|File:Apple logo.png|
+'''Apple macOS''' binaries:
 
-* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.dmg Chocolate Doom] for Mac (unified package, supports all four games.)
+* [https://www.chocolate-doom.org/downloads/2.3.0/chocolate-doom-2.3.0.dmg Chocolate Doom] for macOS (unified package, supports all four games.)
 }}
 
 {{Downloadsbox|File:Open_source_logo.png|
