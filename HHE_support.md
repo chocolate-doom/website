@@ -9,4 +9,9 @@ As far as is known, Chocolate Heretic is the first source port to support loadin
 * [[Chocolate Heretic]]
 * [[Raven-branch]]
 
+== External links ==
+
+* {{idgames|file=utils/exe_edit/hhe11|title=HHE v1.1}} on idgames.
+* [http://ettingrinder.youfailit.net/heretic-hhe.html ETTiNGRiNDER's page on HHE].
+
 [[Category:Features]]
