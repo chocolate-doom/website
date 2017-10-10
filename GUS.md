@@ -11,7 +11,7 @@ A setup guide for how to configure GUS music playback can be found in the [https
 == Vanilla wrong instruments bug ==
 
 [[doom:Vanilla Doom|Vanilla Doom]] has a [[doom:GUS_instrument_mappings_bug|bug]] where it will play wrong instruments when using a GUS. In keeping with the project [[philosophy]], Chocolate Doom faithfully emulates this bug, but some people find it sounds unpleasant.
-
+{{doomwiki|GUS instrument mappings bug}}
 In order to work around this bug, it is possible instead to play with the GUS patches directly without using Chocolate Doom's GUS emulation. To do this:
 
 # Download {{idgames|file=music/dgguspat.zip|title=GUS patch files}} and unzip.
