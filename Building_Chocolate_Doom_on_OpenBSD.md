@@ -11,7 +11,7 @@ In order to compile Chocolate Doom, you will need the following (see [http://www
 * Git - only if you need to compile the latest and greatest source code.
 
 === Compiling the source code from official release ===
-Download the latest source code release from [http://github.com/chocolate-doom/chocolate-doom Github] and extract it with <tt>tar xzf chocolate-doom-x.y.z.tar.gz</tt>
+Download the latest source code release from [[Downloads|the Downloads page]] and extract it with <tt>tar xzf chocolate-doom-x.y.z.tar.gz</tt>
  cd chocolate-doom-1.2.1
  ./configure --mandir=/usr/local/man
    # The option here allows you to view the manual pages on OpenBSD with [http://www.openbsd.org/cgi-bin/man.cgi?query=man man(1)]
