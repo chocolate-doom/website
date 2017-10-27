@@ -11,7 +11,7 @@ Marshmallow Doom is unlike most source ports in that it '''does not make any cha
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's new features can be easily switched on/off as to allow the player to design their own unique Doom experience.  Most options are available in an all-new in-game HUD menu, and other features such as multiplayer options are switchable via the command line.
+Most of Marshmallow Doom's new features can be easily switched on/off as to allow the player to design their own unique Doom experience.  Most options are available in a new in-game HUD menu, and other features such as multiplayer options are switchable via the command line.
 
 === Multiplayer features ===
 
@@ -25,14 +25,14 @@ The very first objective for the Marshmallow Doom project was to further polish 
 * Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
 * Keep any keys collected after you die/respawn
 * Player will respawn with all weapons owned at end of previous map
+* Current map can be skipped at any time during netgame
 
-=== Singleplayer-only features ===
+=== More features ===
 
-The following features are currently only available in singleplayer or bot games, but in future releases will be adapted to work in a true network game:
-
-* Inventory system where the player can carry a radsuit, invulnerability, invisilbility, and portable medkit for later use
-* Mirror damage can be enforced to deter friendly fire
-* Weapons stay in co-op
+* Change game skill level while in-game
+* Easily change maps using the new HUD menu
+* Player suicide
+* Auto-use
 
 === Bots ===
 
@@ -40,9 +40,11 @@ Up to three AI-controlled bots are available for a single-player co-op experienc
 
 === Dynamic music ===
 
+=== New item behaviors ===
 
+==== Inventory ====
 
-=== New in-game items ===
+The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.
 
 === New command line parameters ===
 
