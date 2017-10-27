@@ -1,7 +1,7 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as: multiplayer bots, dynamic gameplay-driven music, treasure items, player inventory, and many more.
+Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, treasure items, player inventory, and many more.
 
 == Synopsis ==
 
@@ -15,9 +15,7 @@ Most of Marshmallow Doom's new features can be easily switched on/off as to allo
 
 === Multiplayer features ===
 
-The very first objective for the Marshmallow Doom project was to further polish Doom's multiplayer experience, particularly co-op play.  
-
-New multiplayer options include:
+The very first objective for the Marshmallow Doom project was to further polish Doom's multiplayer experience; particularly co-op play.  New multiplayer options include:
 
 * Friendly fire can be disabled
 * Mirror damage can be enforced to deter friendly fire
@@ -28,11 +26,21 @@ New multiplayer options include:
 * Keep any keys collected after you die/respawn
 * Player will respawn with all weapons owned at end of previous map
 
+=== Singleplayer-only features ===
+
+The following features are currently only available in singleplayer or bot games, but in future releases will be adapted to work in a true network game:
+
+* Inventory system where the player can carry a radsuit, invulnerability, invisilbility, and portable medkit for later use
+* Mirror damage can be enforced to deter friendly fire
+* Weapons stay in co-op
+
 === Bots ===
 
-Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map, engaging any enemies along the way.  They will also open doors, hit switches, and any keys collected by the player will be automatically sent to the bots.  The bots do not use any weapon/item pickups, so each bot's weapon can be changed in the HUD menu.
+Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map.  They will engage enemies, open doors, hit switches, etc.  The bots do not use any weapon/item pickups, so each bot's weapon can be set by the player in the new HUD menu.
 
 === Dynamic music ===
+
+
 
 === New in-game items ===
 
