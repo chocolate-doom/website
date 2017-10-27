@@ -15,7 +15,7 @@ Most of Marshmallow Doom's new features can be easily switched on/off as to allo
 
 === Multiplayer features ===
 
-The very first objective for the Marshmallow Doom project was to further polish Doom's multiplayer experience; particularly co-op play.  New multiplayer options include:
+The first goal for the Marshmallow Doom project was to improve Doom's multiplayer experience; particularly co-op play.  New multiplayer options include:
 
 * Friendly fire can be disabled
 * Mirror damage can be enforced to deter friendly fire
@@ -27,33 +27,45 @@ The very first objective for the Marshmallow Doom project was to further polish 
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during netgame
 
-=== More features ===
-
-* Change game skill level while in-game
-* Easily change maps using the new HUD menu
-* Player suicide
-* Auto-use
-
 === Bots ===
 
 Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map.  They will engage enemies, open doors, hit switches, etc.  The bots do not use any weapon/item pickups, so each bot's weapon can be set by the player in the new HUD menu.
 
 === Dynamic music ===
 
-=== New item behaviors ===
+The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  This feature is inspired by the dynamic music system known as iMuse, as seen in classic Lucasarts games such as X-Wing, Dark Forces, etc.
+
+Music from either (or both) Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter -steal and the other game's music will be automatically imported.
+
+=== Item pickups ===
 
 ==== Inventory ====
 
-The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.
+The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.  Pressing 'v' on the keyboard will open your inventory.
+
+==== New/repurposed items ====
+
+A few of Doom's item pickups have been repurposed and/or improved:
+
+* A '''portable medkit''' is added to your inventory as part of the berserk/strength powerup
+* A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
+* The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
+* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in treasure mode
 
 === New command line parameters ===
 
--todo
+
 
 === New cheat codes ===
 
-iddqd
 
+
+=== More features ===
+
+* Change game skill level while in-game
+* Easily change maps using the new HUD menu
+* Player suicide
+* Auto-use
 
 == Download ==
 
