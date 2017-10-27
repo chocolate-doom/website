@@ -13,7 +13,7 @@ Marshmallow Doom is unlike most source ports in that it '''does not make any cha
 
 Most of Marshmallow Doom's new features can be easily switched on/off as to allow the player to design their own unique Doom experience.  Most options are available in an all-new in-game HUD menu, and other features such as multiplayer options are switchable via the command line.
 
-=== New multiplayer options ===
+=== Multiplayer features ===
 
 The very first objective for the Marshmallow Doom project was to further polish Doom's multiplayer experience, particularly co-op play.  
 
@@ -25,10 +25,12 @@ New multiplayer options include:
 * Multiplayer weapon/item pickups are not spawned in co-op by default, but can be forced with command line option '''-dmw''' (short for "deathmatch weapons")
 * When players are killed, they drop a backpack of ammo as well as their current weapon at time of death
 * Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
-* Keep your keys after you die/respawn
-* Keep the weapons you owned at map start; when you die/respawn, you will respawn with these weapons
+* Keep any keys collected after you die/respawn
+* Player will respawn with all weapons owned at end of previous map
 
 === Bots ===
+
+Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map, engaging any enemies along the way.  They will also open doors, hit switches, and any keys collected by the player will be automatically sent to the bots.  The bots do not use any weapon/item pickups, so each bot's weapon can be changed in the HUD menu.
 
 === Dynamic music ===
 
