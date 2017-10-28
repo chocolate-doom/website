@@ -70,7 +70,7 @@ Marshmallow Doom's treasure items are actually a repurposing of Doom's colored s
 
 Sandbox mode allows you to design your own monster hordes in an empty map of your choice, then fight to the death in either singleplayer or co-op.  
 
-When using Marshmallow Doom's WAD stealing feature, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
+When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
 === Nightmare 2.0 ===
 
