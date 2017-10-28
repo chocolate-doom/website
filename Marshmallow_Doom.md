@@ -12,7 +12,7 @@ Marshmallow Doom is unlike most source ports in that it '''does not make any cha
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can be turned off if desired.  See [[New command line parameters]] for more information.
+Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can also be turned off, allowing the player to customize their own balance between vanilla and enhanced gameplay. 
 
 === HUD menu ===
 
@@ -134,7 +134,6 @@ Up to three AI-controlled bots are available for a single-player co-op experienc
 ==== Danger Index ====
 
 The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
-
 
 == New cheat codes ==
 
