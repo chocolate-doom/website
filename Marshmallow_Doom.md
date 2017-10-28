@@ -12,8 +12,7 @@ Marshmallow Doom is unlike most source ports in that it '''does not make any cha
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's options are easily accessible during gameplay via a simple [[HUD menu]], and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can be turned off if desired.  See [[New command line parameters]] for more information.
-
+Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can be turned off if desired.  See [[New command line parameters]] for more information.
 
 === HUD menu ===
 
@@ -44,9 +43,9 @@ The player can now carry a radsuit, invulnerability, invisilbility, and portable
 Pressing ''''v'''' on the keyboard will open your inventory.
 
 
-==== New/Repurposed Items ====
+==== New Items ====
 
-A few of Doom's item pickups have been repurposed and/or changed:
+A few of Doom's original item pickups have been repurposed for use by a few new items:
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus pickup called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
@@ -63,9 +62,19 @@ For those gamers who miss the days of collecting treasure for points, Marshmallo
 Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.
 
 
+==== Monster Bonuses ====
+
+All monsters now drop a bonus item when killed.  For example: Arachnatrons drop a cell pack, Cyberdemons drop a megasphere, and others drop a new health powerup called the '''Demonsphere'''.  A repurposing of Doom’s invisibility sphere, the Demonsphere awards you a health bonus amount relative to the difficulty of the monster killed.
+
+
+==== Conserved Item Pickups ====
+
+When the player touches a large health or ammo pickup, only the ammo needed to reach maximum ammo capacity is deducted from the item pickup.  The item remains on the ground until it is empty.  This feature is particularly useful during co-op games.
+
+
 ==== Sandbox Games ====
 
-Sandbox mode allows you to design your own monster hordes in an empty map of your choice, then fight to the death in either singleplayer or co-op.  
+Sandbox mode allows you to design your own monster hordes in an empty map of your choice. Fight to the death in either singleplayer or co-op.
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
@@ -92,7 +101,10 @@ Other new features include:
 * Auto-use
 * Monster respawn in nightmare is optional
 
+
+
 === Technology ===
+
 
 ==== Dynamic Music ====
 
