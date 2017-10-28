@@ -88,6 +88,20 @@ A new difficulty level is offered:
 * Cheats enabled (single-player only)
 
 
+==== New event messages ====
+
+Many new event messages will keep the player informed of important events during a game.  The types of messages shown can be customized using the HUD menu. A few examples of these messages include:
+
+* "An Archvile has spotted you"
+* "You killed a teammate"
+* "You were killed by an Imp"
+
+Other information available includes:
+
+* Reporting the current target's remaining health
+* Missile-lock alerts
+
+
 ==== More features ====
 
 Other new features include:
@@ -121,20 +135,6 @@ Up to three AI-controlled bots are available for a single-player co-op experienc
 ==== Danger Index ====
 
 The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
-
-
-==== New event messages ====
-
-Many new event messages will keep the player informed of important events during a game.  The types of messages shown can be customized using the HUD menu. A few examples of these messages include:
-
-* "An Archvile has spotted you"
-* "You killed a teammate"
-* "You were killed by an Imp"
-
-Other information available includes:
-
-* Reporting the current target's remaining health
-* Missile-lock alerts
 
 
 == New cheat codes ==
