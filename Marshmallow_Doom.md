@@ -70,6 +70,7 @@ All monsters now drop a bonus item when killed.  For example: Arachnatrons drop 
 
 When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum ammo or health capacity is deducted from the item''' pickup.  The item remains on the ground until it is empty.  This feature is particularly useful during co-op games.
 
+
 ==== Sandbox Games ====
 
 Sandbox mode allows you to design your own monster hordes in an empty map of your choice. Fight to the death in either singleplayer or co-op.
