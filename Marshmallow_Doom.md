@@ -66,9 +66,9 @@ For those gamers who miss the days of collecting treasure for points, Marshmallo
 
 Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.
 
-=== Sandbox DOOM ===
+=== Sandbox Doom ===
 
-Marshmallow Doom's '''Sandbox mode''' allows you to design your own monster hordes in an empty map of your choice.  
+Marshmallow Doom's '''Sandbox mode''' allows you to design your own monster hordes in an empty map of your choice.
 
 === Nightmare 2.0 ===
 
