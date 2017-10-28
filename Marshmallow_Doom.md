@@ -54,7 +54,7 @@ A few of Doom's item pickups have been repurposed and/or changed:
 
 The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
 
-For gamers who might miss the days of collecting treasure for points, Marshmallow Doom offers the option for '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items.  In full treasure mode however, all health and armor bonuses are also converted to treasure items.  
+For gamers who might miss the days of collecting treasure for points, Marshmallow Doom offers the option for '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch.  In full treasure mode however, all health and armor bonuses are also converted to treasure items.  
 
 Colored skull keys have been repurposed as our treasure items, therefore any actual skull keys are converted to standard keys as to avoid confusion.
 
@@ -80,6 +80,17 @@ Other new features include:
 * Monster respawn in nightmare is optional
 
 === New event messages ===
+
+Many new event messages will keep the player informed of important events during a game.  The types of messages shown can be customized using the HUD menu. A few examples of these messages include:
+
+* "An Archvile has spotted you"
+* "You killed a teammate"
+* "You were killed by an Imp"
+
+Other information available includes:
+
+* Reporting the current target's remaining health
+* Missile-lock alerts
 
 === New cheat codes ===
 
