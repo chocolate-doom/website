@@ -9,15 +9,18 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port which pr
 
 Marshmallow Doom is unlike most source ports in that it '''does not make any changes to system-oriented code''' (renderer, sound, networking, etc.) but also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of the game's "new" features are simply an internal reorganization/reporposing of Doom's existing functionality and assets.
 
+
 == Objectives and features ==
 
 Most of Marshmallow Doom's options are easily accessible during gameplay via a simple [[HUD menu]], and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can be turned off if desired.  See [[New command line parameters]] for more information.
+
 
 === HUD menu ===
 
 Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll press the square brackets ''''['''' and '''']'''', and backslash ''''\'''' to select.
 
 The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
+
 
 === Multiplayer features ===
 
