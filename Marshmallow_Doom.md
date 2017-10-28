@@ -39,7 +39,7 @@ Music from either (or both) Doom and Doom II can be used interchangably while pl
 
 === Inventory ===
 
-The player can now carry a radsuit, invulnerability, invisilbility, and [portable medkit] for later use.  Pressing 'v' on the keyboard will open your inventory.
+The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.  Pressing 'v' on the keyboard will open your inventory.
 
 === New/Repurposed Items ===
 
@@ -48,7 +48,7 @@ A few of Doom's item pickups have been repurposed and/or changed:
 * A '''portable medkit''' is added to your inventory as part of the berserk/strength powerup
 * A new health bonus pickup called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
-* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in treasure mode
+* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode
 
 === Treasure Items ===
 
@@ -65,6 +65,16 @@ A new difficulty level is offered:
 * Monsters do not respawn (by default, but can be changed)
 * All monster healthpoints are increased, especially useful for being an added challenge to Doom's co-op play
 * Cheats enabled (single-player only)
+
+=== HUD menu ===
+
+Launch the in-game menu by pressing 'm' on the keyboard.  
+
+The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu system.
+
+=== Danger Index ===
+
+The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
 
 === More features ===
 
