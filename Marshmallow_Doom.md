@@ -77,7 +77,7 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 A new difficulty level is offered:
 
 * Monsters do not respawn (by default, but can be changed)
-* All monster healthpoints are increased, especially useful for being an added challenge to Doom's co-op play
+* All monster healthpoints are increased; ideal for co-op play
 * Cheats enabled (single-player only)
 
 === Danger Index ===
