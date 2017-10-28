@@ -41,34 +41,56 @@ Music from either (or both) Doom and Doom II can be used interchangably while pl
 
 The player can now carry a radsuit, invulnerability, invisilbility, and [portable medkit] for later use.  Pressing 'v' on the keyboard will open your inventory.
 
-=== New/repurposed items ===
+=== New/Repurposed Items ===
 
 A few of Doom's item pickups have been repurposed and/or changed:
 
 * A '''portable medkit''' is added to your inventory as part of the berserk/strength powerup
-* A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
+* A new health bonus pickup called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
 * Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in treasure mode
 
 === Treasure Items ===
 
-id's original vision for Doom in fact included having the player collect treasure items as in their previous title, Wolfenstein 3D.  Later in Doom's development however, these items were changed to health and armor bonuses and the usual elements of "points" and "lives" were discarded.  
+The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
 
 For gamers who might miss the days of collecting treasure for points, Marshmallow Doom offers the option for '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items.  In full treasure mode however, all health and armor bonuses are also converted to treasure items.  
 
-Since skull keys are repurposed as our treasure items, actual skull keys are converted to standard keys as to avoid confusion.
+Colored skull keys have been repurposed as our treasure items, therefore any actual skull keys are converted to standard keys as to avoid confusion.
+
+=== Nightmare 2.0 ===
+
+A new difficulty level is offered:
+
+* Monsters do not respawn (by default, but can be changed)
+* All monster healthpoints are increased, especially useful for being an added challenge to Doom's co-op play
+* Cheats enabled (single-player only)
 
 === More features ===
 
 Other new features include:
 
+* Fast single-key melee attack (press '~')
+* Pushing barrels around the map 
+* Sprint (primarily for platform-running)
 * Change game skill level while in-game
 * Player suicide
 * Change maps easily using the new HUD menu
 * Auto-use
+* Monster respawn in nightmare is optional
+
+=== New event messages ===
+
+=== New cheat codes ===
+
+* <tt>ENDMAPNOW</tt> aborts the current level by calling G_ExitLevel()
+* <tt>KILLMENOW</tt> triggers a player suicide
+* <tt>SKILL</tt> Will report the current game skill level
 
 === New command line parameters ===
 
-
-
-=== New cheat codes ===
+* <tt>-dj</tt> will start the game with dynamic music enabled
+* <tt>-tr</tt> enables normal treasure mode
+* <tt>-trb</tt> enables full treasure mode, replacing all health and armor bonuses with treasure
+* <tt>-dmw</tt> forces-on the multiplayer-only item spawns which are now off by default in co-op play
+* <tt>-scale <x></tt> will multiply all enemy healthpoints by value <x>
