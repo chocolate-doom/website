@@ -36,9 +36,11 @@ The first goal for the Marshmallow Doom project was to improve Doom's multiplaye
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during netgame
 
+
 === Bots ===
 
 Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map.  They will engage enemies, open doors, hit switches, etc.  The bots do not use any weapon/item pickups, so each bot's weapon can be set by the player in the new HUD menu.
+
 
 === Dynamic Music ===
 
@@ -46,11 +48,13 @@ The intensity of the music playing will follow the amount of action the player i
 
 Music from either (or both) Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
 
+
 === Inventory ===
 
 The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.  
 
 Pressing ''''v'''' on the keyboard will open your inventory.
+
 
 === New/Repurposed Items ===
 
@@ -61,6 +65,7 @@ A few of Doom's item pickups have been repurposed and/or changed:
 * The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
 * Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode
 
+
 === Treasure Items ===
 
 The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
@@ -69,11 +74,13 @@ For those gamers who miss the days of collecting treasure for points, Marshmallo
 
 Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.
 
+
 === Sandbox Games ===
 
 Sandbox mode allows you to design your own monster hordes in an empty map of your choice, then fight to the death in either singleplayer or co-op.  
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
+
 
 === Nightmare 2.0 ===
 
@@ -83,9 +90,11 @@ A new difficulty level is offered:
 * All monster healthpoints are increased; ideal for co-op play
 * Cheats enabled (single-player only)
 
+
 === Danger Index ===
 
 The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
+
 
 === More features ===
 
@@ -100,6 +109,7 @@ Other new features include:
 * Auto-use
 * Monster respawn in nightmare is optional
 
+
 === New event messages ===
 
 Many new event messages will keep the player informed of important events during a game.  The types of messages shown can be customized using the HUD menu. A few examples of these messages include:
@@ -113,11 +123,13 @@ Other information available includes:
 * Reporting the current target's remaining health
 * Missile-lock alerts
 
+
 === New cheat codes ===
 
 * <tt>ENDMAPNOW</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
 * <tt>SKILL</tt> Will report the current game skill level
+
 
 === New command line parameters ===
 
