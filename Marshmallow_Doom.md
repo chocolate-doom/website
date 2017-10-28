@@ -11,7 +11,13 @@ Marshmallow Doom is unlike most source ports in that it '''does not make any cha
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's new features can be easily switched on/off as to allow the player to design their own unique Doom experience.  Most options are available in a new in-game HUD menu, and other features such as multiplayer options are switchable via the command line.
+Most of Marshmallow Doom's options are easily accessible during gameplay via a simple [[HUD menu]], and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can be turned off if desired.  See [[New command line parameters]] for more information.
+
+=== HUD menu ===
+
+Launch the in-game menu by pressing 'm' on the keyboard.  To scroll press the square brackets ''''['''' and '''']'''', and backslash ''''\'''' to select.
+
+The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
 
 === Multiplayer features ===
 
@@ -20,7 +26,7 @@ The first goal for the Marshmallow Doom project was to improve Doom's multiplaye
 * Friendly fire can be disabled
 * Mirror damage can be enforced to deter friendly fire
 * Weapons stay in co-op
-* Multiplayer weapon/item pickups are not spawned in co-op by default, but can be forced with command line option '''-dmw''' (short for "deathmatch weapons")
+* Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be changed)
 * When players are killed, they drop a backpack of ammo as well as their current weapon at time of death
 * Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
 * Keep any keys collected after you die/respawn
@@ -39,13 +45,15 @@ Music from either (or both) Doom and Doom II can be used interchangably while pl
 
 === Inventory ===
 
-The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.  Pressing 'v' on the keyboard will open your inventory.
+The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.  
+
+Pressing ''''v'''' on the keyboard will open your inventory.
 
 === New/Repurposed Items ===
 
 A few of Doom's item pickups have been repurposed and/or changed:
 
-* A '''portable medkit''' is added to your inventory as part of the berserk/strength powerup
+* A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus pickup called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
 * Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode
@@ -54,9 +62,13 @@ A few of Doom's item pickups have been repurposed and/or changed:
 
 The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
 
-For gamers who might miss the days of collecting treasure for points, Marshmallow Doom offers the option for '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch.  In full treasure mode however, all health and armor bonuses are also converted to treasure items.  
+For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  
 
-Colored skull keys have been repurposed as our treasure items, therefore any actual skull keys are converted to standard keys as to avoid confusion.
+Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.
+
+=== Sandbox DOOM ===
+
+Marshmallow Doom's '''Sandbox mode''' allows you to design your own monster hordes in an empty map of your choice.  
 
 === Nightmare 2.0 ===
 
@@ -65,12 +77,6 @@ A new difficulty level is offered:
 * Monsters do not respawn (by default, but can be changed)
 * All monster healthpoints are increased, especially useful for being an added challenge to Doom's co-op play
 * Cheats enabled (single-player only)
-
-=== HUD menu ===
-
-Launch the in-game menu by pressing 'm' on the keyboard.  
-
-The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu system.
 
 === Danger Index ===
 
