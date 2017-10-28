@@ -1,7 +1,7 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, treasure items, player inventory, and many more.
+Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, treasure items, player inventory, and more.
 
 == Synopsis ==
 
@@ -9,7 +9,7 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port which pr
 
 Marshmallow Doom is unlike most source ports in that it '''does not make any changes to system-oriented code''' (renderer, sound, networking, etc.) but also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of the game's "new" features are simply an internal reorganization/reporposing of Doom's existing functionality and assets.
 
-
+;sadf
 == Objectives and features ==
 
 Most of Marshmallow Doom's options are easily accessible during gameplay via a simple [[HUD menu]], and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can be turned off if desired.  See [[New command line parameters]] for more information.
