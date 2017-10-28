@@ -106,16 +106,14 @@ Other information available includes:
 
 Other new features include:
 
-* Fast single-key melee attack (press '~')
-* Pushing barrels around the map 
-* Sprint (primarily for platform-running)
-* Change game skill level while in-game
+* Fast single-key melee attack (press ''''~'''')
+* Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
+* Sprint (press ''''q'''')
+* Change game skill level during game
 * Player suicide
 * Change maps easily using the new HUD menu
 * Auto-use
 * Monster respawn in nightmare is optional
-
-
 
 === Technology ===
 
