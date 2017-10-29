@@ -168,3 +168,8 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-nm</tt> enables Nightmare skill level
 * <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
 * <tt>-nm2</tt> enables the new Nightmare 2.0 skill level
+
+* <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
+* <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
+* <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
+* <tt>-tnt</tt> sets IWAD to TNT.WAD
