@@ -7,7 +7,7 @@ Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom
 
 Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port which provides many beautiful new enhancements such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and more.  
 
-Marshmallow Doom is unlike most source ports in that it '''does not make any changes to system-oriented code''' (renderer, sound, networking, etc.) but also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of the game's "new" features are simply an internal reorganization/reporposing of Doom's existing functionality and assets.
+Marshmallow Doom is unlike most source ports in that it '''does not make any changes to system-oriented code''' (renderer, sound, networking, etc.) but also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of the game's "new" features are simply an internal reorganization and/or reporposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
@@ -16,7 +16,7 @@ Most of Marshmallow Doom's options are easily accessible during gameplay via a s
 
 === HUD menu ===
 
-Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll press the square brackets ''''['''' and '''']'''' and backslash ''''\'''' to select.
+Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''' and to select pressbackslash ''''\''''.
 
 The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
 
@@ -24,27 +24,26 @@ The '''Marshmallow Menu''' is designed to give you quick and easy access to most
 
 Marshmallow Doom provides several improvements to Doom's multiplayer co-op experience. New multiplayer options include:
 
-* Friendly fire can be disabled
-* Mirror damage can be enforced to deter friendly fire
+* Friendly fire can be disabled, and/or mirror damage can be enforced to deter friendly fire
 * Weapons stay in co-op
 * Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be changed)
 * When players are killed, they drop a backpack of ammo as well as their current weapon at time of death
 * Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
 * Keep any keys collected after you die/respawn
 * Player will respawn with all weapons owned at end of previous map
-* Current map can be skipped at any time during netgame
+* Current map can be skipped at any time during a netgame
 
 
 ==== Inventory ====
 
-The player can now carry a radsuit, invulnerability, invisilbility, and portable medkit for later use.  
+The player can now carry a radsuit, invulnerability, invisilbility, as well as a new '''portable medkit''' for later use.  
 
-Pressing ''''v'''' on the keyboard will open your inventory.
+Press ''''v'''' on the keyboard to open your inventory.
 
 
 ==== New Items ====
 
-A few of Doom's original item pickups have been repurposed for use by a few new items:
+A few of Doom's original item pickups have been repurposed for use by a handful of new items:
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus pickup called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
@@ -110,7 +109,7 @@ Other new features include:
 * Sprint (press ''''q'''')
 * Change game skill level during game
 * Player suicide
-* Change maps easily using the new HUD menu
+* Change maps easily using the HUD menu
 * Auto-use
 * Monster respawn in nightmare is optional
 
@@ -121,19 +120,21 @@ Other new features include:
 
 ==== Dynamic Music ====
 
-The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  This feature is inspired by Lucasarts' original dynamic music system known as ''iMuse''.  Marshmallow Doom's new dynamic music system is named ''Doom DJ'' and can be customized via the new HUD menu.
+The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  This feature is inspired by ''iMuse'', the dynamic music system found in many classic Lucasarts games.  
 
-Music from either (or both) Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
+Marshmallow Doom's new dynamic music system is named ''Doom DJ'' and can be customized via the HUD menu.  Music from either (or both) Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
 
 
 ==== Bots ====
 
-Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map.  They will engage enemies, open doors, hit switches, etc.  The bots do not use any weapon/item pickups, so each bot's weapon can be set by the player in the new HUD menu.
+Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map.  They will engage enemies, open doors, hit switches, etc.  The bots do not use any weapon/item pickups, so each bot's weapon can be set by the player in the HUD menu.
 
 
-==== Danger Index ====
+==== Danger Indexing ====
 
 The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
+
+
 
 == New cheat codes ==
 
@@ -145,7 +146,4 @@ The amount of danger facing the player at any given time is tracked in real-time
 == New command line parameters ==
 
 * <tt>-dj</tt> will start the game with dynamic music enabled
-* <tt>-tr</tt> enables normal treasure mode
-* <tt>-trb</tt> enables full treasure mode, replacing all health and armor bonuses with treasure
-* <tt>-dmw</tt> forces-on the multiplayer-only item spawns which are now off by default in co-op play
 * <tt>-scale <x></tt> will multiply all enemy healthpoints by value <x>
