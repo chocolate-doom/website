@@ -46,7 +46,7 @@ The player can now carry a radsuit, invulnerability, invisilbility, as well as a
 A few of Doom's original item pickups have been repurposed for use by a handful of new items:
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
-* A new health bonus pickup called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
+* A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
 * Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode
 
@@ -55,14 +55,14 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
 
-For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  
+For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu.
 
 Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.
 
 
 ==== Monster Bonuses ====
 
-All monsters now drop a bonus item when killed.  For example: Arachnatrons drop a cell pack, Cyberdemons drop a megasphere, and others drop a new health powerup called the '''Demonsphere'''.  A repurposing of Doom’s invisibility sphere, the Demonsphere awards you a health bonus amount relative to the difficulty of the monster killed.
+All monsters now drop a bonus item when killed.  (For example: Arachnatrons drop a cell pack, Cyberdemons drop a megasphere, and others drop a new health powerup called the '''Demonsphere'''.)
 
 
 ==== Conserved Item Pickups ====
@@ -70,9 +70,9 @@ All monsters now drop a bonus item when killed.  For example: Arachnatrons drop 
 When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum ammo or health capacity is deducted from the item''' pickup.  The item remains on the ground until it is empty.  This feature is particularly useful during co-op games.
 
 
-==== Sandbox Games ====
+==== Sandbox Mode ====
 
-Sandbox mode allows you to design your own monster hordes in an empty map of your choice. Fight to the death in either singleplayer or co-op.
+Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in either singleplayer or co-op.
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
@@ -140,10 +140,31 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 * <tt>ENDMAPNOW</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
-* <tt>SKILL</tt> Will report the current game skill level
+* <tt>SKILL</tt> will report the current game skill level
 
 
 == New command line parameters ==
 
-* <tt>-dj</tt> will start the game with dynamic music enabled
-* <tt>-scale <x></tt> will multiply all enemy healthpoints by value <x>
+* <tt>-dj</tt> starts the game with dynamic music enabled
+* <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
+* <tt>-steal</tt> allows use of Doom's music in Doom II as well as Doom II monsters in Doom
+* <tt>-rand</tt> warps to a random level
+* <tt>-sandbox</tt> launches a sandbox game
+* <tt>-tr <x></tt> enables normal treasure mode <x>
+* <tt>-trb <x></tt> enables full treasure mode <x>
+* <tt>-bots <x></tt> starts a game with <x> number of bot players
+* <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
+* <tt>-ps</tt> forces a pistol start when using -warp
+* <tt>-itemrespawn <x></tt> forces items to respawn in all game modes <x>
+
+* <tt>-ff <x></tt> toggles friendly fire <x>
+* <tt>-mirror <x></tt> toggles mirror damage <x>
+* <tt>-self <x></tt> toggles self-damage <x>
+
+* <tt>-itytd <x></tt> enables "baby mode" skill level<x>
+* <tt>-hntr <x></tt> enables easy skill level <x>
+* <tt>-hmp <x></tt> enables normal skill level <x>
+* <tt>-uv <x></tt> enables hard skill level <x>
+* <tt>-nm <x></tt> enables Nightmare skill level <x>
+* <tt>-nmnr <x></tt> enables Nightmare skill level with no monster respawn <x>
+* <tt>-nm2 <x></tt> enables the new Nightmare 2.0 skill level <x>
