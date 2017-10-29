@@ -16,7 +16,7 @@ Most of Marshmallow Doom's options are easily accessible during gameplay via a s
 
 === HUD menu ===
 
-Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''' and to select pressbackslash ''''\''''.
+Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
 
 The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
 
@@ -108,8 +108,8 @@ Additional new gameplay features include:
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
 * Sprint (press ''''q'''')
 * Change game skill level during game
-* Player suicide
 * Change maps easily using the HUD menu
+* Player suicide
 * Auto-use
 * Monster respawn in nightmare is optional
 
