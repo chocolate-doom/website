@@ -154,7 +154,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-steal</tt> allows use of Doom's music in Doom II as well as Doom II monsters in Doom
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
-* <tt>-ps</tt> forces a pistol start when using '''-warp'''
+* <tt>-ps</tt> forces a pistol start when using <tt>-warp</tt>
 * <tt>-itemrespawn</tt> forces items to respawn in all game modes
 
 * <tt>-ff</tt> toggles friendly fire
