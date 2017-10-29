@@ -36,7 +36,7 @@ Marshmallow Doom provides several improvements to Doom's multiplayer co-op exper
 
 ==== Inventory ====
 
-Press ''''v'''' on the keyboard to open your inventory.
+Press ''''v'''' on the keyboard to open the inventory menu.
 
 The player can now carry a radsuit, invulnerability, invisilbility, as well as a new '''portable medkit''' for later use.
 
@@ -55,9 +55,9 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
 
-For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu.
+For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
-Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.
+''Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.''
 
 
 ==== Monster Bonuses ====
