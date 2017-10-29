@@ -102,7 +102,7 @@ Other information available includes:
 
 ==== More features ====
 
-Other new features include:
+Additional new gameplay features include:
 
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
@@ -150,21 +150,21 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-steal</tt> allows use of Doom's music in Doom II as well as Doom II monsters in Doom
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
-* <tt>-tr <x></tt> enables normal treasure mode <x>
-* <tt>-trb <x></tt> enables full treasure mode <x>
+* <tt>-tr <x></tt> enables normal treasure mode 
+* <tt>-trb <x></tt> enables full treasure mode 
 * <tt>-bots <x></tt> starts a game with <x> number of bot players
 * <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
-* <tt>-ps</tt> forces a pistol start when using -warp
-* <tt>-itemrespawn <x></tt> forces items to respawn in all game modes <x>
+* <tt>-ps</tt> forces a pistol start when using '''-warp'''
+* <tt>-itemrespawn <x></tt> forces items to respawn in all game modes
 
-* <tt>-ff <x></tt> toggles friendly fire <x>
-* <tt>-mirror <x></tt> toggles mirror damage <x>
-* <tt>-self <x></tt> toggles self-damage <x>
+* <tt>-ff <x></tt> toggles friendly fire
+* <tt>-mirror <x></tt> toggles mirror damage
+* <tt>-self <x></tt> toggles self-damage
 
-* <tt>-itytd <x></tt> enables "baby mode" skill level<x>
-* <tt>-hntr <x></tt> enables easy skill level <x>
-* <tt>-hmp <x></tt> enables normal skill level <x>
-* <tt>-uv <x></tt> enables hard skill level <x>
-* <tt>-nm <x></tt> enables Nightmare skill level <x>
-* <tt>-nmnr <x></tt> enables Nightmare skill level with no monster respawn <x>
-* <tt>-nm2 <x></tt> enables the new Nightmare 2.0 skill level <x>
+* <tt>-itytd <x></tt> enables "baby mode" skill level
+* <tt>-hntr <x></tt> enables easy skill level
+* <tt>-hmp <x></tt> enables normal skill level
+* <tt>-uv <x></tt> enables hard skill level
+* <tt>-nm <x></tt> enables Nightmare skill level
+* <tt>-nmnr <x></tt> enables Nightmare skill level with no monster respawn
+* <tt>-nm2 <x></tt> enables the new Nightmare 2.0 skill level
