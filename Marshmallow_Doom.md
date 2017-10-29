@@ -36,9 +36,9 @@ Marshmallow Doom provides several improvements to Doom's multiplayer co-op exper
 
 ==== Inventory ====
 
-The player can now carry a radsuit, invulnerability, invisilbility, as well as a new '''portable medkit''' for later use.  
-
 Press ''''v'''' on the keyboard to open your inventory.
+
+The player can now carry a radsuit, invulnerability, invisilbility, as well as a new '''portable medkit''' for later use.
 
 
 ==== New Items ====
