@@ -120,9 +120,9 @@ Additional new gameplay features include:
 
 ==== Dynamic Music ====
 
-The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  This feature is inspired by ''iMuse'', the dynamic music system found in many classic Lucasarts games.  
+The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  This feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games.  
 
-Marshmallow Doom's new dynamic music system is named ''Doom DJ'' and can be customized via the HUD menu.  Music from either (or both) Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
+Marshmallow Doom's new dynamic music system is named ''Doom DJ'' and can be customized via the HUD menu.  Music from both Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
 
 
 ==== Bots ====
@@ -145,26 +145,26 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 == New command line parameters ==
 
-* <tt>-dj</tt> starts the game with dynamic music enabled
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
+* <tt>-bots <x></tt> starts a game with <x> number of bot players
+* <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
+* <tt>-tr</tt> enables normal treasure mode 
+* <tt>-trb</tt> enables full treasure mode 
+* <tt>-dj</tt> starts the game with dynamic music enabled
 * <tt>-steal</tt> allows use of Doom's music in Doom II as well as Doom II monsters in Doom
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
-* <tt>-tr <x></tt> enables normal treasure mode 
-* <tt>-trb <x></tt> enables full treasure mode 
-* <tt>-bots <x></tt> starts a game with <x> number of bot players
-* <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
 * <tt>-ps</tt> forces a pistol start when using '''-warp'''
-* <tt>-itemrespawn <x></tt> forces items to respawn in all game modes
+* <tt>-itemrespawn</tt> forces items to respawn in all game modes
 
-* <tt>-ff <x></tt> toggles friendly fire
-* <tt>-mirror <x></tt> toggles mirror damage
-* <tt>-self <x></tt> toggles self-damage
+* <tt>-ff</tt> toggles friendly fire
+* <tt>-mirror</tt> toggles mirror damage
+* <tt>-self</tt> toggles self-damage
 
-* <tt>-itytd <x></tt> enables "baby mode" skill level
-* <tt>-hntr <x></tt> enables easy skill level
-* <tt>-hmp <x></tt> enables normal skill level
-* <tt>-uv <x></tt> enables hard skill level
-* <tt>-nm <x></tt> enables Nightmare skill level
-* <tt>-nmnr <x></tt> enables Nightmare skill level with no monster respawn
-* <tt>-nm2 <x></tt> enables the new Nightmare 2.0 skill level
+* <tt>-itytd</tt> enables "baby mode" skill level
+* <tt>-hntr</tt> enables easy skill level
+* <tt>-hmp</tt> enables normal skill level
+* <tt>-uv</tt> enables hard skill level
+* <tt>-nm</tt> enables Nightmare skill level
+* <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
+* <tt>-nm2</tt> enables the new Nightmare 2.0 skill level
