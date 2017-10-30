@@ -1,24 +1,34 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, an overhauled co-op experience, treasure items, customizable sandbox games, player inventory, and more.
+Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, a much-improved co-op experience, treasure items, customizable sandbox games, player inventory, and more.
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and more.  
+Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and many more subtle enhancements to the classic Doom experience.  
 
-Marshmallow Doom is unlike most source ports in that it '''does not make any changes to system-oriented code''' (renderer, sound, networking, etc.) but also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of the game's "new" features are simply an internal reorganization and/or reporposing of Doom's existing functionality and assets.
+Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of Marshmallow Doom's "new" features are an internal reorganization and/or reporposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, where other features such as multiplayer options are switchable via the command line.  Most of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu.
+Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, however other features such as multiplayer options are switchable via the command line.  Most of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu.
 
 === HUD menu ===
 
 Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
 
 The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
+
+Within the menu, the player can easily access most of what Marshmallow Doom has to offer:
+
+* Add bots to the game for either cooperative or deathmatch play
+* Change game skill level during the game
+* Change maps easily in the menu, and even an option skip to a random map
+* Customize the dynamic music system or further explore Doom's original music by choosing your preferred "mood" playlist
+* Start a sandbox game in an empty map of your choice
+* Minor tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
+* Minor tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
 
 
 === Gameplay ===
@@ -120,9 +130,7 @@ Additional new gameplay features include:
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
 * Sprint (hold ''''q'''')
-* Change game skill level during game
 * Monster respawn in nightmare can be disabled
-* Change maps easily using the HUD menu
 * Player suicide
 * Auto-use
 
