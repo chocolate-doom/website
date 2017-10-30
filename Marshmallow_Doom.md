@@ -18,8 +18,6 @@ Most of Marshmallow Doom's options are easily accessible during gameplay via a s
 
 Launch the in-game menu by pressing ''''M'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
 
-The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
-
 Within the menu, the player can easily access most of what Marshmallow Doom has to offer:
 
 * Add bots to the game for either cooperative or deathmatch play
