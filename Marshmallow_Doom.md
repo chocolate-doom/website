@@ -126,7 +126,7 @@ Additional new gameplay features include:
 
 ==== Dynamic Music ====
 
-The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  This feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games.  
+The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  
 
 Marshmallow Doom's new dynamic music system is named ''Doom DJ'' and can be customized via the HUD menu.  Music from both Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
 
@@ -142,14 +142,14 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 
 
-== New cheat codes ==
+=== New cheat codes ===
 
 * <tt>ENDMAPNOW</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
 * <tt>SKILL</tt> will report the current game skill level
 
 
-== New command line parameters ==
+=== New command line parameters ===
 
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-bots <x></tt> starts a game with <x> number of bot players
@@ -179,3 +179,15 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
 * <tt>-tnt</tt> sets IWAD to TNT.WAD
+
+
+=== Inspiration ===
+
+Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while preserving its classic look and feel.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
+
+The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Dark Forces, and Monkey Island 2.
+
+
+=== Download ===
+
+Coming to Github '''this November'''!
