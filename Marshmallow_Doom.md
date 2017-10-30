@@ -12,7 +12,7 @@ Marshmallow Doom is unlike most source ports in that it '''does not make any cha
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, where other features such as multiplayer options are switchable via the command line.  Most of Marshmallow Doom's features are enabled by default but can be manually disabled in the menu.
+Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, where other features such as multiplayer options are switchable via the command line.  Most of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu.
 
 === HUD menu ===
 
@@ -54,7 +54,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
-* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode
+* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode. Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion
 
 
 ==== Treasure Items ====
@@ -62,8 +62,6 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
 
 For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
-
-''Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion.''
 
 
 ==== Monster Bonuses ====
@@ -94,7 +92,7 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 
 ==== Nightmare 2.0 ====
 
-A new difficulty level is offered:
+A new difficulty level is offered as a "remix" of Nightmare skill:
 
 * Monsters do not respawn (by default, but can be changed)
 * All monster healthpoints are increased; ideal for co-op play
@@ -103,7 +101,7 @@ A new difficulty level is offered:
 
 ==== New event messages ====
 
-Many new event messages will keep the player informed of important events during a game.  The types of messages shown can be customized using the HUD menu. A few examples of these messages include:
+New event messages keep the player informed of important events during the game.  The types of messages shown can be customized using the HUD menu. A few examples include:
 
 * "An Archvile has spotted you"
 * "You killed a teammate"
@@ -111,8 +109,8 @@ Many new event messages will keep the player informed of important events during
 
 Other information available includes:
 
-* Reporting the current target's remaining health
-* Missile-lock alerts
+* Reporting the current target's remaining health (all monsters or bosses only)
+* Missile-lock alerts (when fighting Cyberdemon)
 
 
 ==== More features ====
@@ -121,12 +119,12 @@ Additional new gameplay features include:
 
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
-* Sprint (press ''''q'''')
+* Sprint (hold ''''q'''')
 * Change game skill level during game
+* Monster respawn in nightmare can be disabled
 * Change maps easily using the HUD menu
 * Player suicide
 * Auto-use
-* Monster respawn in nightmare is optional
 
 
 
