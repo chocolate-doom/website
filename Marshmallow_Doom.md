@@ -74,9 +74,9 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 ==== Treasure Items ====
 
-id Software's original vision for Doom included allowing the player to collect treasure items for points, as in id's previous title, Wolfenstein 3D.  However as the more old-fashioned game elements such as  "points" and "lives" were discarded from the game's design later in development, these treasure items were permanently changed to function as health and armor bonuses.
+id Software's original vision for Doom included allowing the player to collect treasure items for points, akin to their previous title Wolfenstein 3D.  However these old-fashioned game elements such as  "points" and "lives" were discarded from the game's design later in development, and these treasure items were permanently changed to function as health and armor bonuses.
 
-For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
+For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, any multiplayer item spawn points will spawn treasure items in any game mode except deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 
 ==== Monster Bonuses ====
