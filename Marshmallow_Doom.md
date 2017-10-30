@@ -102,12 +102,9 @@ If the player prefers vanilla pistol starts, starting the game with command line
 
 ==== Sandbox Mode ====
 
-Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both single-player or co-op.
+Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both single-player or co-op.  
 
-
-After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  
-
-When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
+After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
 
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
