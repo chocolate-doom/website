@@ -181,13 +181,13 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-tnt</tt> sets IWAD to TNT.WAD
 
 
-=== Inspiration ===
+== Inspiration ==
 
 Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while preserving its classic look and feel.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
 
 The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Dark Forces, and Monkey Island 2.
 
 
-=== Download ===
+== Download ==
 
 Coming to Github '''this November'''!
