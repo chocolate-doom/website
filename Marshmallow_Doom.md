@@ -23,7 +23,7 @@ A new in-game menu is featured as a portal to most of Marshmallow Doom's new opt
 Launch the in-game menu by pressing ''''M'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
 
 
-Within the menu, the player can easily access most of what Marshmallow Doom has to offer:
+Within the menu, the player can easily access most of what Marshmallow Doom has on offer:
 
 * Add bots to the game for either cooperative or deathmatch play
 * Change game skill level during the game
@@ -37,7 +37,7 @@ Within the menu, the player can easily access most of what Marshmallow Doom has 
 
 === Gameplay ===
 
-Marshmallow Doom provides several improvements to Doom's multiplayer co-op experience. New multiplayer options include:
+Marshmallow Doom provides several improvements to Doom's multiplayer co-op experience.  New multiplayer options include:
 
 * Friendly fire can be disabled, and/or mirror damage can be enabled to deter friendly fire
 * Weapons stay in co-op
@@ -68,8 +68,8 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
-* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during co-op play.  These backpacks dropped by players award a small helping of ammo.  The original backpack item pickup remains unchanged and unaffected by this new item.
-* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode. Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion
+* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during co-op play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
+* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode.  Any actual skull keys are automatically converted to standard keys as to avoid confusion
 
 
 ==== Treasure Items ====
