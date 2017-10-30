@@ -99,7 +99,8 @@ Sandbox mode allows the player to design their own monster hordes in an empty ma
 
 After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  
 
-All monsters placed in sandbox mode will not "wake up" until the match has been started.  When ready to start the battle, press '''B'''.
+When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
+
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
