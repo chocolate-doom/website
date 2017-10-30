@@ -5,14 +5,14 @@ Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and many more subtle enhancements to the classic Doom experience.  
+Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, etc. to the classic Doom experience.  
 
 Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of Marshmallow Doom's "new" features are the result of an internal reorganization and/or reporposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
 
-Marshmallow Doom is a source port that aims to bring new gameplay enhancements to Doom while still retaining the game's original look and feel.  Most all new features and enhancements can be easily adjusted 
+Marshmallow Doom is a source port that aims to bring new gameplay enhancements to Doom while still retaining the game's original look and feel.  Most new features and enhancements can be easily adjusted 
 by the player to achieve one's desired balance between classic and enhanced gameplay.  Many of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu or command line.
 
 A new in-game menu is featured as a portal to most of Marshmallow Doom's new options.  Multiplayer options must be set at the command line, however most new multiplayer game rules are enabled by default.
@@ -137,7 +137,7 @@ Other information available includes:
 * Missile-lock alerts (when fighting Cyberdemon)
 
 
-==== More features ====
+==== Additional features ====
 
 Additional new gameplay features include:
 
@@ -215,7 +215,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 == Inspiration ==
 
-Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while preserving its classic look and feel.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
+Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while staying faithful to the original game.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
 
 The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Dark Forces, and Monkey Island 2.
 
