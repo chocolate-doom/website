@@ -5,14 +5,14 @@ Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of Chocolate Doom, Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and more.  
+Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and more.  
 
 Marshmallow Doom is unlike most source ports in that it '''does not make any changes to system-oriented code''' (renderer, sound, networking, etc.) but also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of the game's "new" features are simply an internal reorganization and/or reporposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
 
-Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, and other features such as multiplayer options are switchable via the command line.  Many of Marshmallow Doom's features are enabled by default but can also be turned off, allowing the player to customize their own balance between vanilla and enhanced gameplay. 
+Most of Marshmallow Doom's options are easily accessible during gameplay via a simple HUD menu, where other features such as multiplayer options are switchable via the command line.  Most of Marshmallow Doom's features are enabled by default but can be manually disabled in the menu.
 
 === HUD menu ===
 
