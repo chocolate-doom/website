@@ -46,7 +46,7 @@ Marshmallow Doom provides several improvements to Doom's multiplayer co-op exper
 * Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
-* Current map can be skipped at any time during a netgame
+* Current map can be skipped at any time during a network game
 
 
 ==== Inventory ====
@@ -74,7 +74,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 ==== Treasure Items ====
 
-The original vision for Doom included having the player collect treasure items as in id's previous title, Wolfenstein 3D.  However later in Doom's development these treasure items were permanently changed to function as health and armor bonuses, as many old-fashioned game elements such as  "points" and "lives" were discarded from the game's design.
+id Software's original vision for Doom included allowing the player to collect treasure items for points, as in id's previous title, Wolfenstein 3D.  However as the more old-fashioned game elements such as  "points" and "lives" were discarded from the game's design later in development, these treasure items were permanently changed to function as health and armor bonuses.
 
 For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
