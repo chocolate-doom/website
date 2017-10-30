@@ -95,7 +95,7 @@ If the player prefers vanilla pistol starts, starting the game with command line
 
 ==== Sandbox Mode ====
 
-Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in either singleplayer or co-op.
+Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in either single-player or co-op.
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
@@ -142,14 +142,16 @@ Additional new gameplay features include:
 
 ==== Dynamic Music ====
 
-The intensity of the music playing will follow the amount of action the player is experiencing in real-time.  
+Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of the music playing based on the amount of action the player is experiencing in real-time.
 
-Marshmallow Doom's new dynamic music system is named ''Doom DJ'' and can be customized via the HUD menu.  Music from both Doom and Doom II can be used interchangably while playing either game.  As long as the other game's IWAD file is in your Marshmallow Doom directory, just use the command line parameter '''-steal''' and the other game's music will be automatically imported.
+'''Music from both Doom and Doom II can be used interchangably while playing''' either game.  Command line option '''-steal''' will automatically import assets from the other game's WAD file if the file is present.
 
 
 ==== Bots ====
 
-Up to three AI-controlled bots are available for a single-player co-op experience.  Bots can be added at any time while playing a singleplayer or solo-net game.  Once the bots are spawned, they will run to meet you at your current position in the map.  They will engage enemies, open doors, hit switches, etc.  The bots do not use any weapon/item pickups, so each bot's weapon can be set by the player in the HUD menu.
+Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player and when separated will attempt to regroup to the player's position possible.
+
+The bots do not use any weapon/item pickups. Each bot's weapon can be set by the player in the bot menu.
 
 
 ==== Danger Indexing ====
