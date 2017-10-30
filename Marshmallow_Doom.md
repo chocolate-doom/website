@@ -48,6 +48,7 @@ Marshmallow Doom provides several improvements to Doom's multiplayer co-op exper
 
 Press ''''V'''' on the keyboard to open the inventory menu.
 
+
 The following items can be stored in the player's inventory for use at any time during gameplay:
 
 * Radsuit
@@ -102,6 +103,7 @@ If the player prefers vanilla pistol starts, starting the game with command line
 ==== Sandbox Mode ====
 
 Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both single-player or co-op.
+
 
 After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  
 
