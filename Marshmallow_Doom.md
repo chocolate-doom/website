@@ -74,9 +74,13 @@ For those gamers who miss the days of collecting treasure for points, Marshmallo
 
 ==== Monster Bonuses ====
 
-All monsters now drop a bonus item when killed.  
+All monsters now drop a bonus item when killed:
 
-For example: Arachnatrons drop a cell pack, Cyberdemons drop a megasphere, and others drop a new health powerup called the '''Demonsphere'''.
+* Imp, Cacodemon, Lost Soul, Demon, and Spectre drop a health bonus
+* Arachnatron and Mancubus drop a cell pack
+* Revenant drops a rocket
+* Baron of Hell, Hell Knight, Arch-vile, and Pain Elemental drop a Demonsphere health bonus
+* Cyberdemon and Spider Mastermind drop a megasphere or soulsphere
 
 
 ==== Conserved Item Pickups ====
