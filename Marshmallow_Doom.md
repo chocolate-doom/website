@@ -1,13 +1,13 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, a much-improved co-op experience, treasure items, customizable sandbox games, player inventory, and more.
+Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, a much-improved co-op play experience, treasure items, customizable sandbox games, player inventory, and more.
 
 == Synopsis ==
 
 Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and many more subtle enhancements to the classic Doom experience.  
 
-Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of Marshmallow Doom's "new" features are an internal reorganization and/or reporposing of Doom's existing functionality and assets.
+Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of Marshmallow Doom's "new" features are the result of an internal reorganization and/or reporposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
@@ -16,7 +16,7 @@ Most of Marshmallow Doom's options are easily accessible during gameplay via a s
 
 === HUD menu ===
 
-Launch the in-game menu by pressing ''''m'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
+Launch the in-game menu by pressing ''''M'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
 
 The '''Marshmallow Menu''' is designed to give you quick and easy access to most of the game's features.  No more digging through pages-and-pages of options deep within Doom's main menu.
 
@@ -24,7 +24,7 @@ Within the menu, the player can easily access most of what Marshmallow Doom has 
 
 * Add bots to the game for either cooperative or deathmatch play
 * Change game skill level during the game
-* Change maps easily in the menu, and even an option skip to a random map
+* Change maps easily in the menu, including randomized map selection
 * Customize the dynamic music system or further explore Doom's original music by choosing your preferred "mood" playlist
 * Start a sandbox game in an empty map of your choice
 * Minor tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
@@ -35,7 +35,7 @@ Within the menu, the player can easily access most of what Marshmallow Doom has 
 
 Marshmallow Doom provides several improvements to Doom's multiplayer co-op experience. New multiplayer options include:
 
-* Friendly fire can be disabled, and/or mirror damage can be enforced to deter friendly fire
+* Friendly fire can be disabled, and/or mirror damage can be enabled to deter friendly fire
 * Weapons stay in co-op
 * Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be changed)
 * When players are killed, they drop a backpack of ammo as well as their current weapon at time of death
@@ -47,7 +47,7 @@ Marshmallow Doom provides several improvements to Doom's multiplayer co-op exper
 
 ==== Inventory ====
 
-Press ''''v'''' on the keyboard to open the inventory menu.
+Press ''''V'''' on the keyboard to open the inventory menu.
 
 The following items can be stored in the player's inventory for use at any time during gameplay:
 
@@ -63,20 +63,22 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
-* The ammo backpack sprite has been repurposed as a "dropped" backpack when players are killed.  The original backpack item pickup remains unchanged, but backpacks dropped by players will award a small helping of ammo
+* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during co-op play.  These backpacks dropped by players award a small helping of ammo.  The original backpack item pickup remains unchanged and unaffected by this new item.
 * Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode. Marshmallow Doom's treasure items are actually a repurposing of Doom's colored skull keys.  Any actual skull keys are automatically converted to standard keys as to avoid confusion
 
 
 ==== Treasure Items ====
 
-The original vision for Doom included having the player collect treasure items as in their previous title, Wolfenstein 3D.  However, later in Doom's development these treasure items were changed to health and armor bonuse, as the old-fashioned ideas of "points" and "lives" were discarded from the game's design.
+The original vision for Doom included having the player collect treasure items as in id's previous title, Wolfenstein 3D.  However later in Doom's development these treasure items were permanently changed to function as health and armor bonuses, as many old-fashioned game elements such as  "points" and "lives" were discarded from the game's design.
 
 For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, the multiplayer item spawn points are converted to treasure items for use in any game mode ''except'' deathmatch, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 
 ==== Monster Bonuses ====
 
-All monsters now drop a bonus item when killed.  (For example: Arachnatrons drop a cell pack, Cyberdemons drop a megasphere, and others drop a new health powerup called the '''Demonsphere'''.)
+All monsters now drop a bonus item when killed.  
+
+For example: Arachnatrons drop a cell pack, Cyberdemons drop a megasphere, and others drop a new health powerup called the '''Demonsphere'''.
 
 
 ==== Conserved Item Pickups ====
@@ -95,7 +97,11 @@ If the player prefers vanilla pistol starts, starting the game with command line
 
 ==== Sandbox Mode ====
 
-Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in either single-player or co-op.
+Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in both single-player or co-op.
+
+After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  All monsters placed in sandbox mode will not "wake up" until the match has been started.
+
+When ready to start the battle, press '''B'''.
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
@@ -111,7 +117,7 @@ A new difficulty level is offered as a "remix" of Nightmare skill:
 
 ==== New event messages ====
 
-New event messages keep the player informed of important events during the game.  The types of messages shown can be customized using the HUD menu. A few examples include:
+New event messages keep the player informed of important events during the game.  The message categories shown to the player can be customized using the HUD menu. A few examples include:
 
 * "An Archvile has spotted you"
 * "You killed a teammate"
@@ -129,7 +135,7 @@ Additional new gameplay features include:
 
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
-* Sprint (hold ''''q'''')
+* Sprint (hold ''''Q'''')
 * Monster respawn in nightmare can be disabled
 * Player suicide
 * Auto-use
@@ -151,7 +157,7 @@ Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of t
 
 Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player and when separated will attempt to regroup to the player's position possible.
 
-When a bot is in sight, press ''''f'''' on the keyboard to order him to follow you.
+When a bot is in sight, press ''''F'''' on the keyboard to order him to follow you.
 
 
 ==== Danger Indexing ====
