@@ -94,6 +94,7 @@ When using <tt>-warp</tt> at the command line, the player will spawn with an ars
 
 For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun.  When warping to MAP30, the player will start the level with all weapons.
 
+
 If the player prefers vanilla pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
 
 
@@ -152,6 +153,7 @@ Additional new gameplay features include:
 ==== Dynamic Music ====
 
 Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of the music playing based on the amount of action the player is experiencing in real-time.
+
 
 '''Music from both Doom and Doom II can be used interchangably while playing''' either game.  Command line option '''-steal''' will automatically import assets from the other game's WAD file if the file is present.
 
