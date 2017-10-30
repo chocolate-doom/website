@@ -14,8 +14,8 @@ Marshmallow Doom is unlike most source ports in that it does not make any change
 
 Marshmallow Doom is a source port that aims to provide a customizble balance between classic and enhanced gameplay.  Many of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu or command line.
 
-Most of Marshmallow Doom's options are easily accessible during gameplay via a new, simple HUD menu.  
 
+Most of Marshmallow Doom's options are easily accessible during gameplay via a new, simple HUD menu.  
 
 === HUD menu ===
 
