@@ -12,7 +12,7 @@ Marshmallow Doom is unlike most source ports in that it does not make any change
 
 == Objectives and features ==
 
-Marshmallow Doom is a source port that aims to bring new gameplay enhancements to Doom while still retaining the game's original look and feel.  Most new features and enhancements can be easily adjusted 
+Marshmallow Doom is a source port that aims to bring new gameplay enhancements to Doom while remaining faithful the game's original look and feel.  Most new features and enhancements can be easily adjusted 
 by the player to achieve one's desired balance between classic and enhanced gameplay.  Many of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu or command line.
 
 A new in-game menu is featured as a portal to most of Marshmallow Doom's features.  Multiplayer options must be set at the command line, however most new multiplayer game rules are enabled by default.
@@ -216,7 +216,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 == Inspiration ==
 
-Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while staying faithful to the original game.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
+Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while preserving the essence of the original game.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
 
 The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Dark Forces, and Monkey Island 2.
 
