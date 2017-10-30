@@ -76,6 +76,15 @@ All monsters now drop a bonus item when killed.  (For example: Arachnatrons drop
 When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum ammo or health capacity is deducted from the item''' pickup.  The item remains on the ground until it is empty.  This feature is particularly useful during co-op games.
 
 
+==== Warp Weapons ====
+
+When using <tt>-warp</tt> at the command line, the player will spawn with an arsenal of weapons estimated as those found in the game up to that point in addition to a small helping of ammo.  
+
+For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun.  When warping to MAP30, the player will start the level with all weapons.
+
+If the player prefers vanilla pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
+
+
 ==== Sandbox Mode ====
 
 Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in either singleplayer or co-op.
@@ -122,6 +131,7 @@ Additional new gameplay features include:
 
 
 === Technology ===
+
 
 
 ==== Dynamic Music ====
