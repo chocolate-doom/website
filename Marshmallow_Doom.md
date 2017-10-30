@@ -23,8 +23,8 @@ Within the menu, the player can easily access most of what Marshmallow Doom has 
 * Add bots to the game for either cooperative or deathmatch play
 * Change game skill level during the game
 * Change maps easily in the menu, including randomized map selection
-* Customize the dynamic music system or further explore Doom's original music by choosing your preferred "mood" playlist
-* Start a sandbox game in an empty map of your choice
+* Customize the dynamic music system or further explore Doom's music by choosing from a series of different "mood" playlists
+* Start a sandbox game in an empty map of the player's choice
 * Minor tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
 * Minor tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
 
@@ -38,7 +38,7 @@ Marshmallow Doom provides several improvements to Doom's multiplayer co-op exper
 * Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be changed)
 * When players are killed, they drop a backpack of ammo as well as their current weapon at time of death
 * Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
-* Keep any keys collected after you die/respawn
+* Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a netgame
 
@@ -95,11 +95,11 @@ If the player prefers vanilla pistol starts, starting the game with command line
 
 ==== Sandbox Mode ====
 
-Sandbox mode allows the player to design their own monster hordes in an empty map of your choice. Fight to the death in both single-player or co-op.
+Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both single-player or co-op.
 
-After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  All monsters placed in sandbox mode will not "wake up" until the match has been started.
+After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  
 
-When ready to start the battle, press '''B'''.
+All monsters placed in sandbox mode will not "wake up" until the match has been started.  When ready to start the battle, press '''B'''.
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
