@@ -7,7 +7,7 @@ Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom
 
 Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom provides features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, etc. to the classic Doom experience.  
 
-Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  All of Marshmallow Doom's "new" features are the result of an internal reorganization and/or reporposing of Doom's existing functionality and assets.
+Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  Any of Marshmallow Doom's "new" features are the result of an internal reorganization and/or reporposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
@@ -30,8 +30,9 @@ Within the menu, the player can easily access most of what Marshmallow Doom has 
 * Change maps easily in the menu, including randomized map selection
 * Customize the dynamic music system or further explore Doom's music by choosing from a series of different "mood" playlists
 * Start a sandbox game in an empty map of the player's choice
-* Minor tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
-* Minor tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
+* Adjust tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
+* Adjust tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
+* Toggle new item behaviors such as treasure mode, inventory, or monster bonuses
 
 
 === Gameplay ===
