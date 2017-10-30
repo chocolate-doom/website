@@ -161,8 +161,8 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
 * <tt>-ps</tt> forces a pistol start when using <tt>-warp</tt>
-* <tt>-itemrespawn</tt> forces items to respawn in all game modes
-
+* <tt>-itemrespawn</tt> forces items to respawn in any game mode
+* <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
 * <tt>-ff</tt> toggles friendly fire
 * <tt>-mirror</tt> toggles mirror damage
 * <tt>-self</tt> toggles self-damage
