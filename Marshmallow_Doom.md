@@ -68,7 +68,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during co-op play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
-* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in [treasure] mode.  Any actual skull keys are automatically converted to standard keys as to avoid confusion
+* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in treasure mode.  Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion
 
 
 ==== Treasure Items ====
