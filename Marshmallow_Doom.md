@@ -5,17 +5,16 @@ Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, etc. to the classic Doom experience.  
+Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other improvements to the classic Doom experience.  
 
 Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  Any of Marshmallow Doom's "new" features are the result of an internal reorganization and/or repurposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
 
-Marshmallow Doom is a source port that aims to bring new gameplay enhancements to Doom while remaining faithful the game's original look and feel.  Most new features and enhancements can be easily adjusted 
-by the player to achieve one's desired balance between classic and enhanced gameplay.  Many of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu or command line.
+Marshmallow Doom is a source port that aims to bring new gameplay enhancements to Doom all while remaining faithful to the game's original look and feel.  Most new features and enhancements can be easily adjusted by the player to achieve one's desired balance between classic and enhanced gameplay.  Many of Marshmallow Doom's features are enabled by default but can also be manually disabled via the in-game menu or command line.
 
-A new in-game menu is featured as a portal to most of Marshmallow Doom's features.  Multiplayer options must be set at the command line, however most new multiplayer game rules are enabled by default.
+A new in-game HUD menu is offered as a portal to most of Marshmallow Doom's features.  Multiplayer options must be set at the command line, however most new multiplayer game rules are enabled by default.
 
 
 === HUD menu ===
