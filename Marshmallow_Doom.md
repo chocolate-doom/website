@@ -163,7 +163,7 @@ Music from both Doom and Doom II can be used interchangably while playing either
 
 ==== Bots ====
 
-Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player and when separated will attempt to regroup to the player's position possible.
+Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
 
 When a bot is in sight, press ''''F'''' on the keyboard to order him to follow you.
 
