@@ -91,7 +91,7 @@ All monsters now drop a bonus item when killed:
 
 ==== Conserved Item Pickups ====
 
-When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum ammo or health capacity is deducted from the item''' pickup.  The item remains on the ground until it is empty.  This feature is particularly useful during co-op games.
+When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum ammo or health capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is particularly useful during co-op games.
 
 
 ==== Warp Weapons ====
