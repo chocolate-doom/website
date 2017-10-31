@@ -67,7 +67,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
-* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during co-op play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
+* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during cooperative play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
 * Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in treasure mode.  Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion
 
 
@@ -75,7 +75,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 id Software's original vision for Doom included allowing the player to collect treasure items for points, akin to their previous title Wolfenstein 3D.  However these old-fashioned game elements such as  "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
 
-For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, any multiplayer item spawn points in singleplayer or co-op modes will spawn treasure items, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
+For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, any multiplayer item spawn points in singleplayer or cooperative modes will spawn treasure items, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 
 ==== Monster Bonuses ====
@@ -91,12 +91,12 @@ All monsters now drop a bonus item when killed:
 
 ==== Conserved Item Pickups ====
 
-When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is particularly useful during co-op games.
+When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is especially useful for multiplayer cooperative games as it allows more than one player to benefit from a single health or ammo pickup.
 
 
 ==== Warp Weapons ====
 
-When using <tt>-warp</tt> at the command line, the player will spawn with an arsenal of weapons estimated as those found in the game up to that point in addition to a small helping of ammo.  
+When using option <tt>-warp</tt> at the command line, the player will spawn with an arsenal of weapons estimated to be those found up to that point in the game, in addition to a small helping of ammo.  
 
 For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun.  When warping to MAP30, the player will start the level with all weapons.
 
@@ -106,7 +106,7 @@ If the player prefers vanilla pistol starts, starting the game with command line
 
 ==== Sandbox Mode ====
 
-Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both single-player or co-op.  
+Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both singleplayer or cooperative.  
 
 After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
 
@@ -119,7 +119,7 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 A new difficulty level is offered as a "remix" of Nightmare skill:
 
 * Monsters do not respawn (by default, but can be changed)
-* All monster healthpoints are increased; ideal for co-op play
+* All monster healthpoints are increased; ideal for cooperative play
 * Cheats enabled (single-player only)
 
 
