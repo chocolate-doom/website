@@ -222,5 +222,7 @@ The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system h
 
 == Download ==
 
+Download the beta at [http://www.marshmallowdoom.com].
+
 
 Coming to Github '''this November'''!
