@@ -109,7 +109,7 @@ Crispy Doom 5.0-beta1 is the first release based on SDL2, merging Chocolate Doom
 
 Besides this major transition, it features the following changes and fixes:
 
-* <tt>NUMCMAPS</tt> variable is initialized to 32 to fixed "Finished" and "Now Entering" lines missing on the intermission screen for Doom 1 (bug introduced in Crispy 4.2).
+* <tt>NUMCMAPS</tt> variable is initialized to 32 to fix missing "Finished" and "Now Entering" lines on the intermission screen for Doom 1 (bug introduced in Crispy 4.2).
 
 * Joystick look up/down has been adapted to Doom.
 
