@@ -101,6 +101,18 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
+
+Crispy Doom 5.0 has been released on November XX, 2017.
+
+Crispy Doom 5.0 is the first release based on SDL2.
+
+Besides this major transition, it features the following changes and fixes:
+
+* <tt>NUMCMAPS</tt> variable is initialized to 32 to fixed "Finished" and "Now Entering" lines missing on the intermission screen for Doom 1 (bug introduced in Crispy 4.2).
+
+* Joystick look up/down has been adapted to Doom.
+
 === Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
 
 Crispy Doom 4.3 has been released on September 19, 2017.
