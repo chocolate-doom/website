@@ -113,6 +113,8 @@ Besides this major transition, it features the following changes and fixes:
 
 * Joystick look up/down has been adapted to Doom.
 
+Crispy Doom 5.0-beta1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/8204450bacabb136ab739f9263956cfabc10c905 <tt>8204450b</tt>]
+
 === Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
 
 Crispy Doom 4.3 has been released on September 19, 2017.
