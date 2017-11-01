@@ -53,6 +53,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>NOMOMENTUM</tt> toggles a debug aid for pixel-perfect positioning on a map (not recommended to use in-game).
 * <tt>GOOBERS</tt> triggers an easter egg, i.e. an "homage to an old friend". ;-)
 * <tt>IDBEHOLD0</tt> disables all currently active power-ups.
+* <tt>IDCLEV00</tt> restarts the current level.
 
 == Compatibility ==
 
