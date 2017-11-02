@@ -157,53 +157,6 @@ The changes since 4.1 are mostly polish of previously introduced features.
 
 Crispy Doom 4.3 and 4.2 have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/83a71dd850fb02e571e2b5117f234395f8869a11 <tt>83a71dd8</tt>].
 
-=== Changes of Crispy Doom 4.1 from Crispy Doom 4.0 ===
-
-Crispy Doom 4.1 has been released on June 14, 2017.
-
-This release adds some further polish to the engine both in terms of Vanilla bug fixing and Crispy-specific features.
-
-'''Features'''
-
-* A "Deathmatch 3.0" mode has been added by AXDOOMER.
-* Dedicated music tracks for the 4th episode are now supported as lumps following the D_E4Mx name schema. Thanks to Death Egg for the feature request.
-* If the player is gibbed or crushed, the death animation is drawn in the Health widget of the Crispy HUD, keeping in sync with and applying the color translation of the actual player sprite. Thanks Zodomaniac for the suggestion.
-* Doomguy's mugshot never changes to evil grin or rampage face in god mode, because they don't have the glowing eyes as Zodomaniac and JNechaevsky pointed out.
-* Multi-resolution icon files for windows have been added by JNechaevsky and replace the icons formerly contributed by Zodomaniac.
-
-'''Improvements'''
-
-* Game parameters (i.e. -fast, nomonsters, -respawn) are now re-read from command line if and only if a new game is started or a savegame is loaded. This is not performed if playing a demo is involved. Thanks to Zodomaniac for spotting this.
-* Savegame names in the Quick Load and Quick Save dialogs are now printed in golden letters, thanks to Zodomaniac for the suggestion.
-* Menu items are now drawn with a shadow instead of shading the background when the game is paused ot the menu is active, based on an idea by JNechaevsky.
-* Weapon recoil pitch has been refined with the help of JNechaevsky.
-* The Weapon Attack Alignment feature now has 4 options (Off, Centered, Horizontal and Bobbing) that have been shaped out in discussion with Im TPhentr, JNechaevsky and Zodomaniac.
-* The Zombieman's firing frames are now rendered full-bright. Thanks to JNechaevsky for pointing out this inconsistency.
-* Missing sounds are not fatal anymore.
-* The "angle" crosshair has been renamed "chevron" and got its vertical offset fixed. Thanks to Woolie Wool for pointing this out.
-
-'''Bug Fixes'''
-
-* Players who left the game are no longer interpolated. Thanks to 38_ViTa_38 for the bug report.
-* Line breaks are now dynamically added for lines exceeding the screen width on the intermission screen. Thanks riderr3 for the bug report.
-* Weapons are not drawn 1 pixel too high anymore when player is idle. this bug has been re-fixed after being reported by JNechaevsky.
-* Weapons aren't changed anymore upon music change with the IDMUS cheat.
-* Restoring savegames with flipped levels has been fixed, following the April 1st incident.
-* Par times are now drawn conditionally on the intermission screen, as suggested by AXDOOMER.
-* A potential crash that would accur when using the IDBEHOLDS cheat with the Crispy HUD in the Shareware version has been eliminated.
-* Weapon sound sources have been implemented as requested by JNechaevsky. Sounds from these sources do not interfere with the sounds emitted by the player (e.g. "oof"), except for deliberately preserving the silent BFG trick from Vanilla.
-* The Ammo widget now switches colors at correct values, after Zodomaniac's report.
-* The "fast" parameters are now really only applied once, thanks to report by Pete-Lawrence.
-* Sound clipping in non-DOOM1 MAP08 has been fixed thanks to JNechaevsky and AXDOOMER.
-* Button states are now saved in extended savegames as suggested by JNechaevsky and Jeff Doggett.
-* The view cannot be changed anymore when playing back demos, resolving the ambiguity reported by Zodomaniac.
-* Crispy Doom now supports the SMOOTHED mod, thanks to a missing comma and an extra sprite from DR in the sprnames[] array. Thanks to AnotherLife aka VGA for the patient replies on the forums. Also, A_RandomJump() is now allowed in deaths in the cast sequence and in player weapon states, thanks to the code provided by Brad Harding and Jeff Doggett.
-* The Inability to load savegames while a netgame demo is playing has been resolved. Thanks to AXDOOMER for reporting this for Memento Mori PWAD where all in-game demos are netgame ones and JNechaevsky for providing the fix in the code.
-* A bug that has caused Revenants firing to desync in-game demos has been fixed, allowing for multi-hour stress tests by loading a PWAD that provides DEMOx lumps containing entire speed-runs.
-* A bug has been fixed that caused the demo sequence to crash for The Ultimate Doom and Final Doom if the DEMO4 lump was missing.
-
-Crispy Doom 4.1 has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/429fa571c476bf8ffb8aa9994e63db0ef79efe23 <tt>429fa571</tt>].
-
 '''[[Crispy Doom/Changelog|Previous changes]]'''
 
 == Versioning ==
