@@ -105,13 +105,15 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.0-beta1 has been released on November XX, 2017.
 
-Crispy Doom 5.0-beta1 is the first release based on SDL2, merging Chocolate Doom SDL2 branch that hasn't made it for the release yet.
+This is the first release based on SDL2, merging Chocolate Doom's SDL2-branch which hasn't made it for its own release yet.
 
 Besides this major transition, it features the following changes and fixes:
 
-* <tt>NUMCMAPS</tt> variable is initialized to 32 to fix missing "Finished" and "Now Entering" lines on the intermission screen for Doom 1 (bug introduced in Crispy 4.2).
-
-* Joystick look up/down has been adapted to Doom.
+* The <tt>NUMCMAPS</tt> variable is now initialized to 32 to fix the missing "Finished" and "Now Entering" lines on the intermission screens for Doom 1 (bug introduced in Crispy 4.2).
+* Joystick look up/down (which has been introduced for the three non-Doom games in Choco's SDL2-branch) has been adapted to Doom.
+* Smooth scaling of the framebuffer content to the game window (which is the only choice in Choco's SDL2-branch) has been made optional with plain nearest interpolation as the other alternative.
+* The 60FPS and 70FPS rendering modes have been removed in favor of proper VSYNC.
+* DOS references in the game quit confirmation dialogs have been replaced with the name of the actual operating system.
 
 Crispy Doom 5.0-beta1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/8204450bacabb136ab739f9263956cfabc10c905 <tt>8204450b</tt>]
 
