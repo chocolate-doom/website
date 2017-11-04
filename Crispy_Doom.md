@@ -70,10 +70,10 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 == Download ==
 
 Binaries for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) are available here: 
-<br />http://www.greffrath.com/~fabian/crispy-doom_4.3.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom_5.0.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
-<br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_2.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_5.0.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
@@ -101,11 +101,11 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
-=== Changes of Crispy Doom 5.0-beta1 from Crispy Doom 4.3 ===
+=== Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
 
-Crispy Doom 5.0-beta1 has been released on November XX, 2017.
+Crispy Doom 5.0 has been released on November 04, 2017.
 
-This is the first release based on SDL2, merging Chocolate Doom's SDL2-branch which hasn't made it for its own release yet.
+This is the first release based on SDL2, merging Chocolate Doom's SDL2-branch which has yet to see its own release.
 
 Besides this major transition, it features the following changes and fixes:
 
@@ -114,8 +114,9 @@ Besides this major transition, it features the following changes and fixes:
 * Smooth scaling of the framebuffer content to the game window (which is the only choice in Choco's SDL2-branch) has been made optional with plain nearest interpolation as the other alternative.
 * The 60FPS and 70FPS rendering modes have been removed in favor of proper VSYNC.
 * DOS references in the game quit confirmation dialogs have been replaced with the name of the actual operating system.
+* A new <tt>-monosfx</tt> command line parameter has been introduced to play all sound effects in mono. Inspired by other Choco derivatives like Russian Doom and Riscos Doom.
 
-Crispy Doom 5.0-beta1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/8204450bacabb136ab739f9263956cfabc10c905 <tt>8204450b</tt>]
+Crispy Doom 5.0 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/413f4ecd7aae41229cc7b40ea3275970dc18cdb4 <tt>413f4ecd</tt>]
 
 === Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
 
@@ -186,8 +187,7 @@ Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven So
 <br />Crispy Doom is additionally &copy; 2014-2017 Fabian Greffrath;
 all of the above are released under the [https://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 <br /><br />
-SDL 1.2 is &copy; 1997-2012 Sam Lantinga and is released under the [http://www.gnu.org/licenses/lgpl-2.1.html LGPL-2.1+].
-<br />SDL_mixer 1.2.12 and SDL_net 1.2.8 are &copy; 1997-2012 Sam Lantinga and are released under the [http://www.zlib.net/zlib_license.html zlib license].
+SDL 2.0, SDL_mixer 2.0 and SDL_net 2.0 are &copy; 1997-2016 Sam Lantinga and are released under the [http://www.gzip.org/zlib/zlib_license.html zlib license].
 <br /><br />
 Secret Rabbit Code (libsamplerate) is &copy; 2002-2011 Erik de Castro Lopo and is released under the [http://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 <br />Libpng is &copy; 1998-2014 Glenn Randers-Pehrson, &copy; 1996-1997 Andreas Dilger, &copy; 1995-1996 Guy Eric Schalnat, Group 42, Inc. and is released under the [http://www.libpng.org/pub/png/src/libpng-LICENSE.txt libpng license].
