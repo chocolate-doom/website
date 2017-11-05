@@ -46,3 +46,4 @@ If you're more of a fan of chiptune-style music, [[doom:DMXOPL|DMXOPL]] provides
 === External links ===
 
 * [https://github.com/sneakernets/DMXOPL/releases DMXOPL release history]
+* [https://soundcloud.com/sdoom4/at-dooms-gate-dmxopl-demo Example playback] of "At Doom's Gate" (E1M1)
