@@ -1,0 +1,1 @@
+[[doom:Supercharge|Soul sphere]] sprite.
