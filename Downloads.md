@@ -34,8 +34,11 @@ The Chocolate Doom project does not distribute binaries for these systems, but t
 }}
 
 </td><td style="vertical-align: top;">
-[[File:V2-branch_9_games.png|thumb|300px|right|Chocolate Doom supports a number of different games and mods based on the Doom engine.]]
-</tr></table>
+[[File:V2-branch_9_games.png|thumb|300px|Chocolate Doom supports a number of different games and mods based on the Doom engine.]]
+
+{{Downloadsbox|File:Soul sphere.png|Supercharge your Doom experience with [[Gameplay enhancements]]!}}
+
+</td></tr></table>
 Chocolate Doom is [https://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2].
 
 All downloads are GPG-signed by [https://soulsphere.org/gpg-key.txt Chocolate Doom's principal author]. See [https://www.chocolate-doom.org/downloads/2.3.0/ the downloads directory] for the full listing, including GPG signatures.
