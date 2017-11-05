@@ -40,7 +40,7 @@ There are a wide variety of options available for music playback with Chocolate 
 * {{idgames|file=sounds/eawpats|title=EAWPATS}} on the idgames archive.
 
 == DMXOPL ==
-{{idgames|DMXOPL}}
+{{doomwiki|DMXOPL}}
 If you're more of a fan of chiptune-style music, [[doom:DMXOPL|DMXOPL]] provides a replacement set of OPL instrument patches that can be used with Chocolate Doom's [[OPL MIDI]] playback.
 
 === External links ===
