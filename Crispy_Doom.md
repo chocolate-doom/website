@@ -55,6 +55,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>IDBEHOLD0</tt> disables all currently active power-ups.
 * <tt>IDCLEV00</tt> restarts the current level.
 * <tt>IDMUS00</tt> restarts the current music (new in 5.1).
+* <tt>VERSION</tt> shows the engine version, build date and SDL version (new in 5.1).
 
 == Compatibility ==
 
