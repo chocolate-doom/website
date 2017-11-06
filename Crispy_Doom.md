@@ -106,9 +106,11 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.1 has been released on November XX, 2017.
 
-Crispy 5.1 is going to have the new Music Pack adapted to SDL2 version and be supplemented by some new features and improvements requested by JNechaevsky.
+Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version and be supplemented by some new features and improvements, most of them requested by JNechaevsky.
 
 '''Features'''
+
+* Demo desyncing cheats are now disallowed during demo recording or playback per Zodomaniac's request.
 
 * The option for bobbing with half amplitude during firing has been added.
 
@@ -117,6 +119,8 @@ Crispy 5.1 is going to have the new Music Pack adapted to SDL2 version and be su
 * <tt>VERSION</tt> cheat code showing engine version, build date and SDL version has been introduced.
 
 '''Improvements'''
+
+* If D_INTRO is from a PWAD, and D_INTROA is from a different WAD file, the former is played, as galileo31dos01 pointed out.
 
 * INTERCEPTS limit has been removed.
 
