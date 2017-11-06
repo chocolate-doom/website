@@ -101,6 +101,38 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
+
+Crispy Doom 5.1 has been released on November XX, 2017.
+
+Crispy 5.1 is going to have the new Music Pack adapted to SDL2 version and be supplemented by some new features and improvements requested by JNechaevsky.
+
+'''Features'''
+
+* The option for bobbing with half amplitude during firing has been added.
+
+* Combined card and skull keys are now supported (if provided by PWAD).
+
+* <tt>VERSION</tt> cheat code showing engine version, build date and SDL version has been introduced.
+
+'''Improvements'''
+
+* INTERCEPTS limit has been removed.
+
+* Line breaks in HUD messages are now supported.
+
+* Inverted palette effect is removed when the player dies (e.g. when telefragged having Invulnerability power-up).
+
+* Yellow bonus palette is reset and never shown for the dead player.
+
+'''Bug Fixes'''
+
+* Missing line at bottom when drawing fuzzed sprites has been fixed.
+
+* VSYNC is disabled if software rendering is enforced.
+
+Crispy Doom 5.1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/413f4ecd7aae41229cc7b40ea3275970dc18cdb4 <tt>413f4ecd</tt>]
+
 === Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
 
 Crispy Doom 5.0 has been released on November 04, 2017.
