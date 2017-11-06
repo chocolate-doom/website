@@ -54,6 +54,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>GOOBERS</tt> triggers an easter egg, i.e. an "homage to an old friend". ;-)
 * <tt>IDBEHOLD0</tt> disables all currently active power-ups.
 * <tt>IDCLEV00</tt> restarts the current level.
+* <tt>IDMUS00</tt> restarts the current music.
 
 == Compatibility ==
 
