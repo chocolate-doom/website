@@ -120,6 +120,8 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version and 
 
 '''Improvements'''
 
+* Current music now restarts if IDMUS00 is entered.
+
 * If D_INTRO is from a PWAD, and D_INTROA is from a different WAD file, the former is played, as galileo31dos01 pointed out.
 
 * INTERCEPTS limit has been removed.
