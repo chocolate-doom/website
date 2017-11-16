@@ -121,6 +121,10 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version and 
 
 '''Improvements'''
 
+* Demo version mismatch has been made non-fatal for in-game demos, the demo just doesn't play if its version differs from the IWAD version. On deliberate launch of a wrong version demo the game still exits with a 'Demo is from a different game version!' error window.
+
+* 'A secret is revealed!' message isn't shown when the menu is active.
+
 * Current music now restarts if IDMUS00 is entered.
 
 * If D_INTRO is from a PWAD, and D_INTROA is from a different WAD file, the former is played, as galileo31dos01 pointed out.
