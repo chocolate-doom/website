@@ -111,6 +111,8 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version and 
 
 '''Features'''
 
+* Fake contrast logic is also applied to mid-textured lines.
+
 * Demo desyncing cheats are now disallowed during demo recording or playback per Zodomaniac's request.
 
 * The option for bobbing with half amplitude during firing has been added.
