@@ -115,7 +115,7 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 
 * Demo desyncing cheats are now disallowed during demo recording or playback per Zodomaniac's request.
 
-* The option for bobbing with half amplitude during firing has been added.
+* The option for weapon bobbing with half amplitude during firing has been added.
 
 * Combined card and skull keys are now supported (if provided by PWAD).
 
