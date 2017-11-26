@@ -107,7 +107,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.1 has been released on November XX, 2017.
 
-Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version and be supplemented by some new features and improvements, most of them requested by JNechaevsky.
+Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tested by Zodomaniac, and be supplemented by some new features and improvements, most of them requested by JNechaevsky.
 
 '''Features'''
 
