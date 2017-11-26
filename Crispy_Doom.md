@@ -145,7 +145,7 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 
 * VSYNC is disabled if software rendering is enforced.
 
-Crispy Doom 5.1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/413f4ecd7aae41229cc7b40ea3275970dc18cdb4 <tt>413f4ecd</tt>]
+Crispy Doom 5.1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/e845757894e091f93fb7b835eee66a4a3f13e088 <tt>e8457578</tt>]
 
 === Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
 
