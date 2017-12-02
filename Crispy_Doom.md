@@ -105,13 +105,15 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
-Crispy Doom 5.1 has been released on November XX, 2017.
+Crispy Doom 5.1 has been released on December XX, 2017.
 
 Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tested by Zodomaniac, and be supplemented by some new features and improvements, most of them requested by JNechaevsky.
 
 '''Features'''
 
-* Fake contrast logic is also applied to mid-textured lines.
+* Setting in Tactical section for squatting down the weapon when falling has been introduced.
+
+* Setting in Audible section for miscellaneous sound fixes has been introduced.
 
 * Demo desyncing cheats are now disallowed during demo recording or playback per Zodomaniac's request.
 
@@ -122,6 +124,8 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 * <tt>VERSION</tt> cheat code showing engine version, build date and SDL version has been introduced.
 
 '''Improvements'''
+
+* Fake contrast logic is also applied to mid-textured lines.
 
 * Demo version mismatch has been made non-fatal for in-game demos, the demo just doesn't play if its version differs from the IWAD version. On deliberate launch of a wrong version demo the game still exits with a 'Demo is from a different game version!' error window.
 
