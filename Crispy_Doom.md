@@ -38,7 +38,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 === New command line parameters ===
 
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
-* <tt>-fliplevels</tt> loads mirrored versions of the maps. '''WARNING: This is the default on April 1st in versions 5.0 and before!'''</br>
+* <tt>-fliplevels</tt> loads mirrored versions of the maps. '''WARNING: This is the default on April 1st in versions 5.0 and before!'''<br>
 In 5.1 and further this is no more enabled by default.
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
 * <tt>-monosfx</tt> plays all sound effects in mono (new in 5.0).
