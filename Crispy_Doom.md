@@ -126,6 +126,8 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 
 '''Improvements'''
 
+* Powerup sound is not played anymore when selecting the berserk fist according to Paar's request.
+
 * Fake contrast logic is also applied to mid-textured lines.
 
 * Demo version mismatch has been made non-fatal for in-game demos, the demo just doesn't play if its version differs from the IWAD version. On deliberate launch of a wrong version demo the game still exits with a 'Demo is from a different game version!' error window.
