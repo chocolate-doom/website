@@ -148,6 +148,8 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 
 '''Bug Fixes'''
 
+* Binding the crispy_smoothscaling config variable has been fixed, reported by Paar.
+
 * Missing line at bottom when drawing fuzzed sprites has been fixed.
 
 * VSYNC is disabled if software rendering is enforced.
