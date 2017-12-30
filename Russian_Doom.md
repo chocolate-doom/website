@@ -6,7 +6,7 @@ The project is based on [[Chocolate Doom]] and [[Crispy Doom]].
 
 == Supported games ==
 
-The following games are supported.
+The following games are supported:
 
 * DOOM Shareware
 * DOOM 1
@@ -16,6 +16,9 @@ The following games are supported.
 * Master Levels for Doom II
 * Final DOOM: TNT Evilution
 * Final DOOM: The Plutonia Experiment
+* Freedoom: Phase 1
+* Freedoom: Phase 2
+* FreeDM
 * Heretic Shareware (Beta)
 * Heretic Shareware
 * Heretic
@@ -28,47 +31,20 @@ No need to use “<tt>-file</tt>” for loading translated resources, the port w
 
 == Game enhancements ==
 
-All enhancements are optional and may be disabled to get the completely original feeling of the DOS version. It can be done in the ex-compatibility section of the Setup executable and all of them are available only for Doom. 
+Russian Doom offers many different visual enhancements like colored blood, transparency, mouse look and brightmaps. They can be switched in the ex-compatibility section of the Setup executable, as well as in configuration files.
 
-'''Interface:'''
+All features are available for Doom, many features are available for Heretic, and just few are available for Hexen.
 
-* Menu elements and texts are dropping shadow
-* No prompt on quick saving and loading
-* Show disk icon
-
-'''Graphics:'''
-
-* Colored blood and squished corpses
-* Randomly flipped monster death sprites and corpses
-* Correct formula of "Ouch face"
-* Invulnerability affects sky
-* Swirling liquids
-* Diabolical-red flash of monsters resurrection in Nightmare skill level
-* Super Shotgun has a chance to blast enemies
-* Very low-key transparency
-* No yellow flash on picking up items (disabled by default)
-
-'''Sounds:'''
-
-* Sound of crushing corpses 
-* Single sound of fast closing doors.
-* Option for disabling sound on exiting the game
-
-'''Gameplay:'''
-
-* Negative health
-* Notification of discovered secrets
-* Total level times on intermission screen
-* Pain Elemental without Lost Soul's attack limit
-
+Besides, there is also available “<tt>-vanilla</tt>” command line parameter, which will disable all enhancements without any changes in configuration file, making the game visual appearance as close as possible to original executables.
 
 == Download ==
 
 Windows version is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x64 editions).
+<br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
-Latest version for Windows: [http://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.2/russian-doom-2.2-win32.zip/download russian-doom-2.2-win32.zip] 
-<br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.0/russian-doom-dos-1.0.zip/download russian-doom-dos-1.0.zip]
-<br />Source code: [http://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.2/Source/russian-doom-2.2-source.zip/download russian-doom-2.2-source.zip]
+Latest version for Windows: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.4/russian-doom-2.4-win32.zip/download russian-doom-2.4-win32.zip] 
+<br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.2/russian-doom-dos-1.2.zip/download russian-doom-dos-1.2.zip]
+<br />Source code: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.4/Source/russian-doom-2.4-source.zip/download russian-doom-2.4-source.zip]
 <br />Full version history: [http://jnechaevsky.users.sourceforge.net/projects/rusdoom/files/changelog_eng.html changelog_eng.html]
 
 == Contact ==
