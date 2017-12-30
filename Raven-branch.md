@@ -38,6 +38,6 @@ raven-branch is now obsolete. Version 2.0 of Chocolate Doom integrated the chang
 
 == External links ==
 
-* [https://github.com/chocolate-doom/chocolate-doom/tree/raven-branch raven-branch] source code (final version, before the move to [[v2-branch]]).
+* {{gitbranch|raven-branch}} - final version, before the merge into [[v2-branch]].
 
-[[Category:Inactive_branches]]
+[[Category:Inactive branches]]
