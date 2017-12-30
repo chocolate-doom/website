@@ -1,7 +1,18 @@
 <includeonly>[https://github.com/chocolate-doom/chocolate-doom/blob/{{{ref|sdl2-branch}}}/{{{1}}} {{{2|{{{1}}}}}}]</includeonly><noinclude>
 Used to link to a specific file in the Chocolate Doom Git repository. For example:
 
-* {{srclink|README.md}}
-* {{srclink|README.md|This is the README file}}
-* {{srclink|README|README on opl-branch|ref=opl-branch}}
+{| class="wikitable"
+! You type
+! You get
+|-
+|<nowiki>{{srclink|README.md}}</nowiki>
+|{{srclink|README.md}}
+|-
+|<nowiki>{{srclink|README.md|This is the README file}}</nowiki>
+|{{srclink|README.md|This is the README file}}
+|-
+|<nowiki>{{srclink|README|README on opl-branch|ref=opl-branch}}</nowiki>
+|{{srclink|README|README on opl-branch|ref=opl-branch}}
+|-
+|}
 </noinclude>
