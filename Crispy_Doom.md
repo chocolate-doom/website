@@ -112,6 +112,10 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 
 '''Features'''
 
+* Optional brightmaps for textures, sprites, or both have been introduced.
+
+* Extended automap colors are now optional, the setting is in the new 'Navigational' part of the Crispness menu.
+
 * Setting in Tactical section for squatting down the weapon when falling has been introduced.
 
 * Setting in Audible section for miscellaneous sound fixes has been introduced.
@@ -125,6 +129,8 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 * <tt>VERSION</tt> cheat code showing engine version, build date and SDL version has been introduced.
 
 '''Improvements'''
+
+* GPL'ed <tt>P_CreateBlockMap</tt> implementation from MBF has been brought back, with support for for compressed ZDBSP nodes.
 
 * Powerup sound is not played anymore when selecting the berserk fist according to Paar's request.
 
