@@ -21,6 +21,6 @@ Unlike digital recorded music that you might find on a CD or an MP3 file, Doom's
 
 * Native MIDI, which uses the operating system's built-in MIDI playback. Most operating systems have some form of built-in MIDI playback, though the quality can vary.
 
-Music configuration, especially MIDI, can be extremely involved, see [https://github.com/chocolate-doom/chocolate-doom/blob/master/README.Music.md README.Music] for fine details.
+Music configuration, especially MIDI, can be extremely involved, see {{srclink|README.Music.md|README.Music}} for more details.
 
 [[Category:Setup tool]]
