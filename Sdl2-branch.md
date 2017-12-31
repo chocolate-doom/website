@@ -13,4 +13,4 @@
 * [https://groups.google.com/a/soulsphere.org/forum/#!topic/chocolate-doom-dev-list/tfr-FKhfBKU dev list announcement] that sdl2-branch will be the base for Chocolate Doom v3.0.
 * [https://github.com/chocolate-doom/chocolate-doom/milestone/1 sdl2-branch milestone] on GitHub.
 
-[[Category:Branches]]
+[[Category:Inactive branches]]
