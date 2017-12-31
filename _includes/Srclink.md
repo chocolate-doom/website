@@ -1,4 +1,4 @@
-<includeonly>[https://github.com/chocolate-doom/chocolate-doom/blob/{{{ref|sdl2-branch}}}/{{{1}}} {{{2|{{{1}}}}}}]</includeonly><noinclude>
+<includeonly>[https://github.com/chocolate-doom/chocolate-doom/blob/{{{ref|master}}}/{{{1}}} {{{2|{{{1}}}}}}]</includeonly><noinclude>
 Used to link to a specific file in the Chocolate Doom Git repository. For example:
 
 {| class="wikitable"
