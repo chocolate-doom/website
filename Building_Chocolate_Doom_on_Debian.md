@@ -1,12 +1,13 @@
 [[Image:Chocolate-doom-linux.png|thumb|right|Chocolate Doom running under Ubuntu Linux, a distribution derived from Debian.]]
-The following are instructions for building Chocolate Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
+
+[[chocpkg]] is the official way of building Chocolate Doom on all platforms from v3 onwards. What follows are instructions for building Chocolate Doom the [http://www.debian.org/ Debian GNU/Linux] way. These instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
 
 == Dependencies ==
 
 The first step is to install the necessary dependencies for building Chocolate Doom.  The easiest way to do this is to use the Debian package manager.  Run this command as root:
 
- apt-get install gcc make libsdl1.2-dev libsdl-net1.2-dev \
-     libsdl-mixer1.2-dev python-imaging
+ apt-get install gcc make libsdl2-dev libsdl2-net-dev \
+     libsdl2-mixer-dev python-imaging
 
 Several packages will be installed. 
 
@@ -18,9 +19,9 @@ To keep up to date with the latest bleeding-edge version of Chocolate Doom, you 
 
 To do this, you need to install some extra packages:
 
- aptitude install automake autoconf libtool git
+ apt-get install automake autoconf libtool git
 
-Check out the latest version from Subversion:
+Check out the latest version from Git:
 
  git clone https://github.com/chocolate-doom/chocolate-doom.git
 
