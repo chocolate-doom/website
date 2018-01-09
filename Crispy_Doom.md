@@ -106,13 +106,13 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
-Crispy Doom 5.1 has been released on December XX, 2017.
+Crispy Doom 5.1 has been released on January XX, 2018.
 
 Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tested by Zodomaniac, and be supplemented by some new features and improvements, most of them requested by JNechaevsky.
 
 '''Features'''
 
-* Optional brightmaps for textures, sprites, or both have been introduced.
+* Optional brightmaps for textures (named 'walls'), sprites (named 'items'), or both have been introduced fol all IWADs except Hacx.
 
 * Extended automap colors are now optional, the setting is in the new 'Navigational' part of the Crispness menu.
 
@@ -153,6 +153,10 @@ Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tes
 * Yellow bonus palette is reset and never shown for the dead player.
 
 '''Bug Fixes'''
+
+* Looking direction is restored from savegame only if either keyboard-look or mouse-look is enabled.
+
+* 0 and 5 keys on the numeric keypad are now bindable (for the convenience of left handed users), contribution of BlooD2oo1.
 
 * Binding the crispy_smoothscaling config variable has been fixed, reported by Paar.
 
