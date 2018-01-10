@@ -1,4 +1,4 @@
-Chocolate Doom on MacOS X.  Thanks to Benjamin "krel" Morris for this screenshot.  
+Chocolate Doom on MacOS X.
 
 {{Doom screenshot}}
 [[Category:Platform screenshots]]
