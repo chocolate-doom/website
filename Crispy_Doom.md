@@ -108,11 +108,11 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.1 has been released on January XX, 2018.
 
-Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tested by Zodomaniac, and be supplemented by some new features and improvements, most of them requested by JNechaevsky.
+Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tested by Zodomaniac, and be supplemented by some new features and improvements, most of them requested or done (brightmaps) by JNechaevsky.
 
 '''Features'''
 
-* Optional brightmaps for textures (named 'walls'), sprites (named 'items'), or both have been introduced fol all IWADs except Hacx.
+* Optional brightmaps for textures (named 'walls'), sprites (named 'items'), or both have been introduced fol all IWADs. Thanks to JNechaevsky for this contribution!
 
 * Extended automap colors are now optional, the setting is in the new 'Navigational' part of the Crispness menu.
 
