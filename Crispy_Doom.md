@@ -38,8 +38,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 === New command line parameters ===
 
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
-* <tt>-fliplevels</tt> loads mirrored versions of the maps. '''WARNING: This is the default on April 1st in versions 5.0 and before!'''<br>
-In 5.1 and further this is no more enabled by default.
+* <tt>-fliplevels</tt> loads mirrored versions of the maps (this was the on April 1st up to version 5.0).
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
 * <tt>-monosfx</tt> plays all sound effects in mono (new in 5.0).
 
@@ -73,10 +72,10 @@ In 5.1 and further this is no more enabled by default.
 == Download ==
 
 Binaries for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) are available here: 
-<br />http://www.greffrath.com/~fabian/crispy-doom_5.0.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom_5.1.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
-<br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_5.0.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_5.1.zip
 
 Crispy Doom can play nearly all variants of Doom. If you don't own any, you may download the [http://cdn.debian.net/debian/pool/non-free/d/doom-wad-shareware/doom-wad-shareware_1.9.fixed.orig.tar.gz Shareware version of Doom], extract it and copy the DOOM1.WAD file into your Crispy Doom directory. Alternatively, you may want to play Crispy Doom with [[Freedoom]] and a MegaWAD.
 
@@ -108,63 +107,38 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.1 has been released on January XX, 2018.
 
-Crispy Doom 5.1 is going to have the new Music Pack adapted to SDL2 version, tested by Zodomaniac, and be supplemented by some new features and improvements, most of them requested or done (brightmaps) by JNechaevsky.
+Crispy Doom 5.1 offers some new features and improvements, most of them requested by JNechaevsky, and is accompanied by a new Music Pack adapted to the SDL2 version and tested by Zodomaniac.
 
 '''Features'''
-
-* Optional brightmaps for textures (named 'walls'), sprites (named 'items'), or both have been introduced fol all IWADs. Thanks to JNechaevsky for this contribution!
-
-* Extended automap colors are now optional, the setting is in the new 'Navigational' part of the Crispness menu.
-
-* Setting in Tactical section for squatting down the weapon when falling has been introduced.
-
-* Setting in Audible section for miscellaneous sound fixes has been introduced.
-
-* Demo desyncing cheats are now disallowed during demo recording or playback per Zodomaniac's request.
-
-* The option for weapon bobbing with half amplitude during firing has been added.
-
-* Combined card and skull keys are now supported (if provided by PWAD).
-
-* <tt>VERSION</tt> cheat code showing engine version, build date and SDL version has been introduced.
+* Optional Brightmaps for select textures and flats ("walls") and/or pick-up and weapon HUD sprites ("items") have been introduced for all supported IWADs. Thanks to JNechaevsky for this contribution!
+* Extended automap colors are now optional, the setting is in the new 'Navigational' section of the Crispness menu.
+* A new setting for squatting down the weapon when falling has been introduced to the 'Tactical' section of the Crispness menu.
+* A new setting for miscellaneous sound fixes has been introduced to the Audible section of the Crispness menu.
+* Demo de-syncing cheats are now disallowed during demo recording or playback as per Zodomaniac's request.
+* An option for weapon bobbing with half amplitude during firing has been added.
+* Combined card and skull keys are now supported in the status bar (if provided by a PWAD).
+* The <tt>VERSION</tt> cheat code showing the engine version, build date and SDL version has been introduced.
 
 '''Improvements'''
-
-* GPL'ed <tt>P_CreateBlockMap</tt> implementation from MBF has been brought back, with support for for compressed ZDBSP nodes.
-
-* Powerup sound is not played anymore when selecting the berserk fist according to Paar's request.
-
-* Fake contrast logic is also applied to mid-textured lines.
-
-* Demo version mismatch has been made non-fatal for in-game demos, the demo just doesn't play if its version differs from the IWAD version. On deliberate launch of a wrong version demo the game still exits with a 'Demo is from a different game version!' error window.
-
-* 'A secret is revealed!' message isn't shown when the menu is active.
-
-* Current music now restarts if IDMUS00 is entered.
-
-* If D_INTRO is from a PWAD, and D_INTROA is from a different WAD file, the former is played, as galileo31dos01 pointed out.
-
-* INTERCEPTS limit has been removed.
-
-* Line breaks in HUD messages are now supported.
-
-* Inverted palette effect is removed when the player dies (e.g. when telefragged having Invulnerability power-up).
-
-* Yellow bonus palette is reset and never shown for the dead player.
+* The GPL-licensed <tt>P_CreateBlockMap()</tt> implementation from MBF has been re-introduced.
+* The "power up" sound is not played anymore when selecting the berserk fist, according to Paar's request.
+* Fake contrast logic is now also applied to mid-textured lines.
+* Demo version mismatch has been made non-fatal for in-game demos, the demo just doesn't play if its version differs from the IWAD version. On deliberate launch of a wrong versioned demo the game still exits with an error message.
+* The 'A secret is revealed!' message isn't shown anymore when the menu is active.
+* The current music now restarts if IDMUS00 is entered.
+* If the D_INTRO music is from a PWAD, and D_INTROA is from a different WAD file, the former is played, as galileo31dos01 pointed out.
+* The INTERCEPTS limit has been removed.
+* The inverted palette effect is now disabled when the player dies (e.g. when telefragged while having the Invulnerability power-up).
+* The yellow bonus palette is now reset and never shown if the player dies.
 
 '''Bug Fixes'''
+* The player's looking direction is restored from savegames only if either keyboard-look or mouse-look is enabled.
+* Binding of the crispy_smoothscaling config variable has been fixed, reported by Paar.
+* The missing line not drawn at the bottom of fuzzed sprites has been fixed.
+* VSYNC is now disabled if software rendering is enforced.
+* Support for for compressed ZDBSP nodes has been brought back, it was accidentally removed in 5.0 by the switch to the SDL2-based configure script.
 
-* Looking direction is restored from savegame only if either keyboard-look or mouse-look is enabled.
-
-* 0 and 5 keys on the numeric keypad are now bindable (for the convenience of left handed users), contribution of BlooD2oo1.
-
-* Binding the crispy_smoothscaling config variable has been fixed, reported by Paar.
-
-* Missing line at bottom when drawing fuzzed sprites has been fixed.
-
-* VSYNC is disabled if software rendering is enforced.
-
-Crispy Doom 5.1 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/16ae1b6ced98eb72cf6c827e6ec2fb639b33716e <tt>16ae1b6c</tt>]
+Crispy Doom 5.1 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch, which has meanwhile merged the sdl2-branch, up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/55a1c1c9e5ddc3c4e4e27240860d48bdb5701798 <tt>55a1c1c9</tt>]
 
 === Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
 
@@ -183,46 +157,6 @@ Besides this major transition, it features the following changes and fixes:
 * Resolutions above 1920x1200 are now properly supported.
 
 Crispy Doom 5.0 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/413f4ecd7aae41229cc7b40ea3275970dc18cdb4 <tt>413f4ecd</tt>]
-
-=== Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
-
-Crispy Doom 4.3 has been released on September 19, 2017.
-
-This quick fix release introduces improvements requested by ZeroMaster010 and is supposed to be the last release based on SDL1.
-
-'''Improvements'''
-
-* The <tt>sector->soundtarget</tt> element is now saved in extended savegames.
-
-* The <tt>-shorttics</tt> command line option has been added to force low-resolution turning even when not recording a demo which is useful for demo run practice.
-
-* Smoother fake contrasts are disabled again as they disturb pixel perfect alignment for speedrunners.
-
-=== Changes of Crispy Doom 4.2 from Crispy Doom 4.1 ===
-
-Crispy Doom 4.2 has been released on September 15, 2017.
-
-The changes since 4.1 are mostly polish of previously introduced features.
-
-'''Improvements'''
-
-* DOS references have been removed from the game quit confirmation dialogs on Zodomaniac's request inspired by Doom Retro, now they say:<br><tt>Press Y to quit.</tt><br><tt>I wouldn't leave if i were you. Your desktop is much worse.</tt><br><tt>You're trying to say you like your desktop better than me, right?</tt> and<br><tt>Don't go now, there's a dimensional shambler waiting at the command prompt!</tt><br>Note: When switching to SDL2, the desktop references will be replaced by the platform name detected by SDL2 ;)
-* "Screen shot" message doesn't get burned into the screenshots anymore when they are taken one after another on Zodomaniac's report.
-* Map coordinates enabled by the <tt>IDMYPOS</tt> cheat are now persistent, i.e. they don't automatically disappear anymore after a few seconds.
-* The (<tt>sprframe->rotate == -1</tt>) case is handled since it has been made non-fatal.
-* Interpolation of player missiles for the first tic is suppressed.
-* Different spellings of similar cheats in other engines are now supported:<br>Kill all monsters and disable all cube spitters: <tt>TNTEM</tt> (PrBoom+), <tt>KILLEM</tt> (MBF), <tt>FHHALL</tt> (Doom95)<br>Toggle monsters being deaf and blind until attacked: <tt>NOTARGET</tt> (PrBoom+), <tt>FHSHH</tt> (Doom95)<br>Display framerate: <tt>SHOWFPS</tt>, <tt>IDRATE</tt> (PrBoom+)
-* Higher scaling video modes up to 3200x2400/3200x2000 are supported on Calinou's request.
-* Crashes with maps with unusual map numbers are prevented.
-* Music number under- and overflows for both Doom 1 and 2 are prevented.
-* Negative ammo values are not allowed anymore thanks to the report by Zodomaniac and AnotherLife.
-* Evil grin is now triggered when <tt>IDFA/IDKFA</tt> is used which is 1) rather reasonable by itself as <tt>ID(K)FA</tt> gives weapons and items and 2) prevents the grin triggering when the next random item is picked up that AnotherLife noticed.
-* The first extra state is explicitly set to 1089 and the first extra mapthing to 150 to remain in sync with Doom Retro.
-* Weapon sprite is removed from clean screenshots only in maximized screen (no HUD) mode now, it was awkward before when the status bar was rendered but the weapon wasn't.
-* Calling <tt>pspr</tt> action pointers from <tt>mobj</tt> states and vice versa won't crash the game anymore after Zodomaniac's and JNechaevsky's investigation.
-* Menu messages are always printed with shadows regardless of which menu is the current one. Thanks to JNechaevsly for spotting this.
-
-Crispy Doom 4.3 and 4.2 have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/83a71dd850fb02e571e2b5117f234395f8869a11 <tt>83a71dd8</tt>].
 
 '''[[Crispy Doom/Changelog|Previous changes]]'''
 
