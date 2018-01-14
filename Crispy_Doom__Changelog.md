@@ -1,3 +1,43 @@
+=== Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
+
+Crispy Doom 4.3 has been released on September 19, 2017.
+
+This quick fix release introduces improvements requested by ZeroMaster010 and is supposed to be the last release based on SDL1.
+
+'''Improvements'''
+
+* The <tt>sector->soundtarget</tt> element is now saved in extended savegames.
+
+* The <tt>-shorttics</tt> command line option has been added to force low-resolution turning even when not recording a demo which is useful for demo run practice.
+
+* Smoother fake contrasts are disabled again as they disturb pixel perfect alignment for speedrunners.
+
+=== Changes of Crispy Doom 4.2 from Crispy Doom 4.1 ===
+
+Crispy Doom 4.2 has been released on September 15, 2017.
+
+The changes since 4.1 are mostly polish of previously introduced features.
+
+'''Improvements'''
+
+* DOS references have been removed from the game quit confirmation dialogs on Zodomaniac's request inspired by Doom Retro, now they say:<br><tt>Press Y to quit.</tt><br><tt>I wouldn't leave if i were you. Your desktop is much worse.</tt><br><tt>You're trying to say you like your desktop better than me, right?</tt> and<br><tt>Don't go now, there's a dimensional shambler waiting at the command prompt!</tt><br>Note: When switching to SDL2, the desktop references will be replaced by the platform name detected by SDL2 ;)
+* "Screen shot" message doesn't get burned into the screenshots anymore when they are taken one after another on Zodomaniac's report.
+* Map coordinates enabled by the <tt>IDMYPOS</tt> cheat are now persistent, i.e. they don't automatically disappear anymore after a few seconds.
+* The (<tt>sprframe->rotate == -1</tt>) case is handled since it has been made non-fatal.
+* Interpolation of player missiles for the first tic is suppressed.
+* Different spellings of similar cheats in other engines are now supported:<br>Kill all monsters and disable all cube spitters: <tt>TNTEM</tt> (PrBoom+), <tt>KILLEM</tt> (MBF), <tt>FHHALL</tt> (Doom95)<br>Toggle monsters being deaf and blind until attacked: <tt>NOTARGET</tt> (PrBoom+), <tt>FHSHH</tt> (Doom95)<br>Display framerate: <tt>SHOWFPS</tt>, <tt>IDRATE</tt> (PrBoom+)
+* Higher scaling video modes up to 3200x2400/3200x2000 are supported on Calinou's request.
+* Crashes with maps with unusual map numbers are prevented.
+* Music number under- and overflows for both Doom 1 and 2 are prevented.
+* Negative ammo values are not allowed anymore thanks to the report by Zodomaniac and AnotherLife.
+* Evil grin is now triggered when <tt>IDFA/IDKFA</tt> is used which is 1) rather reasonable by itself as <tt>ID(K)FA</tt> gives weapons and items and 2) prevents the grin triggering when the next random item is picked up that AnotherLife noticed.
+* The first extra state is explicitly set to 1089 and the first extra mapthing to 150 to remain in sync with Doom Retro.
+* Weapon sprite is removed from clean screenshots only in maximized screen (no HUD) mode now, it was awkward before when the status bar was rendered but the weapon wasn't.
+* Calling <tt>pspr</tt> action pointers from <tt>mobj</tt> states and vice versa won't crash the game anymore after Zodomaniac's and JNechaevsky's investigation.
+* Menu messages are always printed with shadows regardless of which menu is the current one. Thanks to JNechaevsly for spotting this.
+
+Crispy Doom 4.3 and 4.2 have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/83a71dd850fb02e571e2b5117f234395f8869a11 <tt>83a71dd8</tt>].
+
 === Changes of Crispy Doom 4.1 from Crispy Doom 4.0 ===
 
 Crispy Doom 4.1 has been released on June 14, 2017.
