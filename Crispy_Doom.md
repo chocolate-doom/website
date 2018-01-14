@@ -105,7 +105,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
-Crispy Doom 5.1 has been released on January XX, 2018.
+Crispy Doom 5.1 has been released on January 13, 2018.
 
 Crispy Doom 5.1 offers some new features and improvements, most of them requested by JNechaevsky, and is accompanied by a new Music Pack adapted to the SDL2 version and tested by Zodomaniac.
 
@@ -154,7 +154,7 @@ Besides this major transition, it features the following changes and fixes:
 * The 60FPS and 70FPS rendering modes have been removed in favor of proper VSYNC.
 * DOS references in the game quit confirmation dialogs have been replaced with the name of the actual operating system.
 * A new <tt>-monosfx</tt> command line parameter has been introduced to play all sound effects in mono. Inspired by other Choco derivatives like Russian Doom and Riscos Doom.
-* Resolutions above 1920x1200 are now properly supported.
+* Resolutions above 1920x1200 are now properly supported, thanks to SDL2-based hardware scaling.
 
 Crispy Doom 5.0 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/413f4ecd7aae41229cc7b40ea3275970dc18cdb4 <tt>413f4ecd</tt>]
 
@@ -173,7 +173,7 @@ Please report any bugs, glitches or crashes that you encounter to the GitHub [ht
 == Acknowledgement ==
 Although I have played the thought of hacking on Chocolate Doom's renderer for quite some time already, it was Brad Harding's [[Doom Retro]] that provided the incentive to finally do it. However, his fork aims at a different direction and I did not take a single line of code from it. Lee Killough's [[doom:MBF|MBF]] was studied and used to debug the code, especially in the form of Team Eternity's [[doom:WinMBF|WinMBF]] source port, which made it easier to compile and run on my machine. And of course there is fraggle's [[Chocolate Doom]] with its exceptionally clean and legible source code. Please let me take this opportunity to appreciate all these authors for their work!
 
-Also, thanks plums of the [https://www.doomworld.com/vb/ Doomworld forums] for beta testing, Zodomaniac and JNechaevsky for the continuous flow of support and inspiration during the 3.x/4.x development phase and (last but not the least) [http://www.moddb.com/members/cacodemon9000 Cacodemon9000] for his [http://www.moddb.com/games/doom-ii/addons/infested-outpost Infested Outpost] map that helped to track down quite a few bugs!
+Also, thanks plums of the [https://www.doomworld.com/vb/ Doomworld forums] for beta testing, "release manager" Zodomaniac and "art director" JNechaevsky for the continuous flow of support and inspiration during the 3.x-5.x development cycle and (last but not the least) [http://www.moddb.com/members/cacodemon9000 Cacodemon9000] for his [http://www.moddb.com/games/doom-ii/addons/infested-outpost Infested Outpost] map that helped to track down quite a few bugs!
 
 == Legalese ==
 Doom is &copy; 1993-1996 Id Software, Inc.; 
@@ -184,7 +184,7 @@ Doom is &copy; 1993-1996 Id Software, Inc.;
 <br />Chocolate Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard; 
 Chocolate Hexen is &copy; 1993-1996 Id Software, Inc., &copy; 1993-2008 Raven Software, &copy; 2008 Simon Howard;
 <br />Strawberry Doom is &copy; 1993-1996 Id Software, Inc., &copy; 2005 Simon Howard, &copy; 2008-2010 GhostlyDeath; 
-<br />Crispy Doom is additionally &copy; 2014-2017 Fabian Greffrath;
+<br />Crispy Doom is additionally &copy; 2014-2018 Fabian Greffrath;
 all of the above are released under the [https://www.gnu.org/licenses/gpl-2.0.html GPL-2+].
 <br /><br />
 SDL 2.0, SDL_mixer 2.0 and SDL_net 2.0 are &copy; 1997-2016 Sam Lantinga and are released under the [http://www.gzip.org/zlib/zlib_license.html zlib license].
