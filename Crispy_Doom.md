@@ -107,7 +107,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.1 has been released on January 13, 2018.
 
-Crispy Doom 5.1 offers some new features and improvements, most of them requested by JNechaevsky, and is accompanied by a new Music Pack adapted to the SDL2 version and tested by Zodomaniac.
+Crispy Doom 5.1 offers some new features and improvements, most of them requested by JNechaevsky, and is accompanied by a new Music Pack adapted to the SDL2 version and tested by Zodomaniac (if you are experiencing problems with playing music remove crispy-midiproc.exe from the game folder).
 
 '''Features'''
 * Optional Brightmaps for select textures and flats ("walls") and/or pick-up and weapon HUD sprites ("items") have been introduced for all supported IWADs. Thanks to JNechaevsky for this contribution!
