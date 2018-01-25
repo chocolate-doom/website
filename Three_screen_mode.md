@@ -9,15 +9,15 @@ The three screen mode is activated by launching a [[multiplayer]] game and using
 
 To start the game in three screen mode, first start the center screen as a server:
 
-    chocolate-doom -server -window
+ chocolate-doom -server -window
 
 While the game is waiting for you to start it, launch another instance as the left monitor:
 
-    chocolate-doom -autojoin -left -window
+ chocolate-doom -autojoin -left -window
 
 and then do the same again for the right monitor:
 
-    chocolate-doom -autojoin -right -window
+ chocolate-doom -autojoin -right -window
 
 then open the original [[:File:Multi-waiting.png|waiting screen]] window and press space to start the game. You should see three separate windows; move these to appropriate monitors and resize as appropriate.
 
