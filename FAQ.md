@@ -148,7 +148,7 @@ One solution to the problem is to set a lower mouse sensitivity.  Alternatively,
 * Sound volume menu: F4
 
 === I have played Doom using other source ports.  Why does everything in Chocolate Doom appear to be vertically stretched? ===
-Chocolate Doom by default preserves the original aspect ratio the game was intended to appear in, while most other ports ignore this detail.  See [[screen resolution]] and [[doom:aspect ratio|aspect ratio]] (Doom Wiki) for more information.
+Chocolate Doom by default preserves the original aspect ratio the game was intended to appear in, while some other ports ignore this detail.  See [[screen resolution]] and [[doom:aspect ratio|aspect ratio]] (Doom Wiki) for more information.
 
 === Can Chocolate Doom be run on Win95/98/Me? ===
 
