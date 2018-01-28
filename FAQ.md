@@ -105,21 +105,11 @@ This does, of course, raise the question of why you would want to use a higher r
 * When running in a window, it is desirable to scale the screen up because a 320x200 window will appear tiny on a modern high resolution display.
 * Modern LCD monitors perform antialiasing when scaling up lower resolution screen modes; this gives a "blurry" appearance to the screen, rather than the "blocky" appearance that a CRT monitor gives.
 
-=== When playing in a full screen mode, why is there a black border around the screen? ===
+=== When playing in a full screen mode, why are there borders at the sides of the screen? ===
 
-Chocolate Doom scales the screen in integer multiples, for example:
+Vanilla Doom was developed to run on 4:3 CRT monitors used in the '90s, and Chocolate Doom reproduces this appearance. Since Doom's original release, most computers have changed to widescreen aspect ratios, which leads to leftover space at the sides of the screen.
 
-* 1x : 320x200,  320x240,  256x200
-* 2x : 640x400,  640x480,  512x400
-* 3x : 960x600,  960x720,  800x600
-* 4x : 1280x800, 1280x960, 1024x800
-: etc.
-
-When running in a full screen video mode, the largest scale factor is picked that will fit within the screen.  For example, if running at 1024x768 resolution, a 3x scale will be chosen.  However, this gives a scaled screen size of only 960x720, which is less than the full screen resolution.  The result is a black border around the screen when playing in this mode.
-
-This problem can be alleviated if necessary by choosing a different screen mode.  For example, 640x480 and 800x600 have scale factors that fit perfectly.  Similarly, for some modes, such as 1280x1024, the scale factor is not exact but the borders are small enough to be unnoticeable.
-
-See [[Screen resolution]] for more information.
+It is usually possible to use the full screen space by turning off the [[Setup/Display configuration|"Fix aspect ratio" option]] in the setup tool. However, doing so will display all graphics at the wrong aspect ratio and give the game a "squashed" appearance, so is not recommended.
 
 === How do I look up and down, jump or crouch? ===
 
