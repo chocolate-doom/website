@@ -20,5 +20,5 @@ The digital music pack functionality also provides a more convenient replacement
 
 4. Return to the main menu and choose the "Save parameters and launch game" option.
 
-[[Category:Future features]]
+[[Category:Features]]
 [[Category:Music]]
