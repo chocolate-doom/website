@@ -103,6 +103,25 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
+
+Crispy Doom 5.2 has been released on February XX, 2018. This release features the new Demos option section of Crispness menu,
+with demo recording and playback timers and optional progress bar.
+
+'''Features'''
+* New 'Demos' section of the Crispness menu, including the optional recording timer, forward/backward counting playback timer and demo progress bar,
+now 2 px high.
+* Support for MUSINFO lumps (dynamic music changing).
+
+'''Improvements'''
+* Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
+
+'''Bug Fixes'''
+* Bullet puffs now don't slip to the edge of a sector when passing through the plane, now bullets hitting the floors and ceilings in direct aiming mode have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
+* Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
+
+Crispy Doom 5.1 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a8985916115356fc8e468461aac933b97222c45b <tt>a8985916</tt>]
+
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
 Crispy Doom 5.1 has been released on January 13, 2018.
