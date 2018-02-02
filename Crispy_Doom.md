@@ -105,11 +105,11 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on February XX, 2018. This release features the new Demos option section of Crispness menu,
-with demo recording and playback timers and optional progress bar.
+Crispy Doom 5.2 has been released on February XX, 2018. This release features the new Demos section of Crispness menu,
+with options for demo recording and playback timers and progress bar.
 
 '''Features'''
-* New 'Demos' section of the Crispness menu, including the optional recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
+* New 'Demos' section of the Crispness menu, including the recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
