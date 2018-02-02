@@ -136,7 +136,7 @@ Crispy Doom 5.1 offers some new features and improvements, most of them requeste
 * Binding of the crispy_smoothscaling config variable has been fixed, reported by Paar.
 * The missing line not drawn at the bottom of fuzzed sprites has been fixed.
 * VSYNC is now disabled if software rendering is enforced.
-* Support for for compressed ZDBSP nodes has been brought back, it was accidentally removed in 5.0 by the switch to the SDL2-based configure script.
+* Support for compressed ZDBSP nodes has been brought back, it was accidentally removed in 5.0 by the switch to the SDL2-based configure script.
 
 Crispy Doom 5.1 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch, which has meanwhile merged the sdl2-branch, up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/55a1c1c9e5ddc3c4e4e27240860d48bdb5701798 <tt>55a1c1c9</tt>]
 
