@@ -109,8 +109,7 @@ Crispy Doom 5.2 has been released on February XX, 2018. This release features th
 with demo recording and playback timers and optional progress bar.
 
 '''Features'''
-* New 'Demos' section of the Crispness menu, including the optional recording timer, forward/backward counting playback timer and demo progress bar,
-now 2 px high.
+* New 'Demos' section of the Crispness menu, including the optional recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
