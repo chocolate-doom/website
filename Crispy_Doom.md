@@ -116,7 +116,7 @@ with options for demo recording and playback timers and progress bar.
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
-* Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to @galileo31dos01 for pointing this out.
+* Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
 * Status bar is now backed up with arms widget background to fix the automap causing pixel replacement reported by JNechaevsky.
 * Fixes to Chex Quest:<br>-do not show the Episode menu anymore when returning from the Skill menu<br>-explicitly disable the "Colored blood and corpses", "Fix Spectre and Lost Sould blood" and "Randomly mirrored corpses" Crispness menu entries<br>-some consistency fixes (gamemode, nervewadfile)<br>done on request by JNechaevsky.
 * Resurrections of mirrored corpses staying mirrored have been fixed by mfrancis95.
