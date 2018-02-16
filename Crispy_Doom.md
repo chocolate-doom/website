@@ -124,7 +124,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Bullet puffs now don't slip to the edge of a sector when passing through the plane, bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
 * Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
 
-Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/a8985916115356fc8e468461aac933b97222c45b <tt>a8985916</tt>]
+Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/0b50fbde6a49250d4372a3255b1e1fd451326abe <tt>0b50fbde</tt>]
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
