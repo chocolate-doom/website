@@ -1,75 +1,71 @@
 [[Image:Chocolate_Windows_7.png|right|thumb|Chocolate Doom on Windows]]
-Chocolate Doom is built on Windows using the ''Cygwin'' build environment.  Windows developers may find this unusual as Microsoft Visual Studio is often considered the "standard" compiler for that platform. Cygwin provides a Unix-like development environment that is the same as other platforms, so the build system and compiler (autotools, make, gcc) are identical for every operating system that Chocolate Doom runs on. Using Cygwin also means that Chocolate Doom is not dependent on a proprietary tool.
+Chocolate Doom is built on Windows using the ''MSYS2'' build environment.  Windows developers may find this unusual as Microsoft Visual Studio is often considered the "standard" compiler for that platform. MSYS2 provides a Unix-like development environment that is the same as other platforms, so the build system and compiler (autotools, make, gcc) are identical for every operating system that Chocolate Doom runs on. Using MSYS2 also means that Chocolate Doom is not dependent on a proprietary tool.
 
-Note that Cygwin is only used as a build environment: Chocolate Doom is actually built using the ''MinGW'' version of gcc, and is not linked against the Cygwin libraries (cygwin1.dll).
+Building using MSYS2 is not difficult. However, MSYS2 is a Unix-like environment, so if you are not familiar with using a Unix command line, or find these instructions confusing, it may be a good idea to do some basic reading about how to use one.  If you have used DOS or the Windows command line in the past you will find that things are fairly similar.
 
-Building using Cygwin is not difficult. However, Cygwin is a Unix-like environment, so if you are not familiar with using a Unix command line, or find these instructions confusing, it may be a good idea to do some basic reading about how to use one.  If you have used DOS or the Windows command line in the past you will find that things are fairly similar.
+Developers who are unhappy with this arrangement can use the [[Building Chocolate Doom on Windows (alternative build)|alternative build]] project files to compile using either Microsoft Visual Studio or Code::Blocks.  However, be aware that these project files may be out of date, and the "canonical" way of building Chocolate Doom is using MSYS2.
 
-Developers who are unhappy with this arrangement can use the [[Building Chocolate Doom on Windows (alternative build)|alternative build]] project files to compile using either Microsoft Visual Studio or Code::Blocks.  However, be aware that these project files may be out of date, and the "canonical" way of building Chocolate Doom is using Cygwin.
+== Installing MSYS2 ==
 
-== Installing Cygwin ==
+'''Platform note:''' MSYS2 requires [[wikipedia:Windows Vista|Windows Vista]] or newer to run, but the executables produced will be able to launch on [[wikipedia:Windows XP|Windows XP]].
 
-The first step is to install [http://cygwin.com/ Cygwin]. Cygwin has a graphical setup wizard that makes setting it up easy - simply download and run ''setup.exe'' from the website.
+The first step is to install [https://www.msys2.org/ MSYS2]. MSYS2 has a graphical setup wizard that makes setting it up easy: simply download and run ''msys2-x86_64-*.exe'' from the website. If you use a 32-bit system, use ''msys2-i686-*.exe'' instead.
 
-If you already have Cygwin installed, re-run the setup program again, and follow through the instructions in this section to make sure you have all the packages below installed.
+If you already have MSYS2 installed, you can skip the (re)installation but make sure that your packages are up to date with the <tt>pacman -Syu</tt> command.
 
-Go through the setup program until the point where you are prompted to select which packages you want to install. Click the "view" button at the top right of the window and select "full" to get a single list of packages sorted by name, and select the following packages:
+On a fresh installation, please check the MSYS2 website carefully for immediate update information, the gist should be:
 
-* automake1.14
-* autoconf2.5
-* bash
-* git
-* mingw-gcc-core
-* mingw-w32api
-* make
-* python
-* wget
-* patchutils
+# Run <tt>pacman -Syu</tt>, this will grab only a few updates including <tt>pacman</tt> itself, type ''y'' at the prompts to resolve conflicts. It will print a warning to close MSYS2 ''without'' exiting to shell first. Closing the MinTTY terminal window does not seem to always work, so use Task Manager (Ctrl-Shift-Esc) to do an "End Process" on ''mintty.exe'', ''bash.exe'', and ''pacman.exe''.
+# Re-open the MSYS2 terminal, using the start menu/screen shortcut, and run <tt>pacman -Syu</tt> once more. This should receive even more updates available for your MSYS2 environment, and should complete the first step.
 
-Note that there are several compiler options available with Cygwin. mingw-gcc-core is presently the prefered compiler, as it can produce executables for ancient versions of Windows (NT3.x, NT4.0, 95, 98, Me).  The standard gcc-core package produces exectubles with a dependency on Cygwin and behave as Unix programs, this is normally undesirable on Windows.  mingw64-i686-gcc-core and mingw64-x86_64-gcc-core are also available, and work, but they cannot produce executables that run on old versions of Windows.
+== Installing build dependencies ==
 
-Having selected the necessary packages, click "next" to begin the install process.  If you are installing Cygwin for the first time it may take a while to download and install all of the packages.
+There are two main compiler options available for building with MSYS2, ''mingw-w64-i686'' for building 32-bit Windows executables, and ''mingw-w64-x86_64'' for building 64-bit Windows executables. Both should work, but since 64-bit does not provide any benefits to Chocolate Doom and 32-bit executables will run on any 32- or 64-bit version of Windows starting from XP onwards, we will prefer the 32-bit build.
 
-== Auto-build script ==
+The Chocolate Doom build has a few dependencies, basic ones for any software development at all are in the ''base-devel'' and ''msys2-devel'' groups, the MinGW toolchain is available in the ''mingw-w64-i686-toolchain'' group, press enter at the prompts to select all packages in these groups. Additional dependencies include SDL2, libpng, libsamplerate, python, and zip; git should be installed so the GitHub repository can be cloned. All together, the command to install everything should be:
 
-Next, download the [http://www.chocolate-doom.org/build-chocolate-doom auto-build script]. You can use ''wget'' to do this from the Cygwin Bash shell:
+ pacman -S base-devel msys2-devel \
+        mingw-w64-i686-{toolchain,SDL2{,_net,_mixer},libsamplerate,libpng} \
+        python zip git
 
- wget https://www.chocolate-doom.org/build-chocolate-doom
+== Clone the Git repository ==
 
-Next you need to run the script. You have the option of either building the latest stable release, or the latest bleeding-edge version from the Git repository.
+Technically optional, since you can download a release tarball too, but Git is extremely handy if you will be making modifications and keeping track with current development:
 
-For the stable version, type:
- sh build-chocolate-doom
+ git clone https://github.com/chocolate-doom/chocolate-doom
 
-For the latest version from Git, type:
- sh build-chocolate-doom -git
+== Compiling Chocolate Doom ==
 
-The auto-build script will download, build and install the SDL libraries automatically (this may take some time).  These are installed in the ''chocolate-doom'' directory in your Cygwin home directory.  If your Windows login name contains a space (eg. if it is your full name), you will likely experience problems because Unix scripts often fail when dealing with directories containing spaces.  Before running the auto-build script, type this to build in a different directory:
+At this stage, you '''must''' use the appropriate MSYS2 terminal so that the ''$PATH'' environment variable points to the proper toolchain, for the ''mingw-w64-i686'' toolchain (32-bit), use the ''MSYS MinGW 32-bit'' start menu/screen shortcut, and your prompt will reflect it with <tt>MINGW32</tt> printed as part of it. If this is not in your current prompt, just run the new terminal from the shortcut.
 
- mkdir /home/user
- export HOME=/home/user
+The Git repository does not include autoconf and automake generated files, use the ''autogen.sh'' script to do so, as well passing in the compiler host triplet:
 
-=== Result ===
+ ./autogen.sh --host=i686-w64-mingw32
 
-If the build is successful you should see the words "Build complete" and you will be returned to the command line.  Type the following commands and you should see similar output:
+If you already have a ''./configure'' script, you can replace ''./autogen.sh'' with it.
 
- user@host ~
- $ '''cd ~/chocolate-doom'''
- 
- user@host ~/chocolate-doom
- $ '''ls'''
- build  chocolate-doom  chocolate-server  chocolate-setup  install  packages
- 
- user@host ~/chocolate-doom
- $
+Assuming that no errors occured in the configure stage, you should be ready to compile all the EXEs:
+
+ make
+
+After this is done, you still won't be able to run the Chocolate EXEs directly from the src directory, as they will be linked against DLLs not present in the folder. Instead, change to the pkg/win32 directory to build Windows release zips:
+
+ cd pkg/win32
+ make
+
+== Result and running ==
+
+If the build is successful, you should not have any errors from the ''make'' command, and the pkg/win32 directory should have some staging folders and zip files.
+
+Browse to this directory with Windows Explorer, usually at a path such as ''C:\msys64\home\$User\chocolate-doom\pkg\win32'', and you can either extract the zip files to another location, or run directly from one of the staging-* folders, which contain all DLL files necessary to launch.
 
 == Modifying the source code ==
 
-If you want to make your own mods to the Chocolate Doom source, go to ''~/chocolate-doom/build/chocolate-doom-(version)'' (stable release build) or ''~/chocolate-doom/build/chocolate-doom-git'' (latest Git version).  The source code is in the ''src'' directory; type ''make'' to build the code after making any mods.
+If you want to make your own mods to the Chocolate Doom source, go to ''~/chocolate-doom''.  The source code is in the ''src'' directory; type ''make'' to build the code after making any mods.
 
 == Keeping up to date ==
 
-If you have compiled the latest version from Git, you may want to keep up to date with new developments and bug fixes.  To update to the latest version, go to ''~/chocolate-doom/build/chocolate-doom-git'' and type:
+If you have compiled the latest version from Git, you may want to keep up to date with new developments and bug fixes.  To update to the latest version, go to ''~/chocolate-doom'' and type:
 
  git pull
  make
