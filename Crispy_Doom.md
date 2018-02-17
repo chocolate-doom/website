@@ -116,7 +116,8 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
-* Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed, now the game errors out with a message saying which savegame could not be loaded.
+* Crash on completing No Rest for the Living (NERVE.WAD) MAP09 when recording/playing back a demo has been fixed on Zodomaniac's report for the case NERVE.WAD is auto-loaded with BFG Edition IWAD.
+* Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
 * Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
 * Status bar is now backed up with arms widget background to fix the automap causing pixel replacement reported by JNechaevsky.
 * Fixes to Chex Quest:<br>-do not show the Episode menu anymore when returning from the Skill menu<br>-explicitly disable the "Colored blood and corpses", "Fix Spectre and Lost Sould blood" and "Randomly mirrored corpses" Crispness menu entries<br>-some consistency fixes (gamemode, nervewadfile)<br>done on request by JNechaevsky.
