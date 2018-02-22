@@ -113,7 +113,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
-* 'Always Run' is now disabled by default.
+* 'Always Run' is now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. If you prefer Always Run enabled by default, copy the default.cfg and crispy-doom.cfg from your previous installation, you will also avoid re-configuring all the controls.
 * Miscellaneous Sound Fixes now include playing the Arch-Vile fire start sound (DSFLAMST) on JNechaevsky's suggestion.
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
