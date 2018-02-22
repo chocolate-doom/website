@@ -113,8 +113,10 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
-* Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
+* 'Always Run' is now disabled by default.
 * Miscellaneous Sound Fixes now include playing the Arch-Vile fire start sound (DSFLAMST) on JNechaevsky's suggestion.
+* Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
+
 '''Bug Fixes'''
 * Crash on completing NERVE MAP09 when recording/playing back a demo in case NERVE.WAD is auto-loaded with BFG Edition DOOM 2 IWAD has been fixed on Zodomaniac's report.
 * Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
