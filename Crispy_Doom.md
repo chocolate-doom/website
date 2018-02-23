@@ -36,6 +36,24 @@ All of these features are disabled by default and need to get enabled either in 
 
 Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" maps -- but not Boom or ZDoom maps. Many additional less user-visible features have been implemented, e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed harmless game logic bugs, full support for DEHACKED files and lumps in BEX format, additional and improved cheat codes, an improved Automap, and many more! For a detailed list of features and changes please refer to the release notes below.
 
+=== New controls (with default bindings) ===
+
+* Move Forward (alt.) "W"
+* Move Backward (alt.) "S"
+* Strafe Left (alt.) "A"
+* Strafe Right (alt.) "D"
+* Jump (bindable to mouse buttons as well) "/" (like in Chocolate Hexen and Strife)
+* Quick Reverse (bindable to mouse buttons as well)
+* Mouse Look (bindable to mouse buttons or permanent)
+* Look up "PgDn" (bindable to joystick)
+* Look down "DELETE" (bindable to joystick)
+* Center view "END"
+* Toggle always run "CAPSLOCK"
+* Delete savegame "DELETE"
+* Go to next level
+* Reload current level
+* Save a clean screenshot
+
 === New command line parameters ===
 
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
