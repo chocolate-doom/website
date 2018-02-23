@@ -43,8 +43,8 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * Strafe Left (alt.) "A"
 * Strafe Right (alt.) "D"
 * Jump (bindable to mouse buttons as well) "/" (like in Chocolate Hexen and Strife)
-* Quick Reverse (bindable to mouse buttons as well)
-* Mouse Look (bindable to mouse buttons or permanent)
+* Quick Reverse (bindable to keys or mouse buttons as well)
+* Mouse Look (bindable to keys or mouse buttons or permanent)
 * Look up "PgDn" (bindable to joystick)
 * Look down "DELETE" (bindable to joystick)
 * Center view "END"
