@@ -137,6 +137,8 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Clean screenshot breaking the menu if the regular screenshot key is unbound has been fixed due to JNechaevsky's efforts to track this down.
+* Screenshot without 'screen shot' message feature has been repaired.
 * Crash on completing NERVE MAP09 when recording/playing back a demo in case NERVE.WAD is auto-loaded with BFG Edition DOOM 2 IWAD has been fixed on Zodomaniac's report.
 * Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
 * Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
