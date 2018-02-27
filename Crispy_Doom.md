@@ -161,7 +161,7 @@ Crispy Doom 5.1 offers some new features and improvements, most of them requeste
 * Extended automap colors are now optional, the setting is in the new 'Navigational' section of the Crispness menu.
 * A new setting for squatting down the weapon when falling has been introduced to the 'Tactical' section of the Crispness menu.
 * A new setting for miscellaneous sound fixes has been introduced to the Audible section of the Crispness menu.
-* Demo de-syncing cheats are now disallowed during demo recording or playback as per Zodomaniac's request.
+* Demo de-syncing cheats are now disallowed during demo recording or playback as Zodomaniac requested.
 * An option for weapon bobbing with half amplitude during firing has been added.
 * Combined card and skull keys are now supported in the status bar (if provided by a PWAD).
 * The <tt>VERSION</tt> cheat code showing the engine version, build date and SDL version has been introduced.
