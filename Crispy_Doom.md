@@ -17,7 +17,7 @@ Its core features are:
 * Removal of all static engine limits, or at least raising of the less crucial ones.
 * Full support for the "Doom Classic" WADs shipped with the "Doom 3: BFG Edition", especially the "No Rest For The Living" episode shipped in the NERVE.WAD file.
 
-Furthermore, the following optional user-visible features are available:
+Furthermore, the following optional user-visible and audible features are available:
 
 * Jumping.
 * Free vertical looking, including mouse look and vertical aiming.
@@ -30,7 +30,9 @@ Furthermore, the following optional user-visible features are available:
 * Players may walk over or under monsters and hanging corpses.
 * Centered Weapons when firing, weapon recoil thrust and pitch.
 * Reports whenever a secret is revealed.
-* Level statistics in the Automap.
+* Level statistics and extended coloring in the Automap.
+* Playing sounds in full length, deliberately preserving the [http://doom.wikia.com/wiki/Silent_BFG <tt>silent BFG trick</tt>].
+* Miscellaneous sound fixes.
 
 All of these features are disabled by default and need to get enabled either in the in-game "Crispness" menu or in the crispy-doom-setup tool. They are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identical]], to Vanilla Doom's.
 
