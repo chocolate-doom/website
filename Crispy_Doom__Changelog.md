@@ -610,7 +610,7 @@ Crispy Doom 1.5 "Supernova" has been released on August 18, 2014.
 * The <tt>ID[K]FA</tt> cheats now give the backpack to the player.
 
 * Optional weapon recoil has been added for all weapons except the fist and the chainsaw, using the recoil thrust values found in MBF and PrBoom+. This feature has to get enabled in ''crispy-doom-setup'', it is disabled by default and only generally available in regular single player games.
-* The extra quit messages ('''containing profanity!''') found in the source code have been enabled and are now shown with the same propability as the original messages.
+* The extra quit messages ('''containing profanity!''') found in the source code have been enabled and are now shown with the same probability as the original messages.
 * The weapon sprite now gets centered upon firing.
 * When the "Quick Load" button (<tt>F9</tt>) is pressed before the game has been saved via "Quick Save" (<tt>F6</tt>), the regular "Load Game" menu is now shown and the selected slot is taken as the "Quick Save" slot. Also, the "Quick Save" slot is now cleared once the game is ended via "End Game" in the "Options" menu.
 
