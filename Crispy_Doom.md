@@ -60,6 +60,8 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>-fliplevels</tt> loads mirrored versions of the maps (this was the default on April 1st up to version 5.0).
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
 * <tt>-monosfx</tt> plays all sound effects in mono (new in 5.0).
+* <tt>-shorttics</tt> forces low-resolution turning, like in demos, useful for demo run practice. <tt>-longtics -record demoname</tt> records a demo with high-resolution turning (as well as in Chocolate Doom).
+* <tt>-loadgame N -record demoname</tt> and <tt>-loadgame N -playdemo demoname</tt> allow to record and play demos starting from a savegame, not from the level start.
 
 === New cheat codes ===
 
