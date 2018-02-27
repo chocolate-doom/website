@@ -12,6 +12,8 @@ This quick fix release introduces improvements requested by ZeroMaster010 and is
 
 * Smoother fake contrasts are disabled again as they disturb pixel perfect alignment for speedrunners.
 
+Crispy Doom 4.3 and 4.2 have merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/83a71dd850fb02e571e2b5117f234395f8869a11 <tt>83a71dd8</tt>].
+
 === Changes of Crispy Doom 4.2 from Crispy Doom 4.1 ===
 
 Crispy Doom 4.2 has been released on September 15, 2017.
