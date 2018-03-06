@@ -32,7 +32,7 @@ The Chocolate Doom build has a few dependencies, basic ones for any software dev
 
 Technically optional, since you can download a release tarball too, but Git is extremely handy if you will be making modifications and keeping track with current development:
 
- git clone https://github.com/chocolate-doom/chocolate-doom
+ git clone <nowiki>https://github.com/chocolate-doom/chocolate-doom</nowiki>
 
 == Compiling Chocolate Doom ==
 
