@@ -86,4 +86,4 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Parameter|command 
 ; -merge &lt;files&gt;: Simulates the behavior of deutex's -merge option, [[merging]] a PWAD into the main IWAD.  Multiple files may be specified. 
 ; -nocheats: Ignore cheats in [[dehacked]] files. 
 ; -nodeh: Disable automatic loading of [[Dehacked]] patches for certain IWAD files. 
-; -nwtmerge &lt;files&gt;: Simulates the behavior of NWT's -merge option.  Multiple files may be specified.
+; -nwtmerge &lt;files&gt;: Simulates the behavior of NWT's -merge option, removing any sprite lumps from the IWAD that also exist in the PWAD by replacing their lump name with an empty string.  Multiple files may be specified.
