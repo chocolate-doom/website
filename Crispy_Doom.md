@@ -141,6 +141,12 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix that is about to follow).
+* Bug with music track loop metadata tags on Windows has been fixed upstream in Choco.
+* Savegames are now prevented from restoring out-of-range flats. This could happen if a PWAD was loaded in Choco with the -file parameter, a savegame had been saved and then restored in Crispy (which loads PWADs with the -merge parameter).
+* Warnings about mapthings without any skill tag set are now issued.
+* Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
+* Brightmap of COMP2 texture has been fixed in Brad Harding's way.
 * Clean screenshot breaking the menu if the regular screenshot key is unbound has been fixed due to JNechaevsky's efforts to track this down.
 * Screenshot without 'screen shot' message feature has been repaired.
 * Crash on completing NERVE MAP09 when recording/playing back a demo in case NERVE.WAD is auto-loaded with BFG Edition DOOM 2 IWAD has been fixed on Zodomaniac's report.
