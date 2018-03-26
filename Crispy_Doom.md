@@ -143,6 +143,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Zero music volume not muting OPL music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for nagging about this and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
 * MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix that is about to follow).
 * Bug with music track loop metadata tags on Windows has been fixed upstream in Choco.
 * Savegames are now prevented from restoring out-of-range flats. This could happen if a PWAD was loaded in Choco with the -file parameter, a savegame had been saved and then restored in Crispy (which loads PWADs with the -merge parameter).
