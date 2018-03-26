@@ -136,6 +136,8 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* Warnings about mapthings without any skill tag set are now issued.
+* Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
 * 'Always Run' is now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. Zodomaniac is guilty of this ;) If you prefer Always Run enabled by default, copy the default.cfg and crispy-doom.cfg from your previous installation, you will also avoid re-configuring all the controls.
 * Miscellaneous Sound Fixes now include playing the Arch-Vile fire start sound (DSFLAMST) on JNechaevsky's suggestion.
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
@@ -144,8 +146,6 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix that is about to follow).
 * Bug with music track loop metadata tags on Windows has been fixed upstream in Choco.
 * Savegames are now prevented from restoring out-of-range flats. This could happen if a PWAD was loaded in Choco with the -file parameter, a savegame had been saved and then restored in Crispy (which loads PWADs with the -merge parameter).
-* Warnings about mapthings without any skill tag set are now issued.
-* Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
 * Brightmap of COMP2 texture has been fixed in Brad Harding's way.
 * Clean screenshot breaking the menu if the regular screenshot key is unbound has been fixed due to JNechaevsky's efforts to track this down.
 * Screenshot without 'screen shot' message feature has been repaired.
