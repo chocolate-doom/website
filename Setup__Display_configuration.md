@@ -27,6 +27,4 @@ On some operating systems and compilation configurations, there is a third optio
 
 If aspect ratio correction and PNG screenshots are both enabled, the output screenshots will be scaled up to the correct aspect ratio by repeating pixels. Despite this, PNG screenshots are generally a smaller file size than PCX ones. PCX screenshots are always exactly 320x200 pixels in size and not aspect corrected.
 
-Due to an extra dependency on libpng, this option is not available in the standard Windows versions of Chocolate Doom.
-
 [[Category:Setup tool]]
