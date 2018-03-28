@@ -136,6 +136,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* Player's viewZ is now updated on sector move.
 * Warnings about mapthings without any skill tag set are now issued.
 * Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
 * 'Always Run' is now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. Zodomaniac is guilty of this ;) If you prefer Always Run enabled by default, copy the default.cfg and crispy-doom.cfg from your previous installation, you will also avoid re-configuring all the controls.
@@ -143,6 +144,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Possible falling down into a wall after savegame load has been fixed. 
 * Zero music volume not muting OPL music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for reminding again and again about this and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
 * MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix mentioned below).
 * The glitch of switch textures not changing in some segments in case of additional textures specified has been fixed by means of registering up to three buttons at once for lines with more than one switch texture. Thanks to JNechaevsky for spotting this bug in the Vanilla code and Brad Harding and Jeff Doggett for presenting alternative approaches.
@@ -152,7 +154,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Clean screenshot breaking the menu if the regular screenshot key is unbound has been fixed due to JNechaevsky's efforts to track this down.
 * Screenshot without 'screen shot' message feature has been repaired.
 * Crash on completing NERVE MAP09 when recording/playing back a demo in case NERVE.WAD is auto-loaded with BFG Edition DOOM 2 IWAD has been fixed on Zodomaniac's report.
-* Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
+* Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed by chungy (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
 * Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
 * Status bar is now backed up with arms widget background to fix the automap causing pixel replacement reported by JNechaevsky.
 * Fixes to Chex Quest:<br>-do not show the Episode menu anymore when returning from the Skill menu<br>-explicitly disable the "Colored blood and corpses", "Fix Spectre and Lost Sould blood" and "Randomly mirrored corpses" Crispness menu entries<br>-some consistency fixes (gamemode, nervewadfile)<br>done on request by JNechaevsky.
