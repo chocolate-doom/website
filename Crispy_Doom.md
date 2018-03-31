@@ -128,7 +128,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on March XX, 2018. This release features the new Demos section of Crispness menu,
+Crispy Doom 5.2 has been released on April XX, 2018. This release features the new Demos section of Crispness menu,
 with options for demo recording/playback timers and progress bar, as well as bug fixes.
 
 '''Features'''
@@ -136,6 +136,8 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (variables <tt>fullscreen_width</tt> and <tt>fullscreen_height</tt>)
+* Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior.
 * Player's viewZ is now updated on sector move.
 * Warnings about mapthings without any skill tag set are now issued.
 * Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
