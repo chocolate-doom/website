@@ -136,6 +136,10 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* Support for DeePsea tall patches to the main patch drawing functions has been introduced.
+* <tt>hires</tt> has been turned from a macro into a variable, in preparation of turning this into an in-game variable switchable in the menu.
+* Resolution-agnostic and fullscreen-stretching patch drawing functions mostly taken from Brad Harding's Doom Retro have been implemented. 
+* Fonts in text screens (e.g. finale) are now rendered shadowed.
 * In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (variables <tt>fullscreen_width</tt> and <tt>fullscreen_height</tt>)
 * Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior.
 * Player's viewZ is now updated on sector move.
@@ -146,6 +150,8 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* <tt>player->viewheight</tt> calculation in <tt>P_ThingHeightClip()</tt> has been fixed, spotted by JNechaevsky and Brad Harding.
+* Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed on Zodomaniac's report.
 * Possible falling down into a wall after savegame load has been fixed. 
 * Zero music volume not muting OPL music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for reminding again and again about this and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
 * MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix mentioned below).
@@ -164,7 +170,7 @@ with options for demo recording/playback timers and progress bar, as well as bug
 * Bullet puffs now don't slip to the edge of a sector when passing through the plane, bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
 * Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
 
-Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/0b50fbde6a49250d4372a3255b1e1fd451326abe <tt>0b50fbde</tt>]
+Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1332c5aaa2d389b899cd3093e2aee93839f8db33 <tt>1332c5aa</tt>]
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
