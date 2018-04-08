@@ -132,16 +132,16 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 with options for demo recording/playback timers and progress bar, as well as numerous improvements and bug fixes.
 
 '''Features'''
+* Support for DeePsea tall patches to the main patch drawing functions and tall textures/sprites composed of DeePsea tall patches has been introduced.
+* Resolution-agnostic and fullscreen-stretching patch drawing functions mostly taken from Brad Harding's Doom Retro have been implemented. 
 * New 'Demos' section of the Crispness menu, including the recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements''' 
-* Support for DeePsea tall patches to the main patch drawing functions and tall textures/sprites composed of DeePsea tall patches has been introduced.
 * <tt>hires</tt> has been turned from a macro into a variable, in preparation of turning this into an in-game variable switchable in the menu.
-* Resolution-agnostic and fullscreen-stretching patch drawing functions mostly taken from Brad Harding's Doom Retro have been implemented. 
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
 * In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (variables <tt>fullscreen_width</tt> and <tt>fullscreen_height</tt>)
-* Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior.
+* Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior that is defined by Crispy code.
 * Player's viewZ is now updated on sector move.
 * Warnings about mapthings without any skill tag set are now issued.
 * Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
