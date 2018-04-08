@@ -135,8 +135,8 @@ with options for demo recording/playback timers and progress bar, as well as num
 * New 'Demos' section of the Crispness menu, including the recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
 * Support for MUSINFO lumps (dynamic music changing).
 
-'''Improvements'''
-* Support for DeePsea tall patches to the main patch drawing functions has been introduced.
+'''Improvements''' 
+* Support for DeePsea tall patches to the main patch drawing functions and tall textures/sprites composed of DeePsea tall patches has been introduced.
 * <tt>hires</tt> has been turned from a macro into a variable, in preparation of turning this into an in-game variable switchable in the menu.
 * Resolution-agnostic and fullscreen-stretching patch drawing functions mostly taken from Brad Harding's Doom Retro have been implemented. 
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
