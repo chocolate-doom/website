@@ -129,7 +129,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
 Crispy Doom 5.2 has been released on April XX, 2018. This release features the new Demos section of Crispness menu,
-with options for demo recording/playback timers and progress bar, as well as numerous improvements and bug fixes.
+with options for demo recording/playback timers and progress bar, smooth diminishing lighting and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
 * Support for DeePsea tall patches to the main patch drawing functions and tall textures/sprites composed of DeePsea tall patches suggested by JNechaevsky has been introduced.
@@ -150,6 +150,7 @@ with options for demo recording/playback timers and progress bar, as well as num
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* WolfSS are now only replaced by Zombiemen for the BFG edition if their sprites come from the IWAD. There are PWADs that restore the sprites and those should work in Crispy as well. Thanks to SiFi270 for noticing.
 * <tt>player->viewheight</tt> calculation in <tt>P_ThingHeightClip()</tt> has been fixed, spotted by JNechaevsky and Brad Harding.
 * Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed on Zodomaniac's report.
 * Possible falling down into a wall after savegame load has been fixed. 
