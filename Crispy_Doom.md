@@ -140,7 +140,7 @@ with options for demo recording/playback timers and progress bar, smooth diminis
 '''Improvements''' 
 * <tt>hires</tt> has been turned from a macro into a variable, in preparation of turning this into an in-game variable switchable in the menu.
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
-* In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (variables <tt>fullscreen_width</tt> and <tt>fullscreen_height</tt>). Alas, the bug in SDL2 leaves these variables ignored, hopefully the SDL team fixes it eventually.
+* In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (<tt>fullscreen_width</tt> and <tt>fullscreen_height</tt> variables). Alas, the bug in SDL2 leaves these variables ignored, hopefully the SDL team fixes it eventually.
 * Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior that is defined by Crispy code.
 * Player's viewZ is now updated on sector move.
 * Warnings about mapthings without any skill tag set are now issued.
