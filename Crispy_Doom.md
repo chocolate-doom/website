@@ -140,7 +140,7 @@ with options for demo recording/playback timers and progress bar, smooth diminis
 '''Improvements''' 
 * <tt>hires</tt> has been turned from a macro into a variable, in preparation of turning this into an in-game variable switchable in the menu.
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
-* In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (variables <tt>fullscreen_width</tt> and <tt>fullscreen_height</tt>)
+* In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (variables <tt>fullscreen_width</tt> and <tt>fullscreen_height</tt>). Alas, the bug in SDL2 leaves these variables ignored, hopefully the SDL team fixes it eventually.
 * Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior that is defined by Crispy code.
 * Player's viewZ is now updated on sector move.
 * Warnings about mapthings without any skill tag set are now issued.
@@ -150,7 +150,7 @@ with options for demo recording/playback timers and progress bar, smooth diminis
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
-* WolfSS are now only replaced by Zombiemen for the BFG edition if their sprites come from the IWAD. There are PWADs that restore the sprites and those should work in Crispy as well. Thanks to SiFi270 for noticing.
+* The in-engine "fixes" replacing WolfSS by Zombiemen for the BFG edition IWAD and removing the TNT MAP31 yellow key erroneous "multiplayer only" flag have been removed as they make demo playback fail. Instead, the PWAD fixes (https://forum.zdoom.org/viewtopic.php?f=19&t=53776 and http://www.teamtnt.com/other/tnt31fix.zip respectively) are recommended.
 * <tt>player->viewheight</tt> calculation in <tt>P_ThingHeightClip()</tt> has been fixed, spotted by JNechaevsky and Brad Harding.
 * Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed on Zodomaniac's report.
 * Possible falling down into a wall after savegame load has been fixed. 
