@@ -128,17 +128,20 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on April XX, 2018. This release features the new Demos section of Crispness menu,
-with options for demo recording/playback timers and progress bar, smooth diminishing lighting and support for taller textures as well as numerous improvements and bug fixes.
+Crispy Doom 5.2 has been released on April XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
+* Smooth diminishing lighting option with 32 light levels instead of 16 can now be enabled in Visual section of the Crispness menu.
+* The number of sound channels can now be 16 or 32 as an alternative to standard 8, adjustable in Audible section of the Crispness menu.
+* "Rendering" Crispness menu section has been introduced, comprising the high resolution rendering, framerate and smooth pixel scaling options.
 * Support for DeePsea tall patches to the main patch drawing functions and tall textures/sprites composed of DeePsea tall patches suggested by JNechaevsky has been introduced.
 * Resolution-agnostic and fullscreen-stretching patch drawing functions mostly taken from Brad Harding's Doom Retro have been implemented. 
 * New 'Demos' section of the Crispness menu, including the recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
 * Support for MUSINFO lumps (dynamic music changing).
 
-'''Improvements''' 
-* <tt>hires</tt> has been turned from a macro into a variable, in preparation of turning this into an in-game variable switchable in the menu.
+'''Improvements'''
+* Crisps background texture for the Crispness menu has been created by JNechaevsky.
+* "Mono SFX" is now a Crispness menu Audible section item.
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
 * In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (<tt>fullscreen_width</tt> and <tt>fullscreen_height</tt> variables). Alas, the bug in SDL2 leaves these variables ignored, hopefully the SDL team fixes it eventually.
 * Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior that is defined by Crispy code.
@@ -150,11 +153,12 @@ with options for demo recording/playback timers and progress bar, smooth diminis
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* The bug when music was starting to play while paused and changed volume has been fixed.
 * The in-engine "fixes" replacing WolfSS by Zombiemen for the BFG edition IWAD and removing the TNT MAP31 yellow key erroneous "multiplayer only" flag have been removed because they make demo playback fail as Zodomaniac's investigation has shown. Instead, the PWAD fixes (https://forum.zdoom.org/viewtopic.php?f=19&t=53776 and http://www.teamtnt.com/other/tnt31fix.zip respectively) are recommended.
 * <tt>player->viewheight</tt> calculation in <tt>P_ThingHeightClip()</tt> has been fixed, spotted by JNechaevsky and Brad Harding.
 * Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed on Zodomaniac's report.
 * Possible falling down into a wall after savegame load has been fixed. 
-* Zero music volume not muting OPL music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for reminding again and again about this and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
+* Zero music volume not muting OPL (and not only OPL) music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for reminding again and again about this and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
 * MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix mentioned below).
 * The glitch of switch textures not changing in some segments in case of additional textures specified has been fixed by means of registering up to three buttons at once for lines with more than one switch texture. Thanks to JNechaevsky for spotting this bug in the Vanilla code and Brad Harding and Jeff Doggett for presenting alternative approaches.
 * Bug with music track loop metadata tags on Windows has been fixed upstream in Choco.
