@@ -128,9 +128,10 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on April XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
+Crispy Doom 5.2 has been released on April XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
+* Intermediate gamma correction levels (<tt>0.5</tt>, <tt>1.5</tt>, <tt>2.5</tt> and <tt>3.5</tt>) have been implemented on JNechaevsky's request.
 * Smooth diminishing lighting option with 32 light levels instead of 16 can now be enabled in Visual section of the Crispness menu.
 * The number of sound channels can now be 16 or 32 as an alternative to standard 8, adjustable in Audible section of the Crispness menu.
 * "Rendering" Crispness menu section has been introduced, comprising the high resolution rendering, framerate and smooth pixel scaling options.
@@ -153,6 +154,8 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Weapon sprite moving when looking up/down has been fixed.
+* Planes rotating in low detail mode have been fixed.
 * Game remaining paused after saving while recording a demo has been fixed on Zodomaniac's report.
 * The bug when music was starting to play while paused and changed volume spotted by JNechaevsky has been fixed.
 * The in-engine "fixes" replacing WolfSS by Zombiemen for the BFG edition IWAD and removing the TNT MAP31 yellow key erroneous "multiplayer only" flag have been removed because they make demo playback fail as Zodomaniac's investigation has shown. Instead, the PWAD fixes (https://forum.zdoom.org/viewtopic.php?f=19&t=53776 and http://www.teamtnt.com/other/tnt31fix.zip respectively) are recommended.
@@ -176,7 +179,7 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Bullet puffs now don't slip to the edge of a sector when passing through the plane, bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
 * Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
 
-Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1332c5aaa2d389b899cd3093e2aee93839f8db33 <tt>1332c5aa</tt>]
+Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1dd9288f90b604be6bc26559f628d914acd5bded <tt>1dd9288f</tt>]
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
