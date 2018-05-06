@@ -141,6 +141,7 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* Compiler warnings on x64 build have been fixed by JNechaevsky in Russian Doom and merged into Choco and Crispy.
 * "Negative Player Health" feature has been simplified to on/off for all gamemodes.
 * "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (colored blood now includes Spectre and Lost Soul blood fixes). 
 * It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page according to JNechaevsky's and mfrancis95's suggestions.
