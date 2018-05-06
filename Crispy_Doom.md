@@ -157,8 +157,10 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
-* Blood fix for Lost Souls is toggled in-game immediately like the colored blood for other monsters, pointed out by Zodomaniac. 
+* Blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
 * Demos are now played back with interpolation to framerate even if the menu is open on mfrancis95's report.
+* Romero's head is not randomly flipped after death anymore, thanks to JNechaevsky for inspiring the flipped corpse feature overhaul.
+* Color translation dependence on gamma level spotted by JNechaevsky has been fixed.
 * Weapon sprite moving when looking up/down has been fixed.
 * Planes rotating in low detail mode have been fixed.
 * Game remaining paused after saving while recording a demo has been fixed on Zodomaniac's report.
