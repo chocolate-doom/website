@@ -141,6 +141,9 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* "Negative Player Health" feature has been simplified to on/off for all gamemodes.
+* "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item. 
+* It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page according to JNechaevsky's and mfrancis95's suggestions.
 * Crisps background texture for the Crispness menu has been created by JNechaevsky.
 * "Mono SFX" is now a Crispness menu Audible section item.
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
@@ -154,6 +157,8 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Blood fix for Lost Souls is toggled in-game immediately like the colored blood for other monsters, pointed out by Zodomaniac. 
+* Demos are now played back with interpolation to framerate even if the menu is open on mfrancis95's report.
 * Weapon sprite moving when looking up/down has been fixed.
 * Planes rotating in low detail mode have been fixed.
 * Game remaining paused after saving while recording a demo has been fixed on Zodomaniac's report.
@@ -174,7 +179,7 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed by chungy (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
 * Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
 * Status bar is now backed up with arms widget background to fix the automap causing pixel replacement reported by JNechaevsky.
-* Fixes to Chex Quest:<br>-do not show the Episode menu anymore when returning from the Skill menu<br>-explicitly disable the "Colored blood and corpses", "Fix Spectre and Lost Sould blood" and "Randomly mirrored corpses" Crispness menu entries<br>-some consistency fixes (gamemode, nervewadfile)<br>done on request by JNechaevsky.
+* Fixes to Chex Quest:<br>-do not show the Episode menu anymore when returning from the Skill menu<br>-explicitly disable the "Colored blood and corpses" and "Randomly mirrored corpses" Crispness menu entries<br>-some consistency fixes (gamemode, nervewadfile)<br>done on request by JNechaevsky.
 * Resurrections of mirrored corpses staying mirrored have been fixed by mfrancis95.
 * Bullet puffs now don't slip to the edge of a sector when passing through the plane, bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
 * Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
