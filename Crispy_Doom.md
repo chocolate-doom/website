@@ -131,6 +131,8 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Crispy Doom 5.2 has been released on April XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
+* Crosshair can now indicate player health and highlight on target. Also, Crosshair options have been moved into their own submenu in the Crispness
+menu.
 * Intermediate gamma correction levels (<tt>0.5</tt>, <tt>1.5</tt>, <tt>2.5</tt> and <tt>3.5</tt>) have been implemented on JNechaevsky's request.
 * Smooth diminishing lighting option with 32 light levels instead of 16 can now be enabled in Visual section of the Crispness menu.
 * The number of sound channels can now be 16 or 32 as an alternative to standard 8, adjustable in Audible section of the Crispness menu.
@@ -141,12 +143,14 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* "Permanent Mouse Look" has been moved to the Crispness Tactical menu page as Zodomaniac and some Doomworld members suggested.
 * Compiler warnings on x64 build have been fixed by JNechaevsky in Russian Doom and merged into Choco and Crispy.
 * "Negative Player Health" feature has been simplified to on/off for all gamemodes.
 * "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (colored blood now includes Spectre and Lost Soul blood fixes). 
 * It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page according to JNechaevsky's and mfrancis95's suggestions.
 * Crisps background texture for the Crispness menu has been created by JNechaevsky.
 * "Mono SFX" is now a Crispness menu Audible section item.
+* Minor wording fixes for menu item titles, now reading "Squat weapon down on impact" and "Crosshair shape".
 * Fonts in text screens (e.g. finale) are now rendered shadowed.
 * In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (<tt>fullscreen_width</tt> and <tt>fullscreen_height</tt> variables). Alas, the bug in SDL2 leaves these variables ignored, hopefully the SDL team fixes it eventually.
 * Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior that is defined by Crispy code.
