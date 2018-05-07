@@ -10,8 +10,10 @@ A setup guide for how to configure GUS music playback can be found in the {{srcl
 
 == Vanilla wrong instruments bug ==
 
-[[doom:Vanilla Doom|Vanilla Doom]] has a [[doom:GUS_instrument_mappings_bug|bug]] where it will play wrong instruments when using a GUS. In keeping with the project [[philosophy]], Chocolate Doom faithfully emulates this bug, but some people find it sounds unpleasant. There are two ways to work around this bug.
+[[doom:Vanilla Doom|Vanilla Doom]] has a [[doom:GUS_instrument_mappings_bug|bug]] where it will play wrong instruments when using a GUS. In keeping with the project [[philosophy]], Chocolate Doom faithfully emulates this bug, but some people find it sounds unpleasant.
+
 {{doomwiki|GUS instrument mappings bug}}
+There are two ways to work around this bug.
 
 === Use gusgonna.wad ===
 
