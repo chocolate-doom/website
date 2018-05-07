@@ -131,7 +131,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Crispy Doom 5.2 has been released on April XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
-* Crosshair can now indicate player health and, when autoaim is on, highlight on target. Also, Crosshair options have been moved into their own submenu in the Crispness menu.
+* Crosshair can now indicate player health and, when autoaim is on, highlight on target. Also, crosshair options have been moved into their own submenu in the Crispness menu.
 * Intermediate gamma correction levels (<tt>0.5</tt>, <tt>1.5</tt>, <tt>2.5</tt> and <tt>3.5</tt>) have been implemented on JNechaevsky's request.
 * Smooth diminishing lighting option with 32 light levels instead of 16 can now be enabled in Visual section of the Crispness menu.
 * The number of sound channels can now be 16 or 32 as an alternative to standard 8, adjustable in Audible section of the Crispness menu.
