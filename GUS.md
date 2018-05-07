@@ -12,7 +12,13 @@ A setup guide for how to configure GUS music playback can be found in the {{srcl
 
 [[doom:Vanilla Doom|Vanilla Doom]] has a [[doom:GUS_instrument_mappings_bug|bug]] where it will play wrong instruments when using a GUS. In keeping with the project [[philosophy]], Chocolate Doom faithfully emulates this bug, but some people find it sounds unpleasant.
 {{doomwiki|GUS instrument mappings bug}}
-In order to work around this bug, it is possible instead to play with the GUS patches directly without using Chocolate Doom's GUS emulation. To do this:
+
+=== Use gusgonna.wad ===
+
+The WAD {{idgames|file=sounds/gusgonna|title=gusgonna.wad|linkonly=1}} contains a workaround/fix for the bug. Using this WAD does have a disadvantage in that it must be loaded every time the game is run.
+
+=== Use GUS patches without GUS emulation ===
+It is possible instead to play with the GUS patches without using Chocolate Doom's GUS emulation. To do this:
 
 # Download {{idgames|file=music/dgguspat.zip|title=GUS patch files}} and unzip.
 # dgguspat.zip contains the GUS patch files but also includes a file named timidity.cfg - this is the important thing you need.
