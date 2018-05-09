@@ -142,6 +142,9 @@ Crispy Doom 5.2 has been released on April XX, 2018. This release features the n
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* Miscellaneous Sound Fixes now include playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested.
+* <tt>red2green</tt> color translation table has been toned down a bit removing the "metallic green gloss" from Barons' and Knights' blood splats while leaving the overall appearance (and that of the colored gore pools) intact after JNechaevsky's thorough investigation.
+* For disabled multi-items in the Crispness menu, "None" is explicitly printed instead of leaving a blank space after Zodomaniac spotted some items being displayed and some not.
 * "Permanent Mouse Look" has been moved to the Crispness Tactical menu page as Zodomaniac and some Doomworld members suggested.
 * Compiler warnings on x64 build have been fixed by JNechaevsky in Russian Doom and merged into Choco and Crispy.
 * "Negative Player Health" feature has been simplified to on/off for all gamemodes.
