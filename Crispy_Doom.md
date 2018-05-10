@@ -142,7 +142,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
-* Miscellaneous Sound Fixes now include playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested.
+* Miscellaneous Sound Fixes now include playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested and playing the Arch-Vile fire start sound (DSFLAMST), the absence of which was noticed by JNechaevsky.
 * <tt>red2green</tt> color translation table has been toned down a bit removing the "metallic green gloss" from Barons' and Knights' blood splats while leaving the overall appearance (and that of the colored gore pools) intact after JNechaevsky's thorough investigation.
 * For disabled multi-items in the Crispness menu, "None" is explicitly printed instead of leaving a blank space after Zodomaniac spotted some items being displayed and some not.
 * "Permanent Mouse Look" has been moved to the Crispness Tactical menu page as Zodomaniac and some Doomworld members suggested.
@@ -160,7 +160,6 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Warnings about mapthings without any skill tag set are now issued.
 * Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
 * 'Always Run' is now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. Zodomaniac is guilty of this ;) If you prefer Always Run enabled by default, copy the default.cfg and crispy-doom.cfg from your previous installation, you will also avoid re-configuring all the controls.
-* Miscellaneous Sound Fixes now include playing the Arch-Vile fire start sound (DSFLAMST) on JNechaevsky's suggestion.
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
