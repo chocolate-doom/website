@@ -163,6 +163,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Status bar not getting redrawn immediately after help screens have been shown has been fixed, spotted by JNechaevsky.
 * Blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
 * Demos are now played back with interpolation to framerate even if the menu is open on mfrancis95's report.
 * Romero's head is not randomly flipped after death anymore, thanks to JNechaevsky for inspiring the flipped corpse feature overhaul.
@@ -192,7 +193,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Bullet puffs now don't slip to the edge of a sector when passing through the plane, bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
 * Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
 
-Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1dd9288f90b604be6bc26559f628d914acd5bded <tt>1dd9288f</tt>]
+Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1f7fa57972cee8eb5a8939919f4eedfadae03aac <tt>1f7fa579</tt>]
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
