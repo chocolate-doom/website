@@ -128,7 +128,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on May XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
+Crispy Doom 5.2 has been released on May XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling, Crosshair for crosshair options now including health-based coloring and highlighting on target (highlighting even if the crosshair is off target vertically because of horizontal-only target recognition in Choco codebase), and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
 * Crosshair can now indicate player health (requested by JNechaevsky) and highlight on target. Also, crosshair options have been moved into their own submenu in the Crispness menu.
