@@ -148,7 +148,8 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * "Permanent Mouse Look" has been moved to the Crispness Tactical menu page as Zodomaniac and some Doomworld members suggested.
 * Compiler warnings on x64 build have been fixed by JNechaevsky in Russian Doom and merged into Choco and Crispy.
 * "Negative Player Health" feature has been simplified to on/off for all gamemodes.
-* "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (colored blood now includes Spectre and Lost Soul blood fixes). 
+* "Extended Savegames" feature is now enabled by default, its Crispness menu setting has been removed for the reason of lack of space and redundancy as extended savegames are still compatible with Vanilla and Chocolate Doom.
+* "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (colored blood now includes Spectre and Lost Soul blood fixes) and simplified to on/off, as coloring corpses is responsible not only for Marine corpses' multiplayer colors but also for crushed Cacodemon/Baron/Knight corpses matching their blood colors.
 * It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page according to JNechaevsky's and mfrancis95's suggestions.
 * Crisps background texture for the Crispness menu has been created by JNechaevsky.
 * "Mono SFX" is now a Crispness menu Audible section item.
