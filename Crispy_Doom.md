@@ -161,7 +161,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Player's viewZ is now updated on sector move.
 * Warnings about mapthings without any skill tag set are now issued.
 * Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
-* 'Always Run' and 'Use native keyboard mapping' are now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. Zodomaniac is guilty of this, JNechaevsky also confirmed the impossibility to type in savegame names in Cyrillic keyboard layout when using native keyboard mapping. If you prefer Always Run and/or UNKM enabled by default, copy the default.cfg and crispy-doom.cfg from your previous installation, you will also avoid re-configuring all the controls.
+* 'Always Run' and 'Use native keyboard mapping' are now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. Zodomaniac is guilty of this, JNechaevsky also confirmed the impossibility to type in savegame names in Cyrillic keyboard layout when using native keyboard mapping. If you prefer Always Run and/or UNKM enabled by default, copy the <tt>default.cfg</tt> and <tt>crispy-doom.cfg</tt> from your previous installation, you will also avoid re-configuring all the controls.
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
