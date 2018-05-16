@@ -131,6 +131,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Crispy Doom 5.2 has been released on May XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling, Crosshair for crosshair options now including health-based coloring and highlighting on target (highlighting even if the crosshair is off target vertically because of horizontal-only target recognition in Choco codebase), and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
 
 '''Features'''
+* Smooth interpolated texture scrolling has been introduced and linedef specific 85 (Scroll texture right) is now supported, suggested by JNechaevsky.
 * Crosshair can now indicate player health (requested by JNechaevsky) and highlight on target. Also, crosshair options have been moved into their own submenu in the Crispness menu.
 * Intermediate gamma correction levels (<tt>0.5</tt>, <tt>1.5</tt>, <tt>2.5</tt> and <tt>3.5</tt>) have been implemented on JNechaevsky's request.
 * Smooth diminishing lighting option with 32 light levels instead of 16 can now be enabled in Visual section of the Crispness menu.
@@ -142,6 +143,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* CPU usage is capped by limiting FPS to 35 in minimized window, thanks to JNechaevsky for the idea.
 * Game version mismatch notification is thrown when attempting to load a savegame that has been saved with a different IWAD/game version, the engine just did nothing before which was discovered by Zodomaniac.   
 * Miscellaneous Sound Fixes now include playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested and playing the Arch-Vile fire start sound (DSFLAMST), the absence of which was noticed by JNechaevsky.
 * <tt>red2green</tt> color translation table has been toned down a bit removing the "metallic green gloss" from Barons' and Knights' blood splats while leaving the overall appearance (and that of the colored gore pools) intact after JNechaevsky's thorough investigation.
