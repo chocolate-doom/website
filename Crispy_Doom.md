@@ -143,6 +143,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* "Uncapped" (= 100% CPU) framerate setting has been removed from the Crispness menu, still remaining available via writing <tt>crispy_uncapped 1</tt> manually in <tt>crispy-doom.cfg</tt>.
 * CPU usage is capped by limiting FPS to 35 in minimized window, thanks to JNechaevsky for the idea.
 * Game version mismatch notification is thrown when attempting to load a savegame that has been saved with a different IWAD/game version, the engine just did nothing before which was discovered by Zodomaniac.   
 * Miscellaneous Sound Fixes now include playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested and playing the Arch-Vile fire start sound (DSFLAMST), the absence of which was noticed by JNechaevsky.
