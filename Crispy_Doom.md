@@ -143,6 +143,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Support for MUSINFO lumps (dynamic music changing).
 
 '''Improvements'''
+* Fuzz effect is now scrolled with the same speed independent of the framerate and paused with pausing the game on JNechaevsy's suggestion.
 * "Uncapped" (= 100% CPU) framerate setting has been removed from the Crispness menu, still remaining available via writing <tt>crispy_uncapped 1</tt> manually in <tt>crispy-doom.cfg</tt>.
 * CPU usage is capped by limiting FPS to 35 in minimized window, thanks to JNechaevsky for the idea.
 * Game version mismatch notification is thrown when attempting to load a savegame that has been saved with a different IWAD/game version, the engine just did nothing before which was discovered by Zodomaniac.   
@@ -168,6 +169,7 @@ Crispy Doom 5.2 has been released on May XX, 2018. This release features the new
 * Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
+* Fuzz effect going out of bounds noticed by JNechaevsky has been fixed.
 * Crash on loading a map without things has been fixed, thanks to mfrancis95 for noticing.
 * Status bar not getting redrawn immediately after help screens have been shown has been fixed, spotted by JNechaevsky.
 * Blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
