@@ -39,35 +39,35 @@ Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Parameter|command 
 
 === Networking options ===
 ; -altdeath: Start a deathmatch 2.0 game.  Weapons do not stay in place and all items respawn after 30 seconds. 
-; -autojoin: Automatically search the local LAN for a [[multiplayer]] server and join it. 
+; -autojoin: Automatically search the local LAN for a [[Multiplayer|multiplayer]] server and join it. 
 ; -avg: Austin Virtual Gaming: end levels after 20 minutes. 
-; -connect &lt;address&gt;: Connect to a [[multiplayer]] server running on the given address. 
+; -connect &lt;address&gt;: Connect to a [[Multiplayer|multiplayer]] server running on the given address. 
 ; -deathmatch: Start a deathmatch game. 
 ; -dedicated: Start a dedicated server, routing packets but not participating in the game itself. 
 ; -dup &lt;n&gt;: Reduce the resolution of the game by a factor of n, reducing the amount of network bandwidth needed. 
 ; -extratics &lt;n&gt;: Send n extra tics in every packet as insurance against dropped packets. 
-; -left: Run as the left screen in [[three screen mode]]. 
+; -left: Run as the left screen in [[Three screen mode|three screen mode]]. 
 ; -localsearch: Search the local LAN for running servers. 
 ; -newsync: Use new network client sync code rather than the classic sync code. This is currently disabled by default because it has some bugs. 
 ; -nodes &lt;n&gt;: Autostart the netgame when n nodes (clients) have joined the server. 
 ; -port &lt;n&gt;: Use the specified UDP port for communications, instead of the default (2342). 
 ; -privateserver: When running a server, don't register with the global master server. Implies -server. 
 ; -query &lt;address&gt;: Query the status of the server running on the given IP address. 
-; -right: Run as the right screen in [[three screen mode]]. 
+; -right: Run as the right screen in [[Three screen mode|three screen mode]]. 
 ; -search: Query the Internet master server for a global list of active servers. 
-; -server: Start a [[multiplayer]] server, listening for connections. 
+; -server: Start a [[Multiplayer|multiplayer]] server, listening for connections. 
 ; -servername &lt;name&gt;: When starting a network server, specify a name for the server. 
 ; -solo-net: Start the game playing as though in a netgame with a single player.  This can also be used to play back single player netgame demos. 
-; -timer &lt;n&gt;: For [[multiplayer]] games: exit each level after n minutes. 
+; -timer &lt;n&gt;: For [[Multiplayer|multiplayer]] games: exit each level after n minutes. 
 
 === Dehacked and WAD merging ===
 ; -aa &lt;files&gt;: Equivalent to "-af &lt;files&gt; -as &lt;files&gt;". 
-; -af &lt;files&gt;: Simulates the behavior of NWT's -af option, [[merging]] flats into the main IWAD directory.  Multiple files may be specified. 
-; -as &lt;files&gt;: Simulates the behavior of NWT's -as option, [[merging]] sprites into the main IWAD directory.  Multiple files may be specified. 
-; -deh &lt;files&gt;: Load the given [[dehacked]] patch(es) 
-; -dehlump: Load [[Dehacked]] patches from [[DEHACKED]] lumps contained in one of the loaded PWAD files. 
-; -merge &lt;files&gt;: Simulates the behavior of deutex's -merge option, [[merging]] a PWAD into the main IWAD.  Multiple files may be specified. 
-; -nocheats: Ignore cheats in [[dehacked]] files. 
+; -af &lt;files&gt;: Simulates the behavior of NWT's -af option, [[Merging|merging]] flats into the main IWAD directory.  Multiple files may be specified. 
+; -as &lt;files&gt;: Simulates the behavior of NWT's -as option, [[Merging|merging]] sprites into the main IWAD directory.  Multiple files may be specified. 
+; -deh &lt;files&gt;: Load the given [[Dehacked|dehacked]] patch(es) 
+; -dehlump: Load [[Dehacked]] patches from [[Dehacked|DEHACKED]] lumps contained in one of the loaded PWAD files. 
+; -merge &lt;files&gt;: Simulates the behavior of deutex's -merge option, [[Merging|merging]] a PWAD into the main IWAD.  Multiple files may be specified. 
+; -nocheats: Ignore cheats in [[Dehacked|dehacked]] files. 
 ; -nodeh: Disable automatic loading of [[Dehacked]] patches for certain IWAD files. 
 ; -nwtmerge &lt;files&gt;: Simulates the behavior of NWT's -merge option.  Multiple files may be specified. 
 
