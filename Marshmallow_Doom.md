@@ -160,6 +160,7 @@ Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of t
 
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game.  Command line option '''-steal''' will automatically import assets from the other game's WAD file if the file is present.
 
+
 ==== Bots ====
 
 Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
@@ -170,8 +171,6 @@ When a bot is in sight, press ''''F'''' on the keyboard to order him to follow y
 ==== Danger Indexing ====
 
 The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
-
-
 
 === New cheat codes ===
 
