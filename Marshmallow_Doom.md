@@ -189,7 +189,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-trb</tt> enables full treasure mode 
 * <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
 * <tt>-djmsg</tt> enables event messages from Doom DJ
-* <tt>-steal</tt> allows use of Doom's music in Doom II as well as Doom II monsters in Doom
+* <tt>-steal</tt> allows you to use music and monsters from both Doom and Doom II simultaneously
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
