@@ -184,9 +184,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 === New command line parameters ===
 
-* <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-bots <x></tt> starts a game with <x> number of bot players
-* <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
 * <tt>-tr</tt> enables normal treasure mode 
 * <tt>-trb</tt> enables full treasure mode 
 * <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
@@ -194,12 +192,16 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-steal</tt> allows use of Doom's music in Doom II as well as Doom II monsters in Doom
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
+* <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
+* <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
 * <tt>-ps</tt> forces a pistol start when using <tt>-warp</tt>
 * <tt>-itemrespawn</tt> forces items to respawn in any game mode
 * <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
 * <tt>-ff</tt> toggles friendly fire
 * <tt>-mirror</tt> toggles mirror damage
 * <tt>-self</tt> toggles self-damage
+
+----
 
 * <tt>-itytd</tt> enables "baby mode" skill level
 * <tt>-hntr</tt> enables easy skill level
@@ -209,11 +211,12 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
 * <tt>-nm2</tt> enables the new Nightmare 2.0 skill level
 
+----
+
 * <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
 * <tt>-tnt</tt> sets IWAD to TNT.WAD
-
 
 == Inspiration ==
 
