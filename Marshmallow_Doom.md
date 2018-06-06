@@ -157,6 +157,7 @@ Additional new gameplay features include:
 ==== Dynamic Music ====
 
 Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of the music playing based on the amount of action the player is experiencing in real-time.
+
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game.  Command line option '''-steal''' will automatically import assets from the other game's WAD file if the file is present.
 
 ==== Bots ====
