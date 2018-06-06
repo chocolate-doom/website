@@ -172,6 +172,7 @@ When a bot is in sight, press ''''F'''' on the keyboard to order him to follow y
 
 The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
 
+
 === New cheat codes ===
 
 * <tt>ENDMAPNOW</tt> aborts the current level by calling G_ExitLevel()
