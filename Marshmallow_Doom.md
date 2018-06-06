@@ -200,7 +200,6 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-ff</tt> toggles friendly fire
 * <tt>-mirror</tt> toggles mirror damage
 * <tt>-self</tt> toggles self-damage
-<br>
 * <tt>-itytd</tt> enables "baby mode" skill level
 * <tt>-hntr</tt> enables easy skill level
 * <tt>-hmp</tt> enables normal skill level
@@ -208,7 +207,6 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-nm</tt> enables Nightmare skill level
 * <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
 * <tt>-nm2</tt> enables the new Nightmare 2.0 skill level
-<br>
 * <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
