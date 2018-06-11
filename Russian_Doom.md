@@ -45,9 +45,11 @@ Besides, there is also available “<tt>-vanilla</tt>” command line parameter,
 Windows version is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x64 editions).
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
-Latest version for Windows: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.6/russian-doom-2.6-win32.zip/download russian-doom-2.6-win32.zip] 
-<br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.4/russian-doom-dos-1.4.zip/download russian-doom-dos-1.4.zip]
-<br />Source code: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.6/Source/russian-doom-2.6-source.zip/download russian-doom-2.6-source.zip]
+Latest version for Windows: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.7/russian-doom-2.7-win32.zip/download russian-doom-2.7-win32.zip] 
+<br />Latest version for Windows (x64): [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.7/russian-doom-2.7-win64.zip/download russian-doom-2.7-win64.zip] 
+<br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.5/russian-doom-dos-1.5.zip/download russian-doom-dos-1.5.zip]
+<br />
+<br />Source code: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.7/russian-doom-2.7-source.zip/download russian-doom-2.7-source.zip]
 <br />Full version history: [http://jnechaevsky.users.sourceforge.net/projects/rusdoom/files/changelog_eng.html changelog_eng.html]
 
 == Contact ==
