@@ -188,7 +188,6 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-ssg</tt> spawns the super shotgun in Doom maps
 * <tt>-ekg</tt> mode for extra blood and explosion effects
 * <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
-* <tt>-djmsg</tt> enables event messages from Doom DJ
 * <tt>-tr</tt> enables normal treasure mode 
 * <tt>-trb</tt> enables full treasure mode 
 * <tt>-rand</tt> warps to a random level
