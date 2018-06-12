@@ -183,6 +183,9 @@ The amount of danger facing the player at any given time is tracked in real-time
 === New command line parameters ===
 
 * <tt>-bots <x></tt> starts a game with <x> number of bot players
+* <tt>-d2e</tt> spawns some Doom II monsters in Doom maps 
+* <tt>-ssg</tt> spawns the super shotgun in Doom maps
+* <tt>-ekg</tt> EKG mode for extra blood and explosion effects
 * <tt>-tr</tt> enables normal treasure mode 
 * <tt>-trb</tt> enables full treasure mode 
 * <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
@@ -209,7 +212,6 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
 * <tt>-tnt</tt> sets IWAD to TNT.WAD
-
 
 == Inspiration ==
 
