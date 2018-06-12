@@ -185,7 +185,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-bots <x></tt> starts a game with <x> number of bot players
 * <tt>-d2e</tt> spawns some Doom II monsters in Doom maps 
 * <tt>-ssg</tt> spawns the super shotgun in Doom maps
-* <tt>-ekg</tt> EKG mode for extra blood and explosion effects
+* <tt>-ekg</tt> mode for extra blood and explosion effects
 * <tt>-tr</tt> enables normal treasure mode 
 * <tt>-trb</tt> enables full treasure mode 
 * <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
