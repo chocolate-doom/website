@@ -183,14 +183,14 @@ The amount of danger facing the player at any given time is tracked in real-time
 === New command line parameters ===
 
 * <tt>-bots <x></tt> starts a game with <x> number of bot players
+* <tt>-steal</tt> allows you to use music and monsters from both Doom and Doom II simultaneously
 * <tt>-d2e</tt> spawns some Doom II monsters in Doom maps 
 * <tt>-ssg</tt> spawns the super shotgun in Doom maps
 * <tt>-ekg</tt> mode for extra blood and explosion effects
-* <tt>-tr</tt> enables normal treasure mode 
-* <tt>-trb</tt> enables full treasure mode 
 * <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
 * <tt>-djmsg</tt> enables event messages from Doom DJ
-* <tt>-steal</tt> allows you to use music and monsters from both Doom and Doom II simultaneously
+* <tt>-tr</tt> enables normal treasure mode 
+* <tt>-trb</tt> enables full treasure mode 
 * <tt>-rand</tt> warps to a random level
 * <tt>-sandbox</tt> launches a sandbox game
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
