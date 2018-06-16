@@ -1,3 +1,21 @@
+=== Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
+
+Crispy Doom 5.0 has been released on November 04, 2017.
+
+This is the first release based on SDL2, merging Chocolate Doom's SDL2-branch which has yet to see its own release.
+
+Besides this major transition, it features the following changes and fixes:
+
+* The <tt>NUMCMAPS</tt> variable is now initialized to 32 to fix the missing "Finished" and "Now Entering" lines on the intermission screens for Doom 1 (bug introduced in Crispy 4.2).
+* Joystick look up/down (which has been introduced for the three non-Doom games in Choco's SDL2-branch) has been adapted to Doom.
+* Smooth scaling of the framebuffer content to the game window (which is the only choice in Choco's SDL2-branch) has been made optional with plain nearest interpolation as the other alternative.
+* The 60FPS and 70FPS rendering modes have been removed in favor of proper VSYNC.
+* DOS references in the game quit confirmation dialogs have been replaced with the name of the actual operating system.
+* A new <tt>-monosfx</tt> command line parameter has been introduced to play all sound effects in mono. Inspired by other Choco derivatives like Russian Doom and Riscos Doom.
+* Resolutions above 1920x1200 are now properly supported, thanks to SDL2-based hardware scaling.
+
+Crispy Doom 5.0 has merged all changes to the Chocolate Doom sdl2-branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/413f4ecd7aae41229cc7b40ea3275970dc18cdb4 <tt>413f4ecd</tt>]
+
 === Changes of Crispy Doom 4.3 from Crispy Doom 4.2 ===
 
 Crispy Doom 4.3 has been released on September 19, 2017.
