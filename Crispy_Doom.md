@@ -126,19 +126,19 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on June XX, 2018. This release contains many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
+Crispy Doom 5.2 has been released on June XX, 2018. This release introduces many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
 
 '''Features'''
-* Smooth interpolated texture scrolling has been introduced and linedef specific 85 (Scroll texture right) is now supported, suggested by JNechaevsky.
-* Crosshair can now indicate player health (requested by JNechaevsky) and highlight on target. Also, crosshair options have been moved into their own submenu in the Crispness menu.
-* Intermediate gamma correction levels (<tt>0.5</tt>, <tt>1.5</tt>, <tt>2.5</tt> and <tt>3.5</tt>) have been implemented on JNechaevsky's request.
-* Smooth diminishing lighting option with 32 light levels instead of 16 can now be enabled in Visual section of the Crispness menu.
-* The number of sound channels can now be 16 or 32 as an alternative to standard 8, adjustable in Audible section of the Crispness menu.
-* "Rendering" Crispness menu section has been introduced, comprising the high resolution rendering, framerate and smooth pixel scaling options.
-* Support for DeePsea tall patches to the main patch drawing functions and tall textures/sprites composed of DeePsea tall patches suggested by JNechaevsky has been introduced.
-* Resolution-agnostic and fullscreen-stretching patch drawing functions mostly taken from Brad Harding's Doom Retro have been implemented. 
-* New 'Demos' section of the Crispness menu, including the recording timer, forward/backward counting playback timer and demo progress bar, now 2 px high.
-* Support for MUSINFO lumps (dynamic music changing).
+* Smooth interpolated texture scrolling has been introduced for uncapped rendering and linedef specific 85 (Scroll texture right) is now supported, as suggested by JNechaevsky.
+* The crosshair may now indicate the player's health (as requested by JNechaevsky) and change its color ("highlight") when pointing on a target. Furthermore, crosshair options have been moved into their own submenu in the Crispness menu.
+* Intermediate gamma correction levels (<tt>0.5</tt>, <tt>1.5</tt>, <tt>2.5</tt> and <tt>3.5</tt>) have been implemented, on JNechaevsky's request.
+* Smooth diminishing lighting with 32 light levels instead of 16 may now be enabled in the "Visual" section of the Crispness menu.
+* The number of sound channels may now be 16 or 32 as an alternative to the default 8, adjustable in the "Audible" section of the Crispness menu.
+* The "Rendering" Crispness menu section has been introduced, comprising the high-resolution rendering, uncapped framerate and smooth pixel scaling options.
+* Support for DeePsea tall patches has been added to the main patch drawing functions. Furthermore, tall textures and sprites composed of DeePsea tall patches are now supported, as suggested by JNechaevsky.
+* Resolution-agnostic and fullscreen-stretching patch drawing functions have been implemented, mostly taken from Doom Retro. 
+* The "Demos" section of the Crispness menu has been introduced, including options for enabling the recording timer, choosing forward or backward counting playback timer and the demo progress bar (which is now 2 px high).
+* Support for MUSINFO lumps (dynamic music changing) has been added, mostly taken from PrBoom+.
 
 '''Improvements'''
 * Fuzz effect is now scrolled with the same speed independent of the framerate and paused with pausing the game on JNechaevsy's suggestion.
