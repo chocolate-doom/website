@@ -141,63 +141,56 @@ Crispy Doom 5.2 has been released on June XX, 2018. This release introduces many
 * Support for MUSINFO lumps (dynamic music changing) has been added, mostly taken from PrBoom+.
 
 '''Improvements'''
-* Fuzz effect is now scrolled with the same speed independent of the framerate and paused with pausing the game on JNechaevsy's suggestion.
-* "Uncapped" (= 100% CPU) framerate setting has been removed from the Crispness menu, still remaining available via writing <tt>crispy_uncapped 1</tt> manually in <tt>crispy-doom.cfg</tt>.
-* CPU usage is capped by limiting FPS to 35 in minimized window, thanks to JNechaevsky for the idea.
-* Game version mismatch notification is thrown when attempting to load a savegame that has been saved with a different IWAD/game version, the engine just did nothing before which was discovered by Zodomaniac.   
-* Miscellaneous Sound Fixes now include playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested and playing the Arch-Vile fire start sound (DSFLAMST), the absence of which was noticed by JNechaevsky.
-* <tt>red2green</tt> color translation table has been toned down a bit removing the "metallic green gloss" from Barons' and Knights' blood splats while leaving the overall appearance (and that of the colored gore pools) intact after JNechaevsky's thorough investigation.
-* For disabled multi-items in the Crispness menu, "None" is explicitly printed instead of leaving a blank space after Zodomaniac spotted some items being displayed and some not.
-* "Permanent Mouse Look" has been moved to the Crispness Tactical menu page as Zodomaniac and some Doomworld members suggested.
-* Compiler warnings on x64 build have been fixed by JNechaevsky in Russian Doom and merged into Choco and Crispy.
-* "Negative Player Health" feature has been simplified to on/off for all gamemodes.
-* "Extended Savegames" feature is now enabled by default, its Crispness menu setting has been removed for the reason of lack of space and redundancy as extended savegames are still compatible with Vanilla and Chocolate Doom.
-* "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (colored blood now includes Spectre and Lost Soul blood fixes) and simplified to on/off, as coloring corpses is responsible not only for Marine corpses' multiplayer colors but also for crushed Cacodemon/Baron/Knight corpses matching their blood colors.
-* It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page according to JNechaevsky's and mfrancis95's suggestions.
-* Crisps background texture for the Crispness menu has been created by JNechaevsky.
-* "Mono SFX" is now a Crispness menu Audible section item.
-* Minor wording fixes for menu item titles, now reading "Squat weapon down on impact" and "Crosshair shape".
-* Fonts in text screens (e.g. finale) are now rendered shadowed.
-* In fullscreen mode, 16:10 aspect ratio is not enforced when aspect ratio correction is disabled, the game is scaled to the entire screen area instead, contributed to Choco by chungy. For those who prefer 16:10 or other specific aspect ratio, the screen dimensions can be explicitly defined in <tt>crispy-doom.cfg</tt> (<tt>fullscreen_width</tt> and <tt>fullscreen_height</tt> variables). Alas, the bug in SDL2 leaves these variables ignored, hopefully the SDL team fixes it eventually.
-* Doom 2 MAP33-related code is now unified with Choco code by CapnClever, but not changing the behavior that is defined by Crispy code.
-* Player's viewZ is now updated on sector move.
+* The Fuzz effect used when drawing "invulnerable" things is now scrolled independent of the rendering framerate and paused when the game is paused, on JNechaevsy's suggestion.
+* The "Uncapped" framerate setting resulting in 100% CPU usage has been removed from the Crispness menu. It still remains available as a benchmarking measure by manually setting <tt>crispy_uncapped</tt> to <tt>1</tt> in the <tt>crispy-doom.cfg</tt> config file.
+* CPU usage is now capped by limiting the rendering framerate to 35 if the window is minimized, thanks to JNechaevsky for the idea.
+* A game version mismatch notification is now thrown when attempting to load a savegame that has been saved with a different IWAD/game version. The engine just did nothing before which was discovered by Zodomaniac.
+* The "Miscellaneous Sound Fixes" option now includes playing a sound if the menu is activated with a different key than ESC (e.g. on game launch) as Zodomaniac suggested as well as playing the Arch-Vile's fire start sound (DSFLAMST), the absence of which was noticed by JNechaevsky.
+* The <tt>red2green</tt> color translation table has been toned down a bit removing the "metallic green gloss" from Barons' and Knights' blood splats while leaving the overall appearance (and that of the colored gore pools) intact after JNechaevsky's thorough investigation.
+* For disabled multi-items in the Crispness menu, "None" is now explicitly printed instead of leaving a blank space after Zodomaniac spotted some inconsistency.
+* The "Permanent Mouse Look" option has been moved from the "Mouse" menu to the "Tactical" page of the Crispness menu, as Zodomaniac and some Doomworld members suggested.
+* The "Negative Player Health" feature has been simplified to a choice of on/off for all gamemodes.
+* The "Extended Savegames" feature is now enabled by default and has been removed from the Crispness menu. Reasons are lack of space in the menu and redundancy as extended savegames are still compatible with Vanilla and Chocolate Doom.
+* The "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (i.e. colored blood now includes Spectre and Lost Soul blood fixes) and simplified to an on/off choice.
+* It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page, according to JNechaevsky's and mfrancis95's suggestions.
+* A new and exclusive Crisps background texture for the Crispness menu has been created by JNechaevsky.
+* The "Mono SFX" option is now a Crispness menu item available in the "Audible" section. The corresponding <tt>-monosfx</tt> command line options has been removed.
+* Minor wording fixes have been applied to some Crispness menu items, now reading "Squat weapon down on impact" and "Crosshair shape".
+* Fonts in the finale text screens are now rendered with shadows.
+* The Player's view height is now immediately updated when his sector moves.
 * Warnings about mapthings without any skill tag set are now issued.
-* Exception thrown by Windows when debugging with GDB has been fixed upsteam in Choco by AXDOOMER.
-* 'Always Run' and 'Use native keyboard mapping' are now disabled by default, like in Chocolate Doom, not to confuse players installing Crispy for the first time. Zodomaniac requested this upon discovering the impossibility to type in savegame names in Cyrillic keyboard layout when using native keyboard mapping, which was also confirmed by JNechaevsky under different OSes. If you prefer Always Run and/or UNKM enabled by default, copy the <tt>default.cfg</tt> and <tt>crispy-doom.cfg</tt> from your previous installation, you will also avoid re-configuring all the controls.
-* Palette changes now don't occur when help screen or Crispness menu is active, thanks to mfrancis95 for the contribution.
+* The "Always Run" and "Use native keyboard mapping" are now disabled by default, like in Chocolate Doom. This is in order not to confuse players installing Crispy for the first time. Zodomaniac requested this upon discovering the impossibility to type in savegame names in Cyrillic keyboard layout when using native keyboard mapping, which was also confirmed by JNechaevsky under different OSes. 
+* Palette changes now don't occur when the help screen or the Crispness menu is active, thanks to mfrancis95 for the contribution.
 
 '''Bug Fixes'''
 * Fuzz effect going out of bounds noticed by JNechaevsky has been fixed.
-* Crash on loading a map without things has been fixed, thanks to mfrancis95 for noticing.
-* Status bar not getting redrawn immediately after help screens have been shown has been fixed, spotted by JNechaevsky.
-* Blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
-* Demos are now played back with interpolation to framerate even if the menu is open on mfrancis95's report.
+* A crash that occured when loading a map without any things has been fixed, thanks to mfrancis95 for noticing.
+* The status bar is now immediately getting redrawn after the help screens have been shown, spotted by JNechaevsky.
+* The blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
+* Demos are now played back with interpolation during uncpped rendering even if the menu is open, on mfrancis95's report.
 * Romero's head is not randomly flipped after death anymore, thanks to JNechaevsky for inspiring the flipped corpse feature overhaul.
 * Color translation dependence on gamma level spotted by JNechaevsky has been fixed.
-* Weapon sprite moving when looking up/down has been fixed.
-* Planes rotating in low detail mode have been fixed.
-* Game remaining paused after saving while recording a demo has been fixed on Zodomaniac's report.
+* Weapon sprite moving when looking up/down in the low resolution rendering mode has been fixed.
+* Planes rotating in the low resolution rendering mode have been fixed.
+* The game remaining paused after saving while recording a demo has been fixed on Zodomaniac's report.
 * The bug when music was starting to play while paused and changed volume spotted by JNechaevsky has been fixed.
 * The in-engine "fixes" replacing WolfSS by Zombiemen for the BFG edition IWAD and removing the TNT MAP31 yellow key erroneous "multiplayer only" flag have been removed because they make demo playback fail as Zodomaniac's investigation has shown. Instead, the PWAD fixes (https://forum.zdoom.org/viewtopic.php?f=19&t=53776 and http://www.teamtnt.com/other/tnt31fix.zip respectively) are recommended.
-* <tt>player->viewheight</tt> calculation in <tt>P_ThingHeightClip()</tt> has been fixed, spotted by JNechaevsky and Brad Harding.
-* Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed on Zodomaniac's report.
-* Possible falling down into a wall after savegame load has been fixed. 
-* Zero music volume not muting OPL (and not only OPL) music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for reminding again and again about this and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
-* MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix mentioned below).
-* The glitch of switch textures not changing in some segments in case of additional textures specified has been fixed by means of registering up to three buttons at once for lines with more than one switch texture. Thanks to JNechaevsky for spotting this bug in the Vanilla code and Brad Harding and Jeff Doggett for presenting alternative approaches.
-* Bug with music track loop metadata tags on Windows has been fixed upstream in Choco.
+* Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed, on Zodomaniac's report.
+* The possibility of falling down into a wall after a savegame is loaded has been fixed. 
+* Zero music volume not muting OPL (and not only OPL) music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for bringing this up again and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
+* The MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix mentioned below).
+* The glitch of switch textures not changing in some segments has been fixed by means of registering up to three buttons at once for lines with more than one switch texture. Thanks to JNechaevsky for spotting this bug in the Vanilla code and Brad Harding and Jeff Doggett for presenting alternative approaches.
 * Savegames are now prevented from restoring out-of-range flats. This could happen if a PWAD was loaded in Choco with the -file parameter, a savegame had been saved and then restored in Crispy (which loads PWADs with the -merge parameter).
-* Brightmap of COMP2 texture has been fixed in Brad Harding's way.
-* Clean screenshot breaking the menu if the regular screenshot key is unbound has been fixed due to JNechaevsky's efforts to track this down.
-* Screenshot without 'screen shot' message feature has been repaired.
-* Crash on completing NERVE MAP09 when recording/playing back a demo in case NERVE.WAD is auto-loaded with BFG Edition DOOM 2 IWAD has been fixed on Zodomaniac's report.
-* Crash on attempt to load a non-existent savegame reported by Zodomaniac has been fixed by chungy (also upstream in Chocolate Doom), now the game errors out with a message saying which savegame could not be loaded.
-* Crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
-* Status bar is now backed up with arms widget background to fix the automap causing pixel replacement reported by JNechaevsky.
-* Fixes to Chex Quest:<br>-do not show the Episode menu anymore when returning from the Skill menu<br>-explicitly disable the "Colored blood and corpses" and "Randomly mirrored corpses" Crispness menu entries<br>-some consistency fixes (gamemode, nervewadfile)<br>done on request by JNechaevsky.
+* The brightmap for the COMP2 texture has been fixed in Brad Harding's way.
+* Taking a "Clean screenshot" could break the menu if the regular screenshot key was unbound. This has been fixed due to JNechaevsky's efforts to track this down.
+* Taking a screenshot without the 'screen shot' message has been repaired.
+* A crash when finishing NERVE MAP09 while recording/playing back a demo in case NERVE.WAD is auto-loaded with BFG Edition DOOM 2 IWAD has been fixed on Zodomaniac's report.
+* A crash when finishing NERVE MAP06 while recording a demo has been fixed, thanks to galileo31dos01 for pointing this out.
+* The status bar is now backed up with the arms widget background to fix the automap causing pixel replacements, reported by JNechaevsky.
+* Some consistency fixes have been applied to Chex Quest: the Episode menu is not shown anymore when returning from the Skill menu, the "Colored blood and corpses" and "Randomly mirrored corpses" Crispness menu entries are explicitly disabled, on request by JNechaevsky.
 * Resurrections of mirrored corpses staying mirrored have been fixed by mfrancis95.
-* Bullet puffs now don't slip to the edge of a sector when passing through the plane, bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
-* Window going out of vertical bounds in non FullHD mode at startup has been fixed, window default size is not set to twice the native framebuffer resolution, thanks to JNechaevsky's report.
+* Bullet puffs now don't slip to the edge of a sector anymore when passing through the plane. Bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
+* Window going out of vertical bounds at startup has been fixed, thanks to JNechaevsky's report.
 
 Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1f7fa57972cee8eb5a8939919f4eedfadae03aac <tt>1f7fa579</tt>]
 
