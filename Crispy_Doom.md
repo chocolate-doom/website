@@ -61,8 +61,6 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
 * <tt>-fliplevels</tt> loads mirrored versions of the maps (this was the default on April 1st up to version 5.0).
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
-* <tt>-monosfx</tt> plays all sound effects in mono (new in 5.0).
-* <tt>-shorttics</tt> forces low-resolution turning, like in default demos, which is useful for demo run practice. <tt>-longtics -record demoname</tt> records a demo with high-resolution turning (as well as in Chocolate Doom).
 * <tt>-loadgame N -record demoname</tt> and <tt>-loadgame N -playdemo demoname</tt> allow to record and play demos starting from a savegame, not from the level start.
 
 === New cheat codes ===
@@ -128,7 +126,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on June XX, 2018. This release features the new sections of Crispness menu: Rendering for hi-res rendering, framerate and smooth pixel scaling, Crosshair for crosshair options now including health-based coloring and highlighting on target (highlighting even if the crosshair is off target vertically because of horizontal-only target recognition in Choco codebase), and Demos with options for demo recording/playback timers and progress bar, smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous improvements and bug fixes.
+Crispy Doom 5.2 has been released on June XX, 2018. This release contains many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
 
 '''Features'''
 * Smooth interpolated texture scrolling has been introduced and linedef specific 85 (Scroll texture right) is now supported, suggested by JNechaevsky.
