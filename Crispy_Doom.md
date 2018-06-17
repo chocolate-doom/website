@@ -192,6 +192,10 @@ Crispy Doom 5.2 has been released on June XX, 2018. This release introduces many
 * Bullet puffs now don't slip to the edge of a sector anymore when passing through the plane. Bullets hitting the floors and ceilings in direct aiming mode now have their puffs displayed at the actual hit spots, thanks to JNechaevsky for noticing.
 * Window going out of vertical bounds at startup has been fixed, thanks to JNechaevsky's report.
 
+'''Known Issues'''
+* Changing the "High Resolution Rendering" option requires a restart of the engine for the change to take effect. This is currently the only option that requires this. Switching this feature with immediate effect is considered a release goal for the next version of Crispy Doom.
+* If "Vertical Aiming" is set to "direct" and the "Highlight Crosshair on Target" feature is enabled, the crosshair will get highlighted even if the direct shot would miss but if it would hit with autoaiming enabled.
+
 Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1f7fa57972cee8eb5a8939919f4eedfadae03aac <tt>1f7fa579</tt>]
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
