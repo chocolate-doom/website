@@ -93,7 +93,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 == Download ==
 
 Binaries for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) are available here: 
-<br />http://www.greffrath.com/~fabian/crispy-doom_5.1.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom_5.2.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
 <br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_5.1.zip
@@ -126,7 +126,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
-Crispy Doom 5.2 has been released on June XX, 2018. This release introduces many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
+Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
 
 '''Features'''
 * Smooth interpolated texture scrolling has been introduced for uncapped rendering and linedef specific 85 (Scroll texture right) is now supported, as suggested by JNechaevsky.
@@ -196,7 +196,7 @@ Crispy Doom 5.2 has been released on June XX, 2018. This release introduces many
 * Changing the "High Resolution Rendering" option requires a restart of the engine for the change to take effect. This is currently the only option that requires this. Switching this feature with immediate effect is considered a release goal for the next version of Crispy Doom.
 * If "Vertical Aiming" is set to "direct" and the "Highlight Crosshair on Target" feature is enabled, the crosshair will get highlighted even if the direct shot would miss but if it would hit with autoaiming enabled.
 
-Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/1f7fa57972cee8eb5a8939919f4eedfadae03aac <tt>1f7fa579</tt>]
+Crispy Doom 5.2 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/5329fb5d75971138b20abf940ed63635bd2861e0 <tt>5329fb5d</tt>]
 
 === Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
 
