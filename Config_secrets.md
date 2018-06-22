@@ -1,3 +1,5 @@
+To keep Chocolate Doom easy to configure, many of its more obscure configuration options are not shown in the setup tool. However, you can still access them by editing <code>chocolate-doom.cfg</code> manually. This page contains a list of some of these obscure options and what they do.
+
 == Display options ==
 
 === Fullscreen mode ===
