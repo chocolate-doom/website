@@ -63,7 +63,7 @@ By default, Chocolate Doom's GUS emulation emulates a 1MiB GUS card. But it can 
 
 From the main menu in the setup tool, type the [[wikipedia:Konami code|Konami code]] to get [[doom:Simon Howard (Fraggle)|Fraggle]]'s preferred configuration defaults:
 
-:<code>↑</code><code>↑</code><code>↓</code><code>↓</code><code>←</code><code>→</code><code>←</code><code>→</code><code>B</code><code>A</code>
+:<code>↑</code><code>↑</code><code>↓</code><code>↓</code><code>←</code><code>→</code><code>←</code><code>→</code><code>B</code><code>A</code><code>ENTER</code>
 
 This corresponds to the following:
 
