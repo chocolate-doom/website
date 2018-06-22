@@ -13,6 +13,16 @@ By default the game window appears in the center of the screen. This can be over
 
  window_position    "100,50"
 
+=== Faster startup ===
+
+When switching to full screen mode, Chocolate Doom by default waits for a second for the screen to settle before starting the game. This can be disabled by changing `startup_delay`, eg.
+
+ startup_delay    0
+
+Alternatively you can make it wait longer, eg.
+
+ startup_delay    2000
+
 === Force integer screen scaling ===
 
 The screen can sometimes look a bit blurry when the game runs at a low resolution. This can be mitigated by setting <code>integer_scaling</code> to 1, which will force scaling to be an integer multiple in at least one dimension.
