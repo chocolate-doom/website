@@ -47,6 +47,8 @@ The disk icon flashes at the bottom right when data is loaded from disk. To turn
 
 == Sound ==
 
+=== libsamplerate ===
+
 === Custom music output ===
 
 The <code>snd_musiccmd</code> variable can be used to invoke an arbitrary command to play MIDI music. For example:
