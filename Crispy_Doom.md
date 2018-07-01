@@ -141,7 +141,7 @@ Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many
 * Support for MUSINFO lumps (dynamic music changing) has been added, mostly taken from PrBoom+.
 
 '''Improvements'''
-* The Fuzz effect used when drawing "invulnerable" things is now scrolled independent of the rendering framerate and paused when the game is paused, on JNechaevsy's suggestion.
+* The Fuzz effect used when drawing "invisible" things is now scrolled independent of the rendering framerate and paused when the game is paused, on JNechaevsy's suggestion.
 * The "Uncapped" framerate setting resulting in 100% CPU usage has been removed from the Crispness menu. It still remains available as a benchmarking measure by manually setting <tt>crispy_uncapped</tt> to <tt>1</tt> in the <tt>crispy-doom.cfg</tt> config file.
 * CPU usage is now capped by limiting the rendering framerate to 35 if the window is minimized, thanks to JNechaevsky for the idea.
 * A game version mismatch notification is now thrown when attempting to load a savegame that has been saved with a different IWAD/game version. The engine just did nothing before which was discovered by Zodomaniac.
