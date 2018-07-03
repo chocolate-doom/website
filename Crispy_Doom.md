@@ -169,7 +169,7 @@ Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many
 * A crash that occured when loading a map without any things has been fixed, thanks to mfrancis95 for noticing.
 * The status bar is now immediately getting redrawn after the help screens have been shown, spotted by JNechaevsky.
 * The blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
-* Demos are now played back with interpolation during uncapped rendering even if the menu is open, on mfrancis95's report.
+* Demos are now played back with interpolation in case of uncapped rendering even if the menu is open, on mfrancis95's report.
 * Romero's head is not randomly flipped after death anymore, thanks to JNechaevsky for inspiring the flipped corpse feature overhaul.
 * Color translation dependence on gamma level spotted by JNechaevsky has been fixed.
 * Weapon sprite moving when looking up/down in the low resolution rendering mode has been fixed.
