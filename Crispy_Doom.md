@@ -59,7 +59,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 === New command line parameters ===
 
 * <tt>-episode 1</tt> launches Hell on Earth and <tt>-episode 2</tt> launches No Rest for the Living episode if BFG Edition Doom 2 IWAD is used.
-* The secret level E1M10: Sewers from XBox Doom can be warped to by <tt>-warp 1a</tt>.
+* <tt>-warp 1a</tt> warps to the secret level E1M10: Sewers of XBox Doom IWAD.
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
 * <tt>-fliplevels</tt> loads mirrored versions of the maps (this was the default on April 1st up to version 5.0).
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
