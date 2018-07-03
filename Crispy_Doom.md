@@ -156,7 +156,7 @@ Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many
 * The "Colored Blood and Corpses" and "Fix Spectre and Lost Soul blood" features have been combined into one menu item (i.e. colored blood now includes Spectre and Lost Soul blood fixes) and simplified to an on/off choice.
 * It is now possible to switch Crispness menu pages using PgUp/PgDn and to wrap around between the first and last menu page, according to JNechaevsky's and mfrancis95's suggestions.
 * A new and exclusive Crisps background texture for the Crispness menu has been created by JNechaevsky.
-* The "Mono SFX" option is now a Crispness menu item available in the "Audible" section. The corresponding <tt>-monosfx</tt> command line options has been removed.
+* The "Mono SFX" option is now a Crispness menu item available in the "Audible" section. The corresponding <tt>-monosfx</tt> command line option has been removed.
 * Minor wording fixes have been applied to some Crispness menu items, now reading "Squat weapon down on impact" and "Crosshair shape".
 * Fonts in the finale text screens are now rendered with shadows.
 * The Player's view height is now immediately updated when his sector moves.
@@ -169,7 +169,7 @@ Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many
 * A crash that occured when loading a map without any things has been fixed, thanks to mfrancis95 for noticing.
 * The status bar is now immediately getting redrawn after the help screens have been shown, spotted by JNechaevsky.
 * The blood fix for Lost Souls not getting toggled in-game immediately like the colored blood for other monsters has been fixed, pointed out by Zodomaniac. 
-* Demos are now played back with interpolation during uncpped rendering even if the menu is open, on mfrancis95's report.
+* Demos are now played back with interpolation during uncapped rendering even if the menu is open, on mfrancis95's report.
 * Romero's head is not randomly flipped after death anymore, thanks to JNechaevsky for inspiring the flipped corpse feature overhaul.
 * Color translation dependence on gamma level spotted by JNechaevsky has been fixed.
 * Weapon sprite moving when looking up/down in the low resolution rendering mode has been fixed.
@@ -177,7 +177,7 @@ Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many
 * The game remaining paused after saving while recording a demo has been fixed on Zodomaniac's report.
 * The bug when music was starting to play while paused and changed volume spotted by JNechaevsky has been fixed.
 * The in-engine "fixes" replacing WolfSS by Zombiemen for the BFG edition IWAD and removing the TNT MAP31 yellow key erroneous "multiplayer only" flag have been removed because they make demo playback fail as Zodomaniac's investigation has shown. Instead, the PWAD fixes (https://forum.zdoom.org/viewtopic.php?f=19&t=53776 and http://www.teamtnt.com/other/tnt31fix.zip respectively) are recommended.
-* Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed, on Zodomaniac's report.
+* Crashes when completing IWAD bonus maps (E1M10: Sewers, MAP33: Betray) while recording a demo have been fixed on Zodomaniac's report.
 * The possibility of falling down into a wall after a savegame is loaded has been fixed. 
 * Zero music volume not muting OPL (and not only OPL) music fully has been fixed. Thanks to JNechaevsky, Zodomaniac and mfrancis95 for bringing this up again and nukeykt for clarifying OPL chip limitations and suggesting to pause music when it is muted.
 * The MAXBUTTONS limit has been removed (mostly because of the SPECHITS cheat and because of the more-then-one-switch-texture-per-line fix mentioned below).
