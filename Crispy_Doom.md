@@ -126,6 +126,10 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 == History of changes ==
 
+=== Changes of Crispy Doom 5.3 from Crispy Doom 5.2 ===
+
+Crispy Doom 5.3 has been released on August XX, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
+
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
 Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
