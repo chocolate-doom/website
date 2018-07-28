@@ -130,6 +130,19 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 Crispy Doom 5.3 has been released on August XX, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
 
+'''Improvements'''
+* FPS is capped to 35 if leveltime is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
+* High resolution rendering setting now takes effect immediately and doesn't require engine restart.
+* "Uncapped framerate" and "VSync" configure options are now separate.
+* <tt>R_InstallSpriteLump()</tt> has been made less error-prone on SiFi270's request.
+
+'''Bug Fixes'''
+* Player's <tt>viewz</tt> only updates if he is actually inside the moving sector instead of merely within its bounding box. Thanks to galileo31dos01 for reporting this issue and JNechaevsky for confirming it!
+* Deathmatch variable is now reset when loading a savegame from the menu, fixing the bug that carburetor and Dwaze noticed (when loading a savegame while a deathmatch demo was playing in the demo loop, the engine assumed the loaded game was a deathmatch as well and applied deathmatch rules).
+* Empty texture file lumps which do not contain any texture are now skipped thanks to the report by galileo31dos01, preventing crashes when encountering these in WADs.
+
+Crispy Doom 5.3 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/f177dcbc082f60d3e5e89a30b36a17f3cd04eaca <tt>f177dcbc</tt>]
+
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
 Crispy Doom 5.2 has been released on June 20, 2018. This release introduces many new features and sections in the Crispness menu, including a new "Rendering" section, a "Crosshair" section for crosshair options including health-based coloring and highlighting on target, and a "Demos" section with options for demo recording and playback timers as well as the demo progress bar. Furthermore, there is smooth diminishing lighting, additional gamma correction levels, increased number of sound channels and support for taller textures as well as numerous other improvements and bug fixes.
