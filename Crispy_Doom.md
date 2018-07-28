@@ -131,7 +131,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Crispy Doom 5.3 has been released on August XX, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
 
 '''Improvements'''
-* FPS is capped to 35 if leveltime is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
+* FPS is capped to 35 if level time is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
 * High resolution rendering setting now takes effect immediately and doesn't require engine restart.
 * "Uncapped framerate" and "VSync" configure options are now separate.
 * <tt>R_InstallSpriteLump()</tt> has been made less error-prone on SiFi270's request.
