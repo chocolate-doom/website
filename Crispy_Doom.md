@@ -64,6 +64,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * <tt>-fliplevels</tt> loads mirrored versions of the maps (this was the default on April 1st up to version 5.0).
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
 * <tt>-loadgame N -record demoname</tt> and <tt>-loadgame N -playdemo demoname</tt> allow to record and play demos starting from a savegame, not from the level start.
+* <tt>-flipweapons</tt> (will be introduced in version 5.3) flips the player's weapons, intended for left-handed players. Some weapons become right-handed as a result, the lore behind this may be that Doomguy uses his 'secondary' arm for lead knuckles, e.g left arm if he's right-handed and vice versa. Pistol is secondary-handed in Vanilla but primary-handed in Black Ops. Most weapons, like shotguns when reloaded and plasma gun when stopped firing, appear to be primary-handed.
 
 === New cheat codes ===
 
