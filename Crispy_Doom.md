@@ -136,13 +136,13 @@ Crispy Doom 5.3 has been released on August XX, 2018. This version brings severa
 * New <tt>-flipweapons</tt> command line argument flipping the player's weapons has been introduced, suggested by Zodomaniac.
 
 '''Improvements'''
-* Screen refresh hiccups at uncapped framerates have been fixed, reported by vanfanel.
 * FPS is capped to 35 if level time is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
 * High resolution rendering setting now takes effect immediately and doesn't require engine restart.
 * "Uncapped framerate" and "VSync" configure options are now separate.
 * <tt>R_InstallSpriteLump()</tt> has been made less error-prone on SiFi270's request.
 
 '''Bug Fixes'''
+* Screen refresh hiccups at uncapped framerates have been fixed, reported by vanfanel.
 * Player's <tt>viewz</tt> only updates if he is actually inside the moving sector instead of merely within its bounding box. Thanks to galileo31dos01 for reporting this issue and JNechaevsky for confirming it!
 * Deathmatch variable is now reset when loading a savegame from the menu, fixing the bug that carburetor and Dwaze noticed (when loading a savegame while a deathmatch demo was playing in the demo loop, the engine assumed the loaded game was a deathmatch as well and applied deathmatch rules).
 * Empty texture file lumps which do not contain any texture are now skipped thanks to the report by galileo31dos01, preventing crashes when encountering these in WADs.
