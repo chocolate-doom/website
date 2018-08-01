@@ -132,10 +132,10 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Crispy Doom 5.3 has been released on August XX, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
 
 '''Features'''
-
 * New <tt>-flipweapons</tt> command line argument flipping the player's weapons has been introduced, suggested by Zodomaniac.
 
 '''Improvements'''
+* Screen refresh hiccups at uncapped framerates have been fixed, reported by vanfanel.
 * FPS is capped to 35 if level time is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
 * High resolution rendering setting now takes effect immediately and doesn't require engine restart.
 * "Uncapped framerate" and "VSync" configure options are now separate.
