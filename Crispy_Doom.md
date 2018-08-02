@@ -136,6 +136,7 @@ Crispy Doom 5.3 has been released on August XX, 2018. This version brings severa
 * New <tt>-flipweapons</tt> command line argument flipping the player's weapons has been introduced, suggested by Zodomaniac.
 
 '''Improvements'''
+* A warning is now emitted to the terminal window (invisible on Windows) when an Arch-Vile resurrects a monster that was crushed to a pool of gore before and thus gets turned into a "ghost monster".
 * FPS is capped to 35 if level time is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
 * High resolution rendering setting now takes effect immediately and doesn't require engine restart.
 * "Uncapped framerate" and "VSync" configure options are now separate.
