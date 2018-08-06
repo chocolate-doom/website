@@ -148,7 +148,7 @@ Crispy Doom 5.3 has been released on August XX, 2018. This version brings severa
 * Deathmatch variable is now reset when loading a savegame from the menu, fixing the bug that carburetor and Dwaze noticed (when loading a savegame while a deathmatch demo was playing in the demo loop, the engine assumed the loaded game was a deathmatch as well and applied deathmatch rules).
 * Empty texture file lumps which do not contain any texture are now skipped thanks to the report by galileo31dos01, preventing crashes when encountering these in WADs.
 
-Crispy Doom 5.3 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/f177dcbc082f60d3e5e89a30b36a17f3cd04eaca <tt>f177dcbc</tt>]
+Crispy Doom 5.3 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/82ff0b70095060015274ae80c8dd66bb55011c26 <tt>82ff0b70</tt>]
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
