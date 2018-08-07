@@ -1,7 +1,7 @@
 [[File:Crispy-doom.png|thumb|right|The Crispy Doom icon]]
 {{Doomwiki}}
 Crispy Doom is a limit-removing enhanced-resolution Doom source port based on [[Chocolate Doom]].
-<br />Its name means that 640x400 looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
+<br />Its name means that its internal 640x400 resolution looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Synopsis ==
 
