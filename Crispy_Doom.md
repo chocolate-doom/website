@@ -33,7 +33,7 @@ Furthermore, the following optional user-visible and audible features are availa
 * Centered Weapons when firing, weapon recoil thrust and pitch.
 * Reports whenever a secret is revealed.
 * Level statistics and extended coloring in the Automap.
-* Playing sounds (e.g. chainsaw start sound) in full length, deliberately preserving the [http://doom.wikia.com/wiki/Silent_BFG <tt>silent BFG trick</tt>].
+* Playing sounds (e.g. chainsaw start sound) in full length, deliberately preserving the [http://doom.wikia.com/wiki/Silent_BFG silent BFG trick].
 * Miscellaneous sound fixes.
 
 All of these features are disabled by default and need to get enabled either in the in-game "Crispness" menu or in the crispy-doom-setup tool. They are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identical]], to Vanilla Doom's.
