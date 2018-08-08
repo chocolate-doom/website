@@ -17,6 +17,7 @@ Its core features are:
 * Intermediate gamma correction levels (0.5, 1.5, 2.5 and 3.5).
 * Removal of all static engine limits, or at least raising of the less crucial ones.
 * Full support for the "Doom Classic" WADs shipped with the "Doom 3: BFG Edition", especially the "No Rest For The Living" episode shipped in the NERVE.WAD file.
+* Support for [https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod Black Ops smooth weapons add-on] and [https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom Gifty's Smooth Doom converted to DEHACKED by VGA] that can make the gameplay even more pleasing to the eyes (but may conflict with other loaded DEHACKED patches contained in levels, etc.)
 
 Furthermore, the following optional user-visible and audible features are available:
 
