@@ -1,3 +1,40 @@
+=== Changes of Crispy Doom 5.1 from Crispy Doom 5.0 ===
+
+Crispy Doom 5.1 has been released on January 13, 2018.
+
+Crispy Doom 5.1 offers some new features and improvements, most of them requested by JNechaevsky, and is accompanied by a new Music Pack adapted to the SDL2 version and tested by Zodomaniac (if you are experiencing problems with playing music remove crispy-midiproc.exe from the game folder).
+
+'''Features'''
+* Optional Brightmaps for select textures and flats ("walls") and/or pick-up and weapon HUD sprites ("items") have been introduced for all supported IWADs. Thanks to JNechaevsky for this contribution!
+* Extended automap colors are now optional, the setting is in the new 'Navigational' section of the Crispness menu.
+* A new setting for squatting down the weapon when falling has been introduced to the 'Tactical' section of the Crispness menu.
+* A new setting for miscellaneous sound fixes has been introduced to the Audible section of the Crispness menu.
+* Demo de-syncing cheats are now disallowed during demo recording or playback as Zodomaniac requested.
+* An option for weapon bobbing with half amplitude during firing has been added.
+* Combined card and skull keys are now supported in the status bar (if provided by a PWAD).
+* The <tt>VERSION</tt> cheat code showing the engine version, build date and SDL version has been introduced.
+
+'''Improvements'''
+* The GPL-licensed <tt>P_CreateBlockMap()</tt> implementation from MBF has been re-introduced.
+* The "power up" sound is not played anymore when selecting the berserk fist, according to Paar's request.
+* Fake contrast logic is now also applied to mid-textured lines.
+* Demo version mismatch has been made non-fatal for in-game demos, the demo just doesn't play if its version differs from the IWAD version. On deliberate launch of a wrong versioned demo the game still exits with an error message.
+* The 'A secret is revealed!' message isn't shown anymore when the menu is active.
+* The current music now restarts if IDMUS00 is entered.
+* If the D_INTRO music is from a PWAD, and D_INTROA is from a different WAD file, the former is played, as galileo31dos01 pointed out.
+* The INTERCEPTS limit has been removed.
+* The inverted palette effect is now disabled when the player dies (e.g. when telefragged while having the Invulnerability power-up).
+* The yellow bonus palette is now reset and never shown if the player dies.
+
+'''Bug Fixes'''
+* The player's looking direction is restored from savegames only if either keyboard-look or mouse-look is enabled.
+* Binding of the crispy_smoothscaling config variable has been fixed, reported by Paar.
+* The missing line not drawn at the bottom of fuzzed sprites has been fixed.
+* VSYNC is now disabled if software rendering is enforced.
+* Support for compressed ZDBSP nodes has been brought back, it was accidentally removed in 5.0 by the switch to the SDL2-based configure script.
+
+Crispy Doom 5.1 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch, which has meanwhile merged the sdl2-branch, up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/55a1c1c9e5ddc3c4e4e27240860d48bdb5701798 <tt>55a1c1c9</tt>]
+
 === Changes of Crispy Doom 5.0 from Crispy Doom 4.3 ===
 
 Crispy Doom 5.0 has been released on November 04, 2017.
