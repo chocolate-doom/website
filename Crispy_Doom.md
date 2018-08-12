@@ -61,13 +61,13 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 
 === New command line parameters ===
 
-* <tt>-episode 1</tt> launches Hell on Earth and <tt>-episode 2</tt> launches No Rest for the Living episode if BFG Edition Doom 2 IWAD is used.
+* <tt>-episode 1</tt> launches Hell on Earth and <tt>-episode 2</tt> launches No Rest for the Living episode if the Doom 2 IWAD shipped with the Doom 3: BFG Edition is used.
 * <tt>-warp 1a</tt> warps to the secret level E1M10: Sewers of XBox Doom IWAD.
 * <tt>-mergedump <file></tt> merges the PWAD file(s) given on the command line with the IWAD file and writes the resulting data into the <tt><file></tt> given as argument. Might be considered as a replacement for the <tt>DEUSF.EXE</tt> tool.
 * <tt>-blockmap</tt> forces a (re-)building of the BLOCKMAP lumps for loaded maps.
 * <tt>-loadgame N -record demoname</tt> and <tt>-loadgame N -playdemo demoname</tt> allow to record and play demos starting from a savegame, not from the level start.
 * <tt>-fliplevels</tt> loads mirrored versions of the maps (this was the default on April 1st up to version 5.0).
-* <tt>-flipweapons</tt> flips the player's weapons (will be introduced in version 5.3).
+* <tt>-flipweapons</tt> flips the player's weapons (new in 5.3).
 
 === New cheat codes ===
 
@@ -135,20 +135,20 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 Crispy Doom 5.3 has been released on August XX, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
 
 '''Features'''
-* New <tt>-flipweapons</tt> command line argument flipping the player's weapons has been introduced, suggested by Zodomaniac.
+* A new <tt>-flipweapons</tt> command line argument has been introduced to flip the player's weapon sprites, suggested by Zodomaniac.
 
 '''Improvements'''
-* A warning is now emitted to the terminal window (invisible on Windows) when an Arch-Vile resurrects a monster that was crushed to a pool of gore before and thus gets turned into a "ghost monster".
-* FPS is capped to 35 if level time is not ticking (in non-playable game states and demos) which was requested and tested by JNechaevsky.
-* High resolution rendering setting now takes effect immediately and doesn't require engine restart.
+* A warning is now emitted to the terminal window when an Arch-Vile resurrects a monster that was crushed to a pool of gore before and thus gets turned into a "ghost monster".
+* FPS is capped to 35 if level time is not ticking (i.e. in non-level game states) which was requested and tested by JNechaevsky.
+* Changing the "High Resolution Rendering" setting now takes immediate effect and doesn't require an engine restart.
 * "Uncapped framerate" and "VSync" configure options are now separate.
 * <tt>R_InstallSpriteLump()</tt> has been made less error-prone on SiFi270's request.
 
 '''Bug Fixes'''
-* Screen refresh hiccups at uncapped framerates have been fixed, reported by vanfanel.
+* Screen refresh hiccups at uncapped framerates have now been fixed, reported by vanfanel.
 * Player's <tt>viewz</tt> only updates if he is actually inside the moving sector instead of merely within its bounding box. Thanks to galileo31dos01 for reporting this issue and JNechaevsky for confirming it!
-* Deathmatch variable is now reset when loading a savegame from the menu, fixing the bug that carburetor and Dwaze noticed (when loading a savegame while a deathmatch demo was playing in the demo loop, the engine assumed the loaded game was a deathmatch as well and applied deathmatch rules).
-* Empty texture file lumps which do not contain any texture are now skipped thanks to the report by galileo31dos01, the engine doesn't error out anymore when encountering these in WADs.
+* The <tt>deathmatch</tt> variable is now reset when loading a savegame from the menu, fixing the bug that carburetor and Dwaze noticed (i.e. when loading a savegame while a deathmatch demo was playing in the demo loop, the engine assumed the loaded game was a deathmatch as well and applied deathmatch rules).
+* An engine crash that occurred when encountering empty texture lumps (i.e. lumps which do not contain a single texture definition at all) in PWADs has been fixed, thanks to the report by galileo31dos01.
 
 Crispy Doom 5.3 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/82ff0b70095060015274ae80c8dd66bb55011c26 <tt>82ff0b70</tt>]
 
