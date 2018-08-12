@@ -99,7 +99,7 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 == Download ==
 
 Binaries for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) are available here: 
-<br />http://www.greffrath.com/~fabian/crispy-doom_5.2.zip
+<br />http://www.greffrath.com/~fabian/crispy-doom_5.3.zip
 
 A supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont is available here:
 <br />http://www.greffrath.com/~fabian/crispy-doom-music-pack_5.1.zip
@@ -132,7 +132,7 @@ After successful compilation the resulting binaries can be found in the <tt>src/
 
 === Changes of Crispy Doom 5.3 from Crispy Doom 5.2 ===
 
-Crispy Doom 5.3 has been released on August XX, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
+Crispy Doom 5.3 has been released on August 12, 2018. This version brings several fixes to deeper-lurking bugs and some improvements.
 
 '''Features'''
 * A new <tt>-flipweapons</tt> command line argument has been introduced to flip the player's weapon sprites, suggested by Zodomaniac.
@@ -150,7 +150,7 @@ Crispy Doom 5.3 has been released on August XX, 2018. This version brings severa
 * The <tt>deathmatch</tt> variable is now reset when loading a savegame from the menu, fixing the bug that carburetor and Dwaze noticed (i.e. when loading a savegame while a deathmatch demo was playing in the demo loop, the engine assumed the loaded game was a deathmatch as well and applied deathmatch rules).
 * An engine crash that occurred when encountering empty texture lumps (i.e. lumps which do not contain a single texture definition at all) in PWADs has been fixed, thanks to the report by galileo31dos01.
 
-Crispy Doom 5.3 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/82ff0b70095060015274ae80c8dd66bb55011c26 <tt>82ff0b70</tt>]
+Crispy Doom 5.3 is based on Chocolate Doom 3.0.0 and has merged all changes to the Chocolate Doom master branch up to commit [https://github.com/chocolate-doom/chocolate-doom/commit/dd78c0873ec4756cc1bc430cf22ebe542ac3a23b <tt>dd78c087</tt>]
 
 === Changes of Crispy Doom 5.2 from Crispy Doom 5.1 ===
 
