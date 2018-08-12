@@ -18,7 +18,6 @@ Its core features are:
 * Intermediate gamma correction levels (0.5, 1.5, 2.5 and 3.5).
 * Removal of all static engine limits, or at least raising of the less crucial ones.
 * Full support for the "Doom Classic" WADs shipped with the "Doom 3: BFG Edition", especially the "No Rest For The Living" episode shipped in the NERVE.WAD file.
-* Support for [https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod PerK & NightFright's Black Ops smooth weapons add-on converted to DEHACKED by VGA] and [https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom Gifty's Smooth Doom smooth monster animations converted to DEHACKED by VGA] that can make the gameplay even more pleasing to the eyes (but may conflict with other loaded DEHACKED patches contained in levels, etc.)
 
 Furthermore, the following optional user-visible and audible features are available:
 
@@ -244,6 +243,8 @@ Please report any bugs, glitches or crashes that you encounter to the GitHub [ht
 Although I have played the thought of hacking on Chocolate Doom's renderer for quite some time already, it was Brad Harding's [[Doom Retro]] that provided the incentive to finally do it. However, his fork aims at a different direction and I did not take a single line of code from it. Lee Killough's [[doom:MBF|MBF]] was studied and used to debug the code, especially in the form of Team Eternity's [[doom:WinMBF|WinMBF]] source port, which made it easier to compile and run on my machine. And of course there is fraggle's [[Chocolate Doom]] with its exceptionally clean and legible source code. Please let me take this opportunity to appreciate all these authors for their work!
 
 Also, thanks plums of the [https://www.doomworld.com/vb/ Doomworld forums] for beta testing, "release manager" Zodomaniac and "art director" JNechaevsky for the continuous flow of support and inspiration during the 3.x-5.x development cycle and (last but not the least) [http://www.moddb.com/members/cacodemon9000 Cacodemon9000] for his [http://www.moddb.com/games/doom-ii/addons/infested-outpost Infested Outpost] map that helped to track down quite a few bugs!
+
+Furthermore, thanks to VGA for his aid with adding support for his two mods: [https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod PerK & NightFright's Black Ops smooth weapons add-on converted to DEHACKED] and [https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom Gifty's Smooth Doom smooth monster animations converted to DEHACKED] that can make the gameplay even more pleasing to the eyes.
 
 == Legalese ==
 Doom is &copy; 1993-1996 Id Software, Inc.; 
