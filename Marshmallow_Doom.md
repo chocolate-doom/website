@@ -1,13 +1,13 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which infuses a classic Doom experience with many sweet new features such as multiplayer bots, dynamic gameplay-driven music, a much-improved multiplayer cooperative experience, treasure items, customizable sandbox games, player inventory, and more.
+Marshmallow Doom is a gameplay-oriented source port which sweetens the classic Doom experience with new features such as multiplayer bots, dynamic gameplay-driven music, a much-improved multiplayer cooperative experience, persistent player stats, treasure items, customizable sandbox battles, and more.
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other improvements to the classic Doom experience.  
+Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other improvements to the classic Doom experience.
 
-Marshmallow Doom is unlike most source ports in that it does not make any changes to system-oriented code (renderer, sound, networking, etc.) and also '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  Any of Marshmallow Doom's "new" features are the result of an internal reorganization and/or repurposing of Doom's existing functionality and assets.
+Marshmallow Doom '''does not add any new assets''' (sprites, sounds, music, etc.) to the game.  Any of Marshmallow Doom's "new" features are the result of an internal reorganization and/or repurposing of Doom's existing functionality and assets.
 
 
 == Objectives and features ==
@@ -17,13 +17,14 @@ Marshmallow Doom is a source port that aims to bring flexible new gameplay enhan
 A new in-game HUD menu is offered as a portal to most of Marshmallow Doom's features.  Multiplayer options must be set at the command line, however most new multiplayer game rules are enabled by default.
 
 
-=== HUD menu ===
+=== The Datapad ===
 
-Launch the in-game menu by pressing ''''M'''' on the keyboard.  To scroll, press the square brackets ''''['''' and '''']'''', and to select, press backslash ''''\''''.
+Launch the in-game menu by pressing ''''M'''' on the keyboard.
 
 
 Within the menu, the player can easily access most of what Marshmallow Doom has on offer:
 
+* View your player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
 * Change game skill level during the game
 * Change maps easily in the menu, including randomized map selection
