@@ -15,7 +15,6 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself 
 
 Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  Show the datapad by pressing ''''M'''' on the keyboard.
 
-
 The datapad allows the player to:
 
 * View player profile showing all-time stats such as frags, accuracy, etc.
@@ -31,20 +30,21 @@ The datapad allows the player to:
 
 === Gameplay ===
 
-New options for weapon, item, and monster behaviors include:
+New options for monster behaviors include:
 
 * Lost souls spawn with less health
 * Revenant missile speed (DOS or PSX speeds)
 * Pain Elemental does not spawn lost souls on death
 * Archvile painchance lowered
-
-''and many more...''
+* Limited Archvile targeting scope (Z dimension)
+* Cacodemon melee attack sound (on/off)
+* Chaingun Guy firing sound (shotgun/chaingun)
 
 
 New multiplayer options include:
 
-* Friendly fire can be disabled, and/or mirror damage can be enabled to deter friendly fire
 * Weapons stay
+* Friendly fire and/or mirror damage
 * Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be enabled)
 * When players are killed, they drop a backpack of ammo as well as their current weapon
 * Players can also manually drop a backpack of ammo for another player in need
@@ -74,7 +74,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during cooperative play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
-* Skull keys are optionally repurposed as bonus treasure items and found throughout most levels when playing in treasure mode.  Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion
+* If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  (Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.)
 
 
 ==== Treasure Items ====
