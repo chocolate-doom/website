@@ -1,7 +1,7 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port that sweetens the classic Doom experience with additional features such as cooperative bot players, dynamic gameplay-driven music, a much-improved network game experience, persistent player stats, treasure items, customizable sandbox battles, and more.  
+Marshmallow Doom is a gameplay-oriented source port that sweetens the classic Doom experience with additional features such as cooperative bot players, dynamic gameplay-driven music, enhanced blood and gore, a much-improved network game experience, persistent player stats, treasure items, customizable sandbox battles, and more.  
 
 
 == Synopsis ==
@@ -25,19 +25,29 @@ The datapad allows the player to:
 * Toggle new item behaviors such as treasure mode, inventory, or monster bonuses
 * Change game skill level during the game
 * Change maps easily in the menu, including randomized map selection
-* Customize the dynamic music system or further explore Doom's music by choosing from a series of different "mood" playlists
+* Customize the dynamic music system
 * Start a sandbox game in an empty map of the player's choice
 
 
 === Gameplay ===
 
-Marshmallow Doom provides several improvements to Doom's multiplayer co-op experience.  New multiplayer options include:
+New options for weapon, item, and monster behaviors include:
+
+* Lost souls spawn with less health
+* Revenant missile speed (DOS or PSX speeds)
+* Pain Elemental does not spawn lost souls on death
+* Archvile painchance lowered
+
+''and many more...''
+
+
+New multiplayer options include:
 
 * Friendly fire can be disabled, and/or mirror damage can be enabled to deter friendly fire
-* Weapons stay in co-op
-* Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be changed)
-* When players are killed, they drop a backpack of ammo as well as their current weapon at time of death
-* Players can also manually drop a backpack of ammo for a friend in need, deducting from their own ammo supply
+* Weapons stay
+* Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be enabled)
+* When players are killed, they drop a backpack of ammo as well as their current weapon
+* Players can also manually drop a backpack of ammo for another player in need
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a network game
@@ -54,6 +64,7 @@ The following items can be stored in the player's inventory for use at any time 
 * Invulnerability
 * Invisilbility
 * Portable medkit
+* Infrared goggles
 
 
 ==== New Items ====
