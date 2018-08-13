@@ -1,7 +1,7 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which sweetens the classic Doom experience with new features such as multiplayer bots, dynamic gameplay-driven music, a much-improved network game experience, persistent player stats, treasure items, customizable sandbox battles, and more.
+Marshmallow Doom is a gameplay-oriented source port which sweetens the classic Doom experience with additional features such as cooperative bot players, dynamic gameplay-driven music, a much-improved network game experience, persistent player stats, treasure items, customizable sandbox battles, and more.  
 
 == Synopsis ==
 
@@ -26,13 +26,13 @@ Within the menu, the player can easily access most of what Marshmallow Doom has 
 
 * View your player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
+* Adjust tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
+* Adjust tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
+* Toggle new item behaviors such as treasure mode, inventory, or monster bonuses
 * Change game skill level during the game
 * Change maps easily in the menu, including randomized map selection
 * Customize the dynamic music system or further explore Doom's music by choosing from a series of different "mood" playlists
 * Start a sandbox game in an empty map of the player's choice
-* Adjust tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
-* Adjust tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
-* Toggle new item behaviors such as treasure mode, inventory, or monster bonuses
 
 
 === Gameplay ===
