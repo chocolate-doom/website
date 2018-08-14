@@ -27,7 +27,6 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 * Easily skip to any map in the wad or start a randomly selected map
 
 
-
 Show the datapad by pressing ''''M'''' on the keyboard.  
 
 
@@ -67,11 +66,15 @@ Press ''''P'''' on the keyboard to launch the PKE Meter.
 * Current map can be skipped at any time during a network game
 
 
+==== Ludicrous Gibs ====
+
+Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
+
+
+
 ==== Inventory ====
 
-If enabled, special items can be stored in the player's inventory for later use.
-
-The following items can be stored in the player's inventory for use at any time during gameplay:
+If enabled, the following items can be stored in the player's inventory for later use:
 
 * Radsuit
 * Invulnerability
@@ -97,7 +100,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
 
-In Marshmallow Doom's new treasure mode, all multiplayer item spawn points in singleplayer or cooperative modes will spawn treasure items, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
+In Marshmallow Doom's new treasure mode, treasure is spawned at all multiplayer item spawn points, and in full treasure mode, health and armor bonuses are also spawn treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 
 ==== Monster Bonuses ====
