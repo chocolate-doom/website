@@ -189,28 +189,18 @@ Additional new gameplay features include:
 * Auto-use
 
 
-
-=== Technology ===
-
-
-
-==== Dynamic Music ====
+=== Dynamic Music ===
 
 Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of the music playing based on the amount of action the player is experiencing in real-time.
 
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game.  Command line option '''-steal''' will automatically import assets from the other game's WAD file if the file is present.
 
 
-==== Bots ====
+=== Bots ===
 
 Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
 
 When a bot is in sight, press ''''F'''' on the keyboard to order him to follow you.
-
-
-==== Danger Indexing ====
-
-The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded five-star danger rating is displayed.  These metrics also play a key role in driving the dynamic music system.  You can view these metrics at any time during the game on the PKE Meter.
 
 
 === New cheat codes ===
@@ -261,7 +251,9 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, Quake, Unreal, and Half-Life.
 
-The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Dark Forces, and Monkey Island 2.
+New features such as treasure, score, achievements, inventory, extended HUD information, and ''ludicrous gibs'' are a direct tribute to game designer Tom Hall, whose creative influence was cut out of Doom but is in full bloom in other legendary games such as Rise of the Triad and Commander Keen.  
+
+The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Tie Fighter, and Dark Forces.
 
 
 == Download ==
