@@ -125,16 +125,16 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 
 ==== New Difficulty Levels ====
 
-===== UV 2.0 =====
+===== Ultra Violence 2.0 =====
 
 * Speed and damage mechanics of Ultra Violence skill level
 * Monsters are upgraded by a 90% chance
 
-===== NM 2.0 =====
+===== Nightmare 2.0 =====
 
 * Speed and damage mechanics of Nightmare skill level
-* Monsters do not respawn (by default, but can be changed)
-* All monster healthpoints are increased; ideal for cooperative play
+* Monsters do not respawn
+* Monsters are upgraded by a 90% chance
 * Cheats enabled (single-player only)
 
 
