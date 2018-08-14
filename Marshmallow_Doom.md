@@ -28,6 +28,16 @@ Show the datapad by pressing ''''M'''' on the keyboard.  The datapad allows the 
 * Customize the dynamic music system
 * Start a sandbox game in an empty map of the player's choice
 
+==== PKE Meter ====
+
+The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player.
+
+Press ''''P'''' on the keyboard to launch the PKE Meter.
+
+Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''.
+
+Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''.
+
 
 === Gameplay ===
 
