@@ -20,28 +20,29 @@ Show the datapad by pressing ''''M'''' on the keyboard.  The datapad allows the 
 
 * View player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
-* Adjust tweaks to monster stats/behaviors such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
-* Adjust tweaks to weapon stats/behaviors such as '''infinite pistol ammo''' or enabling pseudo-particle effects for explosions
-* Toggle new item behaviors such as treasure mode, inventory, or monster bonuses
-* Change game skill level during the game
-* Change maps easily in the menu, including randomized map selection
+* Adjust monster mutators such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
+* Adjust weapon mutators such as '''particle effects''' for the BFG
+* Toggle new item behaviors such as treasure mode or inventory
 * Customize the dynamic music system
 * Start a sandbox game in an empty map of the player's choice
+* Change game skill level
+* Easily skip to any map in the wad or start a randomly selected map
 
 
 ==== PKE Meter ====
 
 The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player.
 
-Press ''''P'''' on the keyboard to launch the PKE Meter.
-
 * Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''.
 * Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''.
 
 
+Press ''''P'''' on the keyboard to launch the PKE Meter.
+
+
 === Gameplay ===
 
-New options for monster behaviors include:
+==== Monster Mutators ====
 
 * Lost souls spawn with less health
 * Revenant missile speed (DOS or PSX speeds)
@@ -52,7 +53,7 @@ New options for monster behaviors include:
 * Chaingun Guy firing sound (shotgun/chaingun)
 
 
-New multiplayer options include:
+==== New Multiplayer Options ====
 
 * Weapons stay
 * Friendly fire and/or mirror damage
@@ -66,7 +67,7 @@ New multiplayer options include:
 
 ==== Inventory ====
 
-Press ''''V'''' on the keyboard to open the inventory menu.
+If enabled, special items can be stored in the player's inventory for later use.
 
 The following items can be stored in the player's inventory for use at any time during gameplay:
 
@@ -75,6 +76,9 @@ The following items can be stored in the player's inventory for use at any time 
 * Invisilbility
 * Portable medkit
 * Infrared goggles
+
+
+Press ''''V'''' on the keyboard to open the inventory menu.
 
 
 ==== New Items ====
