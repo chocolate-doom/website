@@ -27,7 +27,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 * Easily skip to any map or skip to a random one
 
 
-Launch the datapad by pressing ''''M'''' on the keyboard.  
+Press ''''M'''' on the keyboard to launch the datapad.  
 
 
 ==== PKE Meter ====
@@ -93,9 +93,11 @@ Some subtle tweaks to monster behaviors are offered.  A few examples:
 
 ==== Treasure Items ====
 
-Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
+Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were changed to function as health and armor bonuses.
 
-In Marshmallow Doom's new treasure mode, treasure is spawned at all multiplayer item spawn points, and in full treasure mode, health and armor bonuses are also spawn treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
+In Marshmallow Doom's normal treasure mode, treasure is spawned at all multiplayer item spawn points; and in full treasure mode, health and armor bonuses also spawn treasure items.  
+
+Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 
 ==== Inventory ====
@@ -146,7 +148,6 @@ Two new difficulty levels are offered which incorporate the monster upgrade feat
 * Speed and damage mechanics of Ultra Violence skill level
 * Monsters are upgraded by a 90% chance
 
-
 ===== Nightmare 2.0 =====
 
 * Speed and damage mechanics of Nightmare skill level
@@ -168,6 +169,7 @@ Other information available includes:
 * Reporting the current target's remaining health (all monsters or bosses only)
 * Missile-lock alerts (when fighting Cyberdemon)
 
+
 ==== New Items ====
 
 A few of Doom's original item pickups have been repurposed for use by a handful of new items:
@@ -180,7 +182,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 ==== Additional features ====
 
-Additional new gameplay features include:
+Other new gameplay features include:
 
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
@@ -201,7 +203,12 @@ Marshmallow Doom's new dynamic music system, ''Doom DJ'', varies the "mood" of t
 
 Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
 
-When a bot is in sight, press ''''F'''' on the keyboard to order him to follow you.
+Press ''''F'''' to order the bots to follow you.
+Press ''''T'''' to assign a target to the bots.
+Press ''''~'''' to kick the bots out of the way when blocked.
+Press the ''use'' key while facing a bot to cycle through orders/behaviors.
+
+Friendly fire is off by default and can be toggled in the '''Bots''' menu on the datapad.
 
 
 === New cheat codes ===
