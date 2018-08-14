@@ -53,6 +53,7 @@ A few examples of what is stored in the player profile:
 * Secret found
 * Treasure score
 
+
 View the profile by selecting '''Profile''' on the datapad.
 
 
