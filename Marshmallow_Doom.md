@@ -16,26 +16,26 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself 
 
 Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  
 
-* View player profile showing all-time stats such as frags, accuracy, etc.
+* View player profile showing all-time stats such as frags, accuracy, levels completed, etc.
 * Add bots to the game for either cooperative or deathmatch play
+* Start a sandbox game to build your own custom battles
 * Adjust monster mutators such as '''less HP for lost souls''' or '''changing the speed of revenant missiles'''
 * Adjust weapon mutators such as '''particle effects''' for the BFG
-* Toggle new item behaviors such as treasure mode or inventory
+* Toggle new item behaviors such as treasure mode or player inventory
 * Customize the dynamic music system
-* Start a sandbox game in an empty map of the player's choice
 * Change game skill level
-* Easily skip to any map in the wad or start a randomly selected map
+* Easily skip to any map or skip to a random one
 
 
-Show the datapad by pressing ''''M'''' on the keyboard.  
+Launch the datapad by pressing ''''M'''' on the keyboard.  
 
 
 ==== PKE Meter ====
 
 The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player.
 
-* Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''.
-* Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''.
+* Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
+* Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
 
 
 Press ''''P'''' on the keyboard to launch the PKE Meter.
@@ -43,7 +43,25 @@ Press ''''P'''' on the keyboard to launch the PKE Meter.
 
 === Gameplay ===
 
+==== Cooperative Play ====
+
+Doom's vanilla cooperative experience can quickly become frustrating as it is missing many crucial features which are easily taken for granted today, such as:
+
+* Weapons stay
+* Friendly fire and/or mirror damage
+* When players are killed, they drop a backpack of ammo as well as their current weapon
+* Players can also manually drop a backpack of ammo for another player in need
+* Keep any keys collected after player respawns
+* Player will respawn with all weapons owned at end of previous map
+* Current map can be skipped at any time during a network game
+
+==== Ludicrous Gibs ====
+
+Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
+
 ==== Monster Mutators ====
+
+Some subtle tweaks to monster behaviors are offered.  A few examples:
 
 * Lost souls spawn with less health
 * Revenant missile speed (DOS or PSX speeds)
@@ -53,24 +71,11 @@ Press ''''P'''' on the keyboard to launch the PKE Meter.
 * Cacodemon melee attack sound (on/off)
 * Chaingun Guy firing sound (shotgun/chaingun)
 
+==== Treasure Items ====
 
-==== New Multiplayer Options ====
+Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
 
-* Weapons stay
-* Friendly fire and/or mirror damage
-* Multiplayer weapon/item pickups are not spawned in co-op (by default, but can be enabled)
-* When players are killed, they drop a backpack of ammo as well as their current weapon
-* Players can also manually drop a backpack of ammo for another player in need
-* Keep any keys collected after player respawns
-* Player will respawn with all weapons owned at end of previous map
-* Current map can be skipped at any time during a network game
-
-
-==== Ludicrous Gibs ====
-
-Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
-
-
+In Marshmallow Doom's new treasure mode, treasure is spawned at all multiplayer item spawn points, and in full treasure mode, health and armor bonuses are also spawn treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 ==== Inventory ====
 
@@ -85,7 +90,6 @@ If enabled, the following items can be stored in the player's inventory for late
 
 Press ''''V'''' on the keyboard to open the inventory menu.
 
-
 ==== New Items ====
 
 A few of Doom's original item pickups have been repurposed for use by a handful of new items:
@@ -95,29 +99,9 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 * The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during cooperative play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
 * If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  (Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.)
 
-
-==== Treasure Items ====
-
-Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
-
-In Marshmallow Doom's new treasure mode, treasure is spawned at all multiplayer item spawn points, and in full treasure mode, health and armor bonuses are also spawn treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
-
-
-==== Monster Bonuses ====
-
-All monsters now drop a bonus item when killed:
-
-* Imp, Cacodemon, Lost Soul, Demon, and Spectre drop a health bonus
-* Arachnatron and Mancubus drop a cell pack
-* Revenant drops a rocket
-* Baron of Hell, Hell Knight, Arch-vile, and Pain Elemental drop a Demonsphere health bonus
-* Cyberdemon and Spider Mastermind drop a megasphere or soulsphere
-
-
 ==== Conserved Item Pickups ====
 
 When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is especially useful for multiplayer cooperative games as it allows more than one player to benefit from a single health or ammo pickup.
-
 
 ==== Warp Weapons ====
 
@@ -126,7 +110,7 @@ When using option <tt>-warp</tt> at the command line, the player will spawn with
 For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun.  When warping to MAP30, the player will start the level with all weapons.
 
 
-If the player prefers vanilla pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
+If the player prefers classic pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
 
 
 ==== Sandbox Mode ====
@@ -139,10 +123,16 @@ After starting a sandbox game, scroll through a list of monsters available by pr
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
 
 
-==== Nightmare 2.0 ====
+==== New Difficulty Levels ====
 
-A new difficulty level is offered as a "remix" of Nightmare skill:
+===== UV 2.0 =====
 
+* Speed and damage mechanics of Ultra Violence skill level
+* Monsters are upgraded by a 90% chance
+
+===== NM 2.0 =====
+
+* Speed and damage mechanics of Nightmare skill level
 * Monsters do not respawn (by default, but can be changed)
 * All monster healthpoints are increased; ideal for cooperative play
 * Cheats enabled (single-player only)
@@ -195,7 +185,7 @@ When a bot is in sight, press ''''F'''' on the keyboard to order him to follow y
 
 ==== Danger Indexing ====
 
-The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded "danger rating" is displayed.  These metrics also play a key role in driving the dynamic music system.
+The amount of danger facing the player at any given time is tracked in real-time.  In the upper-right of the screen, a color-coded five-star danger rating is displayed.  These metrics also play a key role in driving the dynamic music system.  You can view these metrics at any time during the game on the PKE Meter.
 
 
 === New cheat codes ===
