@@ -35,9 +35,8 @@ The datapad features a PKE Meter "app" which reports metrics representing potent
 
 Press ''''P'''' on the keyboard to launch the PKE Meter.
 
-Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''.
-
-Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''.
+* Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''.
+* Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''.
 
 
 === Gameplay ===
