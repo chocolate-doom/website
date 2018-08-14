@@ -181,46 +181,51 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 === New cheat codes ===
 
-* <tt>ENDMAPNOW</tt> aborts the current level by calling G_ExitLevel()
+* <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
 * <tt>SKILL</tt> will report the current game skill level
+* <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
+* <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
 
 
 === New command line parameters ===
 
-* <tt>-bots <x></tt> starts a game with <x> number of bot players
-* <tt>-steal</tt> allows you to use music and monsters from both Doom and Doom II simultaneously
-* <tt>-d2e</tt> spawns some Doom II monsters in Doom maps 
-* <tt>-ssg</tt> spawns the super shotgun in Doom maps
-* <tt>-ekg</tt> mode for extra blood and explosion effects
-* <tt>-dj</tt> starts the game with dynamic music (Doom DJ) enabled
-* <tt>-tr</tt> enables normal treasure mode 
-* <tt>-trb</tt> enables full treasure mode 
+* <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
+
+* <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
+* <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
+* <tt>-steal</tt> when added to either -d1 or -d2 will import the opposite game's wad as a PWAD
+
+* <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and the super shotgun
+* <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
+
+* <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
+* <tt>-tnt</tt> sets IWAD to TNT.WAD
+
 * <tt>-rand</tt> warps to a random level
-* <tt>-sandbox</tt> launches a sandbox game
+
+* <tt>-upgrade <x></tt> upgrades <x>
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
 * <tt>-ps</tt> forces a pistol start when using <tt>-warp</tt>
 * <tt>-itemrespawn</tt> forces items to respawn in any game mode
 * <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
-* <tt>-ff</tt> toggles friendly fire
-* <tt>-mirror</tt> toggles mirror damage
-* <tt>-self</tt> toggles self-damage
+
 * <tt>-itytd</tt> enables "baby mode" skill level
 * <tt>-hntr</tt> enables easy skill level
 * <tt>-hmp</tt> enables normal skill level
 * <tt>-uv</tt> enables hard skill level
 * <tt>-nm</tt> enables Nightmare skill level
 * <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
-* <tt>-nm2</tt> enables the new Nightmare 2.0 skill level
-* <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
-* <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
-* <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
-* <tt>-tnt</tt> sets IWAD to TNT.WAD
+* <tt>-uv2</tt> enables hard skill with a 90% monster upgrade chance
+* <tt>-nm2</tt> enables Nightmare skill with no respawning monsters and a 100% monster upgrade chance
+
+* <tt>-sandbox</tt> launches a new sandbox game
+
 
 == Inspiration ==
 
-Marshmallow Doom builds on the shoulders of the [[Chocolate Doom]] and [[Crispy Doom]] projects, continuing to enhance and improve Doom all while preserving the essence of the original game.  Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, and Quake.
+Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, Quake, Unreal, and Half-Life.
 
 The new ''Doom DJ'' feature is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Dark Forces, and Monkey Island 2.
 
