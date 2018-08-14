@@ -153,8 +153,8 @@ Two new difficulty levels are offered which incorporate the monster upgrade feat
 
 * Speed and damage mechanics of Nightmare skill level
 * Monsters do not respawn
-* Monsters are upgraded by a 90% chance
-* Cheats enabled (single-player only)
+* Monsters are upgraded by a 100% chance
+* Cheats enabled in single-player mode
 
 
 ==== New event messages ====
