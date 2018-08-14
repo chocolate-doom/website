@@ -76,10 +76,13 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 
 Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
 
+This option can be toggled in the '''Gameplay''' menu on the datapad.
+
 
 ==== Monster Upgrades ====
 
-Make the same old vanilla maps scary again by upgrading any map's existing monsters or scaling-up their healthpoints.
+New control points for monster difficulty are offered for a greater challenge, and are especially useful for balancing cooperative play:
+
 
 
 ===== Upgrade Chance =====
@@ -157,7 +160,7 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 
 ==== New Difficulty Levels ====
 
-Two new difficulty levels are offered which incorporate the monster upgrade feature:
+Two new difficulty levels are offered which also incorporate the monster upgrade feature:
 
 ===== Ultra Violence 2.0 =====
 
@@ -181,7 +184,8 @@ New event messages keep the player informed of important events during the game.
 * "You killed a teammate"
 * "You were killed by an Imp"
 
-Other information available includes:
+
+Other information is available on the player's HUD, such as:
 
 * Reporting the current target's remaining health (all monsters or bosses only)
 * Missile-lock alerts (when fighting Cyberdemon)
@@ -227,7 +231,7 @@ Press ''''T'''' to assign a target to the bots.
 
 Press ''''~'''' to kick the bots out of the way when blocked.
 
-Press the ''use'' key while facing a bot to cycle through orders/behaviors.
+Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 
 Friendly fire is off by default and can be toggled in the '''Bots''' menu on the datapad.
@@ -250,7 +254,7 @@ Friendly fire is off by default and can be toggled in the '''Bots''' menu on the
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-steal</tt> when added to either -d1 or -d2 will import the opposite game's wad as a PWAD
 
-* <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and the super shotgun
+* <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and super shotgun
 * <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
 
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
