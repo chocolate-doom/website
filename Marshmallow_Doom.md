@@ -55,9 +55,28 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a network game
 
+
 ==== Ludicrous Gibs ====
 
 Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
+
+
+==== Monster Upgrades ====
+
+Make the same old vanilla maps scary again by upgrading any map's existing monsters or scaling-up their healthpoints.
+
+
+===== Upgrade Chance =====
+
+When using the '''Change Map''' menu on the Datapad, the player can set the probability of monster replacement on a scale of 0% to 100%.  It is recommended to upgrade up to 90% as to leave a few un-upgraded monsters for variety, however an upgrade chance of 100% is used in Nightmare 2.0 skill as to be just as insultingly difficult as John Romero intended.
+
+Upgrading can also be enabled at the command line by using <tt>-upgrade <x></tt>, where ''x'' is probability ranging from 1-9.
+
+
+===== Hitpoints Scale-Up =====
+
+Another way to increase monster difficulty is to increase their healthpoints.  This can also be adjusted in the '''Change Map''' menu on the Datapad, or from the command line by using <tt>-scale <x></tt>, where ''x'' is the healthpoints multiplier ranging from 1-9.
+
 
 ==== Monster Mutators ====
 
@@ -71,11 +90,13 @@ Some subtle tweaks to monster behaviors are offered.  A few examples:
 * Cacodemon melee attack sound (on/off)
 * Chaingun Guy firing sound (shotgun/chaingun)
 
+
 ==== Treasure Items ====
 
 Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
 
 In Marshmallow Doom's new treasure mode, treasure is spawned at all multiplayer item spawn points, and in full treasure mode, health and armor bonuses are also spawn treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
+
 
 ==== Inventory ====
 
@@ -90,14 +111,6 @@ If enabled, the following items can be stored in the player's inventory for late
 
 Press ''''V'''' on the keyboard to open the inventory menu.
 
-==== New Items ====
-
-A few of Doom's original item pickups have been repurposed for use by a handful of new items:
-
-* A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
-* A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
-* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during cooperative play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
-* If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  (Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.)
 
 ==== Conserved Item Pickups ====
 
@@ -125,10 +138,13 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 
 ==== New Difficulty Levels ====
 
+Two new difficulty levels are offered which incorporate the monster upgrade feature:
+
 ===== Ultra Violence 2.0 =====
 
 * Speed and damage mechanics of Ultra Violence skill level
 * Monsters are upgraded by a 90% chance
+
 
 ===== Nightmare 2.0 =====
 
@@ -150,6 +166,15 @@ Other information available includes:
 
 * Reporting the current target's remaining health (all monsters or bosses only)
 * Missile-lock alerts (when fighting Cyberdemon)
+
+==== New Items ====
+
+A few of Doom's original item pickups have been repurposed for use by a handful of new items:
+
+* A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
+* A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (a.k.a. it will appear partially-invisible)
+* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during cooperative play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
+* If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  (Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.)
 
 
 ==== Additional features ====
