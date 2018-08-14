@@ -18,7 +18,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 
 * View player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
-* Adjust monster mutators such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
+* Adjust monster mutators such as '''less HP for lost souls''' or '''changing the speed of revenant missiles'''
 * Adjust weapon mutators such as '''particle effects''' for the BFG
 * Toggle new item behaviors such as treasure mode or inventory
 * Customize the dynamic music system
