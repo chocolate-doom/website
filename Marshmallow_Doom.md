@@ -41,6 +41,21 @@ The datapad features a PKE Meter "app" which reports metrics representing potent
 Press ''''P'''' on the keyboard to launch the PKE Meter.
 
 
+==== Player Profile ====
+
+Various metrics on the player are stored in a persistent ''player profile'' that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to by discarded.
+
+A few examples of what is stored in the player profile:
+
+* Total kills
+* Accuracy
+* Levels completed
+* Secret found
+* Treasure score
+
+View the profile by selecting '''Profile''' on the datapad.
+
+
 === Gameplay ===
 
 ==== Cooperative Play ====
