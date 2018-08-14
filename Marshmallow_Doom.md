@@ -16,7 +16,6 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself 
 
 Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  
 
-Show the datapad by pressing ''''M'''' on the keyboard.  The datapad allows the player to:
 
 * View player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
@@ -27,6 +26,10 @@ Show the datapad by pressing ''''M'''' on the keyboard.  The datapad allows the 
 * Start a sandbox game in an empty map of the player's choice
 * Change game skill level
 * Easily skip to any map in the wad or start a randomly selected map
+
+
+
+Show the datapad by pressing ''''M'''' on the keyboard.  
 
 
 ==== PKE Meter ====
