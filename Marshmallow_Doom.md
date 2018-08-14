@@ -11,11 +11,12 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself 
 
 == Features ==
 
+
 === The Datapad ===
 
-Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  Show the datapad by pressing ''''M'''' on the keyboard.
+Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  
 
-The datapad allows the player to:
+Show the datapad by pressing ''''M'''' on the keyboard.  The datapad allows the player to:
 
 * View player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
@@ -57,7 +58,6 @@ New multiplayer options include:
 
 Press ''''V'''' on the keyboard to open the inventory menu.
 
-
 The following items can be stored in the player's inventory for use at any time during gameplay:
 
 * Radsuit
@@ -79,9 +79,9 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 ==== Treasure Items ====
 
-id Software's original vision for Doom included allowing the player to collect treasure items for points, akin to their previous title Wolfenstein 3D.  However these old-fashioned game elements such as  "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
+Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were permanently changed to function as health and armor bonuses.
 
-For those gamers who miss the days of collecting treasure for points, Marshmallow Doom offers '''treasure mode'''.  In normal treasure mode, any multiplayer item spawn points in singleplayer or cooperative modes will spawn treasure items, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
+In Marshmallow Doom's new treasure mode, all multiplayer item spawn points in singleplayer or cooperative modes will spawn treasure items, and in full treasure mode, health and armor bonuses are also converted to treasure items.  Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
 
 ==== Monster Bonuses ====
@@ -204,10 +204,9 @@ The amount of danger facing the player at any given time is tracked in real-time
 
 * <tt>-rand</tt> warps to a random level
 
-* <tt>-upgrade <x></tt> upgrades <x>
+* <tt>-upgrade <x></tt> upgrades monsters based on probability of 1-9 <x>
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
-* <tt>-ps</tt> forces a pistol start when using <tt>-warp</tt>
 * <tt>-itemrespawn</tt> forces items to respawn in any game mode
 * <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
 
@@ -217,6 +216,7 @@ The amount of danger facing the player at any given time is tracked in real-time
 * <tt>-uv</tt> enables hard skill level
 * <tt>-nm</tt> enables Nightmare skill level
 * <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
+
 * <tt>-uv2</tt> enables hard skill with a 90% monster upgrade chance
 * <tt>-nm2</tt> enables Nightmare skill with no respawning monsters and a 100% monster upgrade chance
 
