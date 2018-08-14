@@ -116,6 +116,7 @@ Press ''''V'''' on the keyboard to open the inventory menu.
 
 When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is especially useful for multiplayer cooperative games as it allows more than one player to benefit from a single health or ammo pickup.
 
+
 ==== Warp Weapons ====
 
 When using option <tt>-warp</tt> at the command line, the player will spawn with an arsenal of weapons estimated to be those found up to that point in the game, in addition to a small helping of ammo.  
