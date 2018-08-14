@@ -16,7 +16,6 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself 
 
 Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  
 
-
 * View player profile showing all-time stats such as frags, accuracy, etc.
 * Add bots to the game for either cooperative or deathmatch play
 * Adjust monster mutators such as '''less HP for lost souls''' or '''slowing the velocity of revenant missiles'''
