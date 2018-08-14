@@ -148,6 +148,7 @@ Two new difficulty levels are offered which incorporate the monster upgrade feat
 * Speed and damage mechanics of Ultra Violence skill level
 * Monsters are upgraded by a 90% chance
 
+
 ===== Nightmare 2.0 =====
 
 * Speed and damage mechanics of Nightmare skill level
