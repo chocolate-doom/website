@@ -25,9 +25,9 @@ Furthermore, the following optional user-visible and audible features are availa
 * Free vertical looking, including mouse look and vertical aiming.
 * Aiming support by a crosshair that may get directly rendered into the game world.
 * A new minimal Crispy HUD, displaying only the status bar numbers.
-* Clean Screenshot feature, enabling to take screenshots without burning the crosshair and HUD messages into them.
+* Clean Screenshot feature, enabling to take screenshots without burning the status bar and HUD messages into them.
 * Colorized status bar numbers, HUD texts and blood sprites for certain monsters.
-* Tranlucency for certain sprites and status bar elements in the Crispy HUD.
+* Translucency for certain sprites and status bar elements in the Crispy HUD.
 * Randomly mirrored death animations and corpse sprites.
 * Command line options to allow for playing with flipped player weapon sprites and/or entirely flipped level geometry.
 * Players may walk over or under monsters and hanging corpses.
@@ -35,11 +35,10 @@ Furthermore, the following optional user-visible and audible features are availa
 * Reports whenever a secret is revealed.
 * Level statistics and extended coloring in the Automap.
 * Playing sounds in full length, and misc. other sound fixes.
-* Miscellaneous sound fixes.
 
 All of these features are disabled by default and need to get enabled either in the in-game "Crispness" menu, in the crispy-doom-setup tool or as command line parameters. They are implemented in a way that preserves demo-compatibility with Vanilla Doom and network game compatibility with Chocolate Doom. Furthermore, Crispy Doom's savegames and config files are compatible, [[#Compatibility|though not identical]], to Vanilla Doom's.
 
-Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" maps -- but not Boom or ZDoom maps. Many additional less user-visible features have been implemented, e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed harmless game logic bugs, full support for DEHACKED files and lumps in BEX format, additional and improved cheat codes, an improved Automap, and many more! Due to the extra DeHackEd states added from [https://doomwiki.org/wiki/MBF MBF], Crispy Doom supports [https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod enhanced] [https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom mods] that can make the gameplay even more pleasing to the eyes. For a detailed list of features and changes please refer to the release notes below.
+Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" maps -- but not Boom or ZDoom maps. Many additional less user-visible features have been implemented, e.g. fixed engine limitations and crashes, fixed rendering bugs, fixed harmless game logic bugs, full support for DEHACKED files and lumps in BEX format, additional and improved cheat codes, an improved Automap, and many more! Due to the extra DEHACKED states added from [https://doomwiki.org/wiki/MBF MBF], Crispy Doom supports [https://www.doomworld.com/forum/topic/84859-black-ops-smooth-weapons-dehacked-mod enhanced] [https://www.doomworld.com/forum/topic/85991-smoothed-smooth-monsters-for-doom-retro-and-crispy-doom mods] that can make the gameplay even more pleasing to the eyes. For a detailed list of features and changes please refer to the release notes below.
 
 === New controls (with default bindings) ===
 
