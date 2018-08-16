@@ -1,7 +1,7 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a gameplay-oriented source port which lightly sweetens classic Doom gameplay with new additions such as dynamic gameplay-driven music, cooperative bot players, persistent player stats, enhanced blood and gore, treasure items, new difficulty levels, customizable sandbox battles, a much-improved network game experience, and more.
+Marshmallow Doom is a source port which lightly sweetens classic Doom gameplay with new additions such as dynamic gameplay-driven music, cooperative bot players, persistent player stats, enhanced blood and gore, treasure items, new difficulty levels, customizable sandbox battles, a much-improved network game experience, and more.
 
 
 == Synopsis ==
@@ -14,7 +14,7 @@ Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself 
 
 === The Datapad ===
 
-Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  
+Most of what Marshmallow Doom has to offer can be accessed on the player's datapad: 
 
 * View player profile showing all-time stats such as frags, accuracy, levels completed, etc.
 * Add bots to the game for either cooperative or deathmatch play
@@ -27,41 +27,49 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 * Easily skip to any map or skip to a random one
 
 
-Press ''''M'''' on the keyboard to launch the datapad.  
-
-
-==== PKE Meter ====
-
-The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player.
-
-* Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
-* Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
-
-
-Press ''''P'''' on the keyboard to launch the PKE Meter.
+Press ''''M'''' to launch the datapad.  
 
 
 ==== Player Profile ====
 
-Various metrics on the player are stored in a persistent ''player profile'' that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to by discarded.
+Various metrics on the player are stored in a persistent ''profile'' that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
 
-A few examples of what is stored in the player profile:
+A few metrics tracked by the player profile:
 
 * Total kills
 * Accuracy
 * Levels completed
-* Secret found
+* Secrets found
 * Treasure score
 
 
 View the profile by selecting '''Profile''' on the datapad.
 
 
+==== PKE Meter ====
+
+The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player:
+
+* Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
+* Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
+
+
+Press ''''P'''' to launch the PKE Meter.
+
+
+==== Help Screen ====
+
+Some of Marshmallow Doom's new features such as bot commands and player inventory have added new keyboard functionality to the game.  Most of these new keyboard controls can be found throughout this document, or you may reference them while in-game using the new keyboard reference screen.
+
+
+Press ''''H'''' to launch the keyboard reference help screen.
+
+
 === Gameplay ===
 
 ==== Cooperative Play ====
 
-Doom's vanilla cooperative experience can quickly become frustrating as it is missing many crucial features which are easily taken for granted today, such as:
+Doom's vanilla cooperative experience can quickly become frustrating as it is missing many crucial features which are easily taken for granted today.  Multiplayer features from other games like Quake and other Doom source ports have been backported into the classic Doom experience, such as:
 
 * Weapons stay
 * Friendly fire and/or mirror damage
@@ -70,6 +78,7 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a network game
+* Deathmatch weapons are not spawned in coop, as to allow for normal singleplayer weapon progression during multiplayer coop games
 
 
 ==== Ludicrous Gibs ====
@@ -82,7 +91,6 @@ This option can be toggled in the '''Gameplay''' menu on the datapad.
 ==== Monster Upgrades ====
 
 New control points for monster difficulty are offered for a greater challenge, and are especially useful for balancing cooperative play:
-
 
 
 ===== Upgrade Chance =====
@@ -162,6 +170,7 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 
 Two new difficulty levels are offered which also incorporate the monster upgrade feature:
 
+
 ===== Ultra Violence 2.0 =====
 
 * Speed and damage mechanics of Ultra Violence skill level
@@ -207,7 +216,7 @@ Other new gameplay features include:
 
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
-* Sprint (hold ''''Q'''')
+* Sprint (hold ''''Q'''') which is intended for platform-running
 * Monster respawn in nightmare can be disabled
 * Player suicide
 * Auto-use
@@ -218,7 +227,7 @@ Other new gameplay features include:
 Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the "mood" of the music playing based on the amount of action the player is experiencing in real-time.
 
 
-'''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using command line option '''-steal'''.
+'''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
 
 
 === Bots ===
@@ -237,6 +246,20 @@ Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 Friendly fire is off by default and can be toggled in the '''Bots''' menu on the datapad.
 
 
+=== Wad Stealing ===
+
+Wad stealing is a new experimental feature which allows the use of both Doom and Doom II assets (music, sprites, etc.) to be used at once for a richer Doom experience.  The dynamic music and sandbox features make the most use of wad stealing, as music from both games can be used at once and sandbox games in Doom maps can use Doom II monsters.
+
+Wad stealing also allows vanilla Doom maps in singleplayer or coop to be dynamically re-populated with Doom II monsters, adding a fresh new challenge to any classic Doom map.
+
+The super shotgun is also available in Doom, however this is also possible with Crispy Doom.
+
+Wad stealing is one of the few new features which can only be enabled from the command line:
+
+* <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and super shotgun
+* <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
+
+
 === New cheat codes ===
 
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
@@ -253,9 +276,6 @@ Friendly fire is off by default and can be toggled in the '''Bots''' menu on the
 * <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-steal</tt> when added to either -d1 or -d2 will import the opposite game's wad as a PWAD
-
-* <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and super shotgun
-* <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
 
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
 * <tt>-tnt</tt> sets IWAD to TNT.WAD
