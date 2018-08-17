@@ -79,6 +79,7 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a network game
 * Deathmatch weapons are not spawned in coop, as to allow for normal singleplayer weapon progression during multiplayer coop games
+* Player collision (on/off)
 
 
 ==== Ludicrous Gibs ====
@@ -302,7 +303,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 
 == Inspiration ==
 
-Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Hexen, Quake, Unreal, and Half-Life.
+Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Quake, Unreal, and Half-Life.
 
 
 New features such as treasure, score, achievements, inventory, extended HUD information, and ''ludicrous gibs'' are a direct tribute to game designer and founding id member Tom Hall.  Hall's creative influence was largely left out of Doom but his legendary humor and creativity lives on in other shareware-era classics such as Rise of the Triad and Commander Keen.
