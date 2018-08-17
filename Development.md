@@ -1,6 +1,6 @@
 Chocolate Doom is under active development and aims for a roughly three month release cycle. If you're a fan you might want to keep up to date with the latest bleeding edge pre-release version [https://github.com/chocolate-doom/chocolate-doom from the Git repository].
 
-You can browse the Chocolate Doom source code [https://github.com/chocolate-doom/chocolate-doom here]. Github has [https://github.com/chocolate-doom/chocolate-doom/commits/master a page] that shows recent commits.  There is also the [https://twitter.com/Cocoademon Cocoademon] bot on Twitter.
+You can browse the Chocolate Doom source code [https://github.com/chocolate-doom/chocolate-doom here]. Github has [https://github.com/chocolate-doom/chocolate-doom/commits/master a page] that shows recent commits.
 
 == Forks and branches ==
 
