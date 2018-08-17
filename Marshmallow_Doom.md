@@ -32,7 +32,7 @@ Press ''''M'''' to launch the datapad.
 
 ==== Player Profile ====
 
-Various metrics on the player are stored in a persistent ''profile'' that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
+Various metrics are stored in a persistent player profile that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
 
 A few metrics tracked by the player profile:
 
@@ -85,6 +85,7 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 
 Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
 
+
 This option can be toggled in the '''Gameplay''' menu on the datapad.
 
 
@@ -92,17 +93,16 @@ This option can be toggled in the '''Gameplay''' menu on the datapad.
 
 New control points for monster difficulty are offered for a greater challenge, and are especially useful for balancing cooperative play:
 
-
 ===== Upgrade Chance =====
 
-When using the '''Change Map''' menu on the Datapad, the player can set the probability of monster replacement on a scale of 0% to 100%.  It is recommended to upgrade up to 90% as to leave a few un-upgraded monsters for variety, however an upgrade chance of 100% is used in Nightmare 2.0 skill as to be just as insultingly difficult as John Romero intended.
+* When using the '''Change Map''' menu on the Datapad, the player can set the probability of monster replacement on a scale of 0% to 100%.  It is recommended to upgrade up to 90% as to leave a few un-upgraded monsters for variety, however an upgrade chance of 100% is used in Nightmare 2.0 skill as to be just as insultingly difficult as John Romero intended.
 
 Upgrading can also be enabled at the command line by using <tt>-upgrade <x></tt>, where ''x'' is probability ranging from 1-9.
 
 
 ===== Hitpoints Scale-Up =====
 
-Another way to increase monster difficulty is to increase their healthpoints.  This can also be adjusted in the '''Change Map''' menu on the Datapad, or from the command line by using <tt>-scale <x></tt>, where ''x'' is the healthpoints multiplier ranging from 1-9.
+* Another way to increase monster difficulty is to increase their healthpoints.  This can also be adjusted in the '''Change Map''' menu on the Datapad, or from the command line by using <tt>-scale <x></tt>, where ''x'' is the healthpoints multiplier ranging from 1-9.
 
 
 ==== Monster Mutators ====
@@ -115,7 +115,7 @@ Some subtle tweaks to monster behaviors are offered.  A few examples:
 * Archvile painchance lowered
 * Limited Archvile targeting scope (Z dimension)
 * Cacodemon melee attack sound (on/off)
-* Chaingun Guy firing sound (shotgun/chaingun)
+* Chaingun guy firing sound (shotgun/chaingun)
 
 
 ==== Treasure Items ====
@@ -123,6 +123,7 @@ Some subtle tweaks to monster behaviors are offered.  A few examples:
 Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were changed to function as health and armor bonuses.
 
 In Marshmallow Doom's normal treasure mode, treasure is spawned at all multiplayer item spawn points; and in full treasure mode, health and armor bonuses also spawn treasure items.  
+
 
 Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu or from the command line using switches '''-tr''' or '''-trb'''.
 
@@ -138,7 +139,7 @@ If enabled, the following items can be stored in the player's inventory for late
 * Infrared goggles
 
 
-Press ''''V'''' on the keyboard to open the inventory menu.
+Press ''''V'''' to open the inventory menu.
 
 
 ==== Conserved Item Pickups ====
@@ -170,7 +171,6 @@ When using Marshmallow Doom's '''-steal''' command line option, you can '''fight
 
 Two new difficulty levels are offered which also incorporate the monster upgrade feature:
 
-
 ===== Ultra Violence 2.0 =====
 
 * Speed and damage mechanics of Ultra Violence skill level
@@ -194,7 +194,7 @@ New event messages keep the player informed of important events during the game.
 * "You were killed by an Imp"
 
 
-Other information is available on the player's HUD, such as:
+Other useful information is available on the HUD such as:
 
 * Reporting the current target's remaining health (all monsters or bosses only)
 * Missile-lock alerts (when fighting Cyberdemon)
@@ -218,13 +218,13 @@ Other new gameplay features include:
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
 * Sprint (hold ''''Q'''') which is intended for platform-running
 * Monster respawn in nightmare can be disabled
-* Player suicide
 * Auto-use
+* Player suicide
 
 
 === Dynamic Music ===
 
-Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the "mood" of the music playing based on the amount of action the player is experiencing in real-time.
+Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the mood of the music playing based on the amount of action the player is experiencing in real-time.
 
 
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
@@ -232,7 +232,7 @@ Bobby Prince's original soundtrack from Doom can be brought to life using the ne
 
 === Bots ===
 
-Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
+Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a singleplayer game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
 
 Press ''''F'''' to order the bots to follow you.
 
@@ -260,7 +260,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
 
 
-=== New cheat codes ===
+=== New Cheat Codes ===
 
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
@@ -269,9 +269,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
 
 
-=== New command line parameters ===
-
-* <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
+=== Command-line Options ===
 
 * <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
@@ -299,6 +297,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>-nm2</tt> enables Nightmare skill with no respawning monsters and a 100% monster upgrade chance
 
 * <tt>-sandbox</tt> launches a new sandbox game
+* <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
 
 
 == Inspiration ==
@@ -314,7 +313,7 @@ New features such as treasure, score, achievements, inventory, extended HUD info
 
 == Download ==
 
-<!--Download the beta at www.marshmallowdoom.com [http://www.marshmallowdoom.com].-->
+Download the beta at www.marshmallowdoom.com [http://www.marshmallowdoom.com]
 
 
 Source code now available on github:  https://github.com/drbelljazz/marshmallow-doom
