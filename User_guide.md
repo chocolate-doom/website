@@ -4,14 +4,8 @@
 ; [[Freedoom]]: How to use Chocolate Doom with [[doom:Freedoom|Freedoom]].
 ; [[:Category:TCs|TCs]] and [[:Category:WADs|WAD files]]: Instructions on using certain popular mods.
 ; [[Gameplay enhancements]]: Recommended mods to supercharge your Doom gameplay.
+; [[Multiplayer]]: How to play Chocolate Doom multiplayer.
 ; [[config secrets|Secret configuration options]]: Advanced options which don't appear in the setup tool.
-
-== Multiplayer ==
-
-Chocolate Doom can be played online and includes enhanced network code compared to the original engine.
-* For basic instructions, see the [[Multiplayer]] page.
-* The server browser [http://doomseeker.drdteam.org/ Doomseeker] allows you to find other players to play against.
-* [http://master.chocolate-doom.org/ The master server] tracks active Chocolate Doom servers.
 
 == Online assistance == 
 
