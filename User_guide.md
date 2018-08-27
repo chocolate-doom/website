@@ -11,9 +11,9 @@
 
 You can get help online from several sources:
 
-* [irc://irc.oftc.net/chocolate-doom #chocolate-doom] is an IRC channel with Chocolate Doom users knowledgeable about the port. IRC web chat is available [https://webchat.oftc.net// here].
-* The Doomworld forums contain a long-running [https://www.doomworld.com/vb/source-ports/86366-chocolate-doom/ discussion thread] about the port.  The forums contain many experts on the subject who may be able to answer your questions.
-* Send an email to [mailto:chocolate-doom-dev-list@chocolate-doom.org the Chocolate Doom development mailing list] to contact the authors of the source port directly.
+; IRC [irc://irc.oftc.net/chocolate-doom #chocolate-doom]: Contains Chocolate Doom users knowledgeable about the port. IRC web chat is available [https://webchat.oftc.net// here].
+; Doomworld forums [https://www.doomworld.com/vb/source-ports/86366-chocolate-doom/ discussion thread]: The Doomworld forums contain many experts on the subject who may be able to answer your questions.
+; Email [mailto:chocolate-doom-dev-list@chocolate-doom.org the Chocolate Doom development mailing list]: Contact the authors of the source port directly.
 
 == Bugs ==
 
