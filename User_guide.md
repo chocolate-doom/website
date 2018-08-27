@@ -2,7 +2,7 @@
 ; [[FAQ|Frequently Asked Questions]]: Answers to various common questions about the port.
 ; [[Command line arguments]]: How to run Chocolate Doom.
 ; [[Freedoom]]: How to use Chocolate Doom with [[doom:Freedoom|Freedoom]].
-; [[:Category:TCs|TCs] and [[:Category:WADs|WAD files]]: Instructions on using certain popular mods.
+; [[:Category:TCs|TCs]] and [[:Category:WADs|WAD files]]: Instructions on using certain popular mods.
 ; [[Gameplay enhancements]]: Recommended mods to supercharge your Doom gameplay.
 ; [[config secrets|Secret configuration options]]: Advanced options which don't appear in the setup tool.
 
