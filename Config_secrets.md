@@ -32,7 +32,7 @@ The screen can sometimes look a bit blurry when the game runs at a low resolutio
 
 === Linear scaling ===
 
-Chocolate Doom goes to great lengths to preserve an accurate "blocky" screen scale-up, but there are a few people who prefer to linear screen scaling instead. You can do this by setting <code>max_scaling_buffer_pixels</code> to 64000 (i.e., 320*200):
+Chocolate Doom goes to great lengths to preserve an accurate "blocky" screen scale-up, but there are a few people who prefer [[:File:Chocolate Doom linear filtering.png|linear screen scaling]] instead. You can do this by setting <code>max_scaling_buffer_pixels</code> to 64000 (i.e., 320*200):
 
  max_scaling_buffer_pixels    64000
 
