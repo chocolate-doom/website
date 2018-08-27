@@ -1,12 +1,10 @@
-This wiki contains various pages with information about using Chocolate Doom.  
-
-* The [[Setup]] tool is Chocolate Doom's menu-driven tool for configuring the program.
-* The [[FAQ|Frequently Asked Questions]] page contains answers to various common questions about the port.
-* Documentation about [[command line arguments]], for how to run the game.
-* There are a number of [[config secrets|secret configuration options]] which don't appear in the setup tool.
-* Help pages with information about how to play various [[:Category:TCs|TCs]] and [[:Category:WADs|WAD files]]
-* The [[gameplay enhancements]] page contains links to several recommended mods to supercharge your Doom gameplay
-* How to play with [[Freedoom]]
+; [[Setup|Setup tool]]: Chocolate Doom's menu-driven tool for configuring the program.
+; [[FAQ|Frequently Asked Questions]]: Answers to various common questions about the port.
+; [[Command line arguments]]: How to run Chocolate Doom.
+; [[Freedoom]]: How to use Chocolate Doom with [[doom:Freedoom|Freedoom]].
+; [[:Category:TCs|TCs] and [[:Category:WADs|WAD files]]: Instructions on using certain popular mods.
+; [[Gameplay enhancements]]: Recommended mods to supercharge your Doom gameplay.
+; [[config secrets|Secret configuration options]]: Advanced options which don't appear in the setup tool.
 
 == Multiplayer ==
 
