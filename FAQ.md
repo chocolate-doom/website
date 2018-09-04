@@ -65,7 +65,9 @@ Having completed these two steps, running the game should simply be a matter of 
 
 === I have multiple games (IWADs), how can I select something different than Doom II? ===
 
-Generally, you can use the <tt>-iwad</tt> parameter to select a specific game, using the name of the IWAD.  You may set up an alias or script, depending on your operating system, so that you do not need to type out the -iwad parameter:
+If you're using Windows, put a copy of Chocolate Doom in the same folder as an IWAD and it will launch that IWAD.
+
+More generally, you can use the <tt>-iwad</tt> parameter to select a specific game, using the name of the IWAD.  You may set up an alias or script, depending on your operating system, so that you do not need to type out the -iwad parameter:
 
 On a Unix-like operating system using bash you would add the following in your $HOME/.bashrc (not all shells are created equal!)
  alias chocolate-doom1="chocolate-doom -iwad doom.wad"
