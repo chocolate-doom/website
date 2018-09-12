@@ -56,7 +56,9 @@ Crispy Doom strives for maximum compatibility with all "limit-removing Vanilla" 
 * Delete savegame "DELETE"
 * Go to next level
 * Reload current level
-* Save a clean screenshot.
+* Save a clean screenshot
+* (with automap open) Toggle overlay mode "O"
+* (with automap open) Toggle rotate mode "R"
 
 === New command line parameters ===
 
