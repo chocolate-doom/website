@@ -32,9 +32,7 @@ The following games are supported:
 
 No need to use “<tt>-file</tt>” for loading translated resources, the port will automatically load them depending on the game you are playing. However, due to port specifics and language differences, it is recommended to only play the original game series.
 
-Press Beta is available "from the box" with command line parameter “<tt>-beta</tt>”, no need to download anything.
-
-Additionally, translation of Doom for Atari Jaguar is available as a total conversion with command line parameter “<tt>-jaguar</tt>”.
+Press Beta is available with command line parameter “<tt>-beta</tt>”, and translation of Doom for Atari Jaguar is available as a total conversion with command line parameter “<tt>-jaguar</tt>”. Both games are available "from the box", no need to download anything.
 
 == Game enhancements ==
 
