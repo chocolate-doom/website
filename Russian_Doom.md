@@ -2,7 +2,9 @@
 {{Doomwiki}}
 Russian Doom is aimed to full and proper Russian translation of Doom, Heretic and Hexen games, as well as its setup executable and online help. Additionally it has numerous vanilla bug fixes, enhanced 640x400 display resolution, improved game palettes, removed limits and offers many optional aesthetic game enhancements. 
 
-The project is based on [[Chocolate Doom]] and [[Crispy Doom]].
+The project is based on [[Chocolate Doom]] and [[Crispy Doom]], with additions from [[Doom Retro]].
+
+Starting from version 3.0, English language is available for all supported games. It can be chosen in the Main Menu of Setup executable by pressing F4 (don't forget to save the changes before quit), or by setting: <tt>english_language</tt> to <tt>1</tt> in configuration file. The language is chosen individually for each game.
 
 == Supported games ==
 
@@ -32,6 +34,8 @@ No need to use “<tt>-file</tt>” for loading translated resources, the port w
 
 Press Beta is available "from the box" with command line parameter “<tt>-beta</tt>”, no need to download anything.
 
+Additionally, translation of Doom for Atari Jaguar is available as a total conversion with command line parameter “<tt>-jaguar</tt>”.
+
 == Game enhancements ==
 
 Russian Doom offers many different visual enhancements like colored blood, transparency, mouse look and brightmaps. They can be switched in the ex-compatibility section of the Setup executable, as well as in configuration files.
@@ -45,11 +49,11 @@ Besides, there is also available “<tt>-vanilla</tt>” command line parameter,
 Windows version is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x64 editions).
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
-Latest version for Windows: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.7/russian-doom-2.7-win32.zip/download russian-doom-2.7-win32.zip] 
-<br />Latest version for Windows (x64): [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.7/russian-doom-2.7-win64.zip/download russian-doom-2.7-win64.zip] 
+Latest version for Windows: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/3.0/russian-doom-3.0-win32.zip/download russian-doom-3.0-win32.zip] 
+<br />Latest version for Windows (x64): [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/3.0/russian-doom-3.0-win64.zip/download russian-doom-3.0-win64.zip] 
 <br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.5/russian-doom-dos-1.5.zip/download russian-doom-dos-1.5.zip]
 <br />
-<br />Source code: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/2.7/russian-doom-2.7-source.zip/download russian-doom-2.7-source.zip]
+<br />Source code: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/3.0/russian-doom-3.0-source.zip/download russian-doom-3.0-source.zip]
 <br />Full version history: [http://jnechaevsky.users.sourceforge.net/projects/rusdoom/files/changelog_eng.html changelog_eng.html]
 
 == Contact ==
