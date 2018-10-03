@@ -20,55 +20,6 @@ The maximum supported screen resolution is 1600x1200. Only a fixed set of modes 
 
 If an invalid mode is selected, Chocolate Doom automatically picks the closest valid mode.  To disable this behavior, change <tt>autoadjust_video_settings</tt> in Chocolate Doom's configuration file to 0.
 
-=== Supported scale sizes ===
-
-==== Aspect ratio corrected ====
-
-These modes are used when the "aspect ratio correction" option is turned on (the default).
-
-{| {{prettytable}}
- |-
- ! Scale size
- |-
- | 320x240
- |-
- | 512x400
- |-
- | 640x480
- |-
- | 800x600
- |-
- | 960x720
- |-
- | 1024x800
- |-
- | 1280x960
- |-
- | 1600x1200
- |-
- | 1920x1440
- |-
- |}
-
-==== Uncorrected aspect ratio ====
-
-These modes are used when the "aspect ratio correction" feature is turned off.  Scale-up is performed by exact pixel doubling, which is fast and accurate; however, the game will appear "squashed".
-
-{| {{prettytable}}
- |-
- ! Scale size
- |-
- | 320x200
- |-
- | 640x400
- |-
- | 960x600
- |-
- | 1280x800
- |-
- | 1600x1000
- |}
-
 ==External links==
 [[doom:Aspect ratio|Aspect ratio]] on the [[doom:Doom Wiki|Doom Wiki]].
 
