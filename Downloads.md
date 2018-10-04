@@ -4,6 +4,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 {{linksbox
 |link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0-win32.zip
 |image=File:Windows_logo.png
+|imgsize=64px
 |text=
 '''Microsoft Windows''' binaries: choose the game you want to play:
 
@@ -16,6 +17,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 {{linksbox
 |link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.dmg
 |image=File:Apple logo.png
+|imgsize=64px
 |text=
 '''Apple macOS''' binaries:
 
@@ -25,6 +27,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 {{linksbox
 |link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz
 |image=File:Open_source_logo.png
+|imgsize=64px
 |text=
 '''Source code''' (all platforms)
 
@@ -36,6 +39,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 {{linksbox
 |link=Installing Chocolate Doom on Linux
 |image=File:Tux-and-beastie.png
+|imgsize=64px
 |text=
 '''Linux, BSD and other Unix-like systems''':
 The Chocolate Doom project does not distribute binaries for these systems, but there are packages available in most Linux and BSD distributions. Check out [[Installing Chocolate Doom on Linux]] for instructions.
