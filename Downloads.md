@@ -51,7 +51,8 @@ The Chocolate Doom project does not distribute binaries for these systems, but t
 {{linksbox
 |link=Gameplay enhancements
 |image=File:Soul sphere.png
-|text=Supercharge your Doom experience with [[Gameplay enhancements]]!}}
+|text=Supercharge your Doom experience with [[Gameplay enhancements]]!
+}}
 
 </td></tr></table>
 Chocolate Doom is [https://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2].
