@@ -234,6 +234,7 @@ Bobby Prince's original soundtrack from Doom can be brought to life using the ne
 
 Commonly overplayed songs such as Running from Evil, At Doom's Gate, and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
 
+
 === Bots ===
 
 Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a singleplayer game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
@@ -245,7 +246,6 @@ Press ''''T'''' to assign a target to the bots.
 Press ''''~'''' to kick the bots out of the way when blocked.
 
 Press the '''use''' key while facing a bot to cycle through orders/behaviors.
-
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
