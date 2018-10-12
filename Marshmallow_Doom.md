@@ -215,6 +215,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 Other new gameplay features include:
 
+* Invisibility powerup makes the player invisible to monsters and homing missiles
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
 * Sprint (hold ''''Q'''') which is intended for platform-running
@@ -231,6 +232,8 @@ Bobby Prince's original soundtrack from Doom can be brought to life using the ne
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
 
 
+Commonly overplayed songs such as Running from Evil, At Doom's Gate, and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
+
 === Bots ===
 
 Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a singleplayer game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
@@ -244,7 +247,7 @@ Press ''''~'''' to kick the bots out of the way when blocked.
 Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 
-Friendly fire is off by default and can be toggled in the '''Bots''' menu on the datapad.
+Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
 
 === Wad Stealing ===
