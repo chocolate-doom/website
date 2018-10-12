@@ -232,7 +232,7 @@ Bobby Prince's original soundtrack from Doom can be brought to life using the ne
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
 
 
-Commonly overplayed songs such as Running from Evil, At Doom's Gate, and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
+Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
 
 
 === Bots ===
