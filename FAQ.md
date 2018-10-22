@@ -85,6 +85,12 @@ The [[Downloads]] page has binary downloads for Windows and Mac OS X, but not Li
 
 Instead for Linux we focus on getting Chocolate Doom into the package repositories for as many Linux distributions as possible (along with the various flavors of *BSD). See [[Installing Chocolate Doom on Linux]] for instructions for a number of different distributions. We also provide [[Building Chocolate Doom on Linux|build instructions]] for compiling Chocolate Doom from source.
 
+=== How do I launch Chocolate Doom from Steam? ===
+
+From the "Games" menu, choose the item listed as "Add a Non-Steam Game to My Library..." and choose the path to launch Chocolate Doom. If you're using Windows, you can add multiple such entries for each IWAD file; choose properties and change "Start In" to the directory where each IWAD file is found.
+
+NOTE: Some third party "guides" suggest changing the Steam installation of Doom to hook in Chocolate Doom by replacing the `dosbox.exe` file. This is considered a gross hack and is not recommended or supported by Chocolate Doom's authors. In particular, you're likely to experience several different bugs as a result of using this hack.
+
 == Problems ==
 
 === Where can I get help with using Chocolate Doom? ===
