@@ -89,7 +89,7 @@ Instead for Linux we focus on getting Chocolate Doom into the package repositori
 
 From the "Games" menu, choose the item listed as "Add a Non-Steam Game to My Library..." and choose the path to launch Chocolate Doom. If you're using Windows, you can add multiple such entries for each IWAD file; choose properties and change "Start In" to the directory where each IWAD file is found.
 
-NOTE: Some third party "guides" suggest changing the Steam installation of Doom to hook in Chocolate Doom by replacing the `dosbox.exe` file. This is considered a gross hack and is not recommended or supported by Chocolate Doom's authors. In particular, you're likely to experience several different bugs as a result of using this hack.
+NOTE: Some third party "guides" suggest changing the Steam installation of Doom to hook in Chocolate Doom by replacing the <code>dosbox.exe</code> file. Please don't do this; it's considered a gross hack and is not recommended or supported by Chocolate Doom's authors. In particular, you're likely to experience several different bugs as a result of using this hack.
 
 == Problems ==
 
