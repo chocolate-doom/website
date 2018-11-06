@@ -1,4 +1,4 @@
 Chocolate Doom in Gentoo GNU/Linux
 
-{{Doom screenshots}}
-{{Platform screenshots}}
+{{Doom screenshot}}
+[[Category:Platform screenshots]]
