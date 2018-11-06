@@ -1,4 +1,4 @@
 All Hell is Breaking Loose playing under Chocolate Doom.
 
-{{Doom screenshots}}
+{{Doom screenshot}}
 [[Category:WAD screenshots]]
