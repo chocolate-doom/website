@@ -1,0 +1,1 @@
+Templates used for tagging and categorizing screenshots.
