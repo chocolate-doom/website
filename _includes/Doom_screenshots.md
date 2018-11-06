@@ -1,1 +1,1 @@
-Screenshots of [[doom:Doom|Doom]].
+<includeonly>[[Category:Pages using a deprecated template]]</includeonly>
