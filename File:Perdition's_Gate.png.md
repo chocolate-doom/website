@@ -1,4 +1,4 @@
 Perdition's Gate being played in Chocolate Doom.
 
-{{Doom screenshots}}
+{{Doom screenshot}}
 [[Category:WAD screenshots]]
