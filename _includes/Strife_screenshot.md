@@ -3,4 +3,5 @@
 |- 
 | style="font-size: 80%" | This image depicts a screenshot of [[doom:Strife|Strife]]. The designs depicted in the screenshot may be under the copyright of [[Wikipedia:Rogue Entertainment|Rogue Entertainment]] or others.  If so, they are displayed here under "fair use". The creator of the screenshot claims no additional copyright on the composition of the image.
 |}
-[[Category:Strife screenshots|{{PAGENAME}}]]
+<includeonly>[[Category:Strife screenshots|{{PAGENAME}}]]</includeonly>
+<noinclude>[[Category:Screenshot tagging templates]]</noinclude>
