@@ -1,4 +1,4 @@
 Splat.
 
-{{Doom screenshots}}
+{{Doom screenshot}}
 [[Category:Platform screenshots]]
