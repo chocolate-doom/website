@@ -1,7 +1,4 @@
-<!-- comment to force linebreak -->
-{| align=center border=0 cellpadding=4 cellspacing=4 style="border: 1px solid #CC9; background-color: #F1F1DE"
-|- 
-| style="font-size: 80%" | This image depicts a screenshot of [[doom:Hexen|Hexen]]. The designs depicted in the screenshot may be under the copyright of [[Wikipedia:Raven Software|Raven Software]] or others.  If so, they are displayed here under "fair use". The creator of the screenshot claims no additional copyright on the composition of the image.
-|}
+{{Fair use screenshot|game=[[doom:Hexen|Hexen]]|gameauthor=[[Wikipedia:Raven Software|Raven Software]]}}
+
 <includeonly>[[Category:Hexen screenshots|{{PAGENAME}}]]</includeonly>
 <noinclude>[[Category:Screenshot tagging templates]]</noinclude>
