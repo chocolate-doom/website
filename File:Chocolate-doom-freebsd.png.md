@@ -1,4 +1,4 @@
 Chocolate Doom running on FreeBSD.
 
-{{Doom screenshots}}
+{{Doom screenshot}}
 [[Category:Platform screenshots]]
