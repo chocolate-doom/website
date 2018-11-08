@@ -246,6 +246,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and super shotgun
 * <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
 
+
 === New Cheat Codes ===
 
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
@@ -253,6 +254,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>SKILL</tt> will report the current game skill level
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
 * <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
+
 
 === Command-line Options ===
 
