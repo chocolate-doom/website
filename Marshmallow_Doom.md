@@ -26,6 +26,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 
 Press ''''M'''' to launch the datapad.  
 
+
 ==== Player Profile ====
 
 Various metrics are stored in a persistent player profile that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
@@ -38,7 +39,6 @@ A few metrics tracked by the player profile:
 * Secrets found
 * Treasure score
 
-
 View the profile by selecting '''Profile''' on the datapad.
 
 
@@ -49,14 +49,12 @@ The datapad features a PKE Meter "app" which reports metrics representing potent
 * Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
 * Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
 
-
 Press ''''P'''' to launch the PKE Meter.
 
 
 ==== Help Screen ====
 
 Some of Marshmallow Doom's new features such as bot commands and player inventory have added new keyboard functionality to the game.  Most of these new keyboard controls can be found throughout this document, or you may reference them while in-game using the new keyboard reference screen.
-
 
 Press ''''H'''' to launch the keyboard reference help screen.
 
@@ -259,7 +257,6 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and super shotgun
 * <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
 
-
 === New Cheat Codes ===
 
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
@@ -267,7 +264,6 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>SKILL</tt> will report the current game skill level
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
 * <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
-
 
 === Command-line Options ===
 
@@ -299,21 +295,16 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>-sandbox</tt> launches a new sandbox game
 * <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
 
-
 == Inspiration ==
 
 Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Quake, Unreal, and Half-Life.
 
-
 New features such as treasure, score, achievements, inventory, extended HUD information, and ''ludicrous gibs'' are a direct tribute to game designer and founding id member Tom Hall.  Hall's creative influence was largely left out of Doom but his legendary humor and creativity lives on in other shareware-era classics such as Rise of the Triad and Commander Keen.
 
-
 ''Doom DJ'' is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Tie Fighter, and Dark Forces.
-
 
 == Download ==
 
 Download the beta at www.marshmallowdoom.com [http://www.marshmallowdoom.com]
-
 
 Source code now available on github:  https://github.com/drbelljazz/marshmallow-doom
