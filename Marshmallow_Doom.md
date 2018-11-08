@@ -23,7 +23,6 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 * Change game skill level
 * Easily skip to any map or skip to a random one
 
-
 Press ''''M'''' to launch the datapad.  
 
 
@@ -41,6 +40,7 @@ A few metrics tracked by the player profile:
 
 View the profile by selecting '''Profile''' on the datapad.
 
+
 ==== PKE Meter ====
 
 The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player:
@@ -50,11 +50,13 @@ The datapad features a PKE Meter "app" which reports metrics representing potent
 
 Press ''''P'''' to launch the PKE Meter.
 
+
 ==== Help Screen ====
 
 Some of Marshmallow Doom's new features such as bot commands and player inventory have added new keyboard functionality to the game.  Most of these new keyboard controls can be found throughout this document, or you may reference them while in-game using the new keyboard reference screen.
 
 Press ''''H'''' to launch the keyboard reference help screen.
+
 
 === Gameplay ===
 
