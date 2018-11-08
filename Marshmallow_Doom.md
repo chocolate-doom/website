@@ -288,11 +288,11 @@ Wad stealing is one of the few new features which can only be enabled from the c
 
 == Inspiration ==
 
-Many of Marshmallow Doom's new features are inspired by other games of the era such as Duke Nukem 3D, Quake, Unreal, and Half-Life.
+Many of Marshmallow Doom's new features are inspired by other games of the era such as ''Duke Nukem 3D'', ''Quake'', ''Unreal'', and ''Half-Life''.
 
-New features such as treasure, score, achievements, inventory, extended HUD information, and ''ludicrous gibs'' are a direct tribute to game designer and founding id member Tom Hall.  Hall's creative influence was largely left out of Doom but his legendary humor and creativity lives on in other shareware-era classics such as Rise of the Triad and Commander Keen.
+New features such as treasure, score, achievements, inventory, extended HUD information, and ''ludicrous gibs'' are a direct tribute to game designer and founding id member Tom Hall.  Hall's creative influence was largely left out of Doom but his legendary humor and creativity lives on in other shareware-era classics such as ''Rise of the Triad'' and ''Commander Keen''.
 
-''Doom DJ'' is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as X-Wing, Tie Fighter, and Dark Forces.
+''Doom DJ'' is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
 
 == Download ==
 
