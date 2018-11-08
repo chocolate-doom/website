@@ -74,11 +74,13 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Deathmatch weapons are not spawned in coop, as to allow for normal singleplayer weapon progression during multiplayer coop games
 * Player collision (on/off)
 
+
 ==== Ludicrous Gibs ====
 
 Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
 
 This option can be toggled in the '''Gameplay''' menu on the datapad.
+
 
 ==== Monster Upgrades ====
 
@@ -94,6 +96,7 @@ Upgrading can also be enabled at the command line by using <tt>-upgrade <x></tt>
 
 * Another way to increase monster difficulty is to increase their healthpoints.  This can also be adjusted in the '''Change Map''' menu on the Datapad, or from the command line by using <tt>-scale <x></tt>, where ''x'' is the healthpoints multiplier ranging from 1-9.
 
+
 ==== Monster Mutators ====
 
 Some subtle tweaks to monster behaviors are offered.  A few examples:
@@ -106,6 +109,7 @@ Some subtle tweaks to monster behaviors are offered.  A few examples:
 * Cacodemon melee attack sound (on/off)
 * Chaingun guy firing sound (shotgun/chaingun)
 
+
 ==== Treasure Items ====
 
 Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were changed to function as health and armor bonuses.
@@ -113,6 +117,7 @@ Early plans for Doom included having the player collect treasure items for point
 In Marshmallow Doom's normal treasure mode, treasure is spawned at all multiplayer item spawn points; and in full treasure mode, health and armor bonuses also spawn treasure items.  
 
 Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu.
+
 
 ==== Inventory ====
 
@@ -126,9 +131,11 @@ If enabled, the following items can be stored in the player's inventory for late
 
 Press ''''V'''' to open the inventory menu.
 
+
 ==== Conserved Item Pickups ====
 
 When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is especially useful for multiplayer cooperative games as it allows more than one player to benefit from a single health or ammo pickup.
+
 
 ==== Warp Weapons ====
 
@@ -138,6 +145,7 @@ For example: when warping to MAP04, the player will start the level with both a 
 
 If the player prefers classic pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
 
+
 ==== Sandbox Mode ====
 
 Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both singleplayer or cooperative.  
@@ -145,6 +153,7 @@ Sandbox mode allows the player to design their own monster hordes in an empty ma
 After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
 
 When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
+
 
 ==== New Difficulty Levels ====
 
@@ -176,6 +185,7 @@ Other useful information is available on the HUD such as:
 * Reporting the current target's remaining health (all monsters or bosses only)
 * Missile-lock alerts (when fighting Cyberdemon)
 
+
 ==== New Items ====
 
 A few of Doom's original item pickups have been repurposed for use by a handful of new items:
@@ -184,6 +194,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 * A new health bonus item called the '''Demonsphere''' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (will appear partially-invisible)
 * The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed during cooperative play, awarding a small helping of ammo when found.  Doom's original backpack item remains unchanged and unaffected
 * If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  (Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.)
+
 
 ==== Additional features ====
 
@@ -197,6 +208,7 @@ Other new gameplay features include:
 * Auto-use
 * Player suicide
 
+
 === Dynamic Music ===
 
 Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the mood of the music playing based on the amount of action the player is experiencing in real-time.
@@ -204,6 +216,7 @@ Bobby Prince's original soundtrack from Doom can be brought to life using the ne
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
 
 Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
+
 
 === Bots ===
 
@@ -218,6 +231,7 @@ Press ''''~'''' to kick the bots out of the way when blocked.
 Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
+
 
 === Wad Stealing ===
 
