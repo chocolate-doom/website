@@ -9,7 +9,7 @@ Crispy Doom is a friendly fork of [[Chocolate Doom]] that provides a higher disp
 
 == Contact ==
 
-The canonical homepage for Crispy Doom is https://fabiangreffrath.github.io/crispy-doom.
+The canonical homepage for Crispy Doom is https://github.com/fabiangreffrath/crispy-doom
 <br />Crispy Doom is maintained by [mailto:fabian@greffXremovethisXrath.com Fabian Greffrath]. 
 
 Please report any bugs, glitches or crashes that you encounter to the GitHub [https://github.com/fabiangreffrath/crispy-doom/issues Issue Tracker].
