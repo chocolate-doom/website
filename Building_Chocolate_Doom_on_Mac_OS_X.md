@@ -9,6 +9,7 @@ Launch the *Terminal* application and type the following
 
  xcode-select --install
 
+{{GEBB ad}}
 == Building ==
 
 Since the V3 release, [[chocpkg]] is the official way of building Chocolate Doom on all platforms.
