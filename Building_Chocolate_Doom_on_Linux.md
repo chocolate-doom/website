@@ -14,8 +14,5 @@ If your distribution is not in the above list, you can try the [[Building Chocol
 
 If you have trouble in getting Chocolate Doom to work, feel free to join the [irc://irc.oftc.net/chocolate-doom Chocolate Doom IRC channel] (irc.oftc.net #chocolate-doom) to ask for help.  There are several experienced Linux users in this channel who will be able to help out.
 
-== Common problems ==
-
-; MIDI music / lockups : problems with Linux's native MIDI output can cause the game to lock up.  You can work around this by disabling music output in chocolate-setup.  It's possible to get decent MIDI output by installing Timidity.
 
 [[Category:Build instructions]]
