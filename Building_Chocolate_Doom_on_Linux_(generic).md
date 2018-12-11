@@ -1,5 +1,6 @@
 These are generic build instructions for building Chocolate Doom on Linux.
 
+{{GEBB ad}}
 == Setting up a build environment ==
 
 Before Chocolate Doom can be built, a working build environment needs to be set up.  The following packages need to be installed:
