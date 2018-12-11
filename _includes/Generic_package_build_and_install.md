@@ -1,5 +1,6 @@
 <!-- This is a template holding the generic instructions for how to build and install the Chocolate Doom package. -->
 == Building ==
+{{GEBB ad}}
 
 Download the source package from the [[Downloads]] page.  Extract the package: for example,
 
