@@ -10,6 +10,7 @@ to your /etc/portage/package.unmask file and emerge Chocolate Doom:
 
   emerge -av chocolate-doom
 
+{{GEBB ad}}
 == Tracking Git ==
 
 To keep up to date with the latest bleeding-edge version from git repository add
