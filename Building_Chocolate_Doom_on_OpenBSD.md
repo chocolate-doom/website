@@ -19,6 +19,7 @@ Download the latest source code release from [[Downloads|the Downloads page]] an
  sudo make install
 Enjoy!
 
+{{GEBB ad}}
 === Compiling the source code from Git ===
 
 ==== Fetching the source code via Git ====
