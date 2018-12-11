@@ -1,0 +1,1 @@
+Cover of Fabien Sanglard's Game Engine Black Book: Doom.
