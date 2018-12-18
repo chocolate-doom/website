@@ -1,7 +1,7 @@
 [[File:Crispy-doom.png|thumb|right|The Crispy Doom icon]]
 {{Doomwiki}}
 Crispy Doom is a limit-removing enhanced-resolution Doom source port based on [[Chocolate Doom]].
-<br />Its name means that its internal 640x400 resolution looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
+Its name means that its internal 640x400 resolution looks "crisp" and is also a slight [http://www.mathsisfun.com/recipie.html reference] to its origin.
 
 == Synopsis ==
 
@@ -9,9 +9,7 @@ Crispy Doom is a friendly fork of [[Chocolate Doom]] that provides a higher disp
 
 == Download ==
 
-The canonical homepage for Crispy Doom is https://github.com/fabiangreffrath/crispy-doom, which also hosts the Crispy Doom source code and provides building instructions.
-
-Official binary releases for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions) as well as a supplementary Music Pack that contains the fluidsynth library and a freely-available soundfont are also announced there.
+The canonical homepage for Crispy Doom is https://github.com/fabiangreffrath/crispy-doom. This page hosts the Crispy Doom source code and provides building instructions as well as official binary releases for Windows XP / Vista / 7 / 8.1 / 10 (both x86 and x64 editions).
 
 Daily builds of Crispy Doom can be found here:
 http://latest.chocolate-doom.org/
