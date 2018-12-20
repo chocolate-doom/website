@@ -21,6 +21,54 @@ Different configuration modes are supported:
 :* Other Chocolate Doom peers can connect to the server and join the game.
 :* The server can be bridged to a physical IPX network, and real DOS machines on the same network can join the game.
 
+== Setup instructions ==
+
+=== Connecting to a DOSBox IPX server ===
+
+Start DOSBox and set up an IPX server with the following commands (in this example the server listens on port 9000):
+
+ C:\>config -set ipx true
+ 
+ C:\>ipxnet startserver 9000
+ IPX Tunneling utility for DosBox
+ 
+ IPX Tunneling Server started
+ 
+ C:\>
+
+Then start IPXSETUP; the following example is for three players:
+
+ C:\>cd doom
+ C:\DOOM>ipxsetup -nodes 3
+
+To connect another DOSBox instance on IP address 10.0.0.1 do the following:
+
+ C:\>config -set ipx true
+ 
+ C:\>ipxnet connect 10.0.0.1 9000
+ IPX Tunneling utility for DosBox
+ 
+ IPX Tunneling Client connected to server at 10.0.0.1.
+ 
+ C:\>cd doom
+ C:\DOOM>ipxsetup -nodes 3
+
+Then to connect a Chocolate Doom client do the following:
+
+ $ chocolate-doom -dbconnect 10.0.0.1:9000 -nodes 3
+
+=== Setting up an ipxbox server ===
+
+Follow the instructions on the [https://github.com/fragglet/ipxbox ipxbox] page for how to build a server and particularly, how to bridge the server to a physical network.
+
+Once the server is running, DOSBox clients can connect to the server using the instructions above. Then on any DOS machines (emulated or real), invoke IPXSETUP:
+
+ C:\DOOM>ipxsetup -nodes 3
+
+To connect Chocolate Doom clients do the following:
+
+ $ chocolate-doom -dbconnect 10.0.0.1:9000 -nodes 3
+
 == External links ==
 
 * [https://www.youtube.com/watch?v=zs5tGIVV5ms Youtube video] demonstration.
