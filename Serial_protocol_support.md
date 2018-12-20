@@ -42,6 +42,8 @@ Then start DOSBox, configure COM1 as a virtual modem and connect to the Chocolat
  
  C:\DOOM>sersetup -dial 10.0.0.1:9000
 
+After a few seconds of negotiation the game should start.
+
 === Chocolate Doom initiates "call" ===
 
 Start DOSBox and configure COM1 as a virtual modem which will listen for incoming calls on a particular TCP port (in this example, port 9000):
@@ -60,6 +62,8 @@ Then start Chocolate Doom with the <tt>-dbdial</tt> command line argument to con
 
  $ chocolate-doom -dbdial 10.0.0.2:9000
 
+After a few seconds of negotiation the game should start.
+
 === Real DOS machine via ser2net bridge ===
 
 You will need a null modem cable. At one end will be a DOS machine with vanilla Doom installed, and at the other end will be a modern machine running a  TCP/serial bridge server such as [http://ser2net.sourceforge.net/ ser2net].
@@ -73,6 +77,8 @@ On the DOS machine run SERSETUP, as though starting a null modem game:
 At the other end, run Chocolate Doom with the <tt>-dbdial</tt> command line argument to connect to the serial server. For example if it is running on the same machine on port 9000:
 
  $ chocolate-doom -dbdial localhost:9000
+
+After a few seconds of negotiation the game should start.
 
 == External links ==
 
