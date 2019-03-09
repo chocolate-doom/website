@@ -19,7 +19,7 @@ To keep up to date with the latest bleeding-edge version of Chocolate Doom, you 
 
 To do this, you need to install some extra packages:
 
- apt-get install automake autoconf libtool git
+ apt-get install automake autoconf libtool git pkg-config
 
 Check out the latest version from Git:
 
