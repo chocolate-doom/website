@@ -88,7 +88,7 @@ New control points for monster difficulty are offered for a greater challenge, a
 
 ===== Upgrade Chance =====
 
-* When using the '''New Game''' menu or the '''Change Map''' menu on the Datapad, the player can set the probability of monster replacement on a scale of 0% to 100%.  It is recommended to upgrade up to 90% as to leave a few un-upgraded monsters for variety, however an upgrade chance of 100% is used in Nightmare 2.0 skill as to be just as insultingly difficult as John Romero intended.
+* When using the '''New Game''' menu or the '''Change Map''' menu on the Datapad, the player can set the probability of monster replacement on a scale of 0% to 100%.  It is recommended to upgrade up to 90% as to leave a few un-upgraded monsters for variety.
 
 Upgrading can also be enabled at the command line by using <tt>-upgrade <x></tt>, where ''x'' is probability ranging from 1-9.
 
@@ -162,13 +162,13 @@ Two new difficulty levels are offered which also incorporate the monster upgrade
 ===== Ultra Violence 2.0 =====
 
 * Speed and damage mechanics of Ultra Violence skill level
-* Monsters are upgraded by a 90% chance
+* Monsters are upgraded by a 60% chance
 
 ===== Nightmare 2.0 =====
 
 * Speed and damage mechanics of Nightmare skill level
 * Monsters do not respawn
-* Monsters are upgraded by a 100% chance
+* Monsters are upgraded by a 90% chance
 * Cheats enabled in single-player mode
 
 
@@ -232,6 +232,8 @@ Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
+If the player's path is blocked by the bots, type MOVE to order the bots to scatter out of the way. When ready to proceed, press 'F' to order the bots to continue to follow.
+
 
 === Wad Stealing ===
 
@@ -254,6 +256,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>SKILL</tt> will report the current game skill level
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
 * <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
+* <tt>MOVE</tt> orders the bots to move out of the way when player is blocked
 
 
 === Command-line Options ===
