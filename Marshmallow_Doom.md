@@ -5,7 +5,7 @@ Marshmallow Doom is a source port which lightly sweetens classic Doom gameplay w
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the wonderful [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other subtle improvements.  Marshmallow Doom greatly expands on this same ethos of a lightly-sweetened-yet-still classic Doom gameplay experience.
+Marshmallow Doom is a fork of the [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other subtle improvements.  Marshmallow Doom greatly expands on this same ethos of a lightly-sweetened-yet-still classic Doom gameplay experience.
 
 == Features ==
 
@@ -273,7 +273,6 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>-upgrade <x></tt> upgrades monsters based on probability of 1-9 <x>
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
-* <tt>-itemrespawn</tt> forces items to respawn in any game mode
 * <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
 
 * <tt>-itytd</tt> enables "baby mode" skill level
