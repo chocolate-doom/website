@@ -10,7 +10,7 @@ Marshmallow Doom is a fork of the [[Crispy Doom]] source port. Itself being a fo
 == Features ==
 
 === The Datapad ===
-
+[[File:datapad.png|thumb|right|The datapad gives the player quick access to many powerful options]]
 Most of what Marshmallow Doom has to offer can be accessed on the player's datapad: 
 
 * View player profile showing all-time stats such as frags, accuracy, levels completed, etc.
@@ -27,7 +27,7 @@ Press ''''M'''' to launch the datapad.
 
 
 ==== Player Profile ====
-
+[[File:profile.png|thumb|right|The player profile tracks all-time frags, accuracy, treasure score, and more]]
 Various metrics are stored in a persistent player profile that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
 
 A few metrics tracked by the player profile:
@@ -42,7 +42,7 @@ View the profile by selecting '''Profile''' on the datapad.
 
 
 ==== PKE Meter ====
-
+[[File:pkemeter.png|thumb|right|The PKE meter reports a high danger level in E2M8]]
 The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player:
 
 * Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
