@@ -257,6 +257,7 @@ Wad stealing is one of the few new features which can only be enabled from the c
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
 * <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
 * <tt>MOVE</tt> orders the bots to move out of the way when player is blocked
+* <tt>FASTMODE</tt> toggles fast monsters option during gameplay
 
 
 === Command-line Options ===
