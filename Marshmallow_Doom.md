@@ -243,7 +243,9 @@ Wad stealing also allows vanilla Doom maps in singleplayer or coop to be dynamic
 
 The super shotgun is also available in Doom, however this is also possible with Crispy Doom.
 
-Wad stealing is one of the few new features which can only be enabled from the command line:
+When the game is first started, the user will be prompted to import the other game's wad file if the IWAD file is detected in the Marshmallow Doom directory.
+
+Wad stealing can also be enabled from the command line:
 
 * <tt>-d1s</tt> sets the IWAD to DOOM.WAD with DOOM2.WAD as a PWAD importing music, monsters, and super shotgun
 * <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
