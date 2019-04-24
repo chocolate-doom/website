@@ -232,7 +232,9 @@ Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
-If the player's path is blocked by the bots, type MOVE to order the bots to scatter out of the way. When ready to proceed, press 'F' to order the bots to continue to follow.
+If the player's path is blocked by the bots, type <tt>MOVE</tt> to order the bots to scatter out of the way. When ready to proceed, press 'F' to order the bots to continue to follow.
+
+You can also type <tt>HOLD</tt> to order the bots to hold position.
 
 
 === Wad Stealing ===
@@ -258,7 +260,8 @@ Wad stealing can also be enabled from the command line:
 * <tt>SKILL</tt> will report the current game skill level
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
 * <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
-* <tt>MOVE</tt> orders the bots to move out of the way when player is blocked
+* <tt>MOVE</tt> orders all bots to move out of the way when player is blocked
+* <tt>HOLD</tt> orders the bots to hold position
 * <tt>FASTMODE</tt> toggles fast monsters option during gameplay
 
 
