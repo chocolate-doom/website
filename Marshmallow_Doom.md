@@ -77,7 +77,7 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 
 ==== Ludicrous Gibs ====
 
-Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as Rise of the Triad and Duke Nukem 3D.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
+Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
 
 This option can be toggled in the '''Gameplay''' menu on the datapad.
 
@@ -275,28 +275,24 @@ Wad stealing can also be enabled from the command line:
 * <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-steal</tt> when added to either -d1 or -d2 will import the opposite game's wad as a PWAD
-
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
 * <tt>-tnt</tt> sets IWAD to TNT.WAD
-
 * <tt>-rand</tt> warps to a random level
-
 * <tt>-upgrade <x></tt> upgrades monsters based on probability of 1-9 <x>
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
 * <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
-
 * <tt>-itytd</tt> enables "baby mode" skill level
 * <tt>-hntr</tt> enables easy skill level
 * <tt>-hmp</tt> enables normal skill level
 * <tt>-uv</tt> enables hard skill level
 * <tt>-nm</tt> enables Nightmare skill level
 * <tt>-nmnr</tt> enables Nightmare skill level with no monster respawn
-
 * <tt>-uv2</tt> enables hard skill with a 90% monster upgrade chance
 * <tt>-nm2</tt> enables Nightmare skill with no respawning monsters and a 100% monster upgrade chance
-
 * <tt>-sandbox</tt> launches a new sandbox game
+* <tt>-ri</tt> enables normal random items mode
+* <tt>-rie</tt> enables extreme random items mode
 * <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
 
 == Inspiration ==
