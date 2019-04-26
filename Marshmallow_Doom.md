@@ -192,7 +192,7 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 * A '''portable medkit''' is added to the player's inventory as part of Doom's berserk/strength powerup
 * When using the '''Monsters Drop Goodies''' option, a new health bonus item called the ''Demonsphere'' repurposes the invisibility item sprite; and as to avoid confusion, the actual invisibility powerup is now set to display with the MF_SHADOW flag (will appear partially-invisible)
-* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed in multiplayer, allowing the player to retrieve their inventory by returning to their corpse.  Doom's original backpack item remains unchanged and unaffected
+* The ammo backpack sprite has been repurposed as a "dropped" backpack which spawns when players are killed in multiplayer, allowing the player to retrieve their inventory by returning to their corpse.  Doom's original backpack item remains unchanged and unaffected.
 * If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.
 
 
@@ -237,9 +237,9 @@ Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
-If the player's path is blocked by the bots, type <tt>MOVE</tt> to order the bots to scatter out of the way. When ready to proceed, press 'F' to order the bots to continue to follow.
+TIP:  If the player's path is blocked by the bots, type <tt>MOVE</tt> to order the bots to scatter out of the way. When ready to proceed, press 'F' to order the bots to continue to follow.
 
-You can also type <tt>HOLD</tt> to order the bots to hold position.
+TIP:  You can also type <tt>HOLD</tt> to order the bots to hold position.
 
 
 === Wad Stealing ===
