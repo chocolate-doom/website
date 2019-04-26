@@ -278,6 +278,7 @@ Wad stealing can also be enabled from the command line:
 * <tt>MOVE</tt> orders all bots to move out of the way when player is blocked
 * <tt>HOLD</tt> orders the bots to hold position
 * <tt>FASTMODE</tt> toggles fast monsters option during gameplay
+* <tt>INSANE</tt> toggles insane physics mode
 
 
 === Command-line Options ===
