@@ -200,7 +200,12 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 Other new gameplay features include:
 
-* Invisibility powerup makes the player invisible to monsters and homing missiles
+* Invisibility powerup makes the player truly invisible to monsters and homing missiles
+* Bullet max ammo limit has been raised from 200 to 300 (or 600 with backpack)
+* Fast monsters option can be toggled while in-game by typing the <tt>FASTMODE</tt> cheat
+* Red screen filter when picking up berserk powerup can be shortened or disabled
+* Berserk auto-switch to fist is optional
+* The BFG can also be selected by pressing ''''0'''' as in Quake II
 * Fast single-key melee attack (press ''''~'''')
 * Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
 * Sprint (hold ''''Q'''') which is intended for platform-running
