@@ -148,7 +148,7 @@ If the player prefers classic pistol starts, starting the game with command line
 
 ==== Randomized Item Pickups ====
 
-Many of Doom's classic maps can be revitalized by filling them with different item pickups.  Two modes of randomized item pickup replacement are offered:
+Any classic Doom map can be revitalized by repopulating it with different item pickups.  Two modes of randomized item pickup replacement are offered:
 
 * Normal: Items are randomized by type, where only weapons are replaced with other weapons, ammo is only replaced with other ammo types, etc.
 * Extreme: All items are fully randomized regardless of type
