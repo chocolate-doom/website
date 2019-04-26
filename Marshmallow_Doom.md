@@ -146,6 +146,16 @@ For example: when warping to MAP04, the player will start the level with both a 
 If the player prefers classic pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
 
 
+==== Randomized Item Pickups ====
+
+Many of Doom's classic maps can be revitalized by filling them with different item pickups.  Two modes of randomized item pickup replacement are offered:
+
+* Normal: Items are randomized by type, where only weapons are replaced with other weapons, ammo is only replaced with other ammo types, etc.
+* Extreme: All items are fully randomized regardless of type
+
+Randomized items can be enabled at the New Game menu, the Change Map menu, or the command line using switches <tt>-ri</tt> and <tt>-rie</tt>.
+
+
 ==== Sandbox Mode ====
 
 Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both singleplayer or cooperative.  
