@@ -318,6 +318,8 @@ New features such as treasure, score, achievements, inventory, extended HUD info
 
 == Download ==
 
-Download the beta at www.marshmallowdoom.com [http://www.marshmallowdoom.com]
+Download at www.marshmallowdoom.com [http://www.marshmallowdoom.com]
 
-Source code now available on github:  https://github.com/drbelljazz/marshmallow-doom
+To read the FAQ, click here [http://www.marshmallowdoom.com/marshmallow-wp/faq].
+
+Source code now available on github:  [https://github.com/drbelljazz/marshmallow-doom]
