@@ -305,8 +305,8 @@ Wad stealing can also be enabled from the command line:
 * <tt>-ri</tt> enables normal random items mode
 * <tt>-rie</tt> enables extreme random items mode
 * <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
-* <tt>-crt</tt> emulates the darker look of an old CRT monitor
-* <tt>-d3l</tt> makes most indoor areas very dark, emulating the even darker look of Doom 3
+* <tt>-crt</tt> emulates the darker look of an old CRT monitor from the 1990s
+* <tt>-d3l</tt> makes most indoor areas ''very'' dark, emulating the frighteningly dark look of Doom 3
 
 == Inspiration ==
 
