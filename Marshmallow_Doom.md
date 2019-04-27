@@ -182,7 +182,7 @@ Two new difficulty levels are offered which also incorporate the monster upgrade
 * Cheats enabled in single-player mode
 
 
-==== New event messages ====
+==== New Event Messages ====
 
 New event messages keep the player informed of important events during the game.  The message categories shown to the player can be customized using the HUD menu. A few examples include:
 
@@ -206,12 +206,13 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 * If treasure mode is enabled, skull keys are repurposed as lucrative treasure items and placed throughout most levels.  Any actual skull keys in the map are automatically converted to standard keys as to avoid confusion.
 
 
-==== Additional features ====
+==== Additional Features ====
 
 Other new gameplay features include:
 
 * Invisibility powerup makes the player truly invisible to monsters and homing missiles
 * Bullet max ammo limit has been raised from 200 to 300 (or 600 with backpack)
+* Using '''Goodies Mode''', all monsters drop health, ammo, and other items when killed
 * Fast monsters option can be toggled while in-game by typing the <tt>FASTMODE</tt> cheat
 * Red screen filter when picking up berserk powerup can be shortened or disabled
 * Berserk auto-switch to fist is optional
