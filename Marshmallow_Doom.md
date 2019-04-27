@@ -314,7 +314,7 @@ Many of Marshmallow Doom's new features are inspired by other games of the era s
 
 New features such as treasure, score, achievements, inventory, extended HUD information, and ludicrous gibs are a direct tribute to game designer and founding id member Tom Hall.  Hall's creative influence was largely left out of Doom but Marshmallow Doom aims to recreate what Hall's influence on Doom might have been had he stayed through the end of development.
 
-''Doom DJ'' is inspired by ''iMuse'', the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
+''Doom DJ'' is inspired by iMuse, the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
 
 == Download ==
 
