@@ -322,4 +322,4 @@ Download at http://www.marshmallowdoom.com
 
 Read the FAQ: http://www.marshmallowdoom.com/marshmallow-wp/faq
 
-Source code now available on github: https://github.com/drbelljazz/marshmallow-doom
+Source code: https://github.com/drbelljazz/marshmallow-doom
