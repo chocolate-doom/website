@@ -7,6 +7,8 @@ These are instructions on how to play the '''Aliens Doom 3 - Aliens versus Preda
 # Download '''ad3beta7.zip''' from one of the mirror sites. 
 # Extract the zip archive. 
 # Run with the following [[command-line arguments]]:
- chocolate-doom -deh ad3.deh -merge ad3spfl.wad ad3gfx.wad ad3snd.wad ad3mus.wad ad3lev.wad
+ chocolate-doom -iwad doom.wad -deh ad3.deh -merge ad3spfl.wad ad3gfx.wad ad3snd.wad ad3mus.wad ad3lev.wad
+
+You should rename "-iwad doom.wad" to "-iwad doomu.wad" if you're using [https://doomwiki.org/wiki/The_Ultimate_Doom The Ultimate Doom], and to "-iwad freedoom1.wad" if you're using [[Freedoom]].
 
 [[Category:TCs]]
