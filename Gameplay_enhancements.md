@@ -47,3 +47,14 @@ If you're more of a fan of chiptune-style music, [[doom:DMXOPL|DMXOPL]] provides
 
 * [https://github.com/sneakernets/DMXOPL/releases DMXOPL release history]
 * [https://soundcloud.com/sdoom4/at-dooms-gate-dmxopl-demo Example playback] of "At Doom's Gate" (E1M1)
+
+== Vanilla Doom smooth weapons patch ==
+
+The vanilla Doom smooth weapons patch allows users to play [https://forum.zdoom.org/viewtopic.php?t=45550 Smooth Doom] (a mod not made for vanilla ports) on vanilla ports. This patch should work fine with most PWADs, along with most of the IWADs supported by Chocolate Doom, however, the patch might not work as intended (or at all) while using a [https://doomwiki.org/wiki/DeHackEd DeHackEd file (.deh)].
+
+The patch should not cause desyncing while [https://www.chocolate-doom.org/wiki/index.php/Command_line_arguments#Demo_options recording or playing back a demo].
+
+=== External links ===
+
+* [https://www.doomworld.com/forum/topic/102462-vanilla-doom-smooth-weapons/ Doomworld thread] on the project
+* [https://soulsphere.org/random/vsmooth.zip Direct download] [[http://www.doomshack.org/uploads/vsmooth.zip Mirror 1] [https://www.wad-archive.com/wad/Vanilla-Doom-smooth-weapons-patch Mirror 2] [https://owlman.neocities.org/owlgames/themes/vsmooth/ Mirror 3]]
