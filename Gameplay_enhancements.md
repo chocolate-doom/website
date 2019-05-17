@@ -58,3 +58,11 @@ The patch should not cause desyncing while [https://www.chocolate-doom.org/wiki/
 
 * [https://www.doomworld.com/forum/topic/102462-vanilla-doom-smooth-weapons/ Doomworld thread] on the project
 * [https://soulsphere.org/random/vsmooth.zip Direct download] [[http://www.doomshack.org/uploads/vsmooth.zip Mirror 1] [https://www.wad-archive.com/wad/Vanilla-Doom-smooth-weapons-patch Mirror 2] [https://owlman.neocities.org/owlgames/themes/vsmooth/ Mirror 3]]
+
+== TDRR's Vanilla Doom .DEH-based mods ==
+
+In late 2018, [https://doomwiki.org/wiki/ZDoom_forums ZDoom forum] user, [https://forum.zdoom.org/viewtopic.php?t=62615 TDRR released a number of] [https://doomwiki.org/wiki/DeHackEd DEH] files they had been made for vanilla-compatible ports, some of the DEH files was a port of [https://doomwiki.org/wiki/Brutal_Doom Brutal Doom] [[https://mega.nz/#!KBwXnaZC!v-BbtSlt2xzUlqMh7I7fzlxzWoqo1dqmyDR24HPuRpc direct link]] (not demo-compatible), adding a Railgun [[https://mega.nz/#!6cwlyC6Y!jmNXqan3RmF3CXpQdOkoszG-sZUrUdtLDx1UjXMNiKU direct link]], and, perhaps most inexpressive of all, a [https://www.mediafire.com/file/50uw2vreum49cfk/comp-dm4.zip/file Computer Deathmatch] DEH with "bots" (modified monsters to look and act like players).
+
+=== External links ===
+
+[https://forum.zdoom.org/viewtopic.php?t=62615 ZDoom thread]
