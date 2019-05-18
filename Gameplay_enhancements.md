@@ -12,7 +12,7 @@ The Sprite Fixing Project provides minor adjustments to fix issues with some of 
 === External links ===
 
 * [https://www.doomworld.com/vb/wads-mods/62403-doom-2-minor-sprite-fixing-project-v1-7-release-updated-7-28-16/ Doomworld thread] on the project (includes screenshots)
-* {{idgames|file=graphics/sprfix17|title=Project download from idgames archive}}
+* {{idgames|file=graphics/sprfix19|title=Project download from idgames archive}}
 
 == Perkristian hi-res Doom sound pack ==
 
@@ -65,4 +65,32 @@ In late 2018, [https://doomwiki.org/wiki/ZDoom_forums ZDoom forum] user, [https:
 
 === External links ===
 
-[https://forum.zdoom.org/viewtopic.php?t=62615 ZDoom thread]
+* [https://forum.zdoom.org/viewtopic.php?t=62615 ZDoom thread]
+* [https://soulsphere.org/random/wads/comp-dm.zip Direct download to Computer Deathmatch 2.0], by [[User:fraggle]]
+
+== Works by fraggle ==
+Over the years [[User:fraggle]] has made a few WADs that would fit in the category of gameplay enhancement mods, here are only a few.
+
+==== British Doom Localisation Patch ====
+
+Play Doom the right way, with British English, no longer will your eyes be harmed by American English again!
+
+* [https://soulsphere.org/random/wads/british.zip Direct download]
+* [https://soulsphere.org/random/wads/british.txt The localisation patch README file]
+
+==== French Doom translation ====
+
+Useful patch that is a recreation of the official French translation of Doom II, in the form of a PWAD file and dehacked patch.
+
+* [https://soulsphere.org/random/wads/french.zip French Doom translation direct download]
+* [https://soulsphere.org/random/wads/french.txt The localisation patch README file]
+
+* [https://soulsphere.org/random/wads/frpatch.zip Doom 2 French Version (doom2f.wad) binary patch direct download]
+* [https://soulsphere.org/random/wads/frpatch.txt The localisation patch README file]
+
+=== Freedoom leftovers ===
+
+Miscellaneous collection of leftover resources from [[Freedoom]] that were used at some point, but replaced. 
+
+* [https://soulsphere.org/random/wads/leftover.zip Direct download]
+* [https://soulsphere.org/random/wads/leftover.txt The README file]
