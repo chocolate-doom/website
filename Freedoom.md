@@ -1,6 +1,6 @@
 [[Image:chocolate-eternal-freedoom.png|thumb|320px|right|Chocolate Doom running [[Eternal Doom]] with Freedoom.]]
 {{Doomwiki}}
-'''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, the single player campaigns ("Freedoom: Phase 1 and 2") are not compatible with Chocolate Doom. Instead, it's recommended that you download the '''FreeDM''' multiplayer spinoff project, which is vanilla compatible and works with Chocolate Doom.
+'''Freedoom''' is a [[doom:Freedoom|free game project]] that can be used to play Doom without the original proprietary game files.  However, the single player campaigns ("Freedoom: Phase 1 and 2") are not yet compatible with Chocolate Doom ([https://www.doomworld.com/forum/topic/85134-freedoom-10-will-be-vanilla-compatible/ version 1.0 of Freedoom should be fully vanilla-compatible], but until then, read the rest of this page). Instead, it's recommended that you download the '''FreeDM''' multiplayer spinoff project, which is vanilla compatible and works with Chocolate Doom.
 
 Simple instructions:
 # [[Downloads|Download]] and extract Chocolate Doom.
@@ -65,6 +65,8 @@ More Doom 1 megawads can be found in the [https://www.doomworld.com/idgames/inde
 == External links ==
 
 * [https://freedoom.github.io/ Freedoom website]
+* [http://freedoom.soulsphere.org/ Freedoom autobuilds]
 * [https://www.doomworld.com/idgames/ idgames archive]
+* [https://www.doomworld.com/forum/17-freedoom/ The Freedoom forum hosted on Doomworld]
 
 __NOTOC__
