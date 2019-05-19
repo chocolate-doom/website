@@ -25,6 +25,8 @@ Other players can then connect to your server using the ''-connect'' command lin
 
 Once the server is started, you will be shown the waiting screen which lists all players currently connected. Once all players are present, click the "start game" button or press space bar to start the game.
 
+[[Image:Doom-DM.png|right|thumb|320px|Two players fighting in a deathmatch on Chocolate Doom.]]
+
 Note: The smoothness of the game depends on all players who are playing. When playing multiplayer, it is advisable to '''turn off any file sharing programs or downloads''' which may affect the connection.
 
 === Firewalls and port forwarding ===
@@ -64,6 +66,8 @@ Notes:
 You may be able to find other players on IRC willing to play with you.  Connect to irc.oftc.net and join [irc://irc.oftc.net/chocolate-doom #chocolate-doom] and [irc://irc.oftc.net/zdoom #zdoom].
 
 If you do not have an IRC client, [http://www.xchat.org/ XChat] is a Free Software IRC client which runs on many platforms.
+
+There is also the [https://discord.gg/5M8K6vQ Chocolate Doomslayers Discord server], however, this server is not run by any of the devs of [[Chocolate Doom]] or [[Crispy Doom]].
 
 == See also ==
 
