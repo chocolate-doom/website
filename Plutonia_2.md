@@ -1,4 +1,4 @@
-[[Image:Plutonia_2.png|320px|right]]
+[[Image:Plutonia_2.png|320px|right|thumb|Plutonia 2 running in Chocolate Doom.]]
 {{Doomwiki}}
 '''[[Doom:Plutonia 2|Plutonia 2]]''' is a 32-level megawad for [[Doom:The Plutonia Experiment|The Plutonia Experiment]].  Unlike most other megawads, this ''requires'' a copy of Final Doom to run (or [[Freedoom]]):
 
