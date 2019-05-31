@@ -37,7 +37,7 @@ Technically optional, since you can download a release tarball too, but Git is e
 {{GEBB ad}}
 == Compiling Chocolate Doom ==
 
-At this stage, you '''must''' use the appropriate MSYS2 terminal so that the ''$PATH'' environment variable points to the proper toolchain, for the ''mingw-w64-i686'' toolchain (32-bit), use the ''MSYS MinGW 32-bit'' start menu/screen shortcut, and your prompt will reflect it with <tt>MINGW32</tt> printed as part of it. If this is not in your current prompt, just run the new terminal from the shortcut.
+At this stage, you '''must''' use the appropriate MSYS2 terminal ('''mingw32.exe''' or '''mingw64.exe''') so that the ''$PATH'' environment variable points to the proper toolchain, for the ''mingw-w64-i686'' toolchain (32-bit), use the ''MSYS MinGW 32-bit'' start menu/screen shortcut, and your prompt will reflect it with <tt>MINGW32</tt> printed as part of it. If this is not in your current prompt, just run the new terminal from the shortcut.
 
 Change to the chocolate-doom directory:
 
