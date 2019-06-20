@@ -285,6 +285,7 @@ Wad stealing can also be enabled from the command line:
 === Command-line Options ===
 
 * <tt>-d1</tt> or <tt>-doom1</tt> sets IWAD to DOOM.WAD
+* <tt>-sigil</tt> sets IWAD to DOOM.WAD and merges SIGIL.WAD
 * <tt>-d2</tt> or <tt>-doom2</tt> sets IWAD to DOOM2.WAD
 * <tt>-steal</tt> when added to either -d1 or -d2 will import the opposite game's wad as a PWAD
 * <tt>-plut</tt> or <tt>-plutonia</tt> sets IWAD to PLUTONIA.WAD
