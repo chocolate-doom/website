@@ -71,4 +71,4 @@ Play Doom the right way, with British English, no longer will your eyes be harme
 
 Useful patch that is a recreation of the official French translation of Doom II, in the form of a PWAD file and dehacked patch.
 
-* {{idgames|file=utils/exe_edit/patches/french|French Doom translation}}
+* {{idgames|file=utils/exe_edit/patches/french|title=French Doom translation}}
