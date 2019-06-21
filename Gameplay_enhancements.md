@@ -65,15 +65,10 @@ The patch should not cause desyncing while [https://www.chocolate-doom.org/wiki/
 
 Play Doom the right way, with British English, no longer will your eyes be harmed by American English again!
 
-* [https://soulsphere.org/random/wads/british.zip Direct download]
-* [https://soulsphere.org/random/wads/british.txt The localisation patch README file]
+* {{idgames|file=combos/british|title=British Doom Localisation Patch}}
 
 ==== French Doom translation ====
 
 Useful patch that is a recreation of the official French translation of Doom II, in the form of a PWAD file and dehacked patch.
 
-* [https://soulsphere.org/random/wads/french.zip French Doom translation direct download]
-* [https://soulsphere.org/random/wads/french.txt The localisation patch README file]
-
-* [https://soulsphere.org/random/wads/frpatch.zip Doom 2 French Version (doom2f.wad) binary patch direct download]
-* [https://soulsphere.org/random/wads/frpatch.txt The localisation patch README file]
+* {{idgames|file=utils/exe_edit/patches/french|French Doom translation}}
