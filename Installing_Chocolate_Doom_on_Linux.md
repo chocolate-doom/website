@@ -15,6 +15,8 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 '''Gentoo''': See [[Building Chocolate Doom on Gentoo]].
 
+'''Guix System''': <code>guix package -i chocolate-doom</code>
+
 '''[https://community.linuxmint.com/software/view/chocolate-doom Linux Mint]''': <code>sudo apt-get install chocolate-doom</code>
 
 '''[https://madb.mageia.org/package/show/name/chocolate-doom Mageia]''': <code>urpmi chocolate-doom</code>
