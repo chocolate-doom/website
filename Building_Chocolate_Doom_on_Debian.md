@@ -9,6 +9,9 @@ The first step is to install the necessary dependencies for building Chocolate D
  apt-get install gcc make libsdl2-dev libsdl2-net-dev \
      libsdl2-mixer-dev python-imaging
 
+
+On Debian 10 python-imaging was replaced with python-pil package.
+
 Several packages will be installed. 
 
 {{Generic package build and install}}
