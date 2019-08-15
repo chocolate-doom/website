@@ -306,13 +306,17 @@ Wad stealing can also be enabled from the command line:
 * <tt>-crt</tt> emulates the darker look of an old CRT monitor from the 1990s
 * <tt>-d3l</tt> makes most indoor areas ''very'' dark, emulating the frighteningly dark look of Doom 3
 
+
 == Inspiration ==
 
-Many of Marshmallow Doom's new features are inspired by other games of the era such as ''Duke Nukem 3D'', ''Quake'', ''Unreal'', and ''Half-Life''.
+Many of Marshmallow Doom's new features are inspired by other mid-1990s games such as ''Duke Nukem 3D'' and ''Quake''.  
 
-New features such as treasure, scoring, achievements, inventory, goodies mode, and ludicrous gibs are all a nostalgic tribute to game designer and founding id member Tom Hall.  Hall's creative influence was largely left out of Doom but Marshmallow Doom aims to recreate what Hall's influence on Doom might have been had he stayed through the end of development.
+'''Doom DJ''' is inspired by iMuse, the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
 
-''Doom DJ'' is inspired by iMuse, the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
+Traditional game features such as treasure, scoring, and player inventory are part of an attempt to recreate what Tom Hall's influence on Doom might have been had he stayed through the end of development.  
+
+Usage of the phrase "ludicrous gibs" is a tribute to Apogee Software's ''Rise of the Triad'' and their infamous Developers of Incredible Power.
+
 
 == Download ==
 
