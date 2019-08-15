@@ -242,8 +242,6 @@ Press ''''F'''' to order the bots to follow you.
 
 Press ''''T'''' to assign a target to the bots.
 
-Press ''''~'''' to kick the bots out of the way when blocked.
-
 Press the '''use''' key while facing a bot to cycle through orders/behaviors.
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
@@ -274,12 +272,10 @@ Wad stealing can also be enabled from the command line:
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
 * <tt>SKILL</tt> will report the current game skill level
+* <tt>FASTMODE</tt> toggles fast monsters option during gameplay
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
-* <tt>LUDICROUS</tt> toggles option for enhanced blood and gore
 * <tt>MOVE</tt> orders all bots to move out of the way when player is blocked
 * <tt>HOLD</tt> orders the bots to hold position
-* <tt>FASTMODE</tt> toggles fast monsters option during gameplay
-* <tt>INSANE</tt> toggles "insane physics" mode
 
 
 === Command-line Options ===
