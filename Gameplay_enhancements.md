@@ -63,7 +63,7 @@ The patch should not cause desyncing while [https://www.chocolate-doom.org/wiki/
 
 ==== British Doom Localisation Patch ====
 
-Play Doom the right way, with British English, no longer will your eyes be harmed by American English again!
+Play Doom the right way, with British English. No longer will your eyes be harmed by American English again!
 
 * {{idgames|file=combos/british|title=British Doom Localisation Patch}}
 
