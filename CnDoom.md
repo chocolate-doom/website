@@ -77,14 +77,9 @@ http://doom.com.hr/cndoom/support/
 
 == Beta ==
 
-Windows build only for testing (updated ):
-
-Grab latest build from here:
+Lates builds for testing:
 
 https://github.com/fx02/cndoom/releases
-
-
-Source:
 
 
 
@@ -99,8 +94,6 @@ For testing purposes only!
 
 Please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions and comments here] for final version.
 
-
-Updated:
 
 == Building ==
 
