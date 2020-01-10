@@ -7,15 +7,11 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 == Features ==
 
-- quickstart enables you to move your mouse while Doom is loading (delayed) when recording demo
-
 - removed all limits (savegame, demo) (no more crashes)
 
 - configurable ingame and intermission (NET games too) timer with milliseconds
 
 - removed message box after recording demos
-
-- always preload/precache sounds
 
 - show intermission screen for ExM8
 
@@ -23,25 +19,33 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - always run and novert turned on by default, show_endoom turned off, screenblocks 10, gamma 4, jobspeed 29, ...
 
-- stats dumping per level and total for movies (-printstats)
-
 - LMP metadata
 
 - Windows launcher for easy recording or playback and WAD/PWAD selection
 
 - additional command line parameters required for recording demos (-speed, -max, -nmare, -nm100s, -tyson, -pacifist, -movie)
 
-- high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]). All credits and BIG thanks to Fabian Greffrath.
-
 - works on Windows 98, XP, 7, 8, MacOS and Linux
 
 - show secret is revealed as normal message ONLY when playing demo
+
+- stats dumping per level and total for movies (-printstats)
+
+
+== REMOVED in v3 ==
+
+- quickstart
+
+- high resolution (taken from [http://www.chocolate-doom.org/wiki/index.php/Crispy_Doom crispy branch]). All credits and BIG thanks to Fabian Greffrath.
 
 - mouse x and y sensitivity from crispy doom
 
 - tweak delay rate when key is pressed and character rate per second
 
+- always preload/precache sounds (not needed anymore)
+
 == TODO ==
+
 
 - more stats on cooperative intermission screen
 
@@ -49,11 +53,7 @@ Do not mix COMPET-N and CNDOOM. COMPET-N is for Vanilla (doom2.exe only), while 
 
 - client/server demo verification
 
-- crispy hud
-
 - launcher: enable zip browsing + display demo descriptions + automatic game selection for av/hr/mm/mm2/re/ce based on naming
-
-- launcher: support launching with different game engines (vanilla, choco, prboom++, legacy, crispy)
 
 == Requirements ==
 
@@ -79,6 +79,9 @@ http://doom.com.hr/cndoom/support/
 
 Windows build only for testing (updated ):
 
+Grab latest build from here:
+
+https://github.com/fx02/cndoom/releases
 
 
 Source:
@@ -100,65 +103,9 @@ Please [http://doom.com.hr/forum/viewtopic.php?f=74&t=476 send your suggestions 
 Updated:
 
 == Building ==
-The following are instructions for building Competition Doom under [http://www.debian.org/ Debian GNU/Linux]; these instructions also apply to building under distributions derived from Debian, including [http://www.ubuntu.com/ Ubuntu].
 
+Building process for v3 was changed... TODO...
 
-== Dependencies ==
-
-The first step is to install the necessary dependencies for building Competition Doom.  The easiest way to do this is to use the Debian package manager. Run this command as root:
-
- aptitude install gcc make libsdl1.2-dev libsdl-net1.2-dev libsdl-mixer1.2-dev python-imaging fluidsynth dh-autoreconf mingw32 zlib1g-dev
-
-Several packages will be installed.
-
-== Linux ==
-
-Download the source package and extract it, for example:
-
- wget http://www.doom.com.hr/cndoom/cndoom-2.0.3.2.tar.gz
-
- tar xzf cndoom-2.0.3.2.tar.gz
-
-Then build the package:
-
- cd cndoom-2.0.3.2
- ./autogen.sh
- ./configure
- make
- make install
-
-The final "make install" command should be run as root.
-
-== Windows binaries on Linux ==
-
- cd ~/
- wget http://www.doom.com.hr/cndoom/build-cndoom-win
- wget http://www.doom.com.hr/cndoom/clean-cndoom-win
- chmod +x build-cndoom-win clean-cndoom-win
-
-Then just type:
-
- ./build-cndoom-win
-
-
-To clean and rebuild Windows executables do:
-
- ./clean-cndoom-win
-
-If you need to build *.dll files too then execute:
- ./build-cndoom-win -host=i586-mingw32msvc -extra-libs
-
-== Windows MSVC ==
-
-You will need SDL development libraries:
-
-  https://www.libsdl.org/release/SDL-devel-1.2.15-VC.zip
-  http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-devel-1.2.12-VC.zip
-  https://www.libsdl.org/projects/SDL_net/release/SDL_net-devel-1.2.8-VC.zip
-
-Extract and add them to MVSC options (libraries, includes).
-
-Then load project cndoom.sln from directory msvc and build.
 
 == Latest GIT version ==
 Get the latest version from Git:
