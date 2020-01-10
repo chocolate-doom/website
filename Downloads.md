@@ -58,3 +58,5 @@ The Chocolate Doom project does not distribute binaries for these systems, but t
 Chocolate Doom is [https://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2].
 
 All downloads are GPG-signed by [https://soulsphere.org/gpg-key.txt Chocolate Doom's principal author]. See [https://www.chocolate-doom.org/downloads/3.0.0/ the downloads directory] for the full listing, including GPG signatures.
+
+The OSI logo trademark is the trademark of Open Source Initiative.
