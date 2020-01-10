@@ -25,7 +25,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 }}
 
 {{linksbox
-|link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz
+|link=https://opensource.org/
 |image=File:Open_source_logo.png
 |imgsize=64px
 |text=
