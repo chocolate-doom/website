@@ -29,7 +29,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 |image=File:Open_source_logo.png
 |imgsize=64px
 |text=
-'''Source code''' (all platforms)
+'''Source code''' (all platforms; [[wikipedia:GNU General Public License|GNU GPL]] v2):
 
 * [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz Chocolate Doom source code].
 * [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz.asc GPG signature].
