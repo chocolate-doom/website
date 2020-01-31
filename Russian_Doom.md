@@ -48,16 +48,16 @@ Besides, there is also available “<tt>-vanilla</tt>” command line parameter,
 Windows version is compatible with Windows XP/Vista/7/8.1/10 (both x32 and x64 editions).
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
-Latest version for Windows: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/3.2/russian-doom-3.2-win32.zip/download russian-doom-3.2-win32.zip] 
-<br />Latest version for Windows (x64): [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/3.2/russian-doom-3.2-win64.zip/download russian-doom-3.2-win64.zip] 
-<br />Latest version for DOS: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom%20for%20DOS/1.666a/russian-doom-dos-1.666a.zip/download russian-doom-dos-1.666a.zip]
+Latest version for Windows: [https://github.com/JNechaevsky/russian-doom/releases/download/4.0/russian-doom-4.0-win32.zip russian-doom-4.0-win32.zip] 
+<br />Latest version for Windows (x64): [https://github.com/JNechaevsky/russian-doom/releases/download/4.0/russian-doom-4.0-win64.zip russian-doom-4.0-win64.zip] 
+<br />Latest version for DOS: [https://github.com/JNechaevsky/russian-doom/releases/download/dos-1.7/russian-doom-dos-1.7.zip russian-doom-dos-1.7.zip]
 <br />
-<br />Source code: [https://sourceforge.net/projects/jnechaevsky/files/Russian%20Doom/3.2/russian-doom-3.2-source.zip/download russian-doom-3.2-source.zip]
-<br />Full version history: [http://jnechaevsky.users.sourceforge.net/projects/rusdoom/files/changelog_eng.html changelog_eng.html]
+<br />Source code: [https://github.com/JNechaevsky/russian-doom/releases/download/4.0/russian-doom-4.0-source.zip russian-doom-4.0-source.zip]
+<br />Full version history: [https://jnechaevsky.github.io/projects/rusdoom/files/changelog_eng.html changelog_eng.html]
 
 == Contact ==
 
-The project's homepage is: http://jnechaevsky.sf.net/rusdoom
+The project's homepage is: https://jnechaevsky.github.io/rusdoom
 <br />Russian Doom is created by [[doom:Julian_Nechaevsky|Julian Nechaevsky]].
 
 Please feel free to contact author with any questions.
