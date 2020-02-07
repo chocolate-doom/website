@@ -1,0 +1,2 @@
+== Summary ==
+[https://www.chocolate-doom.org/wiki/index.php/Doom_Retro Doom Retro] playing the first level of [https://www.doomworld.com/idgames/levels/doom2/p-r/rwdyrudy Rowdy Rudy's Revenge!], version of the port shown is 3.4
