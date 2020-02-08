@@ -1,6 +1,7 @@
 <table><tr><td>
-Click below to download the latest release of Chocolate Doom ('''version 3.0.0'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-3.0.0 the release notes for this release] to find out what's new.
- 
+Click below to download the latest release of Chocolate Doom ('''version 3.0.0'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-3.0.0 the release notes for this release] to find out what's new, along with this, an [http://latest.chocolate-doom.org/ autobuild of the port can be found here].
+
+
 {{linksbox
 |link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0-win32.zip
 |image=File:Windows_logo.png
