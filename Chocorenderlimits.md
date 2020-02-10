@@ -4,7 +4,7 @@ Chocorenderlimits was a fork of Chocolate Doom that adds an on-screen display th
 
 The port was first published in February 2011 by GhostlyDeath for the benefit of Sarah Mancuso (esselfortium)'s upcoming project ''Knee Deep In Knee Deep In ZDoom''.
 
-Unlike like GhostlyDeath's other port, [[Strawberry_Doom|Strawberry Doom]], the official upload for this port has now been removed, so the only way to run it on your computer is via alternative downloads, because of this, of the downloads that you find may not have a README file 
+Unlike like GhostlyDeath's other port, [[Strawberry_Doom|Strawberry Doom]], the official upload for this port has now been removed, so the only way to run it on your computer is via alternative downloads, because of this, of the downloads that you find may not have a README file.
 
 ==External links==
 {{Doomwiki}}
