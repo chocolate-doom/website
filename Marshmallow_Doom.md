@@ -303,6 +303,7 @@ Wad stealing can also be enabled from the command line:
 * <tt>-scale <x></tt> multiplies all enemy healthpoints by value <x>
 * <tt>-delayssg <x></tt> delays any appearance of the super shotgun until map <x>
 * <tt>-dmw</tt> forces-on spawning of Doom's multiplayer-only item pickups in any game mode
+* <tt>-dmm</tt> enables monsters in deathmatch
 * <tt>-itytd</tt> enables "baby mode" skill level
 * <tt>-hntr</tt> enables easy skill level
 * <tt>-hmp</tt> enables normal skill level
@@ -315,6 +316,7 @@ Wad stealing can also be enabled from the command line:
 * <tt>-ri</tt> enables normal random items mode
 * <tt>-rie</tt> enables extreme random items mode
 * <tt>-bots <x></tt> starts a game with <x> number of bot players (up to three)
+* <tt>-flip</tt> enables the flipped levels feature 
 
 
 == Inspiration ==
