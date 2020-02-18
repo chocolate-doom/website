@@ -75,9 +75,16 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Player collision (on/off)
 
 
-==== Ludicrous Gibs ====
+==== Blood and Gibs ====
 
-Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  Corpses can be destroyed (or "gibbed") when within range of an explosion, or when living actors are killed by an explosion a ''ludicrous'' plume of blood is produced for the player's delight.
+Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  
+
+Four modes are offered:
+
+  '''Doom''': default Doom gore mechanics
+  '''Ludicrous''': gore mechanics emulate that of ''Rise of the Triad''
+  '''Groovy''': gore mechanics emulate that of ''Duke Nukem 3D''
+  '''Brutal''': 'nuff said
 
 This option can be toggled in the '''Gameplay''' menu on the datapad.
 
@@ -218,7 +225,7 @@ Other new gameplay features include:
 * Berserk auto-switch to fist is optional
 * The BFG can also be selected by pressing ''''0'''' as in Quake II
 * Fast single-key melee attack (press ''''~'''')
-* Pushing barrels around the map (hold the '''use key''' while walking into a barrel)
+* Pushing barrels 
 * Sprint (hold ''''Q'''') which is intended for platform-running
 * Monster respawn in nightmare can be disabled
 * Auto-use
@@ -242,14 +249,16 @@ Press ''''F'''' to order the bots to follow you.
 
 Press ''''T'''' to assign a target to the bots.
 
-Press the '''use''' key while facing a bot to cycle through orders/behaviors.
+Press the '''use''' key while facing a bot to cycle through a single bot's orders/behaviors.
+
+Press and hold the '''use''' key to activate the squad command menu.
+
+  '''TIP''': If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  When ready to proceed, press 'F' to order the bots to continue to follow.
+
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
-TIP:  If the player's path is blocked by the bots, type <tt>MOVE</tt> to order the bots to scatter out of the way. When ready to proceed, press 'F' to order the bots to continue to follow.
-
-TIP:  You can also type <tt>HOLD</tt> to order the bots to hold position.
-
+  '''TIP''': When playing maps featuring ledge-running or other complicated terrain, try changing bot walk speed to '''Careful'''.  This option can be found in the Bots menu on the datapad. ''(Example map: E5M1)''
 
 === Wad Stealing ===
 
@@ -276,6 +285,9 @@ Wad stealing can also be enabled from the command line:
 * <tt>FRIENDLYFIRE</tt> toggles friendly fire when using cooperative bots
 * <tt>MOVE</tt> orders all bots to move out of the way when player is blocked
 * <tt>HOLD</tt> orders the bots to hold position
+* <tt>NEXT</tt> skips current song and starts a new song
+* <tt>NORESPAWN</tt> disables enemy respawning in nightmare skill
+* <tt>IDFLIP</tt> enables the flipped levels feature
 
 
 === Command-line Options ===
