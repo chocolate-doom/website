@@ -77,9 +77,8 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 
 ==== Blood and Gibs ====
 
-Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  
-
-Four modes are offered:
+Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''. 
+Four gore modes are offered:
 
   '''Doom''': default Doom gore mechanics
   '''Ludicrous''': gore mechanics emulate that of ''Rise of the Triad''
@@ -123,7 +122,7 @@ Early plans for Doom included having the player collect treasure items for point
 
 In Marshmallow Doom's normal treasure mode, treasure is spawned at all multiplayer item spawn points; and in full treasure mode, health and armor bonuses also spawn treasure items.  
 
-Treasure mode can be toggled within the '''Gameplay''' section of the Marshmallow Menu.
+Treasure mode can be toggled within the '''Gameplay''' menu on the datapad.
 
 
 ==== Inventory ====
@@ -238,7 +237,7 @@ Bobby Prince's original soundtrack from Doom can be brought to life using the ne
 
 '''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
 
-Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
+ '''TIP''': Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
 
 
 === Bots ===
