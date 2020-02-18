@@ -1,11 +1,11 @@
 [[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
-Marshmallow Doom is a source port which "lightly sweetens" classic Doom gameplay with new additions such as dynamic gameplay-driven music, cooperative bot players, persistent player stats, enhanced blood and gore, treasure items, new difficulty levels, customizable sandbox battles, a much-improved multiplayer experience, and more.
+Marshmallow Doom is a source port which lightly sweetens classic Doom gameplay with new additions such as dynamic gameplay-driven music, cooperative bot players, persistent player stats, enhanced blood and gore, treasure items, new difficulty levels, customizable sandbox battles, a much-improved multiplayer experience, and more.
 
 == Synopsis ==
 
-Marshmallow Doom is a fork of the [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other subtle improvements.  Marshmallow Doom greatly expands on this same ethos of a lightly-sweetened-yet-still classic Doom gameplay experience.
+Marshmallow Doom is a fork of the [[Crispy Doom]] source port. Itself being a fork of [[Chocolate Doom]], Crispy Doom adds features such as 640x400 resolution, colored HUD text, removal of static engine limits, translucency, free vertical looking, jumping, and other modern improvements.  Marshmallow Doom greatly expands on this same ethos of a lightly-sweetened-yet-still-classic Doom gameplay experience.
 
 == Features ==
 
@@ -16,8 +16,8 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 * View player profile showing all-time stats such as frags, accuracy, levels completed, etc.
 * Add bots to the game for either cooperative or deathmatch play
 * Start a sandbox game to build your own custom battles
-* Adjust monster mutators such as '''less HP for lost souls''' or '''changing the speed of revenant missiles'''
-* Adjust weapon mutators such as '''particle effects''' for the BFG
+* Adjust monster mutators such as ''less HP for lost souls'' or changing the speed of revenant missiles
+* Adjust weapon mutators such as particle effects for the BFG
 * Toggle new item behaviors such as treasure mode or player inventory
 * Customize the dynamic music system
 * Change game skill level
@@ -28,7 +28,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 
 ==== Player Profile ====
 [[File:profile.png|thumb|right|The player profile tracks all-time frags, accuracy, treasure score, and more]]
-Various metrics are stored in a persistent player profile that is saved to disk.  Stats are '''only saved when a level is completed organically''' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
+Various metrics are stored in a persistent player profile that is saved to disk.  Stats are ''only saved when a level is completed organically'' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
 
 A few metrics tracked by the player profile:
 
