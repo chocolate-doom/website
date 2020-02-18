@@ -23,7 +23,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 * Change game skill level
 * Easily skip to any map or skip to a random one
 
-Press ''''M'''' to launch the datapad.  
+ Press ''''M'''' to launch the datapad.  
 
 
 ==== Player Profile ====
@@ -38,7 +38,7 @@ A few metrics tracked by the player profile:
 * Secrets found
 * Treasure score
 
-View the profile by selecting '''Profile''' on the datapad.
+ View the profile by selecting '''Profile''' on the datapad.
 
 
 ==== PKE Meter ====
@@ -48,14 +48,14 @@ The datapad features a PKE Meter "app" which reports metrics representing potent
 * Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
 * Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
 
-Press ''''P'''' to launch the PKE Meter.
+ Press ''''P'''' to launch the PKE Meter.
 
 
 ==== Help Screen ====
 
 Some of Marshmallow Doom's new features such as bot commands and player inventory have added new keyboard functionality to the game.  Most of these new keyboard controls can be found throughout this document, or you may reference them while in-game using the new keyboard reference screen.
 
-Press ''''H'''' to launch the keyboard reference help screen.
+ Press ''''H'''' to launch the keyboard reference help screen.
 
 
 === Gameplay ===
@@ -80,12 +80,12 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''. 
 Four gore modes are offered:
 
-  '''Doom''': default Doom gore mechanics
-  '''Ludicrous''': gore mechanics emulate that of ''Rise of the Triad''
-  '''Groovy''': gore mechanics emulate that of ''Duke Nukem 3D''
-  '''Brutal''': 'nuff said
+* '''Doom''': default Doom gore mechanics
+* '''Ludicrous''': gore mechanics emulate that of ''Rise of the Triad''
+* '''Groovy''': gore mechanics emulate that of ''Duke Nukem 3D''
+* '''Brutal''': 'nuff said!
 
-This option can be toggled in the '''Gameplay''' menu on the datapad.
+ This option can be toggled in the '''Gameplay''' menu on the datapad.
 
 
 ==== Monster Upgrades ====
@@ -122,7 +122,7 @@ Early plans for Doom included having the player collect treasure items for point
 
 In Marshmallow Doom's normal treasure mode, treasure is spawned at all multiplayer item spawn points; and in full treasure mode, health and armor bonuses also spawn treasure items.  
 
-Treasure mode can be toggled within the '''Gameplay''' menu on the datapad.
+ Treasure mode can be toggled within the '''Gameplay''' menu on the datapad.
 
 
 ==== Inventory ====
@@ -135,7 +135,7 @@ If enabled, the following items can be stored in the player's inventory for late
 * Portable medkit
 * Infrared goggles
 
-Press ''''V'''' to open the inventory menu.
+ Press ''''V'''' to open the inventory menu.
 
 
 ==== Conserved Item Pickups ====
@@ -149,17 +149,17 @@ When using option <tt>-warp</tt> at the command line, the player will spawn with
 
 For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun.  When warping to MAP30, the player will start the level with all weapons.
 
-If the player prefers classic pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
+ '''TIP''': If the player prefers classic pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
 
 
 ==== Randomized Item Pickups ====
 
 Any classic Doom map can be revitalized by repopulating it with different item pickups.  Two modes of randomized item pickup replacement are offered:
 
-* Normal: Items are randomized by type, where only weapons are replaced with other weapons, ammo is only replaced with other ammo types, etc.
-* Extreme: All items are fully randomized regardless of type
+* '''Normal''': Items are randomized by type, where only weapons are replaced with other weapons, ammo is only replaced with other ammo types, etc.
+* '''Extreme''': All items are fully randomized regardless of type
 
-Randomized items can be enabled at the New Game menu, the Change Map menu, or the command line using switches <tt>-ri</tt> and <tt>-rie</tt>.
+ '''TIP''': Randomized items can be enabled at the New Game menu, the Change Map menu, or the command line using switches '''-ri''' and '''-rie'''.
 
 
 ==== Sandbox Mode ====
@@ -168,7 +168,7 @@ Sandbox mode allows the player to design their own monster hordes in an empty ma
 
 After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
 
-When using Marshmallow Doom's '''-steal''' command line option, you can '''fight your own hordes of Doom II monsters in Doom maps'''.
+ '''TIP''': When using Marshmallow Doom's WAD stealing feature, you can fight your own hordes of Doom II monsters in Doom maps.
 
 
 ==== New Difficulty Levels ====
@@ -252,7 +252,7 @@ Press the '''use''' key while facing a bot to cycle through a single bot's order
 
 Press and hold the '''use''' key to activate the squad command menu.
 
- '''TIP''': If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  When ready to proceed, press 'F' to order the bots to continue to follow.
+ '''TIP''': If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  Once unblocked, press 'F' to order the bots to continue to follow.
 
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
