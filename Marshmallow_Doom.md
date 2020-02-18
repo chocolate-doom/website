@@ -276,6 +276,17 @@ Wad stealing can also be enabled from the command line:
 * <tt>-d2s</tt> sets the IWAD to DOOM2.WAD with DOOM.WAD as a PWAD importing mostly music
 
 
+=== Configuration Files ===
+
+Marshmallow Doom introduces two new configuration files for saving settings: '''marshmallow.cfg''' and '''server.cfg'''.
+
+Settings from ''server.cfg'' are only loaded when playing real network games or when using the <tt>-solo-net</tt> command-line option.  The game does not write any changes to server.cfg as this file is only intended to be altered manually using a text editor.
+
+When not playing real network games and not using <tt>-solo-net</tt>, all preferences are saved to ''marshmallow.cfg''.
+
+  '''TIP''': ''marshmallow.cfg'' contains some game options that are not available on the in-game menus, such as <tt>DM_KillOnExit</tt>, <tt>DangerousBFG</tt>, and much more.
+
+
 === New Cheat Codes ===
 
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
