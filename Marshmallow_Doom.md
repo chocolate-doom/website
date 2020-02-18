@@ -253,12 +253,13 @@ Press the '''use''' key while facing a bot to cycle through a single bot's order
 
 Press and hold the '''use''' key to activate the squad command menu.
 
-  '''TIP''': If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  When ready to proceed, press 'F' to order the bots to continue to follow.
+ '''TIP''': If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  When ready to proceed, press 'F' to order the bots to continue to follow.
 
 
 Press and hold ''''Shift'''' to make the bots sprint.  This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
-  '''TIP''': When playing maps featuring ledge-running or other complicated terrain, try changing bot walk speed to '''Careful'''.  This option can be found in the Bots menu on the datapad. ''(Example map: E5M1)''
+ '''TIP''': When playing maps featuring ledge-running or other complicated terrain, try changing bot walk speed to '''Careful'''.  This option can be found in the Bots menu on the datapad. ''(Example map: E5M1)''
+
 
 === Wad Stealing ===
 
@@ -284,7 +285,7 @@ Settings from ''server.cfg'' are only loaded when playing real network games or 
 
 When not playing real network games and not using <tt>-solo-net</tt>, all preferences are saved to ''marshmallow.cfg''.
 
-  '''TIP''': ''marshmallow.cfg'' contains some game options that are not available on the in-game menus, such as <tt>DM_KillOnExit</tt>, <tt>DangerousBFG</tt>, and much more.
+ '''TIP''': ''marshmallow.cfg'' contains some game options that are not available on the in-game menus, such as <tt>DM_KillOnExit</tt>, <tt>DangerousBFG</tt>, and much more.
 
 
 === New Cheat Codes ===
@@ -299,6 +300,23 @@ When not playing real network games and not using <tt>-solo-net</tt>, all prefer
 * <tt>NEXT</tt> skips current song and starts a new song
 * <tt>NORESPAWN</tt> disables enemy respawning in nightmare skill
 * <tt>IDFLIP</tt> enables the flipped levels feature
+
+
+=== Simplified Command-line ===
+
+Marshmallow Doom simplifies most common command-line parameters to make launching the game quicker and easier.  The following are command-line examples:
+
+  '''marshmallow-doom.exe -d1 -bots -uv'''<br>
+  ''('''-d1''' sets IWAD to DOOM.WAD; '''-bots''' adds two bots to the game; '''-uv''' starts the game in Ultra Violence skill level)''
+
+  '''marshmallow-doom.exe -d2s -bot -nm2'''<br>
+  ''('''-d2s''' sets IWAD to DOOM2.WAD and steals from DOOM.WAD; '''-bot''' adds one bot to the game; '''-nm2''' starts the game in Nightmare 2.0 skill level)''
+
+  '''marshmallow-doom.exe -sigil -flip -itytd'''<br>
+  ''('''-sigil''' sets IWAD to SIGIL.WAD; '''-flip''' enables the flipped levels feature; '''-itytd''' starts the game in I'm Too Young To Die skill level)''
+
+
+ '''TIP''': When playing real network games, only the host has to specify game options such as skill level or deathmatch flags.  These options are passed down to all clients when the game starts, so each client only needs to specify their IWAD.  Example command-line for server/clients: <br><br>Server: '''marshmallow-doom.exe -d1 -server -nodes 2 -uv2 -dmw'''<br><br>Clients: '''marshmallow-doom.exe -d1 -autojoin'''
 
 
 === Command-line Options ===
