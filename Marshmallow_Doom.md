@@ -262,7 +262,7 @@ Press and hold ''''Shift'''' to make the bots sprint.  This will also make the b
 
 === Wad Stealing ===
 
-Wad stealing is a new experimental feature which allows the use of both Doom and Doom II assets (music, sprites, etc.) to be used at once for a richer Doom experience.  The dynamic music and sandbox features make the most use of wad stealing, as music from both games can be used at once and sandbox games in Doom maps can use Doom II monsters.
+Wad stealing allows both Doom and Doom II assets (music, sprites, etc.) to be used at once for a richer Doom experience.  The dynamic music and sandbox features make the most use of wad stealing, as music from both games can be used at once and sandbox games in Doom maps can use Doom II monsters.
 
 Wad stealing also allows vanilla Doom maps in singleplayer or coop to be dynamically re-populated with Doom II monsters, adding a fresh new challenge to any classic Doom map.
 
