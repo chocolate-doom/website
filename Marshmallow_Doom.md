@@ -11,13 +11,12 @@ Marshmallow Doom is a fork of the [[Crispy Doom]] source port. Itself being a fo
 
 === The Datapad ===
 [[File:datapad.png|thumb|right|The datapad gives the player quick access to many powerful options]]
-Most of what Marshmallow Doom has to offer can be accessed on the player's datapad: 
+Most of what Marshmallow Doom has to offer can be accessed on the player's datapad.  Some features on the datapad include: 
 
-* View player profile showing all-time stats such as frags, accuracy, levels completed, etc.
+* View the player profile showing all-time stats such as frags, accuracy, levels completed, etc.
 * Add bots to the game for either cooperative or deathmatch play
-* Start a sandbox game to build your own custom battles
-* Adjust monster mutators such as ''less HP for lost souls'' or changing the speed of revenant missiles
-* Adjust weapon mutators such as particle effects for the BFG
+* Monster mutators such as adjusting the speed of revenant missiles
+* Weapon mutators such as particle effects for the BFG
 * Toggle new item behaviors such as treasure mode or player inventory
 * Customize the dynamic music system
 * Change game skill level
@@ -43,10 +42,12 @@ A few metrics tracked by the player profile:
 
 ==== PKE Meter ====
 [[File:pkemeter.png|thumb|right|The PKE meter reports a high danger level in E2M8]]
-The datapad features a PKE Meter "app" which reports metrics representing potential or immediate danger to the player:
+The datapad features a PKE Meter app which reports metrics representing potential or immediate danger to the player:
 
 * Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
 * Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
+
+Danger level is also reported by the PKE Widget which can be seen in the upper right corner of the screen.  Danger is represented as a five star rating, where five stars represents the highest level of danger.
 
  Press ''''P'''' to launch the PKE Meter.
 
@@ -71,13 +72,13 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a network game
-* Deathmatch weapons are not spawned in coop, as to allow for normal singleplayer weapon progression during multiplayer coop games
+* Deathmatch weapons are not spawned in coop by default, as to allow for normal singleplayer weapon progression during multiplayer coop games 
 * Player collision (on/off)
 
 
 ==== Blood and Gibs ====
 
-Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''. 
+Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  
 Four gore modes are offered:
 
 * '''Doom''': default Doom gore mechanics
@@ -85,7 +86,7 @@ Four gore modes are offered:
 * '''Groovy''': gore mechanics emulate that of ''Duke Nukem 3D''
 * '''Brutal''': 'nuff said!
 
- This option can be toggled in the '''Gameplay''' menu on the datapad.
+ This option can be adjusted in the '''Gameplay''' menu on the datapad.
 
 
 ==== Monster Upgrades ====
@@ -105,10 +106,10 @@ Upgrading can also be enabled at the command line by using <tt>-upgrade <x></tt>
 
 ==== Monster Mutators ====
 
-Some subtle tweaks to monster behaviors are offered.  A few examples:
+Some subtle tweaks to monster attributes and behaviors are available.  A few examples:
 
 * Lost souls spawn with less health
-* Revenant missile speed (DOS or PSX speeds)
+* Revenant missile speed adjustment (DOS or PSX speeds)
 * Pain Elemental does not spawn lost souls on death
 * Archvile painchance lowered
 * Limited Archvile targeting scope (Z dimension)
@@ -118,16 +119,21 @@ Some subtle tweaks to monster behaviors are offered.  A few examples:
 
 ==== Treasure Items ====
 
-Early plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D.  However these old-fashioned game elements such as "points" and "lives" were discarded from the game's design later in development and these treasure items were changed to function as health and armor bonuses.
+Early design plans for Doom included having the player collect treasure items for points much like id's previous hit title, Wolfenstein 3D, but game elements such as ''points'' and ''lives'' were ultimately discarded from the game's design, leading these treasure items to be converted into what we now know as Doom's health and armor bonuses.
 
-In Marshmallow Doom's normal treasure mode, treasure is spawned at all multiplayer item spawn points; and in full treasure mode, health and armor bonuses also spawn treasure items.  
+Marshmallow Doom seeks to re-introduce a ''collecting'' element to Doom's gameplay, where the player collects colored skulls awarding varying amounts of points.  
 
- Treasure mode can be toggled within the '''Gameplay''' menu on the datapad.
+When using treasure mode, Doom's skull key sprites are reused as these treasure pickup.  Two treasure modes are available:
+
+* '''Normal''': treasure is spawned at all multiplayer item spawn points
+* '''Full''': treasure is spawned in place of all health and armor bonuses, in addition to multiplayer item spawn points
+
+ '''TIP''': The most rare skull to collect is the ''Blood Skull''.  Be sure to check secret areas to find hidden treasure!
 
 
 ==== Inventory ====
 
-If enabled, the following items can be stored in the player's inventory for later use:
+If the '''Saved Items''' option is enabled, the following items can be stored in the player's inventory for later use:
 
 * Radsuit
 * Invulnerability
@@ -138,9 +144,16 @@ If enabled, the following items can be stored in the player's inventory for late
  Press ''''V'''' to open the inventory menu.
 
 
+==== Backpack Drops ====
+
+When killed during cooperative play, the player can run back to their corpse to retrieve their saved items, weapons, and ammo.  Only the player who dropped the backpack can pick it up, and if the player dies multiple times, multiple backpacks will be available for retrieval at each player corpse.
+
+In real network cooperative games, players can drop ammo for friends by pressing <tt>'G'</tt>.  Ammo is deducted from the player dropping the backpack, and when ammo is low enough, dropping a backpack is not possible until more ammo is found.
+
+
 ==== Conserved Item Pickups ====
 
-When the player touches a large health or ammo pickup, '''only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup''', and the item will remain on the ground until it is empty.  This feature is especially useful for multiplayer cooperative games as it allows more than one player to benefit from a single health or ammo pickup.
+When the player touches a large health or ammo pickup, only the amount needed to reach maximum health or ammo capacity is deducted from the item pickup, and the item will remain on the ground until it is empty.  This feature is especially useful for multiplayer cooperative games as it allows more than one player to benefit from a single health or ammo pickup.
 
 
 ==== Warp Weapons ====
@@ -149,7 +162,7 @@ When using option <tt>-warp</tt> at the command line, the player will spawn with
 
 For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun.  When warping to MAP30, the player will start the level with all weapons.
 
- '''TIP''': If the player prefers classic pistol starts, starting the game with command line option '''-ps''' will bypass the warp weapons feature.
+ '''TIP''': Warp weapons can be disabled by editing <tt>marshmallow.cfg</tt> or <tt>server.cfg</tt>.  To disable the option, find the option named GradedWeapons and change '1' to '0'.
 
 
 ==== Randomized Item Pickups ====
@@ -164,9 +177,9 @@ Any classic Doom map can be revitalized by repopulating it with different item p
 
 ==== Sandbox Mode ====
 
-Sandbox mode allows the player to design their own monster hordes in an empty map of the player's choice. Fight to the death in both singleplayer or cooperative.  
+Sandbox mode allows the player to design their own monster hordes in an empty map.  In real network games, all players can place monsters throughout the map.  
 
-After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  When ready to start the battle, press ''''B'''' on the keyboard.  All monsters placed in sandbox mode will not "wake up" until the battle has been started.  
+After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets ''''['''' and '''']'''', and to spawn an enemy, press backslash ''''\''''.  When ready to start the battle, press ''''B''''.  All monsters placed in sandbox mode will not become active until the battle begins.  
 
  '''TIP''': When using Marshmallow Doom's WAD stealing feature, you can fight your own hordes of Doom II monsters in Doom maps.
 
@@ -216,18 +229,17 @@ A few of Doom's original item pickups have been repurposed for use by a handful 
 
 Other new gameplay features include:
 
-* Invisibility powerup makes the player truly invisible to monsters and homing missiles
+* Invisibility powerup makes the player truly invisible to monsters and homing missiles, introducing a stealth tactic to help the player better survive any Doom level
 * Bullet max ammo limit has been raised from 200 to 300 (or 600 with backpack)
-* Using '''Goodies Mode''', all monsters drop health, ammo, and other items when killed
-* Fast monsters option can be toggled while in-game by typing the <tt>FASTMODE</tt> cheat
+* Fast monsters option can be toggled while in-game
 * Red screen filter when picking up berserk powerup can be shortened or disabled
 * Berserk auto-switch to fist is optional
 * The BFG can also be selected by pressing ''''0'''' as in Quake II
 * Fast single-key melee attack (press ''''~'''')
-* Pushing barrels 
 * Sprint (hold ''''Q'''') which is intended for platform-running
 * Monster respawn in nightmare can be disabled
 * Auto-use
+* Pushing barrels 
 * Player suicide
 
 
@@ -235,7 +247,16 @@ Other new gameplay features include:
 
 Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the mood of the music playing based on the amount of action the player is experiencing in real-time.
 
-'''Music from both Doom and Doom II can be used simultaneously''' while playing either game when using the wad stealing option (see below.)
+Music from both Doom and Doom II can be used simultaneously while playing either game when using the WAD stealing option (see below.)
+
+The datapad offers a handful of options for tweaking the dynamic music system:
+
+* '''Music Mode''': Toggles between Doom's default music mode and the new dynamic music system (Vanilla/Marshmallow modes)
+* '''Song''': Displays the name of the currently playing song.  Press enter to skip the current song.
+* '''Music Changes''': This option controls how abruptly the music will change.  When in normal mode, songs will typically play for a set minimum amount of time.  When using the abrupt mode, songs will change more rapidly without a minimum play duration.
+* '''Song Length''': Sets the maximum number of tics any song will play
+* '''Messages''': Enables console messages informing the player of any Doom DJ song/mood changes
+* '''Game''': Changes the pool of songs available between Doom, Doom II, and both games combined.  It is recommended to use the combined mode for the most song variation.
 
  '''TIP''': Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
 
@@ -260,7 +281,7 @@ Press and hold ''''Shift'''' to make the bots sprint.  This will also make the b
  '''TIP''': When playing maps featuring ledge-running or other complicated terrain, try changing bot walk speed to '''Careful'''.  This option can be found in the Bots menu on the datapad. ''(Example map: E5M1)''
 
 
-=== Wad Stealing ===
+=== WAD Stealing ===
 
 Wad stealing allows both Doom and Doom II assets (music, sprites, etc.) to be used at once for a richer Doom experience.  The dynamic music and sandbox features make the most use of wad stealing, as music from both games can be used at once and sandbox games in Doom maps can use Doom II monsters.
 
@@ -278,16 +299,18 @@ Wad stealing can also be enabled from the command line:
 
 === Configuration Files ===
 
-Marshmallow Doom introduces two new configuration files for saving settings: '''marshmallow.cfg''' and '''server.cfg'''.
+Marshmallow Doom introduces two new configuration files for saving settings: <tt>marshmallow.cfg</tt> and <tt>server.cfg</tt>.
 
-Settings from ''server.cfg'' are only loaded when playing real network games or when using the <tt>-solo-net</tt> command-line option.  The game does not write any changes to server.cfg as this file is only intended to be altered manually using a text editor.
+Settings from <tt>server.cfg</tt> are only loaded when playing real network games or when using the <tt>-solo-net</tt> command-line option.  The game does not write any changes to server.cfg as this file is only intended to be altered manually using a text editor.
 
-When not playing real network games and not using <tt>-solo-net</tt>, all preferences are saved to ''marshmallow.cfg''.
+When not playing real network games and not using <tt>-solo-net</tt>, all preferences are saved to <tt>marshmallow.cfg</tt>.
 
  '''TIP''': ''marshmallow.cfg'' contains some game options that are not available on the in-game menus, such as <tt>DM_KillOnExit</tt>, <tt>DangerousBFG</tt>, and much more.
 
 
-=== New Cheat Codes ===
+=== New Console Commands ===
+
+Marshmallow Doom accepts a handful of new console commands that can be typed at any time, like cheat codes.  Not all of these new console commands are disabled in real network games, as <tt>ENDMAP</tt> and <tt>KILLMENOW</tt> both work during real network games.
 
 * <tt>ENDMAP</tt> aborts the current level by calling G_ExitLevel()
 * <tt>KILLMENOW</tt> triggers a player suicide
@@ -299,6 +322,13 @@ When not playing real network games and not using <tt>-solo-net</tt>, all prefer
 * <tt>NEXT</tt> skips current song and starts a new song
 * <tt>NORESPAWN</tt> disables enemy respawning in nightmare skill
 * <tt>IDFLIP</tt> enables the flipped levels feature
+
+
+=== New Randomization Engine ===
+
+Marshmallow Doom's single player and multiplayer bot gameplay takes advantage of an all-new true random number generator.  This random engine is seeded by the system time at game start, as is typical of modern games.  Many features take advantage of this new random number system, such as randomized song selection, randomized map selection, bot behaviors, as well as the particle system which powers any blood and smoke effects. 
+
+ '''TIP''': In real network games, Doom's default pseudo-random number system is used as this is required for stable network play.
 
 
 === Simplified Command-line ===
@@ -348,8 +378,6 @@ Marshmallow Doom simplifies most common command-line parameters to make launchin
 
 
 == Inspiration ==
-
-Many of Marshmallow Doom's new features are inspired by other mid-1990s games such as ''Duke Nukem 3D'' and ''Quake''.  
 
 '''Doom DJ''' is inspired by iMuse, the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
 
