@@ -150,6 +150,8 @@ When killed during cooperative play, the player can run back to their corpse to 
 
 In real network cooperative games, players can drop ammo for friends by pressing <tt>'G'</tt>.  Ammo is deducted from the player dropping the backpack, and when ammo is low enough, dropping a backpack is not possible until more ammo is found.
 
+ '''TIP''': In deathmatch games, a player's inventory is not dropped on death.  Instead, the player's current weapon is dropped along with a small ammo bonus.
+
 
 ==== Conserved Item Pickups ====
 
