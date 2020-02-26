@@ -247,7 +247,7 @@ Other new gameplay features include:
 
 === Dynamic Music ===
 
-Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the mood of the music playing based on the amount of action the player is experiencing in real-time.
+Bobby Prince's original soundtrack from Doom can be brought to life using the new ''Doom DJ'' feature.  Doom DJ varies the mood of the music playing based on the amount of danger the player is experiencing in real-time.
 
 Music from both Doom and Doom II can be used simultaneously while playing either game when using the WAD stealing option (see below.)
 
@@ -288,7 +288,7 @@ Press and hold ''''Shift'''' to make the bots sprint.  This will also make the b
 
 Wad stealing allows both Doom and Doom II assets (music, sprites, etc.) to be used at once for a richer Doom experience.  The dynamic music and sandbox features make the most use of wad stealing, as music from both games can be used at once and sandbox games in Doom maps can use Doom II monsters.
 
-Wad stealing also allows vanilla Doom maps in single-player or coop to be dynamically re-populated with Doom II monsters, adding a fresh new challenge to any classic Doom map.
+Wad stealing also allows vanilla Doom maps in single-player or coop to be dynamically repopulated with Doom II monsters, adding a fresh new challenge to any classic Doom map.
 
 The super shotgun is also available in Doom, however this is also possible with Crispy Doom.
 
