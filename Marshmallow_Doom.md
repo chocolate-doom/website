@@ -67,7 +67,7 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 
 * Weapons stay
 * Friendly fire and/or mirror damage
-* When players are killed, they drop a backpack of ammo as well as their current weapon
+* When players are killed, they drop a backpack containing their entire inventory which can be retrieved by returning to the corpse after respawning
 * Players can also manually drop a backpack of ammo for another player in need
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
