@@ -27,9 +27,9 @@ Most of what Marshmallow Doom has to offer can be accessed on the player's datap
 
 ==== Player Profile ====
 [[File:profile.png|thumb|right|The player profile tracks all-time frags, accuracy, treasure score, and more]]
-Various metrics are stored in a persistent player profile that is saved to disk.  Stats are ''only saved when a level is completed organically'' without cheating.  Cheating or level skips will cause any stats earnings to be discarded.
+Various player-specific statistics are stored in a persistent player profile that is saved to disk.  Stats are ''only saved when a level is completed organically without cheating''.  Cheating or level skips will cause any stats earnings to be discarded.
 
-A few metrics tracked by the player profile:
+A few statistics tracked by the player profile:
 
 * Total kills
 * Accuracy
@@ -42,7 +42,7 @@ A few metrics tracked by the player profile:
 
 ==== PKE Meter ====
 [[File:pkemeter.png|thumb|right|The PKE meter reports a high danger level in E2M8]]
-The datapad features a PKE Meter app which reports metrics representing potential or immediate danger to the player:
+The datapad features a PKE Meter app which reports both potential and immediate danger:
 
 * Nearby monsters are counted and their danger potential is reported numerically as '''Area Risk'''
 * Monsters attacking the player are counted separately and this immediate danger is reported numerically as '''Danger'''
@@ -72,7 +72,7 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
 * Current map can be skipped at any time during a network game
-* Deathmatch weapons are not spawned in coop by default, as to allow for normal singleplayer weapon progression during multiplayer coop games 
+* Deathmatch weapons are not spawned in coop by default, as to allow for normal single-player weapon progression during multiplayer coop games 
 * Player collision (on/off)
 
 
@@ -81,10 +81,10 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  
 Four gore modes are offered:
 
-* '''Doom''': default Doom gore mechanics
-* '''Ludicrous''': gore mechanics emulate that of ''Rise of the Triad''
-* '''Groovy''': gore mechanics emulate that of ''Duke Nukem 3D''
-* '''Brutal''': 'nuff said!
+* '''Doom''': Default Doom gore mechanics
+* '''Ludicrous''': Gore mechanics emulate that of ''Rise of the Triad''
+* '''Groovy''': Gore mechanics emulate that of ''Duke Nukem 3D''
+* '''Brutal''': 'Nuff said!
 
  This option can be adjusted in the '''Gameplay''' menu on the datapad.
 
@@ -123,12 +123,12 @@ Early design plans for Doom included having the player collect treasure items fo
 
 Marshmallow Doom seeks to re-introduce a ''collecting'' element to Doom's gameplay, where the player collects colored skulls awarding varying amounts of points.  
 
-When using treasure mode, Doom's skull key sprites are reused as these treasure pickup.  Two treasure modes are available:
+When using treasure mode, Doom's skull key sprites are reused as these new treasure items.  Two treasure modes are available:
 
-* '''Normal''': treasure is spawned at all multiplayer item spawn points
-* '''Full''': treasure is spawned in place of all health and armor bonuses, in addition to multiplayer item spawn points
+* '''Normal''': Treasure is spawned at all multiplayer item spawn points
+* '''Full''': Treasure is spawned in place of all health and armor bonuses, in addition to multiplayer item spawn points
 
- '''TIP''': The most rare skull to collect is the ''Blood Skull''.  Be sure to check secret areas to find hidden treasure!
+ '''TIP''': The most rare skull to collect is the ''Blood Skull''.  Be sure to check secret areas to find any hidden treasure!
 
 
 ==== Inventory ====
@@ -253,17 +253,18 @@ The datapad offers a handful of options for tweaking the dynamic music system:
 
 * '''Music Mode''': Toggles between Doom's default music mode and the new dynamic music system (Vanilla/Marshmallow modes)
 * '''Song''': Displays the name of the currently playing song.  Press enter to skip the current song.
-* '''Music Changes''': This option controls how abruptly the music will change.  When in normal mode, songs will typically play for a set minimum amount of time.  When using the abrupt mode, songs will change more rapidly without a minimum play duration.
 * '''Song Length''': Sets the maximum number of tics any song will play
-* '''Messages''': Enables console messages informing the player of any Doom DJ song/mood changes
+* '''Music Changes''': This option controls how abruptly the music will change.  When in normal mode, songs will typically play for a set minimum amount of time.  When using the abrupt mode, songs will change more rapidly without a minimum play duration.
+* '''Mood''': Allows the player to force a particular mood playlist such as AMBIENT or INTENSE.  By default this setting should be left on DYNAMIC.
 * '''Game''': Changes the pool of songs available between Doom, Doom II, and both games combined.  It is recommended to use the combined mode for the most song variation.
+* '''Messages''': Enables console messages informing the player of any Doom DJ song/mood changes
 
  '''TIP''': Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
 
 
 === Bots ===
 
-Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a singleplayer game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
+Up to three AI-controlled bots are available for cooperative or deathmatch play.  Bots can be added at any time while playing a single-player game, and when spawned, they will run to meet the player at his current position in the map.  They will primarily follow the player's lead through the level, and if separated will attempt to regroup to the player's position if possible.
 
 Press ''''F'''' to order the bots to follow you.
 
@@ -285,7 +286,7 @@ Press and hold ''''Shift'''' to make the bots sprint.  This will also make the b
 
 Wad stealing allows both Doom and Doom II assets (music, sprites, etc.) to be used at once for a richer Doom experience.  The dynamic music and sandbox features make the most use of wad stealing, as music from both games can be used at once and sandbox games in Doom maps can use Doom II monsters.
 
-Wad stealing also allows vanilla Doom maps in singleplayer or coop to be dynamically re-populated with Doom II monsters, adding a fresh new challenge to any classic Doom map.
+Wad stealing also allows vanilla Doom maps in single-player or coop to be dynamically re-populated with Doom II monsters, adding a fresh new challenge to any classic Doom map.
 
 The super shotgun is also available in Doom, however this is also possible with Crispy Doom.
 
@@ -326,7 +327,7 @@ Marshmallow Doom accepts a handful of new console commands that can be typed at 
 
 === New Randomization Engine ===
 
-Marshmallow Doom's single player and multiplayer bot gameplay takes advantage of an all-new true random number generator.  This random engine is seeded by the system time at game start, as is typical of modern games.  Many features take advantage of this new random number system, such as randomized song selection, randomized map selection, bot behaviors, as well as the particle system which powers any blood and smoke effects. 
+Marshmallow Doom's single-player and multiplayer bot gameplay takes advantage of an all-new true random number generator.  This random engine is seeded by the system time at game start, as is typical of modern games.  Many features take advantage of this new random number system, such as randomized song selection, randomized map selection, bot behaviors, as well as the particle system which powers any blood and smoke effects. 
 
  '''TIP''': In real network games, Doom's default pseudo-random number system is used as this is required for stable network play.
 
@@ -379,11 +380,11 @@ Marshmallow Doom simplifies most common command-line parameters to make launchin
 
 == Inspiration ==
 
-'''Doom DJ''' is inspired by iMuse, the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
-
-Traditional game features such as treasure, scoring, and player inventory are part of an attempt to recreate what Tom Hall's influence on Doom might have been had he stayed through the end of development.  
+''Doom DJ'' is inspired by iMuse, the dynamic music system heard in many classic Lucasarts games such as ''X-Wing'', ''Tie Fighter'', and ''Dark Forces''.
 
 Usage of the phrase "ludicrous gibs" is a tribute to Apogee Software's ''Rise of the Triad'' and their infamous Developers of Incredible Power.
+
+Old-fashioned game features such as collecting treasure, scoring, and player inventory are part of an attempt to recreate what Tom Hall's influence on Doom might have been had he stayed through the end of development.  
 
 
 == Download ==
