@@ -71,14 +71,14 @@ Doom's vanilla cooperative experience can quickly become frustrating as it is mi
 * Players can also manually drop a backpack of ammo for another player in need
 * Keep any keys collected after player respawns
 * Player will respawn with all weapons owned at end of previous map
-* Current map can be skipped at any time during a network game
+* Current map can be skipped at any time, even during a network game
 * Deathmatch weapons are not spawned in coop by default, as to allow for normal single-player weapon progression during multiplayer coop games 
 * Player collision (on/off)
 
 
 ==== Blood and Gibs ====
 
-Blood and gore mechanics have been improved to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  
+Blood and gore mechanics have been redesigned to behave similarly to that of Doom's contemporaries such as ''Rise of the Triad'' and ''Duke Nukem 3D''.  
 Four gore modes are offered:
 
 * '''Doom''': Default Doom gore mechanics
