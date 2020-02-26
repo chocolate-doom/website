@@ -111,7 +111,7 @@ Some subtle tweaks to monster attributes and behaviors are available.  A few exa
 * Lost souls spawn with less health
 * Revenant missile speed adjustment (DOS or PSX speeds)
 * Pain Elemental does not spawn lost souls on death
-* Archvile painchance lowered
+* Lowered Archvile painchance 
 * Limited Archvile targeting scope (Z dimension)
 * Cacodemon melee attack sound (on/off)
 * Chaingun guy firing sound (shotgun/chaingun)
@@ -384,7 +384,7 @@ Marshmallow Doom simplifies most common command-line parameters to make launchin
 
 Usage of the phrase "ludicrous gibs" is a tribute to Apogee Software's ''Rise of the Triad'' and their infamous Developers of Incredible Power.
 
-Old-fashioned game features such as collecting treasure, scoring, and player inventory are part of an attempt to recreate what Tom Hall's influence on Doom might have been had he stayed through the end of development.  
+Old-fashioned game elements such as collecting treasure, scoring, and player inventory are part of an attempt to recreate what Tom Hall's influence on Doom might have been had he stayed through the end of development.  
 
 
 == Download ==
