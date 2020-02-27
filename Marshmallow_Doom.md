@@ -329,7 +329,7 @@ Marshmallow Doom accepts a handful of new console commands that can be typed at 
 
 === New Randomization Engine ===
 
-Marshmallow Doom's single-player and multiplayer bot gameplay takes advantage of an all-new true random number generator.  This random engine is seeded by the system time at game start, as is typical of modern games.  Many features take advantage of this new random number system, such as randomized song selection, randomized map selection, bot behaviors, as well as the particle system which powers any blood and smoke effects. 
+Marshmallow Doom takes advantage of an all-new true random number generator.  Many features take advantage of this new random number system, such as randomized song selection, randomized map selection, bot behaviors, as well as the particle system which powers any blood and smoke effects. 
 
  '''TIP''': In real network games, Doom's default pseudo-random number system is used as this is required for stable network play.
 
