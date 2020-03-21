@@ -10,7 +10,7 @@ The project is based on [[Chocolate Doom]] and [[Crispy Doom]], with additions f
 
 The following games are supported:
 
-* DOOM ([[doom:Press_Release_Beta|Press Release Beta]], shareware, registered, [[doom:The_Ultimate_Doom|The Ultimate Doom]]
+* DOOM ([[doom:Press_Release_Beta|Press Release Beta]], shareware, registered, [[doom:The_Ultimate_Doom|The Ultimate Doom]])
 * [[doom:Doom_II|Doom II]]
 ** [[doom:No_Rest_for_the_Living|No Rest for the Living]]
 ** [[doom:Master_Levels_for_Doom_II|Master Levels for Doom II]]
