@@ -5,6 +5,7 @@ It featured extended limits as per Doom plus, in-game multiplayer scoreboard whi
 
 == External links ==
 {{Doomwiki}}
-* The project's [https://sourceforge.net/projects/doomsvnbuilds/files/Strawberry%20Doom/ SourceForge page]
+* Mirror of the projet on [https://github.com/AXDOOMER/strawberry-doom GitHub] with the latest build (August 2008)
+* The project's SVN builds up to March 2008 on [https://sourceforge.net/projects/doomsvnbuilds/files/Strawberry%20Doom/ SourceForge]
 
 [[Category:Forks]]
