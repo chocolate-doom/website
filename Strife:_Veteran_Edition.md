@@ -6,7 +6,6 @@ Veteran Edition includes a new OpenGL-based renderer that gives some improved gr
 
 == See also ==
 * [[Chocolate Strife]]
-* [[doom:Strife: Veteran Edition|Strife: Veteran Edition]] article on the Doom wiki.
 
 == External links ==
 
