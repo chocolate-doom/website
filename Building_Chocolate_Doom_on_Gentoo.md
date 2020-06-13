@@ -1,5 +1,5 @@
 
-A Chocolate Doom ebuild for Gentoo is available at the Guru overlay, emerge eselect-repository to manage overlays:
+A Chocolate Doom ebuild for Gentoo is available on the Guru overlay, emerge eselect-repository to manage overlays:
 
   emerge -av app-eselect/eselect-repository
 
