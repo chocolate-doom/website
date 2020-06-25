@@ -1,18 +1,18 @@
 <table><tr><td>
-Click below to download the latest release of Chocolate Doom ('''version 3.0.0'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-3.0.0 the release notes for this release] to find out what's new, along with this, an [http://latest.chocolate-doom.org/ autobuild of the port can be found here].
+Click below to download the latest release of Chocolate Doom ('''version 3.0.1'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-3.0.1 the release notes for this release] to find out what's new, along with this, an [http://latest.chocolate-doom.org/ autobuild of the port can be found here].
 
 
 {{linksbox
-|link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0-win32.zip
+|link=https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1-win32.zip
 |image=File:Windows_logo.png
 |imgsize=64px
 |text=
 '''Microsoft Windows''' binaries: choose the game you want to play:
 
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0-win32.zip Chocolate Doom] for Windows
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-heretic-3.0.0-win32.zip Chocolate Heretic] for Windows
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-hexen-3.0.0-win32.zip Chocolate Hexen] for Windows
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-strife-3.0.0-win32.zip Chocolate Strife] for Windows
+* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1-win32.zip Chocolate Doom] for Windows
+* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-heretic-3.0.1-win32.zip Chocolate Heretic] for Windows
+* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-hexen-3.0.1-win32.zip Chocolate Hexen] for Windows
+* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-strife-3.0.1-win32.zip Chocolate Strife] for Windows
 }}
 
 {{linksbox
@@ -32,8 +32,8 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.0''
 |text=
 '''Source code''' (all platforms; [[wikipedia:GNU General Public License|GNU GPL]] v2):
 
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz Chocolate Doom source code].
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.tar.gz.asc GPG signature].
+* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1.tar.gz Chocolate Doom source code].
+* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1.tar.gz.asc GPG signature].
 * [https://github.com/chocolate-doom/chocolate-doom Git repository].
 }}
 
@@ -58,6 +58,6 @@ The Chocolate Doom project does not distribute binaries for these systems, but t
 </td></tr></table>
 Chocolate Doom is [https://opensource.org/osd Open Source] and [https://www.gnu.org/philosophy/free-sw.html Free Software], licensed under the [https://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2].
 
-All downloads are GPG-signed by [https://soulsphere.org/gpg-key.txt Chocolate Doom's principal author]. See [https://www.chocolate-doom.org/downloads/3.0.0/ the downloads directory] for the full listing, including GPG signatures.
+All downloads are GPG-signed by [https://soulsphere.org/gpg-key.txt Chocolate Doom's principal author]. See [https://www.chocolate-doom.org/downloads/3.0.1/ the downloads directory] for the full listing, including GPG signatures.
 
 The OSI logo trademark is the trademark of Open Source Initiative.
