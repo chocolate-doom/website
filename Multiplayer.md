@@ -67,7 +67,7 @@ You may be able to find other players on IRC willing to play with you.  Connect 
 
 If you do not have an IRC client, [http://www.xchat.org/ XChat] is a Free Software IRC client which runs on many platforms.
 
-There is also the [https://discord.gg/5M8K6vQ Chocolate Doomslayers Discord server], however, this server is not run by any of the devs of [[Chocolate Doom]] or [[Crispy Doom]].
+There is also the [https://discord.gg/5M8K6vQ Chocolate Doomslayers Discord server], the official Discord server for the devilment of the port and other forks.
 
 == See also ==
 
