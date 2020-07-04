@@ -37,11 +37,11 @@ Windows version is compatible with Windows XP/Vista/7/8.1/10 (32-bit binaries co
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
 
-'''Russian Doom 4.3 (released: May 17, 2020)'''
+'''Russian Doom 4.4 (released: July 4, 2020)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/russian-doom/releases/download/4.3/russian-doom-4.3-win32.zip russian-doom-4.3-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/russian-doom/releases/download/4.3/russian-doom-4.3-win64.zip russian-doom-4.3-win64.zip] 
-<br />Source code available in [https://github.com/JNechaevsky/russian-doom/archive/4.3.zip zip] and [https://github.com/JNechaevsky/russian-doom/archive/4.3.tar.gz tar.gz] formats
+Windows (32-bit): [https://github.com/JNechaevsky/russian-doom/releases/download/4.4/russian-doom-4.4-win32.zip russian-doom-4.4-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/russian-doom/releases/download/4.4/russian-doom-4.4-win64.zip russian-doom-4.4-win64.zip] 
+<br />Source code available in [https://github.com/JNechaevsky/russian-doom/archive/4.4.zip zip] and [https://github.com/JNechaevsky/russian-doom/archive/4.4.tar.gz tar.gz] formats
 
 
 '''Russian Heretic 4.1 (released: May 17, 2020)'''
