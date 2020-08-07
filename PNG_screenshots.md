@@ -1,7 +1,9 @@
-Doom originally supported saving screenshots in [[wikipedia:PCX|PCX format]] - a now obsolete format which only supports very basic run length encoding and is not supported by the majority of modern software.
+[[Image:save_png.png|right|320px|thumb|The Chocolate Doom menu showing the ability to save screenshots in the PNG format.]]
 
-Chocolate Doom retains PCX support but also adds support for saving screenshots in [[wikipedia:Portable_Network_Graphics|PNG]] format. This is a popular lossless format that is supported by most modern software and offers good quality compression. Saving in PNG format also performs aspect ratio correction, scaling the image to 1600x1200 resolution.
+For taking screenshots in-game, Doom originally supported saving images in the [[wikipedia:PCX|PCX format]], however, this format is now considered to be obsolete as it only supports very basic run length encoding, is not supported by the majority of modern software, and was last updated in 1991 - essentially making it a dead format. Due to this, Chocolate Doom supports both PCX and the [[wikipedia:Portable_Network_Graphics|PNG format]], a popular lossless format that is supported by most modern software and offers good quality compression. Saving in PNG format also performs aspect ratio correction, scaling the image to 1600x1200 resolution, rather than 320x200, as seen with PCX.
 
-Another convenient feature is the ability to bind a dedicated screenshot key that is always available in game; in vanilla Doom it is only possible to take screenshots when developer mode is enabled.
+To toggle turning PNG support on and off, first open up the Chocolate Doom setup file, then navigate to "Configure Display", click on "Advanced", from there you can turn on saving images as PNG on and off.
+
+Another convenient feature is the ability to bind a dedicated screenshot key that is always available in game; in vanilla Doom it is only possible to take screenshots when developer mode is enabled. To bind a key to take a screenshot, open up the Chocolate Doom setup file, click on "Configure Keyboard" and under "Action", press "Other keys...", you will be able to decide what key will be able to take screenshots.
 
 [[Category:Features]]
