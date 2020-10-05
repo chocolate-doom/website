@@ -1,4 +1,4 @@
-[[File:Marshmallows.jpg|thumb|right|The Marshmallow Doom icon]]
+[[File:newlogo.jpg|thumb|right|The Marshmallow Doom icon]]
 {{Doomwiki}}
 
 Marshmallow Doom is a source port which lightly sweetens classic Doom gameplay with new additions such as dynamic gameplay-driven music, cooperative bot players, persistent player stats, enhanced blood and gore, treasure items, new difficulty levels, customizable sandbox battles, a much-improved multiplayer experience, and more.
