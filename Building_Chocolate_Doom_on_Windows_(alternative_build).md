@@ -1,8 +1,8 @@
 {{Update me|Visual Studio and Code::Blocks files have been replaced by CMake, this article has not been changed to reflect this yet.}}
 [[Image:Chocowindows.png|right|thumb|Chocolate Doom on Windows XP]]
-The official way of building Chocolate Doom on Windows is [[Building Chocolate Doom on Windows|using Cygwin]].  However, the Chocolate Doom source code comes with alternative project files for building the code using Code::Blocks and Microsoft Visual Studio, for people who are more comfortable with those environments.
+The official way of building Chocolate Doom on Windows is [[Building Chocolate Doom on Windows|using MSYS2]].  However, the Chocolate Doom source code comes with alternative project files for building the code using Code::Blocks and Microsoft Visual Studio, for people who are more comfortable with those environments.
 
-You may find that these project files are sometimes slightly out of date and not up-to-date with the latest changes to the source code.  You're welcome to use these alternative build systems if you're more comfortable with them, but bear in mind that they are "unofficial". 
+You may find that these project files are sometimes slightly out of date and not up-to-date with the latest changes to the source code.  You're welcome to use these alternative build systems if you're more comfortable with them, but bear in mind that they are "unofficial".
 
 == Getting the required files ==
 The Chocolate Doom source code comes with a Code::Block workspace and projects and a Microsoft Visual C++ 2008 Express solution. Additionally, you will need to get the development libraries of [http://www.libsdl.org/download-1.2.php SDL], [http://www.libsdl.org/projects/SDL_mixer/release-1.2.html SDL_mixer] and [http://www.libsdl.org/projects/SDL_net/release-1.2.html SDL_net]. Make sure you get the right files for the compiler that you are going to use. Also make sure you use the 1.2 version of all files. There are currently 2.0 versions--these will not work with Chocolate Doom.
