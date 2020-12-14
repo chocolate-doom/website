@@ -121,6 +121,11 @@ You need to download [https://www.libsdl.org/download-2.0.php SDL2], [https://ww
 
 === Step 3: Compiling Chocolate Doom ===
 
-You need to open CMake after installation to bring up the GUI. Then, you select "browse source" to locate the folder that contains the source code. After that, you select "browse build" to locate the folder where the project files and the compiled binaries should be located. Typically, it would be inside a "build" folder within the source code folder.
+You need to open CMake after installation to bring up the GUI. 
+Then, select "browse source" to locate the folder that contains the source code. 
+After that, select "browse build" to locate the folder where the project files and the compiled binaries should be located. Typically, it would be inside a "build" folder within the source code folder. 
+Then select "configure." A window should pop up asking you what type of project files you want to create. Select either "Visual Studio XX 20XX" (the Xs represent the Version Number and Year) or "Code::Blocks Makefiles" (for Code::Blocks, it is best to manually specify the c and c++ compilers). For architecture, it is best to specify "Win32" instead of leaving it blank (that defaults to "x64" on 64-bit CMake binaries) since it won't benefit you in any way to build 64-bit binaries of Chocolate Doom. Once you select "okay", CMake will attempt to locate the c and c++ compilers (unless you already specified the compilers), and read every "CMakeList" files in the source code folder. Once it is all done, Some selections will appear on the GUI, this is the time to specify the locations of the SDL2 libraries and include files. Once that's done, select "generate" to generate the project files. 
+Finally, click "open project" to open the IDE you use, depending on the project files, and within the IDE, click "build" to build the binaries.
+When that's done, copy every DLL files from the SDL2 libraries to the directory where the compiled binaries are located.
 
 [[Category:Build instructions]]
