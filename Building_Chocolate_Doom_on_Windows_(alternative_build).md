@@ -114,6 +114,13 @@ You need to download CMake from [https://cmake.org/download/ here]. You can use 
 
 === Step 2: Installing the Development Libraries ===
 
-You need to download [https://www.libsdl.org/download-2.0.php SDL2], [https://www.libsdl.org/projects/SDL_net/ SDL2_net], and [https://www.libsdl.org/projects/SDL_mixer/ SDL2_mixer] for either Visual Studio (VC) or Code::Blocks (MinGW). It doesn't matter where you put them since you will use CMake to locate them. Though if preferred, you can place each of them 
+You need to download [https://www.libsdl.org/download-2.0.php SDL2], [https://www.libsdl.org/projects/SDL_net/ SDL2_net], and [https://www.libsdl.org/projects/SDL_mixer/ SDL2_mixer] for either Visual Studio (VC) or Code::Blocks (MinGW). It doesn't matter where you put them since you will use CMake to locate them. Though if preferred, you can place each of them in a folder called "sdl2" so you won't have to be hunting around for the libraries. If going in that direction, the folders might look like this:
+\sdl2\SDL2-2.0.12\
+\sdl2\SDL2_net-2.0.1\
+\sdl2\SDL2_mixer-2.0.4\
+
+=== Step 3: Compiling Chocolate Doom ===
+
+You need to open CMake after installation to bring up the GUI. Then, you select "browse source" to locate the folder that contains the source code. After that, you select "browse build" to locate the folder where the project files and the compiled binaries should be located. Typically, it would be inside a "build" folder within the source code folder.
 
 [[Category:Build instructions]]
