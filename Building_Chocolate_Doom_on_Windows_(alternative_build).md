@@ -114,6 +114,6 @@ You need to download CMake from [https://cmake.org/download/ here]. You can use 
 
 === Step 2: Installing the Development Libraries ===
 
-You need to download SDL2, SDL2_net, and SDL2_mixer for either Visual Studio or Code::Blocks (mingw).
+You need to download [https://www.libsdl.org/download-2.0.php SDL2], [https://www.libsdl.org/projects/SDL_net/ SDL2_net], and [https://www.libsdl.org/projects/SDL_mixer/ SDL2_mixer] for either Visual Studio (VC) or Code::Blocks (MinGW). It doesn't matter where you put them since you will use CMake to locate them. Though if preferred, you can place each of them 
 
 [[Category:Build instructions]]
