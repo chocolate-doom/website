@@ -104,5 +104,16 @@ After you open the workspace, you can select what type of build you want to crea
 
 At the end of the compilation process, you will find your new Chocolate Doom build in the 'bin' folder at the top of the source directory.
 
+== Using CMake ==
+
+The Chocolate Doom source code from git has recently been updated with a new build system utilizing CMake, which helps ease building on Windows since CMake can create project files for recent versions of Visual Studio and Code::Blocks and speed up the process of building Chocolate Doom on Windows for those who may not be comfortable building on MSYS2.
+
+=== Step 1: Getting CMake ===
+
+You need to download CMake from [https://cmake.org/download/ here]. You can use either the installer or the zip file. The architecture types on the download page doesn't matter for 64-bit machines, since the 64-bit CMake binaries can create projects for either 32 or 64-bit binaries.
+
+=== Step 2: Installing the Development Libraries ===
+
+You need to download SDL2, SDL2_net, and SDL2_mixer for either Visual Studio or Code::Blocks (mingw).
 
 [[Category:Build instructions]]
