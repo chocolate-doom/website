@@ -6,7 +6,7 @@ The port is, sadly, anything but perfect as it has a number of small issues that
 
 Another issue can be seen during game play - during some maps, a user may see the previous frame on the current one in what look a bit like [https://en.wikipedia.org/wiki/Interlaced_video interlacing]. There also seems to be slight stutter when playing maps as well as when the screen melt effect plays after you start a new level - this is perhaps the most clear problem with Mint Doom that would understandably put-off a person from using it simply for how detracting it can be at times.
 
-The final problem of note is that for some reason, if you turn the music down, it will also turn down the volume of the sound effects, but not the other way around. This problem can be semi-"fixed" by using the `-nomusic` command before starting up the port, however, this just simply moves the issue as now you have no music at all rather than having it be lower.
+The final problem of note is that for some reason, if you turn the music down, it will also turn down the volume of the sound effects, but not the other way around. This problem can be semi-"fixed" by using the <tt>-nomusic</tt> command before starting up the port, however, this just simply moves the issue as now you have no music at all rather than having it be lower.
 
 Unfortunately, overall, Mint Doom isn't a good port for Doom - if you are looking for a something changes some aspects but is semi-vanilla, [[Crispy Doom]] could be a good starting place.
 
