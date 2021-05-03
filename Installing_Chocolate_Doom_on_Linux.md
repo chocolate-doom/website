@@ -29,6 +29,8 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 '''[http://ports.su/games/chocolate-doom OpenBSD]''': <code>pkg_add chocolate-doom</code>
 
+'''[https://pkgsrc.se/games/chocolate-doom NetBSD]''': <code>pkg_add chocolate-doom</code>
+
 ==  Generic ==
 
 See [[Building Chocolate Doom on Linux]] for instructions on how to build from source.
