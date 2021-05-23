@@ -4,3 +4,6 @@ Screenshot showing Doom being played while using Manjaro Linux with the flavor b
 I'm using the latest version of the Chocolate Doom port, version 3.0.0, while also using the latest version of Freedoom, version 0.12.1 - how fun!
 
 The desktop background used can be found [https://neozones.club/~owly/bg.png here].
+
+{{Doom screenshot}}
+[[Category:Platform screenshots]]
