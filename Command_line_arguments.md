@@ -1,3 +1,5 @@
+[[Image:Running_a_Command_Line.png|right|320px|thumb|In this screenshot, a user is about to run a command line to open up Chocolate Doom. In this example, they will be running [[Fistful of Doom]] with [[Freedoom]] as the main IWAD.]]
+
 {{Doomwiki|Parameter}}
 Chocolate Doom supports the majority of Vanilla Doom's [[Doom:Parameter|command line arguments]]. However, several others have also been added:
 
