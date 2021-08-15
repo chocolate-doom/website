@@ -5,4 +5,6 @@ Today, many modern source ports of Doom will have the option to show this screen
 
 ENDOOM display is implemented in a cross-platform way, so ENDOOM screens are shown correctly on all Operating Systems and platforms. 
 
+If you are not a fan of this and wish to turn ENDOOM off, simply go to the settings for Chocolate Doom, select the "Configure Display" button, next click on "Advanced", after this, you can toggle the "Show ENDOOM screen on exit" option either on or off.
+
 [[Category:Features]]
