@@ -66,7 +66,6 @@ DOS: [https://github.com/JNechaevsky/russian-doom/releases/download/dos-1.8/russ
 
 '''Other'''
 
-History of changes for [https://jnechaevsky.github.io/projects/rusdoom/files/changelog_eng.html Windows] and [https://jnechaevsky.github.io/projects/rusdoom/files/changelog_dos_rus.html DOS] versions.
 <br />PNG font atlases: [https://jnechaevsky.github.io/projects/rusdoom/files/russian-doom-fonts-png.zip russian-doom-fonts-png.zip] 
 
 == Contact ==
