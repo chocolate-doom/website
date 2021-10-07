@@ -1,4 +1,4 @@
-[[File:Chocolate-doom-linux.png|thumb|right|Chocolate Doom running on Ubuntu 8.04.]]
+[[Image:Chocolate_doom_on_endeavouros.png|right|thumb|Chocolate Doom running on EndeavourOS, playing [https://www.doomworld.com/idgames/levels/doom2/megawads/doom404 Doom 404] map 20]]
 '''Installing Chocolate Doom on Linux''' is usually a matter of using your Linux distribution's package manager. Most popular Linux distributions have a Chocolate Doom install package.
 
 The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_not_distribute_Linux_binaries?|see here for why]]).
