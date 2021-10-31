@@ -5,6 +5,8 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 
 == Linux distributions ==
 
+'''[https://pkgs.alpinelinux.org/packages?name=chocolate-doom Alpine Linux]''': <code>sudo apk add chocolate-doom</code>
+
 '''[https://aur.archlinux.org/packages/chocolate-doom/ Arch Linux]''': <code>yay -S chocolate-doom</code>
 
 '''[https://packages.debian.org/stable/chocolate-doom Debian / Ubuntu]''': <code>apt install chocolate-doom</code>
@@ -22,6 +24,8 @@ The Chocolate Doom project does not distribute Linux binaries ([[FAQ#Why_do_you_
 '''[https://madb.mageia.org/package/show/name/chocolate-doom Mageia]''': <code>urpmi chocolate-doom</code>
 
 '''[https://software.opensuse.org/package/chocolate-doom OpenSuSE]''': <code>zypper install chocolate-doom</code>
+
+'''[https://github.com/void-linux/void-packages/tree/master/srcpkgs/chocolate-doom Void Linux]''': <code>sudo xbps-install chocolate-doom</code>
 
 == BSD ==
 
