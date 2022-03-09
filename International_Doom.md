@@ -1,10 +1,10 @@
 [[File:Russian_Doom_translations.png|thumb|320px|right|Translated games]]
 {{Doomwiki}}
-International Doom, formally called Russian Doom, is aimed at full and proper Russian translation of Doom, Heretic and Hexen games, as well as its setup executable and online help. Additionally, it has numerous vanilla bug fixes, enhanced 640x400 display resolution, improved game palettes, removed limits and offers many optional aesthetic game enhancements. 
+'''International Doom''' is a set of bilingual, limit-removing source ports, aimed for graphical enhancements and gameplay features, with preserving overall vanilla feeling. Initially it was started in 2016 as translation-only project, but further development was inspired by [[Crispy Doom]] and [[Doom Retro]] source ports (and continued with extensive support from their authors - Fabian Greffrath and Brad Harding). The project contains many efforts and bits of code from people around the world, that's why it's actually International. 
 
-Language choosing between English and Russian is available in the game options menu, as well as in the Setup executable.
+Language choosing between English and Russian is available in the game options menu.
 
-The project is based on [[Chocolate Doom]] and [[Crispy Doom]], with additions from [[Doom Retro]].
+International Doom was previously known as "Russian Doom", but was renamed in response to the [https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukrainelink Russian invasion of Ukraine].
 
 == Supported games ==
 
@@ -37,25 +37,22 @@ Windows version is compatible with Windows XP/Vista/7/8.1/10/11 (32-bit binaries
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
 
-'''International Doom 5.1 (released: December 26, 2021)'''
+'''International Doom 5.2.1 (released: March 8, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.1/russian-doom-5.1-win32.zip russian-doom-5.1-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.1/russian-doom-5.1-win64.zip russian-doom-5.1-win64.zip] 
-<br />Source code available in [https://github.com/JNechaevsky/inter-doom/archive/refs/tags/5.1.zip zip] and [https://github.com/JNechaevsky/inter-doom/archive/refs/tags/5.1.tar.gz tar.gz] formats
-
-
-'''International Heretic 5.0 (released: September 16, 2021)'''
-
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.0/russian-heretic-5.0-win32.zip russian-heretic-5.0-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.0/russian-heretic-5.0-win64.zip russian-heretic-5.0-win64.zip] 
-<br />Source code available in [https://github.com/JNechaevsky/inter-doom/archive/refs/tags/heretic-5.0.zip zip] and [https://github.com/JNechaevsky/inter-doom/archive/refs/tags/heretic-5.0.tar.gz tar.gz] formats
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.2.1/inter-doom-5.2.1-win32.zip inter-doom-5.2.1-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.2.1/inter-doom-5.2.1-win64.zip inter-doom-5.2.1-win64.zip] 
 
 
-'''International Hexen 4.2 (released: July 3, 2021)'''
+'''International Heretic 5.1.1 (released: March 8, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-4.2/russian-hexen-4.2-win32.zip russian-hexen-4.2-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-4.2/russian-hexen-4.2-win64.zip russian-hexen-4.2-win64.zip] 
-<br />Source code available in [https://github.com/JNechaevsky/inter-doom/archive/refs/tags/hexen-4.2.zip zip] and [https://github.com/JNechaevsky/inter-doom/archive/refs/tags/hexen-4.2.tar.gz tar.gz] formats
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.1.1/inter-heretic-5.1.1-win32.zip inter-heretic-5.1.1-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.1.1/inter-heretic-5.1.1-win64.zip inter-heretic-5.1.1-win64.zip] 
+
+
+'''International Hexen 5.0 (released: February 26, 2022)'''
+
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-5.0/inter-hexen-5.0-win32.zip inter-hexen-5.0-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-5.0/inter-hexen-5.0-win64.zip inter-hexen-5.0-win64.zip] 
 
 
 '''International Doom for DOS 1.8 (released: June 9, 2020)'''
@@ -66,12 +63,12 @@ DOS: [https://github.com/JNechaevsky/inter-doom/releases/download/dos-1.8/russia
 
 '''Other'''
 
-<br />PNG font atlases: [https://jnechaevsky.github.io/projects/rusdoom/files/russian-doom-fonts-png.zip russian-doom-fonts-png.zip] 
+PNG font atlases: [https://jnechaevsky.github.io/inter-doom/files/inter-doom-fonts-png.zip inter-doom-fonts-png.zip] 
 
 == Contact ==
 
-The project's homepage is: https://jnechaevsky.github.io/inter-doom
-<br />International Doom is created by [[doom:Julian_Nechaevsky|Julian Nechaevsky]].
+The project's homepage is: https://github.com/JNechaevsky/inter-doom
+<br />International Doom is created by [[doom:Julia_Nechaevskaya|Julia Nechaevskaya]].
 
 Please feel free to contact the author with any questions.
 
