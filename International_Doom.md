@@ -1,10 +1,10 @@
 [[File:Russian_Doom_translations.png|thumb|320px|right|Translated games]]
 {{Doomwiki}}
-'''International Doom''' is a set of bilingual, limit-removing source ports, aimed for graphical enhancements and gameplay features, with preserving overall vanilla feeling. Initially it was started in 2016 as translation-only project, but further development was inspired by [[Crispy Doom]] and [[Doom Retro]] source ports (and continued with extensive support from their authors - Fabian Greffrath and Brad Harding). The project contains many efforts and bits of code from people around the world, that's why it's actually International. 
+'''International Doom''' is a set of bilingual, limit-removing source ports, aimed for graphical enhancements and gameplay features, with preserving overall vanilla feeling. Initially, it was started in 2016 as a translation-only project, but further development was inspired by [[Crispy Doom]] and [[Doom Retro]] source ports (and continued with extensive support from their authors - Fabian Greffrath and Brad Harding). The project contains many efforts and bits of code from people around the world, that's why it's actually International. 
 
 Language choosing between English and Russian is available in the game options menu.
 
-International Doom was previously known as "Russian Doom", but was renamed in response to the [https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukrainelink Russian invasion of Ukraine].
+International Doom was previously known as "Russian Doom", but was renamed in response to the [https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine Russian invasion of Ukraine].
 
 == Supported games ==
 
