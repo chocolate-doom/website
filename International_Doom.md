@@ -37,22 +37,22 @@ Windows version is compatible with Windows XP/Vista/7/8.1/10/11 (32-bit binaries
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
 
-'''International Doom 5.2.1 (released: March 8, 2022)'''
+'''International Doom 5.3 (released: June 12, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.2.1/inter-doom-5.2.1-win32.zip inter-doom-5.2.1-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.2.1/inter-doom-5.2.1-win64.zip inter-doom-5.2.1-win64.zip] 
-
-
-'''International Heretic 5.1.1 (released: March 8, 2022)'''
-
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.1.1/inter-heretic-5.1.1-win32.zip inter-heretic-5.1.1-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.1.1/inter-heretic-5.1.1-win64.zip inter-heretic-5.1.1-win64.zip] 
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.3/inter-doom-5.3-win32.zip inter-doom-5.3-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.3/inter-doom-5.3-win64.zip inter-doom-5.3-win64.zip] 
 
 
-'''International Hexen 5.0 (released: February 26, 2022)'''
+'''International Heretic 5.2 (released: June 12, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-5.0/inter-hexen-5.0-win32.zip inter-hexen-5.0-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-5.0/inter-hexen-5.0-win64.zip inter-hexen-5.0-win64.zip] 
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.2/inter-heretic-5.2-win32.zip inter-heretic-5.2-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.2/inter-heretic-5.2-win64.zip inter-heretic-5.2-win64.zip] 
+
+
+'''International Hexen 5.1 (released: June 12, 2022)'''
+
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-5.1/inter-hexen-5.1-win32.zip inter-hexen-5.1-win32.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/hexen-5.1/inter-hexen-5.1-win64.zip inter-hexen-5.1-win64.zip] 
 
 
 '''International Doom for DOS 1.8 (released: June 9, 2020)'''
