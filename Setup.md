@@ -1,8 +1,8 @@
-[[File:Setup_program.png|thumb|right|350px|The setup program, running on Mac OS X.]]
+[[File:Chocolate-setup-icon.png|right]]
 The '''setup program''' is Chocolate Doom's configuration utility. Reproducing the look and feel of the original Doom [[doom:Setup_program|setup program]], it provides equivalent functionality, with support for some of Chocolate Doom's more advanced features. It is based on [[libtextscreen]], a Chocolate Doom library that emulates a DOS text mode display.
 
 == Configuration menus ==
-
+[[File:Setup_program.png|thumb|right|350px|Main menu of the setup program.]]
 The setup program is menu-driven. The main menu provides configuration options for several of the main features:
 
 * '''[[Setup/Display configuration|Configure Display]]''' - how Chocolate Doom is displayed: whether the game should run full-screen or in a window, and the resolution to use.
