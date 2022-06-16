@@ -1,3 +1,4 @@
+[[Image:Chocolate-hexen-logo.png|right]]
 '''Chocolate Hexen''' is a port of the [[wikipedia:Hexen|Hexen]] source code to the Chocolate Doom codebase. The aim is to develop a Hexen source port that includes the [[:Category:Features|features]] of Chocolate Doom.
 
 == Development ==
