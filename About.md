@@ -13,7 +13,7 @@ Chocolate Doom is written by [[doom:Simon Howard (Fraggle)|Simon Howard]], with 
 
 Chocolate Strife was developed by [[doom:James Haley (Quasar)|James Haley]] and [[doom:Samuel_Villarreal_(Kaiser)|Samuel Villarreal]] as part of a painstaking reverse engineering project ([[Chocolate Strife|read more about this]]).
 
-The Chocolate Doom icon (as shown at the top left of this page) is one of a series of chocolate-themed icons kindly [https://github.com/chocolate-doom/chocolate-doom/issues/1020#issuecomment-557849165 created for the project by Github user "clovehoof"]. Chocolate Doom's previous icon was based on a photo of an icecream by Chris Metcalf.
+The Chocolate Doom icon (as shown at the top left of this page) is one of [[:Category:Clovehoof icons|a series of chocolate-themed icons]] kindly [https://github.com/chocolate-doom/chocolate-doom/issues/1020#issuecomment-557849165 created for the project by Github user "clovehoof"]. Chocolate Doom's previous icon was based on a photo of an icecream by Chris Metcalf.
 
 == See also ==
 {{Doomwiki|Chocolate Doom}}
