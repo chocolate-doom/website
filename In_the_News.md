@@ -1,4 +1,4 @@
-Chocolate Doom's [[portability]] has made it a convenient target for people seeking to run Doom on esoteric computers (see the [https://itrunsdoom.tumblr.com/ It runs Doom!] blog). Here is a collection of news articles confirmed to have been using Chocolate Doom or one of its forks.
+Chocolate Doom's [[portability]] has made it convenient for people seeking to run Doom on esoteric computers (see the [https://itrunsdoom.tumblr.com/ It runs Doom!] blog). Here is a collection of news articles confirmed to have been using Chocolate Doom or one of its forks.
 
 '''Doom inside Doom''' (July 2022)
 
