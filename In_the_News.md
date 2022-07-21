@@ -44,6 +44,8 @@ In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a
 </blockquote>
 
 * [https://www.vice.com/en/article/pae887/you-can-play-doom-on-a-thermostat-because-of-course-you-can You Can Play ‘Doom’ On a Thermostat Because Of Course You Can] - Vice
+* [https://www.hackster.io/news/playing-doom-on-a-thermostat-6c9ad5e614d3 Playing Doom on a Thermostat] - Hackster
+* [https://hackaday.com/2017/05/22/doomed-thermostat/ Doomed Thermostat] - Hackaday
 
 '''Doom on a Chainsaw''' (May 2016)
 
