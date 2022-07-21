@@ -45,6 +45,7 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 </blockquote>
 
 * [https://www.kotaku.com.au/2020/05/doom-myki-card-reader/ Myki Card Readers Can Play DOOM Too] - Kotaku Australia
+* [https://press-start.com.au/news/2020/05/09/someone-got-doom-running-on-a-melbourne-myki-reader/ Someone got Doom running on a melbourne Myki reader] - Press Start Australia
 
 '''Doom on a Thermostat''' (May 2017)
 
