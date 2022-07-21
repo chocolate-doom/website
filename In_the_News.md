@@ -35,6 +35,16 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 
 * [https://www.kotaku.com.au/2020/05/doom-myki-card-reader/ Myki Card Readers Can Play DOOM Too] - Kotaku Australia
 
+'''Doom on a Thermostat''' (May 2017)
+
+<blockquote>
+In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a Honeywell Prestige thermostat hooked up to a SNES controller that appears to run Doom quite nicely.
+
+"An outcome of my recent project—porting Doom on a thermostat," explains cz7 asm. "A really nice piece of hardware on a well engineered board using ARM9 processor. The Doom engine is based on Chocolate Doom and also its STM32F429 port."
+</blockquote>
+
+* [https://www.vice.com/en/article/pae887/you-can-play-doom-on-a-thermostat-because-of-course-you-can You Can Play ‘Doom’ On a Thermostat Because Of Course You Can] - Vice
+
 '''Doom on a Chainsaw''' (May 2016)
 
 <blockquote>
