@@ -25,6 +25,17 @@ While Sanderson did not use code from the other minimalist Doom ports out in the
 * [https://www.tomshardware.com/news/raspberry-pi-pico-runs-doom Raspberry Pi Pico Receives Playable Doom Port] - Tom's Hardware
 * [https://www.forbes.com/sites/barrycollins/2022/03/15/doom-now-playable-on-a-4-raspberry-pi-pico/ Doom Now Playable On A $4 Raspberry Pi Pico] - Forbes
 
+'''Doom on a pregnancy test''' (Sep 2020)
+
+<blockquote>
+No "first-person shooter" jokes, please: A hardware wonk has successfully played Doom on a pregnancy test. By removing most of the interior of the test, including the original CPU, Foone Turing used its tiny one-color display first to stream video of the classic video game, and then actually play it.
+</blockquote>
+
+Articles don't mention but this is confirmed to be using Chocolate Doom ([https://twitter.com/Foone/status/1303584033637498880 citation]).
+
+* [https://www.popularmechanics.com/science/a33957256/this-programmer-figured-out-how-to-play-doom-on-a-pregnancy-test/ This Programmer Figured Out How to Play Doom on a Pregnancy Test] - Popular Mechanics
+* [https://mashable.com/article/pregnancy-test-doom Guy runs 'Doom' on a pregnancy test and wait, what?] - Mashable
+
 '''Myki Card Readers''' (May 2020)
 
 <blockquote>
