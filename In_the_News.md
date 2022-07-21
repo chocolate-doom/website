@@ -24,6 +24,19 @@ While Sanderson did not use code from the other minimalist Doom ports out in the
 * [https://www.zdnet.com/article/now-you-can-play-doom-on-a-raspberry-pi-pico/ Now you can play Doom on a Raspberry Pi Pico] - ZDnet
 * [https://www.tomshardware.com/news/raspberry-pi-pico-runs-doom Raspberry Pi Pico Receives Playable Doom Port] - Tom's Hardware
 * [https://www.forbes.com/sites/barrycollins/2022/03/15/doom-now-playable-on-a-4-raspberry-pi-pico/ Doom Now Playable On A $4 Raspberry Pi Pico] - Forbes
+'''Doom on Game & Watch''' (November 2020)
+
+<blockquote>
+Naturally, hardware hacking channel Stacksmashing took the thing apart to see what else the teeny piece of kit could run. There was, of course, only one answer. 
+
+"After I posted my last video about hacking the new Nintendo Game & Watch, the people [...] made one thing very clear: The Game & Watch has to run Doom."
+</blockquote>
+
+The port is [https://github.com/ghidraninja/game-and-watch-doom/tree/master/Core/chocdoom based on Chocolate Doom].
+
+* [https://www.theverge.com/2020/11/23/21611884/nintendo-game-and-watch-doom-port-hack-homebrew-games Nintendo’s Game & Watch can run Doom, barely] - The Verge
+* [https://www.gamesradar.com/nintendo-game-and-watch-latest-platform-to-run-doom/ Nintendo Game & Watch latest platform to run Doom] - GamesRadar
+* [https://www.pcgamer.com/of-course-doom-can-run-on-nintendos-game-and-watch-alarm-clock/ Of course Doom can run on Nintendo's Game & Watch alarm clock] - PC Gamer
 
 '''Doom on a pregnancy test''' (Sep 2020)
 
