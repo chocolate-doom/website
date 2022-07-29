@@ -13,6 +13,7 @@ The video is basically a mini-documentary of kgsws' process, but if you want to 
 * [https://www.ign.com/articles/doom-can-now-be-played-in-doom Doom Can Now Be Played In Doom] - IGN
 
 '''Doom ported to the Raspberry Pi Pico''' (March 2022)
+{{#ev:youtube|vXr7tOR3dis|300x225|right}}
 
 <blockquote>
 The port was performed by Graham Sanderson and the full shareware game (DOOM1.WAD) is playable on a vanilla Pi Pico (with 2MB of flash storage). "RP2040 boards with 8M should be able to play at least the full Ultimate Doom and DOOM II WADs," he said.
