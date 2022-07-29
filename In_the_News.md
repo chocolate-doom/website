@@ -26,7 +26,9 @@ While Sanderson did not use code from the other minimalist Doom ports out in the
 * [https://www.zdnet.com/article/now-you-can-play-doom-on-a-raspberry-pi-pico/ Now you can play Doom on a Raspberry Pi Pico] - ZDnet
 * [https://www.tomshardware.com/news/raspberry-pi-pico-runs-doom Raspberry Pi Pico Receives Playable Doom Port] - Tom's Hardware
 * [https://www.forbes.com/sites/barrycollins/2022/03/15/doom-now-playable-on-a-4-raspberry-pi-pico/ Doom Now Playable On A $4 Raspberry Pi Pico] - Forbes
-'''Doom on Game & Watch''' (November 2020)
+
+=== Doom on Game & Watch (November 2020) ===
+{{#ev:youtube|sNg_S9UM5ps|300x225|right}}
 
 <blockquote>
 Naturally, hardware hacking channel Stacksmashing took the thing apart to see what else the teeny piece of kit could run. There was, of course, only one answer. 
