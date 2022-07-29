@@ -51,6 +51,7 @@ Articles don't mention but this is confirmed to be using Chocolate Doom ([https:
 * [https://mashable.com/article/pregnancy-test-doom Guy runs 'Doom' on a pregnancy test and wait, what?] - Mashable
 
 === Myki Card Readers (May 2020) ===
+{{#ev:youtube|M9QtT13CDl0|300x225|right}}
 
 <blockquote>
 If you’ve ever wondered whether those dodgy card readers in Melbourne are capable of doing something greater, yes: they can run DOOM.
@@ -62,7 +63,6 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 * [https://press-start.com.au/news/2020/05/09/someone-got-doom-running-on-a-melbourne-myki-reader/ Someone got Doom running on a melbourne Myki reader] - Press Start Australia
 
 === Doom on a Thermostat (May 2017) ===
-{{#ev:youtube|M9QtT13CDl0|300x225|right}}
 
 <blockquote>
 In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a Honeywell Prestige thermostat hooked up to a SNES controller that appears to run Doom quite nicely.
