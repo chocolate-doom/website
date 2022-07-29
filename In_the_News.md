@@ -1,6 +1,7 @@
 Chocolate Doom's [[portability]] has made it convenient for people seeking to run Doom on esoteric computers (see the [https://itrunsdoom.tumblr.com/ It runs Doom!] blog). Here is a collection of news articles confirmed to have been using Chocolate Doom or one of its forks.
 
 === Doom inside Doom (July 2022) ===
+{{#ev:youtube|c6hnQ1RKhbo|300x225|right}}
 
 <blockquote>
 YouTuber and Doomworld community member kgsws has set a new standard for, well, something with this brilliant bit of techno-recursion: Doom running in Doom [...]
@@ -12,8 +13,8 @@ The video is basically a mini-documentary of kgsws' process, but if you want to 
 * [https://www.wired.co.uk/article/doom-runs-inside-doom You can now play Doom inside Doom] - Wired UK
 * [https://www.ign.com/articles/doom-can-now-be-played-in-doom Doom Can Now Be Played In Doom] - IGN
 
-{{#ev:youtube|vXr7tOR3dis|300x225|right}}
 === Doom ported to the Raspberry Pi Pico (March 2022) ===
+{{#ev:youtube|vXr7tOR3dis|300x225|right}}
 
 <blockquote>
 The port was performed by Graham Sanderson and the full shareware game (DOOM1.WAD) is playable on a vanilla Pi Pico (with 2MB of flash storage). "RP2040 boards with 8M should be able to play at least the full Ultimate Doom and DOOM II WADs," he said.
@@ -63,6 +64,7 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 * [https://press-start.com.au/news/2020/05/09/someone-got-doom-running-on-a-melbourne-myki-reader/ Someone got Doom running on a melbourne Myki reader] - Press Start Australia
 
 === Doom on a Thermostat (May 2017) ===
+{{#ev:youtube|2T5LyEjLfP8|300x225|right}}
 
 <blockquote>
 In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a Honeywell Prestige thermostat hooked up to a SNES controller that appears to run Doom quite nicely.
