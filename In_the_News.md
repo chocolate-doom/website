@@ -1,6 +1,6 @@
 Chocolate Doom's [[portability]] has made it convenient for people seeking to run Doom on esoteric computers (see the [https://itrunsdoom.tumblr.com/ It runs Doom!] blog). Here is a collection of news articles confirmed to have been using Chocolate Doom or one of its forks.
 
-'''Doom inside Doom''' (July 2022)
+=== Doom inside Doom (July 2022) ===
 
 <blockquote>
 YouTuber and Doomworld community member kgsws has set a new standard for, well, something with this brilliant bit of techno-recursion: Doom running in Doom [...]
@@ -12,8 +12,8 @@ The video is basically a mini-documentary of kgsws' process, but if you want to 
 * [https://www.wired.co.uk/article/doom-runs-inside-doom You can now play Doom inside Doom] - Wired UK
 * [https://www.ign.com/articles/doom-can-now-be-played-in-doom Doom Can Now Be Played In Doom] - IGN
 
-'''Doom ported to the Raspberry Pi Pico''' (March 2022)
 {{#ev:youtube|vXr7tOR3dis|300x225|right}}
+=== Doom ported to the Raspberry Pi Pico (March 2022) ===
 
 <blockquote>
 The port was performed by Graham Sanderson and the full shareware game (DOOM1.WAD) is playable on a vanilla Pi Pico (with 2MB of flash storage). "RP2040 boards with 8M should be able to play at least the full Ultimate Doom and DOOM II WADs," he said.
@@ -39,7 +39,7 @@ The port is [https://github.com/ghidraninja/game-and-watch-doom/tree/master/Core
 * [https://www.gamesradar.com/nintendo-game-and-watch-latest-platform-to-run-doom/ Nintendo Game & Watch latest platform to run Doom] - GamesRadar
 * [https://www.pcgamer.com/of-course-doom-can-run-on-nintendos-game-and-watch-alarm-clock/ Of course Doom can run on Nintendo's Game & Watch alarm clock] - PC Gamer
 
-'''Doom on a pregnancy test''' (Sep 2020)
+=== Doom on a pregnancy test (Sep 2020) ===
 
 <blockquote>
 No "first-person shooter" jokes, please: A hardware wonk has successfully played Doom on a pregnancy test. By removing most of the interior of the test, including the original CPU, Foone Turing used its tiny one-color display first to stream video of the classic video game, and then actually play it.
@@ -50,7 +50,7 @@ Articles don't mention but this is confirmed to be using Chocolate Doom ([https:
 * [https://www.popularmechanics.com/science/a33957256/this-programmer-figured-out-how-to-play-doom-on-a-pregnancy-test/ This Programmer Figured Out How to Play Doom on a Pregnancy Test] - Popular Mechanics
 * [https://mashable.com/article/pregnancy-test-doom Guy runs 'Doom' on a pregnancy test and wait, what?] - Mashable
 
-'''Myki Card Readers''' (May 2020)
+=== Myki Card Readers (May 2020) ===
 
 <blockquote>
 If you’ve ever wondered whether those dodgy card readers in Melbourne are capable of doing something greater, yes: they can run DOOM.
@@ -61,7 +61,7 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 * [https://www.kotaku.com.au/2020/05/doom-myki-card-reader/ Myki Card Readers Can Play DOOM Too] - Kotaku Australia
 * [https://press-start.com.au/news/2020/05/09/someone-got-doom-running-on-a-melbourne-myki-reader/ Someone got Doom running on a melbourne Myki reader] - Press Start Australia
 
-'''Doom on a Thermostat''' (May 2017)
+=== Doom on a Thermostat (May 2017) ===
 
 <blockquote>
 In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a Honeywell Prestige thermostat hooked up to a SNES controller that appears to run Doom quite nicely.
@@ -73,7 +73,7 @@ In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a
 * [https://www.hackster.io/news/playing-doom-on-a-thermostat-6c9ad5e614d3 Playing Doom on a Thermostat] - Hackster
 * [https://hackaday.com/2017/05/22/doomed-thermostat/ Doomed Thermostat] - Hackaday
 
-'''Doom on a Chainsaw''' (May 2016)
+=== Doom on a Chainsaw (May 2016) ===
 
 <blockquote>
 Bethesda and id Software's Doom reboot is just a few days out, which makes this the ideal time to have a look at Doom 2 running on a chainsaw. But not just any chainsaw, no: This is the Painsaw. 
