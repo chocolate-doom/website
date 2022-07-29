@@ -62,6 +62,7 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 * [https://press-start.com.au/news/2020/05/09/someone-got-doom-running-on-a-melbourne-myki-reader/ Someone got Doom running on a melbourne Myki reader] - Press Start Australia
 
 === Doom on a Thermostat (May 2017) ===
+{{#ev:youtube|M9QtT13CDl0|300x225|right}}
 
 <blockquote>
 In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a Honeywell Prestige thermostat hooked up to a SNES controller that appears to run Doom quite nicely.
@@ -74,6 +75,7 @@ In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat—a
 * [https://hackaday.com/2017/05/22/doomed-thermostat/ Doomed Thermostat] - Hackaday
 
 === Doom on a Chainsaw (May 2016) ===
+{{#ev:youtube|uZqjrvAOBm4|300x225|right}}
 
 <blockquote>
 Bethesda and id Software's Doom reboot is just a few days out, which makes this the ideal time to have a look at Doom 2 running on a chainsaw. But not just any chainsaw, no: This is the Painsaw. 
