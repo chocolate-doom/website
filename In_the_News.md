@@ -27,6 +27,20 @@ While Sanderson did not use code from the other minimalist Doom ports out in the
 * [https://www.tomshardware.com/news/raspberry-pi-pico-runs-doom Raspberry Pi Pico Receives Playable Doom Port] - Tom's Hardware
 * [https://www.forbes.com/sites/barrycollins/2022/03/15/doom-now-playable-on-a-4-raspberry-pi-pico/ Doom Now Playable On A $4 Raspberry Pi Pico] - Forbes
 
+=== Multiplayer Doom on Cloudflare Workers ===
+[[File:Cloudflare-edge-doom.png|thumb|right|Logo from Cloudflare's writeup about porting Chocolate Doom to run on Cloudflare edge workers.]]
+<blockquote>
+There are halls and corridors in Cloudflare engineering, dangerous places for innocent wanderers, filled with wild project ideas, experiments that we should do, and extremely convincing proponents. A couple of months ago, John Graham-Cumming, our CTO, bumped into me in one of those places and asked: "What if we ported Doom multiplayer to work with our edge network?". He fatally nerd-sniped me.
+
+[...]
+
+We also found '''Chocolate Doom''', a modern, community-driven, well-maintained port that aims to reproduce the original DOS version of Doom and has a few bonuses, like networked multiplayer support, and a decent, readable, and modular codebase. Perfect match.
+
+Long story short, we got Emscripten to compile Chocolate Doom a few days later. It felt like magic when we saw Doom running in a browser window for the first time. The magic is WebAssembly.
+</blockquote>
+* [https://blog.cloudflare.com/doom-multiplayer-workers/ Multiplayer Doom on Cloudflare Workers]
+* [https://silentspacemarine.com/ silentspacemarine.com] - live demo
+
 === Doom on Game & Watch (November 2020) ===
 {{#ev:youtube|sNg_S9UM5ps|300x225|right}}
 
