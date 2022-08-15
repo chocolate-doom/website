@@ -9,6 +9,8 @@ Older versions of Chocolate Doom were ported to Windows CE, but support has sinc
 
 * [https://www.chocolate-doom.org/downloads/1.3.0/chocolate-doom-1.3.0-wince.cab chocolate-doom-1.3.0-wince.cab]
 
+There is only an ARM binary. For other CPUs you might want to try [[doom:Doom for Pocket PC]] or [[doom:CellDoom]].
+
 You'll also need to copy an [[doom:IWAD#IWAD_files|IWAD file]] onto the device in order to play. The easiest thing to do is to download [https://www.doomworld.com/idgames/idstuff/doom/win95/doom95 Doom95 shareware] and extract DOOM1.WAD from the .zip.
 
 == Various hacked devices running Chocolate Doom ==
