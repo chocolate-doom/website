@@ -1,3 +1,4 @@
+{{#ev:youtube|KWj1tHQIkXw|300x225|right}}
 '''Windows CE''' (also known as '''Windows Mobile''', '''Pocket PC''', and '''Windows Embedded Compact''', among other names) is a now-defunct embedded operating system originally developed by Microsoft in the late '90s.
 
 Originally targeting handheld devices ([[wikipedia:Palmtop PC|palmtops]]), the OS was also used for a number of embedded applications since it implemented a subset of the [[wikipedia:Windows API|win32 API]] while being able to run on machines with a much smaller footprint.
