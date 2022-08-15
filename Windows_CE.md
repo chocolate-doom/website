@@ -19,3 +19,10 @@ You'll also need to copy an [[doom:IWAD#IWAD_files|IWAD file]] onto the device i
 * [https://ripitapart.com/2019/08/30/hacking-into-windows-ce-and-doom-on-the-magellan-roadmate-1412-gps-receiver/ Magellan RoadMate 1412] - also Jason Gin (August 2019)
 * [https://www.reddit.com/r/melbourne/comments/gfhenf/gaming_on_my_myki_reader/ Myki ticket validator] by Reddit user u/zbios (May 2020)
 * [https://twitter.com/kwiens/status/1558688970799648769 John Deere tractor] by "Sick Codes" (August 2022). Link shows the hack being presented at DefCon.
+
+== Screenshots ==
+
+<gallery widths="200">
+File:Windows-Mobile-002.png|Playing E1M1 on an iPAQ rx1950.
+File:Windows-Mobile-009.png|Getting shredded by an imp (iPAQ rx1950)
+</gallery>
