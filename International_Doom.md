@@ -37,10 +37,10 @@ Windows version is compatible with Windows XP/Vista/7/8.1/10/11 (32-bit binaries
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
 
-'''International Doom 5.3 (released: June 12, 2022)'''
+'''International Doom 6.0 (released: September 16, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.3/inter-doom-5.3-win32.zip inter-doom-5.3-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/5.3/inter-doom-5.3-win64.zip inter-doom-5.3-win64.zip] 
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/6.0/inter-doom-6.0-windows-x86.zip inter-doom-6.0-windows-x86.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/6.0/inter-doom-6.0-windows-x64.zip inter-doom-6.0-windows-x64.zip] 
 
 
 '''International Heretic 5.2 (released: June 12, 2022)'''
