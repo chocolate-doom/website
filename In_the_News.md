@@ -79,6 +79,20 @@ One cheeky Melbournian managed to take a Myki card reader home with them – how
 * [https://www.kotaku.com.au/2020/05/doom-myki-card-reader/ Myki Card Readers Can Play DOOM Too] - Kotaku Australia
 * [https://press-start.com.au/news/2020/05/09/someone-got-doom-running-on-a-melbourne-myki-reader/ Someone got Doom running on a melbourne Myki reader] - Press Start Australia
 
+=== Doom on NES (June 2019) ===
+{{#ev:youtube|gCWhWBtu0LA|300x225|right}}
+<blockquote>
+Doom is one of my favorite games, which is convenient because it will run on almost any device. Digital cameras, old Nokia phones, a Zune, you name it. If it can be connected to a screen, someone has probably modded it to run Doom, and if they haven't, someone is probably working on it.
+
+The original Nintendo Entertainment System is a notable exception to the rule, but an understandable one given that it's just not powerful enough. First released in Japan in 1983, the NES had 2kb of RAM and was designed to run 8-bit games, while 1993's Doom is one of the earliest 3D games that required 8mb of RAM. These immutable facts did not prevent YouTuber TheRasteri from getting an NES to run Doom…sort of.
+</blockquote>
+
+(TheRasteri mentions in the video that his port is based on Chocolate Doom)
+
+* [https://www.vice.com/en/article/gy48j4/how-to-run-doom-on-an-nes How to Run 'Doom' on an NES] - Vice
+* [https://www.pcmag.com/news/play-doom-on-nes-thanks-to-this-custom-raspberry-pi-pcb Play Doom on NES Thanks to This Custom Raspberry Pi PCB] - PC Magazine
+* [https://www.tomshardware.com/news/custom-raspberry-pi-pcb-lets-you-play-doom-on-an-nes Custom Raspberry Pi PCB Lets You Play Doom on an NES] - Tom's Hardware
+
 === Doom on a Thermostat (May 2017) ===
 {{#ev:youtube|2T5LyEjLfP8|300x225|right}}
 
