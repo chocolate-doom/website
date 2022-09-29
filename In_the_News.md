@@ -1,5 +1,19 @@
 Chocolate Doom's [[portability]] has made it convenient for people seeking to run Doom on esoteric computers (see the [https://itrunsdoom.tumblr.com/ It runs Doom!] blog). Here is a collection of news articles confirmed to have been using Chocolate Doom or one of its forks.
 
+=== Doom on a John Deere Tractor (September 2022) ===
+
+{{#ev:youtube|z2_TLz9TpwY|300x225|right}}
+<blockquote>
+One day, the classic 90s shooter Doom will be playable on every single electronic device with a screen. We aren’t quite there yet, but thanks to some crafty hackers you can now play id’s seminal shooter on a jailbroken farm tractor because we live in the weirdest, dumbest cyberpunk future imaginable.
+
+Over the weekend in Las Vegas, DefCon 2022—a large annual convention dedicated to hacking and computers—happened and, during the event, some modders showed off a jailbroken tractor computer. The tractor computer was hacked by Sick Codes as part of an effort to bring more awareness to how little control farmers have over their own equipment, which is often running proprietary software and can’t be easily modded or repaired.
+</blockquote>
+The Chocolate Doom icon can be seen in the upper left corner of the window during the Doom demo.
+
+* [https://kotaku.com/doom-mod-farm-tractor-pc-hack-defcon-2022-id-fps-1849414342 Someone Got Doom Running On A Farm Tractor] - Kotaku
+* [https://www.abc.net.au/news/rural/2022-08-24/tractor-hack-reveals-food-supply-vulnerable/101360062 John Deere tractor hack reveals food supply vulnerable to cyber attacks] - ABC News
+* [https://www.wired.com/story/john-deere-tractor-jailbreak-defcon-2022/ A New Jailbreak for John Deere Tractors Rides the Right-to-Repair Wave] - WIRED
+
 === Doom inside Doom (July 2022) ===
 {{#ev:youtube|c6hnQ1RKhbo|300x225|right}}
 
