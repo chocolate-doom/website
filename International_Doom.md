@@ -37,16 +37,16 @@ Windows version is compatible with Windows XP/Vista/7/8.1/10/11 (32-bit binaries
 <br />DOS version is compatible with MS-DOS, FreeDOS and DOSBox emulator.
 
 
-'''International Doom 6.0 (released: September 16, 2022)'''
+'''International Doom 6.1 (released: December 31, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/6.0/inter-doom-6.0-windows-x86.zip inter-doom-6.0-windows-x86.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/6.0/inter-doom-6.0-windows-x64.zip inter-doom-6.0-windows-x64.zip] 
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/6.1/inter-doom-6.1-windows-x86.zip inter-doom-6.1-windows-x86.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/6.1/inter-doom-6.1-windows-x64.zip inter-doom-6.1-windows-x64.zip] 
 
 
-'''International Heretic 5.2 (released: June 12, 2022)'''
+'''International Heretic 6.0 (released: December 31, 2022)'''
 
-Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.2/inter-heretic-5.2-win32.zip inter-heretic-5.2-win32.zip] 
-<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-5.2/inter-heretic-5.2-win64.zip inter-heretic-5.2-win64.zip] 
+Windows (32-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-6.0/inter-heretic-6.0-windows-x86.zip inter-heretic-6.0-windows-x86.zip] 
+<br />Windows (64-bit): [https://github.com/JNechaevsky/inter-doom/releases/download/heretic-6.0/inter-heretic-6.0-windows-x64.zip inter-heretic-6.0-windows-x64.zip] 
 
 
 '''International Hexen 5.1 (released: June 12, 2022)'''
