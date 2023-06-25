@@ -33,6 +33,5 @@ There are many ways to help out the project:
 * [https://github.com/chocolate-doom/chocolate-doom/issues Submit a bug report] if you find a problem.  Feature requests are also welcome as long as they are within the scope of the project.
 * If you're a programmer, you're welcome to submit patches / send pull requests.
 * [[Contributing to the Wiki|Contribute]] to the Wiki!
-* If you use IRC, join [irc://irc.oftc.net/chocolate-doom #chocolate-doom] and help to answer questions!
 
 __NOTOC__
