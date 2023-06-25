@@ -77,7 +77,7 @@ On Microsoft Windows, you could create a file named "Doom 1.cmd" (make sure your
 === How do I play fan-made levels (WADs) and other modifications? ===
 For most levels, you simply need to use the <tt>-file level.wad</tt> command line parameter, however this is not always the case.  Most levels will come with an accompanying text file which will describe the intended usage.  Depending on the WAD, you may need to use options relating to [[Command line arguments#Dehacked and WAD merging|DeHackEd and WAD Merging]] features. In particular, if the WAD contains replacement sprites you may want to try using <tt>-merge</tt> instead of <tt>-file</tt>.
 
-Some older WADs came in pre-compressed formats that may be difficult unpack on modern operating systems; in these cases, you may need to install them in [http://www.dosbox.com/ DOSBox] initially.  Feel free to [[#Where can I get help with using Chocolate Doom?|ask for help]] on the Chocolate Doom IRC, Discord, or Doomworld forums if you can't figure it out!
+Some older WADs came in pre-compressed formats that may be difficult unpack on modern operating systems; in these cases, you may need to install them in [http://www.dosbox.com/ DOSBox] initially.  Feel free to [[#Where can I get help with using Chocolate Doom?|ask for help]] on the Chocolate Doom Discord or Doomworld forums if you can't figure it out!
 
 === Why do you not distribute Linux binaries? ===
 
@@ -97,7 +97,7 @@ NOTE: Some third party "guides" suggest changing the Steam installation of Doom 
 
 Several avenues of help are available:
 
-* The easiest way to get help is to join the [https://discord.gg/fsVZfEE Chocolate Doom Discord server], there is also a Chocolate Doom [[wikipedia:Internet Relay Chat|IRC]] channel. Connect to the server ''irc.oftc.net'' using your favorite IRC client, and join ''#chocolate-doom''.
+* The easiest way to get help is to join the [https://discord.gg/fsVZfEE Chocolate Doom Discord guild]
 * The [https://www.doomworld.com/vb/ Doomworld forums] contain many knowledgeable people who may be able to answer your questions.  You will need to register an account in order to post.  There is a [https://www.doomworld.com/vb/source-ports/86366-chocolate-doom/ long-running thread] where questions can be asked and it is usually better to ask questions here rather than creating a new thread.
 * Finally, it is possible to contact the developers of Chocolate Doom by sending an email to the development list: email ''chocolate-doom-dev-list@doomdoomdoom.chocolate-doom.org'', removing the "doomdoomdoom" part from that address.
 
