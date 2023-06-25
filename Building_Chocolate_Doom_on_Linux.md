@@ -12,7 +12,7 @@ If your distribution is not in the above list, you can try the [[Building Chocol
 
 == Getting help ==
 
-If you have trouble in getting Chocolate Doom to work, feel free to join the [irc://irc.oftc.net/chocolate-doom Chocolate Doom IRC channel] (irc.oftc.net #chocolate-doom) to ask for help - if you are on Discord, [https://discord.gg/fsVZfEE join the official server], there are experienced Linux users there who are willing and able to help with any issues that you might come across.
+If you have trouble in getting Chocolate Doom to work, feel free to [https://discord.gg/fsVZfEE join the official Discord guild], there are experienced Linux users there who are willing and able to help with any issues that you might come across.
 
 
 [[Category:Build instructions]]
