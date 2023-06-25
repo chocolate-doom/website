@@ -12,7 +12,6 @@
 You can get help online from several sources:
 
 ; Discord [https://discord.gg/fsVZfEE Chocolate Doomslayers]: Active Discord server with 200 and growing members.
-; IRC [irc://irc.oftc.net/chocolate-doom #chocolate-doom]: Contains Chocolate Doom users knowledgeable about the port. IRC web chat is available [https://webchat.oftc.net// here].
 ; Doomworld forums [https://www.doomworld.com/vb/source-ports/86366-chocolate-doom/ discussion thread]: The Doomworld forums contain many experts on the subject who may be able to answer your questions.
 ; Email [mailto:chocolate-doom-dev-list@chocolate-doom.org the Chocolate Doom development mailing list]: Contact the authors of the source port directly.
 
