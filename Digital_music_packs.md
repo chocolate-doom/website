@@ -72,10 +72,10 @@ edf4f6bf3a43a9a6fc095ae259c2add1a69e28a4 = D_ROMERO.ogg
 
 Name the file e.g. ''tnt-music.cfg'' and place it in the main music pack folder.
 
-At this state, ''tnt-music.cfg'' file still does not solve our conflict issue, since it still tells Chocolate Doom to look for the music track using the same default names. But we can solve this, by editing the file, specifically the rightmost part of each line containing the associated file name.
+At this state, the ''tnt-music.cfg'' file does not solve our conflict issue, since it still tells Chocolate Doom to look for the music tracks using the same default file names. But we can solve this, by editing the file, specifically the rightmost part of each line containing the associated file name.
 
 For example, let us add a subfolder ''tnt-music'' prefix to each file name.
-And while we are at it, let us replace the .ogg extension by the variable .{ext}, so it would also work with FLAC or MP3 files.
+And while we are at it, let us replace the .ogg extension with the variable .{ext}, so it would also work with FLAC or MP3 files.
 
  <nowiki>
 # Example Chocolate Doom substitute MIDI file.
