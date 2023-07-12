@@ -1,4 +1,4 @@
-[[File:Russian_Doom_translations.png|thumb|320px|right|Translated games]]
+[[File:Russian_Doom_translations.png|thumb|256px|right|International Doom logo]]
 {{Doomwiki}}
 '''International Doom''' is a small, functional and simple source port, created with help, efforts and bits of code from people around the world. It is based on [[Chocolate Doom]] and [[Crispy Doom]], with significant additions from [[Doom Retro]].
 
