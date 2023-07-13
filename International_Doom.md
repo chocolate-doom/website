@@ -18,7 +18,11 @@ International Doom was previously known as "Russian Doom", but was renamed in re
 * Support for nodes in extended format (ZDBSP and DeePBSP).
 * Support for BEX/DEHEXTRA DeHackEd extensions.
 
-Note: no BOOM/MBF/MBF21 compatibility is implemented.
+== Compatibility ==
+
+Gameplay features from "Physical" and "Compatibility-breaking" sections are putting changes in game mechanics, making it no longer 100% original. However, these features are optional and never active in multiplayer and demo recording/playing to provide maximum compatibility and prevent desyncs.
+
+Support BOOM/MBF/MBF21 is not implemented.
 
 == Supported games ==
 
