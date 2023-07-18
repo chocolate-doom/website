@@ -44,6 +44,8 @@ International Doom 7.0 (released: July 7, 2023)
 
 Windows version is compatible with Windows 7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
 
+Starting from version 7.0 support for DOS version, Heretic and Hexen, as well as translation has been dropped, but these games are still available in [https://github.com/russian-doom separated repository].
+
 == Contact ==
 
 The project's homepage is: https://github.com/JNechaevsky/international-doom
