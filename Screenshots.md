@@ -14,7 +14,7 @@ The screenshot should show the game:
 Chocolate Doom is [[portability|portable]] to multiple operating systems and processor architectures:
 
 <gallery widths="200">
-Image:Chocolate_Windows_10.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 7|10]])
+Image:Chocolate_Windows_10.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 10|10]])
 Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|Mac OS X]]
 Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
 
