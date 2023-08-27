@@ -21,7 +21,7 @@ Chocolate Doom allows considerably more configuration than the original versions
 == Miscellaneous ==
 '''Always run''' toggles whether the player is permanently in the running state, without the slower walking speed available. This is actually implemented as an emulation of a bug in the original versions: where setting the joystick run button to an invalid high number causes the game to always have it enabled.
 
-'''Use native keyboard mapping''' toggles the behavior between the original and a more sensible one. In the original version, Setup as well as the game will display keys intended for the United States keyboard layout, reading the scancodes of keys for determining input, which themselves are based upon the physical location of the key. For example, the message "Press Y to quit." would actually mean pressing the Z key on German keyboards, which have Z and Y swapped in location. Turning on native keyboard mapping makes this behave more sensibly.
+'''Use native keyboard mapping''' toggles the behavior between the original and a more sensible one. The original DOS Doom always assumes a US keyboard layout; on other keyboard layouts the wrong keypress may be registered. For example, German keyboards use a QWERTZ rather than a QWERTY layout where the Z and Y keys are reversed. In DOS Doom, when the Z key is pressed, a 'Y' will be typed, as though a US keyboard was being used. This can be frustrating for non-US users when typing in savegame names or multiplayer messages. Turning on this option uses the correct keyboard mapping and fixes this problem.
 
 == Test ==
 You may use the Test option to test your changes in-game, without making the configuration permanent first.
