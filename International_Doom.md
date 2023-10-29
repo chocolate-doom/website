@@ -37,10 +37,10 @@ The following games are supported:
 
 == Download ==
 
-International Doom 7.2 (released: October 22, 2023)
+International Doom 7.2.1 (released: October 29, 2023)
 
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.2/inter-doom-7.2-win32.zip inter-doom-7.2-win32.zip]
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.2/inter-doom-7.2-win64.zip inter-doom-7.2-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.2.1/inter-doom-7.2.1-win32.zip inter-doom-7.2.1-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.2.1/inter-doom-7.2.1-win64.zip inter-doom-7.2.1-win64.zip]
 
 Windows version is compatible with Windows 7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
 
