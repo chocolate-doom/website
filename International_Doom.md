@@ -7,7 +7,7 @@ International Doom was previously known as "Russian Doom", but was renamed in re
 == Major features ==
 
 * Optional True Color render.
-* Original, double and quad rendering resolution.
+* Up to 6x (1200p) rendering resolutions.
 * Uncapped framerate.
 * Additional, darker gamma-correction levels.
 * Support for OPL2, OPL3, MIDI, Fluidsynth and GUS music playback.
@@ -22,7 +22,7 @@ International Doom was previously known as "Russian Doom", but was renamed in re
 
 Gameplay features from "Physical" and "Compatibility-breaking" sections are putting changes in game mechanics, making it no longer 100% original. However, these features are optional and never active in multiplayer and demo recording/playing to provide maximum compatibility and prevent desyncs.
 
-Support BOOM/MBF/MBF21 is not implemented.
+BOOM/MBF/MBF21 specifications are not supported.
 
 == Supported games ==
 
@@ -32,15 +32,15 @@ The following games are supported:
 * [[doom:Doom_II|Doom II]]
 ** [[doom:No_Rest_for_the_Living|No Rest for the Living]]
 * [[doom:Final_Doom|Final Doom]]
-* [[doom:SIGIL|SIGIL]]
+* [[doom:SIGIL|SIGIL]] and [[doom:SIGIL_II|SIGIL II]]
 * [[doom:Freedoom|Freedoom]] (Phase 1 and 2, FreeDM)
 
 == Download ==
 
-International Doom 7.2.1 (released: October 29, 2023)
+International Doom 7.3 (released: December 31, 2023)
 
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.2.1/inter-doom-7.2.1-win32.zip inter-doom-7.2.1-win32.zip]
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.2.1/inter-doom-7.2.1-win64.zip inter-doom-7.2.1-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.3/inter-doom-7.3-win32.zip inter-doom-7.3-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.3/inter-doom-7.3-win64.zip inter-doom-7.3-win64.zip]
 
 Windows version is compatible with Windows 7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
 
