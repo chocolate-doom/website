@@ -1,6 +1,6 @@
 [[File:Russian_Doom_translations.png|thumb|256px|right|International Doom logo]]
 {{Doomwiki}}
-'''International Doom''' is a small, functional and simple source port, created with help, efforts and bits of code from people around the world. It is based on [[Chocolate Doom]] and [[Crispy Doom]], with significant additions from [[Doom Retro]].
+Small, functional and simple source ports, created with help, efforts and bits of code from people around the world. The project is based on [[Chocolate Doom]] and [[Crispy Doom]], with significant additions from [[Doom Retro]].
 
 International Doom was previously known as "Russian Doom", but was renamed in response to the [https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine Russian invasion of Ukraine].
 
@@ -33,19 +33,29 @@ The following games are supported:
 ** [[doom:No_Rest_for_the_Living|No Rest for the Living]]
 * [[doom:Final_Doom|Final Doom]]
 * [[doom:SIGIL|SIGIL]] and [[doom:SIGIL_II|SIGIL II]]
-* [[doom:Freedoom|Freedoom]] (Phase 1 and 2, FreeDM)
+* [[doom:Heretic|Heretic]] and [[doom:Heretic:_Shadow_of_the_Serpent_Riders|Heretic: Shadow of the Serpent Riders]]
+* [[doom:Hexen|Hexen]] and [[doom:Hexen:_Deathkings_of_the_Dark_Citadel|Hexen: Deathkings of the Dark Citadel]]
 
 == Download ==
 
-International Doom 7.3 (released: December 31, 2023)
+'''International Doom 7.4 (released: March 8, 2024)'''
 
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.3/inter-doom-7.3-win32.zip inter-doom-7.3-win32.zip]
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.3/inter-doom-7.3-win64.zip inter-doom-7.3-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.4/inter-doom-7.4-win32.zip inter-doom-7.4-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.4/inter-doom-7.4-win64.zip inter-doom-7.4-win64.zip]
+
+'''International Heretic 7.0 (released: March 8, 2024)'''
+
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/htic-7.0/inter-heretic-7.0-win32.zip inter-heretic-7.0-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/htic-7.0/inter-heretic-7.0-win64.zip inter-heretic-7.0-win64.zip]
+
+'''International Hexen 7.0 (released: March 8, 2024)'''
+
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/hxn-7.0/inter-hexen-7.0-win32.zip inter-hexen-7.0-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/hxn-7.0/inter-hexen-7.0-win64.zip inter-hexen-7.0-win64.zip]
 
 Windows version is compatible with Windows 7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
 
-Starting from version 7.0 support for DOS version, Heretic and Hexen, as well as translation has been dropped, but these games are still available in [https://github.com/russian-doom separated repository].
-
+Starting from version 7.0 support for DOS version and translation has been dropped.
 == Contact ==
 
 The project's homepage is: https://github.com/JNechaevsky/international-doom
