@@ -9,7 +9,7 @@ Several different options are available for sound effects:
 
 * '''PC speaker sound effects''': PC speaker effects were intended in the early 1990s as a last-ditch effort to provide sound if the player lacked a sound card to play back rich sound. Provided hardware and operating system support, Chocolate Doom may use the real PC speaker in your computer to play back the sounds, falling back to emulating the PC speaker using now-standard sound output otherwise.
 
-:PC speaker effects are only available for Doom and are not usable in other games.
+:PC speaker effects are only available for Doom and Strife, but are not usable in other games.
 
 * '''Digital sound effects''': Sampled, realistic sound effects. This is the default option. There are some additional options when using digital sound effects:
 :* '''Pitch-shifted sounds''': early versions of Doom randomly varied the pitch of the digital sound effects to attempt to make them sound less repetitive. Turning on this feature restores this functionality.
