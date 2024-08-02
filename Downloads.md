@@ -1,28 +1,28 @@
 <table><tr><td>
-Click below to download the latest release of Chocolate Doom ('''version 3.0.1'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-3.0.1 the release notes for this release] to find out what's new, along with this, an [http://latest.chocolate-doom.org/ autobuild of the port can be found here].
+Click below to download the latest release of Chocolate Doom ('''version 3.1.0'''). You can also read [https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-3.1.0 the release notes for this release] to find out what's new, along with this, an [http://latest.chocolate-doom.org/ autobuild of the port can be found here].
 
 
 {{linksbox
-|link=https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1-win32.zip
+|link=https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-doom-3.1.0-win64.zip
 |image=File:Windows_logo.png
 |imgsize=64px
 |text=
 '''Microsoft Windows''' binaries: choose the game you want to play:
 
-* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1-win32.zip Chocolate Doom] for Windows
-* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-heretic-3.0.1-win32.zip Chocolate Heretic] for Windows
-* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-hexen-3.0.1-win32.zip Chocolate Hexen] for Windows
-* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-strife-3.0.1-win32.zip Chocolate Strife] for Windows
+* [https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-doom-3.1.0-win64.zip Chocolate Doom] for Windows
+* [https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-heretic-3.1.0-win64.zip Chocolate Heretic] for Windows
+* [https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-hexen-3.1.0-win64.zip Chocolate Hexen] for Windows
+* [https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-strife-3.1.0-win64.zip Chocolate Strife] for Windows
 }}
 
 {{linksbox
-|link=https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.dmg
+|link=https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-doom-3.1.0.dmg
 |image=File:Apple logo.png
 |imgsize=64px
 |text=
 '''Apple macOS''' binaries:
 
-* [https://www.chocolate-doom.org/downloads/3.0.0/chocolate-doom-3.0.0.dmg Chocolate Doom] for macOS (unified package, supports all four games.)
+* [https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-doom-3.1.0.dmg Chocolate Doom] for macOS (unified package, supports all four games.)
 }}
 
 {{linksbox
@@ -32,7 +32,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.0.1''
 |text=
 '''Source code''' (all platforms; [[wikipedia:GNU General Public License|GNU GPL]] v2):
 
-* [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1.tar.gz Chocolate Doom source code].
+* [https://github.com/chocolate-doom/chocolate-doom/archive/refs/tags/chocolate-doom-3.1.0.tar.gz Chocolate Doom source code].
 * [https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1.tar.gz.asc GPG signature].
 * [https://github.com/chocolate-doom/chocolate-doom Git repository].
 }}
