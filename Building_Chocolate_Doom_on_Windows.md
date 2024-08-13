@@ -26,7 +26,7 @@ The Chocolate Doom build has a few dependencies, basic ones for any software dev
 
  pacman -S base-devel msys2-devel \
         mingw-w64-i686-{toolchain,SDL2{,_net,_mixer},libsamplerate,libpng} \
-        python zip git
+        automake-wrapper python zip git
 
 == Clone the Git repository ==
 
