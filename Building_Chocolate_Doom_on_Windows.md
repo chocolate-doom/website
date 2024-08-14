@@ -24,8 +24,9 @@ There are two main compiler options available for building with MSYS2, ''mingw-w
 
 The Chocolate Doom build has a few dependencies, basic ones for any software development at all are in the ''base-devel'' and ''msys2-devel'' groups, the MinGW toolchain is available in the ''mingw-w64-i686-toolchain'' group, press enter at the prompts to select all packages in these groups. Additional dependencies include SDL2, libpng, libsamplerate, python, and zip; git should be installed so the GitHub repository can be cloned. All together, the command to install everything should be:
 
- pacman -S base-devel msys2-devel \
-        mingw-w64-i686-{toolchain,SDL2{,_net,_mixer},libsamplerate,libpng} \
+ pacman -S base-devel msys2-devel mingw-w64-i686-toolchain \
+        mingw-w64-i686-SDL2_net mingw-w64-i686-SDL2_mixer \
+        mingw-w64-i686-libsamplerate mingw-w64-i686-libpng \
         automake-wrapper python zip git
 
 == Clone the Git repository ==
