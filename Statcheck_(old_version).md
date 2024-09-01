@@ -18,45 +18,60 @@ The tool has some limitations:
 
 == Configuring statcheck ==
 
-Configuring statcheck is intended to be relatively simple. You will need the following:
+Setting up statcheck is a fairly complicated process, so the following is an attempt to provide a guide for how to do this.
 
-* A version of Chocolate Doom to test. By default, a <code>chocolate-doom</code> binary found in <code>PATH</code> will be used if one is found
-* Copies of the commercial IWAD files:
-:* doom.wad
-:* doom2.wad
-:* tnt.wad
-:* plutonia.wad
-* GNU make
-* Git
-* Python 3
-* Python 3 YAML library (on Debian systems this is <code>python3-yaml</code> for example)
+=== Downloading the Compet-N archive ===
 
-=== Instructions ===
+The first step is to download a copy of the Compet-N archive. There is a downloadable copy of the archive [https://archive.org/details/competn available for download on the Internet Archive]. It is quite large (>100MB). Extract the file once downloaded.
 
-First clone the statcheck repository from Github:
+=== Install prerequisites ===
 
-<pre>
-git clone https://github.com/chocolate-doom/statcheck.git
-</pre>
+You need to install python and wxPython. This will not be covered here.
 
-Next, copy in the IWAD files into the <code>iwads/</code> directory, eg.
+=== Download statcheck ===
 
-<pre>
-cp ~/mywads/{doom,doom2,tnt,plutonia}.wad iwads/
-</pre>
+Use git to clone the statcheck repository:
 
-You can then run <code>make check</code> to run the tests. It is recommended that you use the <code>-j</code> parameter to make use of all cores on your system:
+ git clone https://github.com/chocolate-doom/statcheck.git
 
-<pre>
-make -j `nproc` check
-</pre>
+The repository is quite large, as it includes text files with the expected outputs for all of the Compet-N demo files.
 
-It will take some time to run every demo; on a modern, fast machine it may take up to an hour for example, and on a more modest machine like a Raspberry Pi it may take even longer. At the end you should see the following output:
+=== Install all the needed WAD files ===
 
-<pre>
-diff --strip-trailing-cr -x .gitignore -u -r expected output
-all tests passed
-</pre>
+You need each of the four Doom commercial IWAD files (doom.wad, doom2.wad, tnt.wad, plutonia.wad). These can be purchased on Steam if you don't have them already.
+
+You also need several PWAD files as there are Compet-N demos that use them:
+
+* [https://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/av.zip Alien Vendetta] (av.wad)
+* [https://www.doomworld.com/idgames/index.php?file=levels/doom/a-c/class_ep.zip Classic Episode] (Class_Ep.wad)
+* [https://www.doomworld.com/idgames/index.php?file=themes/hr/hr.zip Hell Revealed] (hr.wad)
+* [https://www.doomworld.com/idgames/index.php?file=themes/mm/mm_allup.zip Memento Mori] (mm.wad)
+* [https://www.doomworld.com/idgames/index.php?file=themes/mm/mm2.zip Memento Mori II] (mm2.wad)
+* [https://www.doomworld.com/idgames/index.php?file=levels/doom2/megawads/requiem.zip Requiem] (requiem.wad)
+
+Place the extracted PWAD files in the same directory as the IWADs they correspond to.
+
+=== Compile your own Chocolate Doom ===
+
+Not documented here. See [[Development]] for links.
+
+=== Configure statcheck ===
+
+Edit statcheck's config.py and fill in the details that are missing:
+
+* COMPETN_PATH needs to point to the root of your extracted Compet-N archive data.
+* GAME_PATHS has an entry for each IWAD; these need to point to the directories containing the IWAD files.
+* PORT_EXE should be the path to your compiled Chocolate Doom binary.
+* CONCURRENT_PROCESSES specifies the number of Chocolate Doom instances to run in parallel. A good idea is to use twice the number of cores in your system. For example if you have a four core CPU, set this to 8.
+
+=== Run statcheck ===
+
+Type:
+
+ python regression-test
+
+If all is working as intended, you should start seeing the output from demos scroll by!
+
 
 == External links ==
 
