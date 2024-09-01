@@ -58,6 +58,14 @@ diff --strip-trailing-cr -x .gitignore -u -r expected output
 all tests passed
 </pre>
 
+=== Testing a specific binary ===
+
+By default, statcheck looks in <code>PATH</code> for a version of <code>chocolate-doom</code> to test. To test a specific version, you can supply a version using the <code>SOURCE_PORT</code> on the command line:
+
+<pre>
+make -j `nproc` check SOURCE_PORT=/home/me/lemon-doom/src/lemon-doom
+</pre>
+
 == External links ==
 
 * [https://github.com/chocolate-doom/statcheck Statcheck on github]
