@@ -1,3 +1,4 @@
+{{mbox|This page documents the old version of the statcheck tool that can be found on the <code>version1</code> branch. For the new version, see [[statcheck]].}}
 '''Statcheck''' is a regression testing tool that uses thousands of levels from the [[doom:Compet-N|Compet-N]] demo archive to check for demo sync bugs in Chocolate Doom.
 
 == Background ==
