@@ -38,22 +38,22 @@ The following games are supported:
 
 == Download ==
 
-'''International Doom 7.5 (released: June 29, 2024)'''
+'''International Doom 8.0 (released: October 6, 2024)'''
 
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.5/inter-doom-7.5-win64.zip inter-doom-7.5-win64.zip]
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.5/inter-doom-7.5-win32.zip inter-doom-7.5-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.0/inter-doom-8.0-win64.zip inter-doom-8.0-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.0/inter-doom-8.0-win32.zip inter-doom-8.0-win32.zip]
 
-'''International Heretic 7.1 (released: June 29, 2024)'''
+'''International Heretic 8.0 (released: October 6, 2024)'''
 
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.5/inter-heretic-7.1-win64.zip inter-heretic-7.1-win64.zip]
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.5/inter-heretic-7.1-win32.zip inter-heretic-7.1-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.0/inter-heretic-8.0-win64.zip inter-heretic-8.0-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.0/inter-heretic-8.0-win32.zip inter-heretic-8.0-win32.zip]
 
-'''International Hexen 7.1 (released: June 29, 2024)'''
+'''International Hexen 8.0 (released: October 6, 2024)'''
 
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.5/inter-hexen-7.1-win64.zip inter-hexen-7.1-win64.zip]
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/7.5/inter-hexen-7.1-win32.zip inter-hexen-7.1-win32.zip]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.0/inter-hexen-8.0-win64.zip inter-hexen-8.0-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.0/inter-hexen-8.0-win32.zip inter-hexen-8.0-win32.zip]
 
-Windows version is compatible with Windows 7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
+Windows version is compatible with Windows XP/7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
 
 Starting from version 7.0 support for DOS version and translation has been dropped.
 == Contact ==
