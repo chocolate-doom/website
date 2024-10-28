@@ -391,9 +391,8 @@ Old-fashioned game elements such as collecting treasure, scoring, and player inv
 
 == Download ==
 
-Download at http://www.marshmallowdoom.com
+Download at http://nanotechstudios.com/doom/
 
+Read the FAQ: http://nanotechstudios.com/doom/faq
 
-Read the FAQ: http://www.marshmallowdoom.com/marshmallow-wp/faq
-
-Source code: https://github.com/drbelljazz/marshmallow-doom
+ModDB page: https://www.moddb.com/mods/marshmallow-doom
