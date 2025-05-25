@@ -10,6 +10,7 @@ International Doom was previously known as "Russian Doom", but was renamed in re
 * Up to 6x (1200p) rendering resolutions.
 * Uncapped framerate.
 * Additional, darker gamma-correction levels.
+* Post-processing effects.
 * Support for OPL2, OPL3, MIDI, Fluidsynth and GUS music playback.
 * In-game keyboard and mouse bindings.
 * Various visual, audible, physical and demo enhancements.
@@ -38,23 +39,23 @@ The following games are supported:
 
 == Download ==
 
-'''International Doom 8.1 (released: January 25, 2025)'''
+'''International Doom 8.2 (released: May 25, 2025)'''
 
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-doom-8.1-win64.zip inter-doom-8.1-win64.zip]
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-doom-8.1-win32.zip inter-doom-8.1-win32.zip]
-* Linux AppImage (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-doom-8.1-linux.appimage inter-doom-8.1-linux.appimage]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-doom-8.2-win64.zip inter-doom-8.2-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-doom-8.2-win32.zip inter-doom-8.2-win32.zip]
+* Linux AppImage (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-doom-8.2-linux.appimage inter-doom-8.2-linux.appimage]
 
-'''International Heretic 8.1 (released: January 25, 2025)'''
+'''International Heretic 8.2 (released: May 25, 2025)'''
 
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-heretic-8.1-win64.zip inter-heretic-8.1-win64.zip]
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-heretic-8.1-win32.zip inter-heretic-8.1-win32.zip]
-* Linux AppImage (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-heretic-8.1-linux.appimage inter-heretic-8.1-linux.appimage]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-heretic-8.2-win64.zip inter-heretic-8.2-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-heretic-8.2-win32.zip inter-heretic-8.2-win32.zip]
+* Linux AppImage (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-heretic-8.2-linux.appimage inter-heretic-8.2-linux.appimage]
 
-'''International Hexen 8.1 (released: January 25, 2025)'''
+'''International Hexen 8.2 (released: May 25, 2025)'''
 
-* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-hexen-8.1-win64.zip inter-hexen-8.1-win64.zip]
-* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-hexen-8.1-win32.zip inter-hexen-8.1-win32.zip]
-* Linux AppImage (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-hexen-8.1-linux.appimage inter-hexen-8.1-linux.appimage]
+* Windows (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-hexen-8.2-win64.zip inter-hexen-8.2-win64.zip]
+* Windows (32-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-hexen-8.2-win32.zip inter-hexen-8.2-win32.zip]
+* Linux AppImage (64-bit): [https://github.com/JNechaevsky/international-doom/releases/download/8.2/inter-hexen-8.2-linux.appimage inter-hexen-8.2-linux.appimage]
 
 Windows version is compatible with Windows XP/7/8.1/10/11 (32-bit binaries compatible with both x86 and x64 editions).
 
