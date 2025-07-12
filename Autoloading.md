@@ -1,4 +1,3 @@
-{{Future feature}}
 '''Autoloading''' allows a set of preferred [[doom:WAD|WAD]] and [[doom:DeHackEd|Dehacked]] files to be loaded every time the game is run. This feature is particularly useful for various [[gameplay enhancements|gameplay enhancement mods]] which subtly improve the base game.
 
 == Configuration == 
@@ -10,3 +9,5 @@ Configuring a file to be autoloaded is a simple matter of copying it to the auto
 <!-- ; Windows: "X:\Users\$USERNAME\...? -->
 
 Autoload can be temporarily disabled with the <tt>-noautoload</tt> command line argument.
+
+[[Category:Features]]
