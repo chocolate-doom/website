@@ -36,7 +36,7 @@ The following games can be played:
 
 * [[doom:Doom|Doom]] (including the shareware and registered versions, and the [[doom:Ultimate Doom|Ultimate Doom]] expansion pack)
 * [[doom:Doom II|Doom II]]
-* [[doom:Final Doom|Final Doom]] (TNT:Evilution, and the Plutonia Experiment)
+* [[doom:Final Doom|Final Doom]] (TNT: Evilution and the Plutonia Experiment)
 * [[Chex Quest]]
 * [[doom:Heretic|Heretic]]
 * [[doom:Hexen|Hexen]]
