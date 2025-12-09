@@ -22,7 +22,7 @@ Click below to download the latest release of Chocolate Doom ('''version 3.1.1''
 |text=
 '''Apple macOS''': Please use [https://brew.sh/ Homebrew] and install the '''chocolate-doom''' package.
 <p>
-What happened to the macOS package? [https://github.com/chocolate-doom/chocolate-doom/issues/1698 See here].
+What happened to the macOS package? [https://github.com/chocolate-doom/chocolate-doom/issues/1698#issuecomment-3630035010 See here].
 }}
 
 {{linksbox
