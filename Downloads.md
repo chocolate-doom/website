@@ -20,9 +20,9 @@ Click below to download the latest release of Chocolate Doom ('''version 3.1.0''
 |image=File:Apple logo.png
 |imgsize=64px
 |text=
-'''Apple macOS''' binaries:
-
-* [https://github.com/chocolate-doom/chocolate-doom/releases/download/chocolate-doom-3.1.0/chocolate-doom-3.1.0.dmg Chocolate Doom] for macOS (unified package, supports all four games.)
+'''Apple macOS''': Please use [https://brew.sh/ Homebrew] and install the '''chocolate-doom''' package.
+<p>
+What happened to the macOS package? [https://github.com/chocolate-doom/chocolate-doom/issues/1698 See here].
 }}
 
 {{linksbox
