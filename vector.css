@@ -1380,7 +1380,8 @@
 }
 
 .mw-wiki-logo {
-    background-image: url(icons/Chocolate-logo.png)
+    background-image: url(icons/logo.svg);
+    background-size: 130px auto;
 }
 
 @media screen {
