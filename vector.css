@@ -7,16 +7,11 @@
     .mw-jump,
     .mw-editsection,
     .mw-editsection-like,
-    .mw-hidden-catlinks,
-    .mw-indicators,
     .mw-redirectedfrom,
-    .patrollink,
-    .usermessage,
     #column-one,
     #footer-places,
     #jump-to-nav,
     #mw-navigation,
-    #siteNotice,
     #f-poweredbyico,
     #f-copyrightico,
     li#about,
@@ -331,10 +326,6 @@
         direction: rtl
     }
 
-    .mw-userlink {
-        unicode-bidi: embed
-    }
-
     mark {
         background-color: #ff0;
         color: #000
@@ -380,64 +371,6 @@
         font-style: italic;
         unicode-bidi: -moz-isolate;
         unicode-bidi: isolate
-    }
-
-    #editform,
-    #toolbar,
-    #wpTextbox1 {
-        clear: both
-    }
-
-    #toolbar {
-        height: 22px
-    }
-
-    .mw-underline-always a {
-        text-decoration: underline
-    }
-
-    .mw-underline-never a {
-        text-decoration: none
-    }
-
-    li span.deleted,
-    span.history-deleted {
-        text-decoration: line-through;
-        color: #72777d;
-        font-style: italic
-    }
-
-    .not-patrolled {
-        background-color: #ffa
-    }
-
-    .unpatrolled {
-        font-weight: bold;
-        color: #d33
-    }
-
-    div.patrollink {
-        font-size: 75%;
-        text-align: right
-    }
-
-    td.mw-label {
-        text-align: right;
-        vertical-align: middle
-    }
-
-    td.mw-input {
-        text-align: left
-    }
-
-    td.mw-submit {
-        text-align: left;
-        white-space: nowrap
-    }
-
-    .mw-input-with-label {
-        white-space: nowrap;
-        display: inline-block
     }
 
     .mw-content-ltr .thumbcaption {
@@ -489,40 +422,8 @@
         font-style: italic
     }
 
-    .mw-hidden-cats-hidden {
-        display: none
-    }
-
     .catlinks-allhidden {
         display: none
-    }
-
-    p.mw-protect-editreasons,
-    p.mw-filedelete-editreasons,
-    p.mw-delete-editreasons {
-        font-size: 90%;
-        text-align: right
-    }
-
-    .autocomment {
-        color: #72777d
-    }
-
-    .newpage,
-    .minoredit,
-    .botedit {
-        font-weight: bold
-    }
-
-    div.mw-warning-with-logexcerpt {
-        padding: 3px;
-        margin-bottom: 3px;
-        border: 2px solid #2a4b8d;
-        clear: both
-    }
-
-    div.mw-warning-with-logexcerpt ul li {
-        font-size: 90%
     }
 
     span.mw-revdelundel-link,
@@ -1124,7 +1025,6 @@
     }
 
     .toc,
-    .mw-warning,
     .toccolours {
         border: 1px solid #a2a9b1;
         background-color: #f8f9fa;
@@ -1192,12 +1092,6 @@
     .mw-content-rtl .tocnumber {
         padding-left: 0.5em;
         padding-right: 0
-    }
-
-    .mw-warning {
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: center
     }
 
     div.floatright,
@@ -1321,43 +1215,10 @@
         border: 1px solid #c8ccd1
     }
 
-    .editOptions {
-        background-color: #eaecf0;
-        color: #222;
-        border: 1px solid #c8ccd1;
-        border-top: 0;
-        padding: 1em 1em 1.5em 1em;
-        margin-bottom: 2em
-    }
-
-    .usermessage {
-        background-color: #ffce7b;
-        border: 1px solid #ffa500;
-        color: #000;
-        font-weight: bold;
-        margin: 2em 0 1em;
-        padding: 0.5em 1em;
-        vertical-align: middle
-    }
-
-    #siteNotice {
-        position: relative;
-        text-align: center;
-        margin: 0
-    }
-
-    #localNotice {
-        margin-bottom: 0.9em
-    }
-
     .firstHeading {
         margin-bottom: 0.1em;
         line-height: 1.2em;
         padding-bottom: 0
-    }
-
-    #siteSub {
-        display: none
     }
 
     #jump-to-nav {
@@ -1365,8 +1226,7 @@
         margin-bottom: 1.4em
     }
 
-    #contentSub,
-    #contentSub2 {
+    #contentSub {
         font-size: 84%;
         line-height: 1.2em;
         margin: 0 0 1.4em 1em;
@@ -1401,8 +1261,7 @@
         background-color: #f6f6f6
     }
 
-    .mw-body,
-    .parsoid-body {
+    .mw-body {
         padding: 1em;
         background-color: #ffffff;
         color: #222222;
@@ -1432,20 +1291,6 @@
 
     .mw-body .firstHeading {
         overflow: visible
-    }
-
-    .mw-body .mw-indicators {
-        float: right;
-        line-height: 1.6;
-        font-size: 0.875em;
-        position: relative;
-        z-index: 1
-    }
-
-    .mw-body .mw-indicator {
-        display: inline-block;
-        zoom: 1;
-        *display: inline
     }
 
     .mw-body-content {
@@ -1504,10 +1349,6 @@
         font-family: sans-serif
     }
 
-    div.emptyPortlet {
-        display: none
-    }
-
     ul {
         list-style-type: disc;
         list-style-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229.5%22 r=%222.5%22 fill=%22%2300528c%22/%3E %3C/svg%3E");
@@ -1516,10 +1357,6 @@
     pre,
     .mw-code {
         line-height: 1.3em
-    }
-
-    #siteNotice {
-        font-size: 0.8em
     }
 
     #p-personal {
