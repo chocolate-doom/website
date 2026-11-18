@@ -1380,7 +1380,7 @@
 }
 
 .mw-wiki-logo {
-    background-image: url(/wiki/images/7/77/Chocolate-logo.png?9f31d)
+    background-image: url(icons/Chocolate-logo.png)
 }
 
 @media screen {
@@ -2286,7 +2286,7 @@
 }
 
 #n-Source-code {
-    background-image: url(//www.chocolate-doom.org/githubicon.png);
+    background-image: url(icons/githubicon.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 16px 16px
@@ -2297,7 +2297,7 @@
 }
 
 #n-Discord {
-    background-image: url(//www.chocolate-doom.org/discordicon.png);
+    background-image: url(icons/discordicon.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 16px 16px
