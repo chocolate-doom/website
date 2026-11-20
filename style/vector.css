@@ -1240,7 +1240,7 @@
 }
 
 .mw-wiki-logo {
-    background-image: url(icons/logo.svg);
+    background-image: url(/icons/logo.svg);
     background-size: 130px auto;
 }
 
@@ -2124,7 +2124,7 @@
 }
 
 #n-Source-code {
-    background-image: url(icons/githubicon.png);
+    background-image: url(/icons/githubicon.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 16px 16px
@@ -2135,7 +2135,7 @@
 }
 
 #n-Discord {
-    background-image: url(icons/discordicon.png);
+    background-image: url(/icons/discordicon.png);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 16px 16px
