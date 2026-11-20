@@ -24,7 +24,18 @@
                     {{ content }}
                 </div>
             </div>
-            <div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+            {% if page.categories.size > 0 %}
+            <div id="catlinks" class="catlinks" data-mw="interface">
+                Category:
+                <ul>
+                    {% for category in page.categories %}
+                    <li>
+                        <a href="/Category:{{ category }}.html">{{ category }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
             <div class="visualClear"></div>
         </div>
     </div>
