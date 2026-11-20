@@ -1,0 +1,18 @@
+# Jekyll site configuration file
+
+title: Chocolate Doom
+description: >-
+  Chocolate Doom is a Doom source port that focuses on historical accuracy.
+baseurl: /
+url: https://www.chocolate-doom.org/
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""          # all files
+    values:
+      layout: "vector"

@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <title>$TITLE</title>
+    <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="/style/vector.css">
     <link rel="shortcut icon" href="https://www.chocolate-doom.org/favicon.png">
 </head>
@@ -13,7 +13,7 @@
     <div id="mw-page-base" class="noprint"></div>
     <div id="mw-head-base" class="noprint"></div>
     <div id="content" class="mw-body" role="main">
-        <h1 id="firstHeading" class="firstHeading" lang="en">$TITLE</h1>
+        <h1 id="firstHeading" class="firstHeading" lang="en">{{ page.title | default: site.title }}</h1>
         <div id="bodyContent" class="mw-body-content">
             <div id="contentSub"></div>
             <div id="jump-to-nav" class="mw-jump">
@@ -21,7 +21,7 @@
             </div>
             <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
                 <div class="mw-parser-output">
-                    $PAGE_CONTENT
+                    {{ content }}
                 </div>
             </div>
             <div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
