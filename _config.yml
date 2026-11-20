@@ -10,6 +10,7 @@ url: https://www.chocolate-doom.org/
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 defaults:
   - scope:
