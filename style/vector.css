@@ -963,6 +963,12 @@
         padding: 1px 4px
     }
 
+    /* Otherwise the first line will be misaligned with subsequent lines */
+    pre > code {
+        padding: 0;
+        border: 0;
+    }
+
     pre,
     .mw-code {
         color: #000;
