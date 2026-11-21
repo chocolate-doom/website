@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% assign page_title = page.name | remove_last: ".md" | replace: "__", "/" | replace: "_", " " %}
 <html class="client-js" lang="en" dir="ltr">
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
+    <title>{{ page_title }}</title>
     <link rel="stylesheet" href="/style/vector.css">
     <link rel="shortcut icon" href="https://www.chocolate-doom.org/favicon.png">
 </head>
@@ -13,7 +14,7 @@
     <div id="mw-page-base" class="noprint"></div>
     <div id="mw-head-base" class="noprint"></div>
     <div id="content" class="mw-body" role="main">
-        <h1 id="firstHeading" class="firstHeading" lang="en">{{ page.title | default: site.title }}</h1>
+        <h1 id="firstHeading" class="firstHeading" lang="en">{{ page_title }}</h1>
         <div id="bodyContent" class="mw-body-content">
             <div id="contentSub"></div>
             <div id="jump-to-nav" class="mw-jump">
@@ -30,7 +31,7 @@
                 <ul>
                     {% for category in page.categories %}
                     <li>
-                        <a href="/Category:{{ category }}.html">{{ category }}</a>
+                        <a href="/Category:{{ category }}.html">{{ category | replace: "_", " " }}</a>
                     </li>
                     {% endfor %}
                 </ul>
