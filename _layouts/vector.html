@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% assign page_title = page.name | remove_last: ".md" | replace: "__", "/" | replace: "_", " " %}
+{% assign page_title = page.name | remove_first: ".md" | replace: "__", "/" | replace: "_", " " %}
 <html class="client-js" lang="en" dir="ltr">
 
 <head>
