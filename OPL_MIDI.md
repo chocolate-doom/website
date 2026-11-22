@@ -38,7 +38,7 @@ Almost all ISA sound cards include hardware OPL support, but most PCI cards do n
 - C-Media CMI8738
 - Cards based on the Yamaha YMF724
 
-Information on other PCI cards that could potentially be used, along with instructions on how to set up hardware OPL, can be found in the {% include Srclink.md p1="README.Music.md" p2="README.Music" %} file.
+Information on other PCI cards that could potentially be used, along with instructions on how to set up hardware OPL, can be found in the {% include Srclink.md filename="README.Music.md" text="README.Music" %} file.
 
 ## Related pages {#related_pages}
 

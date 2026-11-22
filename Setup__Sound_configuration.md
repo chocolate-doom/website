@@ -45,4 +45,4 @@ Unlike digital recorded music that you might find on a CD or an MP3 file, Doom\'
 
 :\* [TiMidity++](https://en.wikipedia.org/wiki/TiMidity++) can be used instead of the native MIDI playback. Timidity is a popular software MIDI synthesis program that can be configured with many different sound fonts to change the sound of the music.
 
-Music configuration, especially MIDI, can be extremely involved, see {% include Srclink.md p1="README.Music.md" p2="README.Music" %} for more details.
+Music configuration, especially MIDI, can be extremely involved, see {% include Srclink.md filename="README.Music.md" text="README.Music" %} for more details.

@@ -17,7 +17,7 @@ Chocolate Doom includes a GUS \"pseudo-emulation\" support. An actual GUS is not
 
 Using the GUS feature requires downloading the {% include Idgames.md file="music/dgguspat.zip" title="GUS patch files" %}: these are the samples used to reproduce each MIDI instrument, which were originally distributed with the GUS driver files. Once extracted, the path to the files can be specified in the [setup tool](/Setup.md).
 
-A setup guide for how to configure GUS music playback can be found in the {% include Srclink.md p1="README.Music.md" p2="README.Music" %} file included with Chocolate Doom releases.
+A setup guide for how to configure GUS music playback can be found in the {% include Srclink.md filename="README.Music.md" text="README.Music" %} file included with Chocolate Doom releases.
 
 ## Vanilla wrong instruments bug {#vanilla_wrong_instruments_bug}
 

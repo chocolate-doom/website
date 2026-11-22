@@ -43,4 +43,4 @@ Email [the Chocolate Doom development mailing list](mailto:chocolate-doom-dev-li
 
 ## Bugs
 
-If you discover a bug, please [submit a bug report](https://github.com/chocolate-doom/chocolate-doom/issues). However, some bugs are actually intended behavior. See the NOT-BUGS file that was included in your download (viewable {% include Srclink.md p1="NOT-BUGS.md" p2="here" %}).
+If you discover a bug, please [submit a bug report](https://github.com/chocolate-doom/chocolate-doom/issues). However, some bugs are actually intended behavior. See the NOT-BUGS file that was included in your download (viewable {% include Srclink.md filename="NOT-BUGS.md" text="here" %}).
