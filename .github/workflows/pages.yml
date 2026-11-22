@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt -q install imagemagick
+          sudo apt -q install imagemagick pngnq
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
