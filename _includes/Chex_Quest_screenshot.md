@@ -1,4 +1,3 @@
-{{Fair use screenshot|game=[[doom:Chex Quest|Chex Quest]]|gameauthor=[[Wikipedia:Digital Café|Digital Café]]}}
-
-<includeonly>[[Category:Chex Quest screenshots|{{PAGENAME}}]]</includeonly>
-<noinclude>[[Category:Screenshot tagging templates]]</noinclude>
+{% capture game %}[Chex Quest](/Chex_Quest.md){% endcapture %}
+{% capture gameauthor %}[Digital Café](https://en.wikipedia.org/wiki/Digital_Caf%C3%A9){% endcapture %}
+{% include Fair_use_screenshot.md game=game gameauthor=gameauthor %}

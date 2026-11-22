@@ -1,4 +1,3 @@
-{{Fair use screenshot|game=[[doom:Doom|Doom]]|gameauthor=[[doom:id Software|id Software]]}}
-
-<includeonly>[[Category:Doom screenshots|{{PAGENAME}}]]</includeonly>
-<noinclude>[[Category:Screenshot tagging templates]]</noinclude>
+{% capture game %}[Doom](https://doomwiki.org/wiki/Doom){% endcapture %}
+{% capture gameauthor %}[id Software](https://doomwiki.org/wiki/Id_Software){% endcapture %}
+{% include Fair_use_screenshot.md game=game gameauthor=gameauthor %}
