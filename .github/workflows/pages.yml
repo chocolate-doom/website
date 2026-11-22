@@ -30,6 +30,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt -q install imagemagick
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
