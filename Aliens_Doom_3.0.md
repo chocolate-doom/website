@@ -4,9 +4,10 @@ redirect_from:
 categories:
  - TCs
 ---
-\[\[File:AD3BETA7.png\|thumb\|320px\|right\|Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
-
-\]\]
+{% capture caption %}
+Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
+{% endcapture %}
+{% include Image.md caption=caption image="AD3BETA7.png" width="320" %}
 
 These are instructions on how to play the **Aliens Doom 3 - Aliens versus Predator TC** (Beta 0.7) under Chocolate Doom.
 
