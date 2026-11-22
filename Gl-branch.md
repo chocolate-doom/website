@@ -14,4 +14,4 @@ Since its initial development, it was discovered that the same result can be att
 
 ## External links {#external_links}
 
-- {% include Gitbranch.md p1="gl-branch" %} - branch now inactive
+- {% include Gitbranch.md name="gl-branch" %} - branch now inactive

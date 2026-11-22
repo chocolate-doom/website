@@ -15,4 +15,4 @@ v2-branch is now complete and Chocolate Doom v2.0 can be downloaded via the main
 
 ## External links {#external_links}
 
-- {% include Gitbranch.md p1="v2-branch" %} - final version, before the v2.0 release.
+- {% include Gitbranch.md name="v2-branch" %} - final version, before the v2.0 release.

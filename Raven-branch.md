@@ -59,4 +59,4 @@ raven-branch is now obsolete. Version 2.0 of Chocolate Doom integrated the chang
 
 ## External links {#external_links}
 
-- {% include Gitbranch.md p1="raven-branch" %} - final version, before the merge into [v2-branch](/V2-branch.md).
+- {% include Gitbranch.md name="raven-branch" %} - final version, before the merge into [v2-branch](/V2-branch.md).

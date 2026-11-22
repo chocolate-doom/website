@@ -42,5 +42,5 @@ Information on other PCI cards that could potentially be used can be found in th
 
 ## External links {#external_links}
 
-- {% include Gitbranch.md p1="opl-branch" %} - now integrated into the main codebase
+- {% include Gitbranch.md name="opl-branch" %} - now integrated into the main codebase
 - [OPL research data](https://github.com/chocolate-doom/research/tree/master/opl).

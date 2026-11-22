@@ -22,6 +22,6 @@ The following video shows strife-branch at revision 2075; a lot of functionality
 
 ## External links {#external_links}
 
-- {% include Gitbranch.md p1="strife-branch" %} - final version, before the merge into v2-branch.
+- {% include Gitbranch.md name="strife-branch" %} - final version, before the merge into v2-branch.
 - [Chocolate Strife development thread](https://www.doomworld.com/vb/source-ports/49696-chocolate-strife-development/) on Doomworld.
 - [YouTube video of strife-branch](https://www.youtube.com/watch?v=0w60Oqhvr6Y)
