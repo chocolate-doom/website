@@ -6,4 +6,5 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-relative-links", "~> 0.9.2"
 end
