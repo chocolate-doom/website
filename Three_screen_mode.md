@@ -9,7 +9,7 @@ The **three screen mode** of Chocolate Doom uses [multiplayer](/Multiplayer.md) 
 
 ## Demonstration video {#demonstration_video}
 
-{% include YoutubeEmbed.md id="s2TG7VCms3Q" size="800x210" %}
+{% include YoutubeEmbed.md id="s2TG7VCms3Q" width="800" height="210" %}
 
 ## Usage
 

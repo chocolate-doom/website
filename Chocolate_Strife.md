@@ -14,7 +14,7 @@ The work to develop Chocolate Strife was performed by [James \"Quasar\" Haley](h
 
 <div style="clear: right; float: right; margin: .5em 0 1.2em 1.4em;">
 
-{% include YoutubeEmbed.md id="_hgPQ3IRssM" size="400x300" right="1" %}
+{% include YoutubeEmbed.md id="_hgPQ3IRssM" width="400" height="300" right="1" %}
 
 </div>
 

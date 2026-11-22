@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% include YoutubeEmbed.md id="zqTaB7y7tug" size="300x225" right="1" %}
+{% include YoutubeEmbed.md id="zqTaB7y7tug" width="300" height="225" right="1" %}
 {% include Doomwiki.md p1="PC speaker sound effects" %}
 Today, it is expected that most (if not all) computers should have some sort of digital sound card to help benefit the user, however, when Doom was first released in 1993, digital sound cards were not as common as they are now.
 
