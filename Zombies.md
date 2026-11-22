@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-\[\[Image:ZOMBIES.PNG\|thumb\|right\|Zombies TC (Based on the original Dawn Of The Dead & Day Of The Dead films) running in Chocolate Doom
+\[\[File:ZOMBIES.PNG\|thumb\|right\|Zombies TC (Based on the original Dawn Of The Dead & Day Of The Dead films) running in Chocolate Doom
 
 \]\]
 {% include Doomwiki.md p1="Zombies TC" %}

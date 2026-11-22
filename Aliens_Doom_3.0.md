@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-\[\[Image:AD3BETA7.png\|thumb\|320px\|right\|Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
+\[\[File:AD3BETA7.png\|thumb\|320px\|right\|Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
 
 \]\]
 

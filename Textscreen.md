@@ -18,7 +18,7 @@ Originally intended solely for this purpose, it has since been extended to inclu
 The basic part of the library simply emulates a DOS text mode display using [LibSDL](https://en.wikipedia.org/wiki/LibSDL). It is contained in the file *txt_sdl.c*. The library accurately reproduces all of the characters in the DOS Extended ASCII range and also supports blinking text.
 
 The library uses an 8x16 pixel font by default (giving a 640x480 pixel window), but on small screens, an alternative font is used based on the
-[Atari-Small](http://hea-www.harvard.edu/~fine/Tech/x11fonts.html) font. This alternative font uses characters in a 4x8 dimension (giving a 320x240 pixel window). This feature is useful for low resolution devices such as palmtops. A screenshot of the small font in use can be seen [here](/Image:Atari-small.png.md).
+[Atari-Small](http://hea-www.harvard.edu/~fine/Tech/x11fonts.html) font. This alternative font uses characters in a 4x8 dimension (giving a 320x240 pixel window). This feature is useful for low resolution devices such as palmtops. A screenshot of the small font in use can be seen [here](/File:Atari-small.png.md).
 
 {% capture caption %}
 The Chocolate Doom setup tool, demonstrating the textscreen widget toolkit.
