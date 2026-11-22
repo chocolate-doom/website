@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+{% assign page_title = page.name | remove_first: ".md" | replace: "__", "/" | replace: "_", " " %}
+<html class="client-js" lang="en" dir="ltr">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="/style/vector.css">
+    <link rel="shortcut icon" href="https://www.chocolate-doom.org/favicon.png">
+</head>
+
+<body class="ltr sitedir-ltr mw-hide-empty-elt skin-vector">
+    <div id="mw-page-base" class="noprint"></div>
+    <div id="mw-head-base" class="noprint"></div>
+    <div id="content" class="mw-body" role="main">
+        <h1 id="firstHeading" class="firstHeading" lang="en">{{ page_title }}</h1>
+        <div id="bodyContent" class="mw-body-content">
+            <div id="contentSub"></div>
+            <div id="jump-to-nav" class="mw-jump">
+                Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+            </div>
+            <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+                <div class="mw-parser-output">
+                    {{ content }}
+                </div>
+            </div>
+            {% if page.categories.size > 0 %}
+            <div id="catlinks" class="catlinks" data-mw="interface">
+                Category:
+                <ul>
+                    {% for category in page.categories %}
+                    <li>
+                        <a href="/Category:{{ category }}.html">{{ category | replace: "_", " " }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            <div class="visualClear"></div>
+        </div>
+    </div>
+    <div id="mw-navigation">
+        <h2>Navigation menu</h2>
+        <div id="mw-head">
+            <div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+            </div>
+            <div id="left-navigation">
+                <div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+                    <h3 id="p-namespaces-label">Namespaces</h3>
+                    <ul>
+                        <li id="ca-nstab-main" class="selected"><span><a href="#" title="View the content page [Alt+Shift+c]" accesskey="c">Page</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="right-navigation">
+                <div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+                    <h3 id="p-views-label">Views</h3>
+                    <ul>
+                        <li id="ca-edit" class="collapsible"><span><a href="{{ site.github_url }}/edit/{{ site.github_branch }}/{{ page.path }}" title="Edit this page [Alt+Shift+e]" accesskey="e">Edit</a></span></li>
+                        <li id="ca-history" class="collapsible"><span><a href="{{ site.github_url }}/commits/{{ site.github_branch }}/{{ page.path }}" title="Past revisions of this page [Alt+Shift+h]" accesskey="h">History</a></span></li>
+                    </ul>
+                </div>
+                <div id="p-search" role="search">
+                    <h3>
+                        <label for="searchInput">Search</label>
+                    </h3>
+                    <form action="/wiki/index.php" id="searchform">
+                        <div id="simpleSearch">
+                            <input type="search" name="search" placeholder="Search" title="Search [Alt+Shift+f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off">
+                            <input type="hidden" value="Special:Search" name="title">
+                            <input type="submit" name="go" value="Go" id="searchButton" class="searchButton">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="mw-panel">
+            <div id="p-logo" role="banner"><a class="mw-wiki-logo" href="https://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom" title="Visit the main page"></a></div>
+            <div class="portal" role="navigation" id="p-Chocolate_Doom" aria-labelledby="p-Chocolate_Doom-label">
+                <h3 id="p-Chocolate_Doom-label">Chocolate Doom</h3>
+                <div class="body">
+                    <ul>
+                        <li id="n-mainpage-description"><a href="/Chocolate_Doom.html" title="Visit the main page [Alt+Shift+z]" accesskey="z">Main page</a></li>
+                        <li id="n-Screenshots"><a href="/Screenshots.html">Screenshots</a></li>
+                        <li id="n-Download-package"><a href="/Downloads.html">Download package</a></li>
+                        <li id="n-Report-bug"><a href="https://github.com/chocolate-doom/chocolate-doom/issues" rel="nofollow">Report bug</a></li>
+                        <li id="n-Source-code"><a href="https://github.com/chocolate-doom/chocolate-doom" rel="nofollow">Source code</a></li>
+                        <li id="n-Discord"><a href="https://discord.gg/fsVZfEE" rel="nofollow">Discord</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="portal" role="navigation" id="p-Website" aria-labelledby="p-Website-label">
+                <h3 id="p-Website-label">Website</h3>
+                <div class="body">
+                    <ul>
+                        <li><a href="{{ site.github_url }}">Markdown source</a></li>
+                        <li><a href="{{ site.github_url }}/commits/{{ site.github_branch }}/">Recent Changes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="portal" role="navigation" id="p-External_links" aria-labelledby="p-External_links-label">
+                <h3 id="p-External_links-label">External links</h3>
+                <div class="body">
+                    <ul>
+                        <li id="n-Doomworld"><a href="https://www.doomworld.com/">Doomworld</a></li>
+                        <li id="n-The-Doom-Wiki"><a href="https://doomwiki.org/wiki/Entryway">The Doom Wiki</a></li>
+                        <li id="n-idgames-archive"><a href="https://www.doomworld.com/idgames/">idgames archive</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" role="contentinfo">
+        <div style="clear: both;"></div>
+    </div>
+</body>
+
+</html>
