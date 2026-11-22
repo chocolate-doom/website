@@ -3,6 +3,7 @@ redirect_from:
  - /wiki/index.php/Screenshots
  - /wiki/index.php/Main:Screenshots
  - /Main:Screenshots.html
+ - /screenshots
 ---
 This page shows a selection of screenshots of Chocolate Doom in action. More screenshots can be found in [:Category:Screenshots](/Category:Screenshots.md).
 

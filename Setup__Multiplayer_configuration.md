@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Multiplayer_configuration
+ - /setup-multi-config
 categories:
  - Setup_tool
 ---

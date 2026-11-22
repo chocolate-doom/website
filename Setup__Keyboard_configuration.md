@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Keyboard_configuration
+ - /setup-keyboard
 categories:
  - Setup_tool
 ---

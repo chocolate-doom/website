@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup
+ - /setup
 categories:
  - Features
  - Setup_tool

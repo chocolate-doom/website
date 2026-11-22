@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Compatibility
+ - /setup-compat
 categories:
  - Setup_tool
 ---

@@ -3,6 +3,7 @@ redirect_from:
  - /wiki/index.php/Setup/Mouse_configuration
  - /wiki/index.php/Mouse_configuration
  - /Mouse_configuration.html
+ - /setup-mouse
 categories:
  - Setup_tool
 ---

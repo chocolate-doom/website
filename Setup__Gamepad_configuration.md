@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Gamepad_configuration
+ - /setup-gamepad
 categories:
  - Setup_tool
 ---

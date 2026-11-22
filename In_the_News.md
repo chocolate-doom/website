@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/In_the_News
+ - /in-the-news
 ---
 Chocolate Doom\'s [portability](/Portability.md) has made it convenient for people seeking to run Doom on esoteric computers (see the [It runs Doom!](https://itrunsdoom.tumblr.com/) blog). Here is a collection of news articles confirmed to have been using Chocolate Doom or one of its forks.
 

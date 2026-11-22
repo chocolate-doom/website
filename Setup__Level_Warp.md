@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Level_Warp
+ - /setup-level-warp
 categories:
  - Setup_tool
 ---

@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Start_multiplayer_game
+ - /setup-multi-start
 categories:
  - Setup_tool
 ---

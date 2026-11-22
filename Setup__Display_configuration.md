@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Display_configuration
+ - /setup-display
 categories:
  - Setup_tool
 ---

@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Sound_configuration
+ - /setup-sound
 ---
 {% include Image.md image="Configure_Sound_2016.png" width="300" %}
 

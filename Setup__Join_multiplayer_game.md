@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Setup/Join_multiplayer_game
+ - /setup-multi-join
 categories:
  - Setup_tool
 ---
