@@ -2,7 +2,11 @@
 redirect_from:
  - /wiki/index.php/Contributing_to_the_Wiki
 ---
-Even if you are not a programmer, you can help out by contributing to the Chocolate Doom Wiki. Every page on this website can be edited to fix errors and add new information.
+Even if you are not a programmer, you can help out by contributing to the Chocolate Doom website. Every page on this website can be edited to fix errors and add new information.
+
+To edit a page, send a pull request to [the Github repository for the website](https://github.com/chocolate-doom/website). You'll need to create a Github account if you don't already have one. Github have [some instructions](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request) about how to create a pull request if you've never done it before. If you're a frequent committer, you'll be granted permission to edit the pages directly without the need for the pull request step.
+
+Text for the pages on this website is written in [Markdown](https://en.wikipedia.org/wiki/Markdown). This mostly looks like plain text, with some special syntax for adding formatting. [There's a cheat sheet here](https://www.markdownguide.org/cheat-sheet/) with a summary.
 
 ## TC instructions {#tc_instructions}
 

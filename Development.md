@@ -37,4 +37,4 @@ There are many ways to help out the project:
 
 - [Submit a bug report](https://github.com/chocolate-doom/chocolate-doom/issues) if you find a problem. Feature requests are also welcome as long as they are within the scope of the project.
 - If you\'re a programmer, you\'re welcome to submit patches / send pull requests.
-- [Contribute](/Contributing_to_the_Wiki.md) to the Wiki!
+- [Contribute](/Contributing_to_the_Website.md) to the Website!
