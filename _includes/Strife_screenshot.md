@@ -1,3 +1,3 @@
-{{Fair use screenshot|game=[[doom:Strife|Strife]]|gameauthor=Rogue Entertainment}}
-<includeonly>[[Category:Strife screenshots|{{PAGENAME}}]]</includeonly>
-<noinclude>[[Category:Screenshot tagging templates]]</noinclude>
+{% capture game %}[Strife](https://doomwiki.org/wiki/Strife){% endcapture %}
+{% capture gameauthor %}[Rogue Entertainment](https://en.wikipedia.org/wiki/Rogue_Entertainment){% endcapture %}
+{% include Fair_use_screenshot.md game=game gameauthor=gameauthor %}

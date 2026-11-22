@@ -1,4 +1,3 @@
-{{Fair use screenshot|game=[[doom:Hexen|Hexen]]|gameauthor=[[Wikipedia:Raven Software|Raven Software]]}}
-
-<includeonly>[[Category:Hexen screenshots|{{PAGENAME}}]]</includeonly>
-<noinclude>[[Category:Screenshot tagging templates]]</noinclude>
+{% capture game %}[Hexen](https://doomwiki.org/wiki/Hexen){% endcapture %}
+{% capture gameauthor %}[Raven Software](https://en.wikipedia.org/wiki/Raven_Software){% endcapture %}
+{% include Fair_use_screenshot.md game=game gameauthor=gameauthor %}
