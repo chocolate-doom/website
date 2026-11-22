@@ -18,6 +18,14 @@ plugins:
 
 defaults:
   - scope:
+      path: "File:*"
+    values:
+      layout: "image"
+  - scope:
+      path: "Category:*"
+    values:
+      layout: "category"
+  - scope:
       path: ""          # all files
     values:
       layout: "vector"
