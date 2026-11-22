@@ -5,6 +5,7 @@ redirect_from:
  - /Main_Page.html
  - /wiki/index.php/New_front_page
  - /New_front_page.html
+ - /index.html
 ---
 <table>
 <tr>
