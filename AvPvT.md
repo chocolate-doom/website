@@ -1,10 +1,20 @@
-[[Image:AvPvT.png|right|320px|thumb|AvPvT playing under Chocolate Doom.]]
-To play '''AvPvT''' under Chocolate Doom:
+---
+redirect_from:
+ - /wiki/index.php/AvPvT
+categories:
+ - TCs
+---
+{% capture caption %}
+AvPvT playing under Chocolate Doom.
+{% endcapture %}
+{% include Image.md caption=caption image="AvPvT.png" width="320" %}
 
-# Download {{idgames|file=themes/apt/avpvt2.zip|title=AvPvT}}.
-# Extract the .zip containing the game files.
-# Run with the following command line parameters:
+To play **AvPvT** under Chocolate Doom:
 
- chocolate-doom -merge AvPvT2.wad -deh AvPvT2.deh
+1.  Download {% include Idgames.md file="themes/apt/avpvt2.zip" title="AvPvT" %}.
+2.  Extract the .zip containing the game files.
+3.  Run with the following command line parameters:
 
-[[Category:TCs]]
+<!-- -->
+
+    chocolate-doom -merge AvPvT2.wad -deh AvPvT2.deh

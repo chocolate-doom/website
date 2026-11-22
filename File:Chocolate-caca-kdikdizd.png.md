@@ -1,5 +1,11 @@
-Chocolate Doom running under libcaca. 
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-caca-kdikdizd.png
+categories:
+ - Doom_screenshots
+ - Feature_screenshots
+ - WAD_screenshots
+---
+Chocolate Doom running under libcaca.
 
-{{Doom screenshot}}
-[[Category:WAD screenshots]]
-[[Category:Feature screenshots]]
+{% include Doom_screenshot.md  %}

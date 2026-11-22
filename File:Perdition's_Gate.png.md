@@ -1,4 +1,10 @@
-Perdition's Gate being played in Chocolate Doom.
+---
+redirect_from:
+ - /wiki/index.php/File:Perdition's_Gate.png
+categories:
+ - Doom_screenshots
+ - WAD_screenshots
+---
+Perdition\'s Gate being played in Chocolate Doom.
 
-{{Doom screenshot}}
-[[Category:WAD screenshots]]
+{% include Doom_screenshot.md  %}

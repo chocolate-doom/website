@@ -1,5 +1,9 @@
-== Summary ==
-Chocolate Doom running on [https://serenityos.org/ SerenityOS].
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate_Doom_SerenityOS.png
+---
+## Summary
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+Chocolate Doom running on [SerenityOS](https://serenityos.org/).
+
+{% include Doom_screenshot.md  %}

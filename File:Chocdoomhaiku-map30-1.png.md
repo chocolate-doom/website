@@ -1,4 +1,10 @@
-Map 30 Doom II Haiku operating system.  Still alive.
+---
+redirect_from:
+ - /wiki/index.php/File:Chocdoomhaiku-map30-1.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
+---
+Map 30 Doom II Haiku operating system. Still alive.
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+{% include Doom_screenshot.md  %}

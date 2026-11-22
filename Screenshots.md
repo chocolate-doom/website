@@ -1,69 +1,58 @@
-This page shows a selection of screenshots of Chocolate Doom in action.  More screenshots can be found in [[:Category:Screenshots]].
-__NOTOC__<!-- When adding screenshots, please follow these guidelines!
+---
+redirect_from:
+ - /wiki/index.php/Screenshots
+ - /wiki/index.php/Main:Screenshots
+ - /Main:Screenshots.html
+---
+This page shows a selection of screenshots of Chocolate Doom in action. More screenshots can be found in [:Category:Screenshots](/Category:Screenshots.md).
 
-The screenshot should show the game:
+## Multiplatform
 
- *  Running in windowed mode, and displaying the title bar.
- * At least 640x480 dimensions.
- * Aspect ratio correction turned on.
- * Screenshots demonstrating TCs/WADs should only show the window and title bar, not the surrounding desktop environment.
- * Screenshots demonstrating an OS/platform should show the full desktop environment, along with something that shows the Operating System and version (Image:Chocolatent351.png is a good example).
--->
-== Multiplatform ==
+Chocolate Doom is [portable](/Portability.md) to multiple operating systems and processor architectures:
 
-Chocolate Doom is [[portability|portable]] to multiple operating systems and processor architectures:
+Image:Chocolate_Windows_10.png\|[Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) ([10](https://en.wikipedia.org/wiki/Windows_10))
+Image:Chocolate Doom MacOSX.png\|[Mac OS X](https://en.wikipedia.org/wiki/MacOS_X)
+Image:Chocolate-doom-linux.png\|[Linux](https://en.wikipedia.org/wiki/Linux) ([Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) 8.04)
 
-<gallery widths="200">
-Image:Chocolate_Windows_10.png|[[Wikipedia:Microsoft Windows|Microsoft Windows]] ([[Wikipedia:Windows 10|10]])
-Image:Chocolate Doom MacOSX.png|[[Wikipedia:MacOS X|Mac OS X]]
-Image:Chocolate-doom-linux.png|[[Wikipedia:Linux|Linux]] ([[wikipedia:Ubuntu|Ubuntu]] 8.04)
+Image:Chocolate_Doom_OSWALD.png\|[Linux](https://en.wikipedia.org/wiki/Linux) (ARM) - running on the [OSWALD](http://eecs.oregonstate.edu/education/hardware/oswald/) computer science learning platform.
+Image:Chocolate Doom AmigaOS 4.jpg\|[AmigaOS 4](https://en.wikipedia.org/wiki/AmigaOS)
+Image:Chocdoomhaiku-map15.png\|[Haiku](https://en.wikipedia.org/wiki/Haiku_(operating_system))
 
-Image:Chocolate_Doom_OSWALD.png|[[Wikipedia:Linux|Linux]] (ARM) - running on the [http://eecs.oregonstate.edu/education/hardware/oswald/ OSWALD] computer science learning platform.
-Image:Chocolate Doom AmigaOS 4.jpg|[[Wikipedia:AmigaOS|AmigaOS 4]]
-Image:Chocdoomhaiku-map15.png|[[Wikipedia:Haiku_(operating_system)|Haiku]]
+Image:Chocolate-doom-freebsd.png\|[FreeBSD](https://en.wikipedia.org/wiki/FreeBSD)
+Image:Chocolate-doom-obsd.png\|[OpenBSD](https://en.wikipedia.org/wiki/OpenBSD)
+Image:Chocolate_Doom_Solaris.jpg\|[Solaris](https://en.wikipedia.org/wiki/Solaris) [SPARC](https://en.wikipedia.org/wiki/SPARC)
 
-Image:Chocolate-doom-freebsd.png|[[Wikipedia:FreeBSD|FreeBSD]]
-Image:Chocolate-doom-obsd.png|[[Wikipedia:OpenBSD|OpenBSD]]
-Image:Chocolate_Doom_Solaris.jpg|[[Wikipedia:Solaris|Solaris]] [[Wikipedia:SPARC|SPARC]]
-</gallery>
+[More platform screenshots\...](/Category:Platform_screenshots.md)
 
-[[:Category:Platform screenshots|More platform screenshots...]]
+## Support for other games {#support_for_other_games}
 
-== Support for other games ==
+Version 2 of Chocolate Doom added support for [Heretic](/Chocolate_Heretic.md), [Hexen](/Chocolate_Hexen.md) and [Strife](/Chocolate_Strife.md). These are commercial games that were developed based on the Doom engine.
 
-Version 2 of Chocolate Doom added support for [[Chocolate Heretic|Heretic]], [[Chocolate Hexen|Hexen]] and [[Chocolate Strife|Strife]]. These are commercial games that were developed based on the Doom engine.
+Image:Chocolate-heretic.png \|[Heretic](/Chocolate_Heretic.md)
+Image:Chocolate-hexen.png \|[Hexen](/Chocolate_Hexen.md)
+[File:Strife-linux.png](/File:Strife-linux.png.md) \|[Strife](/Chocolate_Strife.md)
+Image:Chexquest.png\|[Chex Quest](/Chex_Quest.md)
 
-<gallery widths="200">
-Image:Chocolate-heretic.png |[[Chocolate Heretic|Heretic]]
-Image:Chocolate-hexen.png   |[[Chocolate Hexen|Hexen]]
-File:Strife-linux.png       |[[Chocolate Strife|Strife]]
-Image:Chexquest.png|[[Chex Quest]]
-</gallery>
+## Mods and TCs {#mods_and_tcs}
 
-== Mods and TCs ==
+Chocolate Doom has built in dehacked support which allows it to play a number of classic [TCs](/Category:TCs.md).
 
-Chocolate Doom has built in dehacked support which allows it to play a number of classic [[:Category:TCs|TCs]].
+Image:Chocolate-aliens-doom.png\|[Aliens TC](/Aliens_TC.md)
+Image:Chocolate-aod-doom.png\|[Army of Darkness Doom](/Army_of_Darkness_Doom.md)
+Image:Chocolate-batman-doom.png\|[Batman Doom](/Batman_Doom.md)
+Image:Chocolate-eternal-doom.png\|[Eternal Doom](/Eternal_Doom.md)
+Image:Fistful-of-doom.png\|[Fistful of Doom](/Fistful_of_Doom.md)
+Image:Chocolate-hacx.png\|[Hacx](/Hacx.md)
+Image:Obituary.png\|[Obituary](/Obituary.md)
 
-<gallery widths="200">
-Image:Chocolate-aliens-doom.png|[[Aliens TC]]
-Image:Chocolate-aod-doom.png|[[Army of Darkness Doom]]
-Image:Chocolate-batman-doom.png|[[Batman Doom]]
-Image:Chocolate-eternal-doom.png|[[Eternal Doom]]
-Image:Fistful-of-doom.png|[[Fistful of Doom]]
-Image:Chocolate-hacx.png|[[Hacx]]
-Image:Obituary.png|[[Obituary]]
-</gallery>
+Its [compatibility](/Compatibility.md) features also allow problematic levels such as [Doomsday of UAC](/Doomsday_of_UAC.md) to be played:
 
-Its [[compatibility]] features also allow problematic levels such as [[Doomsday of UAC]] to be played:
+{% include Image.md image="Chocolate-uac_dead.png" width="320" %}
 
-[[Image:Chocolate-uac_dead.png|320px]]
+[More WAD screenshots\...](/Category:WAD_screenshots.md)
 
-[[:Category:WAD screenshots|More WAD screenshots...]]
-
-== Multiplayer ==
+## Multiplayer
 
 Chocolate Doom can be played over the internet either directly peer-to-peer or using a dedicated server.
 
-<gallery widths="200">
 Image:Multi-waiting.png
-</gallery>

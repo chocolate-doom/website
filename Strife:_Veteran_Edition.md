@@ -1,17 +1,26 @@
-[[File:Strife_Veteran_Edition_launcher.png|thumb|right|Veteran Edition has an added graphical menu for launching the game.]]
-{{Doomwiki}}
-'''Strife: Veteran Edition''' is a commercial re-release of [[doom:Strife|Strife]] made in 2014. The code is a fork of [[Chocolate Strife]] and was developed by the Chocolate Strife developers.
+---
+redirect_from:
+ - /wiki/index.php/Strife:_Veteran_Edition
+categories:
+ - Forks
+---
+{% capture caption %}
+Veteran Edition has an added graphical menu for launching the game.
+{% endcapture %}
+{% include Image.md caption=caption image="Strife_Veteran_Edition_launcher.png" %}
 
-Veteran Edition includes a new OpenGL-based renderer that gives some improved graphics, although this can be disabled to play the game in "classic mode" that resembles simply playing the game with Chocolate Strife. It also includes some other enhancements, such as several remastered textures, fixes for gameplay bugs, and a graphical launcher / configuration menu.
+{% include Doomwiki.md  %}
+**Strife: Veteran Edition** is a commercial re-release of [Strife](https://doomwiki.org/wiki/Strife) made in 2014. The code is a fork of [Chocolate Strife](/Chocolate_Strife.md) and was developed by the Chocolate Strife developers.
 
-== See also ==
-* [[Chocolate Strife]]
+Veteran Edition includes a new OpenGL-based renderer that gives some improved graphics, although this can be disabled to play the game in \"classic mode\" that resembles simply playing the game with Chocolate Strife. It also includes some other enhancements, such as several remastered textures, fixes for gameplay bugs, and a graphical launcher / configuration menu.
 
-== External links ==
+## See also {#see_also}
 
-* [https://www.gog.com/game/strife_veteran_edition GOG.com page] for Strife: Veteran Edition.
-* [http://store.steampowered.com/app/317040/ Steam page] for Strife: Veteran Edition.
-* [https://github.com/svkaiser/strife-ve Strife: Veteran Edition source code] on Github.
-* [http://doomradio.org/podcast/interview-with-quasar/ Doom Radio interview with Quasar], where he discusses the genesis of Strife: VE.
+- [Chocolate Strife](/Chocolate_Strife.md)
 
-[[Category:Forks]]
+## External links {#external_links}
+
+- [GOG.com page](https://www.gog.com/game/strife_veteran_edition) for Strife: Veteran Edition.
+- [Steam page](http://store.steampowered.com/app/317040/) for Strife: Veteran Edition.
+- [Strife: Veteran Edition source code](https://github.com/svkaiser/strife-ve) on Github.
+- [Doom Radio interview with Quasar](http://doomradio.org/podcast/interview-with-quasar/), where he discusses the genesis of Strife: VE.

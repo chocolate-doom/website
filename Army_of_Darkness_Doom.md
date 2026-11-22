@@ -1,20 +1,32 @@
-[[Image:Chocolate-aod-doom.png|thumb|320px|right|Army of Darkness Doom running in Chocolate Doom.]]
-{{Doomwiki|Army of Darkness TC}}
-The following are instructions on how to play '''Army of Darkness Doom''' under Chocolate Doom:
+---
+redirect_from:
+ - /wiki/index.php/Army_of_Darkness_Doom
+categories:
+ - TCs
+---
+{% capture caption %}
+Army of Darkness Doom running in Chocolate Doom.
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-aod-doom.png" width="320" %}
 
-=== Doom 1 version ===
+{% include Doomwiki.md p1="Army of Darkness TC" %}
+The following are instructions on how to play **Army of Darkness Doom** under Chocolate Doom:
 
-# Download {{idgames|file=themes/aod/aoddoom1.zip|title=Army of Darkness Doom}}.
-# Extract the .zip containing the game files.
-# Run with these command line options:
+### Doom 1 version {#doom_1_version}
 
- chocolate-doom -merge aoddoom1.wad -deh aoddoom1.deh
+1.  Download {% include Idgames.md file="themes/aod/aoddoom1.zip" title="Army of Darkness Doom" %}.
+2.  Extract the .zip containing the game files.
+3.  Run with these command line options:
 
-=== Doom 2 version ===
+<!-- -->
 
-# Download the {{idgames|file=themes/aod/aoddoom2.zip|title=AOD Doom 2}} files and extract.
-# Run with these command line options:
+    chocolate-doom -merge aoddoom1.wad -deh aoddoom1.deh
 
- chocolate-doom -merge aoddoom2.wad -deh aoddoom2.deh
+### Doom 2 version {#doom_2_version}
 
-[[Category:TCs]]
+1.  Download the {% include Idgames.md file="themes/aod/aoddoom2.zip" title="AOD Doom 2" %} files and extract.
+2.  Run with these command line options:
+
+<!-- -->
+
+    chocolate-doom -merge aoddoom2.wad -deh aoddoom2.deh

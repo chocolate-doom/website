@@ -1,4 +1,7 @@
-== Summary ==
-Icon for the [[setup]] tool.
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-setup-icon.png
+---
+## Summary
 
-[[Category:Clovehoof icons]]
+Icon for the [setup](/Setup.md) tool.

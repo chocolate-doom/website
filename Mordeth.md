@@ -1,11 +1,21 @@
-[[Image:chocolate-mordeth.png|320px|right|thumb|Mordeth TC running in Chocolate Doom.]]
-{{Doomwiki}}
-'''Mordeth''' is a TC by Gaston Lahaut.  To run it under Chocolate Doom:
+---
+redirect_from:
+ - /wiki/index.php/Mordeth
+categories:
+ - TCs
+---
+{% capture caption %}
+Mordeth TC running in Chocolate Doom.
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-mordeth.png" width="320" %}
 
-# Download {{idgames|file=levels/doom2/m-o/mordeth.zip|title=Mordeth TC}}.
-# Extract the .zip containing the game files.
-# Run Chocolate Doom with these options:
+{% include Doomwiki.md  %}
+**Mordeth** is a TC by Gaston Lahaut. To run it under Chocolate Doom:
 
- chocolate-doom -aa MORGRAP0.WAD -file MORDETH.WAD -deh MORDETH.DEH
+1.  Download {% include Idgames.md file="levels/doom2/m-o/mordeth.zip" title="Mordeth TC" %}.
+2.  Extract the .zip containing the game files.
+3.  Run Chocolate Doom with these options:
 
-[[Category:TCs]]
+<!-- -->
+
+    chocolate-doom -aa MORGRAP0.WAD -file MORDETH.WAD -deh MORDETH.DEH

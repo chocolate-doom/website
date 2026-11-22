@@ -1,4 +1,10 @@
-Chocolate Doom running under OpenBSD. 
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-doom-obsd.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
+---
+Chocolate Doom running under OpenBSD.
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+{% include Doom_screenshot.md  %}

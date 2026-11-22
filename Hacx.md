@@ -1,9 +1,17 @@
-[[Image:Chocolate-hacx.png|right|thumb|HACX running under Chocolate Doom]]
-{{Doomwiki}}
-The following are instructions on how to play [[doom:Hacx|HACX]] under Chocolate Doom.
+---
+redirect_from:
+ - /wiki/index.php/Hacx
+categories:
+ - TCs
+---
+{% capture caption %}
+HACX running under Chocolate Doom
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-hacx.png" %}
 
-# Obtain a copy of HACX. {{idgames|file=themes/hacx/hacx12.zip|title=Hacx 1.2}} can be downloaded from the idgames archive.
-# Extract hacx.wad from the zip. (On Unix, use "unzip -L" to convert the file names to lower-case).
-# Run with <code>chocolate-doom -iwad hacx.wad</code>
+{% include Doomwiki.md  %}
+The following are instructions on how to play [HACX](https://doomwiki.org/wiki/Hacx) under Chocolate Doom.
 
-[[Category:TCs]]
+1.  Obtain a copy of HACX. {% include Idgames.md file="themes/hacx/hacx12.zip" title="Hacx 1.2" %} can be downloaded from the idgames archive.
+2.  Extract hacx.wad from the zip. (On Unix, use \"unzip -L\" to convert the file names to lower-case).
+3.  Run with `chocolate-doom -iwad hacx.wad`

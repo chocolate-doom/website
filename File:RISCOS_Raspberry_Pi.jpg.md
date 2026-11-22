@@ -1,3 +1,9 @@
-Screenshot of Chocolate Doom running on [[wikipedia:RISC OS|RISC OS]] on the [[wikipedia:Raspberry Pi|Raspberry Pi]].
+---
+redirect_from:
+ - /wiki/index.php/File:RISCOS_Raspberry_Pi.jpg
+categories:
+ - Doom_screenshots
+---
+Screenshot of Chocolate Doom running on [RISC OS](https://en.wikipedia.org/wiki/RISC_OS) on the [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
 
-{{Doom screenshot}}
+{% include Doom_screenshot.md  %}

@@ -1,30 +1,41 @@
-[[Image:Chocolate Doom MacOSX.png|right|thumb|Chocolate Doom running on OSX]]
-Chocolate Doom's [[Downloads|current releases]] include a [[Wikipedia:OS X|Mac OS X]] binary, but you can also create your own build.
+---
+redirect_from:
+ - /wiki/index.php/Building_Chocolate_Doom_on_Mac_OS_X
+ - /wiki/index.php/Building_chocolate_doom_on_Mac_OS_X
+ - /Building_chocolate_doom_on_Mac_OS_X.html
+categories:
+ - Build_instructions
+---
+{% capture caption %}
+Chocolate Doom running on OSX
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate_Doom_MacOSX.png" %}
 
-== Xcode setup ==
+Chocolate Doom\'s [current releases](/Downloads.md) include a [Mac OS X](https://en.wikipedia.org/wiki/OS_X) binary, but you can also create your own build.
 
-First, install Apple's [[Wikipedia:Xcode|Xcode]] development environment, which can be found [http://developer.apple.com/tools/xcode/ here] (you will need to register for the Apple site to download this).  This is necessary as it includes a copy of the compiler and libraries needed to build Chocolate Doom.
+## Xcode setup {#xcode_setup}
 
-Launch the *Terminal* application and type the following
+First, install Apple\'s [Xcode](https://en.wikipedia.org/wiki/Xcode) development environment, which can be found [here](http://developer.apple.com/tools/xcode/) (you will need to register for the Apple site to download this). This is necessary as it includes a copy of the compiler and libraries needed to build Chocolate Doom.
 
- xcode-select --install
+Launch the \*Terminal\* application and type the following
 
-{{GEBB ad}}
-== Building ==
+    xcode-select --install
 
-Since the V3 release, [[chocpkg]] is the official way of building Chocolate Doom on all platforms.
+{% include GEBB_ad.md  %}
 
-Open the *Terminal* application and clone the chocpkg repository:
+## Building
 
- git clone https://github.com/chocolate-doom/chocpkg.git
+Since the V3 release, [chocpkg](/Chocpkg.md) is the official way of building Chocolate Doom on all platforms.
+
+Open the \*Terminal\* application and clone the chocpkg repository:
+
+    git clone https://github.com/chocolate-doom/chocpkg.git
 
 Then to build:
 
- cd chocpkg
- ./chocpkg/chocpkg build chocolate-doom
+    cd chocpkg
+    ./chocpkg/chocpkg build chocolate-doom
 
 or for the latest version from Git:
 
- ./chocpkg/chocpkg build chocolate-doom/latest
-
-[[Category:Build instructions]]
+    ./chocpkg/chocpkg build chocolate-doom/latest

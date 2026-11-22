@@ -1,11 +1,21 @@
-[[Image:Chocolate-aliens-doom.png|right|320px|thumb|Aliens TC running in Chocolate Doom]]
-{{Doomwiki}}
-These are instructions on how to play [[doom:Aliens TC|Aliens TC]] under Chocolate Doom.
+---
+redirect_from:
+ - /wiki/index.php/Aliens_TC
+categories:
+ - TCs
+---
+{% capture caption %}
+Aliens TC running in Chocolate Doom
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-aliens-doom.png" width="320" %}
 
-# Obtain a copy of {{idgames|file=themes/aliens/atcud19.zip|title=the Ultimate Doom version of the Aliens TC}}.
-# Extract the zip archive. 
-# Run with the following [[command-line arguments]]:
+{% include Doomwiki.md  %}
+These are instructions on how to play [Aliens TC](https://doomwiki.org/wiki/Aliens_TC) under Chocolate Doom.
 
- chocolate-doom -deh atcud19.deh -merge alitcsf.wad -file alitcsnd.wad alitcwad.wad
+1.  Obtain a copy of {% include Idgames.md file="themes/aliens/atcud19.zip" title="the Ultimate Doom version of the Aliens TC" %}.
+2.  Extract the zip archive.
+3.  Run with the following [command-line arguments](/Command-line_arguments.md):
 
-[[Category:TCs]]
+<!-- -->
+
+    chocolate-doom -deh atcud19.deh -merge alitcsf.wad -file alitcsnd.wad alitcwad.wad

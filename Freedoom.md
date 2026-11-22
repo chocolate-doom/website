@@ -1,17 +1,24 @@
-[[Image:chocolate-eternal-freedoom.png|thumb|320px|right|Chocolate Doom running [[Eternal Doom]] with Freedoom.]]
-{{Doomwiki}}
-'''Freedoom''' is a [[doom:Freedoom|free game project]] that is licensed under the open source modified BSD license and also compatible with most mods made for the original Doom games.
+---
+redirect_from:
+ - /wiki/index.php/Freedoom
+---
+{% capture caption %}
+Chocolate Doom running [Eternal Doom](/Eternal_Doom.md) with Freedoom.
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-eternal-freedoom.png" width="320" %}
+
+{% include Doomwiki.md  %}
+**Freedoom** is a [free game project](https://doomwiki.org/wiki/Freedoom) that is licensed under the open source modified BSD license and also compatible with most mods made for the original Doom games.
 
 Simple instructions:
-# [[Downloads|Download]] and extract Chocolate Doom.
-# [https://freedoom.github.io/download.html Download Freedoom] from the website, and move the ''freedoom1.wad'' and ''freedoom2.wad'' files into the same folder as Chocolate Doom.
-# Run Chocolate Doom.
 
-== External links ==
+1.  [Download](/Downloads.md) and extract Chocolate Doom.
+2.  [Download Freedoom](https://freedoom.github.io/download.html) from the website, and move the *freedoom1.wad* and *freedoom2.wad* files into the same folder as Chocolate Doom.
+3.  Run Chocolate Doom.
 
-* [https://freedoom.github.io/ Freedoom website]
-* [http://freedoom.soulsphere.org/ Freedoom autobuilds]
-* [https://www.doomworld.com/idgames/ idgames archive]
-* [https://www.doomworld.com/forum/17-freedoom/ The Freedoom forum hosted on Doomworld]
+## External links {#external_links}
 
-__NOTOC__
+- [Freedoom website](https://freedoom.github.io/)
+- [Freedoom autobuilds](http://freedoom.soulsphere.org/)
+- [idgames archive](https://www.doomworld.com/idgames/)
+- [The Freedoom forum hosted on Doomworld](https://www.doomworld.com/forum/17-freedoom/)

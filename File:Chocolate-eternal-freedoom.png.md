@@ -1,4 +1,10 @@
-Chocolate Doom running [[Eternal Doom]] with [[Freedoom]]. 
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-eternal-freedoom.png
+categories:
+ - Doom_screenshots
+ - WAD_screenshots
+---
+Chocolate Doom running [Eternal Doom](/Eternal_Doom.md) with [Freedoom](/Freedoom.md).
 
-{{Doom screenshot}}
-[[Category:WAD screenshots]]
+{% include Doom_screenshot.md  %}

@@ -1,4 +1,10 @@
-[[Alien Vendetta]] running in Chocolate Doom. 
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-av.png
+categories:
+ - Doom_screenshots
+ - WAD_screenshots
+---
+[Alien Vendetta](/Alien_Vendetta.md) running in Chocolate Doom.
 
-{{Doom screenshot}}
-[[Category:WAD screenshots]]
+{% include Doom_screenshot.md  %}

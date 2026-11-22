@@ -1,4 +1,10 @@
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-doom-freebsd.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
+---
 Chocolate Doom running on FreeBSD.
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+{% include Doom_screenshot.md  %}

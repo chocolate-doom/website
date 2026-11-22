@@ -1,4 +1,7 @@
-== Summary ==
-Logo for [[Chocolate Hexen]].
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-hexen-logo.png
+---
+## Summary
 
-[[Category:Clovehoof icons]]
+Logo for [Chocolate Hexen](/Chocolate_Hexen.md).

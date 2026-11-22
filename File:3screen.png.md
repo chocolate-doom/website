@@ -1,4 +1,10 @@
-Three screen mode running on a single machine with the new multiplayer code.  
+---
+redirect_from:
+ - /wiki/index.php/File:3screen.png
+categories:
+ - Doom_screenshots
+ - Feature_screenshots
+---
+Three screen mode running on a single machine with the new multiplayer code.
 
-{{Doom screenshot}}
-[[Category:Feature screenshots]]
+{% include Doom_screenshot.md  %}

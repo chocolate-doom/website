@@ -1,12 +1,19 @@
-[[Image:ZOMBIES.PNG|thumb|right|Zombies TC (Based on the original Dawn Of The Dead & Day Of The Dead films) running in Chocolate Doom
-]]
-{{Doomwiki|Zombies TC}}
-These are instructions on how to play the '''Zombies TC ''' under Chocolate Doom.
+---
+redirect_from:
+ - /wiki/index.php/Zombies
+categories:
+ - TCs
+---
+\[\[Image:ZOMBIES.PNG\|thumb\|right\|Zombies TC (Based on the original Dawn Of The Dead & Day Of The Dead films) running in Chocolate Doom
 
-# Download a copy of {{idgames|file=levels/doom2/v-z/zombies.zip|title=Zombies TC}}.
-# Extract the zip archive. 
-# Run with the following [[command-line arguments]]:
+\]\]
+{% include Doomwiki.md p1="Zombies TC" %}
+These are instructions on how to play the **Zombies TC** under Chocolate Doom.
 
- chocolate-doom -deh zombie.deh -merge doom2.wad zombie.wad
+1.  Download a copy of {% include Idgames.md file="levels/doom2/v-z/zombies.zip" title="Zombies TC" %}.
+2.  Extract the zip archive.
+3.  Run with the following [command-line arguments](/Command-line_arguments.md):
 
-[[Category:TCs]]
+<!-- -->
+
+    chocolate-doom -deh zombie.deh -merge doom2.wad zombie.wad

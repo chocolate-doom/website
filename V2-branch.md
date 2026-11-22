@@ -1,9 +1,18 @@
-[[File:V2-branch_9_games.png|thumb|right|Demonstration of v2-branch: nine Doom engine-based games running simultaneously]]
-'''v2-branch''' was a source code [[:Category:Branches|branch]] that developed version 2.0 of Chocolate Doom. It continued the work started on [[raven-branch]] and [[strife-branch]].
+---
+redirect_from:
+ - /wiki/index.php/V2-branch
+categories:
+ - Inactive_branches
+---
+{% capture caption %}
+Demonstration of v2-branch: nine Doom engine-based games running simultaneously
+{% endcapture %}
+{% include Image.md caption=caption image="V2-branch_9_games.png" %}
 
-v2-branch is now complete and Chocolate Doom v2.0 can be downloaded via the main [[Downloads|download page]].
+**v2-branch** was a source code [branch](/Category:Branches.md) that developed version 2.0 of Chocolate Doom. It continued the work started on [raven-branch](/Raven-branch.md) and [strife-branch](/Strife-branch.md).
 
-==External links==
-* {{gitbranch|v2-branch}} - final version, before the v2.0 release.
+v2-branch is now complete and Chocolate Doom v2.0 can be downloaded via the main [download page](/Downloads.md).
 
-[[Category:Inactive_branches]]
+## External links {#external_links}
+
+- {% include Gitbranch.md p1="v2-branch" %} - final version, before the v2.0 release.

@@ -1,11 +1,19 @@
-[[Image:Chocolate-batman-doom.png|thumb|[[Doom:Batman Doom|Batman Doom]], a TC which makes heavy use of dehacked, playing under Chocolate Doom.]]
-{{Doomwiki|DeHackEd}}
-Dehacked with Vanilla Doom required patching the program to modify its behaviour.  Chocolate Doom includes built-in dehacked support and supports loading dehacked patches via the command-line.
+---
+redirect_from:
+ - /wiki/index.php/Dehacked
+categories:
+ - Features
+---
+{% capture caption %}
+[Batman Doom](https://doomwiki.org/wiki/Batman_Doom), a TC which makes heavy use of dehacked, playing under Chocolate Doom.
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-batman-doom.png" %}
 
-To load a dehacked patch, use the ''"-deh"'' command-line parameter.  For example, to load the file "suprwep8.deh", use the following command-line parameter:
+{% include Doomwiki.md p1="DeHackEd" %}
+Dehacked with Vanilla Doom required patching the program to modify its behaviour. Chocolate Doom includes built-in dehacked support and supports loading dehacked patches via the command-line.
 
- chocolate-doom -deh suprwep8.deh
+To load a dehacked patch, use the *\"-deh\"* command-line parameter. For example, to load the file \"suprwep8.deh\", use the following command-line parameter:
 
-Chocolate Doom's dehacked support is entirely new code.  It is closer in behavior to the original dehacked than the dehacked engines in other ports.  It is also stricter in what it accepts as valid input.  For example, in DOS dehacked the lengths of string and cheat replacements are limited by the layout of the Vanilla Doom executables.  Chocolate Doom imposes the same limits.
+    chocolate-doom -deh suprwep8.deh
 
-[[Category:Features]]
+Chocolate Doom\'s dehacked support is entirely new code. It is closer in behavior to the original dehacked than the dehacked engines in other ports. It is also stricter in what it accepts as valid input. For example, in DOS dehacked the lengths of string and cheat replacements are limited by the layout of the Vanilla Doom executables. Chocolate Doom imposes the same limits.

@@ -1,4 +1,10 @@
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate_Doom_Gentoo.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
+---
 Chocolate Doom in Gentoo GNU/Linux
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+{% include Doom_screenshot.md  %}

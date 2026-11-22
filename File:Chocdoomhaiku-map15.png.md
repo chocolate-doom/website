@@ -1,4 +1,10 @@
+---
+redirect_from:
+ - /wiki/index.php/File:Chocdoomhaiku-map15.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
+---
 Splat.
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+{% include Doom_screenshot.md  %}

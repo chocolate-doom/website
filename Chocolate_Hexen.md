@@ -1,19 +1,29 @@
-[[Image:Chocolate-hexen-logo.png|right]]
-'''Chocolate Hexen''' is a port of the [[wikipedia:Hexen|Hexen]] source code to the Chocolate Doom codebase. The aim is to develop a Hexen source port that includes the [[:Category:Features|features]] of Chocolate Doom.
+---
+redirect_from:
+ - /wiki/index.php/Chocolate_Hexen
+categories:
+ - Features
+---
+{% include Image.md image="Chocolate-hexen-logo.png" %}
 
-== Development ==
-Work on Chocolate Hexen began in 2008 immediately after the [[doom:Raven source code licensing|Raven source code licensing]] issue was resolved with the re-release of the Heretic and Hexen sources under the GNU GPL. The port was developed as part of the [[raven-branch]] code branch and was eventually released as part of Chocolate Doom version 2.0.
+**Chocolate Hexen** is a port of the [Hexen](https://en.wikipedia.org/wiki/Hexen) source code to the Chocolate Doom codebase. The aim is to develop a Hexen source port that includes the [features](/Category:Features.md) of Chocolate Doom.
 
-== Gameplay screenshot ==
+## Development
 
-[[Image:Chocolate-hexen.png|400px|center|Chocolate Hexen, running from the raven-branch code.]]
+Work on Chocolate Hexen began in 2008 immediately after the [Raven source code licensing](https://doomwiki.org/wiki/Raven_source_code_licensing) issue was resolved with the re-release of the Heretic and Hexen sources under the GNU GPL. The port was developed as part of the [raven-branch](/Raven-branch.md) code branch and was eventually released as part of Chocolate Doom version 2.0.
 
-More screenshots can be found in [[:Category:Hexen screenshots]].
+## Gameplay screenshot {#gameplay_screenshot}
 
-== See also ==
-{{Doomwiki|Hexen}}
+{% capture caption %}
+Chocolate Hexen, running from the raven-branch code.
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-hexen.png" width="400" %}
 
-* [[Raven-branch]]
-* [[Chocolate Heretic]]
+More screenshots can be found in [:Category:Hexen screenshots](/Category:Hexen_screenshots.md).
 
-[[Category:Features]]
+## See also {#see_also}
+
+{% include Doomwiki.md p1="Hexen" %}
+
+- [Raven-branch](/Raven-branch.md)
+- [Chocolate Heretic](/Chocolate_Heretic.md)

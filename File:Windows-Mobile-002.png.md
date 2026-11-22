@@ -1,5 +1,10 @@
-Chocolate Doom running on Windows Mobile 5 (iPAQ rx1950). 
+---
+redirect_from:
+ - /wiki/index.php/File:Windows-Mobile-002.png
+categories:
+ - Doom_screenshots
+ - Windows_Mobile_screenshots
+---
+Chocolate Doom running on Windows Mobile 5 (iPAQ rx1950).
 
-{{doom screenshot}}
-
-[[Category:Windows Mobile screenshots]]
+{% include Doom_screenshot.md  %}

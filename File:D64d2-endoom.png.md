@@ -1,4 +1,7 @@
-== Summary ==
-The ENDOOM screen for [https://www.doomworld.com/idgames/levels/doom2/megawads/d64d2 Doom 64 for Doom II]
+---
+redirect_from:
+ - /wiki/index.php/File:D64d2-endoom.png
+---
+## Summary
 
-[[Category:Textscreen screenshots]]
+The ENDOOM screen for [Doom 64 for Doom II](https://www.doomworld.com/idgames/levels/doom2/megawads/d64d2)

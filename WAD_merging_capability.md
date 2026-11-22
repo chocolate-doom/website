@@ -1,30 +1,41 @@
-[[Image:Chocolate-aliens-doom.png|thumb|Traditionally, TCs like [[Doom:Aliens TC |Aliens TC]] required modification of the main WAD file]]
-[[Doom:Vanilla Doom|Vanilla Doom]] does not support loading modified sprites in [[Doom:PWAD|PWAD]] files.  As a result, most TCs were traditionally distributed in the form of a WAD file which had to be merged with the main [[Doom:IWAD|IWAD]] file.  This was usually done through an included program like "deusf" or "nwt".
+---
+redirect_from:
+ - /wiki/index.php/WAD_merging_capability
+ - /wiki/index.php/Merging
+ - /Merging.html
+categories:
+ - Features
+---
+{% capture caption %}
+Traditionally, TCs like [Aliens TC](https://doomwiki.org/wiki/Aliens_TC) required modification of the main WAD file
+{% endcapture %}
+{% include Image.md caption=caption image="Chocolate-aliens-doom.png" %}
 
-Chocolate Doom retains Vanilla Doom's behavior when loading PWADs using the "''-file''" [[Doom:Command line option|command line option]], and will not load sprites correctly.  However, it includes new command line options which simulate the action of merging a WAD file into the IWAD.  Different options are provided to simulate the behavior of different tools.
+[Vanilla Doom](https://doomwiki.org/wiki/Vanilla_Doom) does not support loading modified sprites in [PWAD](https://doomwiki.org/wiki/PWAD) files. As a result, most TCs were traditionally distributed in the form of a WAD file which had to be merged with the main [IWAD](https://doomwiki.org/wiki/IWAD) file. This was usually done through an included program like \"deusf\" or \"nwt\".
 
-=== DeuSF-style ===
+Chocolate Doom retains Vanilla Doom\'s behavior when loading PWADs using the \"*-file*\" [command line option](https://doomwiki.org/wiki/Command_line_option), and will not load sprites correctly. However, it includes new command line options which simulate the action of merging a WAD file into the IWAD. Different options are provided to simulate the behavior of different tools.
 
-The majority of sprite and flat mods use the ''DeuSF'' program.  Merging of this type is simulated using the ''-merge'' command line option.
+### DeuSF-style {#deusf_style}
 
-As an example, to load the WAD needed for [[Aliens TC]]:
+The majority of sprite and flat mods use the *DeuSF* program. Merging of this type is simulated using the *-merge* command line option.
 
- chocolate-doom '''-merge alitcsf.wad''' -file alitcsnd.wad alitcwad.wad -deh atcud19.deh
+As an example, to load the WAD needed for [Aliens TC](/Aliens_TC.md):
 
-=== NWT-style ===
+    chocolate-doom '''-merge alitcsf.wad''' -file alitcsnd.wad alitcwad.wad -deh atcud19.deh
 
-Some mods (such as [[Mordeth]]) use ''[[Doom:NWT|NWT]]''.  In this case, there are three command line options:
+### NWT-style {#nwt_style}
 
-; -af <file> : Merges flats from the given PWAD.  Equivalent to ''nwt -af <file>''.
-; -as <file> : Merges sprites from the given PWAD.  Equivalent to ''nwt -as <file>''.
-; -aa <file> : Merges all flats and sprites from the given PWAD.  Equivalent to ''nwt -af <file> -as <file>''.
+Some mods (such as [Mordeth](/Mordeth.md)) use *[NWT](https://doomwiki.org/wiki/NWT)*. In this case, there are three command line options:
 
-<!--
-; -nwtmerge <file> : Remove sprites from the IWAD that exist in the given PWAD.  Equivalent to ''nwt -merge <file>''.
--->
+-af \<file\>
+: Merges flats from the given PWAD. Equivalent to *nwt -af \<file\>*.
 
-== See also ==
+-as \<file\>
+: Merges sprites from the given PWAD. Equivalent to *nwt -as \<file\>*.
 
-* [[WAD merging (technical)]] - in depth information on how the WAD merging methods operate.
+-aa \<file\>
+: Merges all flats and sprites from the given PWAD. Equivalent to *nwt -af \<file\> -as \<file\>*.
 
-[[Category:Features]]
+## See also {#see_also}
+
+- [WAD merging (technical)](/WAD_merging_(technical).md) - in depth information on how the WAD merging methods operate.

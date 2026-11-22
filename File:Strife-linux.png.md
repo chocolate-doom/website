@@ -1,3 +1,9 @@
-[[strife-branch]], revision 1986.
+---
+redirect_from:
+ - /wiki/index.php/File:Strife-linux.png
+categories:
+ - Strife_screenshots
+---
+[strife-branch](/Strife-branch.md), revision 1986.
 
-{{Strife screenshot}}
+{% include Strife_screenshot.md  %}

@@ -1,4 +1,10 @@
-[[The Sky May Be]] playing under Chocolate Doom
+---
+redirect_from:
+ - /wiki/index.php/File:Skymaybe.png
+categories:
+ - Doom_screenshots
+ - WAD_screenshots
+---
+[The Sky May Be](/The_Sky_May_Be.md) playing under Chocolate Doom
 
-{{Doom screenshot}}
-[[Category:WAD screenshots]]
+{% include Doom_screenshot.md  %}

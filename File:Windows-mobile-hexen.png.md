@@ -1,4 +1,10 @@
+---
+redirect_from:
+ - /wiki/index.php/File:Windows-mobile-hexen.png
+categories:
+ - Hexen_screenshots
+ - Windows_Mobile_screenshots
+---
 Chocolate Hexen running on Windows Mobile.
 
-{{Hexen screenshot}}
-[[Category:Windows Mobile screenshots]]
+{% include Hexen_screenshot.md  %}

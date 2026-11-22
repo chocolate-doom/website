@@ -1,4 +1,10 @@
-[[WolfenDOOM]] running under Chocolate Doom.
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-wolfendoom.png
+categories:
+ - Doom_screenshots
+ - WAD_screenshots
+---
+[WolfenDOOM](/WolfenDOOM.md) running under Chocolate Doom.
 
-{{Doom screenshot}}
-[[Category:WAD screenshots]]
+{% include Doom_screenshot.md  %}

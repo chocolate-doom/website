@@ -1,4 +1,10 @@
-Chocolate Doom on [[Wikipedia:Windows 10|Windows 10]]
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate_Windows_10.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
+---
+Chocolate Doom on [Windows 10](https://en.wikipedia.org/wiki/Windows_10)
 
-{{Doom screenshot}}
-[[Category:Platform screenshots]]
+{% include Doom_screenshot.md  %}

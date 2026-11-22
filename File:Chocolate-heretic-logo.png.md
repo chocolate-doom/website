@@ -1,4 +1,7 @@
-== Summary ==
-Logo for [[Chocolate Heretic]].
+---
+redirect_from:
+ - /wiki/index.php/File:Chocolate-heretic-logo.png
+---
+## Summary
 
-[[Category:Clovehoof icons]]
+Logo for [Chocolate Heretic](/Chocolate_Heretic.md).
