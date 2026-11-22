@@ -2,7 +2,10 @@
 redirect_from:
  - /wiki/index.php/Statcheck_(old_version)
 ---
-{% include Mbox.md p1="This page documents the old version of the statcheck tool that can be found on the <code>version1</code> branch. For the new version, see [[statcheck]]." %}
+{% capture message %}
+This page documents the old version of the statcheck tool that can be found on the `version1` branch. For the new version, see [statcheck](/Statcheck.md).
+{% endcapture %}
+{% include Mbox.md message=message %}
 **Statcheck** is a regression testing tool that uses thousands of levels from the [Compet-N](https://doomwiki.org/wiki/Compet-N) demo archive to check for demo sync bugs in Chocolate Doom.
 
 ## Background
