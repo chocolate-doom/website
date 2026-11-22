@@ -7,7 +7,7 @@ Chocolate Doom\'s [portability](/Portability.md) has made it convenient for peop
 
 ### Doom on a John Deere Tractor (September 2022) {#doom_on_a_john_deere_tractor_september_2022}
 
-{% include YoutubeEmbed.md p1="z2_TLz9TpwY" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="z2_TLz9TpwY" size="300x225" right="1" %}
 
 > One day, the classic 90s shooter Doom will be playable on every single electronic device with a screen. We aren't quite there yet, but thanks to some crafty hackers you can now play id's seminal shooter on a jailbroken farm tractor because we live in the weirdest, dumbest cyberpunk future imaginable.
 >
@@ -21,7 +21,7 @@ The Chocolate Doom icon can be seen in the upper left corner of the window durin
 
 ### Doom inside Doom (July 2022) {#doom_inside_doom_july_2022}
 
-{% include YoutubeEmbed.md p1="c6hnQ1RKhbo" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="c6hnQ1RKhbo" size="300x225" right="1" %}
 
 > YouTuber and Doomworld community member kgsws has set a new standard for, well, something with this brilliant bit of techno-recursion: Doom running in Doom \[\...\]
 > The video is basically a mini-documentary of kgsws\' process, but if you want to get straight to the good stuff it starts at around 8:10, when he gets the Chocolate Doom source port imported into the exploit.
@@ -33,7 +33,7 @@ The Chocolate Doom icon can be seen in the upper left corner of the window durin
 
 ### Doom ported to the Raspberry Pi Pico (March 2022) {#doom_ported_to_the_raspberry_pi_pico_march_2022}
 
-{% include YoutubeEmbed.md p1="vXr7tOR3dis" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="vXr7tOR3dis" size="300x225" right="1" %}
 
 > The port was performed by Graham Sanderson and the full shareware game (DOOM1.WAD) is playable on a vanilla Pi Pico (with 2MB of flash storage). \"RP2040 boards with 8M should be able to play at least the full Ultimate Doom and DOOM II WADs,\" he said.
 >
@@ -64,7 +64,7 @@ Logo from Cloudflare\'s writeup about porting Chocolate Doom to run on Cloudflar
 
 ### Doom on Game & Watch (November 2020) {#doom_on_game_watch_november_2020}
 
-{% include YoutubeEmbed.md p1="sNg_S9UM5ps" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="sNg_S9UM5ps" size="300x225" right="1" %}
 
 > Naturally, hardware hacking channel Stacksmashing took the thing apart to see what else the teeny piece of kit could run. There was, of course, only one answer.
 >
@@ -87,7 +87,7 @@ Articles don\'t mention but this is confirmed to be using Chocolate Doom ([citat
 
 ### Myki Card Readers (May 2020) {#myki_card_readers_may_2020}
 
-{% include YoutubeEmbed.md p1="M9QtT13CDl0" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="M9QtT13CDl0" size="300x225" right="1" %}
 
 > If you've ever wondered whether those dodgy card readers in Melbourne are capable of doing something greater, yes: they can run DOOM.
 >
@@ -98,7 +98,7 @@ Articles don\'t mention but this is confirmed to be using Chocolate Doom ([citat
 
 ### Doom on NES (June 2019) {#doom_on_nes_june_2019}
 
-{% include YoutubeEmbed.md p1="gCWhWBtu0LA" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="gCWhWBtu0LA" size="300x225" right="1" %}
 
 > Doom is one of my favorite games, which is convenient because it will run on almost any device. Digital cameras, old Nokia phones, a Zune, you name it. If it can be connected to a screen, someone has probably modded it to run Doom, and if they haven\'t, someone is probably working on it.
 >
@@ -112,7 +112,7 @@ Articles don\'t mention but this is confirmed to be using Chocolate Doom ([citat
 
 ### Doom on a Thermostat (May 2017) {#doom_on_a_thermostat_may_2017}
 
-{% include YoutubeEmbed.md p1="2T5LyEjLfP8" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="2T5LyEjLfP8" size="300x225" right="1" %}
 
 > In a YouTube video spotted by Hackaday, user cz7 asm unveils their Doomostat---a Honeywell Prestige thermostat hooked up to a SNES controller that appears to run Doom quite nicely.
 >
@@ -124,7 +124,7 @@ Articles don\'t mention but this is confirmed to be using Chocolate Doom ([citat
 
 ### Doom on a Chainsaw (May 2016) {#doom_on_a_chainsaw_may_2016}
 
-{% include YoutubeEmbed.md p1="uZqjrvAOBm4" p2="300x225" p3="right" %}
+{% include YoutubeEmbed.md id="uZqjrvAOBm4" size="300x225" right="1" %}
 
 > Bethesda and id Software\'s Doom reboot is just a few days out, which makes this the ideal time to have a look at Doom 2 running on a chainsaw. But not just any chainsaw, no: This is the Painsaw.
 >

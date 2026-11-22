@@ -13,7 +13,7 @@ With a TCP/serial bridge (like [ser2net](http://ser2net.sourceforge.net/)), it s
 
 ## Video demonstration {#video_demonstration}
 
-{% include YoutubeEmbed.md p1="t12zOpDh5Jk" %}
+{% include YoutubeEmbed.md id="t12zOpDh5Jk" %}
 
 ## Configuration modes {#configuration_modes}
 

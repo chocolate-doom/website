@@ -18,7 +18,7 @@ The branch is now obsolete and remaining Strife work was completed on [v2-branch
 ## Demo video {#demo_video}
 
 The following video shows strife-branch at revision 2075; a lot of functionality was incomplete at that point and many improvements have been made since then:
-{% include YoutubeEmbed.md p1="0w60Oqhvr6Y" p2="500x375" %}
+{% include YoutubeEmbed.md id="0w60Oqhvr6Y" size="500x375" %}
 
 ## External links {#external_links}
 

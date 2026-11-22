@@ -11,7 +11,7 @@ IPX protocol support is implemented via [DOSBox](https://en.wikipedia.org/wiki/D
 
 ## Video demonstration {#video_demonstration}
 
-{% include YoutubeEmbed.md p1="zs5tGIVV5ms" %}
+{% include YoutubeEmbed.md id="zs5tGIVV5ms" %}
 
 ## Configuration modes {#configuration_modes}
 
