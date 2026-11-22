@@ -1,1 +1,0 @@
-<includeonly>[[Category:Pages using a deprecated template]]</includeonly>
