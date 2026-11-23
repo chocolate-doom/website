@@ -14,20 +14,14 @@ One of the main design aims of Chocolate Doom is to be **portable**, running on 
 To date, Chocolate Doom has been successfully run on:
 
 - Microsoft Windows
-
-:\* Windows XP
-
-:\* Windows Vista
-
-:\* Windows 7
-
+   - Windows XP
+   - Windows Vista
+   - Windows 7
 - Linux (various different distributions, Intel x86, x86-64, ARM and PowerPC variants)
 - BSD
-
-:\* FreeBSD
-
-:\* OpenBSD
-
+   - FreeBSD
+   - NetBSD
+   - OpenBSD
 - Solaris (Intel and SPARC variants)
 - Mac OS X (Intel and PowerPC variants)
 

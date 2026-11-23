@@ -27,15 +27,10 @@ Configuring statcheck is intended to be relatively simple. You will need the fol
 
 - A version of Chocolate Doom to test. By default, a `chocolate-doom` binary found in `PATH` will be used if one is found
 - Copies of the commercial IWAD files:
-
-:\* doom.wad
-
-:\* doom2.wad
-
-:\* tnt.wad
-
-:\* plutonia.wad
-
+   - doom.wad
+   - doom2.wad
+   - tnt.wad
+   - plutonia.wad
 - GNU make
 - Git
 - Python 3

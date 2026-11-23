@@ -22,20 +22,14 @@ Diagram of how IPX games may be set up with IPX protocol support.
 
 Different configuration modes are supported:
 
-1\. Chocolate Doom connects to a DOSBox IPX server:
-
-:\* The server itself can act as a vanilla Doom peer running IPXSETUP
-
-:\* Other DOSBox clients can connect to the server and join the game
-
-:\* Other Chocolate Doom peers can connect to the server and join the game.
+1. Chocolate Doom connects to a DOSBox IPX server:
+   - The server itself can act as a vanilla Doom peer running IPXSETUP
+   - Other DOSBox clients can connect to the server and join the game
+   - Other Chocolate Doom peers can connect to the server and join the game.
 2. Chocolate Doom connects to an [ipxbox server](https://github.com/fragglet/ipxbox):
-
-:\* DOSBox clients can connect to the server and join the game
-
-:\* Other Chocolate Doom peers can connect to the server and join the game.
-
-:\* The server can be bridged to a physical IPX network, and real DOS machines on the same network can join the game.
+   - DOSBox clients can connect to the server and join the game
+   - Other Chocolate Doom peers can connect to the server and join the game.
+   - The server can be bridged to a physical IPX network, and real DOS machines on the same network can join the game.
 
 ## Setup instructions {#setup_instructions}
 
