@@ -13,7 +13,6 @@ github_branch: trunk
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-sitemap
