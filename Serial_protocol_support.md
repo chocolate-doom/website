@@ -24,23 +24,16 @@ Diagram of how serial protocol games may be set up.
 
 Different configuration modes are supported:
 
-1\. Chocolate Doom \"accepts call\" from DOSBox peer:
-
-:\* Chocolate Doom listens on a TCP port for a connection
-
-:\* DOSBox emulated modem \"dials\" TCP port, and game is established.
+1. Chocolate Doom \"accepts call\" from DOSBox peer:
+   - Chocolate Doom listens on a TCP port for a connection
+   - DOSBox emulated modem \"dials\" TCP port, and game is established.
 2. Chocolate Doom \"calls up\" DOSBox peer:
-
-:\* DOSBox emulated modem \"listens for call\" by opening a TCP port
-
-:\* Chocolate Doom connects to TCP port, and game is established.
+   - DOSBox emulated modem \"listens for call\" by opening a TCP port
+   - Chocolate Doom connects to TCP port, and game is established.
 3. Chocolate Doom connects to serial/TCP bridge (eg. [ser2net](http://ser2net.sourceforge.net/)):
-
-:\* Chocolate Doom connects to ser2net TCP port.
-
-:\* TCP connection bridges to a physical serial connection (null modem cable)
-
-:\* At the other end of the null modem cable is a DOS machine running SERSETUP.EXE; game is established.
+   - Chocolate Doom connects to ser2net TCP port.
+   - TCP connection bridges to a physical serial connection (null modem cable)
+   - At the other end of the null modem cable is a DOS machine running SERSETUP.EXE; game is established.
 
 ## Setup instructions {#setup_instructions}
 
