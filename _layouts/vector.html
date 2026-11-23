@@ -65,10 +65,10 @@
                     <h3>
                         <label for="searchInput">Search</label>
                     </h3>
-                    <form action="/wiki/index.php" id="searchform">
+                    <form action="https://www.google.com/search" id="searchform" method="GET">
                         <div id="simpleSearch">
-                            <input type="search" name="search" placeholder="Search" title="Search [Alt+Shift+f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off">
-                            <input type="hidden" value="Special:Search" name="title">
+                            <input type="search" name="as_q" placeholder="Search" title="Search [Alt+Shift+f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off">
+                            <input type="hidden" name="as_sitesearch" value="{{ site.url }}">
                             <input type="submit" name="go" value="Go" id="searchButton" class="searchButton">
                         </div>
                     </form>
