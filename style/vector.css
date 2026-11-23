@@ -1794,7 +1794,8 @@
         position: absolute;
         top: 0;
         width: 10em;
-        left: 0
+        left: 0;
+        margin-left: 0.5em;
     }
 
     #mw-panel .portal {
@@ -1809,26 +1810,25 @@
         font-size: 0.75em;
         color: #444444;
         font-weight: normal;
-        margin: 0.5em 0 0 0.66666667em;
+        margin: 0.5em 0 0 0.16666667em;
         padding: 0.25em 0;
         cursor: default;
         border: 0
     }
 
-    #mw-panel .portal .body {
-        margin-left: 0.5em;
-        padding-top: 0;
+    #mw-panel .portal hr {
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIpH1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC);
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        margin: 0;
     }
 
-    #mw-panel .portal .body ul {
+    #mw-panel .portal ul {
         list-style: none none;
         margin: 0;
-        padding: 0.3em 0 0 0
+        padding: 0.3em 0 0 0;
     }
 
-    #mw-panel .portal .body li {
+    #mw-panel .portal li {
         line-height: 1.125em;
         margin: 0;
         padding: 0.25em 0;
@@ -1836,26 +1836,12 @@
         word-wrap: break-word
     }
 
-    #mw-panel .portal .body li a {
+    #mw-panel .portal li a {
         color: #0645ad
     }
 
-    #mw-panel .portal .body li a:visited {
+    #mw-panel .portal li a:visited {
         color: #0b0080
-    }
-
-    #mw-panel #p-logo+.portal {
-        background-image: none;
-        margin-top: 1em
-    }
-
-    #mw-panel #p-logo+.portal h3 {
-        display: none
-    }
-
-    #mw-panel #p-logo+.portal .body {
-        background-image: none;
-        margin-left: 0.5em
     }
 
     #footer {
