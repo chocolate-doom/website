@@ -15,7 +15,7 @@ You can join up to the port\'s IRC at #obsidian on irc.oftc.net if you have any 
 
 ## External links {#external_links}
 
-{% include Doomwiki.md p1="Obsidian (source port)" %}
+{% include Doomwiki.md page="Obsidian (source port)" %}
 
 - [Archive of the project with downloads](https://github.com/DynTylluan/obsidian) ([Mirror](https://notabug.org/DynTylluan/obsidian))
 - [The port\'s BitBucket](https://bitbucket.org/tm512/obsidian) (dead as of 2020-09-15)

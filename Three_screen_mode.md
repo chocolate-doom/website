@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% include Doomwiki.md p1="Three screen mode" %}
+{% include Doomwiki.md page="Three screen mode" %}
 The **three screen mode** of Chocolate Doom uses [multiplayer](/Multiplayer.md) mode to give an enlarged field of view. This is achieved by displaying the extended field of view sections via separate drone clients and their windows. The feature was originally found in early [vanilla Doom](https://doomwiki.org/wiki/vanilla_Doom) versions, but it was removed from [versions 1.2](https://doomwiki.org/wiki/Versions_of_Doom_and_Doom_II#v1.2) and up.
 
 ## Demonstration video {#demonstration_video}

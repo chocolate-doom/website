@@ -5,7 +5,7 @@ categories:
  - Features
 ---
 {% include YoutubeEmbed.md id="zqTaB7y7tug" width="300" height="225" right="1" %}
-{% include Doomwiki.md p1="PC speaker sound effects" %}
+{% include Doomwiki.md page="PC speaker sound effects" %}
 Today, it is expected that most (if not all) computers should have some sort of digital sound card to help benefit the user, however, when Doom was first released in 1993, digital sound cards were not as common as they are now.
 
 A way of getting around this issue was that when ID Software wrote Doom, they included support for two different sound formats, the main one is the digital sound format, which supports 8-bit mono sound effects; this is used for the sound blaster and all other sound cards supported by Doom. The second one is PC speaker format, this uses the speakers that have been built into every PC.

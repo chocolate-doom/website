@@ -126,7 +126,7 @@ To keep up to date, periodically run these command to update your source:
 
 ## External links {#external_links}
 
-{% include Doomwiki.md p1="Competition Doom" %}
+{% include Doomwiki.md page="Competition Doom" %}
 
 - [Competition Doom Git](https://github.com/fx02/cndoom.git)
 - [Competition Doom homepage](http://doom.com.hr/compet-n/)

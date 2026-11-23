@@ -27,7 +27,7 @@ The Chocolate Doom icon (as shown at the top left of this page) is one of [a ser
 
 ## See also {#see_also}
 
-{% include Doomwiki.md p1="Chocolate Doom" %}
+{% include Doomwiki.md page="Chocolate Doom" %}
 
 - [Features](/Category:Features.md) of Chocolate Doom
 - [Screenshots](/Screenshots.md)

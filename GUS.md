@@ -23,7 +23,7 @@ A setup guide for how to configure GUS music playback can be found in the {% inc
 
 [Vanilla Doom](https://doomwiki.org/wiki/Vanilla_Doom) has a [bug](https://doomwiki.org/wiki/GUS_instrument_mappings_bug) where it will play wrong instruments when using a GUS. In keeping with the project [philosophy](/Philosophy.md), Chocolate Doom faithfully emulates this bug, but some people find it sounds unpleasant.
 
-{% include Doomwiki.md p1="GUS instrument mappings bug" %}
+{% include Doomwiki.md page="GUS instrument mappings bug" %}
 There are two ways to work around this bug.
 
 ### Use gusgonna.wad {#use_gusgonna.wad}

@@ -7,7 +7,7 @@ categories:
 \[\[File:ZOMBIES.PNG\|thumb\|right\|Zombies TC (Based on the original Dawn Of The Dead & Day Of The Dead films) running in Chocolate Doom
 
 \]\]
-{% include Doomwiki.md p1="Zombies TC" %}
+{% include Doomwiki.md page="Zombies TC" %}
 These are instructions on how to play the **Zombies TC** under Chocolate Doom.
 
 1.  Download a copy of {% include Idgames.md file="levels/doom2/v-z/zombies.zip" title="Zombies TC" %}.

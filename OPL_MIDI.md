@@ -12,7 +12,7 @@ Yamaha YM3812 (OPL2) synthesizer chip
 {% endcapture %}
 {% include Image.md caption=caption image="Yamaha_YM3812.jpg" %}
 
-{% include Doomwiki.md p1="OPL emulation" %}
+{% include Doomwiki.md page="OPL emulation" %}
 Chocolate Doom includes OPL MIDI playback support. This plays the in-game MIDI music in the same way as [Vanilla Doom](https://doomwiki.org/wiki/Vanilla_Doom) sounds when using a SoundBlaster card.
 
 ## Overview

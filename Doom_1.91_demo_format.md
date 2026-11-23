@@ -6,7 +6,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% include Doomwiki.md p1="Turning resolution is lowered when recording demos" %}
+{% include Doomwiki.md page="Turning resolution is lowered when recording demos" %}
 A [limitation](https://doomwiki.org/wiki/Turning_resolution_is_lowered_when_recording_demos) of the Vanilla Doom demo format means that the player\'s turning resolution is reduced when recording demos. This can have a significantly detrimental effect on the performance of players recording demos.
 
 A solution to this problem was developed under DOS in the form of a binary patch which can be applied to the Doom executable. This changes the demo format but removes the degradation in resolution.

@@ -45,7 +45,7 @@ There are a wide variety of options available for music playback with Chocolate 
 
 ## DMXOPL
 
-{% include Doomwiki.md p1="DMXOPL" %}
+{% include Doomwiki.md page="DMXOPL" %}
 If you\'re more of a fan of chiptune-style music, [DMXOPL](https://doomwiki.org/wiki/DMXOPL) provides a replacement set of OPL instrument patches that can be used with Chocolate Doom\'s [OPL MIDI](/OPL_MIDI.md) playback.
 
 ### External links {#external_links_4}

@@ -24,7 +24,7 @@ In 2014, Chocolate Strife was used as the base for [Strife: Veteran Edition](/St
 
 ## Legality
 
-{% include Doomwiki.md p1="Strife" %}
+{% include Doomwiki.md page="Strife" %}
 Reverse engineering is a protected activity so long as the original code is not used directly in the product. Due to the vast amount of information lost through the process of compilation, and the need to refactor large portions of code in order to eliminate non-portable idioms or to adapt them properly to Chocolate Doom\'s framework, the resulting code behaves the same, but is not the \*same\* code.
 
 Strife developer James Monroe and John Carmack have both stated that they have no objections to the project. Because they are the original authors of the code, and neither Rogue nor their publisher, Velocity, Inc., exist any longer as legal entities, this is effectively legal permission.

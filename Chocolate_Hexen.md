@@ -23,7 +23,7 @@ More screenshots can be found in [:Category:Hexen screenshots](/Category:Hexen_s
 
 ## See also {#see_also}
 
-{% include Doomwiki.md p1="Hexen" %}
+{% include Doomwiki.md page="Hexen" %}
 
 - [Raven-branch](/Raven-branch.md)
 - [Chocolate Heretic](/Chocolate_Heretic.md)

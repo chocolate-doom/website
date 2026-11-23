@@ -25,7 +25,7 @@ More screenshots can be found in [:Category:Heretic screenshots](/Category:Heret
 
 ## See also {#see_also}
 
-{% include Doomwiki.md p1="Heretic" %}
+{% include Doomwiki.md page="Heretic" %}
 
 - [Raven-branch](/Raven-branch.md)
 - [Chocolate Hexen](/Chocolate_Hexen.md)

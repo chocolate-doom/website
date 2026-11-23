@@ -9,7 +9,7 @@ Army of Darkness Doom running in Chocolate Doom.
 {% endcapture %}
 {% include Image.md caption=caption image="Chocolate-aod-doom.png" width="320" %}
 
-{% include Doomwiki.md p1="Army of Darkness TC" %}
+{% include Doomwiki.md page="Army of Darkness TC" %}
 The following are instructions on how to play **Army of Darkness Doom** under Chocolate Doom:
 
 ### Doom 1 version {#doom_1_version}
