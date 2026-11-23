@@ -23,3 +23,11 @@ The wiki has a fair number of screenshots, but some of them are now out of date 
 ## Other information {#other_information}
 
 If you know of anything missing from the website, feel free to add it. Do not be afraid to make any change you feel will improve the site, no matter how [bold](https://en.wikipedia.org/wiki/Wikipedia:Be_bold_in_updating_pages).
+
+## History
+
+For many years, the Chocolate Doom website used to be a wiki based on [MediaWiki](https://en.wikipedia.org/wiki/MediaWiki), the same software that powers Wikipedia ([here's a snapshot](https://web.archive.org/web/20060225231459/http://www.chocolate-doom.org/wiki/index.php/Chocolate_Doom) of what the website looked like back in 2006). The website today is no longer based on MediaWiki, although it still retains the look and feel, as the stylesheet was reused for the new site.
+
+In 2026, the wiki was converted to Markdown format and moved onto Github Pages for hosting. The database from the old site was converted into Git history, so the full 20 year history of the website has been preserved. The new site is based on [Jekyll](https://en.wikipedia.org/wiki/Jekyll_(software)), with some custom templates and plugins to reproduce some of MediaWiki's functionality.
+
+There were various motivating factors for moving off MediaWiki: the main concern was the maintenance burden of running a MediaWiki website, including dealing with upgrades and having to deal with security issues. Contributions to the website have dropped off sharply in recent years, possibly in part due to anti-spam measures that we had to put in place; it's hoped that moving onto Github makes the site more accessible to contributors again.
