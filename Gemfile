@@ -8,3 +8,5 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-relative-links", "~> 0.9.2"
 end
+
+gem "jekyll-sitemap", "~> 1.4"
