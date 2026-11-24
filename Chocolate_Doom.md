@@ -8,7 +8,10 @@ redirect_from:
  - /index.html
 ---
 
-<table><tr><td markdown="1">
+<img src="/thumbs/Chocolate-doom.png"
+     style="width: 40%; float: right;">
+
+<div style="margin-right: 40%;" markdown="1">
 **Chocolate Doom** is a Doom source port that accurately reproduces the experience of [Doom](https://en.wikipedia.org/wiki/Doom) as it was played in the 1990s. ([Read more \...](/About.md))
 
 {% capture caption %}
@@ -35,9 +38,4 @@ Chocolate Doom is under continual active development. Visit the **[development](
 **[Crispy Doom](/Crispy_Doom.md)** is a friendly fork of Chocolate Doom that adds a number of extra features.
 {% endcapture %}
 {% include Linksbox.md image="Crispy-doom.png" link="/Crispy_Doom.md" text=caption %}
-
-</td><td style="vertical-align: top; width: 40%;">
-
-{% include Image.md image="Chocolate-doom.png" %}
-
-</td></tr></table>
+</div>
