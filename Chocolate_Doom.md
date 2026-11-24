@@ -12,7 +12,7 @@ redirect_from:
      style="width: 40%; float: right;">
 
 <div style="margin-right: 40%;" markdown="1">
-**Chocolate Doom** is a Doom source port that accurately reproduces the experience of [Doom](https://en.wikipedia.org/wiki/Doom) as it was played in the 1990s. ([Read more \...](/About.md))
+**Chocolate Doom** is a Doom source port that accurately reproduces the experience of [Doom](https://en.wikipedia.org/wiki/Doom_(1993_video_game)) as it was played in the 1990s. ([Read more \...](/About.md))
 
 {% capture caption %}
 See some **[Screenshots](/Screenshots.md)** of Chocolate Doom in action.
