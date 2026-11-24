@@ -3,9 +3,42 @@ layout: vector
 ---
 {{ content }}
 
-<h2> Contents </h2>
+{% if page.category_subcategories.size > 0 %}
 
-{% if page.category_pages %}
+<h2> Subcategories </h2>
+
+<ul>
+
+{% for subcat in page.category_subcategories %}
+    <li>
+        <a href="/Category:{{ subcat | replace: "/", "__" | replace: " ", "_" }}.html">{{ subcat }}</a>
+    </li>
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+{% if page.category_images.size > 0 %}
+
+<h2> Images </h2>
+
+<ul>
+<!-- TODO: This should be a gallery view, with thumbnails of the images. -->
+
+{% for img in page.category_images %}
+    <li>
+        <a href="/File:{{ img | replace: "/", "__" | replace: " ", "_" }}.html">{{ img }}</a>
+    </li>
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+{% if page.category_pages.size > 0 %}
+
+<h2> Pages </h2>
 
 The following pages are in this category:
 
@@ -13,13 +46,17 @@ The following pages are in this category:
 
 {% for cpage in page.category_pages %}
     <li>
-        <a href="/{{ cpage | replace: "/", "__" | replace: " ", "_" }}">{{ cpage }}</a>
+        <a href="/{{ cpage | replace: "/", "__" | replace: " ", "_" }}.html">{{ cpage }}</a>
     </li>
 {% endfor %}
 
 </ul>
 
-{% else %}
+{% endif %}
+
+{% if page.category_subcategories.size == 0 and
+      page.category_pages.size == 0 and
+      page.category_images.size == 0 %}
 
 There are no pages in this category.
 

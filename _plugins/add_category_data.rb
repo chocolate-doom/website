@@ -1,5 +1,29 @@
 module Jekyll
 
+class Category
+    attr_accessor :pages, :images, :subcategories
+
+    def initialize
+        @pages = []
+        @images = []
+        @subcategories = []
+    end
+
+    def add_page(title)
+        group = if title =~ /^File:(.*)/
+            title = $1
+            @images
+        elsif title =~ /^Category:(.*)/
+            title = $1
+            @subcategories
+        else
+            @pages
+        end
+
+        group.push(title)
+    end
+end
+
 # This generator processes the categories listed in front-matter of each page,
 # and builds a map from category name to list of pages in that category. That
 # list is then added to the front matter for the respective category pages.
@@ -8,25 +32,24 @@ class AddCategoryData < Generator
     priority :normal
 
     def generate(site)
-        category_to_pages = {}
+        categories = {}
         site.pages.each do |page|
-            page_categories = (page.data["categories"] or [])
-            page_categories.each do |category|
-                category_pages = (category_to_pages[category] or [])
-                category_to_pages[category] = category_pages
+            page_cats = (page.data["categories"] or [])
+            page_cats.each do |cat_name|
+                cat = (categories[cat_name] or Category.new)
+                categories[cat_name] = cat
                 page_title = page.path.sub(/\.md$/, "")
                 page_title = page_title.gsub("__", "/")
                 page_title = page_title.gsub("_", " ")
-                category_pages.push(page_title)
+                cat.add_page(page_title)
             end
         end
-        category_to_pages.each_value do |pages|
-            pages.sort!
-        end
         site.pages.each do |page|
-            m = /^Category:(.*).md/.match(page.path)
-            if m
-                page.data["category_pages"] = (category_to_pages[m[1]] or [])
+            if page.path =~ /^Category:(.*).md/
+                cat = (categories[$1] or Category.new)
+                page.data["category_pages"] = cat.pages.sort
+                page.data["category_subcategories"] = cat.subcategories.sort
+                page.data["category_images"] = cat.images.sort
             end
         end
     end
