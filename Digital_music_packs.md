@@ -8,7 +8,7 @@ categories:
 {% include YoutubeEmbed.md id="KlVuY4rFdm4" width="300" height="225" right="1" %}
 Doom\'s music is MIDI-based. This means that the music can sound vastly different depending on the hardware used to play it. Most PCs in the \'90s played back Doom\'s music using low quality [FM synthesis](/OPL_MIDI.md) but superior options were available. One example is the [Roland Sound Canvas SC-55](https://en.wikipedia.org/wiki/Roland_SC-55), a piece of professional MIDI synthesis hardware that was originally used by Bobby Prince to compose Doom\'s music. For this reason, the SC-55 is sometimes considered the \"canonical\" playback format for Doom\'s music.
 
-Future versions of Chocolate Doom will include support for digital music packs: high quality digital recordings of Doom\'s music from devices such as the SC-55 that can be used in game in place of the normal MIDI playback. When a substituted track is to be played, the high quality recording is played instead. An example can be seen in the video to the right.
+Chocolate Doom includes support for digital music packs: high quality digital recordings of Doom\'s music from devices such as the SC-55 that can be used in game in place of the normal MIDI playback. When a substituted track is to be played, the high quality recording is played instead. An example can be seen in the video to the right.
 
 High quality recordings of Doom\'s music already exist, such as [Brandon Blume\'s SC-55 recordings](http://sc55.duke4.net/). We hope to provide a set of downloadable music packs for each of the games supported by Chocolate Doom.
 
