@@ -5,10 +5,17 @@ set -euo pipefail
 cd _site
 
 rm -rf thumbs
-mkdir thumbs
+mkdir thumbs thumbs/icons
 
 for src in images/*; do
     echo -n "$src: "
+
+    # Make the icon first.
+    if [[ "$src" =~ .png$ ]]; then
+        dst_icon=${src/images/thumbs\/icons}
+        magick $src -thumbnail 96x96 $dst_icon
+    fi
+
     dst=${src/images/thumbs}
     src_size=$(stat -c "%s" $src)
 
