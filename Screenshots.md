@@ -123,7 +123,7 @@ Chocolate Doom has built in dehacked support which allows it to play a number of
 
 Its [compatibility](/Compatibility.md) features also allow problematic levels such as [Doomsday of UAC](/Doomsday_of_UAC.md) to be played:
 
-{% include Image.md image="Chocolate-uac_dead.png" width="320" %}
+{% include Gallerybox.md image="Chocolate-uac_dead.png" caption="Doomsday of UAC, aka UAC_DEAD.WAD" %}
 
 [More WAD screenshots\...](/Category:WAD_screenshots.md)
 
