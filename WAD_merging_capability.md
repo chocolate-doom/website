@@ -21,7 +21,7 @@ The majority of sprite and flat mods use the *DeuSF* program. Merging of this ty
 
 As an example, to load the WAD needed for [Aliens TC](/Aliens_TC.md):
 
-    chocolate-doom '''-merge alitcsf.wad''' -file alitcsnd.wad alitcwad.wad -deh atcud19.deh
+    chocolate-doom -merge alitcsf.wad -file alitcsnd.wad alitcwad.wad -deh atcud19.deh
 
 ### NWT-style {#nwt_style}
 
