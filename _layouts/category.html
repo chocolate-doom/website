@@ -27,9 +27,11 @@ layout: vector
 <!-- TODO: This should be a gallery view, with thumbnails of the images. -->
 
 {% for img in page.category_images %}
-    <li>
-        <a href="/File:{{ img | replace: "/", "__" | replace: " ", "_" }}.html">{{ img }}</a>
-    </li>
+  {% assign imgfile = img | replace: "/", "__" | replace: " ", "_" %}
+  {% capture caption %}
+  <a href="/File:{{ imgfile }}.html">{{ imgfile }}</a>
+  {% endcapture %}
+  {% include Gallerybox.md image=imgfile caption=caption %}
 {% endfor %}
 
 </ul>
