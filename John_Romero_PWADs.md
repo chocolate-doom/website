@@ -24,7 +24,7 @@ The port for the game was made thanks to the_kovic reviewing the PWAD in [Chocor
 
 Downloading and running this version of the game, which John Romero himself gave approval to, can be found [via the forum](https://www.doomworld.com/forum/topic/127672) ([or by clicking this direct link](https://www.doomworld.com/applications/core/interface/file/attachment.php?id=170902)), extracting it, and running the following command:
 
-    chocolate-doom -iwad doomu.wad -merge SIGILDOS.wad
+    chocolate-doom -iwad doom.wad -merge SIGILDOS.wad
 
 The vanilla port of SIGIL is not perfect and there are some issues that should be noted:
 

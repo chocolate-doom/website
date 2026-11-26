@@ -19,4 +19,4 @@ These are instructions on how to play the **Aliens Doom 3 - Aliens versus Predat
 
     chocolate-doom -iwad doom.wad -deh ad3.deh -merge ad3spfl.wad ad3gfx.wad ad3snd.wad ad3mus.wad ad3lev.wad
 
-You should rename \"-iwad doom.wad\" to \"-iwad doomu.wad\" if you\'re using [The Ultimate Doom](https://doomwiki.org/wiki/The_Ultimate_Doom), and to \"-iwad freedoom1.wad\" if you\'re using [Freedoom](/Freedoom.md).
+You should rename \"-iwad doom.wad\" to \"-iwad freedoom1.wad\" if you\'re using [Freedoom](/Freedoom.md).
