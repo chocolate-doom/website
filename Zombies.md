@@ -12,7 +12,7 @@ These are instructions on how to play the **Zombies TC** under Chocolate Doom.
 
 1.  Download a copy of {% include Idgames.md file="levels/doom2/v-z/zombies.zip" title="Zombies TC" %}.
 2.  Extract the zip archive.
-3.  Run with the following [command-line arguments](/Command-line_arguments.md):
+3.  Run with the following [command-line arguments](/Command_line_arguments.md):
 
 <!-- -->
 

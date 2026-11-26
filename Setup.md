@@ -9,7 +9,7 @@ categories:
 {% image filename:"Chocolate-setup-icon.png" %}
 {% endimage %}
 
-The **setup program** is Chocolate Doom\'s configuration utility. Reproducing the look and feel of the original Doom [setup program](https://doomwiki.org/wiki/Setup_program), it provides equivalent functionality, with support for some of Chocolate Doom\'s more advanced features. It is based on [libtextscreen](/Libtextscreen.md), a Chocolate Doom library that emulates a DOS text mode display.
+The **setup program** is Chocolate Doom\'s configuration utility. Reproducing the look and feel of the original Doom [setup program](https://doomwiki.org/wiki/Setup_program), it provides equivalent functionality, with support for some of Chocolate Doom\'s more advanced features. It is based on [libtextscreen](/Textscreen.md), a Chocolate Doom library that emulates a DOS text mode display.
 
 ## Configuration menus {#configuration_menus}
 

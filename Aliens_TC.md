@@ -13,7 +13,7 @@ These are instructions on how to play [Aliens TC](https://doomwiki.org/wiki/Alie
 
 1.  Obtain a copy of {% include Idgames.md file="themes/aliens/atcud19.zip" title="the Ultimate Doom version of the Aliens TC" %}.
 2.  Extract the zip archive.
-3.  Run with the following [command-line arguments](/Command-line_arguments.md):
+3.  Run with the following [command-line arguments](/Command_line_arguments.md):
 
 <!-- -->
 

@@ -4,4 +4,4 @@ redirect_from:
 categories:
  - Screenshots
 ---
-Screenshots of the [textscreen](/Textscreen.md) library used for the [setup program](/Setup_program.md).
+Screenshots of the [textscreen](/Textscreen.md) library used for the [setup program](/Setup.md).

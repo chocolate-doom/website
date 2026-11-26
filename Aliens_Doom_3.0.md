@@ -13,7 +13,7 @@ These are instructions on how to play the **Aliens Doom 3 - Aliens versus Predat
 1.  Obtain a copy of {% include Idgames.md file="themes/aliens/aliendm3/ad3beta7.zip" title="the TC" %}.
 2.  Download **ad3beta7.zip** from one of the mirror sites.
 3.  Extract the zip archive.
-4.  Run with the following [command-line arguments](/Command-line_arguments.md):
+4.  Run with the following [command-line arguments](/Command_line_arguments.md):
 
 <!-- -->
 

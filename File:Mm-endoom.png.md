@@ -4,4 +4,4 @@ redirect_from:
 categories:
  - Textscreen_screenshots
 ---
-[ENDOOM](/ENDOOM.md) screen from Memento Mori 2.
+[ENDOOM](/Accurate_ENDOOM_emulation.md) screen from Memento Mori 2.

@@ -5,4 +5,4 @@ categories:
  - Doom_screenshots
  - Platform_screenshots
 ---
-Chocolate Doom running on Windows 95. Note that the OS isn\'t officially supported by the port. Screenshot by [Sneakernets](/User:Sneakernets.md).
+Chocolate Doom running on Windows 95. Note that the OS isn\'t officially supported by the port. Screenshot by Sneakernets.

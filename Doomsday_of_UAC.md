@@ -15,7 +15,7 @@ Instructions:
 
 1.  Download a copy of {% include Idgames.md file="levels/doom/s-u/uac_dead.zip" title="UAC_DEAD" %} from idgames.
 2.  Extract the file from the .zip archive.
-3.  Run with the following [command-line arguments](/Command-line_arguments.md):
+3.  Run with the following [command-line arguments](/Command_line_arguments.md):
 
 <!-- -->
 

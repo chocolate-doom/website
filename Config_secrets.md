@@ -83,5 +83,5 @@ This corresponds to the following:
 - Scroll wheel cycles weapons
 - [PNG screenshots](/PNG_screenshots.md)
 - Vanilla savegame and demo limits disabled
-- [ENDOOM](/ENDOOM.md) screen disabled and no graphical startup
+- [ENDOOM](/Accurate_ENDOOM_emulation.md) screen disabled and no graphical startup
 - Adlib music in OPL3 mode

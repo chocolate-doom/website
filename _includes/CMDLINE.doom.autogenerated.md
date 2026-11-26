@@ -162,10 +162,10 @@
 : Equivalent to \"-af \<files\> -as \<files\>\".
 
 -af \<files\>
-: Simulates the behavior of NWT\'s -af option, [merging](/Merging.md) flats into the main IWAD directory. Multiple files may be specified.
+: Simulates the behavior of NWT\'s -af option, [merging](/WAD_merging_capability.md) flats into the main IWAD directory. Multiple files may be specified.
 
 -as \<files\>
-: Simulates the behavior of NWT\'s -as option, [merging](/Merging.md) sprites into the main IWAD directory. Multiple files may be specified.
+: Simulates the behavior of NWT\'s -as option, [merging](/WAD_merging_capability.md) sprites into the main IWAD directory. Multiple files may be specified.
 
 -deh \<files\>
 : Load the given [dehacked](/Dehacked.md) patch(es)
@@ -174,7 +174,7 @@
 : Load [Dehacked](/Dehacked.md) patches from [DEHACKED](/Dehacked.md) lumps contained in one of the loaded PWAD files.
 
 -merge \<files\>
-: Simulates the behavior of deutex\'s -merge option, [merging](/Merging.md) a PWAD into the main IWAD. Multiple files may be specified.
+: Simulates the behavior of deutex\'s -merge option, [merging](/WAD_merging_capability.md) a PWAD into the main IWAD. Multiple files may be specified.
 
 -nocheats
 : Ignore cheats in [dehacked](/Dehacked.md) files.
@@ -188,7 +188,7 @@
 ### Demo options {#demo_options}
 
 -longtics
-: Record a high resolution \"[Doom 1.91](/Doom_1.91.md)\" demo.
+: Record a high resolution \"[Doom 1.91](/Doom_1.91_demo_format.md)\" demo.
 
 -maxdemo \<size\>
 : Specify the demo buffer size (KiB)

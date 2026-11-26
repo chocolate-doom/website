@@ -32,7 +32,7 @@ Doom renders to a 320x200 display buffer, but almost all monitors in the 1990s w
 
 ### Show ENDOOM screen on exit {#show_endoom_screen_on_exit}
 
-You may also toggle the display of [ENDOOM](https://doomwiki.org/wiki/ENDOOM) from this window. This is a screen that normally was displayed on DOS after quitting the game, and some WADs include their own replacement graphics for it. Chocolate Doom emulates this screen using [libtextscreen](/Libtextscreen.md), the same text-mode emulation that the setup program itself uses.
+You may also toggle the display of [ENDOOM](https://doomwiki.org/wiki/ENDOOM) from this window. This is a screen that normally was displayed on DOS after quitting the game, and some WADs include their own replacement graphics for it. Chocolate Doom emulates this screen using [libtextscreen](/Textscreen.md), the same text-mode emulation that the setup program itself uses.
 
 ### Save screenshots in PNG format {#save_screenshots_in_png_format}
 

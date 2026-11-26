@@ -24,7 +24,7 @@ Chocolate Doom can be run from the console without using an X server; however, y
 
      chocolate-doom -geometry 640x480 -bpp 24
 
-(You can run in up to 800x600 but higher modes don\'t seem to work - [Fraggle](/User:Fraggle.md))
+(You can run in up to 800x600 but higher modes don\'t seem to work.)
 
 If you want to try Heretic, Hexen or Strife you might encounter some problems with the screen going blank. This is caused by the startup screen and turning it off solves the problem. Edit the config file, for example:
 
