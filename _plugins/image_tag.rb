@@ -22,9 +22,9 @@ class ImageTag < Liquid::Block
   end
 
   def render(context)
-    caption = super.to_s
-    if caption
-      caption = "<div class=\"thumbcaption\" markdown=\"1\">#{caption}</div>"
+    caption = super.to_s.strip
+    if not caption.empty?
+      caption = "<div class=\"thumbcaption\" markdown=\"1\">#{caption}\n</div>"
     end
     <<~END
       <div class="thumb tright" markdown="1"
@@ -38,6 +38,11 @@ class ImageTag < Liquid::Block
         </div>
       </div>
     END
+  end
+
+  # Always render, even when there's no caption.
+  def blank?
+    false
   end
 end
 

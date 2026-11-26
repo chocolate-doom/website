@@ -4,7 +4,8 @@ redirect_from:
 categories:
  - TCs
 ---
-{% include Image.md image="Chocolate-batman-doom.png" width="320" %}
+{% image filename:Chocolate-batman-doom.png width:320 %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 The following are instructions on how to play [Batman Doom](https://doomwiki.org/wiki/Batman_Doom) under Chocolate Doom.
