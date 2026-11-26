@@ -174,4 +174,4 @@ Chocolate Doom by default preserves the original aspect ratio the game was inten
 
 No.
 
-While unsupported, versions 2.2.1 and older might be capable of running, but these old operating systems are completely untested and any bugs encountered will not be fixed. Original versions of Windows 95 also lack msvcrt.dll, but you may download it [from the Microsoft FTP site](/Ftp:____ftp.microsoft.com__softlib__mslfiles__msvcrt.exe.md).
+While unsupported, versions 2.2.1 and older might be capable of running, but these old operating systems are completely untested and any bugs encountered will not be fixed. Original versions of Windows 95 also lack msvcrt.dll, but you may download it [from the Microsoft FTP site](ftp://ftp.microsoft.com/softlib/mslfiles/msvcrt.exe).
