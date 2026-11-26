@@ -4,10 +4,9 @@ redirect_from:
  - /wiki/index.php/Project:About
  - /Project:About.html
 ---
-{% capture caption %}
+{% image: filename:Chocolate-aliens-doom.png %}
 Chocolate Doom running Aliens TC, one of the earliest and most well-known [total conversions](/Category:TCs.md) created for Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-aliens-doom.png" %}
+{% endimage %}
 
 1998 saw the public release of the [Doom source code](https://doomwiki.org/wiki/Doom_source_code) by its original authors, id Software. Since then, a large number of [Doom \"source ports\"](https://doomwiki.org/wiki/Source_port) have been created by programmers, who have extended the code, adding new features and removing some of the limitations of DOS Doom (now commonly referred to as \"Vanilla Doom\" by fans). These efforts should be commended, and many of the modern Doom source ports are truly impressive pieces of work.
 
