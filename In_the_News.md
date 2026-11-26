@@ -46,10 +46,9 @@ The Chocolate Doom icon can be seen in the upper left corner of the window durin
 
 ### Multiplayer Doom on Cloudflare Workers {#multiplayer_doom_on_cloudflare_workers}
 
-{% capture caption %}
+{% image filename:Cloudflare-edge-doom.png %}
 Logo from Cloudflare\'s writeup about porting Chocolate Doom to run on Cloudflare edge workers.
-{% endcapture %}
-{% include Image.md caption=caption image="Cloudflare-edge-doom.png" %}
+{% endimage %}
 
 > There are halls and corridors in Cloudflare engineering, dangerous places for innocent wanderers, filled with wild project ideas, experiments that we should do, and extremely convincing proponents. A couple of months ago, John Graham-Cumming, our CTO, bumped into me in one of those places and asked: \"What if we ported Doom multiplayer to work with our edge network?\". He fatally nerd-sniped me.
 >

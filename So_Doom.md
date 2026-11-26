@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/So_Doom
 ---
-{% capture caption %}
+{% image filename:So-doom.png %}
 So Doom being played with [The Unholy Trinity](https://doomwiki.org/wiki/The_Unholy_Trinity). The screenshot shows off features not seen in Chocolate Doom, such as a projected crosshair, colourize HUD elements, a kill, items, and secrets count at the top left, and a timer that shows how long the player has been in the map.
-{% endcapture %}
-{% include Image.md caption=caption image="So-doom.png" %}
+{% endimage %}
 
 As named after [Sodom](http://sodomized.info/), a German thrash metal band, *So Doom* is a friendly fork of [ Crispy Doom](/Crispy_Doom.md) (that in itself is a port of Chocolate Doom). According to its [README file](https://github.com/Zodomaniac/So-Doom/blob/master/README.md), the port \"aims to provide a faithful Doom gaming experience while also featuring some user-requested improvements and enhancements. It is forked off of Crispy Doom to take advantage of its free and open-source code base, portability, accuracy and compatibility with Vanilla Doom\".
 

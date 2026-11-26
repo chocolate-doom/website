@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Allhell.jpg width:320 %}
 All Hell is Breaking Loose running in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Allhell.jpg" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md page="All Hell is Breaking Loose" %}
 The following are instructions on how to play All Hell is Breaking Loose under Chocolate Doom.

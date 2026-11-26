@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - WADs
 ---
-{% capture caption %}
+{% image filename:Skymaybe.png %}
 The Sky May Be running under Chocolate Doom
-{% endcapture %}
-{% include Image.md caption=caption image="Skymaybe.png" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 [The Sky May Be](https://doomwiki.org/wiki/The_Sky_May_Be) is an infamous [1](https://www.doomworld.com/10years/bestwads/infamous.php) WAD file for Doom 1; having been loved and hated equally by all sorts of people. The WAD does have a clunky DOS installation which might be confusing on how to get it to run properly on Chocolate Doom.

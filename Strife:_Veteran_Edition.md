@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Strife_Veteran_Edition_launcher.png %}
 Veteran Edition has an added graphical menu for launching the game.
-{% endcapture %}
-{% include Image.md caption=caption image="Strife_Veteran_Edition_launcher.png" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 **Strife: Veteran Edition** is a commercial re-release of [Strife](https://doomwiki.org/wiki/Strife) made in 2014. The code is a fork of [Chocolate Strife](/Chocolate_Strife.md) and was developed by the Chocolate Strife developers.

@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Hyena.png width:320 %}
 Hyena running under Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Hyena.png" width="320" %}
+{% endimage %}
 
 **Hyena** is a Doom TC featuring a storyline set in the distant future. To play under Chocolate Doom:
 

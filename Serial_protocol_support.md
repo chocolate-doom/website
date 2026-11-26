@@ -17,10 +17,9 @@ With a TCP/serial bridge (like [ser2net](http://ser2net.sourceforge.net/)), it s
 
 ## Configuration modes {#configuration_modes}
 
-{% capture caption %}
+{% image filename:Serial-diagram.png %}
 Diagram of how serial protocol games may be set up.
-{% endcapture %}
-{% include Image.md caption=caption image="Serial-diagram.png" %}
+{% endimage %}
 
 Different configuration modes are supported:
 

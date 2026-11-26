@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Strawberry_Doom.png %}
 Latest version of the port from March 2008 being played with [YakWorld](https://doomwiki.org/wiki/Yak_World).
-{% endcapture %}
-{% include Image.md caption=caption image="Strawberry_Doom.png" %}
+{% endimage %}
 
 **Strawberry Doom** is a fork of the Chocolate Doom codebase that extends some of the limits of Chocolate Doom to match some of those of [PrBoom+](https://doomwiki.org/wiki/PrBoom%2B), as well as adding features such as playable bots, despite of this, the port now seems to be defunct, as it was last updated in March of 2008 and *never actually* saw an official release by the head developer, [GhostlyDeath](https://doomwiki.org/wiki/RestlessRodent) (who is now known as RestlessRodent), only playable demos were released via the project\'s [SourceForge page](https://sourceforge.net/projects/doomsvnbuilds/files/Strawberry%20Doom/).
 

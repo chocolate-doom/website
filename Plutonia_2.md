@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Plutonia_2.png width:320 %}
 Plutonia 2 running in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Plutonia_2.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 **[Plutonia 2](https://doomwiki.org/wiki/Plutonia_2)** is a 32-level megawad for [The Plutonia Experiment](https://doomwiki.org/wiki/The_Plutonia_Experiment). Unlike most other megawads, this *requires* a copy of Final Doom to run (or [Freedoom](/Freedoom.md)):

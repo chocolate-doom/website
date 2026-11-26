@@ -5,7 +5,8 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% include Image.md image="Compatibility.png" width="300" %}
+{% image filename:Compatibility.png width:300 %}
+{% endimage %}
 
 The **Compatibility** window allows a couple toggles on very strict emulation of the limits of the original games:
 

@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:Chocolate-batman-doom.png %}
 [Batman Doom](https://doomwiki.org/wiki/Batman_Doom), a TC which makes heavy use of dehacked, playing under Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-batman-doom.png" %}
+{% endimage %}
 
 {% include Doomwiki.md page="DeHackEd" %}
 Dehacked with Vanilla Doom required patching the program to modify its behaviour. Chocolate Doom includes built-in dehacked support and supports loading dehacked patches via the command-line.

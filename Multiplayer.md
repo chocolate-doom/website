@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:Multi-waiting.png %}
 Players connected to a server, waiting to start the game.
-{% endcapture %}
-{% include Image.md caption=caption image="Multi-waiting.png" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 Chocolate Doom has rewritten and enhanced multiplayer code that is designed to work better than the original multiplayer code found in Vanilla Doom. It is possible to play games over the Internet with other users.
@@ -35,10 +34,9 @@ Other players can then connect to your server using the *-connect* command line 
 
 Once the server is started, you will be shown the waiting screen which lists all players currently connected. Once all players are present, click the \"start game\" button or press space bar to start the game.
 
-{% capture caption %}
+{% image filename:Doom-DM.png width:320 %}
 Two players fighting in a deathmatch on Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Doom-DM.png" width="320" %}
+{% endimage %}
 
 Note: The smoothness of the game depends on all players who are playing. When playing multiplayer, it is advisable to **turn off any file sharing programs or downloads** which may affect the connection.
 

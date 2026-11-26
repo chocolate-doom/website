@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:AvPvT.png width:320 %}
 AvPvT playing under Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="AvPvT.png" width="320" %}
+{% endimage %}
 
 To play **AvPvT** under Chocolate Doom:
 

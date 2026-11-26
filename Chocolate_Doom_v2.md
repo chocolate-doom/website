@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/Chocolate_Doom_v2
 ---
-{% capture caption %}
+{% image filename:V2-branch_9_games.png %}
 Demonstration of Chocolate Doom v2: nine Doom engine-based games running simultaneously
-{% endcapture %}
-{% include Image.md caption=caption image="V2-branch_9_games.png" %}
+{% endimage %}
 
 Chocolate Doom version 2 is now in beta. You can help out by testing the beta and [reporting bugs](https://sourceforge.net/p/chocolate-doom/bugs/) that you encounter.
 

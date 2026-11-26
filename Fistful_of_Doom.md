@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Fistful-of-doom.png width:320 %}
 Fistful of Doom playing under Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Fistful-of-doom.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 

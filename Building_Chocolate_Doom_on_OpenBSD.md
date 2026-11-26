@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% capture caption %}
+{% image filename:Chocolate-doom-obsd.png %}
 Chocolate Doom on OpenBSD
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-doom-obsd.png" %}
+{% endimage %}
 
 These are the build instructions for [OpenBSD](http://www.OpenBSD.org/).
 

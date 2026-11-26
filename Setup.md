@@ -6,16 +6,16 @@ categories:
  - Features
  - Setup_tool
 ---
-{% include Image.md image="Chocolate-setup-icon.png" %}
+{% image filename:Chocolate-setup-icon.png %}
+{% endimage %}
 
 The **setup program** is Chocolate Doom\'s configuration utility. Reproducing the look and feel of the original Doom [setup program](https://doomwiki.org/wiki/Setup_program), it provides equivalent functionality, with support for some of Chocolate Doom\'s more advanced features. It is based on [libtextscreen](/Libtextscreen.md), a Chocolate Doom library that emulates a DOS text mode display.
 
 ## Configuration menus {#configuration_menus}
 
-{% capture caption %}
+{% image filename:Setup_program.png width:350 %}
 Main menu of the setup program.
-{% endcapture %}
-{% include Image.md caption=caption image="Setup_program.png" width="350" %}
+{% endimage %}
 
 The setup program is menu-driven. The main menu provides configuration options for several of the main features:
 

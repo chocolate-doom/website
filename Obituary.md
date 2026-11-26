@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Obituary.png width:320 %}
 Obituary running in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Obituary.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 **Obituary** is a [TC](https://doomwiki.org/wiki/TC) by The Innocent Crew.

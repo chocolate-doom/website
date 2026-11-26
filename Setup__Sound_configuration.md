@@ -3,7 +3,8 @@ redirect_from:
  - /wiki/index.php/Setup/Sound_configuration
  - /setup-sound
 ---
-{% include Image.md image="Configure_Sound_2016.png" width="300" %}
+{% image filename:Configure_Sound_2016.png width:300 %}
+{% endimage %}
 
 The **Sound Configuration** allows the sound effect and music options to be configured.
 

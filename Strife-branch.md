@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% capture caption %}
+{% image filename:Strife-linux.png %}
 Strife-branch r1986, showing the first level of Strife.
-{% endcapture %}
-{% include Image.md caption=caption image="Strife-linux.png" %}
+{% endimage %}
 
 **strife-branch** is a branch of Chocolate Doom that developed support for [Strife](https://en.wikipedia.org/wiki/Strife_(video_game)). strife-branch was derived from [raven-branch](/Raven-branch.md) and developed by [Quasar](https://doomwiki.org/wiki/James_Haley_(Quasar)) and [Kaiser](https://doomwiki.org/wiki/Samuel_Villarreal_(Kaiser)) (author of [SvStrife](https://doomwiki.org/wiki/SvStrife)).
 

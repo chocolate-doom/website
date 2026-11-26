@@ -7,7 +7,8 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% include Image.md image="Configure_Mouse.png" width="300" %}
+{% image filename:Configure_Mouse.png width:300 %}
+{% endimage %}
 
 The **Mouse Configuration** window allows you to change many settings for mouse control in Chocolate Doom.
 
@@ -31,7 +32,8 @@ The setup tool has an option to help you configure the threshold and acceleratio
 
 ## Buttons
 
-{% include Image.md image="Configure_Mouse_(Additional).png" width="300" %}
+{% image filename:Configure_Mouse_(Additional).png width:300 %}
+{% endimage %}
 
 You may also configure what the particular buttons do. In the original games, most mice did not exceed three buttons (and scroll wheels were not a thing yet), so the controls on the mouse where fairly simplistic. Chocolate Doom expands on these capabilities by allowing you to bind additional controls, either to the same primary two or three buttons, but to many more if your mouse supports them. The scroll wheel directions count as two separate buttons, and may be used themselves, including previous and next weapon controls.
 

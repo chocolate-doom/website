@@ -5,7 +5,8 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% include Image.md image="Level_Warp.png" width="300" %}
+{% image filename:Level_Warp.png width:300 %}
+{% endimage %}
 
 The **Level Warp** window is much like the multiplayer counterpart for starting games.
 

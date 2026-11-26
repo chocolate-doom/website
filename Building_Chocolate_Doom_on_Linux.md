@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% capture caption %}
+{% image filename:Chocolate_doom_on_endeavouros.png %}
 Chocolate Doom running on EndeavourOS, playing [Doom 404](https://www.doomworld.com/idgames/levels/doom2/megawads/doom404) map 20
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate_doom_on_endeavouros.png" %}
+{% endimage %}
 
 Building Chocolate Doom on Linux is fairly straightforward. However, the process for doing so depends on the Linux distribution that you are using.
 

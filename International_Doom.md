@@ -6,10 +6,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Russian_Doom_translations.png width:256 %}
 International Doom logo
-{% endcapture %}
-{% include Image.md caption=caption image="Russian_Doom_translations.png" width="256" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 Small, functional and simple source ports, created with help, efforts and bits of code from people around the world. The project is based on [Chocolate Doom](/Chocolate_Doom.md) and [Crispy Doom](/Crispy_Doom.md), with significant additions from [Doom Retro](/Doom_Retro.md).

@@ -2,7 +2,8 @@
 redirect_from:
  - /wiki/index.php/Doomwire
 ---
-{% include Image.md image="Doomwire.png" %}
+{% image filename:Doomwire.png %}
+{% endimage %}
 
 Doomwire is a multiplayer lobby program for Chocolate Doom created by Russell Rice. It was created as an alternative to DoomServ a few years after it was shut down.
 

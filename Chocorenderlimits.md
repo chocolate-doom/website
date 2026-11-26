@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Chocorenderlimits.png %}
 The Chocorenderlimits port showing the visplane borders of E1M1 of Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocorenderlimits.png" %}
+{% endimage %}
 
 Chocorenderlimits was a fork of Chocolate Doom that adds an on-screen display that shows information about the Vanilla Doom rendering limits. Along with information, visual indicators appear to show which areas are not able to render or crash the game. This is intended to assist level authors in creating levels for Vanilla Doom, by identifying areas of the levels that will crash the game.
 

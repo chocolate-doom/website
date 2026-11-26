@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/John_Romero_PWADs
 ---
-{% capture caption %}
+{% image filename:SIGILDOS.png width:320 %}
 The title screen for SIGIL: Vanilla Edition being ran.
-{% endcapture %}
-{% include Image.md caption=caption image="SIGILDOS.png" width="320" %}
+{% endimage %}
 
 In the late 2010s, [John Romero](https://doomwiki.org/wiki/John_Romero), who was one of the founding members of [id Software](https://doomwiki.org/wiki/id_Software) and had a large hand in making the original Doom games, started to make new maps for the first-person shooter, some of which - [Tech Gone Bad](https://doomwiki.org/wiki/Tech_Gone_Bad) and [SIGIL](https://doomwiki.org/wiki/SIGIL) - won or were runner-ups for [Cacowards](https://doomwiki.org/wiki/Cacowards).
 

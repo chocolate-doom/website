@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/Freedoom
 ---
-{% capture caption %}
+{% image filename:Chocolate-eternal-freedoom.png width:320 %}
 Chocolate Doom running [Eternal Doom](/Eternal_Doom.md) with Freedoom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-eternal-freedoom.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 **Freedoom** is a [free game project](https://doomwiki.org/wiki/Freedoom) that is licensed under the open source modified BSD license and also compatible with most mods made for the original Doom games.

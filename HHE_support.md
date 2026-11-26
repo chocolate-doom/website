@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:H-army.png %}
 H-ARMY.HHE changes enemies to appear as additional players
-{% endcapture %}
-{% include Image.md caption=caption image="H-army.png" %}
+{% endimage %}
 
 [Chocolate Heretic](/Chocolate_Heretic.md) includes support for **HHE patches**, which are the Heretic equivalent of [dehacked](/Dehacked.md) patches. To load HHE patches, use the same parameter as for Dehacked, i.e. `-deh`.
 

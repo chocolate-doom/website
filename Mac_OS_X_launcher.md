@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/Mac_OS_X_launcher
 ---
-{% capture caption %}
+{% image filename:OS_X_Launcher_2016.png width:350 %}
 Launcher configured to launch a Doom II game.
-{% endcapture %}
-{% include Image.md caption=caption image="OS_X_Launcher_2016.png" width="350" %}
+{% endimage %}
 
 The [Mac OS X](https://en.wikipedia.org/wiki/Mac_OS_X) version of Chocolate Doom includes a minimalist launcher program for selecting the IWAD files to use and starting the game. The purpose of this is to make installation of Chocolate Doom on OS X straightforward and congruent with the rest of the operating system.
 

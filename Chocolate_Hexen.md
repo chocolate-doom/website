@@ -4,7 +4,8 @@ redirect_from:
 categories:
  - Features
 ---
-{% include Image.md image="Chocolate-hexen-logo.png" %}
+{% image filename:Chocolate-hexen-logo.png %}
+{% endimage %}
 
 **Chocolate Hexen** is a port of the [Hexen](https://en.wikipedia.org/wiki/Hexen) source code to the Chocolate Doom codebase. The aim is to develop a Hexen source port that includes the [features](/Category:Features.md) of Chocolate Doom.
 
@@ -14,10 +15,9 @@ Work on Chocolate Hexen began in 2008 immediately after the [Raven source code l
 
 ## Gameplay screenshot {#gameplay_screenshot}
 
-{% capture caption %}
+{% image filename:Chocolate-hexen.png width:400 %}
 Chocolate Hexen, running from the raven-branch code.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-hexen.png" width="400" %}
+{% endimage %}
 
 More screenshots can be found in [:Category:Hexen screenshots](/Category:Hexen_screenshots.md).
 

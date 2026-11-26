@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Crispy-doom.png %}
 The Crispy Doom icon
-{% endcapture %}
-{% include Image.md caption=caption image="Crispy-doom.png" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 Crispy Doom is a limit-removing enhanced-resolution Doom source port based on [Chocolate Doom](/Chocolate_Doom.md).

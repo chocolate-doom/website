@@ -5,7 +5,8 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% include Image.md image="Configure_Keyboard.png" width="300" %}
+{% image filename:Configure_Keyboard.png width:300 %}
+{% endimage %}
 
 The **Keyboard Configuration** window allows you to rebind key functions from their defaults, giving full control over how the game may be played on your particular system.
 
@@ -24,7 +25,8 @@ When configuring a new key for an action, if that key is already being used for 
 
 ## More controls and other keys {#more_controls_and_other_keys}
 
-{% include Image.md image="Configure_Keyboard_(Other_Keys).png" width="300" %}
+{% image filename:Configure_Keyboard_(Other_Keys).png width:300 %}
+{% endimage %}
 
 Chocolate Doom allows considerably more configuration than the original versions did, allowing you to reconfigure nearly every function possible in the game. This includes changing the weapon hotkeys and menu navigation, as well as additional functions the originals did not even include: previous and next weapon, and a screenshot key available at all times.
 

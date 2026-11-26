@@ -4,14 +4,12 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% capture caption %}
+{% image filename:Chocolate-hexen.png %}
 Chocolate Hexen, running from the raven-branch code.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-hexen.png" %}
-{% capture caption %}
+{% endimage %}
+{% image filename:Chocolate-heretic.png %}
 Chocolate Heretic, running from the raven-branch code.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-heretic.png" %}
+{% endimage %}
 
 **raven-branch** was a branch in the Chocolate Doom Subversion repository that integrated the source code to the Raven games [Heretic](https://doomwiki.org/wiki/Heretic) and [Hexen](https://doomwiki.org/wiki/Hexen) into the Chocolate Doom code base. The branch was started following the resolution of the [source code licensing issue](https://doomwiki.org/wiki/Raven_source_code_licensing) with the Raven code.
 

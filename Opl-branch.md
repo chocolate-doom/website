@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% capture caption %}
+{% image filename:Yamaha_YM3812.jpg %}
 A Yamaha YM3812 (OPL2) chip.
-{% endcapture %}
-{% include Image.md caption=caption image="Yamaha_YM3812.jpg" %}
+{% endimage %}
 
 The **opl-branch** is a branch in the Chocolate Doom subversion repository. The purpose of the branch was to add OPL MIDI playback support. The branch has now been merged back into the mainline code, and no further changes will be made on it.
 

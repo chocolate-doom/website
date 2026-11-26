@@ -6,10 +6,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:800x480.png %}
 Chocolate Doom as it would appear on the Asus Eee PC.
-{% endcapture %}
-{% include Image.md caption=caption image="800x480.png" %}
+{% endimage %}
 
 Chocolate Doom can be run in full screen or within a window. Internally and in common with vanilla, Chocolate Doom renders to a 320x200 buffer. This buffer is then scaled up to your display size or chosen window size using hardware acceleration.
 

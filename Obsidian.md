@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Obsidian.png %}
 Latest version of the port from 2011 running MAP09 of [Doom 404](https://www.doomworld.com/idgames/levels/doom2/megawads/doom404).
-{% endcapture %}
-{% include Image.md caption=caption image="Obsidian.png" %}
+{% endimage %}
 
 Obsidian was a source port and a fork of Chocolate Doom by tm512 that aims to be a \"thin server\" multiplayer port. It puts in new features that don\'t deviate too far from classic Doom, however, it is still in early development and it will likely stay like that for the saleable future as the last time the port was updated was in 2011, along with this, the official Bitbucket for the port now goes to a 404.
 

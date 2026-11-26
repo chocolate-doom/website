@@ -6,10 +6,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:D64d2-endoom.png %}
 [Doom 64 for Doom II](/Doom_64_for_Doom_II.md) ENDOOM screen shown in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="D64d2-endoom.png" %}
+{% endimage %}
 
 Whenever you exit out of Doom in DOS, a screen called [ENDOOM](https://doomwiki.org/wiki/ENDOOM) is shown, this is a colorful pop-up that usually says who made the [WAD](https://www.chocolate-doom.org/wiki/index.php/Category:WADs), it can also have information such as the web address of the person who made the mod. Many WADs modify the ENDOOM screen in interesting and artistic ways, an example of a custom ENDOOM screen is seen on the right.
 

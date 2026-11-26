@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/Config_secrets
 ---
-{% capture caption %}
+{% image filename:Chocolate_Doom_linear_filtering.png %}
 Chocolate Doom with linear screen filtering. Some people actually think this looks good, I guess??
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate_Doom_linear_filtering.png" %}
+{% endimage %}
 
 To keep Chocolate Doom easy to configure, many of its more obscure configuration options are not shown in the setup tool. However, you can still access them by editing `chocolate-doom.cfg` manually. This page contains a list of some of these obscure options and what they do.
 

@@ -5,10 +5,9 @@ categories:
  - Features
  - Music
 ---
-{% capture caption %}
+{% image filename:Gravis_UltraSound_PnP_Pro_V1.0.jpg width:300 %}
 Gravis Ultrasound card
-{% endcapture %}
-{% include Image.md caption=caption image="Gravis_UltraSound_PnP_Pro_V1.0.jpg" width="300" %}
+{% endimage %}
 
 {% include YoutubeEmbed.md id="9xeOX0AaHZk" width="300" height="225" right="1" %}
 The Gravis Ultrasound (GUS) was a series of sound cards popular in the \'90s for gaming. While slightly more expensive than the Soundblaster and its clones, the GUS provided superior music playback, with [wavetable synthesis](https://en.wikipedia.org/wiki/Wavetable_synthesis). Doom was one of several games that included GUS playback support.

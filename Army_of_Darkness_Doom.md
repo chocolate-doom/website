@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Chocolate-aod-doom.png width:320 %}
 Army of Darkness Doom running in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-aod-doom.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md page="Army of Darkness TC" %}
 The following are instructions on how to play **Army of Darkness Doom** under Chocolate Doom:

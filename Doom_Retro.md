@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Doom-Retro-RRR.png %}
 Doom Retro being played with the [Rowdy Rudy\'s Revenge!](https://www.doomworld.com/idgames/levels/doom2/p-r/rwdyrudy) WAD, version shown is 3.4
-{% endcapture %}
-{% include Image.md caption=caption image="Doom-Retro-RRR.png" %}
+{% endimage %}
 
 **Doom Retro** is a fork of Chocolate Doom with enhancements from other Doom source ports that aims for a \"classic, refined Doom source port\". The port, that was made for the Windows OS, saw its first release on 2013-12-10 by Brad Harding to coincide with Doom\'s 20th anniversary.
 

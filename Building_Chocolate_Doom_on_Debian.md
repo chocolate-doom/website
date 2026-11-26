@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% capture caption %}
+{% image filename:Chocolate-doom-linux.png %}
 Chocolate Doom running under Ubuntu Linux, a distribution derived from Debian.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-doom-linux.png" %}
+{% endimage %}
 
 [chocpkg](/Chocpkg.md) is the official way of building Chocolate Doom on all platforms from v3 onwards. What follows are instructions for building Chocolate Doom the [Debian GNU/Linux](http://www.debian.org/) way. These instructions also apply to building under distributions derived from Debian, including [Ubuntu](http://www.ubuntu.com/).
 

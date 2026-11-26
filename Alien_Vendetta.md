@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Chocolate-av.png width:320 %}
 Alien Vendetta running in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-av.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md page="Alien Vendetta" %}
 2001 saw the release of **Alien Vendetta** (**av.wad**), a 32-level single player megawad for Vanilla Doom, and one of the few PWADs that are allowed to be used in [Compet-n speedruns](https://doomwiki.org/wiki/Compet-n).

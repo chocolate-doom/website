@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Mint_doom.png width:320 %}
 MAP07 of **[The 64 kb challenge: Vanilla selection](https://www.doomworld.com/idgames/levels/doom2/megawads/32of64-v)** entitled \"The hub of severing\" by xxWeNxx being played with Mint Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Mint_doom.png" width="320" %}
+{% endimage %}
 
 **Mint Doom** is the name of a now-inactive fork of the Chocolate Doom trunk r2478. The main goals of the port was to fix code warnings, change all the int types to the ISO C99 \[u\]intN_t types, and unify the formatting style through the entire project.
 

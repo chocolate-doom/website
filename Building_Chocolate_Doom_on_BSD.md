@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% capture caption %}
+{% image filename:Chocolate-doom-freebsd.png %}
 Chocolate Doom on FreeBSD
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-doom-freebsd.png" %}
+{% endimage %}
 
 Building Chocolate Doom on BSD derivatives is fairly simple but differs slightly from other systems such as Linux and Mac OS X. The process is dependent on the operating system you use:
 

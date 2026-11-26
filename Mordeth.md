@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Chocolate-mordeth.png width:320 %}
 Mordeth TC running in Chocolate Doom.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-mordeth.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 **Mordeth** is a TC by Gaston Lahaut. To run it under Chocolate Doom:

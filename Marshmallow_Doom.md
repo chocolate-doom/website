@@ -4,10 +4,9 @@ redirect_from:
  - /wiki/index.php/User:JT_Marshmallow
  - /User:JT_Marshmallow.html
 ---
-{% capture caption %}
+{% image filename:Newlogo.jpg %}
 The Marshmallow Doom icon
-{% endcapture %}
-{% include Image.md caption=caption image="Newlogo.jpg" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 
@@ -21,10 +20,9 @@ Marshmallow Doom is a fork of the [Crispy Doom](/Crispy_Doom.md) source port. It
 
 ### The Datapad {#the_datapad}
 
-{% capture caption %}
+{% image filename:Datapad.png %}
 The datapad gives the player quick access to many powerful options
-{% endcapture %}
-{% include Image.md caption=caption image="Datapad.png" %}
+{% endimage %}
 
 Most of what Marshmallow Doom has to offer can be accessed on the player\'s datapad. Some features on the datapad include:
 
@@ -43,10 +41,9 @@ Most of what Marshmallow Doom has to offer can be accessed on the player\'s data
 
 #### Player Profile {#player_profile}
 
-{% capture caption %}
+{% image filename:Profile.png %}
 The player profile tracks all-time frags, accuracy, treasure score, and more
-{% endcapture %}
-{% include Image.md caption=caption image="Profile.png" %}
+{% endimage %}
 
 Various player-specific statistics are stored in a persistent player profile that is saved to disk. Stats are *only saved when a level is completed organically without cheating*. Cheating or level skips will cause any stats earnings to be discarded.
 
@@ -64,10 +61,9 @@ A few statistics tracked by the player profile:
 
 #### PKE Meter {#pke_meter}
 
-{% capture caption %}
+{% image filename:Pkemeter.png %}
 The PKE meter reports a high danger level in E2M8
-{% endcapture %}
-{% include Image.md caption=caption image="Pkemeter.png" %}
+{% endimage %}
 
 The datapad features a PKE Meter app which reports both potential and immediate danger:
 

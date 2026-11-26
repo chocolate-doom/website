@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Chocolate-hacx.png %}
 HACX running under Chocolate Doom
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-hacx.png" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 The following are instructions on how to play [HACX](https://doomwiki.org/wiki/Hacx) under Chocolate Doom.

@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% capture caption %}
+{% image filename:Chocolate_Windows_7.png %}
 Chocolate Doom on Windows
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate_Windows_7.png" %}
+{% endimage %}
 
 Chocolate Doom is built on Windows using the *MSYS2* build environment. Windows developers may find this unusual as Microsoft Visual Studio is often considered the \"standard\" compiler for that platform. MSYS2 provides a Unix-like development environment that is the same as other platforms, so the build system and compiler (autotools, make, gcc) are identical for every operating system that Chocolate Doom runs on. Using MSYS2 also means that Chocolate Doom is not dependent on a proprietary tool.
 

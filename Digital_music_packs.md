@@ -16,10 +16,9 @@ The digital music pack functionality also provides a more convenient replacement
 
 ## How to install music packs {#how_to_install_music_packs}
 
-{% capture caption %}
+{% image filename:Configure_digital_music_packs.png %}
 Setup tool showing configuration option for digital music packs.
-{% endcapture %}
-{% include Image.md caption=caption image="Configure_digital_music_packs.png" %}
+{% endimage %}
 
 1\. Create a new directory (folder) where you will save your music packs. You can install multiple music packs into the same directory.
 

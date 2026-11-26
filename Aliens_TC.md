@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - TCs
 ---
-{% capture caption %}
+{% image filename:Chocolate-aliens-doom.png width:320 %}
 Aliens TC running in Chocolate Doom
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-aliens-doom.png" width="320" %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 These are instructions on how to play [Aliens TC](https://doomwiki.org/wiki/Aliens_TC) under Chocolate Doom.

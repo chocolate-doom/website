@@ -6,18 +6,15 @@ redirect_from:
 categories:
  - Forks
 ---
-{% capture caption %}
+{% image filename:Cndoom_timer_ingame.png %}
 Timer
-{% endcapture %}
-{% include Image.md caption=caption image="Cndoom_timer_ingame.png" %}
-{% capture caption %}
+{% endimage %}
+{% image filename:Cndoom_timer_intermission.png %}
 Intermission timer
-{% endcapture %}
-{% include Image.md caption=caption image="Cndoom_timer_intermission.png" %}
-{% capture caption %}
+{% endimage %}
+{% image filename:Cnlaunch.png %}
 Windows launcher
-{% endcapture %}
-{% include Image.md caption=caption image="Cnlaunch.png" %}
+{% endimage %}
 
 **Competition Doom (CNDOOM)** is a Chocolate Doom for for [Doom speedruning competition](http://doom.com.hr/?page=compet-n_rules).
 

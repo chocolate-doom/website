@@ -5,14 +5,12 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% capture caption %}
+{% image filename:Setup_v3_configure_display.png width:300 %}
 Display Configuration
-{% endcapture %}
-{% include Image.md caption=caption image="Setup_v3_configure_display.png" width="300" %}
-{% capture caption %}
+{% endimage %}
+{% image filename:Setup_v3_configure_display_windowed.png width:300 %}
 Selecting windowed modes
-{% endcapture %}
-{% include Image.md caption=caption image="Setup_v3_configure_display_windowed.png" width="300" %}
+{% endimage %}
 
 After selecting **Configure Display** from the main menu, another window opens that lets you configure some basic settings. The default is to run in fullscreen mode.
 
@@ -20,10 +18,9 @@ If you de-select fullscreen mode, size options for windowed mode appear. By defa
 
 ## Advanced
 
-{% capture caption %}
+{% image filename:Setup_v3_configure_display_advanced.png width:300 %}
 Advanced options
-{% endcapture %}
-{% include Image.md caption=caption image="Setup_v3_configure_display_advanced.png" width="300" %}
+{% endimage %}
 
 *Advanced display options* are also available.
 

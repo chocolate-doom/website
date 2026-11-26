@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% capture caption %}
+{% image filename:V2-branch_9_games.png %}
 Demonstration of v2-branch: nine Doom engine-based games running simultaneously
-{% endcapture %}
-{% include Image.md caption=caption image="V2-branch_9_games.png" %}
+{% endimage %}
 
 **v2-branch** was a source code [branch](/Category:Branches.md) that developed version 2.0 of Chocolate Doom. It continued the work started on [raven-branch](/Raven-branch.md) and [strife-branch](/Strife-branch.md).
 

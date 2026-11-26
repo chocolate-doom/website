@@ -6,10 +6,9 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% capture caption %}
+{% image filename:Chocolate_Doom_MacOSX.png %}
 Chocolate Doom running on OSX
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate_Doom_MacOSX.png" %}
+{% endimage %}
 
 Chocolate Doom\'s [current releases](/Downloads.md) include a [Mac OS X](https://en.wikipedia.org/wiki/OS_X) binary, but you can also create your own build.
 

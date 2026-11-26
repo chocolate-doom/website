@@ -4,7 +4,8 @@ redirect_from:
 categories:
  - TCs
 ---
-{% include Image.md image="Perdition's_Gate.png" width="320" %}
+{% image filename:Perdition's_Gate.png width:320 %}
+{% endimage %}
 
 {% include Doomwiki.md  %}
 **[Perdition\'s Gate](https://doomwiki.org/wiki/Perdition's_Gate)** is a commercial 32-level add-on that was originally slated to be a third megawad included in [Final Doom](https://doomwiki.org/wiki/Final_Doom). For more information about its development, visit [Tom Mustaine\'s website](http://www.mustaine.com/about/video-game-work/perditions-gate/).

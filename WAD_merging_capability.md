@@ -6,10 +6,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:Chocolate-aliens-doom.png %}
 Traditionally, TCs like [Aliens TC](https://doomwiki.org/wiki/Aliens_TC) required modification of the main WAD file
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate-aliens-doom.png" %}
+{% endimage %}
 
 [Vanilla Doom](https://doomwiki.org/wiki/Vanilla_Doom) does not support loading modified sprites in [PWAD](https://doomwiki.org/wiki/PWAD) files. As a result, most TCs were traditionally distributed in the form of a WAD file which had to be merged with the main [IWAD](https://doomwiki.org/wiki/IWAD) file. This was usually done through an included program like \"deusf\" or \"nwt\".
 

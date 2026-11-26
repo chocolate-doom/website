@@ -2,10 +2,9 @@
 redirect_from:
  - /wiki/index.php/Doom_64_for_Doom_II
 ---
-{% capture caption %}
+{% image filename:D64d2.png width:320 %}
 Doom 64 being run within Chocolate Doom with the [Freedoom](/Freedoom.md) IWAD in place of Doom II
-{% endcapture %}
-{% include Image.md caption=caption image="D64d2.png" width="320" %}
+{% endimage %}
 
 *Doom 64 for Doom II* is a 2018 port for the 1990s cult Nintendo 64 classic, Doom 64, recreated and reimagined with vanilla Doom in mind. Not all of the maps are a perfect recreation of the original game; the goal of the mod was to recreate the major aspects of the game while allowing for creative liberties where needed or wanted.
 

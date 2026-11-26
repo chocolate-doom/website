@@ -5,7 +5,8 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% include Image.md image="Join_Multiplayer_Game.png" width="300" %}
+{% image filename:Join_Multiplayer_Game.png width:300 %}
+{% endimage %}
 
 The **Join multiplayer game** window allows games to be joined either by directly connecting to them, or an automatic search. The game needs to be identical between all players, or the connection will fail. You may connect to a server by entering its address directly; the field will accept either an IP address or a hostname.
 

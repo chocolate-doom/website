@@ -4,10 +4,9 @@ redirect_from:
 categories:
  - Features
 ---
-{% capture caption %}
+{% image filename:Chocolate_Doom_Solaris.jpg %}
 Chocolate Doom running on Solaris 2.6 on a SPARC processor.
-{% endcapture %}
-{% include Image.md caption=caption image="Chocolate_Doom_Solaris.jpg" %}
+{% endimage %}
 
 One of the main design aims of Chocolate Doom is to be **portable**, running on as many different processor architectures and operating systems as possible. To help achieve this, it is based on [LibSDL](http://www.libsdl.org/), which provides a cross-platform interface for developing portable multimedia applications such as games.
 
