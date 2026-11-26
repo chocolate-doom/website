@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-hacx.png %}
+{% image filename:"Chocolate-hacx.png" %}
 HACX running under Chocolate Doom
 {% endimage %}
 

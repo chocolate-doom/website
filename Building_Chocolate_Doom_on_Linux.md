@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% image filename:Chocolate_doom_on_endeavouros.png %}
+{% image filename:"Chocolate_doom_on_endeavouros.png" %}
 Chocolate Doom running on EndeavourOS, playing [Doom 404](https://www.doomworld.com/idgames/levels/doom2/megawads/doom404) map 20
 {% endimage %}
 

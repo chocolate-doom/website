@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Multi-waiting.png %}
+{% image filename:"Multi-waiting.png" %}
 Players connected to a server, waiting to start the game.
 {% endimage %}
 
@@ -34,7 +34,7 @@ Other players can then connect to your server using the *-connect* command line 
 
 Once the server is started, you will be shown the waiting screen which lists all players currently connected. Once all players are present, click the \"start game\" button or press space bar to start the game.
 
-{% image filename:Doom-DM.png width:320 %}
+{% image filename:"Doom-DM.png" width:"320" %}
 Two players fighting in a deathmatch on Chocolate Doom.
 {% endimage %}
 

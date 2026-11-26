@@ -6,13 +6,13 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Cndoom_timer_ingame.png %}
+{% image filename:"Cndoom_timer_ingame.png" %}
 Timer
 {% endimage %}
-{% image filename:Cndoom_timer_intermission.png %}
+{% image filename:"Cndoom_timer_intermission.png" %}
 Intermission timer
 {% endimage %}
-{% image filename:Cnlaunch.png %}
+{% image filename:"Cnlaunch.png" %}
 Windows launcher
 {% endimage %}
 

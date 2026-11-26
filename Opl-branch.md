@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% image filename:Yamaha_YM3812.jpg %}
+{% image filename:"Yamaha_YM3812.jpg" %}
 A Yamaha YM3812 (OPL2) chip.
 {% endimage %}
 

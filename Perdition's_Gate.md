@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Perdition's_Gate.png width:320 %}
+{% image filename:"Perdition's_Gate.png" width:"320" %}
 {% endimage %}
 
 {% include Doomwiki.md  %}

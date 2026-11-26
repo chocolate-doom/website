@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Save_png.png width:320 %}
+{% image filename:"Save_png.png" width:"320" %}
 The Chocolate Doom menu showing the ability to save screenshots in the PNG format.
 {% endimage %}
 

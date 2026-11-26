@@ -2,7 +2,7 @@
 redirect_from:
  - /wiki/index.php/Doom_64_for_Doom_II
 ---
-{% image filename:D64d2.png width:320 %}
+{% image filename:"D64d2.png" width:"320" %}
 Doom 64 being run within Chocolate Doom with the [Freedoom](/Freedoom.md) IWAD in place of Doom II
 {% endimage %}
 

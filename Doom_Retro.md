@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Doom-Retro-RRR.png %}
+{% image filename:"Doom-Retro-RRR.png" %}
 Doom Retro being played with the [Rowdy Rudy\'s Revenge!](https://www.doomworld.com/idgames/levels/doom2/p-r/rwdyrudy) WAD, version shown is 3.4
 {% endimage %}
 

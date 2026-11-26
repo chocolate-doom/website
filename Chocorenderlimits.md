@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Chocorenderlimits.png %}
+{% image filename:"Chocorenderlimits.png" %}
 The Chocorenderlimits port showing the visplane borders of E1M1 of Doom.
 {% endimage %}
 

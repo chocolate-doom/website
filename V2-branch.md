@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% image filename:V2-branch_9_games.png %}
+{% image filename:"V2-branch_9_games.png" %}
 Demonstration of v2-branch: nine Doom engine-based games running simultaneously
 {% endimage %}
 

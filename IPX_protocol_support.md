@@ -15,7 +15,7 @@ IPX protocol support is implemented via [DOSBox](https://en.wikipedia.org/wiki/D
 
 ## Configuration modes {#configuration_modes}
 
-{% image filename:IPX-diagram.png %}
+{% image filename:"IPX-diagram.png" %}
 Diagram of how IPX games may be set up with IPX protocol support.
 {% endimage %}
 

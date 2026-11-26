@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Obituary.png width:320 %}
+{% image filename:"Obituary.png" width:"320" %}
 Obituary running in Chocolate Doom.
 {% endimage %}
 

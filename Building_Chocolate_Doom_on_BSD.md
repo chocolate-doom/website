@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% image filename:Chocolate-doom-freebsd.png %}
+{% image filename:"Chocolate-doom-freebsd.png" %}
 Chocolate Doom on FreeBSD
 {% endimage %}
 

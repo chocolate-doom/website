@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% image filename:Chocolate-doom-obsd.png %}
+{% image filename:"Chocolate-doom-obsd.png" %}
 Chocolate Doom on OpenBSD
 {% endimage %}
 

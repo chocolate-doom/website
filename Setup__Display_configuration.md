@@ -5,10 +5,10 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% image filename:Setup_v3_configure_display.png width:300 %}
+{% image filename:"Setup_v3_configure_display.png" width:"300" %}
 Display Configuration
 {% endimage %}
-{% image filename:Setup_v3_configure_display_windowed.png width:300 %}
+{% image filename:"Setup_v3_configure_display_windowed.png" width:"300" %}
 Selecting windowed modes
 {% endimage %}
 
@@ -18,7 +18,7 @@ If you de-select fullscreen mode, size options for windowed mode appear. By defa
 
 ## Advanced
 
-{% image filename:Setup_v3_configure_display_advanced.png width:300 %}
+{% image filename:"Setup_v3_configure_display_advanced.png" width:"300" %}
 Advanced options
 {% endimage %}
 

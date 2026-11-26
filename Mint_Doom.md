@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Mint_doom.png width:320 %}
+{% image filename:"Mint_doom.png" width:"320" %}
 MAP07 of **[The 64 kb challenge: Vanilla selection](https://www.doomworld.com/idgames/levels/doom2/megawads/32of64-v)** entitled \"The hub of severing\" by xxWeNxx being played with Mint Doom.
 {% endimage %}
 

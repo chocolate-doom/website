@@ -6,7 +6,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:D64d2-endoom.png %}
+{% image filename:"D64d2-endoom.png" %}
 [Doom 64 for Doom II](/Doom_64_for_Doom_II.md) ENDOOM screen shown in Chocolate Doom.
 {% endimage %}
 

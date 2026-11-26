@@ -4,10 +4,10 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% image filename:Chocolate-hexen.png %}
+{% image filename:"Chocolate-hexen.png" %}
 Chocolate Hexen, running from the raven-branch code.
 {% endimage %}
-{% image filename:Chocolate-heretic.png %}
+{% image filename:"Chocolate-heretic.png" %}
 Chocolate Heretic, running from the raven-branch code.
 {% endimage %}
 

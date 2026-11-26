@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-av.png width:320 %}
+{% image filename:"Chocolate-av.png" width:"320" %}
 Alien Vendetta running in Chocolate Doom.
 {% endimage %}
 

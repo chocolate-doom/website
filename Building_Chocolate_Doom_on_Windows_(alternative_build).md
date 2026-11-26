@@ -6,7 +6,7 @@ categories:
 ---
 {% include Update_me.md p1="Visual Studio and Code::Blocks files have been replaced by CMake, this article has not been changed to reflect this yet." %}
 
-{% image filename:Chocowindows.png %}
+{% image filename:"Chocowindows.png" %}
 Chocolate Doom on Windows XP
 {% endimage %}
 

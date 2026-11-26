@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Chocolate-heretic-logo.png %}
+{% image filename:"Chocolate-heretic-logo.png" %}
 {% endimage %}
 
 **Chocolate Heretic** is a port of the [Heretic](https://en.wikipedia.org/wiki/Heretic_(video_game)) source code to the Chocolate Doom codebase. The aim is to develop a Heretic source port that includes the [features](/Category:Features.md) of Chocolate Doom.
@@ -17,7 +17,7 @@ While many other source ports of Heretic already exist, Chocolate Heretic is uni
 
 ## Gameplay screenshot {#gameplay_screenshot}
 
-{% image filename:Chocolate-heretic.png width:400 %}
+{% image filename:"Chocolate-heretic.png" width:"400" %}
 Chocolate Heretic, running from the raven-branch code.
 {% endimage %}
 

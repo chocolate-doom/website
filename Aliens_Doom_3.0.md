@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:AD3BETA7.png width:320 %}
+{% image filename:"AD3BETA7.png" width:"320" %}
 Aliens Doom 3: Aliens versus Predator (Beta 0.7) TC running in Chocolate Doom
 {% endimage %}
 

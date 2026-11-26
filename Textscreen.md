@@ -4,7 +4,7 @@ redirect_from:
  - /wiki/index.php/Libtextscreen
  - /Libtextscreen.html
 ---
-{% image filename:Mm-endoom.png %}
+{% image filename:"Mm-endoom.png" %}
 [ENDOOM](https://doomwiki.org/wiki/ENDOOM) screen for [Memento Mori](https://doomwiki.org/wiki/Memento_Mori) displayed using libtextscreen.
 {% endimage %}
 
@@ -19,10 +19,10 @@ The basic part of the library simply emulates a DOS text mode display using [Lib
 The library uses an 8x16 pixel font by default (giving a 640x480 pixel window), but on small screens, an alternative font is used based on the
 [Atari-Small](http://hea-www.harvard.edu/~fine/Tech/x11fonts.html) font. This alternative font uses characters in a 4x8 dimension (giving a 320x240 pixel window). This feature is useful for low resolution devices such as palmtops. A screenshot of the small font in use can be seen [here](/File:Atari-small.png.md).
 
-{% image filename:Chocolate-doom-setup.png %}
+{% image filename:"Chocolate-doom-setup.png" %}
 The Chocolate Doom setup tool, demonstrating the textscreen widget toolkit.
 {% endimage %}
-{% image filename:Windows-mobile-setup1.png width:150 %}
+{% image filename:"Windows-mobile-setup1.png" width:"150" %}
 Setup tool running on Windows Mobile, showing the alternative half-height font.
 {% endimage %}
 

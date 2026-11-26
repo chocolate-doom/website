@@ -46,7 +46,7 @@ The Chocolate Doom icon can be seen in the upper left corner of the window durin
 
 ### Multiplayer Doom on Cloudflare Workers {#multiplayer_doom_on_cloudflare_workers}
 
-{% image filename:Cloudflare-edge-doom.png %}
+{% image filename:"Cloudflare-edge-doom.png" %}
 Logo from Cloudflare\'s writeup about porting Chocolate Doom to run on Cloudflare edge workers.
 {% endimage %}
 

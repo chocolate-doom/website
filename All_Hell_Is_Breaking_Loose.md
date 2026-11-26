@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Allhell.jpg width:320 %}
+{% image filename:"Allhell.jpg" width:"320" %}
 All Hell is Breaking Loose running in Chocolate Doom.
 {% endimage %}
 

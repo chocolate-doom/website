@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-aod-doom.png width:320 %}
+{% image filename:"Chocolate-aod-doom.png" width:"320" %}
 Army of Darkness Doom running in Chocolate Doom.
 {% endimage %}
 

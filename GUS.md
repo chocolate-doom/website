@@ -5,7 +5,7 @@ categories:
  - Features
  - Music
 ---
-{% image filename:Gravis_UltraSound_PnP_Pro_V1.0.jpg width:300 %}
+{% image filename:"Gravis_UltraSound_PnP_Pro_V1.0.jpg" width:"300" %}
 Gravis Ultrasound card
 {% endimage %}
 

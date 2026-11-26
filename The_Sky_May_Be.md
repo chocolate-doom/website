@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - WADs
 ---
-{% image filename:Skymaybe.png %}
+{% image filename:"Skymaybe.png" %}
 The Sky May Be running under Chocolate Doom
 {% endimage %}
 

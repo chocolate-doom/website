@@ -5,7 +5,7 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% image filename:Configure_Gamepad.png width:300 %}
+{% image filename:"Configure_Gamepad.png" width:"300" %}
 {% endimage %}
 
 The **Gamepad/Joystick configuration** window controls all the options available for playing Chocolate Doom with a gamepad or joystick device.

@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-wolfendoom.png width:320 %}
+{% image filename:"Chocolate-wolfendoom.png" width:"320" %}
 {% endimage %}
 
 {% include Doomwiki.md page="WolfenDOOM (Doom)" %}

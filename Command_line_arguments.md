@@ -4,7 +4,7 @@ redirect_from:
  - /wiki/index.php/Command-line_arguments
  - /Command-line_arguments.html
 ---
-{% image filename:Running_a_Command_Line.png width:320 %}
+{% image filename:"Running_a_Command_Line.png" width:"320" %}
 In this screenshot, a user is about to run a command line to open up Chocolate Doom. In this example, they will be running [Fistful of Doom](/Fistful_of_Doom.md) with [Freedoom](/Freedoom.md) as the main IWAD.
 {% endimage %}
 

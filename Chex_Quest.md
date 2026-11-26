@@ -5,7 +5,7 @@ categories:
  - Features
  - TCs
 ---
-{% image filename:Chexquest.png width:320 %}
+{% image filename:"Chexquest.png" width:"320" %}
 Chex Quest playing
 {% endimage %}
 

@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Fistful-of-doom.png width:320 %}
+{% image filename:"Fistful-of-doom.png" width:"320" %}
 Fistful of Doom playing under Chocolate Doom.
 {% endimage %}
 

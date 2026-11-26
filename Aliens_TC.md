@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-aliens-doom.png width:320 %}
+{% image filename:"Chocolate-aliens-doom.png" width:"320" %}
 Aliens TC running in Chocolate Doom
 {% endimage %}
 

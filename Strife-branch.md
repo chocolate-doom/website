@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Inactive_branches
 ---
-{% image filename:Strife-linux.png %}
+{% image filename:"Strife-linux.png" %}
 Strife-branch r1986, showing the first level of Strife.
 {% endimage %}
 

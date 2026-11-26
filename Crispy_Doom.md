@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Crispy-doom.png %}
+{% image filename:"Crispy-doom.png" %}
 The Crispy Doom icon
 {% endimage %}
 

@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:AvPvT.png width:320 %}
+{% image filename:"AvPvT.png" width:"320" %}
 AvPvT playing under Chocolate Doom.
 {% endimage %}
 

@@ -2,7 +2,7 @@
 redirect_from:
  - /wiki/index.php/Chocolate_Doom_v2
 ---
-{% image filename:V2-branch_9_games.png %}
+{% image filename:"V2-branch_9_games.png" %}
 Demonstration of Chocolate Doom v2: nine Doom engine-based games running simultaneously
 {% endimage %}
 

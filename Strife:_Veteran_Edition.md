@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Strife_Veteran_Edition_launcher.png %}
+{% image filename:"Strife_Veteran_Edition_launcher.png" %}
 Veteran Edition has an added graphical menu for launching the game.
 {% endimage %}
 

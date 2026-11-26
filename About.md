@@ -4,7 +4,7 @@ redirect_from:
  - /wiki/index.php/Project:About
  - /Project:About.html
 ---
-{% image: filename:Chocolate-aliens-doom.png %}
+{% image filename:"Chocolate-aliens-doom.png" %}
 Chocolate Doom running Aliens TC, one of the earliest and most well-known [total conversions](/Category:TCs.md) created for Doom.
 {% endimage %}
 

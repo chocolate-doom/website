@@ -6,7 +6,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Russian_Doom_translations.png width:256 %}
+{% image filename:"Russian_Doom_translations.png" width:"256" %}
 International Doom logo
 {% endimage %}
 

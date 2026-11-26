@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Obsidian.png %}
+{% image filename:"Obsidian.png" %}
 Latest version of the port from 2011 running MAP09 of [Doom 404](https://www.doomworld.com/idgames/levels/doom2/megawads/doom404).
 {% endimage %}
 

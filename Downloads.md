@@ -58,7 +58,7 @@ The Chocolate Doom project does not distribute binaries for these systems, but t
 ```
 </td>
 <td style="vertical-align: top;">
-{% image filename:V2-branch_9_games.png width:300 %}
+{% image filename:"V2-branch_9_games.png" width:"300" %}
 Chocolate Doom supports a number of different games and mods based on the Doom engine.
 {% endimage %}
 ```{=mediawiki}

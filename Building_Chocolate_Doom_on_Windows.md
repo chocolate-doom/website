@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% image filename:Chocolate_Windows_7.png %}
+{% image filename:"Chocolate_Windows_7.png" %}
 Chocolate Doom on Windows
 {% endimage %}
 

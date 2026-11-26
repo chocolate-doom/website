@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Hyena.png width:320 %}
+{% image filename:"Hyena.png" width:"320" %}
 Hyena running under Chocolate Doom.
 {% endimage %}
 

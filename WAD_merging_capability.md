@@ -6,7 +6,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Chocolate-aliens-doom.png %}
+{% image filename:"Chocolate-aliens-doom.png" %}
 Traditionally, TCs like [Aliens TC](https://doomwiki.org/wiki/Aliens_TC) required modification of the main WAD file
 {% endimage %}
 

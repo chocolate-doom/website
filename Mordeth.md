@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-mordeth.png width:320 %}
+{% image filename:"Chocolate-mordeth.png" width:"320" %}
 Mordeth TC running in Chocolate Doom.
 {% endimage %}
 

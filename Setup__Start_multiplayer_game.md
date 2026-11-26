@@ -5,7 +5,7 @@ redirect_from:
 categories:
  - Setup_tool
 ---
-{% image filename:Start_Multiplayer_Game.png width:300 %}
+{% image filename:"Start_Multiplayer_Game.png" width:"300" %}
 {% endimage %}
 
 The **Start multiplayer game** window has many options for enabling play between multiple people. The exact contents of this window will change depending on the game you are running; Doom, Heretic, Hexen, and Strife all have their own properties, but the basics remain the same for each of them.

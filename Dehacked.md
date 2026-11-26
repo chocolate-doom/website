@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Chocolate-batman-doom.png %}
+{% image filename:"Chocolate-batman-doom.png" %}
 [Batman Doom](https://doomwiki.org/wiki/Batman_Doom), a TC which makes heavy use of dehacked, playing under Chocolate Doom.
 {% endimage %}
 

@@ -2,7 +2,7 @@
 redirect_from:
  - /wiki/index.php/Installing_Chocolate_Doom_on_Linux
 ---
-{% image filename:Chocolate_doom_on_endeavouros.png %}
+{% image filename:"Chocolate_doom_on_endeavouros.png" %}
 Chocolate Doom running on EndeavourOS, playing [Doom 404](https://www.doomworld.com/idgames/levels/doom2/megawads/doom404) map 20
 {% endimage %}
 

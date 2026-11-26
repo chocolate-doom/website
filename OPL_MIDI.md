@@ -7,7 +7,7 @@ categories:
  - Features
  - Music
 ---
-{% image filename:Yamaha_YM3812.jpg %}
+{% image filename:"Yamaha_YM3812.jpg" %}
 Yamaha YM3812 (OPL2) synthesizer chip
 {% endimage %}
 

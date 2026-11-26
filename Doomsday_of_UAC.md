@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - WADs
 ---
-{% image filename:Chocolate-uac_dead.png width:320 %}
+{% image filename:"Chocolate-uac_dead.png" width:"320" %}
 Doomsday of UAC running under Chocolate Doom
 {% endimage %}
 

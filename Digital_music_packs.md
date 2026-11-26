@@ -16,7 +16,7 @@ The digital music pack functionality also provides a more convenient replacement
 
 ## How to install music packs {#how_to_install_music_packs}
 
-{% image filename:Configure_digital_music_packs.png %}
+{% image filename:"Configure_digital_music_packs.png" %}
 Setup tool showing configuration option for digital music packs.
 {% endimage %}
 

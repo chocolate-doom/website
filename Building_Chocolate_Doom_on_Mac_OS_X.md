@@ -6,7 +6,7 @@ redirect_from:
 categories:
  - Build_instructions
 ---
-{% image filename:Chocolate_Doom_MacOSX.png %}
+{% image filename:"Chocolate_Doom_MacOSX.png" %}
 Chocolate Doom running on OSX
 {% endimage %}
 

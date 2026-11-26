@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Chocolate-strain.png width:320 %}
+{% image filename:"Chocolate-strain.png" width:"320" %}
 STRAIN running under Chocolate Doom.
 {% endimage %}
 

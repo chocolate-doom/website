@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - TCs
 ---
-{% image filename:Plutonia_2.png width:320 %}
+{% image filename:"Plutonia_2.png" width:"320" %}
 Plutonia 2 running in Chocolate Doom.
 {% endimage %}
 

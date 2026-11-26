@@ -2,7 +2,7 @@
 redirect_from:
  - /wiki/index.php/Mac_OS_X_launcher
 ---
-{% image filename:OS_X_Launcher_2016.png width:350 %}
+{% image filename:"OS_X_Launcher_2016.png" width:"350" %}
 Launcher configured to launch a Doom II game.
 {% endimage %}
 

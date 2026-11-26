@@ -6,7 +6,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:800x480.png %}
+{% image filename:"800x480.png" %}
 Chocolate Doom as it would appear on the Asus Eee PC.
 {% endimage %}
 

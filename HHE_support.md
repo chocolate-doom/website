@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:H-army.png %}
+{% image filename:"H-army.png" %}
 H-ARMY.HHE changes enemies to appear as additional players
 {% endimage %}
 

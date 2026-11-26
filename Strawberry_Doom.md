@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Forks
 ---
-{% image filename:Strawberry_Doom.png %}
+{% image filename:"Strawberry_Doom.png" %}
 Latest version of the port from March 2008 being played with [YakWorld](https://doomwiki.org/wiki/Yak_World).
 {% endimage %}
 

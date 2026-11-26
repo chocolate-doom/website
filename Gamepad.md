@@ -6,7 +6,7 @@ categories:
 ---
 Chocolate Doom includes extra support for playing with gamepads, beyond what is supported by Vanilla Doom.
 
-{% image filename:Gravis_pc_gamepad.jpg width:250 %}
+{% image filename:"Gravis_pc_gamepad.jpg" width:"250" %}
 Gravis PC gamepad, the first gamepad made available for the PC market in the early 90s.
 {% endimage %}
 
@@ -30,7 +30,7 @@ Different PC gamepads have different button layouts and mappings, meaning that u
 
 As different gamepads have many different shapes, sizes and numbers of buttons, they cannot all be preconfigured in the same way. But many modern gamepads use a shape similar to the PlayStation Dualshock controller. For these, the default layout looks similar to the following:
 
-{% image filename:Gamepad-diagram.png %}
+{% image filename:"Gamepad-diagram.png" %}
 {% endimage %}
 
 ### Currently known controllers {#currently_known_controllers}

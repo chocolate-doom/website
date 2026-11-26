@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Chocolate_Doom_Solaris.jpg %}
+{% image filename:"Chocolate_Doom_Solaris.jpg" %}
 Chocolate Doom running on Solaris 2.6 on a SPARC processor.
 {% endimage %}
 

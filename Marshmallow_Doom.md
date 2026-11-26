@@ -4,7 +4,7 @@ redirect_from:
  - /wiki/index.php/User:JT_Marshmallow
  - /User:JT_Marshmallow.html
 ---
-{% image filename:Newlogo.jpg %}
+{% image filename:"Newlogo.jpg" %}
 The Marshmallow Doom icon
 {% endimage %}
 
@@ -20,7 +20,7 @@ Marshmallow Doom is a fork of the [Crispy Doom](/Crispy_Doom.md) source port. It
 
 ### The Datapad {#the_datapad}
 
-{% image filename:Datapad.png %}
+{% image filename:"Datapad.png" %}
 The datapad gives the player quick access to many powerful options
 {% endimage %}
 
@@ -41,7 +41,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player\'s data
 
 #### Player Profile {#player_profile}
 
-{% image filename:Profile.png %}
+{% image filename:"Profile.png" %}
 The player profile tracks all-time frags, accuracy, treasure score, and more
 {% endimage %}
 
@@ -61,7 +61,7 @@ A few statistics tracked by the player profile:
 
 #### PKE Meter {#pke_meter}
 
-{% image filename:Pkemeter.png %}
+{% image filename:"Pkemeter.png" %}
 The PKE meter reports a high danger level in E2M8
 {% endimage %}
 

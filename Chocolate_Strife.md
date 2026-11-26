@@ -4,7 +4,7 @@ redirect_from:
 categories:
  - Features
 ---
-{% image filename:Chocolate-strife-logo.png %}
+{% image filename:"Chocolate-strife-logo.png" %}
 {% endimage %}
 
 **Chocolate Strife** is a port of [Strife](https://doomwiki.org/wiki/Strife) to the Chocolate Doom codebase. The aim is to develop a Strife source port that conforms to Chocolate Doom\'s minimalist, historically-preserving [philosophy](/Philosophy.md).
