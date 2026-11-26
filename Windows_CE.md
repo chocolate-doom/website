@@ -26,5 +26,9 @@ You\'ll also need to copy an [IWAD file](https://doomwiki.org/wiki/IWAD#IWAD_fil
 
 ## Screenshots
 
-[File:Windows-Mobile-002.png\|Playing](/File:Windows-Mobile-002.png%7CPlaying.md) E1M1 on an iPAQ rx1950.
-[File:Windows-Mobile-009.png\|Getting](/File:Windows-Mobile-009.png%7CGetting.md) shredded by an imp (iPAQ rx1950)
+{% gallerybox filename:"Windows-Mobile-002.png" %}
+Playing E1M1 on an iPAQ rx1950.
+{% endgallerybox %}
+{% gallerybox filename:"Windows-Mobile-009.png" %}
+Getting shredded by an imp (iPAQ rx1950)
+{% endgallerybox %}
