@@ -14,7 +14,7 @@ The Gravis Ultrasound (GUS) was a series of sound cards popular in the \'90s for
 
 Chocolate Doom includes a GUS \"pseudo-emulation\" support. An actual GUS is not emulated, but [Timidity](https://en.wikipedia.org/wiki/TiMidity++) is used to play back music using a configuration file generated from the [DMXGUS lump](https://doomwiki.org/wiki/DMXGUS). This means that the music should sound similar to the music played back from an actual GUS card.
 
-Using the GUS feature requires downloading the {% include Idgames.md file="music/dgguspat.zip" title="GUS patch files" %}: these are the samples used to reproduce each MIDI instrument, which were originally distributed with the GUS driver files. Once extracted, the path to the files can be specified in the [setup tool](/Setup.md).
+Using the GUS feature requires downloading the {% include Idgames.md file="music/dgguspat.zip" title="GUS patch files" %}; these are the samples used to reproduce each MIDI instrument, which were originally distributed with the GUS driver files. Once extracted, the path to the files can be specified in the [setup tool](/Setup.md).
 
 A setup guide for how to configure GUS music playback can be found in the {% include Srclink.md filename="README.Music.md" text="README.Music" %} file included with Chocolate Doom releases.
 
