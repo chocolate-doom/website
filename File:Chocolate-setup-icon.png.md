@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/File:Chocolate-setup-icon.png
+categories:
+ - Clovehoof_icons
 ---
 ## Summary
 
