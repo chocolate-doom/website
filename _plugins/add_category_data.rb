@@ -32,16 +32,22 @@ class AddCategoryData < Generator
     priority :normal
 
     def generate(site)
-        categories = {}
+        categories = {"Uncategorized" => Category.new}
         site.pages.each do |page|
+            if not page.path.end_with?(".md")
+                next
+            end
             page_cats = (page.data["categories"] or [])
+            page_title = page.path.sub(/\.md$/, "")
+            page_title = page_title.gsub("__", "/")
+            page_title = page_title.gsub("_", " ")
             page_cats.each do |cat_name|
                 cat = (categories[cat_name] or Category.new)
                 categories[cat_name] = cat
-                page_title = page.path.sub(/\.md$/, "")
-                page_title = page_title.gsub("__", "/")
-                page_title = page_title.gsub("_", " ")
                 cat.add_page(page_title)
+            end
+            if page_cats.empty?
+                categories["Uncategorized"].add_page(page_title)
             end
         end
         site.pages.each do |page|
