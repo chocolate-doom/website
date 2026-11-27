@@ -1,6 +1,9 @@
 ---
 redirect_from:
  - /wiki/index.php/File:Chocolate_doom_on_endeavouros.png
+categories:
+ - Doom_screenshots
+ - Platform_screenshots
 ---
 ## Summary
 

@@ -3,6 +3,8 @@ redirect_from:
  - /wiki/index.php/File:Manjaro_Linux_Xfce.png
  - /wiki/index.php/File:ManjaroLinux_with_the_flavor_being_Xfce.png
  - /File:ManjaroLinux_with_the_flavor_being_Xfce.png.html
+categories:
+ - Platform_screenshots
 ---
 ## Summary
 

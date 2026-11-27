@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/File:D64d2-endoom.png
+categories:
+ - WAD_screenshots
 ---
 ## Summary
 
