@@ -6,6 +6,9 @@ categories:
 ---
 {% image filename:"Chocolate-heretic-logo.png" %}
 {% endimage %}
+{% image filename:"Chocolate-heretic.png" width:"400" %}
+Chocolate Heretic, running from the raven-branch code.
+{% endimage %}
 
 **Chocolate Heretic** is a port of the [Heretic](https://en.wikipedia.org/wiki/Heretic_(video_game)) source code to the Chocolate Doom codebase. The aim is to develop a Heretic source port that includes the [features](/Category:Features.md) of Chocolate Doom.
 
@@ -15,13 +18,9 @@ Work on Chocolate Heretic began in 2008 immediately after the Raven source code 
 
 While many other source ports of Heretic already exist, Chocolate Heretic is unique in supporting the [HHE](/HHE_support.md) patch format, the Heretic equivalent of Dehacked.
 
-## Gameplay screenshot {#gameplay_screenshot}
+## Screenshots
 
-{% image filename:"Chocolate-heretic.png" width:"400" %}
-Chocolate Heretic, running from the raven-branch code.
-{% endimage %}
-
-More screenshots can be found in [:Category:Heretic screenshots](/Category:Heretic_screenshots.md).
+Screenshots can be found in [:Category:Heretic screenshots](/Category:Heretic_screenshots.md).
 
 ## See also {#see_also}
 
