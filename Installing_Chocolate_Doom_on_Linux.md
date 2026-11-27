@@ -49,7 +49,3 @@ The Chocolate Doom project does not distribute Linux binaries ([see here for why
 ## Generic
 
 See [Building Chocolate Doom on Linux](/Building_Chocolate_Doom_on_Linux.md) for instructions on how to build from source.
-
-## External links {#external_links}
-
-- [How to download Chocolate Doom for Linux (VERY HARD)](https://www.youtube.com/watch?v=jJ0QOAxJrhA) - Video about downloading Chocolate Doom via the app store
