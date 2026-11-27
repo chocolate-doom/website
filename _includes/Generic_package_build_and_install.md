@@ -1,16 +1,16 @@
 <!-- This is a template holding the generic instructions for how to build and install the Chocolate Doom package. -->
-== Building ==
-{{GEBB ad}}
+## Building
+{% include GEBB_ad.md %}
 
-Download the source package from the [[Downloads]] page.  Extract the package: for example,
-
- tar xzf chocolate-doom-3.0.0.tar.gz
-
+Download the source package from the [Downloads](/Downloads.md) page.  Extract the package: for example,
+```
+tar xzf chocolate-doom-3.0.0.tar.gz
+```
 Then build the package:
-
- cd chocolate-doom-3.0.0
- ./configure
- make
- make install
-
+```
+cd chocolate-doom-3.0.0
+./configure
+make
+make install
+```
 The final "make install" command should be run as root.
