@@ -39,7 +39,7 @@ Most of what Marshmallow Doom has to offer can be accessed on the player\'s data
 
 <!-- -->
 
-    Press ''''M'''' to launch the datapad.  
+> Press **M** to launch the datapad.
 
 #### Player Profile {#player_profile}
 
@@ -57,9 +57,7 @@ A few statistics tracked by the player profile:
 - Secrets found
 - Treasure score
 
-<!-- -->
-
-    View the profile by selecting '''Profile''' on the datapad.
+> View the profile by selecting **Profile** on the datapad.
 
 #### PKE Meter {#pke_meter}
 
@@ -74,13 +72,13 @@ The datapad features a PKE Meter app which reports both potential and immediate 
 
 Danger level is also reported by the PKE Widget which can be seen in the upper right corner of the screen. Danger is represented as a five star rating, where five stars represents the highest level of danger.
 
-    Press ''''P'''' to launch the PKE Meter.
+> Press **P** to launch the PKE Meter.
 
 #### Help Screen {#help_screen}
 
 Some of Marshmallow Doom\'s new features such as bot commands and player inventory have added new keyboard functionality to the game. Most of these new keyboard controls can be found throughout this document, or you may reference them while in-game using the new keyboard reference screen.
 
-    Press ''''H'''' to launch the keyboard reference help screen.
+> Press **H** to launch the keyboard reference help screen.
 
 ### Gameplay
 
@@ -110,7 +108,7 @@ Four gore modes are offered:
 
 <!-- -->
 
-    This option can be adjusted in the '''Gameplay''' menu on the datapad.
+> This option can be adjusted in the **Gameplay** menu on the datapad.
 
 #### Monster Upgrades {#monster_upgrades}
 
@@ -151,7 +149,7 @@ When using treasure mode, Doom\'s skull key sprites are reused as these new trea
 
 <!-- -->
 
-    '''TIP''': The most rare skull to collect is the ''Blood Skull''.  Be sure to check secret areas to find any hidden treasure!
+> **TIP**: The most rare skull to collect is the *Blood Skull*.  Be sure to check secret areas to find any hidden treasure!
 
 #### Inventory
 
@@ -165,7 +163,7 @@ If the **Saved Items** option is enabled, the following items can be stored in t
 
 <!-- -->
 
-    Press ''''V'''' to open the inventory menu.
+> Press **V** to open the inventory menu.
 
 #### Backpack Drops {#backpack_drops}
 
@@ -173,7 +171,7 @@ When killed during cooperative play, the player can run back to their corpse to 
 
 In real network cooperative games, players can drop ammo for friends by pressing `'G'`. Ammo is deducted from the player dropping the backpack, and when ammo is low enough, dropping a backpack is not possible until more ammo is found.
 
-    '''TIP''': In deathmatch games, a player's inventory is not dropped on death.  Instead, the player's current weapon is dropped along with a small ammo bonus.
+> **TIP**: In deathmatch games, a player's inventory is not dropped on death.  Instead, the player's current weapon is dropped along with a small ammo bonus.
 
 #### Conserved Item Pickups {#conserved_item_pickups}
 
@@ -185,7 +183,7 @@ When using option `-warp` at the command line, the player will spawn with an ars
 
 For example: when warping to MAP04, the player will start the level with both a shotgun and chaingun. When warping to MAP30, the player will start the level with all weapons.
 
-    '''TIP''': Warp weapons can be disabled by editing <tt>marshmallow.cfg</tt> or <tt>server.cfg</tt>.  To disable the option, find the option named GradedWeapons and change '1' to '0'.
+> **TIP**: Warp weapons can be disabled by editing <tt>marshmallow.cfg</tt> or <tt>server.cfg</tt>.  To disable the option, find the option named GradedWeapons and change '1' to '0'.
 
 #### Randomized Item Pickups {#randomized_item_pickups}
 
@@ -196,7 +194,7 @@ Any classic Doom map can be revitalized by repopulating it with different item p
 
 <!-- -->
 
-    '''TIP''': Randomized items can be enabled at the New Game menu, the Change Map menu, or the command line using switches '''-ri''' and '''-rie'''.
+> **TIP**: Randomized items can be enabled at the New Game menu, the Change Map menu, or the command line using switches `-ri` and `-rie`.
 
 #### Sandbox Mode {#sandbox_mode}
 
@@ -204,7 +202,7 @@ Sandbox mode allows the player to design their own monster hordes in an empty ma
 
 After starting a sandbox game, scroll through a list of monsters available by pressing the square brackets **\'\[**\' and **\'\]**\', and to spawn an enemy, press backslash **\'\\**\'. When ready to start the battle, press **\'B**\'. All monsters placed in sandbox mode will not become active until the battle begins.
 
-    '''TIP''': When using Marshmallow Doom's WAD stealing feature, you can fight your own hordes of Doom II monsters in Doom maps.
+> **TIP**: When using Marshmallow Doom's WAD stealing feature, you can fight your own hordes of Doom II monsters in Doom maps.
 
 #### New Difficulty Levels {#new_difficulty_levels}
 
@@ -279,7 +277,7 @@ The datapad offers a handful of options for tweaking the dynamic music system:
 
 <!-- -->
 
-    '''TIP''': Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the '''Song Blacklist''' menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
+> **TIP**: Commonly overplayed songs such as "Running from Evil", "At Doom's Gate", and intermission songs can be disabled in the **Song Blacklist** menu.  When a blacklisted song is chosen, a new song is randomly selected automatically.
 
 ### Bots
 
@@ -293,11 +291,11 @@ Press the **use** key while facing a bot to cycle through a single bot\'s orders
 
 Press and hold the **use** key to activate the squad command menu.
 
-    '''TIP''': If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  Once unblocked, press 'F' to order the bots to continue to follow.
+> **TIP**: If the player's path is blocked by the bots, hold the use key to activate the squad command menu, and then press 'P'.  Once unblocked, press 'F' to order the bots to continue to follow.
 
 Press and hold **\'Shift**\' to make the bots sprint. This will also make the bots move in close to the player; useful for crowding into elevators/lifts or moving the bots out of the way when blocked.
 
-    '''TIP''': When playing maps featuring ledge-running or other complicated terrain, try changing bot walk speed to '''Careful'''.  This option can be found in the Bots menu on the datapad. ''(Example map: E5M1)''
+> **TIP**: When playing maps featuring ledge-running or other complicated terrain, try changing bot walk speed to *Careful*.  This option can be found in the Bots menu on the datapad. (Example map: E5M1)
 
 ### WAD Stealing {#wad_stealing}
 
@@ -322,7 +320,7 @@ Settings from `server.cfg` are only loaded when playing real network games or wh
 
 When not playing real network games and not using `-solo-net`, all preferences are saved to `marshmallow.cfg`.
 
-    '''TIP''': ''marshmallow.cfg'' contains some game options that are not available on the in-game menus, such as <tt>DM_KillOnExit</tt>, <tt>DangerousBFG</tt>, and much more.
+> **TIP**: `marshmallow.cfg` contains some game options that are not available on the in-game menus, such as <tt>DM_KillOnExit</tt>, <tt>DangerousBFG</tt>, and much more.
 
 ### New Console Commands {#new_console_commands}
 
@@ -343,22 +341,25 @@ Marshmallow Doom accepts a handful of new console commands that can be typed at 
 
 Marshmallow Doom takes advantage of an all-new true random number generator. Many features take advantage of this new random number system, such as randomized song selection, randomized map selection, bot behaviors, as well as the particle system which powers any blood and smoke effects.
 
-    '''TIP''': In real network games, Doom's default pseudo-random number system is used as this is required for stable network play.
+> **TIP**: In real network games, Doom's default pseudo-random number system is used as this is required for stable network play.
 
 ### Simplified Command-line {#simplified_command_line}
 
 Marshmallow Doom simplifies most common command-line parameters to make launching the game quicker and easier. The following are command-line examples:
+```
+marshmallow-doom.exe -d1 -bots -uv
+```
+(`-d1` sets IWAD to DOOM.WAD; `-bots` adds two bots to the game; `-uv` starts the game in Ultra Violence skill level)
+```
+marshmallow-doom.exe -d2s -bot -nm2
+```
+(`-d2s` sets IWAD to DOOM2.WAD and steals from DOOM.WAD; `-bot` adds one bot to the game; `-nm2` starts the game in Nightmare 2.0 skill level)
+```
+marshmallow-doom.exe -sigil -flip -itytd
+```
+(`-sigil` sets IWAD to SIGIL.WAD; `-flip` enables the flipped levels feature; `-itytd` starts the game in I'm Too Young To Die skill level)
 
-     '''marshmallow-doom.exe -d1 -bots -uv'''<br>
-     ''('''-d1''' sets IWAD to DOOM.WAD; '''-bots''' adds two bots to the game; '''-uv''' starts the game in Ultra Violence skill level)''
-
-     '''marshmallow-doom.exe -d2s -bot -nm2'''<br>
-     ''('''-d2s''' sets IWAD to DOOM2.WAD and steals from DOOM.WAD; '''-bot''' adds one bot to the game; '''-nm2''' starts the game in Nightmare 2.0 skill level)''
-
-     '''marshmallow-doom.exe -sigil -flip -itytd'''<br>
-     ''('''-sigil''' sets IWAD to SIGIL.WAD; '''-flip''' enables the flipped levels feature; '''-itytd''' starts the game in I'm Too Young To Die skill level)''
-
-    '''TIP''': When playing real network games, only the host has to specify game options such as skill level or deathmatch flags.  These options are passed down to all clients when the game starts, so each client only needs to specify their IWAD.  Example command-line for server/clients: <br><br>Server: '''marshmallow-doom.exe -d1 -server -nodes 2 -uv2 -dmw'''<br><br>Clients: '''marshmallow-doom.exe -d1 -autojoin'''
+> **TIP**: When playing real network games, only the host has to specify game options such as skill level or deathmatch flags.  These options are passed down to all clients when the game starts, so each client only needs to specify their IWAD.  Example command-line for server/clients: <br><br>Server: `marshmallow-doom.exe -d1 -server -nodes 2 -uv2 -dmw`<br><br>Clients: `marshmallow-doom.exe -d1 -autojoin`
 
 ### Command-line Options {#command_line_options}
 
