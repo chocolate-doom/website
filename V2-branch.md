@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/V2-branch
+ - /wiki/index.php/Chocolate_Doom_v2
 categories:
  - Inactive_branches
 ---
