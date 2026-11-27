@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/Config_secrets
+categories:
+ - User_guide
 ---
 {% image filename:"Chocolate_Doom_linear_filtering.png" %}
 Chocolate Doom with linear screen filtering. Some people actually think this looks good, I guess??

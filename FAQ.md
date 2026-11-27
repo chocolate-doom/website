@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/FAQ
+categories:
+ - User_guide
 ---
 ## Basics
 

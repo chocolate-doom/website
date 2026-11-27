@@ -3,6 +3,7 @@ redirect_from:
  - /wiki/index.php/Multiplayer
 categories:
  - Features
+ - User_guide
 ---
 {% image filename:"Multi-waiting.png" %}
 Players connected to a server, waiting to start the game.

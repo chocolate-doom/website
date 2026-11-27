@@ -3,6 +3,8 @@ redirect_from:
  - /wiki/index.php/User_guide
  - /wiki/index.php/Help
  - /Help.html
+categories:
+ - User_guide
 ---
 [Setup tool](/Setup.md)
 : Chocolate Doom\'s menu-driven tool for configuring the program.

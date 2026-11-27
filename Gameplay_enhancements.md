@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/Gameplay_enhancements
+categories:
+ - User_guide
 ---
 {% include YoutubeEmbed.md id="KlVuY4rFdm4" width="300" height="225" right="1" caption="Youtube video demonstrating hi-res sound effects and SC-55 MIDI music, listed below." %}
 This page is intended to be a list of recommended [vanilla-compatible](https://doomwiki.org/wiki/Vanilla_Doom) gameplay enhancement mods with similar philosophies to Chocolate Doom.
