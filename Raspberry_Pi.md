@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/Raspberry_Pi
+categories:
+ - Build_instructions
 ---
 The **Raspberry Pi** is a cheap single board computer that has become popular with hobbyists and for educational purposes. The [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) page on Wikipedia has some more information about it.
 

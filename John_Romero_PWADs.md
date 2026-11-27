@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/John_Romero_PWADs
+categories:
+ - WADs
 ---
 {% image filename:"SIGILDOS.png" width:"320" %}
 The title screen for SIGIL: Vanilla Edition being ran.

@@ -2,6 +2,8 @@
 redirect_from:
  - /wiki/index.php/Setup/Sound_configuration
  - /setup-sound
+categories:
+ - Setup_tool
 ---
 {% image filename:"Configure_Sound_2016.png" width:"300" %}
 {% endimage %}

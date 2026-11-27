@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/File:Save_png.png
+categories:
+ - Setup_tool_screenshots
 ---
 ## Summary
 

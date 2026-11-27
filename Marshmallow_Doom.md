@@ -3,6 +3,8 @@ redirect_from:
  - /wiki/index.php/Marshmallow_Doom
  - /wiki/index.php/User:JT_Marshmallow
  - /User:JT_Marshmallow.html
+categories:
+ - Forks
 ---
 {% image filename:"Newlogo.jpg" %}
 The Marshmallow Doom icon

@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/V4-branch
+categories:
+ - Branches
 ---
 **v4-branch** is a branch in the Chocolate Doom git repository to develop version 4 of Chocolate Doom.
 

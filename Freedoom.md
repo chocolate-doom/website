@@ -1,6 +1,8 @@
 ---
 redirect_from:
  - /wiki/index.php/Freedoom
+categories:
+ - TCs
 ---
 {% image filename:"Chocolate-eternal-freedoom.png" width:"320" %}
 Chocolate Doom running [Eternal Doom](/Eternal_Doom.md) with Freedoom.
