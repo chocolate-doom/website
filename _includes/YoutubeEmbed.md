@@ -15,7 +15,9 @@
     </iframe>
 
     {% if include.caption %}
-      <div class="thumbcaption" markdown="1">{{ include.caption }}</div>
+<div class="thumbcaption" markdown="1">
+{{ include.caption }}
+</div>
     {% endif %}
   </div>
 </div>
