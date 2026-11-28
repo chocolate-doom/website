@@ -3,6 +3,7 @@ redirect_from:
  - /wiki/index.php/Textscreen
  - /wiki/index.php/Libtextscreen
  - /Libtextscreen.html
+ - /textscreen/
 ---
 {% image filename:"Mm-endoom.png" %}
 [ENDOOM](https://doomwiki.org/wiki/ENDOOM) screen for [Memento Mori](https://doomwiki.org/wiki/Memento_Mori) displayed using libtextscreen.
@@ -49,5 +50,4 @@ At present, the windowing toolkit is only used for the setup program and for the
 
 ## Further links {#further_links}
 
-- [Doxygen-generated documentation for the textscreen library.](http://www.chocolate-doom.org/textscreen/)
 - [:Category:Textscreen screenshots](/Category:Textscreen_screenshots.md) and [:Category:Setup tool screenshots](/Category:Setup_tool_screenshots.md), showing the textscreen library in action.
