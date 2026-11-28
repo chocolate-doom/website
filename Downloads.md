@@ -32,7 +32,6 @@ text=caption %}
 **Source code** (all platforms; [GNU GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) v2):
 
 * [Chocolate Doom source code](https://github.com/chocolate-doom/chocolate-doom/archive/refs/tags/chocolate-doom-3.1.1.tar.gz).
-* [GPG signature](https://www.chocolate-doom.org/downloads/3.0.1/chocolate-doom-3.0.1.tar.gz.asc).
 * [Git repository](https://github.com/chocolate-doom/chocolate-doom).
 {% endcapture %}
 {% include Linksbox.md
@@ -52,7 +51,5 @@ imgsize="64px"
 text=caption %}
 
 Chocolate Doom is [Open Source](https://opensource.org/osd) and [Free Software](https://www.gnu.org/philosophy/free-sw.html), licensed under the [GNU General Public License v2](https://www.gnu.org/licenses/gpl-2.0.html).
-
-All downloads are GPG-signed by [Chocolate Doom\'s principal author](https://soulsphere.org/gpg-key.txt). See [the downloads directory](https://www.chocolate-doom.org/downloads/3.1.1/) for the full listing, including GPG signatures.
 
 The OSI logo trademark is the trademark of Open Source Initiative.
