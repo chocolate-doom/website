@@ -1,6 +1,13 @@
 ---
+# The old Chocolate Doom website used to have a /downloads/ directory with
+# release binaries. We now instead point to the releases page on Github.
+# Here, we redirect that directory and the subdirectories for several recent
+# releases to this page.
 redirect_from:
  - /wiki/index.php/Downloads
+ - /downloads/
+ - /downloads/3.0.0/
+ - /downloads/3.0.1/
 ---
 Click below to download the latest release of Chocolate Doom (**version {{ site.relversion }}**, released {{ site.reldate }}). You can also read [the release notes for this release](https://github.com/chocolate-doom/chocolate-doom/releases/tag/chocolate-doom-{{ site.relversion }}) to find out what\'s new, along with this, an [autobuild of the port can be found here](http://latest.chocolate-doom.org/).
 
