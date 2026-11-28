@@ -6,6 +6,12 @@ description: >-
 baseurl: /
 url: https://www.chocolate-doom.org/
 
+# These control the version that is linked to on the Downloads page. They
+# should be updated whenever there's a new release. Please make sure to update
+# both variables.
+relversion: 3.1.1
+reldate: August 2025
+
 # These affect where the "Edit" and "History" tabs link to.
 github_url: https://github.com/chocolate-doom/website
 github_branch: trunk
