@@ -27,6 +27,6 @@ To date, Chocolate Doom has been successfully run on:
 
 Screenshots of Chocolate Doom running on various different platforms can be seen [here](/Category:Platform_screenshots.md).
 
-Older editions of Windows, such as Win9x and NT 3.51, are now [unsupported](https://github.com/chocolate-doom/chocolate-doom/issues/834) but may still be usable. [Version 2.2.1 or earlier](https://www.chocolate-doom.org/downloads/) of Chocolate Doom is recommended.
+Older editions of Windows, such as Win9x and NT 3.51, are now [unsupported](https://github.com/chocolate-doom/chocolate-doom/issues/834) but may still be usable. [Version 2.2.1 or earlier](https://github.com/chocolate-doom/old-releases) of Chocolate Doom is recommended.
 
 It will likely run on various other operating systems - see the [list of platforms supported by SDL](http://www.libsdl.org/).

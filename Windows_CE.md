@@ -11,7 +11,7 @@ Originally targeting handheld devices ([palmtops](https://en.wikipedia.org/wiki/
 
 Older versions of Chocolate Doom were ported to Windows CE, but support has since been removed. To install, download the .cab file for v1.3.0:
 
-- [chocolate-doom-1.3.0-wince.cab](https://www.chocolate-doom.org/downloads/1.3.0/chocolate-doom-1.3.0-wince.cab)
+- [chocolate-doom-1.3.0-wince.cab](https://github.com/chocolate-doom/old-releases/blob/master/1.3.0/chocolate-doom-1.3.0-wince.cab) (click through and click "Download raw file"
 
 There is only an ARM binary. For other CPUs you might want to check the [Doomworld source ports list](https://www.doomworld.com/classicdoom/ports/) which includes downloads for a different source port that runs on MIPS and SH3.
 
