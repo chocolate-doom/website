@@ -1,6 +1,7 @@
 ---
 redirect_from:
  - /wiki/index.php/Digital_music_packs
+ - /music-packs/
 categories:
  - Features
  - Music
@@ -22,9 +23,10 @@ Setup tool showing configuration option for digital music packs.
 
 1\. Create a new directory (folder) where you will save your music packs. You can install multiple music packs into the same directory.
 
-2\. Download a music pack. Here are some examples:
+2\. Download a music pack. Here are some recommendations:
 
-- [Hexen CD music pack](https://www.chocolate-doom.org/music-packs/hexen-music-ogg.zip) (.ogg). This is just a rip of the music tracks found on Hexen install CDs.
+- [Chocolate Doom's music pack repository](https://github.com/chocolate-doom/music-packs) - includes the Hexen CD music pack
+- [Brandon Blume's website](https://sc55.duke4.net/games.php) - contains high quality music packs for several Doom engine games.
 
 3\. Next, open the [Setup](/Setup.md) tool. Go to the [Configure Sound](/Setup__Sound_configuration.md) dialog and select \"Native MIDI\" as the music type. Then, press "M" or click the button marked "M=Music Packs". Your file browsing app should open, showing you a folder containing a file named "README.txt". This text file is just a placeholder that explains the purpose of the folder.
 
